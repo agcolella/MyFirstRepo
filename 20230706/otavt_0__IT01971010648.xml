@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:spid="https://spid.gov.it/saml-extensions" entityID="https://www.neatek.it/pub-ag-lite/otavt_0" ID="https___www_neatek_it_pub-ag-lite_otavt_0"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+  <ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+    <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+  <ds:Reference URI="#https___www_neatek_it_pub-ag-lite_otavt_0"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>k1hCVPi6/ed1SmhBIM3eIyHbQg2Io0RlVTcyVSqJS+o=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>ox9lXNai883oKzOSdBu+dFiDcafgrr8SrvsXOacaI1+3vzUyhCjYRD5eukOL2fvl5IVZvYUV3MXDfTBJu/VECkX/reMzd6zEiQQ5JFug1use7g6LoRUwa1hVOrdFOIaA8AaJqxbTfuPrCldvyXW1x6qWah0XHm7fQt6j2ClEOoxROb1yBhzo5Vq1tHGvAkqKHKDbTt/NcX8/U+JY3ZyT6I9zmatZ5mSIi70m5N6gfoOEBm0NzzJVQjktsyhTOAxIt75pjHFa1hBYbAkayRN1LKr2beJ3JdrS09n2yKZOSrg1NtT6XHoDxqIQK4m/dk1cMYLEyPcscHMrrYZcLG3U0w==</ds:SignatureValue>
+<ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIEfzCCA2egAwIBAgIIJFArh9I4UpIwDQYJKoZIhvcNAQELBQAwgbcxCzAJBgNVBAgMAkFWMSkwJwYDVQQKDCBOZWF0ZWsgU29mdHdhcmUgZGkgRGFyaW8gQXJnZW5pbzEYMBYGA1UEAwwPTmVhdGVrIFNvZnR3YXJlMR4wHAYDVQRTDBVodHRwczovL3d3dy5uZWF0ZWsuaXQxGjAYBgNVBGEMEVZBVElULTAxOTcxMDEwNjQ4MQswCQYDVQQGEwJJVDEaMBgGA1UEBwwRTW9udGVmb3J0ZSBJcnBpbm8wHhcNMjMwNjI2MTYzOTI5WhcNNDMwNjI1MTYzOTI5WjCB8TFBMD8GA1UECgw4T3JkaW5lIFRlY25vbG9naSBBbGltZW50YXJpIFZlbmV0byBlIFRyZW50aW5vIEFsdG8gQWRpZ2UxQTA/BgNVBAMMOE9yZGluZSBUZWNub2xvZ2kgQWxpbWVudGFyaSBWZW5ldG8gZSBUcmVudGlubyBBbHRvIEFkaWdlMTIwMAYDVQRTDClodHRwczovL3d3dy5uZWF0ZWsuaXQvcHViLWFnLWxpdGUvb3RhdnRfMDEWMBQGA1UEYQwNUEE6SVQtb3RhdnRfMDELMAkGA1UEBhMCSVQxEDAOBgNVBAcMB1ZlbmV6aWEwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCprf8rH6i0zYHX6LjiocpOpzVdrMWfYN58TriD1H5Gs7nFmuogOnY2ORGXdWOiI4chPYTb25knBA463N3Ku8z+k6ujiMMBGvSu5Uln/WNHVDPBqAW8qVQt31okK31FtbQwT6mIlnWGQWAOeUgMMxwRDcSIg2l1deefQMllKh3PS9ecIIPfJVTDQ8LZBa22RLd5dxiH+dza/iespraxu/5h+JLR0I/9knWttgk9VWd2jkw4HC4TNuAD425PszuO2JS0W7QOoCQTOufcp6vi5xLB/z9RneNBpe2m9IXD5sGTU/CfJ9zwDjdJBWgDBgGsjwlf6LtAorbY/lYXzTn3MCyBAgMBAAGjUzBRMB0GA1UdDgQWBBSvKBJB3ODNNf0JwlZ4urtakzDWyDAfBgNVHSMEGDAWgBTNn3SlXwvIS9kYs5Iagck2PnDnKjAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQAAQ5eteIMXPsAKXHLUC3A2QfIxkCN9wKwk8WY//aaYJwWcKwiNAC2erDdwitrSgJ1ON/cl4cHIL26K2yOj+axiCMX+D5m3+5ZRxNj9g7zOYDT9E1a8Kz7A4m9UM5ApDhvDwLsB4er4aW6AQceT5YCjM2CYWgwqT7xfA6em0vZ/go9KhD1Z3NybX92wFUUKXjy57+nS9onEXTS+BKZCblQzjc+DRGTFc7kjuESMVPPH568g6F2NNQ5PNBdt2KqN7ZDopD2i4N/Db/U0ywidGbgXdts3WgBlIQZRajyiz3K4XTkcldCMPvOdcjeljiLmzLtMd+iNz5YKf2ldq4kzubFy</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature>
+  <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true" WantAssertionsSigned="true">
+	<md:KeyDescriptor use="signing">
+	  <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+		<ds:X509Data>
+		  <ds:X509Certificate>MIIEfzCCA2egAwIBAgIIJFArh9I4UpIwDQYJKoZIhvcNAQELBQAwgbcxCzAJBgNVBAgMAkFWMSkwJwYDVQQKDCBOZWF0ZWsgU29mdHdhcmUgZGkgRGFyaW8gQXJnZW5pbzEYMBYGA1UEAwwPTmVhdGVrIFNvZnR3YXJlMR4wHAYDVQRTDBVodHRwczovL3d3dy5uZWF0ZWsuaXQxGjAYBgNVBGEMEVZBVElULTAxOTcxMDEwNjQ4MQswCQYDVQQGEwJJVDEaMBgGA1UEBwwRTW9udGVmb3J0ZSBJcnBpbm8wHhcNMjMwNjI2MTYzOTI5WhcNNDMwNjI1MTYzOTI5WjCB8TFBMD8GA1UECgw4T3JkaW5lIFRlY25vbG9naSBBbGltZW50YXJpIFZlbmV0byBlIFRyZW50aW5vIEFsdG8gQWRpZ2UxQTA/BgNVBAMMOE9yZGluZSBUZWNub2xvZ2kgQWxpbWVudGFyaSBWZW5ldG8gZSBUcmVudGlubyBBbHRvIEFkaWdlMTIwMAYDVQRTDClodHRwczovL3d3dy5uZWF0ZWsuaXQvcHViLWFnLWxpdGUvb3RhdnRfMDEWMBQGA1UEYQwNUEE6SVQtb3RhdnRfMDELMAkGA1UEBhMCSVQxEDAOBgNVBAcMB1ZlbmV6aWEwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCprf8rH6i0zYHX6LjiocpOpzVdrMWfYN58TriD1H5Gs7nFmuogOnY2ORGXdWOiI4chPYTb25knBA463N3Ku8z+k6ujiMMBGvSu5Uln/WNHVDPBqAW8qVQt31okK31FtbQwT6mIlnWGQWAOeUgMMxwRDcSIg2l1deefQMllKh3PS9ecIIPfJVTDQ8LZBa22RLd5dxiH+dza/iespraxu/5h+JLR0I/9knWttgk9VWd2jkw4HC4TNuAD425PszuO2JS0W7QOoCQTOufcp6vi5xLB/z9RneNBpe2m9IXD5sGTU/CfJ9zwDjdJBWgDBgGsjwlf6LtAorbY/lYXzTn3MCyBAgMBAAGjUzBRMB0GA1UdDgQWBBSvKBJB3ODNNf0JwlZ4urtakzDWyDAfBgNVHSMEGDAWgBTNn3SlXwvIS9kYs5Iagck2PnDnKjAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQAAQ5eteIMXPsAKXHLUC3A2QfIxkCN9wKwk8WY//aaYJwWcKwiNAC2erDdwitrSgJ1ON/cl4cHIL26K2yOj+axiCMX+D5m3+5ZRxNj9g7zOYDT9E1a8Kz7A4m9UM5ApDhvDwLsB4er4aW6AQceT5YCjM2CYWgwqT7xfA6em0vZ/go9KhD1Z3NybX92wFUUKXjy57+nS9onEXTS+BKZCblQzjc+DRGTFc7kjuESMVPPH568g6F2NNQ5PNBdt2KqN7ZDopD2i4N/Db/U0ywidGbgXdts3WgBlIQZRajyiz3K4XTkcldCMPvOdcjeljiLmzLtMd+iNz5YKf2ldq4kzubFy</ds:X509Certificate>
+		</ds:X509Data>
+	  </ds:KeyInfo>
+	</md:KeyDescriptor>
+	<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.otav.org/wp-login.php?spid_sso=out"/>		
+	<md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+	<md:AssertionConsumerService index="0" isDefault="true" Location="https://www.otav.org/wp-login.php?spid_sso=in" Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST"/>
+	<md:AttributeConsumingService index="0">
+	  <md:ServiceName xml:lang="it">Set 0</md:ServiceName>       
+	  <md:RequestedAttribute Name="fiscalNumber"/>
+	</md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+	<md:OrganizationName xml:lang="it">Ordine Tecnologi Alimentari Veneto e Trentino Alto Adige</md:OrganizationName>
+	<md:OrganizationDisplayName xml:lang="it">Ordine Tecnologi Alimentari Veneto e Trentino Alto Adige</md:OrganizationDisplayName>
+	<md:OrganizationURL xml:lang="it">https://www.otav.org</md:OrganizationURL>
+  </md:Organization>
+  <md:ContactPerson contactType="other" spid:entityType="spid:aggregator">
+	<md:Extensions>
+	  <spid:VATNumber>IT01971010648</spid:VATNumber>
+	  <spid:FiscalCode>RGNDRA68P20L219I</spid:FiscalCode>
+	  <spid:PublicServicesLightAggregator/>
+	  <spid:KeyDescriptor md:use="spid:validation">
+		<ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+		  <ds:X509Data>
+			<ds:X509Certificate>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</ds:X509Certificate>
+		  </ds:X509Data>
+		</ds:KeyInfo>
+	  </spid:KeyDescriptor>
+	</md:Extensions>
+	<md:Company>Neatek Software di Dario Argenio</md:Company>
+	<md:EmailAddress>neatek@neatek.it</md:EmailAddress>
+	<md:TelephoneNumber>+393386167683</md:TelephoneNumber>
+  </md:ContactPerson>
+  <md:ContactPerson contactType="other" spid:entityType="spid:aggregated">
+	<md:Extensions>
+	  <spid:IPACode>otavt_0</spid:IPACode>
+	  <spid:Public/>
+	</md:Extensions>
+	<md:Company>Ordine Tecnologi Alimentari Veneto e Trentino Alto Adige</md:Company>
+  </md:ContactPerson>
+</md:EntityDescriptor>

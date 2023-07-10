@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:spid="https://spid.gov.it/saml-extensions" ID="_g0io45c1j6ulfn34teba4vzrw0ju8ui1xrpnuiznwbd" cacheDuration="PT604800S" entityID="https://www.comune.calvello.pz.it"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#_g0io45c1j6ulfn34teba4vzrw0ju8ui1xrpnuiznwbd">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>ex4JakVUIhejiuy/MVmHSz1y/2gSiUUlCJoxsb2ag18=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+ftxKuC7Fe8AvQwhgsl3nxBgI1ZUwk03jO/KdAYVaLUgoUxJYyskAtgafE869Omqt8KomjKNIbwWi
+9X7FF8PltN4Ks6E+3D5UPQxydSIb0H6gIGvccV6PVNzxXLy6n4dhr1936GiML9g+lyY+MWUy+3UB
+a1fA8a6wotzSjXo6rthD7+aspvN23y8W+LhgIhBu36wdt/3T0S6fW9Dg6LeI7H9vYNYXXqw6RpgO
+ut1G7S8r0D2kXd3Cw07GQuoD/6aV83OuLgF3ev64ak0XNCruWE4iVllPaEz61GSi3SnYo43zW3ug
+aZiHc+w8SOQe8tEQ/9xnoQG+cnl6553Vs3K1wnqWXKwEG/QTRws5r3cb7u8V0dSmKEEltXAWdaMi
+cAz+LBHkZYInvBly26dCbvsnG3BWiyv1zcxaTT+UmeNa/w2Ba1B91yq5//vF844LLKW8GQ8flaB5
+FMzMBapAZo2H52Zr8T4zLSccsQ3n/3IPSDTJSrBrwgXa5SB2t+iecyBIB+C6xIzKbVzyNofNOadc
+xDOQOM9iIOlgmdseFir8fH40edzNLhA27IqE3MmPpSg8OAIFLIO4wuaLfVBoDIGLOcN1m66VOJ07
+UAddAsrnjFrxGKa0NDuHuJR0+4EjAyb95Xs2IIYDW1V8nuexzREK46leCnA4aBht9ydFoiQAhJA=
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+miPKtEOKcOYS1fnbSp2Sw7UKuaAQd4F6cdX0n/lO6Le/WjAdNGkU1uFQHa93IQuPlPIzPlVZwIPL
+jw1ci0VlGoNj5jUH5rj+epjuk6dFAHUyAeqjast5XDL2/bizZELwTopaF8t5GdNmknpq9AlA03qO
+DSlN9JnNJsprcRQzgdzgvPkQ5+jIFK3PqNPhcOvTeG+khfBAg3FSAMINcNMsbfdv+gMOmt1rXTJm
+bF054mFrOaAsuCINFGiHhSPAK57Uugb6nRupfMxaV50/mI1W1VzdXmCaiOemPy5IQv7294NcRdA4
+yJGSHdZ5uljjBqnthMhR7oPTn6Zkpm1H25+j/a2DJpOpT0EmXba0nHdrqJFo1WOcoAzJAHGTZNkb
+NTgDxETvLsqQjgVUOD68yvBmWyavvmzwbgggrbJk4+llxNerprgJzXSxcSFAqEWQUJq8vW04fyCu
+e1/wA19DMD3hMccshXmpXbKIvXr3ctzIbr9MkN3eXHxpzFHTGrNcQ3AT9Zs34cBM5STvoBLJFAcA
+eDe5Jby9xgpDFADHNP0gZ/C0dIt+XolpgfTbujMcBFwTP5PRFPnCUiC0AV2FpPQTxOzEu6zsAZ2c
+7drh/0r6zjkrUswSxggKwv4WlhJnSHUcXip73mqLfdWtblogPvXtBYlBDntOF+W783bTBJHRkL8=
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIGMjCCBBqgAwIBAgIJAMkjYdMS6b5cMA0GCSqGSIb3DQEBCwUAMIGtMQswCQYDVQQGEwJJVDEQ
+MA4GA1UECAwHUG90ZW56YTERMA8GA1UEBwwIQ2FsdmVsbG8xGzAZBgNVBAoMEkNvbXVuZSBkaSBD
+YWx2ZWxsbzENMAsGA1UECwwEU3BpZDEWMBQGA1UEAwwNc3BpZC1jYWx2ZWxsbzE1MDMGCSqGSIb3
+DQEJARYmY29tdW5lY2FsdmVsbG9AY2VydC5ydXBhcmJhc2lsaWNhdGEuaXQwHhcNMjMwMTEyMTIx
+NDUwWhcNMjYwMTExMTIxNDUwWjCBrTELMAkGA1UEBhMCSVQxEDAOBgNVBAgMB1BvdGVuemExETAP
+BgNVBAcMCENhbHZlbGxvMRswGQYDVQQKDBJDb211bmUgZGkgQ2FsdmVsbG8xDTALBgNVBAsMBFNw
+aWQxFjAUBgNVBAMMDXNwaWQtY2FsdmVsbG8xNTAzBgkqhkiG9w0BCQEWJmNvbXVuZWNhbHZlbGxv
+QGNlcnQucnVwYXJiYXNpbGljYXRhLml0MIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEA
+miPKtEOKcOYS1fnbSp2Sw7UKuaAQd4F6cdX0n/lO6Le/WjAdNGkU1uFQHa93IQuPlPIzPlVZwIPL
+jw1ci0VlGoNj5jUH5rj+epjuk6dFAHUyAeqjast5XDL2/bizZELwTopaF8t5GdNmknpq9AlA03qO
+DSlN9JnNJsprcRQzgdzgvPkQ5+jIFK3PqNPhcOvTeG+khfBAg3FSAMINcNMsbfdv+gMOmt1rXTJm
+bF054mFrOaAsuCINFGiHhSPAK57Uugb6nRupfMxaV50/mI1W1VzdXmCaiOemPy5IQv7294NcRdA4
+yJGSHdZ5uljjBqnthMhR7oPTn6Zkpm1H25+j/a2DJpOpT0EmXba0nHdrqJFo1WOcoAzJAHGTZNkb
+NTgDxETvLsqQjgVUOD68yvBmWyavvmzwbgggrbJk4+llxNerprgJzXSxcSFAqEWQUJq8vW04fyCu
+e1/wA19DMD3hMccshXmpXbKIvXr3ctzIbr9MkN3eXHxpzFHTGrNcQ3AT9Zs34cBM5STvoBLJFAcA
+eDe5Jby9xgpDFADHNP0gZ/C0dIt+XolpgfTbujMcBFwTP5PRFPnCUiC0AV2FpPQTxOzEu6zsAZ2c
+7drh/0r6zjkrUswSxggKwv4WlhJnSHUcXip73mqLfdWtblogPvXtBYlBDntOF+W783bTBJHRkL8C
+AwEAAaNTMFEwHQYDVR0OBBYEFEh2yd1c+ebGC/HcYL1NBVKVt6USMB8GA1UdIwQYMBaAFEh2yd1c
++ebGC/HcYL1NBVKVt6USMA8GA1UdEwEB/wQFMAMBAf8wDQYJKoZIhvcNAQELBQADggIBAFsZNrZ/
+2WK0RsYeXG8y3w2xM2KnQpiyQ6kpCWO836bi8kLYzsqslc1AOOrsaaPADwBdPYFP1X8ZNXJwris/
+63tKhvO7/vDGAh4/s5y0mxk7OCIUuAh9vOxlvhDgQjmAILoyd6NCagx1XbK3B1bUOgiShwSRtXES
+1inEUjAKHE2WPeBEItdoHVh57V/EMbo642izKMaPO5MrgJTuPB5ajKyrJWq23qQ4aqPSp5xg+lPW
+Oyv3Bhat6hHo65XZ2vbKs+In1/qxpKBojLcAtMlpw7+cvznV3v++8eoSCwvt/FvsEL/r6zF3Lery
+DzyKcYnJBawVihcnbeor+p+LnRUPy6LNtfGvRNTDqR5ROLXZsbYbwJkwBI3irpMIu1JnfO6w+Ht5
+oxwAP6UExj2WnPDhV0Z7mvY73bSQL6xyPaOq2rOpX3vXh1qeNZhTUODG7X8SiId2rcCmdYQEGLK5
+VWNsGOkKaW4eXaCPGuflhKYC81a85zJZgR5HxILKBdOFYJVvVgpNKwTNDkY5rVU43SIU6oH9hfM0
+FOITSdpyl4ab9n8t7imsxa8ko7KOWfHFaV23mOJtGRj5wSgLXhd7mgM29yZINnJfzg3K4pR+IGPk
+dcMHLxPsUYV8rp2Rk5qY3Ltz4NLz/hI9e6t4c5Ni9i7F3oa63W4KDwbKb1eOkcSXkf1U
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIGMjCCBBqgAwIBAgIJAMkjYdMS6b5cMA0GCSqGSIb3DQEBCwUAMIGtMQswCQYD
+VQQGEwJJVDEQMA4GA1UECAwHUG90ZW56YTERMA8GA1UEBwwIQ2FsdmVsbG8xGzAZ
+BgNVBAoMEkNvbXVuZSBkaSBDYWx2ZWxsbzENMAsGA1UECwwEU3BpZDEWMBQGA1UE
+AwwNc3BpZC1jYWx2ZWxsbzE1MDMGCSqGSIb3DQEJARYmY29tdW5lY2FsdmVsbG9A
+Y2VydC5ydXBhcmJhc2lsaWNhdGEuaXQwHhcNMjMwMTEyMTIxNDUwWhcNMjYwMTEx
+MTIxNDUwWjCBrTELMAkGA1UEBhMCSVQxEDAOBgNVBAgMB1BvdGVuemExETAPBgNV
+BAcMCENhbHZlbGxvMRswGQYDVQQKDBJDb211bmUgZGkgQ2FsdmVsbG8xDTALBgNV
+BAsMBFNwaWQxFjAUBgNVBAMMDXNwaWQtY2FsdmVsbG8xNTAzBgkqhkiG9w0BCQEW
+JmNvbXVuZWNhbHZlbGxvQGNlcnQucnVwYXJiYXNpbGljYXRhLml0MIICIjANBgkq
+hkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAmiPKtEOKcOYS1fnbSp2Sw7UKuaAQd4F6
+cdX0n/lO6Le/WjAdNGkU1uFQHa93IQuPlPIzPlVZwIPLjw1ci0VlGoNj5jUH5rj+
+epjuk6dFAHUyAeqjast5XDL2/bizZELwTopaF8t5GdNmknpq9AlA03qODSlN9JnN
+JsprcRQzgdzgvPkQ5+jIFK3PqNPhcOvTeG+khfBAg3FSAMINcNMsbfdv+gMOmt1r
+XTJmbF054mFrOaAsuCINFGiHhSPAK57Uugb6nRupfMxaV50/mI1W1VzdXmCaiOem
+Py5IQv7294NcRdA4yJGSHdZ5uljjBqnthMhR7oPTn6Zkpm1H25+j/a2DJpOpT0Em
+Xba0nHdrqJFo1WOcoAzJAHGTZNkbNTgDxETvLsqQjgVUOD68yvBmWyavvmzwbggg
+rbJk4+llxNerprgJzXSxcSFAqEWQUJq8vW04fyCue1/wA19DMD3hMccshXmpXbKI
+vXr3ctzIbr9MkN3eXHxpzFHTGrNcQ3AT9Zs34cBM5STvoBLJFAcAeDe5Jby9xgpD
+FADHNP0gZ/C0dIt+XolpgfTbujMcBFwTP5PRFPnCUiC0AV2FpPQTxOzEu6zsAZ2c
+7drh/0r6zjkrUswSxggKwv4WlhJnSHUcXip73mqLfdWtblogPvXtBYlBDntOF+W7
+83bTBJHRkL8CAwEAAaNTMFEwHQYDVR0OBBYEFEh2yd1c+ebGC/HcYL1NBVKVt6US
+MB8GA1UdIwQYMBaAFEh2yd1c+ebGC/HcYL1NBVKVt6USMA8GA1UdEwEB/wQFMAMB
+Af8wDQYJKoZIhvcNAQELBQADggIBAFsZNrZ/2WK0RsYeXG8y3w2xM2KnQpiyQ6kp
+CWO836bi8kLYzsqslc1AOOrsaaPADwBdPYFP1X8ZNXJwris/63tKhvO7/vDGAh4/
+s5y0mxk7OCIUuAh9vOxlvhDgQjmAILoyd6NCagx1XbK3B1bUOgiShwSRtXES1inE
+UjAKHE2WPeBEItdoHVh57V/EMbo642izKMaPO5MrgJTuPB5ajKyrJWq23qQ4aqPS
+p5xg+lPWOyv3Bhat6hHo65XZ2vbKs+In1/qxpKBojLcAtMlpw7+cvznV3v++8eoS
+Cwvt/FvsEL/r6zF3LeryDzyKcYnJBawVihcnbeor+p+LnRUPy6LNtfGvRNTDqR5R
+OLXZsbYbwJkwBI3irpMIu1JnfO6w+Ht5oxwAP6UExj2WnPDhV0Z7mvY73bSQL6xy
+PaOq2rOpX3vXh1qeNZhTUODG7X8SiId2rcCmdYQEGLK5VWNsGOkKaW4eXaCPGufl
+hKYC81a85zJZgR5HxILKBdOFYJVvVgpNKwTNDkY5rVU43SIU6oH9hfM0FOITSdpy
+l4ab9n8t7imsxa8ko7KOWfHFaV23mOJtGRj5wSgLXhd7mgM29yZINnJfzg3K4pR+
+IGPkdcMHLxPsUYV8rp2Rk5qY3Ltz4NLz/hI9e6t4c5Ni9i7F3oa63W4KDwbKb1eO
+kcSXkf1U</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIGMjCCBBqgAwIBAgIJAMkjYdMS6b5cMA0GCSqGSIb3DQEBCwUAMIGtMQswCQYD
+VQQGEwJJVDEQMA4GA1UECAwHUG90ZW56YTERMA8GA1UEBwwIQ2FsdmVsbG8xGzAZ
+BgNVBAoMEkNvbXVuZSBkaSBDYWx2ZWxsbzENMAsGA1UECwwEU3BpZDEWMBQGA1UE
+AwwNc3BpZC1jYWx2ZWxsbzE1MDMGCSqGSIb3DQEJARYmY29tdW5lY2FsdmVsbG9A
+Y2VydC5ydXBhcmJhc2lsaWNhdGEuaXQwHhcNMjMwMTEyMTIxNDUwWhcNMjYwMTEx
+MTIxNDUwWjCBrTELMAkGA1UEBhMCSVQxEDAOBgNVBAgMB1BvdGVuemExETAPBgNV
+BAcMCENhbHZlbGxvMRswGQYDVQQKDBJDb211bmUgZGkgQ2FsdmVsbG8xDTALBgNV
+BAsMBFNwaWQxFjAUBgNVBAMMDXNwaWQtY2FsdmVsbG8xNTAzBgkqhkiG9w0BCQEW
+JmNvbXVuZWNhbHZlbGxvQGNlcnQucnVwYXJiYXNpbGljYXRhLml0MIICIjANBgkq
+hkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAmiPKtEOKcOYS1fnbSp2Sw7UKuaAQd4F6
+cdX0n/lO6Le/WjAdNGkU1uFQHa93IQuPlPIzPlVZwIPLjw1ci0VlGoNj5jUH5rj+
+epjuk6dFAHUyAeqjast5XDL2/bizZELwTopaF8t5GdNmknpq9AlA03qODSlN9JnN
+JsprcRQzgdzgvPkQ5+jIFK3PqNPhcOvTeG+khfBAg3FSAMINcNMsbfdv+gMOmt1r
+XTJmbF054mFrOaAsuCINFGiHhSPAK57Uugb6nRupfMxaV50/mI1W1VzdXmCaiOem
+Py5IQv7294NcRdA4yJGSHdZ5uljjBqnthMhR7oPTn6Zkpm1H25+j/a2DJpOpT0Em
+Xba0nHdrqJFo1WOcoAzJAHGTZNkbNTgDxETvLsqQjgVUOD68yvBmWyavvmzwbggg
+rbJk4+llxNerprgJzXSxcSFAqEWQUJq8vW04fyCue1/wA19DMD3hMccshXmpXbKI
+vXr3ctzIbr9MkN3eXHxpzFHTGrNcQ3AT9Zs34cBM5STvoBLJFAcAeDe5Jby9xgpD
+FADHNP0gZ/C0dIt+XolpgfTbujMcBFwTP5PRFPnCUiC0AV2FpPQTxOzEu6zsAZ2c
+7drh/0r6zjkrUswSxggKwv4WlhJnSHUcXip73mqLfdWtblogPvXtBYlBDntOF+W7
+83bTBJHRkL8CAwEAAaNTMFEwHQYDVR0OBBYEFEh2yd1c+ebGC/HcYL1NBVKVt6US
+MB8GA1UdIwQYMBaAFEh2yd1c+ebGC/HcYL1NBVKVt6USMA8GA1UdEwEB/wQFMAMB
+Af8wDQYJKoZIhvcNAQELBQADggIBAFsZNrZ/2WK0RsYeXG8y3w2xM2KnQpiyQ6kp
+CWO836bi8kLYzsqslc1AOOrsaaPADwBdPYFP1X8ZNXJwris/63tKhvO7/vDGAh4/
+s5y0mxk7OCIUuAh9vOxlvhDgQjmAILoyd6NCagx1XbK3B1bUOgiShwSRtXES1inE
+UjAKHE2WPeBEItdoHVh57V/EMbo642izKMaPO5MrgJTuPB5ajKyrJWq23qQ4aqPS
+p5xg+lPWOyv3Bhat6hHo65XZ2vbKs+In1/qxpKBojLcAtMlpw7+cvznV3v++8eoS
+Cwvt/FvsEL/r6zF3LeryDzyKcYnJBawVihcnbeor+p+LnRUPy6LNtfGvRNTDqR5R
+OLXZsbYbwJkwBI3irpMIu1JnfO6w+Ht5oxwAP6UExj2WnPDhV0Z7mvY73bSQL6xy
+PaOq2rOpX3vXh1qeNZhTUODG7X8SiId2rcCmdYQEGLK5VWNsGOkKaW4eXaCPGufl
+hKYC81a85zJZgR5HxILKBdOFYJVvVgpNKwTNDkY5rVU43SIU6oH9hfM0FOITSdpy
+l4ab9n8t7imsxa8ko7KOWfHFaV23mOJtGRj5wSgLXhd7mgM29yZINnJfzg3K4pR+
+IGPkdcMHLxPsUYV8rp2Rk5qY3Ltz4NLz/hI9e6t4c5Ni9i7F3oa63W4KDwbKb1eO
+kcSXkf1U</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.comune.calvello.pz.it/api/logout"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.comune.calvello.pz.it/api/acs" index="0" isDefault="true"/> 
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://servizi.comune.calvello.pz.it/api/acs" index="1"/> 
+	    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://calvello.wemapp.eu/api/acs" index="2"/> 
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sudecalvello.paesit.it/api/acs" index="3"/> 
+            <md:AttributeConsumingService index="0"> 
+                <md:ServiceName xml:lang="it">Comune di Calvello</md:ServiceName> 
+                <md:ServiceDescription xml:lang="it">Servizio SPID di Wemapp</md:ServiceDescription> 
+                <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="address" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="expirationDate" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="idCard" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="registeredOffice" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="digitalAddress" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+        </md:AttributeConsumingService> 
+            <md:AttributeConsumingService index="1"> 
+                <md:ServiceName xml:lang="it">Comune di Calvello</md:ServiceName> 
+                <md:ServiceDescription xml:lang="it">Servizio SPID di Wemapp</md:ServiceDescription> 
+                <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="address" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="expirationDate" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="idCard" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="registeredOffice" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="digitalAddress" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+        </md:AttributeConsumingService> 
+		            <md:AttributeConsumingService index="2"> 
+                <md:ServiceName xml:lang="it">Comune di Calvello</md:ServiceName> 
+                <md:ServiceDescription xml:lang="it">Servizio SPID di Wemapp</md:ServiceDescription> 
+                <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="address" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="expirationDate" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="idCard" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="registeredOffice" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="digitalAddress" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+        </md:AttributeConsumingService> 		
+                    <md:AttributeConsumingService index="3"> 
+	                <md:ServiceName xml:lang="it">Comune di Calvello</md:ServiceName> 
+	                <md:ServiceDescription xml:lang="it">Servizio SPID di Paesit</md:ServiceDescription> 
+	                <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+	                <md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+	                <md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+	                <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+	                <md:RequestedAttribute Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+	                <md:RequestedAttribute Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+	                <md:RequestedAttribute Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+	                <md:RequestedAttribute Name="address" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+	                <md:RequestedAttribute Name="expirationDate" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+	                <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+	                <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+	                <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+	                <md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+	                <md:RequestedAttribute Name="idCard" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+	                <md:RequestedAttribute Name="registeredOffice" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+	                <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+	                <md:RequestedAttribute Name="digitalAddress" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+        </md:AttributeConsumingService> 
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Calvello</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Calvello</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.comune.calvello.pz.it</md:OrganizationURL>
+  </md:Organization>
+  
+<md:ContactPerson contactType="other"> 
+<md:Extensions> 
+<spid:IPACode>c_b440</spid:IPACode> 
+<spid:Public/>
+</md:Extensions> 
+<md:Company>Comune di Calvello</md:Company> 
+<md:EmailAddress>comunecalvello@cert.ruparbasilicata.it</md:EmailAddress> 
+<md:TelephoneNumber>+390971921911</md:TelephoneNumber> 
+</md:ContactPerson> 
+</md:EntityDescriptor>

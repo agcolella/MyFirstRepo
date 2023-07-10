@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" ID="_2a5bc2afd0e55bd32ae0470a062581638eb1a8490fe9a210770e25453b0e2efd" entityID="https://www.comune.concadellacampania.ce.it"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#_2a5bc2afd0e55bd32ae0470a062581638eb1a8490fe9a210770e25453b0e2efd">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>whJygbCUvTfnSNTpeKyzWxYPUVuhAmRcWAfQzb+s6fc=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+kg/u8BYJgsK7UVu7pTCh5j8faM2pIRXyO2w+KEvRT7E/8NeXw8FOkKaBqGiQ91e/lQBNvj+LaXyP
+aVbts3JJcFfvd8CpH9NqlAybuj+xLlMv9LJuduSGx+KP/iE39HUoA1MnALrAT6sLaXdrVNhXs4OS
+4ckOIZz68Gn0yMyVlXZd79CjD/rawyiRU+zl0IjeKiDlJb7VJ4BIq0svTLg08MFj5fC+3xAcylvX
+WB3e0wt72XTeyxdUjxq+2KWDAV20qwNpXm5JaEU1+gjsW3iuX5sxhML6IIdnxdkMP9R1M2GJWuCU
+N3fBHUeVX5CvTQFsVKDnkMgg5av+VSHH43fRKg==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+xcszb/Cu/YPC1gi5bnejY6wL8y66bdcbWtStXwE9rZs2CCXUd6gwz3t/ttDXd4W8+39E1LWuDrF9
+cEP2kXMyo4P6s8oamSsp/lz0RNQU1AvWHj27wBuJMaPLt4Gs0eu3GGoQ92+7Fc/fyetzonBE71oe
+s1SRrqsfqOfwIVVdZ6n1snYdXp0XxrrhhdJBzoqC5H1vlZyg2gDto8FfVC61pBEARqMUsgxcZhb9
+X458NLiywBbJRpfEYtrT4LZG6YyKnql55gnZLB6QkOT/ikY6dfTDlLbgiZGY46N/+fnT79zE1GNt
+zgqW+DicvaZwANe2+lg4A8WYeae6Lvr7QSJ4+Q==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIID/TCCAuWgAwIBAgIJAObv0viAMJBiMA0GCSqGSIb3DQEBCwUAMIGUMQswCQYDVQQGEwJJVDEO
+MAwGA1UECAwFSXRhbHkxHTAbBgNVBAcMFENvbmNhIGRlbGxhIENhbXBhbmlhMSgwJgYDVQQKDB9D
+b211bmUgZGkgQ29uY2EgZGVsbGEgQ2FtcGFuaWEgMSwwKgYDVQQDDCN3d3cuY29tdW5lLmNvbmNh
+ZGVsbGFjYW1wYW5pYS5jZS5pdDAeFw0yMzA2MDYxNTExMzZaFw0zMzA2MDUxNTExMzZaMIGUMQsw
+CQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxHTAbBgNVBAcMFENvbmNhIGRlbGxhIENhbXBhbmlh
+MSgwJgYDVQQKDB9Db211bmUgZGkgQ29uY2EgZGVsbGEgQ2FtcGFuaWEgMSwwKgYDVQQDDCN3d3cu
+Y29tdW5lLmNvbmNhZGVsbGFjYW1wYW5pYS5jZS5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCC
+AQoCggEBAMXLM2/wrv2DwtYIuW53o2OsC/Muum3XG1rUrV8BPa2bNggl1HeoMM97f7bQ13eFvPt/
+RNS1rg6xfXBD9pFzMqOD+rPKGpkrKf5c9ETUFNQL1h49u8AbiTGjy7eBrNHrtxhqEPdvuxXP38nr
+c6JwRO9aHrNUka6rH6jn8CFVXWep9bJ2HV6dF8a64YXSQc6KguR9b5WcoNoA7aPBX1QutaQRAEaj
+FLIMXGYW/V+OfDS4ssAWyUaXxGLa0+C2RumMip6peeYJ2SwekJDk/4pGOnX0w5S24ImRmOOjf/n5
+0+/cxNRjbc4Klvg4nL2mcADXtvpYOAPFmHmnui76+0EiePkCAwEAAaNQME4wHQYDVR0OBBYEFA4L
+QQ7sgVGBgJ001qqrs484Vw2VMB8GA1UdIwQYMBaAFA4LQQ7sgVGBgJ001qqrs484Vw2VMAwGA1Ud
+EwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBABLrrXPAk4lAU8D5lH+f3G1z3WNJcbQmcm2Pk4By
+Myx/KSXGGWE8Xo0m2MbaKOXTFxdSySzV14kigmt9vFd6yQxkJcNpK5ZbVQj+oYO/x7eMZde7mzGW
+HwlsPeS0fVVXvJVLjyk47jsoNlm5OO7Wh/8sc5/rdYMLnxUAzNysbN3ObVYvcqX8Da4DByJiv+l6
+QuTJXKHz+MVsGa2JwdnMrnAg9ipEou5W1QJA46CP4/jv7+5P5f03MddpcpjwSmP6Uo9GRf7oqK9w
+QWFAmcGNdAQvaJ+eSbcfzJjToCGv+yBSKS8HkXmYZ0DNDP/OwaJUZd1a5fGhRuPC1XIB0F7yrM0=
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIID/TCCAuWgAwIBAgIJAObv0viAMJBiMA0GCSqGSIb3DQEBCwUAMIGUMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxHTAbBgNVBAcMFENvbmNhIGRlbGxhIENhbXBhbmlhMSgwJgYDVQQKDB9Db211bmUgZGkgQ29uY2EgZGVsbGEgQ2FtcGFuaWEgMSwwKgYDVQQDDCN3d3cuY29tdW5lLmNvbmNhZGVsbGFjYW1wYW5pYS5jZS5pdDAeFw0yMzA2MDYxNTExMzZaFw0zMzA2MDUxNTExMzZaMIGUMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxHTAbBgNVBAcMFENvbmNhIGRlbGxhIENhbXBhbmlhMSgwJgYDVQQKDB9Db211bmUgZGkgQ29uY2EgZGVsbGEgQ2FtcGFuaWEgMSwwKgYDVQQDDCN3d3cuY29tdW5lLmNvbmNhZGVsbGFjYW1wYW5pYS5jZS5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMXLM2/wrv2DwtYIuW53o2OsC/Muum3XG1rUrV8BPa2bNggl1HeoMM97f7bQ13eFvPt/RNS1rg6xfXBD9pFzMqOD+rPKGpkrKf5c9ETUFNQL1h49u8AbiTGjy7eBrNHrtxhqEPdvuxXP38nrc6JwRO9aHrNUka6rH6jn8CFVXWep9bJ2HV6dF8a64YXSQc6KguR9b5WcoNoA7aPBX1QutaQRAEajFLIMXGYW/V+OfDS4ssAWyUaXxGLa0+C2RumMip6peeYJ2SwekJDk/4pGOnX0w5S24ImRmOOjf/n50+/cxNRjbc4Klvg4nL2mcADXtvpYOAPFmHmnui76+0EiePkCAwEAAaNQME4wHQYDVR0OBBYEFA4LQQ7sgVGBgJ001qqrs484Vw2VMB8GA1UdIwQYMBaAFA4LQQ7sgVGBgJ001qqrs484Vw2VMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBABLrrXPAk4lAU8D5lH+f3G1z3WNJcbQmcm2Pk4ByMyx/KSXGGWE8Xo0m2MbaKOXTFxdSySzV14kigmt9vFd6yQxkJcNpK5ZbVQj+oYO/x7eMZde7mzGWHwlsPeS0fVVXvJVLjyk47jsoNlm5OO7Wh/8sc5/rdYMLnxUAzNysbN3ObVYvcqX8Da4DByJiv+l6QuTJXKHz+MVsGa2JwdnMrnAg9ipEou5W1QJA46CP4/jv7+5P5f03MddpcpjwSmP6Uo9GRf7oqK9wQWFAmcGNdAQvaJ+eSbcfzJjToCGv+yBSKS8HkXmYZ0DNDP/OwaJUZd1a5fGhRuPC1XIB0F7yrM0=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIID/TCCAuWgAwIBAgIJAObv0viAMJBiMA0GCSqGSIb3DQEBCwUAMIGUMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxHTAbBgNVBAcMFENvbmNhIGRlbGxhIENhbXBhbmlhMSgwJgYDVQQKDB9Db211bmUgZGkgQ29uY2EgZGVsbGEgQ2FtcGFuaWEgMSwwKgYDVQQDDCN3d3cuY29tdW5lLmNvbmNhZGVsbGFjYW1wYW5pYS5jZS5pdDAeFw0yMzA2MDYxNTExMzZaFw0zMzA2MDUxNTExMzZaMIGUMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxHTAbBgNVBAcMFENvbmNhIGRlbGxhIENhbXBhbmlhMSgwJgYDVQQKDB9Db211bmUgZGkgQ29uY2EgZGVsbGEgQ2FtcGFuaWEgMSwwKgYDVQQDDCN3d3cuY29tdW5lLmNvbmNhZGVsbGFjYW1wYW5pYS5jZS5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMXLM2/wrv2DwtYIuW53o2OsC/Muum3XG1rUrV8BPa2bNggl1HeoMM97f7bQ13eFvPt/RNS1rg6xfXBD9pFzMqOD+rPKGpkrKf5c9ETUFNQL1h49u8AbiTGjy7eBrNHrtxhqEPdvuxXP38nrc6JwRO9aHrNUka6rH6jn8CFVXWep9bJ2HV6dF8a64YXSQc6KguR9b5WcoNoA7aPBX1QutaQRAEajFLIMXGYW/V+OfDS4ssAWyUaXxGLa0+C2RumMip6peeYJ2SwekJDk/4pGOnX0w5S24ImRmOOjf/n50+/cxNRjbc4Klvg4nL2mcADXtvpYOAPFmHmnui76+0EiePkCAwEAAaNQME4wHQYDVR0OBBYEFA4LQQ7sgVGBgJ001qqrs484Vw2VMB8GA1UdIwQYMBaAFA4LQQ7sgVGBgJ001qqrs484Vw2VMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBABLrrXPAk4lAU8D5lH+f3G1z3WNJcbQmcm2Pk4ByMyx/KSXGGWE8Xo0m2MbaKOXTFxdSySzV14kigmt9vFd6yQxkJcNpK5ZbVQj+oYO/x7eMZde7mzGWHwlsPeS0fVVXvJVLjyk47jsoNlm5OO7Wh/8sc5/rdYMLnxUAzNysbN3ObVYvcqX8Da4DByJiv+l6QuTJXKHz+MVsGa2JwdnMrnAg9ipEou5W1QJA46CP4/jv7+5P5f03MddpcpjwSmP6Uo9GRf7oqK9wQWFAmcGNdAQvaJ+eSbcfzJjToCGv+yBSKS8HkXmYZ0DNDP/OwaJUZd1a5fGhRuPC1XIB0F7yrM0=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://www.comune.concadellacampania.ce.it/spid/module.php/saml/sp/saml2-logout.php/spid"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.comune.concadellacampania.ce.it/spid/module.php/saml/sp/saml2-acs.php/spid" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://www.comune.concadellacampania.ce.it/spid/module.php/saml/sp/saml2-acs.php/spid" index="1"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">Servizi online</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Servizi online</md:ServiceDescription>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Codice identificativo SPID" Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Ragione o denominazione sociale" Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Conca della Campania</md:OrganizationName>
+    <md:OrganizationName xml:lang="en">Comune di Conca della Campania</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Conca della Campania</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Conca della Campania</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">http://www.comune.concadellacampania.ce.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="en">http://www.comune.concadellacampania.ce.it</md:OrganizationURL>
+  </md:Organization>
+  <md:ContactPerson contactType="other">
+    <md:Extensions>
+      <spid:IPACode>c_c939</spid:IPACode>
+      <spid:Public/>
+    </md:Extensions>
+    <md:Company>Comune di Conca della Campania</md:Company>
+    <md:EmailAddress>segreteria@comune.concadellacampania.ce.it</md:EmailAddress>
+  </md:ContactPerson>
+</md:EntityDescriptor>

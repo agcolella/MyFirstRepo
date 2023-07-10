@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:spid="https://spid.gov.it/saml-extensions" entityID="https://www.comune.sedriano.mi.it" ID="https___www_comune_sedriano_mi_it"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+  <ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+    <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+  <ds:Reference URI="#https___www_comune_sedriano_mi_it"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>KFIVioF6ILXZIUWE3ytNdqphWiPxIxvyyhRoVySBqe0=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>oC2uiBRWr49NNw9zP6n1R/wwsr8XUUR7+LeRCD0JsZDENGIEpG1IFUDcL2maRR+l3cIWmn/wrEqjurxq1xgEksIsR7UykSHSy5tM22qN2KAhQTcuisUDpFB/ufZkH/7MDHeDbb4Al/UGn9sWyEu84mZVa3KM3E3iaQp86mTAXnBBmWtRMFFaozl6qPNuny7jbmBE/KzotruzzLK0GFE7BiZpzjT6NDHi36b5w9ZL7YNPoROnvfxyjMm4OyVGqrx79kPb33hNTxIdQ1A4/jDwjDao6/Miok2eM5GSgpnH0wb8wVpwQCQXublA1rZFI448o+oopqN8PXZZ03arNNbQ+Q==</ds:SignatureValue>
+<ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIEQTCCAymgAwIBAgII6adioJxLIAAwDQYJKoZIhvcNAQELBQAwgbUxCzAJBgNVBAYTAklUMQ8wDQYDVQQIDAZNaWxhbm8xETAPBgNVBAcMCFNlZHJpYW5vMRswGQYDVQQKDBJDb211bmUgZGkgU2Vkcmlhbm8xGzAZBgNVBAsMEkNvbXVuZSBkaSBTZWRyaWFubzEeMBwGA1UEAwwVY29tdW5lLnNlZHJpYW5vLm1pLml0MSgwJgYJKoZIhvcNAQkBFhljZWRAY29tdW5lLnNlZHJpYW5vLm1pLml0MB4XDTIzMDYyMTE0NDIxMVoXDTQzMDYyMDE0NDIxMVowgbUxCzAJBgNVBAYTAklUMQ8wDQYDVQQIDAZNaWxhbm8xETAPBgNVBAcMCFNlZHJpYW5vMRswGQYDVQQKDBJDb211bmUgZGkgU2Vkcmlhbm8xGzAZBgNVBAsMEkNvbXVuZSBkaSBTZWRyaWFubzEeMBwGA1UEAwwVY29tdW5lLnNlZHJpYW5vLm1pLml0MSgwJgYJKoZIhvcNAQkBFhljZWRAY29tdW5lLnNlZHJpYW5vLm1pLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAvH1v9buOluTtmqWrQ/c81BQetF9cyhPJFqGC2NuBPfFVqiCTe2l/ERWtF6V4rSDWBiaDzPHTuytRPu23DGNi0UydfTShl24kltViBEkClqkmDeUXpK8RNmzRu54Qr+J2fjx8/sPKpjuWKlZQAIl11tKqRvMOsE4S1lxIAQC2HCgrhRGc+gI6UFEkKSrDG7X1omyMeAegL/caFnxdOSDccZ/5f6XrA8blmWVvVlj3jl1aYPORna9xZ8/C+hOYTPuJ/ZYDzd336rw9VvgTy1mlSlmgJtXWuwf3hAaVf4yI+cvPUBLhCdf5pln5Zha3Qm40ATyPt734qE2H7eRsz34NYQIDAQABo1MwUTAdBgNVHQ4EFgQUOsg7GcwvNbt7m0dojh9091UyLOcwHwYDVR0jBBgwFoAUOsg7GcwvNbt7m0dojh9091UyLOcwDwYDVR0TAQH/BAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAhusUMAN12SAVpCQNwKjHr0G7PuH4TtAp0soWxF01sjw0GS8Pw/VtBvzc2CGEhRyTUZRbeR75rYqLhQlVjQDlRV92N927gtQbzib9m2yKcmQ+7ZylKz9uBmiTMol7xvAhz4LL//osirtDrv3WBXoJdJ+wJDU04hgwbCQum1aZG7ZvM0FBYYV6Bfh8hsc99NEKBkzCQWFGGGHz57N4gN9afBhaiLM33jkueFNTqjnUHUrn1iZjxeU9uGEV4WzMsuUX1yQOx3n7IixedQ0skm8DZe/O/XZGrQ2TgsPH/Flz2uidDniM9l/5AFMeKRb3+1vvRQ0eQHAgsW6MmpAG04DRfQ==</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature>
+    <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true" WantAssertionsSigned="true">
+        <md:KeyDescriptor use="signing">
+            <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+                <ds:X509Data><ds:X509Certificate>MIIEQTCCAymgAwIBAgII6adioJxLIAAwDQYJKoZIhvcNAQELBQAwgbUxCzAJBgNVBAYTAklUMQ8wDQYDVQQIDAZNaWxhbm8xETAPBgNVBAcMCFNlZHJpYW5vMRswGQYDVQQKDBJDb211bmUgZGkgU2Vkcmlhbm8xGzAZBgNVBAsMEkNvbXVuZSBkaSBTZWRyaWFubzEeMBwGA1UEAwwVY29tdW5lLnNlZHJpYW5vLm1pLml0MSgwJgYJKoZIhvcNAQkBFhljZWRAY29tdW5lLnNlZHJpYW5vLm1pLml0MB4XDTIzMDYyMTE0NDIxMVoXDTQzMDYyMDE0NDIxMVowgbUxCzAJBgNVBAYTAklUMQ8wDQYDVQQIDAZNaWxhbm8xETAPBgNVBAcMCFNlZHJpYW5vMRswGQYDVQQKDBJDb211bmUgZGkgU2Vkcmlhbm8xGzAZBgNVBAsMEkNvbXVuZSBkaSBTZWRyaWFubzEeMBwGA1UEAwwVY29tdW5lLnNlZHJpYW5vLm1pLml0MSgwJgYJKoZIhvcNAQkBFhljZWRAY29tdW5lLnNlZHJpYW5vLm1pLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAvH1v9buOluTtmqWrQ/c81BQetF9cyhPJFqGC2NuBPfFVqiCTe2l/ERWtF6V4rSDWBiaDzPHTuytRPu23DGNi0UydfTShl24kltViBEkClqkmDeUXpK8RNmzRu54Qr+J2fjx8/sPKpjuWKlZQAIl11tKqRvMOsE4S1lxIAQC2HCgrhRGc+gI6UFEkKSrDG7X1omyMeAegL/caFnxdOSDccZ/5f6XrA8blmWVvVlj3jl1aYPORna9xZ8/C+hOYTPuJ/ZYDzd336rw9VvgTy1mlSlmgJtXWuwf3hAaVf4yI+cvPUBLhCdf5pln5Zha3Qm40ATyPt734qE2H7eRsz34NYQIDAQABo1MwUTAdBgNVHQ4EFgQUOsg7GcwvNbt7m0dojh9091UyLOcwHwYDVR0jBBgwFoAUOsg7GcwvNbt7m0dojh9091UyLOcwDwYDVR0TAQH/BAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAhusUMAN12SAVpCQNwKjHr0G7PuH4TtAp0soWxF01sjw0GS8Pw/VtBvzc2CGEhRyTUZRbeR75rYqLhQlVjQDlRV92N927gtQbzib9m2yKcmQ+7ZylKz9uBmiTMol7xvAhz4LL//osirtDrv3WBXoJdJ+wJDU04hgwbCQum1aZG7ZvM0FBYYV6Bfh8hsc99NEKBkzCQWFGGGHz57N4gN9afBhaiLM33jkueFNTqjnUHUrn1iZjxeU9uGEV4WzMsuUX1yQOx3n7IixedQ0skm8DZe/O/XZGrQ2TgsPH/Flz2uidDniM9l/5AFMeKRb3+1vvRQ0eQHAgsW6MmpAG04DRfQ==</ds:X509Certificate></ds:X509Data>
+            </ds:KeyInfo>
+        </md:KeyDescriptor>
+            <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://comune.sedriano.mi.it/login-bo/?spid_sso=out"/>
+            <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://sedriano.comune.plugandpay.it/spidslo"/>
+            <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://dgegovpa.it/sedriano/CNS/idpSpid/logout.ashx"/>
+            <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://servizi.sedriano.comune.cloud/spid-hrd-login/module.php/saml/sp/saml2-logout.php/service"/>        
+        <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+        <md:AssertionConsumerService index="0" isDefault="true" Location="https://comune.sedriano.mi.it/login-bo/?spid_sso=in" Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST"/>
+        <md:AssertionConsumerService index="1" Location="https://sedriano.comune.plugandpay.it/spidacs" Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST"/>
+        <md:AssertionConsumerService index="2" Location="https://dgegovpa.it/sedriano/CNS/idpSpid/ACS.ashx" Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST"/>
+        <md:AssertionConsumerService index="3" Location="https://servizi.sedriano.comune.cloud/spid-hrd-login/module.php/saml/sp/saml2-acs.php/service" Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST"/>
+        <md:AttributeConsumingService index="0">
+            <md:ServiceName xml:lang="it">Set 0</md:ServiceName>       
+            <md:RequestedAttribute Name="name"/>
+            <md:RequestedAttribute Name="familyName"/>
+            <md:RequestedAttribute Name="fiscalNumber"/>
+            <md:RequestedAttribute Name="email"/></md:AttributeConsumingService>
+        <md:AttributeConsumingService index="1">
+            <md:ServiceName xml:lang="it">Set 1</md:ServiceName>       
+            <md:RequestedAttribute Name="spidCode"/>
+            <md:RequestedAttribute Name="name"/>
+            <md:RequestedAttribute Name="familyName"/>
+            <md:RequestedAttribute Name="fiscalNumber"/>
+            <md:RequestedAttribute Name="companyName"/>
+            <md:RequestedAttribute Name="ivaCode"/>
+            <md:RequestedAttribute Name="email"/>
+            <md:RequestedAttribute Name="gender"/>
+            <md:RequestedAttribute Name="placeOfBirth"/>
+            <md:RequestedAttribute Name="countyOfBirth"/>
+            <md:RequestedAttribute Name="dateOfBirth"/></md:AttributeConsumingService>
+        <md:AttributeConsumingService index="2">
+            <md:ServiceName xml:lang="it">Set 2</md:ServiceName>       
+            <md:RequestedAttribute Name="spidCode"/>
+            <md:RequestedAttribute Name="name"/>
+            <md:RequestedAttribute Name="familyName"/>
+            <md:RequestedAttribute Name="fiscalNumber"/>
+            <md:RequestedAttribute Name="companyName"/>
+            <md:RequestedAttribute Name="ivaCode"/>
+            <md:RequestedAttribute Name="email"/>
+            <md:RequestedAttribute Name="gender"/>
+            <md:RequestedAttribute Name="placeOfBirth"/>
+            <md:RequestedAttribute Name="countyOfBirth"/>
+            <md:RequestedAttribute Name="dateOfBirth"/></md:AttributeConsumingService>
+        <md:AttributeConsumingService index="3">
+            <md:ServiceName xml:lang="it">Set 3</md:ServiceName>       
+            <md:RequestedAttribute Name="spidCode"/>
+            <md:RequestedAttribute Name="name"/>
+            <md:RequestedAttribute Name="familyName"/>
+            <md:RequestedAttribute Name="fiscalNumber"/>
+            <md:RequestedAttribute Name="companyName"/>
+            <md:RequestedAttribute Name="ivaCode"/>
+            <md:RequestedAttribute Name="email"/>
+            <md:RequestedAttribute Name="gender"/>
+            <md:RequestedAttribute Name="placeOfBirth"/>
+            <md:RequestedAttribute Name="countyOfBirth"/>
+            <md:RequestedAttribute Name="dateOfBirth"/></md:AttributeConsumingService></md:SPSSODescriptor><md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Sedriano</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Sedriano</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.comune.sedriano.mi.it</md:OrganizationURL>
+</md:Organization><md:ContactPerson contactType="other"><md:Extensions><spid:IPACode>c_i566</spid:IPACode><spid:Public/></md:Extensions><md:EmailAddress>ced@comune.sedriano.mi.it</md:EmailAddress><md:TelephoneNumber>+3902903981</md:TelephoneNumber></md:ContactPerson></md:EntityDescriptor>

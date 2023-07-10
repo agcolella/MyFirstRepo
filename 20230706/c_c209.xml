@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:spid="https://spid.gov.it/saml-extensions" ID="_e0io45c1j5ulfn34teba4vzrw0ju8ui1xrpnuiznfbd" cacheDuration="PT604800S" entityID="https://www.comune.castelmezzano.pz.it"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#_e0io45c1j5ulfn34teba4vzrw0ju8ui1xrpnuiznfbd">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>h6hNxPGOx139Bv9XcdtfwgF13L0XGV7Ah+exhi3+RNc=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+CspxAaNqcy/CpFd1aAMN42R6Fuy7sgjKQUmLrxmoydBgwHAysmE4dNS3xOiHcsqvp0zyJ11XqNso
+9VvxMs0RMQpVNKtifQN7WxKjqnSi3RzAbemN8xLjzSpgG+xR7doKsrnvsj513g/sKmLgRMLYLsgw
+Utyu19lVvirEmmMfWb3+iOgz1dyFhXxYvWp09wplp+v1xLP7Jt8jOxs6k9+HfT9B5cTOeg2YGGgu
+ZV6+1bqwDU3aKRAmM8XZoP57krsTnvel9G22CHbQbT6oaoB+GousEBkTC2BvbHEYrcliCzoC7AWS
+dpGhasJCZkFhtJN1e/DHqCQOUMAfFPz2rREC/jiVUx8PvDwth7LsrIhyBDT3o/LrafN5CWLTptTT
+xGp6oYsd58UIftTXiJrMNESp+33tcvTJq8YB0Y4hC1sQPzUUI9+CqBQVH9vbALUNR2TMGkecpNDR
+Q2mWHAVvEc8L2ZQO477wh7fTczO9vb6A73MoPrQ/JLFZIO4kXL4GIjcwuIgl2JZ1WeG8jIYGsSsN
+ZTXGdkoLtURa2XoDE77HlRCMtaQ7Ed29dF68odAsAPoZfEDz5drYOgeJ+vGi+rad6ANDyQUqF1RA
+GzhXYq+D8SOid4UCgIMoB0XZyJx/t/E6ma7eaoUhBMiryIRtAMnuenb7t1i84/Zx1E7TusVuMUM=
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+rIZu8U+C1LftklPDTgPxDyo0YTqhW4i5p3yRfKZEiQ6H7lL5QbK+zlbkxaSLiocLzP5657FHWiRs
+tEOdnlD68nCWOnuuaBkWC3C0C20M6Ke2MONmVGCMvutAw6LyKlppK2XKVjsRF4+gVU2pLbYkNfqN
+Mu2DY589MdBw31eb5FvD/XrS/1zXCRk9uK+DZl2RASbTFVbX3Uw/x0sB7YpE3fOO7/fzxGwxIgQQ
+aIOUR1OufJnLzj+T/0rUPK4J11WcPUagrpNHgjFBofH/fnW3Z2XUlWVYqx5h9zIM2Ib4c+wsGYGv
+JgZhBtDQbGvADhRulBb95ZWPzL1ein9qRREW+2rwLoKVC7z/E4qlVbE8f82rhMlHcqiD/Ak0bJmR
+U+Pm4ATx5zkLEH94de1hJhHHdGXDUo0X+0o/GX4OZa93nKAWMwt7JB4suPCgf9fAufIqQ2OHUBgv
+iuhB3mBUKLK1J8PxvtXRN8Bs4uOQWFN3FSOOzIoOsrkGliNFU3jaHf3buE+30t7NFJmEX/c5CS4F
+oj+oQ5yt73RrqqAX1IzxesaFXWyzuk66c9yoLxth1u7JXYW8hTByLcYoX5/zSw8TUzy5KECH/kgN
+NLkVBVheHGDTXTypru67wYu7QAKRcNOdlHSlutjdXfDYTRPvtCKZ0KCY87gU35RDlaewlFvG1Us=
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIGTDCCBDSgAwIBAgIJANZomC4esVIbMA0GCSqGSIb3DQEBCwUAMIG6MQswCQYDVQQGEwJJVDEQ
+MA4GA1UECAwHUG90ZW56YTEWMBQGA1UEBwwNQ2FzdGVsbWV6emFubzEgMB4GA1UECgwXQ29tdW5l
+IGRpIENhc3RlbG1lenphbm8xDTALBgNVBAsMBFNwaWQxGzAZBgNVBAMMEnNwaWQtY2FzdGVsbWV6
+emFubzEzMDEGCSqGSIb3DQEJARYkY29tdW5lLmNhc3RlbG1lenphbm8ucHpAbGVnYWxtYWlsLml0
+MB4XDTIzMDMxNjEyMTIzN1oXDTI2MDMxNTEyMTIzN1owgboxCzAJBgNVBAYTAklUMRAwDgYDVQQI
+DAdQb3RlbnphMRYwFAYDVQQHDA1DYXN0ZWxtZXp6YW5vMSAwHgYDVQQKDBdDb211bmUgZGkgQ2Fz
+dGVsbWV6emFubzENMAsGA1UECwwEU3BpZDEbMBkGA1UEAwwSc3BpZC1jYXN0ZWxtZXp6YW5vMTMw
+MQYJKoZIhvcNAQkBFiRjb211bmUuY2FzdGVsbWV6emFuby5wekBsZWdhbG1haWwuaXQwggIiMA0G
+CSqGSIb3DQEBAQUAA4ICDwAwggIKAoICAQCshm7xT4LUt+2SU8NOA/EPKjRhOqFbiLmnfJF8pkSJ
+DofuUvlBsr7OVuTFpIuKhwvM/nrnsUdaJGy0Q52eUPrycJY6e65oGRYLcLQLbQzop7Yw42ZUYIy+
+60DDovIqWmkrZcpWOxEXj6BVTakttiQ1+o0y7YNjnz0x0HDfV5vkW8P9etL/XNcJGT24r4NmXZEB
+JtMVVtfdTD/HSwHtikTd847v9/PEbDEiBBBog5RHU658mcvOP5P/StQ8rgnXVZw9RqCuk0eCMUGh
+8f9+dbdnZdSVZVirHmH3MgzYhvhz7CwZga8mBmEG0NBsa8AOFG6UFv3llY/MvV6Kf2pFERb7avAu
+gpULvP8TiqVVsTx/zauEyUdyqIP8CTRsmZFT4+bgBPHnOQsQf3h17WEmEcd0ZcNSjRf7Sj8Zfg5l
+r3ecoBYzC3skHiy48KB/18C58ipDY4dQGC+K6EHeYFQosrUnw/G+1dE3wGzi45BYU3cVI47Mig6y
+uQaWI0VTeNod/du4T7fS3s0UmYRf9zkJLgWiP6hDnK3vdGuqoBfUjPF6xoVdbLO6Trpz3KgvG2HW
+7sldhbyFMHItxihfn/NLDxNTPLkoQIf+SA00uRUFWF4cYNNdPKmu7rvBi7tAApFw052UdKW62N1d
+8NhNE++0IpnQoJjzuBTflEOVp7CUW8bVSwIDAQABo1MwUTAdBgNVHQ4EFgQUZWb2yFjjUg3qPny/
+hY1NNb6GBFAwHwYDVR0jBBgwFoAUZWb2yFjjUg3qPny/hY1NNb6GBFAwDwYDVR0TAQH/BAUwAwEB
+/zANBgkqhkiG9w0BAQsFAAOCAgEAFjWmOJwzIoPFDtg2pcPwfnlFpk2lwa0uO1hLimBHrAz78NIh
+EmQKAUwkTtgddCGIyAEsW9wWBD3LzvslFevqKdkJHBQ1fUvmva5bN7nE0z5PN6qyEx4DdzZ8DrDe
+TIGVXGHa8B4OnwCICSywuZ4/1+y8Vs9xt4JM+KLrvpX1QIzD9O6wm9qt9os0TmLU4yDk3XjRfGt6
+JO95GcuDOAkSfGJSosSYPfAuGzpA1ZkCEgtuuWZrwIbjvhgJFiPEn84IcT8dDcD6I7x9ad/6qfo0
+G3CRs/swaBP+HozmfGCsIeigdmtXxxik5KXdgNi62zdxcTRxcMRvrHtWmf1DcVYuvGIb+JC94UDe
+44kzfo6t0tt/jaFcHrgkJp8SBAxOuF2F1+3hlG4VuMyOOdBH777rVOrfV7WeRSvLQUinhr53nsfg
+oL1gwpYcXelONnPJVA7tObWZcCI9eP/UmOxgcC5WnzLxxbluolYL1MPVMmG+27lS1Wtg0IYjQNqv
+/L7+TVljrc3/4jz2dMI0jkQAUDkRtntBAKgZDCftBLGEPQtiL6VmfVN7z4tF9ehTBGazOF1LZE7r
+L2URwiypOfQz+gG8OW8g2f53VX47HqYJEmyykTA4sc8TyjvFueu5Fr7pSnaFgVfAxx0QpD63AvZS
+HrQICak9wOLh/N3X7/qv69vdWeI=
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIGTDCCBDSgAwIBAgIJANZomC4esVIbMA0GCSqGSIb3DQEBCwUAMIG6MQswCQYD
+VQQGEwJJVDEQMA4GA1UECAwHUG90ZW56YTEWMBQGA1UEBwwNQ2FzdGVsbWV6emFu
+bzEgMB4GA1UECgwXQ29tdW5lIGRpIENhc3RlbG1lenphbm8xDTALBgNVBAsMBFNw
+aWQxGzAZBgNVBAMMEnNwaWQtY2FzdGVsbWV6emFubzEzMDEGCSqGSIb3DQEJARYk
+Y29tdW5lLmNhc3RlbG1lenphbm8ucHpAbGVnYWxtYWlsLml0MB4XDTIzMDMxNjEy
+MTIzN1oXDTI2MDMxNTEyMTIzN1owgboxCzAJBgNVBAYTAklUMRAwDgYDVQQIDAdQ
+b3RlbnphMRYwFAYDVQQHDA1DYXN0ZWxtZXp6YW5vMSAwHgYDVQQKDBdDb211bmUg
+ZGkgQ2FzdGVsbWV6emFubzENMAsGA1UECwwEU3BpZDEbMBkGA1UEAwwSc3BpZC1j
+YXN0ZWxtZXp6YW5vMTMwMQYJKoZIhvcNAQkBFiRjb211bmUuY2FzdGVsbWV6emFu
+by5wekBsZWdhbG1haWwuaXQwggIiMA0GCSqGSIb3DQEBAQUAA4ICDwAwggIKAoIC
+AQCshm7xT4LUt+2SU8NOA/EPKjRhOqFbiLmnfJF8pkSJDofuUvlBsr7OVuTFpIuK
+hwvM/nrnsUdaJGy0Q52eUPrycJY6e65oGRYLcLQLbQzop7Yw42ZUYIy+60DDovIq
+WmkrZcpWOxEXj6BVTakttiQ1+o0y7YNjnz0x0HDfV5vkW8P9etL/XNcJGT24r4Nm
+XZEBJtMVVtfdTD/HSwHtikTd847v9/PEbDEiBBBog5RHU658mcvOP5P/StQ8rgnX
+VZw9RqCuk0eCMUGh8f9+dbdnZdSVZVirHmH3MgzYhvhz7CwZga8mBmEG0NBsa8AO
+FG6UFv3llY/MvV6Kf2pFERb7avAugpULvP8TiqVVsTx/zauEyUdyqIP8CTRsmZFT
+4+bgBPHnOQsQf3h17WEmEcd0ZcNSjRf7Sj8Zfg5lr3ecoBYzC3skHiy48KB/18C5
+8ipDY4dQGC+K6EHeYFQosrUnw/G+1dE3wGzi45BYU3cVI47Mig6yuQaWI0VTeNod
+/du4T7fS3s0UmYRf9zkJLgWiP6hDnK3vdGuqoBfUjPF6xoVdbLO6Trpz3KgvG2HW
+7sldhbyFMHItxihfn/NLDxNTPLkoQIf+SA00uRUFWF4cYNNdPKmu7rvBi7tAApFw
+052UdKW62N1d8NhNE++0IpnQoJjzuBTflEOVp7CUW8bVSwIDAQABo1MwUTAdBgNV
+HQ4EFgQUZWb2yFjjUg3qPny/hY1NNb6GBFAwHwYDVR0jBBgwFoAUZWb2yFjjUg3q
+Pny/hY1NNb6GBFAwDwYDVR0TAQH/BAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAgEA
+FjWmOJwzIoPFDtg2pcPwfnlFpk2lwa0uO1hLimBHrAz78NIhEmQKAUwkTtgddCGI
+yAEsW9wWBD3LzvslFevqKdkJHBQ1fUvmva5bN7nE0z5PN6qyEx4DdzZ8DrDeTIGV
+XGHa8B4OnwCICSywuZ4/1+y8Vs9xt4JM+KLrvpX1QIzD9O6wm9qt9os0TmLU4yDk
+3XjRfGt6JO95GcuDOAkSfGJSosSYPfAuGzpA1ZkCEgtuuWZrwIbjvhgJFiPEn84I
+cT8dDcD6I7x9ad/6qfo0G3CRs/swaBP+HozmfGCsIeigdmtXxxik5KXdgNi62zdx
+cTRxcMRvrHtWmf1DcVYuvGIb+JC94UDe44kzfo6t0tt/jaFcHrgkJp8SBAxOuF2F
+1+3hlG4VuMyOOdBH777rVOrfV7WeRSvLQUinhr53nsfgoL1gwpYcXelONnPJVA7t
+ObWZcCI9eP/UmOxgcC5WnzLxxbluolYL1MPVMmG+27lS1Wtg0IYjQNqv/L7+TVlj
+rc3/4jz2dMI0jkQAUDkRtntBAKgZDCftBLGEPQtiL6VmfVN7z4tF9ehTBGazOF1L
+ZE7rL2URwiypOfQz+gG8OW8g2f53VX47HqYJEmyykTA4sc8TyjvFueu5Fr7pSnaF
+gVfAxx0QpD63AvZSHrQICak9wOLh/N3X7/qv69vdWeI=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIGTDCCBDSgAwIBAgIJANZomC4esVIbMA0GCSqGSIb3DQEBCwUAMIG6MQswCQYD
+VQQGEwJJVDEQMA4GA1UECAwHUG90ZW56YTEWMBQGA1UEBwwNQ2FzdGVsbWV6emFu
+bzEgMB4GA1UECgwXQ29tdW5lIGRpIENhc3RlbG1lenphbm8xDTALBgNVBAsMBFNw
+aWQxGzAZBgNVBAMMEnNwaWQtY2FzdGVsbWV6emFubzEzMDEGCSqGSIb3DQEJARYk
+Y29tdW5lLmNhc3RlbG1lenphbm8ucHpAbGVnYWxtYWlsLml0MB4XDTIzMDMxNjEy
+MTIzN1oXDTI2MDMxNTEyMTIzN1owgboxCzAJBgNVBAYTAklUMRAwDgYDVQQIDAdQ
+b3RlbnphMRYwFAYDVQQHDA1DYXN0ZWxtZXp6YW5vMSAwHgYDVQQKDBdDb211bmUg
+ZGkgQ2FzdGVsbWV6emFubzENMAsGA1UECwwEU3BpZDEbMBkGA1UEAwwSc3BpZC1j
+YXN0ZWxtZXp6YW5vMTMwMQYJKoZIhvcNAQkBFiRjb211bmUuY2FzdGVsbWV6emFu
+by5wekBsZWdhbG1haWwuaXQwggIiMA0GCSqGSIb3DQEBAQUAA4ICDwAwggIKAoIC
+AQCshm7xT4LUt+2SU8NOA/EPKjRhOqFbiLmnfJF8pkSJDofuUvlBsr7OVuTFpIuK
+hwvM/nrnsUdaJGy0Q52eUPrycJY6e65oGRYLcLQLbQzop7Yw42ZUYIy+60DDovIq
+WmkrZcpWOxEXj6BVTakttiQ1+o0y7YNjnz0x0HDfV5vkW8P9etL/XNcJGT24r4Nm
+XZEBJtMVVtfdTD/HSwHtikTd847v9/PEbDEiBBBog5RHU658mcvOP5P/StQ8rgnX
+VZw9RqCuk0eCMUGh8f9+dbdnZdSVZVirHmH3MgzYhvhz7CwZga8mBmEG0NBsa8AO
+FG6UFv3llY/MvV6Kf2pFERb7avAugpULvP8TiqVVsTx/zauEyUdyqIP8CTRsmZFT
+4+bgBPHnOQsQf3h17WEmEcd0ZcNSjRf7Sj8Zfg5lr3ecoBYzC3skHiy48KB/18C5
+8ipDY4dQGC+K6EHeYFQosrUnw/G+1dE3wGzi45BYU3cVI47Mig6yuQaWI0VTeNod
+/du4T7fS3s0UmYRf9zkJLgWiP6hDnK3vdGuqoBfUjPF6xoVdbLO6Trpz3KgvG2HW
+7sldhbyFMHItxihfn/NLDxNTPLkoQIf+SA00uRUFWF4cYNNdPKmu7rvBi7tAApFw
+052UdKW62N1d8NhNE++0IpnQoJjzuBTflEOVp7CUW8bVSwIDAQABo1MwUTAdBgNV
+HQ4EFgQUZWb2yFjjUg3qPny/hY1NNb6GBFAwHwYDVR0jBBgwFoAUZWb2yFjjUg3q
+Pny/hY1NNb6GBFAwDwYDVR0TAQH/BAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAgEA
+FjWmOJwzIoPFDtg2pcPwfnlFpk2lwa0uO1hLimBHrAz78NIhEmQKAUwkTtgddCGI
+yAEsW9wWBD3LzvslFevqKdkJHBQ1fUvmva5bN7nE0z5PN6qyEx4DdzZ8DrDeTIGV
+XGHa8B4OnwCICSywuZ4/1+y8Vs9xt4JM+KLrvpX1QIzD9O6wm9qt9os0TmLU4yDk
+3XjRfGt6JO95GcuDOAkSfGJSosSYPfAuGzpA1ZkCEgtuuWZrwIbjvhgJFiPEn84I
+cT8dDcD6I7x9ad/6qfo0G3CRs/swaBP+HozmfGCsIeigdmtXxxik5KXdgNi62zdx
+cTRxcMRvrHtWmf1DcVYuvGIb+JC94UDe44kzfo6t0tt/jaFcHrgkJp8SBAxOuF2F
+1+3hlG4VuMyOOdBH777rVOrfV7WeRSvLQUinhr53nsfgoL1gwpYcXelONnPJVA7t
+ObWZcCI9eP/UmOxgcC5WnzLxxbluolYL1MPVMmG+27lS1Wtg0IYjQNqv/L7+TVlj
+rc3/4jz2dMI0jkQAUDkRtntBAKgZDCftBLGEPQtiL6VmfVN7z4tF9ehTBGazOF1L
+ZE7rL2URwiypOfQz+gG8OW8g2f53VX47HqYJEmyykTA4sc8TyjvFueu5Fr7pSnaF
+gVfAxx0QpD63AvZSHrQICak9wOLh/N3X7/qv69vdWeI=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.comune.castelmezzano.pz.it/api/logout"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>  
+	<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.comune.castelmezzano.pz.it/api/acs" index="0" isDefault="true"/>  	
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://servizi.comune.castelmezzano.pz.it/api/acs" index="1"/>  	
+	<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://castelmezzano.wemapp.eu/api/acs" index="2"/>     
+            <md:AttributeConsumingService index="0"> 
+                <md:ServiceName xml:lang="it">Comune di Castelmezzano</md:ServiceName> 
+                <md:ServiceDescription xml:lang="it">Servizio SPID del Comune di Castelmezzano</md:ServiceDescription> 
+                <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="address" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="expirationDate" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="idCard" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="registeredOffice" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="digitalAddress" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+        </md:AttributeConsumingService> 
+            <md:AttributeConsumingService index="1"> 
+                <md:ServiceName xml:lang="it">Servizi Online</md:ServiceName> 
+                <md:ServiceDescription xml:lang="it">Servizio SPID del Comune di Castelmezzano</md:ServiceDescription> 
+                <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="address" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="expirationDate" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="idCard" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="registeredOffice" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="digitalAddress" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+        </md:AttributeConsumingService> 
+		    <md:AttributeConsumingService index="2"> 
+                <md:ServiceName xml:lang="it">Wemapp SPID</md:ServiceName> 
+                <md:ServiceDescription xml:lang="it">Servizio SPID del Comune di Castelmezzano</md:ServiceDescription> 
+                <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="address" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="expirationDate" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="idCard" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="registeredOffice" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="digitalAddress" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+        </md:AttributeConsumingService> 
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Castelmezzano</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Castelmezzano</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://comune.castelmezzano.pz.it/</md:OrganizationURL>
+  </md:Organization>
+  
+<md:ContactPerson contactType="other"> 
+<md:Extensions> 
+<spid:IPACode>c_c209</spid:IPACode> 
+<spid:Public/> 
+</md:Extensions> 
+<md:Company>Comune di Castelmezzano</md:Company> 
+<md:EmailAddress>comune.castelmezzano.pz@legalmail.it</md:EmailAddress> 
+<md:TelephoneNumber>+390971986166</md:TelephoneNumber> 
+</md:ContactPerson> 
+  
+</md:EntityDescriptor>
