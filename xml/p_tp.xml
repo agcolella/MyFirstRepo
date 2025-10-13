@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" ID="_16ae4a6ae790beb34bc0d41bb37741bed68876f72c9141bd821dae380e6663b1" entityID="https://www.provincia.trapani.it"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#_16ae4a6ae790beb34bc0d41bb37741bed68876f72c9141bd821dae380e6663b1">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>kOMsy38P7zxLdM97h+5hROV/FIFXB9NVgwEWmubOUbc=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+SLbuBwA113U9YNO5X8vqAGnZvAzX5uWKfP3C5AJVDkX5zVTz0VWP3LuYBLz/2z10KGVXFSoDC0oe
+uXW/rwBPaDPpzSrRi9BCBSY2pXEr14HANNwhN/WHXqHo0Uz7YtYaGPQjsqgxV1RZC0kW2qontMJK
+Tok4FtCOmNeEOyswUnkfm9LQXZ6D4MueJvnX3jfsM3tCOguJVUNqGk7L0yL9LzKyWtltwZ0NUbbm
+BXW3q8R250pTBaw+N8DSmdTisg/qrDAqHTgIGlg4xxdBFfTG3lOKLtCHZUZ/2kG6IXQS7/6tOBQg
+jspZsOM1RGeS126M9nMzeQV+5J21ESCHGRU+Dw==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+yERW7UB2sfP3oyTy0xRtv1xGgbN75EYhBiULKQIMUYnET9hB2Mw7C+wja+UC8Nm46gwSwPJv7xbe
+SfoISW77Sc3+Z0ARaLyO376rHIG+2cICCRHVVaZG/xOGG09oGlwxDgIoXGDVna4hTkXjGylc7a+W
+DvZ7sK/iUku+Arhh24u+iMXtVaVKvJK/jVnR+RC3lDgGemZwdYvX2ckmUK6gY2D+ayPa80zJZ+uU
+QBrkTpWdmARoAx8+2C+VqhJ/Tv23sY0jGTuX8w5chpOz0ErrMD5pOgVN1EKXFIkJUey4uTSd/WHp
+3PlDybUiBAP12IdYKLt3yYuINwgKXdicnSRVyQ==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIID1zCCAr+gAwIBAgIJAM3pmUnn3QoSMA0GCSqGSIb3DQEBCwUAMIGBMQswCQYDVQQGEwJJVDEO
+MAwGA1UECAwFSXRhbHkxEDAOBgNVBAcMB1RyYXBhbmkxLTArBgNVBAoMJExJQkVSTyBDT05TT1Ja
+SU8gQ09NVU5BTEUgREkgVFJBUEFOSTEhMB8GA1UEAwwYd3d3LnByb3ZpbmNpYS50cmFwYW5pLml0
+MB4XDTI0MDQwOTEzNDgzNFoXDTM0MDQwOTEzNDgzNFowgYExCzAJBgNVBAYTAklUMQ4wDAYDVQQI
+DAVJdGFseTEQMA4GA1UEBwwHVHJhcGFuaTEtMCsGA1UECgwkTElCRVJPIENPTlNPUlpJTyBDT01V
+TkFMRSBESSBUUkFQQU5JMSEwHwYDVQQDDBh3d3cucHJvdmluY2lhLnRyYXBhbmkuaXQwggEiMA0G
+CSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDIRFbtQHax8/ejJPLTFG2/XEaBs3vkRiEGJQspAgxR
+icRP2EHYzDsL7CNr5QLw2bjqDBLA8m/vFt5J+ghJbvtJzf5nQBFovI7fvqscgb7ZwgIJEdVVpkb/
+E4YbT2gaXDEOAihcYNWdriFOReMbKVztr5YO9nuwr+JSS74CuGHbi76Ixe1VpUq8kr+NWdH5ELeU
+OAZ6ZnB1i9fZySZQrqBjYP5rI9rzTMln65RAGuROlZ2YBGgDHz7YL5WqEn9O/bexjSMZO5fzDlyG
+k7PQSuswPmk6BU3UQpcUiQlR7Li5NJ39Yenc+UPJtSIEA/XYh1gou3fJi4g3CApd2JydJFXJAgMB
+AAGjUDBOMB0GA1UdDgQWBBS1pgNlLkNrzOfZ5rnY5u3mzkiuRTAfBgNVHSMEGDAWgBS1pgNlLkNr
+zOfZ5rnY5u3mzkiuRTAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQAU7CDPNqVBOfGZ
+93LQlzhL977ZDRfs3+U5RFkgs1ASNOkbc1vPDopoQr8OpPURaYhwpYtWyP4Ucv7hi2Hbaj3EHfU/
+59OoB5lc23/JPSgWVLFFfumkCRlEWYW3MslhGK3eAJYd17HYS4n/6iMrQLwrEOcl9bxWsN6DnmJS
+5F+aQKxaLCjT/qLLMGypautKTFfc5L6NlvyytMfrNlgqpsZF5sbfj5QBUZLR4jrLCiJDMOOlKTrB
+wl7R/4ScDhz4GWUvr5aNnWYCRb4ix1++BUSQnp4pyT+eDNm2EjJpcdbyyaryuGa7HpzC5MTI/ua6
+iRYQNrnL/MP0S2W/x0Z8eE6h
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIID1zCCAr+gAwIBAgIJAM3pmUnn3QoSMA0GCSqGSIb3DQEBCwUAMIGBMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxEDAOBgNVBAcMB1RyYXBhbmkxLTArBgNVBAoMJExJQkVSTyBDT05TT1JaSU8gQ09NVU5BTEUgREkgVFJBUEFOSTEhMB8GA1UEAwwYd3d3LnByb3ZpbmNpYS50cmFwYW5pLml0MB4XDTI0MDQwOTEzNDgzNFoXDTM0MDQwOTEzNDgzNFowgYExCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEQMA4GA1UEBwwHVHJhcGFuaTEtMCsGA1UECgwkTElCRVJPIENPTlNPUlpJTyBDT01VTkFMRSBESSBUUkFQQU5JMSEwHwYDVQQDDBh3d3cucHJvdmluY2lhLnRyYXBhbmkuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDIRFbtQHax8/ejJPLTFG2/XEaBs3vkRiEGJQspAgxRicRP2EHYzDsL7CNr5QLw2bjqDBLA8m/vFt5J+ghJbvtJzf5nQBFovI7fvqscgb7ZwgIJEdVVpkb/E4YbT2gaXDEOAihcYNWdriFOReMbKVztr5YO9nuwr+JSS74CuGHbi76Ixe1VpUq8kr+NWdH5ELeUOAZ6ZnB1i9fZySZQrqBjYP5rI9rzTMln65RAGuROlZ2YBGgDHz7YL5WqEn9O/bexjSMZO5fzDlyGk7PQSuswPmk6BU3UQpcUiQlR7Li5NJ39Yenc+UPJtSIEA/XYh1gou3fJi4g3CApd2JydJFXJAgMBAAGjUDBOMB0GA1UdDgQWBBS1pgNlLkNrzOfZ5rnY5u3mzkiuRTAfBgNVHSMEGDAWgBS1pgNlLkNrzOfZ5rnY5u3mzkiuRTAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQAU7CDPNqVBOfGZ93LQlzhL977ZDRfs3+U5RFkgs1ASNOkbc1vPDopoQr8OpPURaYhwpYtWyP4Ucv7hi2Hbaj3EHfU/59OoB5lc23/JPSgWVLFFfumkCRlEWYW3MslhGK3eAJYd17HYS4n/6iMrQLwrEOcl9bxWsN6DnmJS5F+aQKxaLCjT/qLLMGypautKTFfc5L6NlvyytMfrNlgqpsZF5sbfj5QBUZLR4jrLCiJDMOOlKTrBwl7R/4ScDhz4GWUvr5aNnWYCRb4ix1++BUSQnp4pyT+eDNm2EjJpcdbyyaryuGa7HpzC5MTI/ua6iRYQNrnL/MP0S2W/x0Z8eE6h</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIID1zCCAr+gAwIBAgIJAM3pmUnn3QoSMA0GCSqGSIb3DQEBCwUAMIGBMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxEDAOBgNVBAcMB1RyYXBhbmkxLTArBgNVBAoMJExJQkVSTyBDT05TT1JaSU8gQ09NVU5BTEUgREkgVFJBUEFOSTEhMB8GA1UEAwwYd3d3LnByb3ZpbmNpYS50cmFwYW5pLml0MB4XDTI0MDQwOTEzNDgzNFoXDTM0MDQwOTEzNDgzNFowgYExCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEQMA4GA1UEBwwHVHJhcGFuaTEtMCsGA1UECgwkTElCRVJPIENPTlNPUlpJTyBDT01VTkFMRSBESSBUUkFQQU5JMSEwHwYDVQQDDBh3d3cucHJvdmluY2lhLnRyYXBhbmkuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDIRFbtQHax8/ejJPLTFG2/XEaBs3vkRiEGJQspAgxRicRP2EHYzDsL7CNr5QLw2bjqDBLA8m/vFt5J+ghJbvtJzf5nQBFovI7fvqscgb7ZwgIJEdVVpkb/E4YbT2gaXDEOAihcYNWdriFOReMbKVztr5YO9nuwr+JSS74CuGHbi76Ixe1VpUq8kr+NWdH5ELeUOAZ6ZnB1i9fZySZQrqBjYP5rI9rzTMln65RAGuROlZ2YBGgDHz7YL5WqEn9O/bexjSMZO5fzDlyGk7PQSuswPmk6BU3UQpcUiQlR7Li5NJ39Yenc+UPJtSIEA/XYh1gou3fJi4g3CApd2JydJFXJAgMBAAGjUDBOMB0GA1UdDgQWBBS1pgNlLkNrzOfZ5rnY5u3mzkiuRTAfBgNVHSMEGDAWgBS1pgNlLkNrzOfZ5rnY5u3mzkiuRTAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQAU7CDPNqVBOfGZ93LQlzhL977ZDRfs3+U5RFkgs1ASNOkbc1vPDopoQr8OpPURaYhwpYtWyP4Ucv7hi2Hbaj3EHfU/59OoB5lc23/JPSgWVLFFfumkCRlEWYW3MslhGK3eAJYd17HYS4n/6iMrQLwrEOcl9bxWsN6DnmJS5F+aQKxaLCjT/qLLMGypautKTFfc5L6NlvyytMfrNlgqpsZF5sbfj5QBUZLR4jrLCiJDMOOlKTrBwl7R/4ScDhz4GWUvr5aNnWYCRb4ix1++BUSQnp4pyT+eDNm2EjJpcdbyyaryuGa7HpzC5MTI/ua6iRYQNrnL/MP0S2W/x0Z8eE6h</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://www.provincia.trapani.it/spid/module.php/saml/sp/saml2-logout.php/spid"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.provincia.trapani.it/spid/module.php/saml/sp/saml2-acs.php/spid" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://www.provincia.trapani.it/spid/module.php/saml/sp/saml2-acs.php/spid" index="1"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">Servizi online</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Servizi online</md:ServiceDescription>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Codice identificativo SPID" Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Ragione o denominazione sociale" Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">LIBERO CONSORZIO COMUNALE DI TRAPANI</md:OrganizationName>
+    <md:OrganizationName xml:lang="en">LIBERO CONSORZIO COMUNALE DI TRAPANI</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">LIBERO CONSORZIO COMUNALE DI TRAPANI</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="en">LIBERO CONSORZIO COMUNALE DI TRAPANI</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.provincia.trapani.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="en">https://www.provincia.trapani.it</md:OrganizationURL>
+  </md:Organization>
+  <md:ContactPerson contactType="other">
+    <md:Extensions>
+      <spid:IPACode>p_tp</spid:IPACode>
+      <spid:Public/>
+    </md:Extensions>
+    <md:Company>LIBERO CONSORZIO COMUNALE DI TRAPANI</md:Company>
+    <md:EmailAddress>info@provincia.trapani.it</md:EmailAddress>
+  </md:ContactPerson>
+</md:EntityDescriptor>

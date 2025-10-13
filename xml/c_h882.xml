@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:spid="https://spid.gov.it/saml-extensions" entityID="https://www.comunesangiorgioionico.it" ID="https___www_comunesangiorgioionico_it"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+  <ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+    <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+  <ds:Reference URI="#https___www_comunesangiorgioionico_it"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>evzFHW2eSkuzFxGNSriqOb1eORCOZHqtgCWYEsSG9x4=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>nuHO+pCQE5iIkyLzIBwv2pY+pQS0bJUk6K3B+IBWGXL3GxOsvU2tVAHBvXNSTPbyVyiJE5tYe6yz7VaSIL5idQtT8BNAW0hdbO2ycwkHNSw+9m/jCfPBQlqn1/2O/sXSOG2EU2Ky9/KquTV+B+nM7AhVn90okZ71zSyN8BvwaQcRmReYZupJMeWuOUFWspod1PGiDO03+B05DkCI+AZrDpKl+lIFTWuj7FzPBVhQMxEjIwbIMof8EKDQuRjp91C5Jt0o6iubSsuWZgzn4x3xRxRXtX0n/6uHFLzt95r1SRCY81B6QFqC1OoM4Qin2fwiN+DtSZOCFrQY46MP9DfGUA==</ds:SignatureValue>
+<ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIEXjCCA0agAwIBAgIIq3mDjwXWCAAwDQYJKoZIhvcNAQELBQAwge4xJTAjBgNVBAoMHENvbXVuZSBkaSBTYW4gR2lvcmdpbyBJb25pY28xFTATBgNVBGEMDFBBOklULWNfaDg4MjELMAkGA1UEBhMCSVQxGzAZBgNVBAcMElNhbiBHaW9yZ2lvIElvbmljbzEbMBkGA1UEAwwSU2FuIEdpb3JnaW8gSW9uaWNvMTcwNQYJKoZIhvcNAQkBFihwcm90b2NvbGxvQHBlYy5jb211bmVzYW5naW9yZ2lvaW9uaWNvLml0MS4wLAYDVQRTDCVodHRwczovL3d3dy5jb211bmVzYW5naW9yZ2lvaW9uaWNvLml0MB4XDTIzMDkyMTA3NTI0OFoXDTI1MDkyMDA3NTI0OFowge4xJTAjBgNVBAoMHENvbXVuZSBkaSBTYW4gR2lvcmdpbyBJb25pY28xFTATBgNVBGEMDFBBOklULWNfaDg4MjELMAkGA1UEBhMCSVQxGzAZBgNVBAcMElNhbiBHaW9yZ2lvIElvbmljbzEbMBkGA1UEAwwSU2FuIEdpb3JnaW8gSW9uaWNvMTcwNQYJKoZIhvcNAQkBFihwcm90b2NvbGxvQHBlYy5jb211bmVzYW5naW9yZ2lvaW9uaWNvLml0MS4wLAYDVQRTDCVodHRwczovL3d3dy5jb211bmVzYW5naW9yZ2lvaW9uaWNvLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAxM8MvozOjGGXHt15QsLUbuHhEETXeNI3PstgLfRzXB6A0ovj0u41uT3vLc59GQnXkPOCXG//UpVX3WUnphD84giLQAAAvVngBsvolaefGlXAQ7p4VKb4BD9Tk4zoAJpYJGTXFMl4Fyh1OxCnGADppoAqL5tlSqaljgGDrkm0rCNtA2+ouqh6MWRnRLjI3Etln8tAAfPUC2xu3wu1ypNl1WZetv38fm7GT3V0rg6BsDttTCtr362qKzmVTBYfGsQ5u4u2+1wmFDvUHVj3LvPPTAW6FiXwVMvf4leo56O0ysXRpakJKfHw6gnPw4gRcZhdcKqgfUWwgfHx01CE0XgYJQIDAQABMA0GCSqGSIb3DQEBCwUAA4IBAQC3a/2I7WkGAFJnLKCK/owN28PUvOeEJQcVwvRda7fU4eSg82EcN6PGvbz7DvSn4x3fndjg43E82/dHCkB6kLMBQmRSp/c9OObEgfDlH6JICaByJfkXLAHnyhAQxNGPJj3VZwjBoijFDovixt2hmoW6uBtZ7yOeXIyST1scrLW75HmOuFxLpwB3oTs51XlGLLEULdalsRcXYAbnwszAqoYiRHO5ko06+BLaFk5+syNgees/bhF13wDFsksXkfCZkaY4LTgkzXu/9W11toSIRNOAYllCPP/m73yLgE3kIZqmWAqqG3bEe3ulbUlv5mgkwyAI+w6gkthePq018Aq4YdT8</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature>
+    <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true" WantAssertionsSigned="true">
+        <md:KeyDescriptor use="signing">
+            <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+                <ds:X509Data><ds:X509Certificate>MIIEXjCCA0agAwIBAgIIq3mDjwXWCAAwDQYJKoZIhvcNAQELBQAwge4xJTAjBgNVBAoMHENvbXVuZSBkaSBTYW4gR2lvcmdpbyBJb25pY28xFTATBgNVBGEMDFBBOklULWNfaDg4MjELMAkGA1UEBhMCSVQxGzAZBgNVBAcMElNhbiBHaW9yZ2lvIElvbmljbzEbMBkGA1UEAwwSU2FuIEdpb3JnaW8gSW9uaWNvMTcwNQYJKoZIhvcNAQkBFihwcm90b2NvbGxvQHBlYy5jb211bmVzYW5naW9yZ2lvaW9uaWNvLml0MS4wLAYDVQRTDCVodHRwczovL3d3dy5jb211bmVzYW5naW9yZ2lvaW9uaWNvLml0MB4XDTIzMDkyMTA3NTI0OFoXDTI1MDkyMDA3NTI0OFowge4xJTAjBgNVBAoMHENvbXVuZSBkaSBTYW4gR2lvcmdpbyBJb25pY28xFTATBgNVBGEMDFBBOklULWNfaDg4MjELMAkGA1UEBhMCSVQxGzAZBgNVBAcMElNhbiBHaW9yZ2lvIElvbmljbzEbMBkGA1UEAwwSU2FuIEdpb3JnaW8gSW9uaWNvMTcwNQYJKoZIhvcNAQkBFihwcm90b2NvbGxvQHBlYy5jb211bmVzYW5naW9yZ2lvaW9uaWNvLml0MS4wLAYDVQRTDCVodHRwczovL3d3dy5jb211bmVzYW5naW9yZ2lvaW9uaWNvLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAxM8MvozOjGGXHt15QsLUbuHhEETXeNI3PstgLfRzXB6A0ovj0u41uT3vLc59GQnXkPOCXG//UpVX3WUnphD84giLQAAAvVngBsvolaefGlXAQ7p4VKb4BD9Tk4zoAJpYJGTXFMl4Fyh1OxCnGADppoAqL5tlSqaljgGDrkm0rCNtA2+ouqh6MWRnRLjI3Etln8tAAfPUC2xu3wu1ypNl1WZetv38fm7GT3V0rg6BsDttTCtr362qKzmVTBYfGsQ5u4u2+1wmFDvUHVj3LvPPTAW6FiXwVMvf4leo56O0ysXRpakJKfHw6gnPw4gRcZhdcKqgfUWwgfHx01CE0XgYJQIDAQABMA0GCSqGSIb3DQEBCwUAA4IBAQC3a/2I7WkGAFJnLKCK/owN28PUvOeEJQcVwvRda7fU4eSg82EcN6PGvbz7DvSn4x3fndjg43E82/dHCkB6kLMBQmRSp/c9OObEgfDlH6JICaByJfkXLAHnyhAQxNGPJj3VZwjBoijFDovixt2hmoW6uBtZ7yOeXIyST1scrLW75HmOuFxLpwB3oTs51XlGLLEULdalsRcXYAbnwszAqoYiRHO5ko06+BLaFk5+syNgees/bhF13wDFsksXkfCZkaY4LTgkzXu/9W11toSIRNOAYllCPP/m73yLgE3kIZqmWAqqG3bEe3ulbUlv5mgkwyAI+w6gkthePq018Aq4YdT8</ds:X509Certificate></ds:X509Data>
+            </ds:KeyInfo>
+        </md:KeyDescriptor>        <md:KeyDescriptor use="signing">
+            <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+                <ds:X509Data>
+                    <ds:X509Certificate>MIID5zCCAs+gAwIBAgIJAMCLzPZLQW5VMA0GCSqGSIb3DQEBCwUAMIGJMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxGzAZBgNVBAcMElNhbiBHaW9yZ2lvIElvbmljbzElMCMGA1UECgwcQ29tdW5lIGRpIFNhbiBHaW9yZ2lvIElvbmljbzEmMCQGA1UEAwwdd3d3LmNvbXVuZXNhbmdpb3JnaW9pb25pY28uaXQwHhcNMjEwNTI2MTA1OTI0WhcNMzEwNTI2MTA1OTI0WjCBiTELMAkGA1UEBhMCSVQxDjAMBgNVBAgMBUl0YWx5MRswGQYDVQQHDBJTYW4gR2lvcmdpbyBJb25pY28xJTAjBgNVBAoMHENvbXVuZSBkaSBTYW4gR2lvcmdpbyBJb25pY28xJjAkBgNVBAMMHXd3dy5jb211bmVzYW5naW9yZ2lvaW9uaWNvLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA0lT030kRdcKKcmYhnJfSh4kc6dSCjhXmT2wh6dENhqcBqZqy8DoQ8rzkH1SG5eTwyGs4YvRYr7luvCPJ/zvjx0YutbkltZt1u8eiQWTadX2w81LdoCU/WJe777q6Au8z+BGft/0qtXuYtVioXJ6RI2RRMdjFgJgBn1jdtgeQnrhW9ecsUqi2Nv8AZbQx1kXOhNIoZ5RXOukUHdxHt6zvV2rPpMiOQft9WWdb/bRLHAayxZM7ib/m+bvQREKCPxCBn8eoLuYd38FgkZOogPhhTrNU64no9IQou0TPAGKx0LI02o1CgJS3VgHfCp266+IXtyUkm2lUCrNhXFCkjhAAXQIDAQABo1AwTjAdBgNVHQ4EFgQUsr3Jf1s3BWpJkaUCOP+FWu9wS+swHwYDVR0jBBgwFoAUsr3Jf1s3BWpJkaUCOP+FWu9wS+swDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAl67TdkhYTr0SCFQeHjtTrhIqgKx9szcn1ruhv1/zo714UlcUJz2BXMjCZWO0sDJ1eNF+c2OZ6IVFlKIK4fq7z15repxStVoC+dGSq0d29Gz7ZfABXlrHiBNm1ab6sXH9BLVVu0rFxSQzWVEQPs9foD2dx9X9n0975U53XTZbvEQAF5xAk6TxbbgrBMJD86aufO8PpQu3MgudkxjgU/yedSE16YazgnnHFxmymRBOtq+HDkN2unEGcFqNPUPhkW2Z7gzSr4IgmLXtw8Jaql3nupUw0U0L+o1hmZ5WpJT5OUlico21VmFyIGXubJywsd+W5rdLiKuqxo6Dw5QqZfbYYg==</ds:X509Certificate>
+                </ds:X509Data>
+            </ds:KeyInfo>
+        </md:KeyDescriptor>
+            <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.comunesangiorgioionico.it/spid/module.php/saml/sp/saml2-logout.php/spid"/>
+            <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sangiorgioionico.login.opencityitalia.it/slo"/>        
+        <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+        <md:AssertionConsumerService index="0" isDefault="true" Location="https://www.comunesangiorgioionico.it/spid/module.php/saml/sp/saml2-acs.php/spid" Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST"/>
+        <md:AssertionConsumerService index="1" Location="https://sangiorgioionico.login.opencityitalia.it/acs" Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST"/>
+        <md:AttributeConsumingService index="0">
+            <md:ServiceName xml:lang="it">Set 0</md:ServiceName>       
+            <md:RequestedAttribute Name="companyName"/>
+            <md:RequestedAttribute Name="fiscalNumber"/>
+            <md:RequestedAttribute Name="ivaCode"/>
+            <md:RequestedAttribute Name="spidCode"/>
+            <md:RequestedAttribute Name="name"/>
+            <md:RequestedAttribute Name="familyName"/></md:AttributeConsumingService>
+        <md:AttributeConsumingService index="1">
+            <md:ServiceName xml:lang="it">Set 1</md:ServiceName>       
+            <md:RequestedAttribute Name="gender"/>
+            <md:RequestedAttribute Name="companyName"/>
+            <md:RequestedAttribute Name="registeredOffice"/>
+            <md:RequestedAttribute Name="fiscalNumber"/>
+            <md:RequestedAttribute Name="ivaCode"/>
+            <md:RequestedAttribute Name="idCard"/>
+            <md:RequestedAttribute Name="spidCode"/>
+            <md:RequestedAttribute Name="name"/>
+            <md:RequestedAttribute Name="familyName"/>
+            <md:RequestedAttribute Name="placeOfBirth"/>
+            <md:RequestedAttribute Name="countyOfBirth"/>
+            <md:RequestedAttribute Name="dateOfBirth"/>
+            <md:RequestedAttribute Name="mobilePhone"/>
+            <md:RequestedAttribute Name="email"/>
+            <md:RequestedAttribute Name="address"/>
+            <md:RequestedAttribute Name="expirationDate"/>
+            <md:RequestedAttribute Name="digitalAddress"/></md:AttributeConsumingService></md:SPSSODescriptor><md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di San Giorgio Ionico</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di San Giorgio Ionico</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.comunesangiorgioionico.it</md:OrganizationURL>
+</md:Organization><md:ContactPerson contactType="other"><md:Extensions><spid:IPACode>c_h882</spid:IPACode><spid:Public/><spid:FiscalCode>80009010739</spid:FiscalCode></md:Extensions><md:EmailAddress>protocollo@pec.comunesangiorgioionico.it</md:EmailAddress><md:TelephoneNumber>+390995915111</md:TelephoneNumber></md:ContactPerson></md:EntityDescriptor>
