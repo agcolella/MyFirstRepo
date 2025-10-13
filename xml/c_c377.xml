@@ -1,0 +1,92 @@
+<?xml version="1.0"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:spid="https://spid.gov.it/saml-extensions" entityID="https://iolcav.comune.cavallino.le.it" ID="https___iolcav_comune_cavallino_le_it"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+  <ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+    <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+  <ds:Reference URI="#https___iolcav_comune_cavallino_le_it"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>B3KObuYUd0D1t/nZrjwWOpGUiiAOs2BHWmTb0k0lusM=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>TmKkJGEPS/6lYv85Yt5apT7renu2JeFD0BF8aJx8a9ck/Evra9P0YbdLGtUKo68Egv64Ra95GTtfwsHwk78m3EIP0HkdUaQIxlNudjm3vXBEGJtiLHUml0GaONeRfyqzQTL0s30uskJwYWtYtpH24+iE6AgeKSYF95y7+YoUmnYPM3OgsGpiLAaww9/7mR3/zHqztDqZM+RRkbgSi6suT5clBn/thQgJj8MEbkezvosVLYu5yhj5xpfbED/mbiFC1/mYGSk7vQ0rlvhqp79wcuG9gLPb3h1sN3aBq/zK4NDf+RNmwFgNXSZjJlEQhajM0MWLp7VwHEF/dDSUUGwh9g==</ds:SignatureValue>
+<ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIENjCCAx6gAwIBAgIIPEpMJcyUOr8wDQYJKoZIhvcNAQELBQAwgdoxHDAaBgNVBAoME0NvbXVuZSBkaSBDYXZhbGxpbm8xFTATBgNVBGEMDFBBOklULWNfYzM3NzELMAkGA1UEBhMCSVQxEjAQBgNVBAcMCUNhdmFsbGlubzESMBAGA1UEAwwJQ2F2YWxsaW5vMT4wPAYJKoZIhvcNAQkBFi9wcm90b2NvbGxvLmNvbXVuZS5jYXZhbGxpbm9AcGVjLnJ1cGFyLnB1Z2xpYS5pdDEuMCwGA1UEUwwlaHR0cHM6Ly9pb2xjYXYuY29tdW5lLmNhdmFsbGluby5sZS5pdDAeFw0yNDAzMDcxMjA1NTlaFw0yNjAzMDcxMjA1NTlaMIHaMRwwGgYDVQQKDBNDb211bmUgZGkgQ2F2YWxsaW5vMRUwEwYDVQRhDAxQQTpJVC1jX2MzNzcxCzAJBgNVBAYTAklUMRIwEAYDVQQHDAlDYXZhbGxpbm8xEjAQBgNVBAMMCUNhdmFsbGlubzE+MDwGCSqGSIb3DQEJARYvcHJvdG9jb2xsby5jb211bmUuY2F2YWxsaW5vQHBlYy5ydXBhci5wdWdsaWEuaXQxLjAsBgNVBFMMJWh0dHBzOi8vaW9sY2F2LmNvbXVuZS5jYXZhbGxpbm8ubGUuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDbwy2q/53r8SkvtpGrJup2JzkiItdBj22GdP7LmrYU95z3N8n1gsc0FSt6s7Ygf8YfJgNyqwTd0S5MnRbJWNgAz/ICJctClr3xggAH+P8fJLMPVFux/gcgy4YBWD/YRmhTmjrcnZglt+C4z18K+CjpDQ3fpa8usZ11HgrDR/0cI8qkSa/2B/GomR+3HfTcHq3xfn9+KZ31mzMrCBP7QQ3saMUixsgJi3+2GyzAeOFWLN2zPp6s3JRCwvLjg4MUg2ym67M1nePAtmKBCs+Ff4RWI/p8un0FnMs/2Xj3Bet79y2N9HEqX39iga/e6whjQGJuefnx6l9f9C0K8dUD4P2vAgMBAAEwDQYJKoZIhvcNAQELBQADggEBAFKmR8f38tLo4tdPSuRNiKwMplY3DP9qPU92vSTGssayNOrzDxlXHU2NQVtVsDlA1Qcso22vvL2gJcIAanqDSxyYIHztR64BoJkWX6oiTIdeo3BR8SHgwdOhy+n+4/GWd4MsbkCTzXYqIuAwOI9LNw+M/Nw4BZ6QbkCUEaGUIIdeNMDnHWTuensl8FVNFUEjBzMWCebW6imrGeK9MPlopACbnnutJrZmHX6ys9pms9W5c1WXUv5LUIJzHRsWKX7qwERK/pD8WjQge8I0CRBXbVn2cM36MNmmsEqK1eMlaRzgbH0g5OI2v71WSo/HWKfBPbyDF8+c+8+W3W1SEJXQGX4=</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature>
+    <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true" WantAssertionsSigned="true">
+        <md:KeyDescriptor use="signing">
+            <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+                <ds:X509Data><ds:X509Certificate>MIIENjCCAx6gAwIBAgIIPEpMJcyUOr8wDQYJKoZIhvcNAQELBQAwgdoxHDAaBgNVBAoME0NvbXVuZSBkaSBDYXZhbGxpbm8xFTATBgNVBGEMDFBBOklULWNfYzM3NzELMAkGA1UEBhMCSVQxEjAQBgNVBAcMCUNhdmFsbGlubzESMBAGA1UEAwwJQ2F2YWxsaW5vMT4wPAYJKoZIhvcNAQkBFi9wcm90b2NvbGxvLmNvbXVuZS5jYXZhbGxpbm9AcGVjLnJ1cGFyLnB1Z2xpYS5pdDEuMCwGA1UEUwwlaHR0cHM6Ly9pb2xjYXYuY29tdW5lLmNhdmFsbGluby5sZS5pdDAeFw0yNDAzMDcxMjA1NTlaFw0yNjAzMDcxMjA1NTlaMIHaMRwwGgYDVQQKDBNDb211bmUgZGkgQ2F2YWxsaW5vMRUwEwYDVQRhDAxQQTpJVC1jX2MzNzcxCzAJBgNVBAYTAklUMRIwEAYDVQQHDAlDYXZhbGxpbm8xEjAQBgNVBAMMCUNhdmFsbGlubzE+MDwGCSqGSIb3DQEJARYvcHJvdG9jb2xsby5jb211bmUuY2F2YWxsaW5vQHBlYy5ydXBhci5wdWdsaWEuaXQxLjAsBgNVBFMMJWh0dHBzOi8vaW9sY2F2LmNvbXVuZS5jYXZhbGxpbm8ubGUuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDbwy2q/53r8SkvtpGrJup2JzkiItdBj22GdP7LmrYU95z3N8n1gsc0FSt6s7Ygf8YfJgNyqwTd0S5MnRbJWNgAz/ICJctClr3xggAH+P8fJLMPVFux/gcgy4YBWD/YRmhTmjrcnZglt+C4z18K+CjpDQ3fpa8usZ11HgrDR/0cI8qkSa/2B/GomR+3HfTcHq3xfn9+KZ31mzMrCBP7QQ3saMUixsgJi3+2GyzAeOFWLN2zPp6s3JRCwvLjg4MUg2ym67M1nePAtmKBCs+Ff4RWI/p8un0FnMs/2Xj3Bet79y2N9HEqX39iga/e6whjQGJuefnx6l9f9C0K8dUD4P2vAgMBAAEwDQYJKoZIhvcNAQELBQADggEBAFKmR8f38tLo4tdPSuRNiKwMplY3DP9qPU92vSTGssayNOrzDxlXHU2NQVtVsDlA1Qcso22vvL2gJcIAanqDSxyYIHztR64BoJkWX6oiTIdeo3BR8SHgwdOhy+n+4/GWd4MsbkCTzXYqIuAwOI9LNw+M/Nw4BZ6QbkCUEaGUIIdeNMDnHWTuensl8FVNFUEjBzMWCebW6imrGeK9MPlopACbnnutJrZmHX6ys9pms9W5c1WXUv5LUIJzHRsWKX7qwERK/pD8WjQge8I0CRBXbVn2cM36MNmmsEqK1eMlaRzgbH0g5OI2v71WSo/HWKfBPbyDF8+c+8+W3W1SEJXQGX4=</ds:X509Certificate></ds:X509Data>
+            </ds:KeyInfo>
+        </md:KeyDescriptor>        <md:KeyDescriptor use="signing">
+            <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+                <ds:X509Data>
+                    <ds:X509Certificate>MIIGVDCCBDygAwIBAgIJAN4Vinby6UagMA0GCSqGSIb3DQEBCwUAMIG+MQswCQYDVQQGEwJJVDEO MAwGA1UECAwFTGVjY2UxEjAQBgNVBAcMCUNhdmFsbGlubzEhMB8GA1UECgwYSXN0YW56ZSBPbmxp bmUgQ2F2YWxsaW5vMSEwHwYDVQQLDBhJc3RhbnplIE9ubGluZSBDYXZhbGxpbm8xGTAXBgNVBAMM EGlzdGFuemVjYXZhbGxpbm8xKjAoBgkqhkiG9w0BCQEWG2dpYW5sdWNhLm1vbnRlQHBhcnNlYzMy Ni5pdDAeFw0yMTAyMTgxMDM5MDFaFw0zMTAyMTYxMDM5MDFaMIG+MQswCQYDVQQGEwJJVDEOMAwG A1UECAwFTGVjY2UxEjAQBgNVBAcMCUNhdmFsbGlubzEhMB8GA1UECgwYSXN0YW56ZSBPbmxpbmUg Q2F2YWxsaW5vMSEwHwYDVQQLDBhJc3RhbnplIE9ubGluZSBDYXZhbGxpbm8xGTAXBgNVBAMMEGlz dGFuemVjYXZhbGxpbm8xKjAoBgkqhkiG9w0BCQEWG2dpYW5sdWNhLm1vbnRlQHBhcnNlYzMyNi5p dDCCAiIwDQYJKoZIhvcNAQEBBQADggIPADCCAgoCggIBAMBx5LBuTB3EDQfS8I5h5wKejR4wBb0V HHnaKD0cC1YOTvixKXP4Lg+MkubogxMe+3vJbEAOwR3ESXWyFgura3zHLv1BKZMGUWRTmIyTjV68 N8rlCrORztWJI0Wr2lEPiEBOczqRFyhP1Ua4cp2KANA1vJKwpC60pOIVeDx4b5YmGGxoreigtsCg Bk0/KnYN8IyrsWcBG3BhboIk5KaYQdSbSOf/EhutpQPjstFodfio6YI8PC9fzTA3p7tYPClvp9M9 4SEKE7uxDdvGskUTKxKGYeEyzEvor5t5sN3qPR2/G58m2NmUvBqObfWxtSrwgyyKH5ql2F5EC0+z gugegGC57t1YaBpqa/aznnU1LK2RDCIHts5bS03s8znfWsSgJxji94qV8wCgnKNeLIbLTUlneBgf jpzKAvfv0E1Yu9cZjQyx/2fTygJgBroeUaD/OtGnkK6C7EcCykUeLiQ2YUWeyVm9DOBnRPLfhL28 pxEo+qQNKbiFAdZq5QToqGegdzk+1wnUQaHbul8xzXinB8NEZOQDEZgIjBkNsD9wHtAZfEsZFbzw gBDhavs1Z7jlpx7N240HdnXuCdqfq8IdPTibvmZ4s3qxRMbu+YbL64Du7zsfnPCwzPT8CX+JDGQ0 Dp88TURfag1ZYFZi6SPRqHx7Rh0w1UBeRJcIu92Rl0BRAgMBAAGjUzBRMB0GA1UdDgQWBBS+tRkQ VE9H13UCgHZx+SE/U7952DAfBgNVHSMEGDAWgBS+tRkQVE9H13UCgHZx+SE/U7952DAPBgNVHRMB Af8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4ICAQAIaPuHj45NQZJq13CadIjLeN1NRK/bTz2Dcw5T gSKahRe6yjdk0Q5zoLeOG/1grnwf4ox+H0Yith7nQODCxE/l0tSiyj1CMLjrpt6WQtvztQsnxtKc 4CdG8zIQWIIj4XSAdTSaAg1f/C2mVbBGOX+FRFN7G4+BP65e1OxKSgJccjurAoxybNLPEFYy7mGq KxKglpFouQuERdZQttXP8VSJsswHsTjNOJFx7WzyMUiivWNBzgQ6jcmuF+4iWW3rcna0LWRGvw4I i0MY7shfRWvzPU+pLA5oCEJUAvAycLn5N7jy+r8oOjy1LWsMt47eCY4xkbWowD2OhbOfUek7E/Tz kW61qRjIELyV+Wroh+5OQLZr+uAyxXVbc+MYcWc5iCs3LiAozZLS0BB+ZrTBf9IY2l+KfHS1B669 zGSfBdoUbKdZMPdYX0ul3fe6yS5TtBRNSu12jRbu2ZPTI0iHveU4t63D9UM3LMAWroFk8cuX9MLB 7o58ZkGkJbEKAMUDKviiNY/pDIQS14hxc/sJdxTXFsdNvfFRNOyZ2tZPC5+Ki+imhW3Mu8GkQXit 26ofjEN+MIgC6mlbtX42x2bHVgsKN0q0JFJUDHiyNeK0PRDgFEWobgLgk19XIz976CKIRzKNfTnO dIJWgDHQ5im8A3sb2p5iFHkUteZF3fKfC1A7pQ==</ds:X509Certificate>
+                </ds:X509Data>
+            </ds:KeyInfo>
+        </md:KeyDescriptor>        <md:KeyDescriptor use="signing">
+            <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+                <ds:X509Data>
+                    <ds:X509Certificate>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</ds:X509Certificate>
+                </ds:X509Data>
+            </ds:KeyInfo>
+        </md:KeyDescriptor>
+            <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://iolcav.comune.cavallino.le.it/SpidSaml/LogoutRequest"/>
+            <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://iolcav.comune.cavallino.le.it/SpidSaml/LogoutRequest"/>
+            <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://cavallino.login.opencityitalia.it/slo"/>        
+        <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+        <md:AssertionConsumerService index="0" isDefault="true" Location="https://iolcav.comune.cavallino.le.it/SpidSaml/ACS" Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST"/>
+        <md:AssertionConsumerService index="1" Location="https://iolcav.comune.cavallino.le.it/SpidSaml/ACS" Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST"/>
+        <md:AssertionConsumerService index="2" Location="https://cavallino.login.opencityitalia.it/acs" Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST"/>
+        <md:AttributeConsumingService index="0">
+            <md:ServiceName xml:lang="it">Set 0</md:ServiceName>       
+            <md:RequestedAttribute Name="gender"/>
+            <md:RequestedAttribute Name="companyName"/>
+            <md:RequestedAttribute Name="registeredOffice"/>
+            <md:RequestedAttribute Name="fiscalNumber"/>
+            <md:RequestedAttribute Name="ivaCode"/>
+            <md:RequestedAttribute Name="idCard"/>
+            <md:RequestedAttribute Name="spidCode"/>
+            <md:RequestedAttribute Name="name"/>
+            <md:RequestedAttribute Name="familyName"/>
+            <md:RequestedAttribute Name="placeOfBirth"/>
+            <md:RequestedAttribute Name="countyOfBirth"/>
+            <md:RequestedAttribute Name="dateOfBirth"/>
+            <md:RequestedAttribute Name="mobilePhone"/>
+            <md:RequestedAttribute Name="email"/>
+            <md:RequestedAttribute Name="address"/>
+            <md:RequestedAttribute Name="expirationDate"/>
+            <md:RequestedAttribute Name="digitalAddress"/></md:AttributeConsumingService>
+        <md:AttributeConsumingService index="1">
+            <md:ServiceName xml:lang="it">Set 1</md:ServiceName>       
+            <md:RequestedAttribute Name="gender"/>
+            <md:RequestedAttribute Name="companyName"/>
+            <md:RequestedAttribute Name="registeredOffice"/>
+            <md:RequestedAttribute Name="fiscalNumber"/>
+            <md:RequestedAttribute Name="ivaCode"/>
+            <md:RequestedAttribute Name="idCard"/>
+            <md:RequestedAttribute Name="spidCode"/>
+            <md:RequestedAttribute Name="name"/>
+            <md:RequestedAttribute Name="familyName"/>
+            <md:RequestedAttribute Name="placeOfBirth"/>
+            <md:RequestedAttribute Name="countyOfBirth"/>
+            <md:RequestedAttribute Name="dateOfBirth"/>
+            <md:RequestedAttribute Name="mobilePhone"/>
+            <md:RequestedAttribute Name="email"/>
+            <md:RequestedAttribute Name="address"/>
+            <md:RequestedAttribute Name="expirationDate"/>
+            <md:RequestedAttribute Name="digitalAddress"/></md:AttributeConsumingService>
+        <md:AttributeConsumingService index="2">
+            <md:ServiceName xml:lang="it">Set 2</md:ServiceName>       
+            <md:RequestedAttribute Name="gender"/>
+            <md:RequestedAttribute Name="companyName"/>
+            <md:RequestedAttribute Name="registeredOffice"/>
+            <md:RequestedAttribute Name="fiscalNumber"/>
+            <md:RequestedAttribute Name="ivaCode"/>
+            <md:RequestedAttribute Name="idCard"/>
+            <md:RequestedAttribute Name="spidCode"/>
+            <md:RequestedAttribute Name="name"/>
+            <md:RequestedAttribute Name="familyName"/>
+            <md:RequestedAttribute Name="placeOfBirth"/>
+            <md:RequestedAttribute Name="countyOfBirth"/>
+            <md:RequestedAttribute Name="dateOfBirth"/>
+            <md:RequestedAttribute Name="mobilePhone"/>
+            <md:RequestedAttribute Name="email"/>
+            <md:RequestedAttribute Name="address"/>
+            <md:RequestedAttribute Name="expirationDate"/>
+            <md:RequestedAttribute Name="digitalAddress"/></md:AttributeConsumingService></md:SPSSODescriptor><md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Cavallino</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Cavallino</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://iolcav.comune.cavallino.le.it</md:OrganizationURL>
+</md:Organization><md:ContactPerson contactType="other"><md:Extensions><spid:IPACode>c_c377</spid:IPACode><spid:Public/><spid:FiscalCode>80011020759</spid:FiscalCode></md:Extensions><md:EmailAddress>protocollo.comune.cavallino@pec.rupar.puglia.it</md:EmailAddress><md:TelephoneNumber>+390832617111</md:TelephoneNumber></md:ContactPerson></md:EntityDescriptor>
