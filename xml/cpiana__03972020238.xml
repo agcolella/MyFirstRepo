@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:spid="https://spid.gov.it/saml-extensions" entityID="https://spid.sogiscuola.com/pub-ag-full/cpiana" ID="https___spid_sogiscuola_com_pub-ag-full_cpiana"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+  <ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+    <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+  <ds:Reference URI="#https___spid_sogiscuola_com_pub-ag-full_cpiana"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>3sR8R+kyIPtp1K+t+dkSTY0mQ2ff/f6TqKLqcmmFSbA=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>JT55J5NsFW6I+uO+iLleWk9g0Bf8u4mEGXmHNIOKg/kUK1BYOO9I/7SJlisLXDMjGgQNCCZXTasDO+GihCLWv+BCpwngnB4TUMgisGOsTivSIX5lZG1MakHd5ONgzdSt+E/bXhdQ9LyO7qCK50gPV5fUGLvWQm4I0FFuRtp8/kiFztCMTuwBIvyb1oRYfFawa+Yb4Zpb1LafA9YdXg/BV7FCTppxIFSgQ1vm1HSEEmmoO/jK+B+XK6n2YJp/Hz8SpHhBmZEPDDap2PLLqPNYrEkY75W2gpnGkUP2mCI+uYImWML48aLiwlbsBJtWm3rcVcLYiEIlP3u3Pe2o8EADn4bxTE+o8Lxt4Ql1sC4Ga1KFcGv0SrLp3c8JKxsQey1r6oJoms4tG5vIbPizNi5m5xkrjZ9yv5kO0TwBLpjtci+jhLKkrb3YxpNWaQPu0o1JOoiC1mW8ZfgbC2Oe7N7ycCb8sJWf8zbOZo1Ze/S8s2hArhptYSMK2P+/2JYWILyC</ds:SignatureValue>
+<ds:KeyInfo><ds:X509Data><ds:X509Certificate>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</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature>
+
+    <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true" WantAssertionsSigned="true">
+        <md:KeyDescriptor use="signing">
+            <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+                <ds:X509Data><ds:X509Certificate>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</ds:X509Certificate></ds:X509Data>
+            </ds:KeyInfo>
+        </md:KeyDescriptor>
+            <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.sogiscuola.com/pub-ag-full/cpiana/slo"/>
+            <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://spid.sogiscuola.com/pub-ag-full/cpiana/slo"/>        
+        <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+        <md:AssertionConsumerService index="0" isDefault="true" Location="https://spid.sogiscuola.com/pub-ag-full/cpiana/acs" Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST"/>
+        <md:AttributeConsumingService index="0">
+            <md:ServiceName xml:lang="it">Set 0</md:ServiceName>       
+                        <md:RequestedAttribute Name="name"/>
+            <md:RequestedAttribute Name="familyName"/>
+            <md:RequestedAttribute Name="fiscalNumber"/>
+            <md:RequestedAttribute Name="email"/>
+            <md:RequestedAttribute Name="spidCode"/>
+            
+        </md:AttributeConsumingService>
+        </md:SPSSODescriptor><md:Organization>
+    <md:OrganizationName xml:lang="it">CPIA NAPOLI CITTA' 1</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">CPIA NAPOLI CITTA' 1</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://spid.sogiscuola.com/pub-ag-full/cpiana/home</md:OrganizationURL>
+</md:Organization>
+<md:ContactPerson contactType="other" spid:entityType="spid:aggregator">  
+	<md:Extensions>
+		<spid:VATNumber>IT03972020238</spid:VATNumber>
+		<spid:FiscalCode>IT03972020238</spid:FiscalCode>
+		<spid:PublicServicesFullAggregator/>
+	</md:Extensions>
+
+	<md:Company>SOGI Scuola S.R.L.</md:Company>
+	<md:EmailAddress>spid@sogiscuola.it</md:EmailAddress>
+	<md:TelephoneNumber>+390456270680</md:TelephoneNumber>
+</md:ContactPerson>
+
+<md:ContactPerson contactType="other" spid:entityType="spid:aggregated">
+	<md:Extensions>
+		<spid:IPACode>cpiana</spid:IPACode>
+        <spid:Public/>
+	</md:Extensions>
+	<md:Company>CPIA NAPOLI CITTA' 1</md:Company>
+</md:ContactPerson>
+</md:EntityDescriptor>

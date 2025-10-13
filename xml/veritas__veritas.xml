@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="_504a754e-97fc-40eb-99a2-4bc2be63e946" entityID="https://serviziweb.gruppoveritas.it/pub-ag-full/veritassol"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#_504a754e-97fc-40eb-99a2-4bc2be63e946">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>9SBZ1etl9GnK20uBuxvaj7U0UF3T3Uvn6g9KFkul0+c=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+PRpfjyUGPvmX/G3Wpwzh3WiIxZeuGckfqHI+ihNHQamyiAeszBLnqdcEOjSeFFUDMg0J5JaAzs4w
+S5lL7BIzQF9/XUAkhkQRqRbeb43jw9zvjKKFaz68xjam92FZmHNFE9X6pFBSRHcr3gK/eqxq+Vns
+9zNqCebVJLY/DMzU9wVXdqqCfeZiOfKkNsx2zRbYNgxnANOMvKtlStW0HBw8helcbZdJ0ET9b7UF
+bVOMuggLhUM2sHGKktwR3P9TY6i1ohtvvC0d+UY9eGIZwaShmyWglEXB+NC4oHuzYGAm7X0K2//N
+mWXBW2aqOS4O1YKWDvQMrl3j6JREShh6ttwVd8D3cHOSnBZEa6mmC79ryvg5DQCttWHS/nRbjCMn
+2CC6S+engBLPilD+DjoeRRV7IxYSYGFKSYH9KVYHDgZhu7YmNAiUGbfTFL1ro3huz3rlJEC2ADZ9
+/ANElIDDsoXBJ5F/YmKCGJlkmYzKlNyAXSscPwzewyGm7p9qcMd2iu9PV9MqiBK9geR9++kx2lHE
+P/HJN9jyev9hypNZ9rVMvNrl35fmVwOg1849eFkZia2bhTZxDUW3a00rMnRFBHingf8z7yV+Mllx
+kcYyJ/whxc4xwyqO1vA9o7D+chNf9rM50hkzqFPfiFb/zB00VtQyLSjlbehMxCC3GUdxNtlNbIE=
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+viKeOE+xx5MCejaJ/yK+BvLfAS9w1Zkt24oZcVF1AiFq330ldnpGmuGe4jckxWBLrxwsYaMi+pVj
+aiisowZoqP7ZkKABswOYODVkgG5xjTGbXLhW7V6O3qm7RAXPVJDJmErBUCjomuRBkGse5+QYU4Yh
+j8/xixlyolR9E0rjxgo1fpZCwWhUmLy5deFyZ4ov+fKsH74ilLjTjmOayLTe4R5W2N9hTilA1OO4
++JsZLQKPrrtRJQizWVfe2voJlaanHQa4e5t3TWtiX938Bs+/IONNAMezzMJV+PwV9jd6dc5Ytbyq
+LXuK3Ocm/t+BEaaL/LAka42h2+3tMDEV/x6QlG/YuLnDls+LC/POzVZos71/Qfw5SNagVs7yWg/N
+DWNm1zZQxNBM8Whfpd6FWwKknpHSjwmmjrwyxncCujWimQs5p+2po4iS5KXcqPyfGHl5vZs/9rJ+
+CNTNSLG+W6Q6Ipj+kYZKGcfwY7XAlUi7VxNUHU3ArJyxpb2UhkRqY8noUl9dQRfGFPF9yWRdiQEt
+S+FDAiTmrTN2jZ5oSaQovt9I5GYbAqZrvcCrbk0Kd1S0Zb4QhL6oCJU6g1qUCxDuDGz4+IBwEQa+
+T8jaK+BwlWsOsbokvpNB36rx8T1b7PAHWvJFyQBcBh+YDyTP6dlSfUkQsEpdYBH+jcWqXUNqorc=
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIHQzCCBiugAwIBAgIQPc2Iyd0RNw/LT5B0Rt36tDANBgkqhkiG9w0BAQsFADBuMQswCQYDVQQG
+EwJHQjEPMA0GA1UECBMGTG9uZG9uMRAwDgYDVQQHEwdDcm95ZG9uMR8wHQYDVQQKExZUaGUgVHJ1
+c3RpY28gR3JvdXAgTHRkMRswGQYDVQQDExJUcnVzdGljbyBSU0EgRFYgQ0EwHhcNMjMxMTI4MDAw
+MDAwWhcNMjQxMjI4MjM1OTU5WjAdMRswGQYDVQQDDBIqLmdydXBwb3Zlcml0YXMuaXQwggIiMA0G
+CSqGSIb3DQEBAQUAA4ICDwAwggIKAoICAQC+Ip44T7HHkwJ6Non/Ir4G8t8BL3DVmS3bihlxUXUC
+IWrffSV2ekaa4Z7iNyTFYEuvHCxhoyL6lWNqKKyjBmio/tmQoAGzA5g4NWSAbnGNMZtcuFbtXo7e
+qbtEBc9UkMmYSsFQKOia5EGQax7n5BhThiGPz/GLGXKiVH0TSuPGCjV+lkLBaFSYvLl14XJnii/5
+8qwfviKUuNOOY5rItN7hHlbY32FOKUDU47j4mxktAo+uu1ElCLNZV97a+gmVpqcdBrh7m3dNa2Jf
+3fwGz78g400Ax7PMwlX4/BX2N3p1zli1vKote4rc5yb+34ERpov8sCRrjaHb7e0wMRX/HpCUb9i4
+ucOWz4sL887NVmizvX9B/DlI1qBWzvJaD80NY2bXNlDE0EzxaF+l3oVbAqSekdKPCaaOvDLGdwK6
+NaKZCzmn7amjiJLkpdyo/J8YeXm9mz/2sn4I1M1Isb5bpDoimP6RhkoZx/BjtcCVSLtXE1QdTcCs
+nLGlvZSGRGpjyehSX11BF8YU8X3JZF2JAS1L4UMCJOatM3aNnmhJpCi+30jkZhsCpmu9wKtuTQp3
+VLRlvhCEvqgIlTqDWpQLEO4MbPj4gHARBr5PyNor4HCVaw6xuiS+k0HfqvHxPVvs8Ada8kXJAFwG
+H5gPJM/p2VJ9SRCwSl1gEf6NxapdQ2qitwIDAQABo4IDLDCCAygwHwYDVR0jBBgwFoAUXYrRIwgv
+4Z2BztkscCi6lx+uGDUwHQYDVR0OBBYEFIVVGbzWpkgauGPq5lW3uHb2EmlkMA4GA1UdDwEB/wQE
+AwIFoDAMBgNVHRMBAf8EAjAAMB0GA1UdJQQWMBQGCCsGAQUFBwMBBggrBgEFBQcDAjBJBgNVHSAE
+QjBAMDQGCysGAQQBsjEBAgI6MCUwIwYIKwYBBQUHAgEWF2h0dHBzOi8vc2VjdGlnby5jb20vQ1BT
+MAgGBmeBDAECATA8BgNVHR8ENTAzMDGgL6AthitodHRwOi8vY3JsLmNvbW9kb2NhLmNvbS9UcnVz
+dGljb1JTQURWQ0EuY3JsMG0GCCsGAQUFBwEBBGEwXzA3BggrBgEFBQcwAoYraHR0cDovL2NydC5j
+b21vZG9jYS5jb20vVHJ1c3RpY29SU0FEVkNBLmNydDAkBggrBgEFBQcwAYYYaHR0cDovL29jc3Au
+Y29tb2RvY2EuY29tMC8GA1UdEQQoMCaCEiouZ3J1cHBvdmVyaXRhcy5pdIIQZ3J1cHBvdmVyaXRh
+cy5pdDCCAX4GCisGAQQB1nkCBAIEggFuBIIBagFoAHcAdv+IPwq2+5VRwmHM9Ye6NLSkzbsp3GhC
+Cp/mZ0xaOnQAAAGMFiWauwAABAMASDBGAiEA5AkPOL8SehOksmk4RcanZGkQm+I/f2Un51njwENP
+7/QCIQC+hqBpQ/m2gOOmV7am3e/4WbAweqnWzmsKcC+1GJ/TLwB1AD8XS0/XIkdYlB1lHIS+DRLt
+kDd/H4Vq68G/KIXs+GRuAAABjBYlm3MAAAQDAEYwRAIgAfYehqJnn9LS/daINNcDZDdE6GzBbbxS
+QeYMk5rwO5MCIGyvlnWP6NT5ygXGKW4nydKWAkXpd+97cOFVNzpHaJLqAHYA7s3QZNXbGs7FXLed
+tM0TojKHRny87N7DUUhZRnEftZsAAAGMFiWa4gAABAMARzBFAiEA4aTBuSU4BQAUElxyvQ1uuZem
+whigozFM1XtQW7e4FZQCIAcrXdHwQEyBGDCvPgOhwRCzGTH3CL2djKrNume2l+bVMA0GCSqGSIb3
+DQEBCwUAA4IBAQBY5n0PNDFQvETIOU/ZhhKQnU4hWHP5HRxer4B73nlanbl4/F/+adb+xCIKg2Dq
+FptXk+N5wImNGFv9pXAHGVWYlmt9+m9ZgnqoOjw73WK/2aCIqSW8ND0ls+3X5pUdDvAK4s5ht5uj
+j5jGu41MSHuqIJYFwCGwGrUZD3FY3vfR0qcYiYrSpBblNmGEs9IKs1QlSwFvhZXst/6/L0Cso/KC
+Sd807Bw3oyPkeFfElss2lC5O33Ux334yO700w+u/4ogTY1UuLyWTZD3GdcApmzBKiv7Pzhiv8oQP
+4ed2oXkdd4kIp2BnxHopyW3FRpmU6pEFkchaO+ILX7ys1S+Yn9oJ
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+	<md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+		<md:KeyDescriptor use="signing">
+			<ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+				<ds:X509Data>
+					<ds:X509Certificate>MIID9TCCAt2gAwIBAgIJAM1XgIHaNr+cMA0GCSqGSIb3DQEBCwUAMIGQMQswCQYDVQQGEwJJVDEP
+MA0GA1UECAwGSXRhbGlhMRAwDgYDVQQHDAdWZW5lemlhMRQwEgYDVQQKDAtWZXJpdGFzIFNwYTEQ
+MA4GA1UECwwHVmVyaXRhczEQMA4GA1UEAwwHVmVyaXRhczEkMCIGCSqGSIb3DQEJARYVaW5mb0Bn
+cnVwcG92ZXJpdGFzLml0MB4XDTE5MTEwNTE2MDcxN1oXDTI5MTEwNDE2MDcxN1owgZAxCzAJBgNV
+BAYTAklUMQ8wDQYDVQQIDAZJdGFsaWExEDAOBgNVBAcMB1ZlbmV6aWExFDASBgNVBAoMC1Zlcml0
+YXMgU3BhMRAwDgYDVQQLDAdWZXJpdGFzMRAwDgYDVQQDDAdWZXJpdGFzMSQwIgYJKoZIhvcNAQkB
+FhVpbmZvQGdydXBwb3Zlcml0YXMuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCs
++wGLHMxN0eOYIxFMbLXvS7rlcJ6TIGah2I7JiiM5uBc1EaCpsZQrSGsXCZZHGVVB1c4XGwMdQzHQ
+F1gzLXRhC6IbW1435aMMiin6k2PLfAxpbKD5D3FW7POUS7cG+8fvaNI+mWM/9JZpd8Hh8Uvur11b
+snR9XywlyTJXtxenMEls5O74STrEAfpkjscwp8meqNLvk6v30d5xO3b/lsqNs44HoByqOWW7SuXo
+ur1sisBBP9kcN8U55o6NOz0dC+XjtOBEek0Z4bVm/A8rpt6nmNatyWdK2QrvsuVQ5rb7kDJPz4hr
+hfWSEcGT1N9m0gdo5d4iEpOEtG18RlcUDHWPAgMBAAGjUDBOMB0GA1UdDgQWBBTQ35LbJDHzF/gP
+BzICCutOjbqiPjAfBgNVHSMEGDAWgBTQ35LbJDHzF/gPBzICCutOjbqiPjAMBgNVHRMEBTADAQH/
+MA0GCSqGSIb3DQEBCwUAA4IBAQCNsF1gpj8sPWP3yPh68D0Lo7ZKkBENeJFP5tAs2tbTFpKvU4E9
+S/bZzzGSIWKiSKDx8GCMp60VmniV8iciuG43TVGvJLckZjyxUeC2XoggxVmOX91ioknoyLwaCPgT
+kiY5X2hauEkpUZyUkUyzudv2DqUuHJY1sjQWIFRVmnJTRFTh1Xv1Z2/RlPBq0hOkDUGY1SI/G6bg
+/5XOb/mZuL0ybM3chGVPsv84VsRL+IbxSBog6PfZfQwvaUKzvzlFzlpV+tzD8cOePG4P5NqJW8rv
+aUNUZ9NulaUg/eAfGS0EzRXy54OLhpOyleApPGX+OeKJFaNTntHk1OuHZ66dbMKL</ds:X509Certificate>
+				</ds:X509Data>
+			</ds:KeyInfo>
+		</md:KeyDescriptor>
+		<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://serviziweb.gruppoveritas.it/c/portal/logout"/>
+		<md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+		<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://serviziweb.gruppoveritas.it/" index="0" isDefault="true"/>
+		<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://api-serviziweb.gruppoveritas.it/" index="1"/>
+		<md:AttributeConsumingService index="0">
+			<md:ServiceName xml:lang="it">SPID Veritas</md:ServiceName>
+			<md:RequestedAttribute Name="spidCode"/>
+			<md:RequestedAttribute Name="name"/>
+			<md:RequestedAttribute Name="familyName"/>
+			<md:RequestedAttribute Name="placeOfBirth"/>
+			<md:RequestedAttribute Name="countyOfBirth"/>
+			<md:RequestedAttribute Name="dateOfBirth"/>
+			<md:RequestedAttribute Name="gender"/>
+			<md:RequestedAttribute Name="fiscalNumber"/>
+			<md:RequestedAttribute Name="email"/>
+			<md:RequestedAttribute Name="mobilePhone"/>
+			<md:RequestedAttribute Name="domicileStreetAddress"/>
+			<md:RequestedAttribute Name="domicilePostalCode"/>
+			<md:RequestedAttribute Name="domicileMunicipality"/>
+			<md:RequestedAttribute Name="domicileProvince"/>
+			<md:RequestedAttribute Name="domicileNation"/>
+			<md:RequestedAttribute Name="idCard"/>
+		</md:AttributeConsumingService>
+		<md:AttributeConsumingService index="1">
+			<md:ServiceName xml:lang="it">SPID Veritas Api</md:ServiceName>
+			<md:RequestedAttribute Name="spidCode"/>
+			<md:RequestedAttribute Name="name"/>
+			<md:RequestedAttribute Name="familyName"/>
+			<md:RequestedAttribute Name="placeOfBirth"/>
+			<md:RequestedAttribute Name="countyOfBirth"/>
+			<md:RequestedAttribute Name="dateOfBirth"/>
+			<md:RequestedAttribute Name="gender"/>
+			<md:RequestedAttribute Name="fiscalNumber"/>
+			<md:RequestedAttribute Name="email"/>
+			<md:RequestedAttribute Name="mobilePhone"/>
+			<md:RequestedAttribute Name="domicileStreetAddress"/>
+			<md:RequestedAttribute Name="domicilePostalCode"/>
+			<md:RequestedAttribute Name="domicileMunicipality"/>
+			<md:RequestedAttribute Name="domicileProvince"/>
+			<md:RequestedAttribute Name="domicileNation"/>
+			<md:RequestedAttribute Name="idCard"/>
+		</md:AttributeConsumingService>
+	</md:SPSSODescriptor>
+	<md:Organization>
+		<md:OrganizationName xml:lang="it">Veritas</md:OrganizationName>
+		<md:OrganizationDisplayName xml:lang="it">Veritas</md:OrganizationDisplayName>
+		<md:OrganizationURL xml:lang="it">https://serviziweb.gruppoveritas.it</md:OrganizationURL>
+	</md:Organization>
+	<md:ContactPerson xmlns:spid="https://spid.gov.it/saml-extensions" contactType="other" spid:entityType="spid:aggregator">
+		<ns2:Extensions xmlns="https://spid.gov.it/saml-extensions" xmlns:ns2="urn:oasis:names:tc:SAML:2.0:metadata">
+			<IPACode>veritas</IPACode>
+			<PublicServicesFullAggregator/>
+		</ns2:Extensions>
+		<md:Company>Veritas</md:Company>
+		<md:EmailAddress>comunicazioni.agid@gruppoveritas.it</md:EmailAddress>
+	</md:ContactPerson>
+	<md:ContactPerson xmlns:spid="https://spid.gov.it/saml-extensions" contactType="other" spid:entityType="spid:aggregated">
+		<ns2:Extensions xmlns="https://spid.gov.it/saml-extensions" xmlns:ns2="urn:oasis:names:tc:SAML:2.0:metadata">
+			<IPACode>veritas</IPACode>
+			<Public/>
+		</ns2:Extensions>
+		<md:Company>Veritas</md:Company>
+	</md:ContactPerson>
+</md:EntityDescriptor>

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" ID="_c04c636c14bf4f939964cd1561bbd273" entityID="https://spid.ospedalimarchenord.it/O4S.sso"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#_c04c636c14bf4f939964cd1561bbd273">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>iwP+EpdnrefANwMz8pV8RvZrP0LteduwK8xSZRGqrso=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+mr3mcf7YBURAsg6xEBjShMl12EPIxsYnABZQt/wgW/epZ2dKkfS9nWLg2jFoTp19hTJI7G8OnIoB
+WwTaM+mxn6PBm8KAWSYexVys7wga5LtRnW5Sluc2Az8LLVy6zdCTA7POnoTK7DADG7XJh2IrfYrg
+dslXP0Dv2UBJSBKXAYzcxpfGsY6nHZVYWocQGtS0awA3kQoz8K8DDUtluWuP8TfTzrks5J4w/1ik
+kvvM7bCBkylCZ+I6qLKQ9GR9KNqDypsMJZWWYxnebWAAbOHBDjBva277He73Jq+k5DUuBdClPSCV
+vw0ferUeHZFJs4OVipGvRfPQ0Rt5nHcC5DIXRDOYbKyS3Pqr1Lumy7KUqe6lFka/YeC1zCgsr+vm
+g3fUnf+qSAtgYjQcCm1yFAttQun/liDcOpXqqcpakCtnYGolFxHfHz4lzKOLyDLyItNjG4hQJhKo
+ZRmWuAtrVXKNH+joxXOrvq95L5FMfgzqEm1IzOieF5c+dxCynDCdyoWs
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+yh4CEqyJD4aFo8l5RIP/S8s/MSD/gNpx6gEvrP/BenjZZuI6Cbk/nkobqglU525T9QZx/iSA71yh
+ASIfDrUtwS9oHPu6htBy7vl/BvUGJbyF4Av6fuVYvcOPEhEgzE6oVNTnHO2kXUiwY8KB0r7QyLeF
+eHquP7C+Q/anqS1WMs0enVxst33hem+dgGjJZnPEyu57vm1I4n0NzYmpFTvQitj6PPX3qTcJJ+Dt
+K983AzAMoTSK6j/x6bwR3y8rdgA8nHn53w60Eor+DMhyg/GtXi8l++VMIuaeS4pEFuzNkeiT45lC
+5343MvIoy6UwAhQLg0VdolkrpFU6IGKWEafPg1gDxro2Lke+q9SLdnYO8hPDw7mxZk4jYEHngoQ5
+dFb7l1aYr+eK+BGeqx24lb6LJRXffuhd440xGOZvQzepSH10KUe0SxVx+ZqDetmE05G7jc0uD+X9
+4fU/PagrCuIYxVZyugWnp7Vj979w+1K0jNO+1K7O9c4VeSQ/IPUVq+Yf
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIF6jCCBFKgAwIBAgIUJ3g1+H4VHlwxrrm/4blRNAF7d5YwDQYJKoZIhvcNAQENBQAwgeQxOjA4
+BgNVBAMMMUFaSUVOREEgU0FOSVRBUklBIFRFUlJJVE9SSUFMRSBESSBQRVNBUk8gRSBVUkJJTk8x
+CzAJBgNVBAYTAklUMQ8wDQYDVQQHDAZQZXNhcm8xFzAVBgNVBGEMDlBBOklULVI2STdaU0VSMTow
+OAYDVQQKDDFBWklFTkRBIFNBTklUQVJJQSBURVJSSVRPUklBTEUgREkgUEVTQVJPIEUgVVJCSU5P
+MTMwMQYDVQRTDCpodHRwczovL3NwaWQub3NwZWRhbGltYXJjaGVub3JkLml0L080Uy5zc28wHhcN
+MjQwNjA1MDc0ODI3WhcNMzQwNjAzMDc0ODI3WjCB5DE6MDgGA1UEAwwxQVpJRU5EQSBTQU5JVEFS
+SUEgVEVSUklUT1JJQUxFIERJIFBFU0FSTyBFIFVSQklOTzELMAkGA1UEBhMCSVQxDzANBgNVBAcM
+BlBlc2FybzEXMBUGA1UEYQwOUEE6SVQtUjZJN1pTRVIxOjA4BgNVBAoMMUFaSUVOREEgU0FOSVRB
+UklBIFRFUlJJVE9SSUFMRSBESSBQRVNBUk8gRSBVUkJJTk8xMzAxBgNVBFMMKmh0dHBzOi8vc3Bp
+ZC5vc3BlZGFsaW1hcmNoZW5vcmQuaXQvTzRTLnNzbzCCAaIwDQYJKoZIhvcNAQEBBQADggGPADCC
+AYoCggGBAMoeAhKsiQ+GhaPJeUSD/0vLPzEg/4DaceoBL6z/wXp42WbiOgm5P55KG6oJVOduU/UG
+cf4kgO9coQEiHw61LcEvaBz7uobQcu75fwb1BiW8heAL+n7lWL3DjxIRIMxOqFTU5xztpF1IsGPC
+gdK+0Mi3hXh6rj+wvkP2p6ktVjLNHp1cbLd94XpvnYBoyWZzxMrue75tSOJ9Dc2JqRU70IrY+jz1
+96k3CSfg7SvfNwMwDKE0iuo/8em8Ed8vK3YAPJx5+d8OtBKK/gzIcoPxrV4vJfvlTCLmnkuKRBbs
+zZHok+OZQud+NzLyKMulMAIUC4NFXaJZK6RVOiBilhGnz4NYA8a6Ni5HvqvUi3Z2DvITw8O5sWZO
+I2BB54KEOXRW+5dWmK/nivgRnqsduJW+iyUV337oXeONMRjmb0M3qUh9dClHtEsVcfmag3rZhNOR
+u43NLg/l/eH1Pz2oKwriGMVWcroFp6e1Y/e/cPtStIzTvtSuzvXOFXkkPyD1FavmHwIDAQABo4GR
+MIGOMAkGA1UdEwQCMAAwDgYDVR0PAQH/BAQDAgbAMFIGA1UdIARLMEkwIAYEK0wQBjAYMBYGCCsG
+AQUFBwICMAoaCGFnSURjZXJ0MCUGBitMEAQCATAbMBkGCCsGAQUFBwICMA0aC2NlcnRfU1BfUHVi
+MB0GA1UdDgQWBBRGLrhhX7wkjLP/JsjUJZ6zeYPZBzANBgkqhkiG9w0BAQ0FAAOCAYEAA9zuJZTr
+W1vuqpgM88FhPWuOlKLXPOCj3Xs2Xq58quS+1krWkfjwKUEl94PzB9cMKEj8Nk5S7sZ4Wj7d20+M
+PzdyPvm6C/tdEDtAy8yeiHZ8X2Xa7BGcNzcgf7rVSDerSpFXkUJLHoNnL2nxQ60+mamQtYrc3gEH
+QG6nEA8usUS0TnpjYKZBlDO2Q0HmmcMMr/dG11vm/rkCcVmofoQ2XDFyJr3MUOnsO9iTBosGjEDx
+0XNzNjgBuaSoicDYNhCUTCJV45WbtnkD0x1s+MyaQ52xAXkZ6RSD5neOIljVlwpgx3I7eFzYNk2G
+uGqjDBgw0oZ3CpF42ZzZSrpD328bpwYVTEFBSanxNVjP7g1QE8afyJBSfxrggdqGWxFL30MV8sYZ
+/1ICm0G/bROu1OUNb2lFqXATvS/4WH+AZtGkTyR95pcbKK8zPj9vtlekxZ8BHsnPIeydQeN4Y8Cu
+4p4gCUrQy/NvKQUArTVBqsWdf/m/pBbe7zVAgtEhwoiVa0ga
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+	<md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+		<md:KeyDescriptor use="signing">
+			<ds:KeyInfo>
+				<ds:X509Data>
+					<ds:X509Certificate>MIIEmDCCA4CgAwIBAgIJALPWfhxBn7hsMA0GCSqGSIb3DQEBCwUAMIHRMSgwJgYDVQQDDB9BemllbmRhIE9zcGVkYWxpZXJhIE1hcmNoZSBOb3JkMQswCQYDVQQGEwJJVDEPMA0GA1UEBwwGUGVzYXJvMRcwFQYDVQRhDA5QQTpJVC1hb29ybV9wdTE5MDcGA1UECgwwQXppZW5kYSBPc3BlZGFsaWVyYSBPc3BlZGFsaSBSaXVuaXRpIE1hcmNoZSBOb3JkMTMwMQYDVQRTDCpodHRwczovL3NwaWQub3NwZWRhbGltYXJjaGVub3JkLml0L080Uy5zc28wHhcNMjIwNTExMDczNTIyWhcNMzIwNTA4MDczNTIyWjCB0TEoMCYGA1UEAwwfQXppZW5kYSBPc3BlZGFsaWVyYSBNYXJjaGUgTm9yZDELMAkGA1UEBhMCSVQxDzANBgNVBAcMBlBlc2FybzEXMBUGA1UEYQwOUEE6SVQtYW9vcm1fcHUxOTA3BgNVBAoMMEF6aWVuZGEgT3NwZWRhbGllcmEgT3NwZWRhbGkgUml1bml0aSBNYXJjaGUgTm9yZDEzMDEGA1UEUwwqaHR0cHM6Ly9zcGlkLm9zcGVkYWxpbWFyY2hlbm9yZC5pdC9PNFMuc3NvMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA0vtKGWJDhS5XkanjVLbJi6kTKkGG+LNx1HeIbbMdYWBqvhjZGXkztjdQDrRYLgeQExa0UCGbooO7yhmKfzU5OqcffVmzx6Fk4O2vKMkV5v8hEcn2ciYrUPJKdRgz9tcbheGWs5rCQiujhtQpFnslPDf8f7a0s9fOO6FAhC8vKbrKTnNyeaBN2I7Dsvfv0gmAxH68tyxUXr4kq2k4U1ObNztLC9kBGzI6r/vOHuENBaUJmB0l3mgRcInRHLqb6nCa/F/GViJc33glCodZG9VQL+nxTK1TJwq0hTMixVdn072tWXmFdWvlRruY3j9KtaLx/UWKoP45cY7TaNsBJattwwIDAQABo3EwbzAJBgNVHRMEAjAAMA4GA1UdDwEB/wQEAwIGwDBSBgNVHSAESzBJMCAGBCtMEAYwGDAWBggrBgEFBQcCAjAKGghhZ0lEY2VydDAlBgYrTBAEAgEwGzAZBggrBgEFBQcCAjANGgtjZXJ0X1NQX1B1YjANBgkqhkiG9w0BAQsFAAOCAQEACx/EOh+7TG1uiWor8DpAbwMA4JXCikbcOdMtH1RkebfdQxrnvjwtJxyxPCqyF1jWs7TW26eYUjafhLIsahJcxZhkQQp3hfn+pnsxjfeI/EcphmzjLpDz2VWgH/UIjMQTXPyUk1gqRNs7/RzU1YJEd5ZqRnJpzZnTSj0ZUYJeFBXBDulFl+P4U054s3kas2ynoiaTZjr0rCb/6NiFhf0LxjNgUyWLRNdptOTfg9N6lIXhjKZygWMtEJn7Caum0LzoR6Vuzeq8g4aLhAvmUndeyrI7wE3xt9UBdQHr2Pc4rPmvrzuiVHjwsK7g8pM2xJQm2fGeWKpCnncDLQ2xv2rT3g==</ds:X509Certificate>
+				</ds:X509Data>
+			</ds:KeyInfo>
+		</md:KeyDescriptor>
+		<md:KeyDescriptor use="signing">
+			<ds:KeyInfo>
+				<ds:X509Data>
+					<ds:X509Certificate>MIIF6jCCBFKgAwIBAgIUJ3g1+H4VHlwxrrm/4blRNAF7d5YwDQYJKoZIhvcNAQENBQAwgeQxOjA4BgNVBAMMMUFaSUVOREEgU0FOSVRBUklBIFRFUlJJVE9SSUFMRSBESSBQRVNBUk8gRSBVUkJJTk8xCzAJBgNVBAYTAklUMQ8wDQYDVQQHDAZQZXNhcm8xFzAVBgNVBGEMDlBBOklULVI2STdaU0VSMTowOAYDVQQKDDFBWklFTkRBIFNBTklUQVJJQSBURVJSSVRPUklBTEUgREkgUEVTQVJPIEUgVVJCSU5PMTMwMQYDVQRTDCpodHRwczovL3NwaWQub3NwZWRhbGltYXJjaGVub3JkLml0L080Uy5zc28wHhcNMjQwNjA1MDc0ODI3WhcNMzQwNjAzMDc0ODI3WjCB5DE6MDgGA1UEAwwxQVpJRU5EQSBTQU5JVEFSSUEgVEVSUklUT1JJQUxFIERJIFBFU0FSTyBFIFVSQklOTzELMAkGA1UEBhMCSVQxDzANBgNVBAcMBlBlc2FybzEXMBUGA1UEYQwOUEE6SVQtUjZJN1pTRVIxOjA4BgNVBAoMMUFaSUVOREEgU0FOSVRBUklBIFRFUlJJVE9SSUFMRSBESSBQRVNBUk8gRSBVUkJJTk8xMzAxBgNVBFMMKmh0dHBzOi8vc3BpZC5vc3BlZGFsaW1hcmNoZW5vcmQuaXQvTzRTLnNzbzCCAaIwDQYJKoZIhvcNAQEBBQADggGPADCCAYoCggGBAMoeAhKsiQ+GhaPJeUSD/0vLPzEg/4DaceoBL6z/wXp42WbiOgm5P55KG6oJVOduU/UGcf4kgO9coQEiHw61LcEvaBz7uobQcu75fwb1BiW8heAL+n7lWL3DjxIRIMxOqFTU5xztpF1IsGPCgdK+0Mi3hXh6rj+wvkP2p6ktVjLNHp1cbLd94XpvnYBoyWZzxMrue75tSOJ9Dc2JqRU70IrY+jz196k3CSfg7SvfNwMwDKE0iuo/8em8Ed8vK3YAPJx5+d8OtBKK/gzIcoPxrV4vJfvlTCLmnkuKRBbszZHok+OZQud+NzLyKMulMAIUC4NFXaJZK6RVOiBilhGnz4NYA8a6Ni5HvqvUi3Z2DvITw8O5sWZOI2BB54KEOXRW+5dWmK/nivgRnqsduJW+iyUV337oXeONMRjmb0M3qUh9dClHtEsVcfmag3rZhNORu43NLg/l/eH1Pz2oKwriGMVWcroFp6e1Y/e/cPtStIzTvtSuzvXOFXkkPyD1FavmHwIDAQABo4GRMIGOMAkGA1UdEwQCMAAwDgYDVR0PAQH/BAQDAgbAMFIGA1UdIARLMEkwIAYEK0wQBjAYMBYGCCsGAQUFBwICMAoaCGFnSURjZXJ0MCUGBitMEAQCATAbMBkGCCsGAQUFBwICMA0aC2NlcnRfU1BfUHViMB0GA1UdDgQWBBRGLrhhX7wkjLP/JsjUJZ6zeYPZBzANBgkqhkiG9w0BAQ0FAAOCAYEAA9zuJZTrW1vuqpgM88FhPWuOlKLXPOCj3Xs2Xq58quS+1krWkfjwKUEl94PzB9cMKEj8Nk5S7sZ4Wj7d20+MPzdyPvm6C/tdEDtAy8yeiHZ8X2Xa7BGcNzcgf7rVSDerSpFXkUJLHoNnL2nxQ60+mamQtYrc3gEHQG6nEA8usUS0TnpjYKZBlDO2Q0HmmcMMr/dG11vm/rkCcVmofoQ2XDFyJr3MUOnsO9iTBosGjEDx0XNzNjgBuaSoicDYNhCUTCJV45WbtnkD0x1s+MyaQ52xAXkZ6RSD5neOIljVlwpgx3I7eFzYNk2GuGqjDBgw0oZ3CpF42ZzZSrpD328bpwYVTEFBSanxNVjP7g1QE8afyJBSfxrggdqGWxFL30MV8sYZ/1ICm0G/bROu1OUNb2lFqXATvS/4WH+AZtGkTyR95pcbKK8zPj9vtlekxZ8BHsnPIeydQeN4Y8Cu4p4gCUrQy/NvKQUArTVBqsWdf/m/pBbe7zVAgtEhwoiVa0ga</ds:X509Certificate>
+				</ds:X509Data>
+			</ds:KeyInfo>
+		</md:KeyDescriptor>
+		<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://wifiportal1.tim.it/mm-spid/logout"/>
+		<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://api-perlasalute.ospedalimarchenord.it/auth/spid/logout"/>
+		<md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+		<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://wifiportal1.tim.it/mm-spid/assertion" index="0" isDefault="true"/>
+		<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://api-perlasalute.ospedalimarchenord.it/auth/spid/assertions" index="1"/>
+		<md:AttributeConsumingService index="0">
+			<md:ServiceName xml:lang="it">Servizi WIFI Azienda Ospedaliera Marche Nord</md:ServiceName>
+			<md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+		</md:AttributeConsumingService>
+		<md:AttributeConsumingService index="1">
+			<md:ServiceName xml:lang="en">maps-auth-server</md:ServiceName>
+			<md:ServiceDescription xml:lang="en">Zerocoda Authentication Server</md:ServiceDescription>
+			<md:RequestedAttribute Name="spidCode"/>
+			<md:RequestedAttribute Name="name"/>
+			<md:RequestedAttribute Name="familyName"/>
+			<md:RequestedAttribute Name="fiscalNumber"/>
+			<md:RequestedAttribute Name="mobilePhone"/>
+			<md:RequestedAttribute Name="email"/>
+		</md:AttributeConsumingService>
+		<md:AttributeConsumingService index="99">
+			<md:ServiceName xml:lang="it">eIDAS Natural Person Minimum Attribute Set</md:ServiceName>
+			<md:RequestedAttribute Name="spidCode"/>
+			<md:RequestedAttribute Name="name"/>
+			<md:RequestedAttribute Name="familyName"/>
+			<md:RequestedAttribute Name="dateOfBirth"/>
+		</md:AttributeConsumingService>
+		<md:AttributeConsumingService index="100">
+			<md:ServiceName xml:lang="it">eIDAS Natural Person Minimum Attribute Set</md:ServiceName>
+			<md:RequestedAttribute Name="spidCode"/>
+			<md:RequestedAttribute Name="name"/>
+			<md:RequestedAttribute Name="familyName"/>
+			<md:RequestedAttribute Name="dateOfBirth"/>
+			<md:RequestedAttribute Name="address"/>
+			<md:RequestedAttribute Name="gender"/>
+			<md:RequestedAttribute Name="placeOfBirth"/>
+		</md:AttributeConsumingService>
+	</md:SPSSODescriptor>
+	<md:Organization>
+		<md:OrganizationName xml:lang="it">AZIENDA SANITARIA TERRITORIALE DI PESARO E URBINO</md:OrganizationName>
+		<md:OrganizationDisplayName xml:lang="it">AZIENDA SANITARIA TERRITORIALE DI PESARO E URBINO</md:OrganizationDisplayName>
+		<md:OrganizationURL xml:lang="it">https://www.ospedalimarchenord.it</md:OrganizationURL>
+	</md:Organization>
+	<md:ContactPerson contactType="other">
+		<md:Extensions>
+			<spid:IPACode>R6I7ZSER</spid:IPACode>
+			<spid:FiscalCode>02789340417</spid:FiscalCode>
+			<spid:Public/>
+		</md:Extensions>
+		<md:EmailAddress>urp@ospedalimarchenord.it</md:EmailAddress>
+		<md:TelephoneNumber>+3907213611</md:TelephoneNumber>
+	</md:ContactPerson>
+</md:EntityDescriptor>

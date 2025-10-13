@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<md:EntityDescriptor xmlns:spid="https://spid.gov.it/saml-extensions" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" entityID="https://fluminimaggiore.comune.it" ID="dgd681c296-3a54-4094-965d-5f62848c552c" xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata"><ds:Signature><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256" /><ds:Reference URI="#dgd681c296-3a54-4094-965d-5f62848c552c"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" /><ds:DigestValue>lt0cvwrvy5y7Njnk/zj87wN3gF4Pxm4F+wsFigLMw1A=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>uUIRcAk2lkbdEAukIr5lBRsrs2dQI7t5DpxZHpfjn8UnmpF07Y932vhaij0kSMeONH5Z5js2UoUdSvAbWgRiULwsdLUOMdHxmO8WZzKLCXfaunIpCuJz79EBuDKrsU74lPoH7wzwTb/tiiGGAzuxpfauB9Wdg4syDxQl3eOAFE3xmhSZPjMVsrhCitkNXYlRse8ubb7z3xCFOe9ugNyuOjNZ/q/sSzpBQZiI1QtjB4QasDPvuP1EEH75+k41ze4RVSYZXq1hEEy+B6cj0Opyv8ciby6c8BwkMl+1XtPjFJHy2MwHaQCpfhRYeSOXpMaV/16eyjvq14i/ZoLi5Wsu3g==</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIEWjCCA0KgAwIBAgIJANU9/VTz3w4qMA0GCSqGSIb3DQEBCwUAMIGyMSIwIAYDVQQKDBlDb211bmUgZGkgRmx1bWluaW1hZ2dpb3JlMSIwIAYDVQQDDBlDb211bmUgZGkgRmx1bWluaW1hZ2dpb3JlMRUwEwYDVQRhDAxQQTpJVC1jX2Q2MzkxCzAJBgNVBAYTAklUMRgwFgYDVQQHDA9GbHVtaW5pbWFnZ2lvcmUxKjAoBgNVBFMMIWh0dHBzOi8vZmx1bWluaW1hZ2dpb3JlLmNvbXVuZS5pdDAeFw0yNDAxMTAxNTQwNDFaFw0yNzAxMDkxNTQwNDFaMIGyMSIwIAYDVQQKDBlDb211bmUgZGkgRmx1bWluaW1hZ2dpb3JlMSIwIAYDVQQDDBlDb211bmUgZGkgRmx1bWluaW1hZ2dpb3JlMRUwEwYDVQRhDAxQQTpJVC1jX2Q2MzkxCzAJBgNVBAYTAklUMRgwFgYDVQQHDA9GbHVtaW5pbWFnZ2lvcmUxKjAoBgNVBFMMIWh0dHBzOi8vZmx1bWluaW1hZ2dpb3JlLmNvbXVuZS5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAL8qulBVqLtG6kW9j1lTJ/qF96jCdMGpvN/zNq+rUHSl0mVIfSQ0+bQTc31cl/Usmcq8Q4ejfPBk9n4W/f7Kfbo/mozcBy1FNDkT2wP/vATMCO6XBLdoCY3nJxVzCjWzUcvTEJvz5Hv0TlGEg8aYpWx7MOHAUkpZE+aUGgKPTg7HJgq3BPR//3f6HG2CzAxN8CwOyQr4fk0L5nJrQDdgTt6jR++bVQYlIjbaqT7Njd4AbirOVfFlc/Hhnut4Ab6r/h19AoOsbTPmmgaG9Ntk6pP3fpN17FUIV3FBiMprsZLkSO8NUhr2fQmNWVFf7oCO+W3jvk0VarG/IgkhVULQ00UCAwEAAaNxMG8wCQYDVR0TBAIwADAOBgNVHQ8BAf8EBAMCBsAwUgYDVR0gBEswSTAgBgQrTBAGMBgwFgYIKwYBBQUHAgIwChoIYWdJRGNlcnQwJQYGK0wQBAIBMBswGQYIKwYBBQUHAgIwDRoLY2VydF9TUF9QdWIwDQYJKoZIhvcNAQELBQADggEBAHTAAXaiay5CNOKVH6lpeUMxmgl6pYoERiFsMoVE+IT6U/rXAirsybn2kj6kbYzt7rcbJAmgnG8ux/SCsaRFuycmOm+GVjYVohP42Gwu57DKUCh05yRokqQ1kwVjUVKYMOqV1mVZcWLNxVqODwImcrulbDtrd4tFOxX8JZiM5hWKiCkPt1pX3coYgQXoglZj2L8H9u1dmT+Z/WXJrbWf1GhXUzLTZE5NRYO7zCEpNckBo4t2qhr0M1+OKpSI14jG3wQAzYHBkr4NpELjYjbSLmnW19Xqz2V9tugl55kjnH1S69PW4fEW+eT5MLM4u9dKSCiRXQwK/5jAbJ0WxG6oBko=</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature>
+  <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true" WantAssertionsSigned="true">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIIEWjCCA0KgAwIBAgIJANU9/VTz3w4qMA0GCSqGSIb3DQEBCwUAMIGyMSIwIAYDVQQKDBlDb211bmUgZGkgRmx1bWluaW1hZ2dpb3JlMSIwIAYDVQQDDBlDb211bmUgZGkgRmx1bWluaW1hZ2dpb3JlMRUwEwYDVQRhDAxQQTpJVC1jX2Q2MzkxCzAJBgNVBAYTAklUMRgwFgYDVQQHDA9GbHVtaW5pbWFnZ2lvcmUxKjAoBgNVBFMMIWh0dHBzOi8vZmx1bWluaW1hZ2dpb3JlLmNvbXVuZS5pdDAeFw0yNDAxMTAxNTQwNDFaFw0yNzAxMDkxNTQwNDFaMIGyMSIwIAYDVQQKDBlDb211bmUgZGkgRmx1bWluaW1hZ2dpb3JlMSIwIAYDVQQDDBlDb211bmUgZGkgRmx1bWluaW1hZ2dpb3JlMRUwEwYDVQRhDAxQQTpJVC1jX2Q2MzkxCzAJBgNVBAYTAklUMRgwFgYDVQQHDA9GbHVtaW5pbWFnZ2lvcmUxKjAoBgNVBFMMIWh0dHBzOi8vZmx1bWluaW1hZ2dpb3JlLmNvbXVuZS5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAL8qulBVqLtG6kW9j1lTJ/qF96jCdMGpvN/zNq+rUHSl0mVIfSQ0+bQTc31cl/Usmcq8Q4ejfPBk9n4W/f7Kfbo/mozcBy1FNDkT2wP/vATMCO6XBLdoCY3nJxVzCjWzUcvTEJvz5Hv0TlGEg8aYpWx7MOHAUkpZE+aUGgKPTg7HJgq3BPR//3f6HG2CzAxN8CwOyQr4fk0L5nJrQDdgTt6jR++bVQYlIjbaqT7Njd4AbirOVfFlc/Hhnut4Ab6r/h19AoOsbTPmmgaG9Ntk6pP3fpN17FUIV3FBiMprsZLkSO8NUhr2fQmNWVFf7oCO+W3jvk0VarG/IgkhVULQ00UCAwEAAaNxMG8wCQYDVR0TBAIwADAOBgNVHQ8BAf8EBAMCBsAwUgYDVR0gBEswSTAgBgQrTBAGMBgwFgYIKwYBBQUHAgIwChoIYWdJRGNlcnQwJQYGK0wQBAIBMBswGQYIKwYBBQUHAgIwDRoLY2VydF9TUF9QdWIwDQYJKoZIhvcNAQELBQADggEBAHTAAXaiay5CNOKVH6lpeUMxmgl6pYoERiFsMoVE+IT6U/rXAirsybn2kj6kbYzt7rcbJAmgnG8ux/SCsaRFuycmOm+GVjYVohP42Gwu57DKUCh05yRokqQ1kwVjUVKYMOqV1mVZcWLNxVqODwImcrulbDtrd4tFOxX8JZiM5hWKiCkPt1pX3coYgQXoglZj2L8H9u1dmT+Z/WXJrbWf1GhXUzLTZE5NRYO7zCEpNckBo4t2qhr0M1+OKpSI14jG3wQAzYHBkr4NpELjYjbSLmnW19Xqz2V9tugl55kjnH1S69PW4fEW+eT5MLM4u9dKSCiRXQwK/5jAbJ0WxG6oBko=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIIEWjCCA0KgAwIBAgIJANU9/VTz3w4qMA0GCSqGSIb3DQEBCwUAMIGyMSIwIAYDVQQKDBlDb211bmUgZGkgRmx1bWluaW1hZ2dpb3JlMSIwIAYDVQQDDBlDb211bmUgZGkgRmx1bWluaW1hZ2dpb3JlMRUwEwYDVQRhDAxQQTpJVC1jX2Q2MzkxCzAJBgNVBAYTAklUMRgwFgYDVQQHDA9GbHVtaW5pbWFnZ2lvcmUxKjAoBgNVBFMMIWh0dHBzOi8vZmx1bWluaW1hZ2dpb3JlLmNvbXVuZS5pdDAeFw0yNDAxMTAxNTQwNDFaFw0yNzAxMDkxNTQwNDFaMIGyMSIwIAYDVQQKDBlDb211bmUgZGkgRmx1bWluaW1hZ2dpb3JlMSIwIAYDVQQDDBlDb211bmUgZGkgRmx1bWluaW1hZ2dpb3JlMRUwEwYDVQRhDAxQQTpJVC1jX2Q2MzkxCzAJBgNVBAYTAklUMRgwFgYDVQQHDA9GbHVtaW5pbWFnZ2lvcmUxKjAoBgNVBFMMIWh0dHBzOi8vZmx1bWluaW1hZ2dpb3JlLmNvbXVuZS5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAL8qulBVqLtG6kW9j1lTJ/qF96jCdMGpvN/zNq+rUHSl0mVIfSQ0+bQTc31cl/Usmcq8Q4ejfPBk9n4W/f7Kfbo/mozcBy1FNDkT2wP/vATMCO6XBLdoCY3nJxVzCjWzUcvTEJvz5Hv0TlGEg8aYpWx7MOHAUkpZE+aUGgKPTg7HJgq3BPR//3f6HG2CzAxN8CwOyQr4fk0L5nJrQDdgTt6jR++bVQYlIjbaqT7Njd4AbirOVfFlc/Hhnut4Ab6r/h19AoOsbTPmmgaG9Ntk6pP3fpN17FUIV3FBiMprsZLkSO8NUhr2fQmNWVFf7oCO+W3jvk0VarG/IgkhVULQ00UCAwEAAaNxMG8wCQYDVR0TBAIwADAOBgNVHQ8BAf8EBAMCBsAwUgYDVR0gBEswSTAgBgQrTBAGMBgwFgYIKwYBBQUHAgIwChoIYWdJRGNlcnQwJQYGK0wQBAIBMBswGQYIKwYBBQUHAgIwDRoLY2VydF9TUF9QdWIwDQYJKoZIhvcNAQELBQADggEBAHTAAXaiay5CNOKVH6lpeUMxmgl6pYoERiFsMoVE+IT6U/rXAirsybn2kj6kbYzt7rcbJAmgnG8ux/SCsaRFuycmOm+GVjYVohP42Gwu57DKUCh05yRokqQ1kwVjUVKYMOqV1mVZcWLNxVqODwImcrulbDtrd4tFOxX8JZiM5hWKiCkPt1pX3coYgQXoglZj2L8H9u1dmT+Z/WXJrbWf1GhXUzLTZE5NRYO7zCEpNckBo4t2qhr0M1+OKpSI14jG3wQAzYHBkr4NpELjYjbSLmnW19Xqz2V9tugl55kjnH1S69PW4fEW+eT5MLM4u9dKSCiRXQwK/5jAbJ0WxG6oBko=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://albo.comune.it/fluminimaggiore/CNS/idpSpid/logout.ashx" />
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://albo.comune.it/fluminimaggiore/CNS/idpSpid/ACS.ashx" index="0" isDefault="true" />
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">Servizi online</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Servizi online</md:ServiceDescription>
+      <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" FriendlyName="Codice fiscale" />
+      <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" FriendlyName="Codice SPID" />
+      <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" FriendlyName="Indirizzo di posta elettronica" />
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Fluminimaggiore</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Fluminimaggiore</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.comune.fluminimaggiore.ca.it</md:OrganizationURL>
+  </md:Organization>
+  <md:ContactPerson contactType="other">
+    <md:Extensions>
+      <spid:IPACode>c_d639</spid:IPACode>
+      <spid:Public />
+    </md:Extensions>
+    <md:EmailAddress>protocollo@pec.comune.fluminimaggiore.ca.it</md:EmailAddress>
+  </md:ContactPerson>
+</md:EntityDescriptor>

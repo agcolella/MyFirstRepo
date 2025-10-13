@@ -1,0 +1,52 @@
+﻿<?xml version="1.0"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:spid="https://spid.gov.it/saml-extensions" entityID="https://www.neatek.it/pub-ag-lite/opopr" ID="https___www_neatek_it_pub-ag-lite_opopr"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+  <ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+    <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+  <ds:Reference URI="#https___www_neatek_it_pub-ag-lite_opopr"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>RqGEkSfy6BoGNGsLB2TVnoB7IqbsfiAdQG0y7PL0ROg=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>RKZ+nRVIz5ow3LsH1xrtwWReJwm2qph3JwhgkQSYuu25WxiA3ZqtlkE+T4/yzpjFRl279OY/GDiplgFxqBOOlsP5djGl3a2otzICHU75Sx8m1dBAIC1nU1aejku7k+aRORVCXGun9iCgsy7ygfJHRvL8yFFz55JLmhtFFSsqhO/xyqGpzQIAbdMaknqgFU7H/8FQfpnBthxgSmT5a1NLcXF4rmhipEgw4uU7rA31qpMarTyfYA/EOa7zspDHzBc6AmhHcQm4EQW7SRxH/HRWL0wcLN3TyZygDTQF0VHwXMy4qV7HBD8HDvUYpltBEJ+/dtWrdNsKDf2tCy5h4BOEwA==</ds:SignatureValue>
+<ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIEWzCCA0OgAwIBAgIITYZuiezYpAUwDQYJKoZIhvcNAQELBQAwgbcxCzAJBgNVBAgMAkFWMSkwJwYDVQQKDCBOZWF0ZWsgU29mdHdhcmUgZGkgRGFyaW8gQXJnZW5pbzEYMBYGA1UEAwwPTmVhdGVrIFNvZnR3YXJlMR4wHAYDVQRTDBVodHRwczovL3d3dy5uZWF0ZWsuaXQxGjAYBgNVBGEMEVZBVElULTAxOTcxMDEwNjQ4MQswCQYDVQQGEwJJVDEaMBgGA1UEBwwRTW9udGVmb3J0ZSBJcnBpbm8wHhcNMjQwNzI2MDgwMjE3WhcNNDQwNzI1MDgwMjE3WjCBzTEtMCsGA1UECgwkT3JkaW5lIE9zdGV0cmljaGUgZGkgUmVnZ2lvIENhbGFicmlhMS0wKwYDVQQDDCRPcmRpbmUgT3N0ZXRyaWNoZSBkaSBSZWdnaW8gQ2FsYWJyaWExMDAuBgNVBFMMJ2h0dHBzOi8vd3d3Lm5lYXRlay5pdC9wdWItYWctbGl0ZS9vcG9wcjEUMBIGA1UEYQwLUEE6SVQtb3BvcHIxCzAJBgNVBAYTAklUMRgwFgYDVQQHDA9SZWdnaW8gQ2FsYWJyaWEwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCqsWIgQO6klsmM7fdRnWqed0kbjzPLMcjbiBbce2tw0r6QG0+mHs/IG3VwzBbX6abhQdd1aUNSUs/E9Im+4AkyEFUKPyw+SU9+kut1ZE4jZ1kkVA7G2oteLz583iRRhHroPZ6sCkXAk8W5Au+qgy+fsy2ch5xJXQCCeATdS0h0m0sfbGUhQSi09HO+/14LrZNkddZzQc5d2jpMDBBdf9WR6rUrbNw8sXn/xUEUTyj1IL4g+5Yb1yUlKPOVV+TY/R1ihsOOW8nXVOfTEEANTXhFHMOVI/IY8m9te5X9o8S+6J0VoEyg5dEgxFKybP/eGLpeGhL1tW7DVLU62lS1RS/TAgMBAAGjUzBRMB0GA1UdDgQWBBRoQFPlNh99Sw3D1NG4rJq4iPQmEzAfBgNVHSMEGDAWgBTNn3SlXwvIS9kYs5Iagck2PnDnKjAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQCQ2oZtw4VdbMRGWV9LgvjcPNqXXVJxvvOWtx47nmewxSVxAYdzTDfZhXOq1QgXpOSEW2It3+K9JatJrhHwvjCI2ZJvlIfbGvN8/+lu/tESDxuIKgXT08x0oxN9xA566qlHACKZcL+FD9eD7qsew0ijMgOjRWaJK5OXZNWnRObBkht831HTllAgHHZlECP0EzSIxf9+BVJiNrZy7r6Pm7UJwweCIjQH4S+YXZIHyvbrfIhTqOvgiL11nsQc7/qDQK6ow2DHXMZDoYgWxVk7wNTpGb0QfN4ZVDYll7+F85/KrXigkcjMpuYaDQxn4vbWedbVMEAsTfbM9ft6LnthtK5M</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature>
+  <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true" WantAssertionsSigned="true">
+	<md:KeyDescriptor use="signing">
+	  <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+		<ds:X509Data>
+		  <ds:X509Certificate>MIIEWzCCA0OgAwIBAgIITYZuiezYpAUwDQYJKoZIhvcNAQELBQAwgbcxCzAJBgNVBAgMAkFWMSkwJwYDVQQKDCBOZWF0ZWsgU29mdHdhcmUgZGkgRGFyaW8gQXJnZW5pbzEYMBYGA1UEAwwPTmVhdGVrIFNvZnR3YXJlMR4wHAYDVQRTDBVodHRwczovL3d3dy5uZWF0ZWsuaXQxGjAYBgNVBGEMEVZBVElULTAxOTcxMDEwNjQ4MQswCQYDVQQGEwJJVDEaMBgGA1UEBwwRTW9udGVmb3J0ZSBJcnBpbm8wHhcNMjQwNzI2MDgwMjE3WhcNNDQwNzI1MDgwMjE3WjCBzTEtMCsGA1UECgwkT3JkaW5lIE9zdGV0cmljaGUgZGkgUmVnZ2lvIENhbGFicmlhMS0wKwYDVQQDDCRPcmRpbmUgT3N0ZXRyaWNoZSBkaSBSZWdnaW8gQ2FsYWJyaWExMDAuBgNVBFMMJ2h0dHBzOi8vd3d3Lm5lYXRlay5pdC9wdWItYWctbGl0ZS9vcG9wcjEUMBIGA1UEYQwLUEE6SVQtb3BvcHIxCzAJBgNVBAYTAklUMRgwFgYDVQQHDA9SZWdnaW8gQ2FsYWJyaWEwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCqsWIgQO6klsmM7fdRnWqed0kbjzPLMcjbiBbce2tw0r6QG0+mHs/IG3VwzBbX6abhQdd1aUNSUs/E9Im+4AkyEFUKPyw+SU9+kut1ZE4jZ1kkVA7G2oteLz583iRRhHroPZ6sCkXAk8W5Au+qgy+fsy2ch5xJXQCCeATdS0h0m0sfbGUhQSi09HO+/14LrZNkddZzQc5d2jpMDBBdf9WR6rUrbNw8sXn/xUEUTyj1IL4g+5Yb1yUlKPOVV+TY/R1ihsOOW8nXVOfTEEANTXhFHMOVI/IY8m9te5X9o8S+6J0VoEyg5dEgxFKybP/eGLpeGhL1tW7DVLU62lS1RS/TAgMBAAGjUzBRMB0GA1UdDgQWBBRoQFPlNh99Sw3D1NG4rJq4iPQmEzAfBgNVHSMEGDAWgBTNn3SlXwvIS9kYs5Iagck2PnDnKjAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQCQ2oZtw4VdbMRGWV9LgvjcPNqXXVJxvvOWtx47nmewxSVxAYdzTDfZhXOq1QgXpOSEW2It3+K9JatJrhHwvjCI2ZJvlIfbGvN8/+lu/tESDxuIKgXT08x0oxN9xA566qlHACKZcL+FD9eD7qsew0ijMgOjRWaJK5OXZNWnRObBkht831HTllAgHHZlECP0EzSIxf9+BVJiNrZy7r6Pm7UJwweCIjQH4S+YXZIHyvbrfIhTqOvgiL11nsQc7/qDQK6ow2DHXMZDoYgWxVk7wNTpGb0QfN4ZVDYll7+F85/KrXigkcjMpuYaDQxn4vbWedbVMEAsTfbM9ft6LnthtK5M</ds:X509Certificate>
+		</ds:X509Data>
+	  </ds:KeyInfo>
+	</md:KeyDescriptor>
+	<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.ordineostetrichereggiocalabria.it/wp-login.php?spid_sso=out"/>		
+	<md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+	<md:AssertionConsumerService index="0" isDefault="true" Location="https://www.ordineostetrichereggiocalabria.it/wp-login.php?spid_sso=in" Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST"/>
+	<md:AttributeConsumingService index="0">
+	  <md:ServiceName xml:lang="it">Set 0</md:ServiceName>       
+	  <md:RequestedAttribute Name="fiscalNumber"/>
+	</md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+	<md:OrganizationName xml:lang="it">Ordine Ostetriche di Reggio Calabria</md:OrganizationName>
+	<md:OrganizationDisplayName xml:lang="it">Ordine Ostetriche di Reggio Calabria</md:OrganizationDisplayName>
+	<md:OrganizationURL xml:lang="it">https://www.ordineostetrichereggiocalabria.it</md:OrganizationURL>
+  </md:Organization>
+  <md:ContactPerson contactType="other" spid:entityType="spid:aggregator">
+	<md:Extensions>
+	  <spid:VATNumber>IT01971010648</spid:VATNumber>
+	  <spid:FiscalCode>RGNDRA68P20L219I</spid:FiscalCode>
+	  <spid:PublicServicesLightAggregator/>
+	  <spid:KeyDescriptor md:use="spid:validation">
+		<ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+		  <ds:X509Data>
+			<ds:X509Certificate>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</ds:X509Certificate>
+		  </ds:X509Data>
+		</ds:KeyInfo>
+	  </spid:KeyDescriptor>
+	</md:Extensions>
+	<md:Company>Neatek Software di Dario Argenio</md:Company>
+	<md:EmailAddress>neatek@neatek.it</md:EmailAddress>
+	<md:TelephoneNumber>+393386167683</md:TelephoneNumber>
+  </md:ContactPerson>
+  <md:ContactPerson contactType="other" spid:entityType="spid:aggregated">
+	<md:Extensions>
+	  <spid:IPACode>opopr</spid:IPACode>
+	  <spid:Public/>
+	</md:Extensions>
+	<md:Company>Ordine Ostetriche di Reggio Calabria</md:Company>
+  </md:ContactPerson>
+</md:EntityDescriptor>

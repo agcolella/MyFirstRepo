@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:spid="https://spid.gov.it/saml-extensions" entityID="https://login.comune.moioalcantara.me.it" ID="https___login_comune_moioalcantara_me_it"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+  <ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+    <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+  <ds:Reference URI="#https___login_comune_moioalcantara_me_it"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>eijTfoHrntgnRVP5EOanDtgsWIR1gm1ec24J+qGQiJ0=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>UaD2/BcAkW+k1n8pqepnGryU4gWacOL1nqukOOmFLuVpN1ZvEwiWgbf9//dBpUb4eyjjoyhTFUp5ubJutSu9mn0j0vYAIsbWoRR2Mhh7zT1zyZCA2WMbQvc3QBa6IAlPoEKIt/3fRcvytrtNKy0Vz5zzLW5Lz5kSS/qtS0TPsdLHMyFMBHs0EQeYXRX4kHEHMnYRy/9sOd6bLYvhVOJ9UNLT8FOxLDVlCAAfo94HCvcsJj1l6Mhl/qF1aq2g2sbVSFVpicL/DtpHyImuNzS8+Su6M5l+H9Thgn/+1/4zVGkjaywymAnO3VlKMo99xxn8ODuUi05e+dHjuS/kaAlb7g==</ds:SignatureValue>
+<ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIEODCCAyCgAwIBAgIIQ8r+NYv591swDQYJKoZIhvcNAQELBQAwgdsxITAfBgNVBAoMGENvbXVuZSBkaSBNb2lvIEFsY2FudGFyYTEVMBMGA1UEYQwMUEE6SVQtY19mMjc3MQswCQYDVQQGEwJJVDEXMBUGA1UEBwwOTW9pbyBBbGNhbnRhcmExFzAVBgNVBAMMDk1vaW8gQWxjYW50YXJhMS0wKwYJKoZIhvcNAQkBFh5jb211bmUubW9pb2FsY2FudGFyYS5tZUBwZWMuaXQxMTAvBgNVBFMMKGh0dHBzOi8vbG9naW4uY29tdW5lLm1vaW9hbGNhbnRhcmEubWUuaXQwHhcNMjMxMjI5MDkxMTIyWhcNMjUxMjI4MDkxMTIyWjCB2zEhMB8GA1UECgwYQ29tdW5lIGRpIE1vaW8gQWxjYW50YXJhMRUwEwYDVQRhDAxQQTpJVC1jX2YyNzcxCzAJBgNVBAYTAklUMRcwFQYDVQQHDA5Nb2lvIEFsY2FudGFyYTEXMBUGA1UEAwwOTW9pbyBBbGNhbnRhcmExLTArBgkqhkiG9w0BCQEWHmNvbXVuZS5tb2lvYWxjYW50YXJhLm1lQHBlYy5pdDExMC8GA1UEUwwoaHR0cHM6Ly9sb2dpbi5jb211bmUubW9pb2FsY2FudGFyYS5tZS5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBANSFHWtgZkjxMlZc6vl9EhmvDjY0s5cx6N+mN8p1VrMnzZvnmOt5CLld0raIH2jPuUbnwTv+mhpkouvz3/v0xU/U6j7Pkof+yXffKFJT6KME7bIjhvlulmGSWGer1cMrUFI/uUxl8lt4bQVKPCRFJGpmIkUoSUz37aO7t0CB43viLKMy6JChdfHKude7kIeNyjJL28MhYx3VkQrh8DDfft6Kt0hH4wJhKwKFHlxVRSq7oaAivC2kOfshMYKUxgaE4UqqtDsAW7PWhjxLydzGZ9JYrk1B6Fx3uMvVFHJ7aOBi4v7XR3f0qMjNpfmBAudWySJaPDbm8jxzd1gRam80wPECAwEAATANBgkqhkiG9w0BAQsFAAOCAQEAmaNJ2UwAVRbp4AYoO2fQhkWl5ncEWZncIdxLF4Ac9HUjp3YeM3ADxKpQBXJulfJNOSDjuYT/FbaoqQ38VVtYbvSR3mISYkhI0rE4NV8ippkiQ2JkZXW3AqtlRBtR8MitC66r6qcuSYTvgzDb8kQyJXFwtHtgj2ebLYoZltIRH4BO61zBAp893EXbvIWu7Ubpfor6YFUm28/tCLe0ycD4Ye2BUnLNsyP1SXIiF4vxhblkAPHHJ9Khj02pGd4nopNtqenLRXtEgD0E1vk2iw4z9x08onTKaPpsF+M2w6Lzx9wyWIsi/o88JiwAa8MufiFBAD9ZIOfEVtNcN7Dl+uj6ZA==</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature>
+    <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true" WantAssertionsSigned="true">
+        <md:KeyDescriptor use="signing">
+            <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+                <ds:X509Data><ds:X509Certificate>MIIEODCCAyCgAwIBAgIIQ8r+NYv591swDQYJKoZIhvcNAQELBQAwgdsxITAfBgNVBAoMGENvbXVuZSBkaSBNb2lvIEFsY2FudGFyYTEVMBMGA1UEYQwMUEE6SVQtY19mMjc3MQswCQYDVQQGEwJJVDEXMBUGA1UEBwwOTW9pbyBBbGNhbnRhcmExFzAVBgNVBAMMDk1vaW8gQWxjYW50YXJhMS0wKwYJKoZIhvcNAQkBFh5jb211bmUubW9pb2FsY2FudGFyYS5tZUBwZWMuaXQxMTAvBgNVBFMMKGh0dHBzOi8vbG9naW4uY29tdW5lLm1vaW9hbGNhbnRhcmEubWUuaXQwHhcNMjMxMjI5MDkxMTIyWhcNMjUxMjI4MDkxMTIyWjCB2zEhMB8GA1UECgwYQ29tdW5lIGRpIE1vaW8gQWxjYW50YXJhMRUwEwYDVQRhDAxQQTpJVC1jX2YyNzcxCzAJBgNVBAYTAklUMRcwFQYDVQQHDA5Nb2lvIEFsY2FudGFyYTEXMBUGA1UEAwwOTW9pbyBBbGNhbnRhcmExLTArBgkqhkiG9w0BCQEWHmNvbXVuZS5tb2lvYWxjYW50YXJhLm1lQHBlYy5pdDExMC8GA1UEUwwoaHR0cHM6Ly9sb2dpbi5jb211bmUubW9pb2FsY2FudGFyYS5tZS5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBANSFHWtgZkjxMlZc6vl9EhmvDjY0s5cx6N+mN8p1VrMnzZvnmOt5CLld0raIH2jPuUbnwTv+mhpkouvz3/v0xU/U6j7Pkof+yXffKFJT6KME7bIjhvlulmGSWGer1cMrUFI/uUxl8lt4bQVKPCRFJGpmIkUoSUz37aO7t0CB43viLKMy6JChdfHKude7kIeNyjJL28MhYx3VkQrh8DDfft6Kt0hH4wJhKwKFHlxVRSq7oaAivC2kOfshMYKUxgaE4UqqtDsAW7PWhjxLydzGZ9JYrk1B6Fx3uMvVFHJ7aOBi4v7XR3f0qMjNpfmBAudWySJaPDbm8jxzd1gRam80wPECAwEAATANBgkqhkiG9w0BAQsFAAOCAQEAmaNJ2UwAVRbp4AYoO2fQhkWl5ncEWZncIdxLF4Ac9HUjp3YeM3ADxKpQBXJulfJNOSDjuYT/FbaoqQ38VVtYbvSR3mISYkhI0rE4NV8ippkiQ2JkZXW3AqtlRBtR8MitC66r6qcuSYTvgzDb8kQyJXFwtHtgj2ebLYoZltIRH4BO61zBAp893EXbvIWu7Ubpfor6YFUm28/tCLe0ycD4Ye2BUnLNsyP1SXIiF4vxhblkAPHHJ9Khj02pGd4nopNtqenLRXtEgD0E1vk2iw4z9x08onTKaPpsF+M2w6Lzx9wyWIsi/o88JiwAa8MufiFBAD9ZIOfEVtNcN7Dl+uj6ZA==</ds:X509Certificate></ds:X509Data>
+            </ds:KeyInfo>
+        </md:KeyDescriptor>
+            <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://moioalcantara.login.opencityitalia.it/slo"/>        
+        <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+        <md:AssertionConsumerService index="0" isDefault="true" Location="https://moioalcantara.login.opencityitalia.it/acs" Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST"/>
+        <md:AttributeConsumingService index="0">
+            <md:ServiceName xml:lang="it">Set 0</md:ServiceName>       
+            <md:RequestedAttribute Name="gender"/>
+            <md:RequestedAttribute Name="companyName"/>
+            <md:RequestedAttribute Name="registeredOffice"/>
+            <md:RequestedAttribute Name="fiscalNumber"/>
+            <md:RequestedAttribute Name="ivaCode"/>
+            <md:RequestedAttribute Name="idCard"/>
+            <md:RequestedAttribute Name="spidCode"/>
+            <md:RequestedAttribute Name="name"/>
+            <md:RequestedAttribute Name="familyName"/>
+            <md:RequestedAttribute Name="placeOfBirth"/>
+            <md:RequestedAttribute Name="countyOfBirth"/>
+            <md:RequestedAttribute Name="dateOfBirth"/>
+            <md:RequestedAttribute Name="mobilePhone"/>
+            <md:RequestedAttribute Name="email"/>
+            <md:RequestedAttribute Name="address"/>
+            <md:RequestedAttribute Name="expirationDate"/>
+            <md:RequestedAttribute Name="digitalAddress"/></md:AttributeConsumingService></md:SPSSODescriptor><md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Moio Alcantara</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Moio Alcantara</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://login.comune.moioalcantara.me.it</md:OrganizationURL>
+</md:Organization><md:ContactPerson contactType="other"><md:Extensions><spid:IPACode>c_f277</spid:IPACode><spid:Public/><spid:FiscalCode>87000270832</spid:FiscalCode></md:Extensions><md:EmailAddress>comune.moioalcantara.me@pec.it</md:EmailAddress><md:TelephoneNumber>+390942963014</md:TelephoneNumber></md:ContactPerson></md:EntityDescriptor>

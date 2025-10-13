@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" ID="_2e59c9effea0d9be46f952cf86ebe841d21af970" entityID="https://spidanthesi.elixforms.it/serviziSPID/pub-ag-full/unipr-ag"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#_2e59c9effea0d9be46f952cf86ebe841d21af970">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>+lddccU407Yc9ZGj9qIWZpfyLlf1igUXX0qw7JqHF4w=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+gbxr2pMS+GqnC+TZ0hfo2b/cRtfZCpLDvGdcZGdKMh00av831XHVmO1C7+WIjk517YjOM5opm0Dn
+Dy+dxPJcsmSHCGnTynEZJslAqRHodHgB9YOjEp4OzIPhGDM92zX+AlMhUWMfvJ9duUQIiGyNlMCD
+GCP48U3YMR9VcxLCjmCn746b3GI1adyYI9N94ff265IveNi4/5CRDTHA56Ol75ZpGzxgGcMbHZIj
+6JnNWwflyfQG4KKlAtVuRNwt3I+068vXvOVmUP2Nn331xcS2u9VMlk8EA8QJ7MolVWXONyGypwjR
+wjLDqd0Ha2yuBDFpHWhvO66BuSlUMSjzkuqKX85gr4xjLqpq1K7kLBbITOSX0zDvXJneBAl1VMI7
+8oyaInh/c64ogz95PgiCyQ5COewcr2ILWjopTGUX5vb1uHDBfuzz1X6janNM6+NV5aV//4kcCjAf
+bz/z5IRFU1jHoF0g7K+g5zfOweBob6i+aKqcnpWqvddGTNWTIAAIFYWY
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+wik2wyQzKm51sgD/z0rf+LlkqGScrKc520uYNmzLmOExkiuUvHc8bCq+APz/yLGHELBjIfTqafNk
+QeWEUExp3cubIWt23IuO+a0oy55dUKjdKqTXcUMWCKNJkO4As1ey+wwhe5ATb7DmKrK96cjXnQzw
+ghrWJjKHfHKpDqRlzivTUt+0AcES3C3u+snCt6yTmqyCwGPluXcMeT1lUXcXYej8nul83YIzLxvz
+laTN5wj0217cTt8kTo15arIVPCufyC8cYMxY4kbkJ2G1nAxdtC3OETvTLxyFOaey9WN2uUkZY5y+
+dI0NN9Nu3Y00XIGaFxXJsb7LsnBF5ic0dDRpZeWzpuJUsbyW1CcvSsYUpfeQuPCMjcEcE55zQWv8
+5DtISybIMHTvduYBo20CHciAsGTWykMAE1Iy6ruSqKpUsmRRJWsafJHH6OqjiHLF4pDaaNcztVw8
+smnbWY0JZTm0Q+aHsmGoKFBZZaqFrxWpV+803beLL0CtfiuqTrSIsqaZ
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIIoDCCBoigAwIBAgIIRp833PoWsEwwDQYJKoZIhvcNAQENBQAwgeUxCzAJBgNVBAYTAklUMQ0w
+CwYDVQQHDARSb21lMSYwJAYDVQQKDB1BZ2VuemlhIHBlciBsJ0l0YWxpYSBEaWdpdGFsZTEsMCoG
+A1UECwwjU2Vydml6aW8gQWNjcmVkaXRhbWVudG8gZSBWaWdpbGFuemExKjAoBgNVBAMMIVByb2dl
+dHRvIFNQSUQgLSBTb2dnZXR0aV9wdWJibGljaTEpMCcGCSqGSIb3DQEJARYacHJvdG9jb2xsb0Bw
+ZWMuYWdpZC5nb3YuaXQxGjAYBgNVBAUTEVZBVElULTk3NzM1MDIwNTg0MB4XDTIyMDkxNjAwMDAw
+MFoXDTM3MDkxNTIzNTk1OVowgeExITAfBgNVBAMMGHNwaWRhbnRoZXNpLmVsaXhmb3Jtcy5pdDEL
+MAkGA1UEBhMCSVQxGTAXBgNVBAgMEFZpYSBTZWdhbnRpbmkgMjMxDzANBgNVBAcMBlRyZW50bzEX
+MBUGA1UECgwOQW50aGVzaSBzLnIubC4xFzAVBgNVBAsMDkFudGhlc2kgcy5yLmwuMRowGAYDVQRh
+DBFWQVRJVC0wMTQ2OTUxMDIyNDE1MDMGA1UEUwwsaHR0cHM6Ly9zcGlkYW50aGVzaS5lbGl4Zm9y
+bXMuaXQvc2Vydml6aVNQSUQwggGiMA0GCSqGSIb3DQEBAQUAA4IBjwAwggGKAoIBgQDCKTbDJDMq
+bnWyAP/PSt/4uWSoZJyspznbS5g2bMuY4TGSK5S8dzxsKr4A/P/IsYcQsGMh9Opp82RB5YRQTGnd
+y5sha3bci475rSjLnl1QqN0qpNdxQxYIo0mQ7gCzV7L7DCF7kBNvsOYqsr3pyNedDPCCGtYmMod8
+cqkOpGXOK9NS37QBwRLcLe76ycK3rJOarILAY+W5dwx5PWVRdxdh6Pye6XzdgjMvG/OVpM3nCPTb
+XtxO3yROjXlqshU8K5/ILxxgzFjiRuQnYbWcDF20Lc4RO9MvHIU5p7L1Y3a5SRljnL50jQ03027d
+jTRcgZoXFcmxvsuycEXmJzR0NGll5bOm4lSxvJbUJy9KxhSl95C48IyNwRwTnnNBa/zkO0hLJsgw
+dO925gGjbQIdyICwZNbKQwATUjLqu5KoqlSyZFElaxp8kcfo6qOIcsXikNpo1zO1XDyyadtZjQll
+ObRD5oeyYagoUFllqoWvFalX7zTdt4svQK1+K6pOtIiyppkCAwEAAaOCAtQwggLQMAwGA1UdEwEB
+/wQCMAAwHQYDVR0OBBYEFCtfONDbTMWT00ye1skO2n2ZRGW6MB8GA1UdIwQYMBaAFDy7bese/Z1u
+y+5U5uo51YmgR9c0MA4GA1UdDwEB/wQEAwIGwDAWBgNVHRIEDzANggtzcGlkLmdvdi5pdDBCBgNV
+HR8EOzA5MDegNaAzhjFodHRwczovL2VpZGFzLmFnaWQuZ292Lml0L2NybC9jcmxfU1BJRF9QdWJf
+U0EuY3JsMDcGCCsGAQUFBwEBBCswKTAnBggrBgEFBQcwAYYbaHR0cHM6Ly9vY3NwX1NBLmFnaWQu
+Z292Lml0MIIB2QYDVR0gBIIB0DCCAcwwCQYHBACORgEGAjCBlQYEK0wQBjCBjDBEBggrBgEFBQcC
+AjA4GjZFbGVjdHJvbmljIGNlcnRpZmljYXRlIGNvbmZvcm1pbmcgd2l0aCBBR0lEIEd1aWRlbGlu
+ZXMwRAYIKwYBBQUHAgIwOBo2Q2VydGlmaWNhdG8gZWxldHRyb25pY28gY29uZm9ybWUgYWxsZSBM
+aW5lZSBndWlkYSBBZ0lEMH0GBitMEAQCAjBzMDoGCCsGAQUFBwICMC4aLFNQSUQ6IGFnZ3JlZ2F0
+b3JlICdmdWxsJyBkaSBzZXJ2aXppIHB1YmJsaWNpMDUGCCsGAQUFBwICMCkaJ1NQSUQ6IHB1Ymxp
+Yy1zZXJ2aWNlcyAnZnVsbCcgQWdncmVnYXRvcjAIBgYEAI96AQMwTQYEK0wQBDBFMEMGCCsGAQUF
+BwIBFjdodHRwczovL2VpZGFzLmFnaWQuZ292Lml0L2Nwcy9BZ0lEX2VJREFTX3Jvb3RDQV9jcHMu
+cGRmME8GBgQAjkYBBTBFMEMGCCsGAQUFBwIBFjdodHRwczovL2VpZGFzLmFnaWQuZ292Lml0L2Nw
+cy9BZ0lEX2VJREFTX3Jvb3RDQV9jcHMucGRmMA0GCSqGSIb3DQEBDQUAA4ICAQCCYDcCYEQIXcdM
+5gfxFwKsx/8mXXI/EfTogNp7leBnnl/M22OwfUwnjchoWuWlgCJC1KWfvkIxzvLfuH+Pw8oGyIlP
+GYrTaNBm5mkiBmfL4Ctym/eZxqKDMhKWil+u9NgVqilEbWle50RHuIX2fPqjXq9F5XEgj0GtMhQF
+U7G0EqyOtwnUmCHUyzWPz2kPXzv+1br/MLz1KgPl1OHJMJzTE5Zp4HsAl+DwilHZ+4J7RJh/ZaAP
+lV8N25a85STnwq9Ax40aAM+KTd2klVXbKPNyy+PlVRIIIDKpvjRnb5UTPJuafBaDCa95U1LxJhg0
+Z/DIm+QkoTofODl1ccOZJPOmTFPq2g/MpdMTEGXyhTmooU1o2QT1zke4jkYrJYb3olI27p0pkWf2
+nbRmxaTnZLTNT2+DAbnZkYSAVz/28NHgckgQfev1VJ8NwaA0eapFybTZOzTsmC50lUOhYicUjz7c
+vxtpKQdgmufvY1q3GmpReeQp5H3/XCN7ND4X6GTDXLmsPHFIVDv7QdZtf4+2MpX/KiHuFM9e4aIq
+3L5BnFksCWFKPk8qI48J5VzRp+qLZCGjLqP5Z23vNXE47NGjQ2y7QBkmrrjQ3gx2Wpr7vl+murSz
+y4HayKz/WbX5pWlK/bQRL4rsrrSs83wEa8r7/CNFOij4rLx7vMdatJi133sV8w==
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+   
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIIHEDCCBXigAwIBAgIUDGJBO0goEaSywc/Z3nUJTKdcYm0wDQYJKoZIhvcNAQEL
+BQAwgdcxKTAnBgNVBAoMIFVuaXZlcnNpdGEnIGRlZ2xpIFN0dWRpIGRpIFBhcm1h
+MSkwJwYDVQQDDCBVbml2ZXJzaXRhJyBkZWdsaSBTdHVkaSBkaSBQYXJtYTFKMEgG
+A1UEUwxBaHR0cHM6Ly9zcGlkYW50aGVzaS5lbGl4Zm9ybXMuaXQvc2Vydml6aVNQ
+SUQvcHViLWFnLWZ1bGwvdW5pcHItYWcxFTATBgNVBGEMDFBBOklULXVuaV9wcjEL
+MAkGA1UEBhMCSVQxDzANBgNVBAcMBlRyZW50bzAeFw0yNDA2MDYwODQxMDBaFw0z
+NDA2MDQwODQxMDBaMIHXMSkwJwYDVQQKDCBVbml2ZXJzaXRhJyBkZWdsaSBTdHVk
+aSBkaSBQYXJtYTEpMCcGA1UEAwwgVW5pdmVyc2l0YScgZGVnbGkgU3R1ZGkgZGkg
+UGFybWExSjBIBgNVBFMMQWh0dHBzOi8vc3BpZGFudGhlc2kuZWxpeGZvcm1zLml0
+L3NlcnZpemlTUElEL3B1Yi1hZy1mdWxsL3VuaXByLWFnMRUwEwYDVQRhDAxQQTpJ
+VC11bmlfcHIxCzAJBgNVBAYTAklUMQ8wDQYDVQQHDAZUcmVudG8wggGiMA0GCSqG
+SIb3DQEBAQUAA4IBjwAwggGKAoIBgQCt3ODLURZKbG+JpLNOZ93XJ/QY3icO4SoM
+A6lNKhRQmmP9C/VIqyXjOX4+LMarNIuU6ocGgf1ImfxZGdSkcUZeQdYaRijOBucr
+IVm2RiTwHDrFQxfx6NUXNAN5MlEPspjRDvVpxJ8Qtb/BqTlaOsiFicQVL1EHlZ5i
+BPZjY2jgZr2/iod7q6fWr5eCtl6oNTRxIgR00ABjgidU+sD76E4zeBGFQi7O1A+0
+h659XUuhl+suBAg/WlplQGwf93suOwR5OJ96bcpBi0+sJRanUvS4tx30cqarmmF1
+w+kqAT6932Grx9GhxIoSjCEzbPaFYO1/AczJ2LULZuKeuTp3dNOrghLIv5EpzP+V
+0JqVPAUnh3Z0eRdIZnI9/Z7umLM8Ivzp/rhLZhi+jMmxyscXkTWiqHLVrkGeMWMQ
+Oddxlg9iipXaixUqvmY7gj7/8TQ/K2y6yMBf1lZO0WrzdQWIdudV9+L+yIJnjxU/
+S54N7OYVV2uw5Mws9loDqRGargExx6kCAwEAAaOCAdAwggHMMAkGA1UdEwQCMAAw
+DgYDVR0PAQH/BAQDAgbAMHMGA1UdIARsMGowHwYDK0wQMBgwFgYIKwYBBQUHAgIw
+CgwIQWdJRHJvb3QwIAYEK0wQBjAYMBYGCCsGAQUFBwICMAoMCGFnSURjZXJ0MCUG
+BitMEAQCATAbMBkGCCsGAQUFBwICMA0MC2NlcnRfU1BfUHViMB0GA1UdDgQWBBQ8
+dg9NcLddZYqPUe+rukx70Je/njCCARkGA1UdIwSCARAwggEMgBQ8dg9NcLddZYqP
+Ue+rukx70Je/nqGB3aSB2jCB1zEpMCcGA1UECgwgVW5pdmVyc2l0YScgZGVnbGkg
+U3R1ZGkgZGkgUGFybWExKTAnBgNVBAMMIFVuaXZlcnNpdGEnIGRlZ2xpIFN0dWRp
+IGRpIFBhcm1hMUowSAYDVQRTDEFodHRwczovL3NwaWRhbnRoZXNpLmVsaXhmb3Jt
+cy5pdC9zZXJ2aXppU1BJRC9wdWItYWctZnVsbC91bmlwci1hZzEVMBMGA1UEYQwM
+UEE6SVQtdW5pX3ByMQswCQYDVQQGEwJJVDEPMA0GA1UEBwwGVHJlbnRvghQMYkE7
+SCgRpLLBz9nedQlMp1xibTANBgkqhkiG9w0BAQsFAAOCAYEALreqFhwjuPuWyQDu
+CCzFZSqjh6kLil+4fvwYMZaBeP8FO5f41dhtxpwKKHZzjywjUg7g+x+yRdN8BE0U
+zklogZtizGL+ZoJDnHjwrz06Wqw/cOfjxKbM+TTbBUznyYA3IBDaUD+8gVz8BD32
+SUhBtV8cdwIMbAkS5GhTiLeLVd6VV331Sq0LTnXPKmhz0iyv7kUeXT/yet2GMCzN
+9ylsV6RfBhw7jaOBDMzjGchWoUVAGxWhH91IBLhM2n4eTRHx4ZJpasXvVuNN2+RI
+WoBL9l8GqqevXpTrNAI9JDU9ZWaQEhy0y5stXBmnVxSf6GKGgfqmn/QBOlxunmR5
+IOGgQbEPSdIxjWEvuX5ggv2kaZ/79yWGAIenAMgUN7F3lR0gL+Q8fVtDGZRBpiSG
+oyFRSYycUuFkVDW5oZEJYVj5hM53CFHyT4QgatC9yHYAc/gFtzd9syQn/JSjMZjP
+YEZMxG1i4SWcDLkVkug2C0w1CAN3lGoH9RDgM2ca39LgP1tx
+</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+	
+	
+	<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://unipr-ag.elixforms.it/Shibboleth.sso/Logout"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://unipr-ag.elixforms.it/Shibboleth.sso/SAML2/POST" index="0" isDefault="true"/>
+	 <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">Set 1</md:ServiceName>
+      <md:RequestedAttribute Name="spidCode"/> 
+	  <md:RequestedAttribute Name="name"/> 
+      <md:RequestedAttribute Name="familyName"/> 
+      <md:RequestedAttribute Name="placeOfBirth"/> 
+      <md:RequestedAttribute Name="countyOfBirth"/> 
+	  <md:RequestedAttribute Name="dateOfBirth"/> 
+      <md:RequestedAttribute Name="gender"/> 
+      <md:RequestedAttribute Name="companyName"/> 
+      <md:RequestedAttribute Name="registeredOffice"/> 
+	  <md:RequestedAttribute Name="fiscalNumber"/> 
+      <md:RequestedAttribute Name="ivaCode"/> 
+      <md:RequestedAttribute Name="idCard"/> 
+      <md:RequestedAttribute Name="mobilePhone"/> 
+	  <md:RequestedAttribute Name="email"/> 
+      <md:RequestedAttribute Name="address"/> 
+      <md:RequestedAttribute Name="expirationDate"/> 
+      <md:RequestedAttribute Name="digitalAddress"/> 
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+
+
+
+	<md:Organization>
+		<md:OrganizationName xml:lang="it">Universita' degli Studi di Parma</md:OrganizationName>
+		<md:OrganizationDisplayName xml:lang="it">Universita' degli Studi di Parma</md:OrganizationDisplayName>
+		<md:OrganizationURL xml:lang="it">https://www.unipr.it/</md:OrganizationURL>
+	</md:Organization>
+
+	<md:ContactPerson contactType="other" spid:entityType="spid:aggregator">
+		<md:Extensions>
+			<spid:VATNumber>IT01469510224</spid:VATNumber>
+			<spid:FiscalCode>01469510224</spid:FiscalCode>
+			<spid:PublicServicesFullAggregator/>
+		</md:Extensions>
+		<md:Company>Anthesi s.r.l.</md:Company>
+		<md:EmailAddress>spid@anthesi.it</md:EmailAddress>
+	<md:TelephoneNumber>+390464553300</md:TelephoneNumber>
+	</md:ContactPerson>
+
+	<md:ContactPerson contactType="other" spid:entityType="spid:aggregated">
+		<md:Extensions>
+			<spid:IPACode>uni_pr</spid:IPACode>
+			<spid:Public/>
+		</md:Extensions>
+		<md:Company>Universita' degli Studi di Parma</md:Company>
+	</md:ContactPerson>
+
+</md:EntityDescriptor>

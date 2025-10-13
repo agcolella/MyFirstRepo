@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:spid="https://spid.gov.it/saml-extensions" ID="ab60c74a4f6a46a38f2c4ddba8600021" cacheDuration="P1M" entityID="https://myid.regione.veneto.it/gw/spid-meta/pub-ag-full/cd897">
+	<Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#WithComments"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><DigestValue>K/3eha55RYWT5EPmwuNg+T91xBdwCdwZdTfQu7/KeyM=</DigestValue></Reference></SignedInfo><SignatureValue>D/tT3y8fI577Sq7sQLMnR/t3Jyk+QBR0slPARiYehQLlakCiLJZd6dE77HYP9Up2A6V21E7uAxG43DeEMH1dblKarNiiEvyeelh7AoimUpXX8XeNWxqBXulKob30wVADNmG7cnVuw3oFy23VTV4ZCruBSiQkr3EUcoQo1m0Vp1TjJOTG0c9oekOX5zZJC+7cvmbX8Igi3GCsKp4wQHIinF8CmRYE2qV9AGKtxW7i9I611D8eHKQjhkxdbMo7VftAbZaA7M1XTtEAPKG/fX95rIjhU8ea8gvj7EoX+ldWS4d3OwqQAtnz/nKKiPyGi1zBHb0/Q2ZIX1Lc+oq7t7FQ6g==</SignatureValue><KeyInfo><X509Data><X509Certificate>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</X509Certificate></X509Data></KeyInfo></Signature><md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+		<md:KeyDescriptor use="signing">
+			<ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+				<ds:X509Data>
+					<ds:X509Certificate>MIIIMjCCBhqgAwIBAgIIJkOdr1uN3nAwDQYJKoZIhvcNAQENBQAwgeUxCzAJBgNV
+BAYTAklUMQ0wCwYDVQQHDARSb21lMSYwJAYDVQQKDB1BZ2VuemlhIHBlciBsJ0l0
+YWxpYSBEaWdpdGFsZTEsMCoGA1UECwwjU2Vydml6aW8gQWNjcmVkaXRhbWVudG8g
+ZSBWaWdpbGFuemExKjAoBgNVBAMMIVByb2dldHRvIFNQSUQgLSBTb2dnZXR0aV9w
+dWJibGljaTEpMCcGCSqGSIb3DQEJARYacHJvdG9jb2xsb0BwZWMuYWdpZC5nb3Yu
+aXQxGjAYBgNVBAUTEVZBVElULTk3NzM1MDIwNTg0MB4XDTIzMDgyODAwMDAwMFoX
+DTM4MDgyNzIzNTk1OVowgfMxCzAJBgNVBAYTAklUMQswCQYDVQQIDAJWRTEQMA4G
+A1UEBwwHVmVuZXppYTEbMBkGA1UECgwSUmVnaW9uZSBkZWwgVmVuZXRvMQwwCgYD
+VQQLDANJQ1QxGzAZBgNVBAMMElJlZ2lvbmUgZGVsIFZlbmV0bzEtMCsGCSqGSIb3
+DQEJARYeY2x1c3Rlci5teWlkQHJlZ2lvbmUudmVuZXRvLml0MRcwFQYDVQRhDA5Q
+QTpJVC1yX3ZlbmV0bzE1MDMGA1UEUwwsaHR0cHM6Ly9teWlkLnJlZ2lvbmUudmVu
+ZXRvLml0L2d3L3NwaWQtbWV0YS8wggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEK
+AoIBAQDSYHcTdn6mI2M+R4o+H3F9G6ewlelLqAx9btuSxV51Ofrqs7OPuipyyss9
+pmavE+gKmlZfogD2KeAJX4ToJJcd8/nkuJ59Uz8TKMosdDw1d3EOPMYKUberXNCC
+L1Fra8HLOmi3oWdsVRpGQEkjPoTOCykhYC6GSIRIFmTmSWpjE9TCuMx4+HMtJ5WF
+OA0EjnT+keRkT1evmhM2HteIZwGlvRyEo9wfyyxBzBXT1xSgyqvet1Wtlr1e/uSI
+U0QlElkrcFUDxO7+64RFdkjDR5L1QfYI5nkjvFcWJxyJgUVPG4Xpob9bc1xiX/2K
+iQssq3lPffygEeCZ+tSSW6OmRvM7AgMBAAGjggLUMIIC0DAMBgNVHRMBAf8EAjAA
+MB0GA1UdDgQWBBQoJaXiphmB6n6gP0+YbaP+RfzyRDAfBgNVHSMEGDAWgBQ8u23r
+Hv2dbsvuVObqOdWJoEfXNDAOBgNVHQ8BAf8EBAMCBsAwFgYDVR0SBA8wDYILc3Bp
+ZC5nb3YuaXQwQgYDVR0fBDswOTA3oDWgM4YxaHR0cHM6Ly9laWRhcy5hZ2lkLmdv
+di5pdC9jcmwvY3JsX1NQSURfUHViX1NBLmNybDA3BggrBgEFBQcBAQQrMCkwJwYI
+KwYBBQUHMAGGG2h0dHBzOi8vb2NzcF9TQS5hZ2lkLmdvdi5pdDCCAdkGA1UdIASC
+AdAwggHMMAkGBwQAjkYBBgIwgZUGBCtMEAYwgYwwRAYIKwYBBQUHAgIwOBo2RWxl
+Y3Ryb25pYyBjZXJ0aWZpY2F0ZSBjb25mb3JtaW5nIHdpdGggQUdJRCBHdWlkZWxp
+bmVzMEQGCCsGAQUFBwICMDgaNkNlcnRpZmljYXRvIGVsZXR0cm9uaWNvIGNvbmZv
+cm1lIGFsbGUgTGluZWUgZ3VpZGEgQWdJRDB9BgYrTBAEAgIwczA6BggrBgEFBQcC
+AjAuGixTUElEOiBhZ2dyZWdhdG9yZSAnZnVsbCcgZGkgc2Vydml6aSBwdWJibGlj
+aTA1BggrBgEFBQcCAjApGidTUElEOiBwdWJsaWMtc2VydmljZXMgJ2Z1bGwnIEFn
+Z3JlZ2F0b3IwCAYGBACPegEDME0GBCtMEAQwRTBDBggrBgEFBQcCARY3aHR0cHM6
+Ly9laWRhcy5hZ2lkLmdvdi5pdC9jcHMvQWdJRF9lSURBU19yb290Q0FfY3BzLnBk
+ZjBPBgYEAI5GAQUwRTBDBggrBgEFBQcCARY3aHR0cHM6Ly9laWRhcy5hZ2lkLmdv
+di5pdC9jcHMvQWdJRF9lSURBU19yb290Q0FfY3BzLnBkZjANBgkqhkiG9w0BAQ0F
+AAOCAgEAsatVjq/JDkjKy83NQ/IzWzC60vF1M8ZKdQNMqnA4uwBDjde6/fCeYqQz
+T+X1Y0v7RzWsmvHiQBeXRwdpPCM5gCprRJZnxdrkF/qBGogbdz2LOc1Gg26EOpTd
+VZfvbOpcKJIFEAyNd/FO/dxxfTqimCo+efMrZAoUHnEo/MaRAbR4/p9EA5NqwWkV
+domWAEgqAeG0GmmweW1B2sNIVyX+C67ddHZvJBiy0dBjmIi2wvPs98lg8qwOlxzu
+eagv8ZD4Gd7HNG7e9WbTiLnbwR6qJHmww+YGnuYoE/Nt/gNycPPPBIWKGZVt5FyU
+50wgIISQr/B6DrLwQOdId9kYasLdmZapUzc5mxkUq5aEcN5vC/PGkxoBLu4CBgBL
+7m/wichF3y9F1lS2YmWXNCIsX7o2YZR09ZCQ9wh4/yEBw7xcT/KRvoHmGQdtPhhS
+OI3Pp3zHo+sOJY8oJJSusEQ7+kIQTJCwlzUcmIHPG5i4EXuN4r2a+Qv1FH3kcLEi
+qTUZjmF9bSaLCdrwI457fJulsNS0mT1o0JIl0BIn9mwK2McYwRmrUa1MbTzJqHW2
+frAe55MMDw1u8/ArcLJ3UfpZewFlrOa1S4e3kQquckhWWG059QJYroPBFPAysZMJ
+MrbkVGp9Ps6N71g6NbJblu9VyqxOhbli+fwJpRAaXvNT6qRhB/k=
+</ds:X509Certificate>
+				</ds:X509Data>
+			</ds:KeyInfo>
+		</md:KeyDescriptor>
+		<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://myid.regione.veneto.it/gw/SingleLogoutProxy/SP" ResponseLocation="https://myid.regione.veneto.it/gw/SingleLogoutProxy/SP/Response"/>
+		<md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>	
+		<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://myid.regione.veneto.it/gw/AssertionConsumerProxy/SAML2" index="0" isDefault="true"/>
+				<md:AttributeConsumingService index="1">
+			<md:ServiceName xml:lang="it">Area personale C_D897</md:ServiceName>
+			<md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+		</md:AttributeConsumingService>
+
+		<md:AttributeConsumingService index="99">
+			<md:ServiceName xml:lang="it">eIDAS Natural Person Minimum Attribute Set</md:ServiceName>
+			<md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+		</md:AttributeConsumingService>
+		<md:AttributeConsumingService index="100">
+			<md:ServiceName xml:lang="it">eIDAS Natural Person Full Attribute Set</md:ServiceName>
+			<md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="address" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+		</md:AttributeConsumingService>
+	</md:SPSSODescriptor>
+	 
+	<md:Organization>
+		<md:OrganizationName xml:lang="it">Comune di Gambellara</md:OrganizationName>
+		<md:OrganizationName xml:lang="en">Comune di Gambellara</md:OrganizationName>
+		<md:OrganizationDisplayName xml:lang="it">Comune di Gambellara</md:OrganizationDisplayName>
+		<md:OrganizationDisplayName xml:lang="en">Comune di Gambellara</md:OrganizationDisplayName>
+		<md:OrganizationURL xml:lang="it">myarea.comune.gambellara.vi.it</md:OrganizationURL>
+		<md:OrganizationURL xml:lang="en">myarea.comune.gambellara.vi.it</md:OrganizationURL>
+	</md:Organization>
+	<md:ContactPerson contactType="other" spid:entityType="spid:aggregator">
+		<md:Extensions>
+			<spid:IPACode>r_veneto</spid:IPACode>
+			<spid:PublicServicesFullAggregator/>
+		</md:Extensions>
+		<md:Company>Regione del Veneto</md:Company>
+		<md:EmailAddress>cluster.myid@regione.veneto.it</md:EmailAddress>
+	</md:ContactPerson>
+	<md:ContactPerson contactType="other" spid:entityType="spid:aggregated">
+		<md:Extensions>
+			<spid:IPACode>c_d897</spid:IPACode>
+			<spid:Public/>
+		</md:Extensions>
+		<md:Company>Comune di Gambellara</md:Company>
+	</md:ContactPerson>
+	
+</md:EntityDescriptor>

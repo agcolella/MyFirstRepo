@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" ID="_92238000e2a27d1b23a7ccf618aee2990944de3f8936760913dfa5eedbc996e0" entityID="https://sol.comune.pattada.ss.it"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#_92238000e2a27d1b23a7ccf618aee2990944de3f8936760913dfa5eedbc996e0">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>/gTIdCIt4Tue88h0OHYR+6eKJ/6NdMg1zbhElBPtu8Q=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+Dk5eSlOvm1zTZveu8JSoJWlHZxTK8UELWzQzeNN+VHzCN5l96tW/TvOO02LkeXg7rvq+z79pjMiW
+ixOyrrI/MvulHgP+G1xrm0qM8a9u7r90LKxBvYPhK8DFsPU7TF4zTm4+lQoxE29afvIWU5iUti/0
+VJ5h1wbk0BMSbLg+KTCwojFQv/SxSa9mvciCERWRwWwOTjRJasKmSxErGFZe9vIz9sGBbggirott
+nPMNpx4jifN3OTVRN4IF5GvX+Q+k80OYCX9vsZ+GfhH6ATIx9UsI/36cyuHB2JcGIVMsqaZG3h9p
+UYHc2fsCdubCU8dNtaWce1gr0H9hJkok+LW36A==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+wQOiGS6mCjRMPpIxm9rpTEaNlLe0xEdsJbbA7JEqRjItIpacQ7pKmfqthnP3wU3Z9CI/amDnnRQ3
+k8SRvL29fSvTxWWVUdA8KlUisgeDUcOi/3vXHovvhqfPdC/wXdFOEwiezZapkc4dUy3Lc478NnUU
+6f/OfHu1SIjiJT4E8yQToGunlXbQK/roCJeEkHmgNnTnDSFAroY2eK9wTAaA8iJjQ9CrRAEeedmw
++YrM32DmpSG3X+l70JICzUDl26xyk7XRcNe81vpA2n0RX64y8cuNipPZGgPv413QVUESV4FenxpW
+3wdXsOPWg8Solmaolcu2cI3ad5hQsZ1Vl8EK4Q==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDrzCCApegAwIBAgIJANqH2cv43600MA0GCSqGSIb3DQEBCwUAMG4xCzAJBgNVBAYTAklUMQ4w
+DAYDVQQIDAVJdGFseTEQMA4GA1UEBwwHUGF0dGFkYTEaMBgGA1UECgwRQ29tdW5lIGRpIFBhdHRh
+ZGExITAfBgNVBAMMGHNvbC5jb211bmUucGF0dGFkYS5zcy5pdDAeFw0yNDA3MjYwOTA1NDZaFw0z
+NDA3MjYwOTA1NDZaMG4xCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEQMA4GA1UEBwwHUGF0
+dGFkYTEaMBgGA1UECgwRQ29tdW5lIGRpIFBhdHRhZGExITAfBgNVBAMMGHNvbC5jb211bmUucGF0
+dGFkYS5zcy5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMEDohkupgo0TD6SMZva
+6UxGjZS3tMRHbCW2wOyRKkYyLSKWnEO6Spn6rYZz98FN2fQiP2pg550UN5PEkby9vX0r08VllVHQ
+PCpVIrIHg1HDov971x6L74anz3Qv8F3RThMIns2WqZHOHVMty3OO/DZ1FOn/znx7tUiI4iU+BPMk
+E6Brp5V20Cv66AiXhJB5oDZ05w0hQK6GNnivcEwGgPIiY0PQq0QBHnnZsPmKzN9g5qUht1/pe9CS
+As1A5duscpO10XDXvNb6QNp9EV+uMvHLjYqT2RoD7+Nd0FVBEleBXp8aVt8HV7Dj1oPEqJZmqJXL
+tnCN2neYULGdVZfBCuECAwEAAaNQME4wHQYDVR0OBBYEFFsklTmHJGmI/5XJEkGMba9XsHqkMB8G
+A1UdIwQYMBaAFFsklTmHJGmI/5XJEkGMba9XsHqkMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQEL
+BQADggEBAD4dvOpWwd/fqN0v0pZebB0K8Vvr3DUkXhjqwdYsFS2Iy/l7aeBTmFSRdnvkdk+sDh8U
+edmznrBvpgvCka1gmHpkLGPanx9+aexDwr43G5mrKEaWgdYa6uNF0yrSDEVF3gPpGuOnvLpP4M//
+DfvP31gnuOr2dSu5aG6fkoR37fCYFCYfCekYPR5RekytRdwxcmt/WtLL7o2+vL5y7ls9Yz3nFISX
+RNlB6q417YSEahj76TkPq4N+cFb5xjwGjJm0BAzSWK/8iTmLkr/tiJ/yUrEqJoa8V94hMngNrrUz
+A2EJrEQnWG8fsffrsC74ky/tmUIVWmocTUiHRmVwdg88jOo=
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDrzCCApegAwIBAgIJANqH2cv43600MA0GCSqGSIb3DQEBCwUAMG4xCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEQMA4GA1UEBwwHUGF0dGFkYTEaMBgGA1UECgwRQ29tdW5lIGRpIFBhdHRhZGExITAfBgNVBAMMGHNvbC5jb211bmUucGF0dGFkYS5zcy5pdDAeFw0yNDA3MjYwOTA1NDZaFw0zNDA3MjYwOTA1NDZaMG4xCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEQMA4GA1UEBwwHUGF0dGFkYTEaMBgGA1UECgwRQ29tdW5lIGRpIFBhdHRhZGExITAfBgNVBAMMGHNvbC5jb211bmUucGF0dGFkYS5zcy5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMEDohkupgo0TD6SMZva6UxGjZS3tMRHbCW2wOyRKkYyLSKWnEO6Spn6rYZz98FN2fQiP2pg550UN5PEkby9vX0r08VllVHQPCpVIrIHg1HDov971x6L74anz3Qv8F3RThMIns2WqZHOHVMty3OO/DZ1FOn/znx7tUiI4iU+BPMkE6Brp5V20Cv66AiXhJB5oDZ05w0hQK6GNnivcEwGgPIiY0PQq0QBHnnZsPmKzN9g5qUht1/pe9CSAs1A5duscpO10XDXvNb6QNp9EV+uMvHLjYqT2RoD7+Nd0FVBEleBXp8aVt8HV7Dj1oPEqJZmqJXLtnCN2neYULGdVZfBCuECAwEAAaNQME4wHQYDVR0OBBYEFFsklTmHJGmI/5XJEkGMba9XsHqkMB8GA1UdIwQYMBaAFFsklTmHJGmI/5XJEkGMba9XsHqkMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAD4dvOpWwd/fqN0v0pZebB0K8Vvr3DUkXhjqwdYsFS2Iy/l7aeBTmFSRdnvkdk+sDh8UedmznrBvpgvCka1gmHpkLGPanx9+aexDwr43G5mrKEaWgdYa6uNF0yrSDEVF3gPpGuOnvLpP4M//DfvP31gnuOr2dSu5aG6fkoR37fCYFCYfCekYPR5RekytRdwxcmt/WtLL7o2+vL5y7ls9Yz3nFISXRNlB6q417YSEahj76TkPq4N+cFb5xjwGjJm0BAzSWK/8iTmLkr/tiJ/yUrEqJoa8V94hMngNrrUzA2EJrEQnWG8fsffrsC74ky/tmUIVWmocTUiHRmVwdg88jOo=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDrzCCApegAwIBAgIJANqH2cv43600MA0GCSqGSIb3DQEBCwUAMG4xCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEQMA4GA1UEBwwHUGF0dGFkYTEaMBgGA1UECgwRQ29tdW5lIGRpIFBhdHRhZGExITAfBgNVBAMMGHNvbC5jb211bmUucGF0dGFkYS5zcy5pdDAeFw0yNDA3MjYwOTA1NDZaFw0zNDA3MjYwOTA1NDZaMG4xCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEQMA4GA1UEBwwHUGF0dGFkYTEaMBgGA1UECgwRQ29tdW5lIGRpIFBhdHRhZGExITAfBgNVBAMMGHNvbC5jb211bmUucGF0dGFkYS5zcy5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMEDohkupgo0TD6SMZva6UxGjZS3tMRHbCW2wOyRKkYyLSKWnEO6Spn6rYZz98FN2fQiP2pg550UN5PEkby9vX0r08VllVHQPCpVIrIHg1HDov971x6L74anz3Qv8F3RThMIns2WqZHOHVMty3OO/DZ1FOn/znx7tUiI4iU+BPMkE6Brp5V20Cv66AiXhJB5oDZ05w0hQK6GNnivcEwGgPIiY0PQq0QBHnnZsPmKzN9g5qUht1/pe9CSAs1A5duscpO10XDXvNb6QNp9EV+uMvHLjYqT2RoD7+Nd0FVBEleBXp8aVt8HV7Dj1oPEqJZmqJXLtnCN2neYULGdVZfBCuECAwEAAaNQME4wHQYDVR0OBBYEFFsklTmHJGmI/5XJEkGMba9XsHqkMB8GA1UdIwQYMBaAFFsklTmHJGmI/5XJEkGMba9XsHqkMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAD4dvOpWwd/fqN0v0pZebB0K8Vvr3DUkXhjqwdYsFS2Iy/l7aeBTmFSRdnvkdk+sDh8UedmznrBvpgvCka1gmHpkLGPanx9+aexDwr43G5mrKEaWgdYa6uNF0yrSDEVF3gPpGuOnvLpP4M//DfvP31gnuOr2dSu5aG6fkoR37fCYFCYfCekYPR5RekytRdwxcmt/WtLL7o2+vL5y7ls9Yz3nFISXRNlB6q417YSEahj76TkPq4N+cFb5xjwGjJm0BAzSWK/8iTmLkr/tiJ/yUrEqJoa8V94hMngNrrUzA2EJrEQnWG8fsffrsC74ky/tmUIVWmocTUiHRmVwdg88jOo=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://sol.comune.pattada.ss.it/spid/module.php/saml/sp/saml2-logout.php/spid"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sol.comune.pattada.ss.it/spid/module.php/saml/sp/saml2-acs.php/spid" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://sol.comune.pattada.ss.it/spid/module.php/saml/sp/saml2-acs.php/spid" index="1"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">Servizi online</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Servizi online</md:ServiceDescription>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Codice identificativo SPID" Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Ragione o denominazione sociale" Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Pattada</md:OrganizationName>
+    <md:OrganizationName xml:lang="en">Comune di Pattada</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Pattada</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Pattada</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.comune.pattada.ss.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="en">https://www.comune.pattada.ss.it</md:OrganizationURL>
+  </md:Organization>
+  <md:ContactPerson contactType="other">
+    <md:Extensions>
+      <spid:IPACode>c_g376</spid:IPACode>
+      <spid:Public/>
+    </md:Extensions>
+    <md:Company>Comune di Pattada</md:Company>
+    <md:EmailAddress>pnrrmonitoraggio@comune.pattada.ss.it</md:EmailAddress>
+  </md:ContactPerson>
+</md:EntityDescriptor>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<md:EntityDescriptor ID="_f8f1390b-f64e-48d0-b041-e2767cca9105" entityID="https://spid.publisys.it/pub-ag-lite/trecase" xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:spid="https://spid.gov.it/saml-extensions"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#_f8f1390b-f64e-48d0-b041-e2767cca9105">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>hSh2jQgAuC9SACP4t7ZeVX31YgxiDo+TbWfYnFEcq64=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+qaHqz+wxR5jr3tcglXHZSPc3pskW3gVBDvi5HZ/MFplLC4Z05EiZGmie5rtmZ/Of1wMqXisyI0hb&#xd;
+nzEDEZ6HNbvXqKsDlTFeFmKft67B+u2P2P2tbU6KAYsaiB5PC1N4k0dKy6f5xMvCRtlSHCydHz34&#xd;
+F0SDvDEmS+yJnKc9M44RdY8OtfmIhW3TEYzb3Dxjx1G4xhg0QR28uoOjneyYlxEHGScx2j3koS/A&#xd;
+CqY6sORGrb51GgKpo8TKRZNHFrFyYDyGNzTMmbg4azUkhpzNefb4bDMhrNyHAOLKZs1o9I7kNcaX&#xd;
+gZ24HQV/iPR5Xdpa3VnOH+uho2N4zluurU0I8w==
+</ds:SignatureValue>
+<ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIHLzCCBRegAwIBAgIIOnqDshEI4NswDQYJKoZIhvcNAQENBQAwgeUxCzAJBgNVBAYTAklUMQ0w
+CwYDVQQHDARSb21lMSYwJAYDVQQKDB1BZ2VuemlhIHBlciBsJ0l0YWxpYSBEaWdpdGFsZTEsMCoG
+A1UECwwjU2Vydml6aW8gQWNjcmVkaXRhbWVudG8gZSBWaWdpbGFuemExKjAoBgNVBAMMIVByb2dl
+dHRvIFNQSUQgLSBTb2dnZXR0aV9wdWJibGljaTEpMCcGCSqGSIb3DQEJARYacHJvdG9jb2xsb0Bw
+ZWMuYWdpZC5nb3YuaXQxGjAYBgNVBAUTEVZBVElULTk3NzM1MDIwNTg0MB4XDTIwMTEyMzAwMDAw
+MFoXDTMwMTEyMjIzNTk1OVowgb8xETAPBgNVBAoMCFB1Ymxpc3lzMRQwEgYDVQQDDAtwdWJsaXN5
+cy5pdDEaMBgGA1UEYQwRVkFUSVQtMDA5NzU4NjA3NjgxCzAJBgNVBAYTAklUMQ0wCwYDVQQHDARU
+aXRvMSQwIgYJKoZIhvcNAQkBFhVwdWJsaXN5c0BwZWMuYXJ1YmEuaXQxNjA0BgNVBFMMLWh0dHBz
+Oi8vc3BpZC5wdWJsaXN5cy5pdC9wdWItYWctbGl0ZS9jYWx2ZWxsbzCCASIwDQYJKoZIhvcNAQEB
+BQADggEPADCCAQoCggEBALzSADGHvljCD60cqW9oQr3BcCfH8vRBKyqrHzpvMMIz14VQM0POmEh8
+Xma/yE0YzbdQTFyx4zPrpWcHpd2cUJLg53te6e0uAL7+24O+1SxvzK0wG3INJMQ70MKFvPPAEg7k
+/xVgbMKYoifHMnUccrGIr6pX6mb0zELQ6Tj2XOBWPrsZZHHTrUOiEpr/OK/+au6endE5DUZO2/jb
+hXCo/3S/fKoInaXNmpKlT0e3u1F0oT5qaux6Q8FtMqip7hOqdA259idxBi79U8w7kk50zKqtKqrR
+W0t+t7ckZwVghO4Pg2yIDxMHYwGDK2gWgZAdb1MKoyN4K9ND4oida65h9CUCAwEAAaOCAgUwggIB
+MBIGA1UdEwEB/wQIMAYBAf8CAQAwHQYDVR0OBBYEFBlqeUPlV/i8uSlBJ8lu9Umv8LChMB8GA1Ud
+IwQYMBaAFDy7bese/Z1uy+5U5uo51YmgR9c0MA4GA1UdDwEB/wQEAwIBBjAWBgNVHRIEDzANggtz
+cGlkLmdvdi5pdDBCBgNVHR8EOzA5MDegNaAzhjFodHRwczovL2VpZGFzLmFnaWQuZ292Lml0L2Ny
+bC9jcmxfU1BJRF9QdWJfU0EuY3JsMDcGCCsGAQUFBwEBBCswKTAnBggrBgEFBQcwAYYbaHR0cHM6
+Ly9vY3NwX1NBLmFnaWQuZ292Lml0MIGYBgNVHSAEgZAwgY0wTAYDK0wQMEUwQwYIKwYBBQUHAgEW
+N2h0dHBzOi8vZWlkYXMuYWdpZC5nb3YuaXQvY3BzL0FnSURfZUlEQVNfcm9vdENBX2Nwcy5wZGYw
+PQYGK0wQBAIFMDMwMQYIKwYBBQUHAgIwJRojQ2VydGlmaWNhdGkgQWdncmVnYXRvcmkgU1AgcHVi
+YmxpY2kwEQYJYIZIAYb4QgEBBAQDAgAHMB4GCWCGSAGG+EIBDQQRFg94Y2EgY2VydGlmaWNhdGUw
+OAYDVR0RBDEwL4YtaHR0cHM6Ly9zcGlkLnB1Ymxpc3lzLml0L3B1Yi1hZy1saXRlL2NhbHZlbGxv
+MA0GCSqGSIb3DQEBDQUAA4ICAQBd9mXzQVkyca7xgVri0ZS3txYNbFsv8DgqDDFFJHeZj+dByGdU
+wvhx8+IwfB/rheo5zV1YAcWakWCUBR9e41h4LfnoyzoMLKIlgk8ZAm1xeI+mjzYK2oAKM606i803
+aWBKn8sPaSCYSil8PomXugBvcBWQj2BFvcejfszfmfohEIA/FlV0HM+ijtgh7t1bJDGzWan7VfAs
+l4Ig9qvE70eLC9lgdFZ5geeuh5Mq6roFBWXl5pI5nuaRQFeiipCfZHnxGvt5WiR9QEMzUP/SFMFt
+fb0LP20Sbck1pZhOA81e59C972KOFfgUtr/sgBYbjzbqrHvkKIJfHvL9vys9NHuivyYCvJHlkHIx
+Fx9245+I+kOzw3S5gTC2TVlT1JFp+ydQaRLMI8Vg9QgqOyaz7HVln6BnDmhqvnRL0ppnqJJgv7xb
+ltDcvt0cgA4m7kjvtabJf2jRNRDmWDJYDGRY1ChknDVyo2XZ2/XurvqS5XotbN9rTzp02erX/uhf
+TIbFXTGjj2zCzOG2JRq6xkmcKfj9jjhRQq2Taz07ts6H4F4y/4oNMBTCV6BLXOAM861FMQVjQ3fW
+2btk6dAShWRqsf0id+iAKuZkH0r/dQUHAQ7HfJydkQQu6EtK0BowR3GqSxfGrM7s5Wcaf97Z9MbY
+cMf9kbddfMy7aJuo+1fGBQCvsw==</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature><md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol"><md:KeyDescriptor use="signing"><ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#"><ds:X509Data><ds:X509Certificate>MIIFbDCCA9SgAwIBAgIUAON8HhiftAs/9qMTlQ4M+eVUy5cwDQYJKoZIhvcNAQEL
+BQAwgaUxGjAYBgNVBAMMEUNvbXVuZSBkaSBUcmVjYXNlMQswCQYDVQQGEwJJVDEQ
+MA4GA1UEBwwHVHJlY2FzZTEVMBMGA1UEYQwMUEE6SVQtY19tMjgwMRowGAYDVQQK
+DBFDb211bmUgZGkgVHJlY2FzZTE1MDMGA1UEUwwsaHR0cHM6Ly9zcGlkLnB1Ymxp
+c3lzLml0L3B1Yi1hZy1saXRlL3RyZWNhc2UwHhcNMjQwNjI2MDgyNjU5WhcNMzQw
+NjI0MDgyNjU5WjCBpTEaMBgGA1UEAwwRQ29tdW5lIGRpIFRyZWNhc2UxCzAJBgNV
+BAYTAklUMRAwDgYDVQQHDAdUcmVjYXNlMRUwEwYDVQRhDAxQQTpJVC1jX20yODAx
+GjAYBgNVBAoMEUNvbXVuZSBkaSBUcmVjYXNlMTUwMwYDVQRTDCxodHRwczovL3Nw
+aWQucHVibGlzeXMuaXQvcHViLWFnLWxpdGUvdHJlY2FzZTCCAaIwDQYJKoZIhvcN
+AQEBBQADggGPADCCAYoCggGBAKkcQbNeSPSVu07JM8V7BnzdI+I0howbhQ/Owb3f
+BczVOIogdiWGMfmRcMpJxaRND6vmU2xUe8WpjLVSD4RVm/2FeR4ogOYpApnynm9S
+TDFPW11qmUhrkHf9bWuzMtaUuZ7cPqq86DTRu4XkbTtcrP7tpgnklLqHiRf/2HEk
+qCB+NLZVImrrWZUF7IkGmuChtyClQCQYou5CBFyYJt+WA0K0BUChKJqb4349FnRD
+/Ou31pxXL8Q44TWtCBG31U0RXSh0PrU7D+FutODI7twwxSmx15rRrRzh/hcprYAH
+OZOQTdSE5rG8DOB6YNC+GNXpKK25U89khT3qU9EPmx0UL8z6Z4qa1cD2DP7WUHBo
+MY36BQQwoyjiDoClw6guRGqI25mToWPz1WWg1QYJnPz4qTZ3lOXMTgPpdQak5i1/
+Jh/5uOoLPWLEhNZ2ggzv9RDs2TC2PjHRGQv3f7dtNLO/v0Nxh5IihnXd2gt3xAFd
+vg8kp5+dztHaCzzOeLNoATQ/8wIDAQABo4GRMIGOMAkGA1UdEwQCMAAwDgYDVR0P
+AQH/BAQDAgbAMFIGA1UdIARLMEkwIAYEK0wQBjAYMBYGCCsGAQUFBwICMAoaCGFn
+SURjZXJ0MCUGBitMEAQCATAbMBkGCCsGAQUFBwICMA0aC2NlcnRfU1BfUHViMB0G
+A1UdDgQWBBSZVmUfmyu2GlWiPSqvypBcf2+1sTANBgkqhkiG9w0BAQsFAAOCAYEA
+pyeAGcTuiP+ebYA9IOqkF/jTK9F5im6DMbtPrt9FSgp/yHGP/COe3c1PWPBWa4I5
+g0id3h9fLK1ZqjigByrsual7ePikF5zZGq1v3QnFdgVYDVd12MtDNfeNYTphDLlM
+R1CT9s4/9IFOUf53XCIFi62atVmu8JQrWXCp7WktIzkCQL3VQbnG/xajL/l4DsHP
+3bwrV6DD2AL6iYRTN1v+Vp1jsYZD/qcQBS8AqFAyVDiUosvyJtTxc9zLl1ChCRid
+/WgCKd1d+DEODgjJYiKlB8VCouhCVk5rZyqGTJGfQgOPHiI/qwG13rsCSQxUtNxJ
+Osa+IV+RNHk/VH0FqYdIDLF3bOkE4Wp5nWHbqvWaXzqMwRhc7+QpmZORhmKwg1Wk
+bajV8GlNHki/A4cr3r92kSpjZWfzqwntPJWLoQRxukDDxQaRkokjWxwpzyV/nJuT
+1Ck0up92e1Fu6Wl+lKX5xH0mEGmFpm+bTlsMnXeOE1JMrxHXA3FSULyUjHG0/Kjb</ds:X509Certificate></ds:X509Data></ds:KeyInfo></md:KeyDescriptor><md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://siopi.publisys.it/kauth-trecase/sso/spid/logout"/><md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://siopi.publisys.it/kauth-trecase/sso/spid/logout"/><md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat><md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://siopi.publisys.it/kauth-trecase/sso/spid/acs" index="0" isDefault="true"/><md:AttributeConsumingService index="0"><md:ServiceName xml:lang="it">Servizi online del Comune di Trecase</md:ServiceName><md:RequestedAttribute Name="spidCode"/><md:RequestedAttribute Name="name"/><md:RequestedAttribute Name="familyName"/><md:RequestedAttribute Name="companyName"/><md:RequestedAttribute Name="fiscalNumber"/><md:RequestedAttribute Name="ivaCode"/><md:RequestedAttribute Name="email"/><md:RequestedAttribute Name="digitalAddress"/><md:RequestedAttribute Name="mobilePhone"/></md:AttributeConsumingService></md:SPSSODescriptor><md:Organization><md:OrganizationName xml:lang="it">Comune di Trecase</md:OrganizationName><md:OrganizationDisplayName xml:lang="it">Comune di Trecase</md:OrganizationDisplayName><md:OrganizationURL xml:lang="it">https://www.comunetrecase.it/</md:OrganizationURL></md:Organization><md:ContactPerson contactType="other" spid:entityType="spid:aggregator"><md:Extensions><spid:FiscalCode>IT00975860768</spid:FiscalCode><spid:PublicServicesLightAggregator/></md:Extensions><md:Company>Publisys S.P.A.</md:Company><md:EmailAddress>publisys@pec.aruba.it</md:EmailAddress><md:TelephoneNumber>+390971476307</md:TelephoneNumber></md:ContactPerson><md:ContactPerson contactType="other" spid:entityType="spid:aggregated"><md:Extensions><spid:IPACode>c_m280</spid:IPACode><spid:Public/></md:Extensions><md:Company>Comune di Trecase</md:Company><md:EmailAddress>protocollo@pec.comunetrecase.it</md:EmailAddress></md:ContactPerson></md:EntityDescriptor>

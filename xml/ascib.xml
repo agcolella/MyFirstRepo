@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" ID="spid-php_1ab0616c51649196a93bad19e06ce7ed6ac544c319d44d718676fb0d2a4d8ce7" entityID="https://aziendaisola.gestionaleservizisociali.it/sp"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#spid-php_1ab0616c51649196a93bad19e06ce7ed6ac544c319d44d718676fb0d2a4d8ce7">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>gfUkvorigxmWgjMSovniC4JXll/Ts19BZgoH4BX8lyI=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+hp+Z4YjZRr7A74q7VKDCEK/tyhT+nuBRDybsV+nl8dZGrKSHtIicJcd9QJhUcuN02ZnGuriAdZcs
+ccxTDCG+5MCl3QfREQanjxXAbLvkR+IRy1JPsYKale8Q77DLWCIfR8NS3HPSZPaF6wyxcTQO7N6E
+Hu2RX2U6wu2798N64K3CMPoWmIiQtEa0fymR5UUTpLZLoirJXDIGhY7dAaX3ALaBaj6RSH8aJV3R
+cksclCmqarlAy1ks3zZZRoD6IjMPIw4yQ995dHD5Z6XP9efWd6pDSClD4xBKuan4QPC5WjUxl8Fr
+mbVt21tIokCFlVAkhq9yP+UW6X/Ntnw0tpXkiA==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+vihfAIAI9xxPlBwHWD+kkbwSYT6uUf0m0SIbnXabd+6NLBbNZGZ9QUXYEnFTikSJr1VolA8wB5Q9
+I9xyb/drrbhtstAIwms90Ve6WA2rUVzpX2JMK6nPiD4XdxHaQY+8U1HfFMf5SlZpZOdKrzxSxz5v
+kbBOmq7WgQZNtmribx/v+6tFxOg5sC5B/ksuKZn0Fka4VqsvrH2F6LsCVPpJiLPyDKMOTAb1TanD
+ai5bjREIcoDhuwrEPazSqBq8nwpgBJYjT2OjWD3qAQAt1TCx1MAB326qt8HNe+3Eyt4i01FuJjrF
+Z2yzJQgl3mVoqP1vEZJR2bPZk8T2Q2iU3nqcvQ==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIErjCCA5agAwIBAgIUXi396APOJps4zqI8U9sgUS1PyhwwDQYJKoZIhvcNAQELBQAwgfcxPDA6
+BgNVBFMMM2h0dHBzOi8vYXppZW5kYWlzb2xhLmdlc3Rpb25hbGVzZXJ2aXppc29jaWFsaS5pdC9z
+cDEUMBIGA1UEYQwLUEE6SVQtYXNjaWIxPDA6BgNVBAMMM2h0dHBzOi8vYXppZW5kYWlzb2xhLmdl
+c3Rpb25hbGVzZXJ2aXppc29jaWFsaS5pdC9zcDEWMBQGA1UECgwNQVpJRU5EQSBJU09MQTEUMBIG
+A1UEBRMLUEE6SVQtYXNjaWIxCzAJBgNVBAYTAklUMRUwEwYDVQQHDAxUZXJubyBkSXNvbGExETAP
+BgNVHQ8MCGNyaXRpY2FsMB4XDTI0MDMxMjE1MjgwNFoXDTI2MTIwNzE1MjgwNFowgfcxPDA6BgNV
+BFMMM2h0dHBzOi8vYXppZW5kYWlzb2xhLmdlc3Rpb25hbGVzZXJ2aXppc29jaWFsaS5pdC9zcDEU
+MBIGA1UEYQwLUEE6SVQtYXNjaWIxPDA6BgNVBAMMM2h0dHBzOi8vYXppZW5kYWlzb2xhLmdlc3Rp
+b25hbGVzZXJ2aXppc29jaWFsaS5pdC9zcDEWMBQGA1UECgwNQVpJRU5EQSBJU09MQTEUMBIGA1UE
+BRMLUEE6SVQtYXNjaWIxCzAJBgNVBAYTAklUMRUwEwYDVQQHDAxUZXJubyBkSXNvbGExETAPBgNV
+HQ8MCGNyaXRpY2FsMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAvihfAIAI9xxPlBwH
+WD+kkbwSYT6uUf0m0SIbnXabd+6NLBbNZGZ9QUXYEnFTikSJr1VolA8wB5Q9I9xyb/drrbhtstAI
+wms90Ve6WA2rUVzpX2JMK6nPiD4XdxHaQY+8U1HfFMf5SlZpZOdKrzxSxz5vkbBOmq7WgQZNtmri
+bx/v+6tFxOg5sC5B/ksuKZn0Fka4VqsvrH2F6LsCVPpJiLPyDKMOTAb1TanDai5bjREIcoDhuwrE
+PazSqBq8nwpgBJYjT2OjWD3qAQAt1TCx1MAB326qt8HNe+3Eyt4i01FuJjrFZ2yzJQgl3mVoqP1v
+EZJR2bPZk8T2Q2iU3nqcvQIDAQABozAwLjARBgNVHSAECjAIMAYGBCtMEAYwCQYDVR0TBAIwADAO
+BgNVHQ8BAf8EBAMCBsAwDQYJKoZIhvcNAQELBQADggEBAD9mVpgWZcPQqCFL2ewbnRmp/2U6A0Vs
+16I7RjfEN25Rc+gEBJKOvAupk8TE4Bor7jCj0Xl2120knfdKlILOO8swAkKCtEGwLbPrfwUwRgm9
+GtQeQxRoKWWOk/x9nSyrUIIEuSqC6ExFX7uChHjPHGCbht7TI5A9S33tft/zT/ykGcRqlA9efXe3
+WvcT2B5SeNdi05q6uAnhHbLChKCN37Eb+8d0BjafLsZ2Me2LkaA/BTn5GT+AZjBeLbHxZJZriHlg
+5J2AYizxSAj6M5pvm4R+Vq8dWI46fS9jbdBb4IAl3x+yVI428Y+z6SXo+d9IkTNMVBeQFkhI2RWp
+8zqb4Xw=
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIIErjCCA5agAwIBAgIUXi396APOJps4zqI8U9sgUS1PyhwwDQYJKoZIhvcNAQELBQAwgfcxPDA6BgNVBFMMM2h0dHBzOi8vYXppZW5kYWlzb2xhLmdlc3Rpb25hbGVzZXJ2aXppc29jaWFsaS5pdC9zcDEUMBIGA1UEYQwLUEE6SVQtYXNjaWIxPDA6BgNVBAMMM2h0dHBzOi8vYXppZW5kYWlzb2xhLmdlc3Rpb25hbGVzZXJ2aXppc29jaWFsaS5pdC9zcDEWMBQGA1UECgwNQVpJRU5EQSBJU09MQTEUMBIGA1UEBRMLUEE6SVQtYXNjaWIxCzAJBgNVBAYTAklUMRUwEwYDVQQHDAxUZXJubyBkSXNvbGExETAPBgNVHQ8MCGNyaXRpY2FsMB4XDTI0MDMxMjE1MjgwNFoXDTI2MTIwNzE1MjgwNFowgfcxPDA6BgNVBFMMM2h0dHBzOi8vYXppZW5kYWlzb2xhLmdlc3Rpb25hbGVzZXJ2aXppc29jaWFsaS5pdC9zcDEUMBIGA1UEYQwLUEE6SVQtYXNjaWIxPDA6BgNVBAMMM2h0dHBzOi8vYXppZW5kYWlzb2xhLmdlc3Rpb25hbGVzZXJ2aXppc29jaWFsaS5pdC9zcDEWMBQGA1UECgwNQVpJRU5EQSBJU09MQTEUMBIGA1UEBRMLUEE6SVQtYXNjaWIxCzAJBgNVBAYTAklUMRUwEwYDVQQHDAxUZXJubyBkSXNvbGExETAPBgNVHQ8MCGNyaXRpY2FsMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAvihfAIAI9xxPlBwHWD+kkbwSYT6uUf0m0SIbnXabd+6NLBbNZGZ9QUXYEnFTikSJr1VolA8wB5Q9I9xyb/drrbhtstAIwms90Ve6WA2rUVzpX2JMK6nPiD4XdxHaQY+8U1HfFMf5SlZpZOdKrzxSxz5vkbBOmq7WgQZNtmribx/v+6tFxOg5sC5B/ksuKZn0Fka4VqsvrH2F6LsCVPpJiLPyDKMOTAb1TanDai5bjREIcoDhuwrEPazSqBq8nwpgBJYjT2OjWD3qAQAt1TCx1MAB326qt8HNe+3Eyt4i01FuJjrFZ2yzJQgl3mVoqP1vEZJR2bPZk8T2Q2iU3nqcvQIDAQABozAwLjARBgNVHSAECjAIMAYGBCtMEAYwCQYDVR0TBAIwADAOBgNVHQ8BAf8EBAMCBsAwDQYJKoZIhvcNAQELBQADggEBAD9mVpgWZcPQqCFL2ewbnRmp/2U6A0Vs16I7RjfEN25Rc+gEBJKOvAupk8TE4Bor7jCj0Xl2120knfdKlILOO8swAkKCtEGwLbPrfwUwRgm9GtQeQxRoKWWOk/x9nSyrUIIEuSqC6ExFX7uChHjPHGCbht7TI5A9S33tft/zT/ykGcRqlA9efXe3WvcT2B5SeNdi05q6uAnhHbLChKCN37Eb+8d0BjafLsZ2Me2LkaA/BTn5GT+AZjBeLbHxZJZriHlg5J2AYizxSAj6M5pvm4R+Vq8dWI46fS9jbdBb4IAl3x+yVI428Y+z6SXo+d9IkTNMVBeQFkhI2RWp8zqb4Xw=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIIErjCCA5agAwIBAgIUXi396APOJps4zqI8U9sgUS1PyhwwDQYJKoZIhvcNAQELBQAwgfcxPDA6BgNVBFMMM2h0dHBzOi8vYXppZW5kYWlzb2xhLmdlc3Rpb25hbGVzZXJ2aXppc29jaWFsaS5pdC9zcDEUMBIGA1UEYQwLUEE6SVQtYXNjaWIxPDA6BgNVBAMMM2h0dHBzOi8vYXppZW5kYWlzb2xhLmdlc3Rpb25hbGVzZXJ2aXppc29jaWFsaS5pdC9zcDEWMBQGA1UECgwNQVpJRU5EQSBJU09MQTEUMBIGA1UEBRMLUEE6SVQtYXNjaWIxCzAJBgNVBAYTAklUMRUwEwYDVQQHDAxUZXJubyBkSXNvbGExETAPBgNVHQ8MCGNyaXRpY2FsMB4XDTI0MDMxMjE1MjgwNFoXDTI2MTIwNzE1MjgwNFowgfcxPDA6BgNVBFMMM2h0dHBzOi8vYXppZW5kYWlzb2xhLmdlc3Rpb25hbGVzZXJ2aXppc29jaWFsaS5pdC9zcDEUMBIGA1UEYQwLUEE6SVQtYXNjaWIxPDA6BgNVBAMMM2h0dHBzOi8vYXppZW5kYWlzb2xhLmdlc3Rpb25hbGVzZXJ2aXppc29jaWFsaS5pdC9zcDEWMBQGA1UECgwNQVpJRU5EQSBJU09MQTEUMBIGA1UEBRMLUEE6SVQtYXNjaWIxCzAJBgNVBAYTAklUMRUwEwYDVQQHDAxUZXJubyBkSXNvbGExETAPBgNVHQ8MCGNyaXRpY2FsMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAvihfAIAI9xxPlBwHWD+kkbwSYT6uUf0m0SIbnXabd+6NLBbNZGZ9QUXYEnFTikSJr1VolA8wB5Q9I9xyb/drrbhtstAIwms90Ve6WA2rUVzpX2JMK6nPiD4XdxHaQY+8U1HfFMf5SlZpZOdKrzxSxz5vkbBOmq7WgQZNtmribx/v+6tFxOg5sC5B/ksuKZn0Fka4VqsvrH2F6LsCVPpJiLPyDKMOTAb1TanDai5bjREIcoDhuwrEPazSqBq8nwpgBJYjT2OjWD3qAQAt1TCx1MAB326qt8HNe+3Eyt4i01FuJjrFZ2yzJQgl3mVoqP1vEZJR2bPZk8T2Q2iU3nqcvQIDAQABozAwLjARBgNVHSAECjAIMAYGBCtMEAYwCQYDVR0TBAIwADAOBgNVHQ8BAf8EBAMCBsAwDQYJKoZIhvcNAQELBQADggEBAD9mVpgWZcPQqCFL2ewbnRmp/2U6A0Vs16I7RjfEN25Rc+gEBJKOvAupk8TE4Bor7jCj0Xl2120knfdKlILOO8swAkKCtEGwLbPrfwUwRgm9GtQeQxRoKWWOk/x9nSyrUIIEuSqC6ExFX7uChHjPHGCbht7TI5A9S33tft/zT/ykGcRqlA9efXe3WvcT2B5SeNdi05q6uAnhHbLChKCN37Eb+8d0BjafLsZ2Me2LkaA/BTn5GT+AZjBeLbHxZJZriHlg5J2AYizxSAj6M5pvm4R+Vq8dWI46fS9jbdBb4IAl3x+yVI428Y+z6SXo+d9IkTNMVBeQFkhI2RWp8zqb4Xw=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://spid-aziendaisola.gestionaleservizisociali.it/module.php/saml/sp/saml2-logout.php/aziendaisola"/>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://spid-aziendaisola.gestionaleservizisociali.it/module.php/saml/sp/saml2-logout.php/aziendaisola"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid-aziendaisola.gestionaleservizisociali.it/module.php/saml/sp/saml2-acs.php/aziendaisola" index="0" isDefault="true"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">AZIENDA ISOLA</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Accesso SPID per AZIENDA ISOLA</md:ServiceDescription>
+      <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="address" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+    </md:AttributeConsumingService>
+	<md:AttributeConsumingService index="99">
+      <md:ServiceName xml:lang="it">eIDAS Natural Person Minimum Attribute Set</md:ServiceName>
+      <md:RequestedAttribute Name="dateOfBirth"/>
+      <md:RequestedAttribute Name="familyName"/>
+      <md:RequestedAttribute Name="name"/>
+      <md:RequestedAttribute Name="spidCode"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="100">
+      <md:ServiceName xml:lang="it">eIDAS Natural Person Full Attribute Set</md:ServiceName>
+      <md:RequestedAttribute Name="address"/>
+      <md:RequestedAttribute Name="dateOfBirth"/>
+      <md:RequestedAttribute Name="familyName"/>
+      <md:RequestedAttribute Name="gender"/>
+      <md:RequestedAttribute Name="name"/>
+      <md:RequestedAttribute Name="placeOfBirth"/>
+      <md:RequestedAttribute Name="spidCode"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">AZIENDA ISOLA</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">AZIENDA ISOLA</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://aziendaisola.gestionaleservizisociali.it</md:OrganizationURL>
+  </md:Organization>
+  <md:ContactPerson contactType="other">
+    <md:Extensions>
+        <spid:IPACode>ascib</spid:IPACode>
+        <spid:Public/>
+    </md:Extensions>
+    <md:EmailAddress>aziendaisola@propec.it</md:EmailAddress>
+</md:ContactPerson>
+
+</md:EntityDescriptor>

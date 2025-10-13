@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" ID="a088bc6e-33c5-4ff2-b35b-d9c3ff9a2c9e" entityID="https://www.e-fil.it/pub-ag-full/ucv_109"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#a088bc6e-33c5-4ff2-b35b-d9c3ff9a2c9e">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>eT6peXJYSzYuDpr9dKf7emjGASY9zArMk1rIoqQTBEo=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+fg5UczqkQ36aPaB6newvt5fHG+khoWuGz9MaxB+B3/yE/HbQEJJMS8HntCiKXC361jEsTxzaFYSa
+/EQ6AimMzWjz6k95LWtG/8pAusmipgO1J30LwRncdHR7cIICSG++JrRkP0Gsn4bDXEiQqpQv2AJA
+ExrxoMxnf42ZcWClYZh7kl5hwlcc+E0N5tmNNDSbkrEQnsgJSkNs030RP9DH78xrJe65s+q3naNM
+qXxifAT1ORPdSeSof2f84QswRfMK7IJaVE1W6Ps9qqQNlzOMlPTCuDZf6D4esCAXUDeG5mT0za/L
+fOG1ZfIi7SpQnWGumf5xLPKunbiCGpE6nfMQ9w==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+qY4H/GWTewBiu2WSlYEBgj8A43JfVxYrWgJD3qdxocfWPPSM5E7MWIKXzXCFl+zrjeCnfeO3vg+I
+IDgN76rUKxK75XW1gvU0BEzaf7qaKNxYrvKDxKlcrzT20ZRppJ7GaMq4b5ygiFXM91bhmPkeiYGS
+I3VNgl+ZDxpMqEQuvJY1wG+iECe9p7WKVKWebj9lU4cserbIVdTT45/x0lJD+00zeuKrTQ5FQD+7
+FKjg4PThQbPIojaXwekwtZxApbz329zJsY57zomJE6phJl1gJ7+b3dN3otHMUNoGoR2KcTWy74CY
+skWOZs/wD0hbCH4QstxhHSdXH+srFN6tBkJzQw==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIH4TCCBcmgAwIBAgIIbMDMGjctYe8wDQYJKoZIhvcNAQENBQAwgeUxCzAJBgNVBAYTAklUMQ0w
+CwYDVQQHDARSb21lMSYwJAYDVQQKDB1BZ2VuemlhIHBlciBsJ0l0YWxpYSBEaWdpdGFsZTEsMCoG
+A1UECwwjU2Vydml6aW8gQWNjcmVkaXRhbWVudG8gZSBWaWdpbGFuemExKjAoBgNVBAMMIVByb2dl
+dHRvIFNQSUQgLSBTb2dnZXR0aV9wdWJibGljaTEpMCcGCSqGSIb3DQEJARYacHJvdG9jb2xsb0Bw
+ZWMuYWdpZC5nb3YuaXQxGjAYBgNVBAUTEVZBVElULTk3NzM1MDIwNTg0MB4XDTIxMDkxNTAwMDAw
+MFoXDTM2MDkxNDIzNTk1OVowgaIxCzAJBgNVBAYTAklUMQswCQYDVQQIDAJSTTENMAsGA1UEBwwE
+Um9tYTEOMAwGA1UECgwFRS1GSUwxFTATBgNVBAsMDEUtRklMIFMuUi5MLjEVMBMGA1UEAwwMRS1G
+SUwgUy5SLkwuMRowGAYDVQRhDBFWQVRJVC0wMzc4OTc1MDEwMDEdMBsGA1UEUwwUaHR0cHM6Ly93
+d3cuZS1maWwuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCpjgf8ZZN7AGK7ZZKV
+gQGCPwDjcl9XFitaAkPep3Ghx9Y89IzkTsxYgpfNcIWX7OuN4Kd947e+D4ggOA3vqtQrErvldbWC
+9TQETNp/upoo3Fiu8oPEqVyvNPbRlGmknsZoyrhvnKCIVcz3VuGY+R6JgZIjdU2CX5kPGkyoRC68
+ljXAb6IQJ72ntYpUpZ5uP2VThyx6tshV1NPjn/HSUkP7TTN64qtNDkVAP7sUqODg9OFBs8iiNpfB
+6TC1nEClvPfb3MmxjnvOiYkTqmEmXWAnv5vd03ei0cxQ2gahHYpxNbLvgJiyRY5mz/APSFsIfhCy
+3GEdJ1cf6ysU3q0GQnNDAgMBAAGjggLUMIIC0DAMBgNVHRMBAf8EAjAAMB0GA1UdDgQWBBRKUCpu
+F1YOLaPUB3lqAjXk+HWScTAfBgNVHSMEGDAWgBQ8u23rHv2dbsvuVObqOdWJoEfXNDAOBgNVHQ8B
+Af8EBAMCBsAwFgYDVR0SBA8wDYILc3BpZC5nb3YuaXQwQgYDVR0fBDswOTA3oDWgM4YxaHR0cHM6
+Ly9laWRhcy5hZ2lkLmdvdi5pdC9jcmwvY3JsX1NQSURfUHViX1NBLmNybDA3BggrBgEFBQcBAQQr
+MCkwJwYIKwYBBQUHMAGGG2h0dHBzOi8vb2NzcF9TQS5hZ2lkLmdvdi5pdDCCAdkGA1UdIASCAdAw
+ggHMMAkGBwQAjkYBBgIwgZUGBCtMEAYwgYwwRAYIKwYBBQUHAgIwOBo2RWxlY3Ryb25pYyBjZXJ0
+aWZpY2F0ZSBjb25mb3JtaW5nIHdpdGggQUdJRCBHdWlkZWxpbmVzMEQGCCsGAQUFBwICMDgaNkNl
+cnRpZmljYXRvIGVsZXR0cm9uaWNvIGNvbmZvcm1lIGFsbGUgTGluZWUgZ3VpZGEgQWdJRDB9BgYr
+TBAEAgIwczA6BggrBgEFBQcCAjAuGixTUElEOiBhZ2dyZWdhdG9yZSAnZnVsbCcgZGkgc2Vydml6
+aSBwdWJibGljaTA1BggrBgEFBQcCAjApGidTUElEOiBwdWJsaWMtc2VydmljZXMgJ2Z1bGwnIEFn
+Z3JlZ2F0b3IwCAYGBACPegEDME0GBCtMEAQwRTBDBggrBgEFBQcCARY3aHR0cHM6Ly9laWRhcy5h
+Z2lkLmdvdi5pdC9jcHMvQWdJRF9lSURBU19yb290Q0FfY3BzLnBkZjBPBgYEAI5GAQUwRTBDBggr
+BgEFBQcCARY3aHR0cHM6Ly9laWRhcy5hZ2lkLmdvdi5pdC9jcHMvQWdJRF9lSURBU19yb290Q0Ff
+Y3BzLnBkZjANBgkqhkiG9w0BAQ0FAAOCAgEAO9XfbJaLZEb7P7U+yJyE7mIuNsYJGSf18XzG/7sn
+C4POvFLhYOP/IAw/nrKPkXU5z6KH1NCnoKwS/8SxJbpXxU4gn29U4NFlaDYYat9LYXu/a0g75Den
+AsOtNsYH6Qx/iiPk+Ksehly+tBjMOj6EWqQmr+0I8EI5DUgIMCLbiUD0U5yAGMt8lKFlUw6SClEe
+ppp615autplBNWyUNEOVTnu+z2t+uP5midU9JRWm0HRsUOoHATa6zKE7o74fzDCebvJRXJQtH1Cf
+SYprddOg8tcxqrsUY7a0m9FH/no98fmquUwgY9CWnM7byYHAMdKOhGTqLW/TGSuhBNgYnm7mS6RS
+sB/jhC2n5eh2JYYbBw5ku/Vxkwqqt70s5V0zDIYVb5pZ1IYhgUBVuE0WYmLK8SL7FhPEilp4ZRfo
++J3YCs4zd/ncloQhdma+VksA/C06wldIRcVplrcYfJAKTUphoVC0b7o3uh9UR68FzUrdID6qWu0Z
+sQcVuPp3yu++8KpNnYGEdntKS1Kay4VeZB4ZR3qVvz0YP89c+Ia1ht0Q5KnV49BzyXjbZOeGtmnA
+TXZGdKmZCB1UZi1n2q0wPCGCbo/iZxqzLgAbZyYTKxzLgbKnhllUw7yE24F8C9EW0Ad3WgTvQB2j
+inV2kz2IRS9ixUd/8XwEWKVPa6id/0Et5Y4=
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>
+            MIIGRDCCBCygAwIBAgIJAJhmrGcxDHvEMA0GCSqGSIb3DQEBCwUAMIG2MQswCQYD
+			VQQGEwJJVDENMAsGA1UECAwEUm9tYTEWMBQGA1UEBwwNQ29tdW5pdmFsZGFzbzEW
+			MBQGA1UECgwNQ29tdW5pdmFsZGFzbzEQMA4GA1UECwwHRGlnaXRJRDErMCkGA1UE
+			AwwiY29tdW5pdmFsZGFzby51bmlvbmUucGx1Z2FuZHBheS5pdDEpMCcGCSqGSIb3
+			DQEJARYadWN2YWxkYXNvQHBlYy51Y3ZhbGRhc28uaXQwHhcNMjQwNzI5MDk0NTQw
+			WhcNMjcwNzI5MDk0NTQwWjCBtjELMAkGA1UEBhMCSVQxDTALBgNVBAgMBFJvbWEx
+			FjAUBgNVBAcMDUNvbXVuaXZhbGRhc28xFjAUBgNVBAoMDUNvbXVuaXZhbGRhc28x
+			EDAOBgNVBAsMB0RpZ2l0SUQxKzApBgNVBAMMImNvbXVuaXZhbGRhc28udW5pb25l
+			LnBsdWdhbmRwYXkuaXQxKTAnBgkqhkiG9w0BCQEWGnVjdmFsZGFzb0BwZWMudWN2
+			YWxkYXNvLml0MIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEA48SFd6Bt
+			ykSQpFTMiw1HLcZbgLqwXsYrHh7KAYssujIsAHvl6WOreJqDtcb95m50PY7ERTMi
+			ZHVn8F/f3QJKkITMohB5pe9D4C4lqdYHnGs01xWccXu8il2+WTEPAT2dHMsPd3up
+			1I56070+4C/msfPlhalL1XJRIEmR5+0F/MdZliqNyOAV7uH9j/iPX5icJQTzAj8F
+			8lnug7y6dSfj8l7YMm/s2Nq3G4mj0d094MfRH+kkEO6BlFXuP+Aw+kPfBm4ml85m
+			L22iADVUH3mS4Zo0XQulaXn8e31IQm9IIESLZTQS4jLPmBA/OLNw15y1MGIoqDMk
+			GrCxQsuG/4q9lXqs7dCKBB0L4WNGx0UOX26/opX2PdLccR1dFLRNSlNPolswX0J5
+			0e9rlCWE2cxjShenRde9Onb3P2opQ24Zy5nHt7AAaCTZqQ3f49w2TGYR9csmKViS
+			SOPs/TrFvuFlkA+6a1fl3Bw/fWGRW3mWpwG4vx0H1vLRPE/0AT6wmNafxxh90TDH
+			Rg97FKvA8sOgVEeBngLL1SpMaZ/i2s/E3F2tKTsPVqLKs0iYNlkB9PWwz+UYEWaB
+			Z6sc3OhF0AfGE29dxuwvB2XUVRpqZvUmXV2GAveSybFlsxorN4N2yid6r61AXESm
+			8GFGBnAq9gY3xbq1H0GUthrb2Fj3IfLC0c0CAwEAAaNTMFEwHQYDVR0OBBYEFLFI
+			btT4RxqexF2WpncmL89k0c+2MB8GA1UdIwQYMBaAFLFIbtT4RxqexF2WpncmL89k
+			0c+2MA8GA1UdEwEB/wQFMAMBAf8wDQYJKoZIhvcNAQELBQADggIBAL65oecH0gvv
+			/pUMQtvPV8F6EEikj7KJc4HJLTQrrQVXB3ljmG6dCSsL0ezyi6lXf/GKtMbAFc11
+			ShCcwVOEY4U1lB/mzrhOqG+0+HBmaHufWnFdG0zDcJFv/SUkD3BBRLmSCsozEbyo
+			PVHwjLVGMroNdDnq9MDxRQ2CGvKnKqJ5F7B0nJdWVjjbdKzgWbQO6vWKTNxEyVdF
+			cyEn/3RUH3RseBGL57E7yNqn8D0zkny//d1APJ2SzOif7GPKjoLIuiSgjgQofVU7
+			iB80KaCET0HYh4i4WQNjL97FP8/4pVyQL44L1DO+XUC4ZUnSUFJhAShR8ZnEGErV
+			PR/o2Q/N1daL4Mzoknk4S3U9YqxySb4vRELsRmZKqDetrkh9OOBD7nJaxfXX0L3h
+			C9GbuzPRczljFXn1Qvt7pbHikmdcdbWto6YI+wEBFEue8xHv6Fl3ta+k8krzYLIj
+			BpPQ8dhN5xAuB18/e/9vP7IBZfc2R8BNhUChDo6x9AcuAFs8bUVIUSdU6aB+45LX
+			39GWkP50D4sjNigKVJnD2eEpDjdQ+GgadU2k2ZsdPMcfabDZWlAwzmX4XzLdOPLf
+			TO1CJF2s9WuYXfctQz4pxnnXW6CiS6tZn9GrhGz7z1LlpPmQ2lsAUgwemP5Rv9d0
+			Thd6i3WdRrjVX/8/x7Kf9xPz5rtcW2EY
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://comunivaldaso.unione.plugandpay.it/spidslo"/>
+	<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://idppaproxy.plugandpay.it/spidslo/e63cbeb1-97d5-4ec0-9a42-cec50ced1b94/ucv_109"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://comunivaldaso.unione.plugandpay.it/spidacs" index="0" isDefault="true"/>
+	<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://idppaproxy.plugandpay.it/spidacs/e63cbeb1-97d5-4ec0-9a42-cec50ced1b94/ucv_109" index="1" isDefault="false"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">Portale dei pagamenti del cittadino</md:ServiceName>
+      <md:RequestedAttribute Name="spidCode"/>
+	  <md:RequestedAttribute Name="familyName"/>
+	  <md:RequestedAttribute Name="name"/>
+	  <md:RequestedAttribute Name="companyName"/>
+	  <md:RequestedAttribute Name="fiscalNumber"/>
+	  <md:RequestedAttribute Name="ivaCode"/>
+	  <md:RequestedAttribute Name="email"/>
+	  <md:RequestedAttribute Name="gender"/>
+	  <md:RequestedAttribute Name="placeOfBirth"/>
+	  <md:RequestedAttribute Name="countyOfBirth"/>
+	  <md:RequestedAttribute Name="dateOfBirth"/>
+    </md:AttributeConsumingService>
+	<md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">Unione Comuni Valdaso</md:ServiceName>
+      <md:RequestedAttribute Name="spidCode"/>
+	  <md:RequestedAttribute Name="familyName"/>
+	  <md:RequestedAttribute Name="name"/>
+	  <md:RequestedAttribute Name="companyName"/>
+	  <md:RequestedAttribute Name="fiscalNumber"/>
+	  <md:RequestedAttribute Name="ivaCode"/>
+	  <md:RequestedAttribute Name="email"/>
+	  <md:RequestedAttribute Name="gender"/>
+	  <md:RequestedAttribute Name="placeOfBirth"/>
+	  <md:RequestedAttribute Name="countyOfBirth"/>
+	  <md:RequestedAttribute Name="dateOfBirth"/>
+    </md:AttributeConsumingService> 	
+  </md:SPSSODescriptor>
+  <md:Organization>
+  	<md:OrganizationName xml:lang="it">Unione Comuni Valdaso</md:OrganizationName>
+  	<md:OrganizationDisplayName xml:lang="it">Unione Comuni Valdaso</md:OrganizationDisplayName>
+  	<md:OrganizationURL xml:lang="it">http://www.ucvaldaso.it</md:OrganizationURL>
+  </md:Organization>
+  <md:ContactPerson contactType="other" spid:entityType="spid:aggregator">
+  	<md:Extensions>
+  		<spid:VATNumber>IT03789750100</spid:VATNumber>
+  		<spid:FiscalCode>03789750100</spid:FiscalCode>
+  		<spid:PublicServicesFullAggregator/>
+  	</md:Extensions>
+  	<md:Company>E-fil srl</md:Company>
+  	<md:EmailAddress>segreteria@pec.e-fil.eu</md:EmailAddress>
+  	<md:TelephoneNumber>+390688805363</md:TelephoneNumber>
+  </md:ContactPerson>
+  <md:ContactPerson contactType="other" spid:entityType="spid:aggregated">
+  	<md:Extensions>
+  		<spid:IPACode>ucv_109</spid:IPACode>
+		<spid:Public/>
+  	</md:Extensions>
+  	<md:Company>Unione Comuni Valdaso</md:Company>
+   </md:ContactPerson>
+</md:EntityDescriptor>

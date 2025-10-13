@@ -8,15 +8,15 @@
 <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
 </ds:Transforms>
 <ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
-<ds:DigestValue>q2houh/AaFqTSQB7dgrSZFhjm3ixOMOGH/U7+ZzOifk=</ds:DigestValue>
+<ds:DigestValue>43uT8EMn86D6ya7hZpQcrYGZQDcEjaUwO/YE17xzdTs=</ds:DigestValue>
 </ds:Reference>
 </ds:SignedInfo>
 <ds:SignatureValue>
-lIACqRXrhXDrQBBHVLJ33bQ4bl8l36d/DmsvRxU96rrqTzfmRBEmhUuUtNw94bxv6XSf9xVfYlev
-+w7LKTMe15aH/5sQ2IzuS+o1I5shZV7Hsyv/3/vWyeYFobyf5so8MXBokCWVWJmyTcdktUiSoYa2
-jv7UeknkEqvv77/Lyc+lmvRdfMHkRnboYmHUwSV0S6OksLFlhlqasa62wVVpIRi0TLiEfcnqz501
-HBgpxGpAxFBSf9HX0qSbtGrWOjUMOPneUAGb9Zmtc44B11f/6fWjtAV1mUtZraBNzvfeKx7jQrRX
-ZlZVQ/DUqROBHES1wU/30jzW+H7rYkoC0P0DOQ==
+ruP3+bNHYEslyFkaDAupyE44Md/E/wfPZ8Q8J4js3k+WVAEgSfahQ4g4ORJPihNev2yUt7Kvixr6
+7topDJIW4LlJ6sbrYdw1+L40feCrC1QNlipGKbrMnGq0pXSSRiynWKpx/5bysmQljckkXgW20nqR
+7qwbux5A2ItDuNec3SARCQDwKa7sbdnPHmfPlsAAFvG59Q42aOtsubZ0O4cHWzY8KeyAe3fz5iQ8
+meoI1rRRxWbOU8OshHMZvJGD6XoAsS1Q6gsxVLtnTwvlSyHDo9fiiUMsT9i2wx0/kP3KvmHTX3IB
+NLxIxQjZKQxmnAI5zisQM++TKaf+KObV0IpJyw==
 </ds:SignatureValue>
 <ds:KeyInfo>
 <ds:KeyValue>
@@ -137,18 +137,6 @@ JI0Hz78PYYrRe7CNIOOZ0SzQJEB/c0bJWZ+zQegt23D+/RTDYJ0wG5Yh2Q==
          <md:RequestedAttribute Name="domicileNation" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>                  
          <md:RequestedAttribute Name="expirationDate" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>                  
          <md:RequestedAttribute Name="digitalAddress" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>                  
-      </md:AttributeConsumingService>
-	  
-	   <md:AttributeConsumingService index="3">
-         <md:ServiceName xml:lang="it">AutenticazioneSPID-cust01</md:ServiceName>
-         <md:ServiceDescription xml:lang="it">AutenticazioneSPID-cust01</md:ServiceDescription>
-         <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>         
-         <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>         
-         <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>         
-         <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>         
-         <md:RequestedAttribute Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
-         <md:RequestedAttribute Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>              
-         <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>                    
       </md:AttributeConsumingService>
 	  
 	  <md:AttributeConsumingService index="99">

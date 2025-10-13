@@ -1,22 +1,22 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" ID="_pavia488" entityID="https://www.appnet-it.com/pub-ag-full/PAVIA"><ds:Signature>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" ID="_pavianidi510" entityID="https://www.appnet-it.com/pub-ag-full/PAVIANIDI"><ds:Signature>
 <ds:SignedInfo>
 <ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
 <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
-<ds:Reference URI="#_pavia488">
+<ds:Reference URI="#_pavianidi510">
 <ds:Transforms>
 <ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
 <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
 </ds:Transforms>
 <ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
-<ds:DigestValue>O/qT0lOi2JWNBz95OaZJQc/QWJv9iAbMPAm2FpUhQFg=</ds:DigestValue>
+<ds:DigestValue>QL0jMIQ3pMlw3XVdTDc3/Ql0WNSiJM/h3JVULO4WIT8=</ds:DigestValue>
 </ds:Reference>
 </ds:SignedInfo>
 <ds:SignatureValue>
-eh1C6suSWFUVdBMbc0Abj2wyIzcDQkjUNsKLlPioKW7szqTDfGOjIqwdHZwxRqeuEtj2ZP27gXvS
-fNK9ZeH+MpragwYrfXTphNRDX531iZxX65g0kalsUFI7F/C1k7/bK3vDYEcqdDKz5ccL/kwXf7EX
-l34cdSKsamMyU6rOoedCvcFweXLxdorcxu6/na8fW2TY7ahMP0n96kDnnhMFylqYp6/3cZjk7Vad
-facyXj+gBzADm074uLnn6pmPehqnFAXLHP1Q0DYCEm2y5m69oPNTOURYUrN4JaLBzvCxhvrE0sZL
-hBwTuKhR7601R7rVjRSC4CSF4+LhSMLJT46rNw==
+znHP+RcNY8m6Svrjzq9uKMCrVkfCrjsAxpkgivP1z35QDT/wN4BZ11phdwGuwXnmTo0DjgClVDAi
+3n6nt6KActG5pAMzKYXvhmR5pC4yAHafa4g8d4OecQ8IzXj0+5wfO0qEA6F0RpnMvfVXsyvHK5jb
++uk86qncVzD27Npsly9B7KAN4RDpPLK0w+PsRpN8ScdDyvuUwfurdkPiLABsyBcj8NXDKYZo/ewy
+0CBa2jaBtTdstqWXC0BvuqRNCBPqoKzI9le2YbciEbl/EOiX4SEjUubuB2FVsI6jbrvu87BlGjOA
+Und5FPq3tHn7WKPcpW/ZtoA/9cUwmAMYIc7/bg==
 </ds:SignatureValue>
 <ds:KeyInfo>
 <ds:KeyValue>
@@ -125,9 +125,9 @@ D34S+/J0MBg6sHnq8fZnBuZqH4ZFBZjxqu/dwwVgWxUJnab1DDgFk2sO
         </ds:X509Data>
       </ds:KeyInfo>
     </md:KeyDescriptor>
-    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www3.itcloudweb.com/paviaportalegen/Spid/Logout"/>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www3.itcloudweb.com/pavianidiportalegen/Spid/Logout"/>
     <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
-    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www3.itcloudweb.com/paviaportalegen/Spid/ACS" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www3.itcloudweb.com/pavianidiportalegen/Spid/ACS" index="0" isDefault="true"/>
     <md:AttributeConsumingService index="0">
       <md:ServiceName xml:lang="it">acs</md:ServiceName>
       <md:ServiceDescription xml:lang="it">acs</md:ServiceDescription>
@@ -146,9 +146,9 @@ D34S+/J0MBg6sHnq8fZnBuZqH4ZFBZjxqu/dwwVgWxUJnab1DDgFk2sO
     </md:AttributeConsumingService>
   </md:SPSSODescriptor>
   <md:Organization>
-    <md:OrganizationName xml:lang="it">Comune di Pavia</md:OrganizationName>
-    <md:OrganizationDisplayName xml:lang="it">Comune di Pavia</md:OrganizationDisplayName>
-    <md:OrganizationURL xml:lang="it">https://www.comune.Pavia.pv.it/</md:OrganizationURL>
+    <md:OrganizationName xml:lang="it">Comune di Pavia Nidi</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Pavia Nidi</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.comune.pv.it/</md:OrganizationURL>
   </md:Organization>
   <md:ContactPerson contactType="other" spid:entityType="spid:aggregator">
     <md:Extensions>
@@ -165,6 +165,6 @@ D34S+/J0MBg6sHnq8fZnBuZqH4ZFBZjxqu/dwwVgWxUJnab1DDgFk2sO
       <spid:IPACode>c_g388</spid:IPACode>
       <spid:Public/>
     </md:Extensions>
-    <md:Company>Comune di Pavia</md:Company>
+    <md:Company>Comune di Pavia Nidi</md:Company>
   </md:ContactPerson>
 </md:EntityDescriptor>

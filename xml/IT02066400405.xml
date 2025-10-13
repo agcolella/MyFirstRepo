@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:fpa="https://spid.gov.it/invoicing-extensions" xmlns:spid="https://spid.gov.it/saml-extensions" ID="www.maggioli.com" entityID="https://www.maggioli.com/serviziSPID"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#www.maggioli.com">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>TDErJs6Qe4sczAzQibj+25LhcSuxoFbAaQw8LbQukwc=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+mWh3oUCGNCNfIb9+4+zk92E9RuIGyUxu5gQ4PVp+naHKuPUYuVlYa9d11yOZBUQzFeH/rjNIBdjH
+NDD9nHD6fo5GzPoTAnfSvLoyugkzetKvGGSXq73ON2Up4qTkzU9qwjvWsoDZ94tPQaA1bcTC7IyR
+Urui5e/rdU45Olic5fPqFnAVy9bdcYVFLiXTKfu+S4Sn4UNL0Ib++bberSgolU1KhllIP8ISwr6K
+ykV+J8gcba1gPwFtUI6l9tIQ3Ohuj1V57v45qyxLLFxo1kLB62DiYmi4QVtO1PFIz/T+BntCV+1F
+41FQzdPyRln150qZYRberISRDOHm3jchP+7iTQ==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+u6HBMGLhEwQaEwpTsCoV6vT5Tu9wI8MfOEJgzPGbRa+yqC4BO7numm8/keSNFTE6ADywRpeEiyd4
+iTCuGByUTCiimP3KTnk0b3j9Sl5Ke6jV0mQ1QKVG7H0Tx48ceIZicuy0sZBZBxVr2tqKHEmGpsIC
+K06OeivgFChG5bklzu4hiQe2jhJ3sGBQ3QVbfMQY85irGnIKPyuPbXAy4AJp4FO2eoli3bjul+nA
+yYICG74CRCGIK34Vg9980/kdPXDxWPPIyUt3D4tJkGZeLys6u8ryOCEjIMZq3Ns+jgCxWn+uVDyE
++UZ66wRSWtV3FHbCw4nbBgYBBHBVIe9PmZnsGQ==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIIRDCCBiygAwIBAgIIdKZlqAg511YwDQYJKoZIhvcNAQENBQAwgegxCzAJBgNVBAYTAklUMQ0w
+CwYDVQQHDARSb21lMSYwJAYDVQQKDB1BZ2VuemlhIHBlciBsJ0l0YWxpYSBEaWdpdGFsZTEwMC4G
+A1UECwwnU2Vydml6aW8gQWNjcmVkaXRhbWVudG8gZSBwcm9nZXR0byBTUElEMSkwJwYDVQQDDCBQ
+cm9nZXR0byBTUElEIC0gU29nZ2V0dGkgcHJpdmF0aTEpMCcGCSqGSIb3DQEJARYacHJvdG9jb2xs
+b0BwZWMuYWdpZC5nb3YuaXQxGjAYBgNVBAUTEVZBVElULTk3NzM1MDIwNTg0MB4XDTI0MDMxNDAw
+MDAwMFoXDTM5MDMxMzIzNTk1OVowgfAxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEhMB8G
+A1UEBwwYU2FudGFyY2FuZ2VsbyBkaSBSb21hZ25hMRgwFgYDVQQKDA9NYWdnaW9saSBTLnAuQS4x
+GDAWBgNVBAMMD01hZ2dpb2xpIFMucC5BLjEvMC0GCSqGSIb3DQEJARYgc2VncmV0ZXJpYUBtYWdn
+aW9saS5sZWdhbG1haWwuaXQxLTArBgNVBFMMJGh0dHBzOi8vd3d3Lm1hZ2dpb2xpLmNvbS9zZXJ2
+aXppU1BJRDEaMBgGA1UEYQwRVkFUSVQtMDIwNjY0MDA0MDUwggEiMA0GCSqGSIb3DQEBAQUAA4IB
+DwAwggEKAoIBAQC7ocEwYuETBBoTClOwKhXq9PlO73Ajwx84QmDM8ZtFr7KoLgE7ue6abz+R5I0V
+MToAPLBGl4SLJ3iJMK4YHJRMKKKY/cpOeTRveP1KXkp7qNXSZDVApUbsfRPHjxx4hmJy7LSxkFkH
+FWva2oocSYamwgIrTo56K+AUKEbluSXO7iGJB7aOEnewYFDdBVt8xBjzmKsacgo/K49tcDLgAmng
+U7Z6iWLduO6X6cDJggIbvgJEIYgrfhWD33zT+R09cPFY88jJS3cPi0mQZl4vKzq7yvI4ISMgxmrc
+2z6OALFaf65UPIT5RnrrBFJa1XcUdsLDidsGBgEEcFUh70+ZmewZAgMBAAGjggLmMIIC4jAMBgNV
+HRMBAf8EAjAAMB0GA1UdDgQWBBSgRJLfpp5gHHZUjX4cbVamI7KBGjAfBgNVHSMEGDAWgBScRTDE
+TQ+g+iYPqdb8INYHbM5kVjAOBgNVHQ8BAf8EBAMCBsAwFgYDVR0SBA8wDYILc3BpZC5nb3YuaXQw
+QwYDVR0fBDwwOjA4oDagNIYyaHR0cHM6Ly9laWRhcy5hZ2lkLmdvdi5pdC9jcmwvY3JsX1NQSURf
+cHJpdl9TQS5jcmwwNwYIKwYBBQUHAQEEKzApMCcGCCsGAQUFBzABhhtodHRwczovL29jc3BfU0Eu
+YWdpZC5nb3YuaXQwggHXBgNVHSAEggHOMIIByjAJBgcEAI5GAQYCMIGVBgQrTBAGMIGMMEQGCCsG
+AQUFBwICMDgaNkVsZWN0cm9uaWMgY2VydGlmaWNhdGUgY29uZm9ybWluZyB3aXRoIEFHSUQgR3Vp
+ZGVsaW5lczBEBggrBgEFBQcCAjA4GjZDZXJ0aWZpY2F0byBlbGV0dHJvbmljbyBjb25mb3JtZSBh
+bGxlIExpbmVlIGd1aWRhIEFnSUQwewYGK0wQBAMBMHEwNQYIKwYBBQUHAgIwKRonU1BJRDogZm9y
+bml0b3JlIGRpIHNlcnZpemkgKFNQKSBwcml2YXRvMDgGCCsGAQUFBwICMCwaKlNQSUQ6IHByaXZh
+dGUtc2VjdG9yIFNlcnZpY2UgUHJvdmlkZXIgKFNQKTAIBgYEAI96AQMwTQYEK0wQBDBFMEMGCCsG
+AQUFBwIBFjdodHRwczovL2VpZGFzLmFnaWQuZ292Lml0L2Nwcy9BZ0lEX2VJREFTX3Jvb3RDQV9j
+cHMucGRmME8GBgQAjkYBBTBFMEMGCCsGAQUFBwIBFjdodHRwczovL2VpZGFzLmFnaWQuZ292Lml0
+L2Nwcy9BZ0lEX2VJREFTX3Jvb3RDQV9jcHMucGRmMBEGCWCGSAGG+EIBAQQEAwIABzANBgkqhkiG
+9w0BAQ0FAAOCAgEAmUiSffq6yxj4zoGTLIhG0OCOZOMpkTJDU6VTq1RaNgOcOy+SWY5++plioHiN
+QdzzB/1c6MzsC3gWlv3EaXe6WefRcZzQ58vzJU5AzU0E0s2LLNBR6UIwWEtZO0+7Y8S4QsU9lQJj
+atTmTYBSGyXzHsZQruRXttdGaliu2PX6wucEPhwvmObU0yHVT8YbwoaWaHwh4NkJuPYkiy5UMV++
+PSDYsI9+or3r4mmkAJZgqmGmygH3BLEqLKutCqCRXU8tNWvsO2T3NocP423jtfY6HmhPIglZY16a
+5ZtNeedvAbCgZs56RpIna/KF4jEQUomqZ3+rMgiFWa9MJc4zKBeVoOy+pQpYko+c3SsLUFHgEgLy
+vet/jWaVptvvBRujn2hYP9Gbtxcam07X3MRS3eK5SRT0KEN4qx0D4g6ONIDTLBNmIzQQP2FhC7GI
+tYVoy7RO1r6hI9BjJfsW5Nm1yAL1tTNwM0sbIGti5anEgN7vVMdhjseW6NGitYPnU1edWU5hdpDo
+VK2vs/2yYCtuTndyArYYe6lOy+3LLeGkQ7RM6jSUl0/wFrXQD2IJJBVNJY7d53CCeAsfPlTfLnfy
+rajzlyJW6pe+fjlyOzu0Xy4LudjYvuwcFgg9WLnoUEgnqamFAEkL3Ia2gVXXWbA0SEpBizqfm/0M
+vUTuMw8WAlLOCCo=
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+	<md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+		<md:KeyDescriptor use="signing">
+			<ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+				<ds:X509Data>
+					<ds:X509Certificate>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</ds:X509Certificate>
+				</ds:X509Data>
+			</ds:KeyInfo>
+		</md:KeyDescriptor>
+		<md:KeyDescriptor use="encryption">
+			<ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+				<ds:X509Data>
+					<ds:X509Certificate>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</ds:X509Certificate>
+				</ds:X509Data>
+			</ds:KeyInfo>
+		</md:KeyDescriptor>
+		<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SingleLogout/alias/maggioli"/>
+		<md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+		<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/maggioli" index="0" isDefault="true"/>
+		<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/maggioli" index="1"/>
+		<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/maggioli" index="2"/>
+		<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/maggioli" index="3"/>
+		<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/maggioli" index="4"/>
+		<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/maggioli" index="5"/>
+		<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/maggioli" index="99"/>
+		<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/maggioli" index="100"/>
+		<md:AttributeConsumingService index="0">
+			<md:ServiceName xml:lang="it">Maggioli - Set esteso di attributi SPID Autenticazione</md:ServiceName>
+			<md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+			<md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+			<md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+			<md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+			<md:RequestedAttribute FriendlyName="Provincia di nascita" Name="countyOfBirth"/>
+			<md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+			<md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+			<md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+		</md:AttributeConsumingService>
+		<md:AttributeConsumingService index="1">
+			<md:ServiceName xml:lang="it">Maggioli - Set minimo di attributi SPID Autenticazione</md:ServiceName>
+			<md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+			<md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+			<md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+			<md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+		</md:AttributeConsumingService>
+		<md:AttributeConsumingService index="2">
+			<md:ServiceName xml:lang="it">Maggioli - Set di attributi SPID Autenticazione per uso professionale</md:ServiceName>
+			<md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+			<md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+			<md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+			<md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+			<md:RequestedAttribute FriendlyName="Provincia di nascita" Name="countyOfBirth"/>
+			<md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+			<md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+			<md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+			<md:RequestedAttribute FriendlyName="Azienda" Name="companyName"/>
+			<md:RequestedAttribute FriendlyName="Codice fiscale azienda" Name="companyFiscalNumber"/>
+			<md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode"/>
+		</md:AttributeConsumingService>
+		<md:AttributeConsumingService index="3">
+			<md:ServiceName xml:lang="it">Maggioli - Set esteso di attributi SPID Registrazione</md:ServiceName>
+			<md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+			<md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+			<md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+			<md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+			<md:RequestedAttribute FriendlyName="Provincia di nascita" Name="countyOfBirth"/>
+			<md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+			<md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+			<md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+			<md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+			<md:RequestedAttribute FriendlyName="Tel cellulare" Name="mobilePhone"/>
+			<md:RequestedAttribute FriendlyName="Indirizzo domicilio fisico" Name="domicileStreetAddress"/>
+			<md:RequestedAttribute FriendlyName="CAP domicilio fisico " Name="domicilePostalCode"/>
+			<md:RequestedAttribute FriendlyName="Comune domicilio fisico" Name="domicileMunicipality"/>
+			<md:RequestedAttribute FriendlyName="Provincia domicilio fisico" Name="domicileProvince"/>
+			<md:RequestedAttribute FriendlyName="Nazione domicilio fisico " Name="domicileNation"/>
+			<md:RequestedAttribute FriendlyName="Carta Identita" Name="idCard"/>
+		</md:AttributeConsumingService>
+		<md:AttributeConsumingService index="4">
+			<md:ServiceName xml:lang="it">Maggioli - Set minimo di attributi SPID Registrazione</md:ServiceName>
+			<md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+			<md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+			<md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+			<md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+			<md:RequestedAttribute FriendlyName="Provincia di nascita" Name="countyOfBirth"/>
+			<md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+			<md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+			<md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+			<md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+			<md:RequestedAttribute FriendlyName="Tel cellulare" Name="mobilePhone"/>
+		</md:AttributeConsumingService>
+		<md:AttributeConsumingService index="5">
+			<md:ServiceName xml:lang="it">Maggioli - Set di attributi SPID Registrazione per uso professionale</md:ServiceName>
+			<md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+			<md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+			<md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+			<md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+			<md:RequestedAttribute FriendlyName="Provincia di nascita" Name="countyOfBirth"/>
+			<md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+			<md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+			<md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+			<md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+			<md:RequestedAttribute FriendlyName="Tel cellulare" Name="mobilePhone"/>
+			<md:RequestedAttribute FriendlyName="Indirizzo domicilio fisico" Name="domicileStreetAddress"/>
+			<md:RequestedAttribute FriendlyName="CAP domicilio fisico " Name="domicilePostalCode"/>
+			<md:RequestedAttribute FriendlyName="Comune domicilio fisico" Name="domicileMunicipality"/>
+			<md:RequestedAttribute FriendlyName="Provincia domicilio fisico" Name="domicileProvince"/>
+			<md:RequestedAttribute FriendlyName="Nazione domicilio fisico " Name="domicileNation"/>
+			<md:RequestedAttribute FriendlyName="Carta Identita" Name="idCard"/>
+			<md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode"/>
+			<md:RequestedAttribute FriendlyName="Domicilio Digitale" Name="digitalAddress"/>
+			<md:RequestedAttribute FriendlyName="Azienda" Name="companyName"/>
+			<md:RequestedAttribute FriendlyName="Sede legale" Name="registeredOffice"/>
+			<md:RequestedAttribute FriendlyName="Codice fiscale azienda" Name="companyFiscalNumber"/>
+			<md:RequestedAttribute FriendlyName="Valido fino" Name="expirationDate"/>
+		</md:AttributeConsumingService>
+		<md:AttributeConsumingService index="99">
+			<md:ServiceName xml:lang="it">eIDAS Natural Person Minimum Attribute Set</md:ServiceName>
+			<md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+			<md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+			<md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+			<md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+		</md:AttributeConsumingService>
+		<md:AttributeConsumingService index="100">
+			<md:ServiceName xml:lang="it">eIDAS Natural Person Full Attribute Set</md:ServiceName>
+			<md:RequestedAttribute FriendlyName="Indirizzo" Name="address"/>
+			<md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+			<md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+			<md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+			<md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+			<md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+			<md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+		</md:AttributeConsumingService>
+	</md:SPSSODescriptor>
+	<md:Organization>
+		<md:OrganizationName xml:lang="it">Maggioli S.p.A.</md:OrganizationName>
+		<md:OrganizationName xml:lang="en">Maggioli S.p.A.</md:OrganizationName>
+		<md:OrganizationName xml:lang="fr">Maggioli S.p.A.</md:OrganizationName>
+		<md:OrganizationName xml:lang="de">Maggioli S.p.A.</md:OrganizationName>
+		<md:OrganizationDisplayName xml:lang="it">Maggioli S.p.A.</md:OrganizationDisplayName>
+		<md:OrganizationDisplayName xml:lang="en">Maggioli S.p.A.</md:OrganizationDisplayName>
+		<md:OrganizationDisplayName xml:lang="fr">Maggioli S.p.A.</md:OrganizationDisplayName>
+		<md:OrganizationDisplayName xml:lang="de">Maggioli S.p.A.</md:OrganizationDisplayName>
+		<md:OrganizationURL xml:lang="it">https://www.maggioli.com</md:OrganizationURL>
+		<md:OrganizationURL xml:lang="en">https://www.maggioli.com</md:OrganizationURL>
+		<md:OrganizationURL xml:lang="fr">https://www.maggioli.com</md:OrganizationURL>
+		<md:OrganizationURL xml:lang="de">https://www.maggioli.com</md:OrganizationURL>
+	</md:Organization>
+	<md:ContactPerson contactType="other">
+		<md:Extensions>
+			<spid:VATNumber>IT02066400405</spid:VATNumber>
+			<spid:Private/>
+		</md:Extensions>
+		<md:EmailAddress>segreteria@maggioli.legalmail.it</md:EmailAddress>
+		<md:TelephoneNumber>+390541628380</md:TelephoneNumber>
+	</md:ContactPerson>
+	<md:ContactPerson contactType="billing">
+		<md:Extensions>
+			<fpa:CessionarioCommittente>
+				<fpa:DatiAnagrafici>
+					<fpa:IdFiscaleIVA>
+						<fpa:IdPaese>IT</fpa:IdPaese>
+						<fpa:IdCodice>02066400405</fpa:IdCodice>
+					</fpa:IdFiscaleIVA>
+					<fpa:Anagrafica>
+						<fpa:Denominazione>Maggioli S.p.A.</fpa:Denominazione>
+					</fpa:Anagrafica>
+				</fpa:DatiAnagrafici>
+				<fpa:Sede>
+					<fpa:Indirizzo>Via del Carpino</fpa:Indirizzo>
+					<fpa:NumeroCivico>8</fpa:NumeroCivico>
+					<fpa:CAP>47822</fpa:CAP>
+					<fpa:Comune>Santarcangelo di Romagna</fpa:Comune>
+					<fpa:Provincia>RN</fpa:Provincia>
+					<fpa:Nazione>IT</fpa:Nazione>
+				</fpa:Sede>
+			</fpa:CessionarioCommittente>
+		</md:Extensions>
+		<md:EmailAddress>ciclo.passivo@maggioli.it</md:EmailAddress>
+	</md:ContactPerson>
+</md:EntityDescriptor>

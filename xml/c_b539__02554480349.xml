@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<md:EntityDescriptor ID="N5cf6c6ba-eb71-4739-a822-60214c8f67e5" entityID="https://spid.entranext.it/pub-ag-full/00308030360" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:spid="https://spid.gov.it/saml-extensions"><ds:Signature><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" /><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512" /><ds:Reference URI="#N5cf6c6ba-eb71-4739-a822-60214c8f67e5"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512" /><ds:DigestValue>UpPwFjtE7Egt1keV91X3JwV8zfKNM70bIZElSdp0w+MFE3U5U5GQ2iSTjRsfKOf65wycFmwOc8ZkDyxJpdAdbw==</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>YgZUwzt7CFFA7nDwTDN3onxhq4fo4GUbTTeHIKe71yfrjQPjZKlPPrbpOyVaS1zUi+1PeWnV0VxBPdAcM0SPPfx4pFvYZ3c8GyHgSi6TfHAM+bbn2ceiIUrYQLYrLbDjl4eSAggR+euc19ZTZyiwm3cMNJcSW7Eo+e2ybvPYItqRn6ecQ2LejdDZTdUk8TBWGsu/Tf2QWV9mHnEx0RqUkxdTduup31j9arx142OSA+cjRwevGKwP3DvAT+ysOTW+eugFd20IACheF5MhjPytVx9ZQiSgaR0Aeuk4VQ5/0W+WeHBw3Qlpn5hnomgkMbMq/+btZWbueWrKQgKRK8Ebzg==</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509Certificate>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</ds:X509Certificate></ds:X509Data><ds:KeyValue><ds:RSAKeyValue><ds:Modulus>0dCeT5oO2TQn3jVYP20tcQzF36QdLMkhA84wg8HCpIAdxX5ZWdAW3ArTtXN3g8jsL1IJaA/XnX/fxnF9PbNKqiWO7LC3blzYazGSX4H3v3J3MPcm0EQFtI3S85d5YWZ3aYc6vFVwWHvstnD5e6KQOSUrDgHAhfYrZ1kZj1LRjAJgSTS1mR3ZXl05r1tzjDvQ2geaPN7DSig+e8DhKWY079Tlk5Bl9S7M5yoVBA1jxDKMmbr7YRwo9at6NBE9swy9UfoT1Xcp5/r7MrZsAL7LLYKWOxSMQzPwvWD4WdlntkkI+XQqnxHIZR+l+XD/h6RSSmOTTtF+gkBqDw7wARtNHQ==</ds:Modulus><ds:Exponent>AQAB</ds:Exponent></ds:RSAKeyValue></ds:KeyValue></ds:KeyInfo></ds:Signature>
+<md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+	<md:KeyDescriptor use="signing">
+		<ds:KeyInfo>
+			<ds:X509Data>
+				<ds:X509Certificate>
+					MIIIGzCCBgOgAwIBAgIIWHmWHXYCPaMwDQYJKoZIhvcNAQENBQAwgeUxCzAJBgNV
+					BAYTAklUMQ0wCwYDVQQHDARSb21lMSYwJAYDVQQKDB1BZ2VuemlhIHBlciBsJ0l0
+					YWxpYSBEaWdpdGFsZTEsMCoGA1UECwwjU2Vydml6aW8gQWNjcmVkaXRhbWVudG8g
+					ZSBWaWdpbGFuemExKjAoBgNVBAMMIVByb2dldHRvIFNQSUQgLSBTb2dnZXR0aV9w
+					dWJibGljaTEpMCcGCSqGSIb3DQEJARYacHJvdG9jb2xsb0BwZWMuYWdpZC5nb3Yu
+					aXQxGjAYBgNVBAUTEVZBVElULTk3NzM1MDIwNTg0MB4XDTIxMTAwNjAwMDAwMFoX
+					DTM2MTAwNTIzNTk1OVowgdwxCzAJBgNVBAYTAklUMQswCQYDVQQIDAJQUjETMBEG
+					A1UEBwwKQ29sbGVjY2hpbzEiMCAGA1UECgwZTmV4dCBTdGVwIFNvbHV0aW9uIHMu
+					ci5sLjEhMB8GA1UEAwwYc3BpZC5uZXh0c3RlcHNvbHV0aW9uLml0MRowGAYDVQRh
+					DBFWQVRJVC0wMjU1NDQ4MDM0OTFIMEYGA1UEUww/aHR0cHM6Ly9wb3J0YWxlYXBp
+					LWhvc3RpbmcuZW50cmFuZXh0Lml0L3B1Yi1hZy1mdWxsLzAyNTU0NDgwMzQ5MIIB
+					IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA0dCeT5oO2TQn3jVYP20tcQzF
+					36QdLMkhA84wg8HCpIAdxX5ZWdAW3ArTtXN3g8jsL1IJaA/XnX/fxnF9PbNKqiWO
+					7LC3blzYazGSX4H3v3J3MPcm0EQFtI3S85d5YWZ3aYc6vFVwWHvstnD5e6KQOSUr
+					DgHAhfYrZ1kZj1LRjAJgSTS1mR3ZXl05r1tzjDvQ2geaPN7DSig+e8DhKWY079Tl
+					k5Bl9S7M5yoVBA1jxDKMmbr7YRwo9at6NBE9swy9UfoT1Xcp5/r7MrZsAL7LLYKW
+					OxSMQzPwvWD4WdlntkkI+XQqnxHIZR+l+XD/h6RSSmOTTtF+gkBqDw7wARtNHQID
+					AQABo4IC1DCCAtAwDAYDVR0TAQH/BAIwADAdBgNVHQ4EFgQUtiTaDuYgCkLTYZwz
+					eSq8XB5iIGkwHwYDVR0jBBgwFoAUPLtt6x79nW7L7lTm6jnViaBH1zQwDgYDVR0P
+					AQH/BAQDAgbAMBYGA1UdEgQPMA2CC3NwaWQuZ292Lml0MEIGA1UdHwQ7MDkwN6A1
+					oDOGMWh0dHBzOi8vZWlkYXMuYWdpZC5nb3YuaXQvY3JsL2NybF9TUElEX1B1Yl9T
+					QS5jcmwwNwYIKwYBBQUHAQEEKzApMCcGCCsGAQUFBzABhhtodHRwczovL29jc3Bf
+					U0EuYWdpZC5nb3YuaXQwggHZBgNVHSAEggHQMIIBzDAJBgcEAI5GAQYCMIGVBgQr
+					TBAGMIGMMEQGCCsGAQUFBwICMDgaNkVsZWN0cm9uaWMgY2VydGlmaWNhdGUgY29u
+					Zm9ybWluZyB3aXRoIEFHSUQgR3VpZGVsaW5lczBEBggrBgEFBQcCAjA4GjZDZXJ0
+					aWZpY2F0byBlbGV0dHJvbmljbyBjb25mb3JtZSBhbGxlIExpbmVlIGd1aWRhIEFn
+					SUQwfQYGK0wQBAICMHMwOgYIKwYBBQUHAgIwLhosU1BJRDogYWdncmVnYXRvcmUg
+					J2Z1bGwnIGRpIHNlcnZpemkgcHViYmxpY2kwNQYIKwYBBQUHAgIwKRonU1BJRDog
+					cHVibGljLXNlcnZpY2VzICdmdWxsJyBBZ2dyZWdhdG9yMAgGBgQAj3oBAzBNBgQr
+					TBAEMEUwQwYIKwYBBQUHAgEWN2h0dHBzOi8vZWlkYXMuYWdpZC5nb3YuaXQvY3Bz
+					L0FnSURfZUlEQVNfcm9vdENBX2Nwcy5wZGYwTwYGBACORgEFMEUwQwYIKwYBBQUH
+					AgEWN2h0dHBzOi8vZWlkYXMuYWdpZC5nb3YuaXQvY3BzL0FnSURfZUlEQVNfcm9v
+					dENBX2Nwcy5wZGYwDQYJKoZIhvcNAQENBQADggIBAAi9gXIJTLUayenIaJae7YTp
+					tQun2zahd/CaOvrKZdMVjkVVEDT2DPQmJUkG1FMOfraMN1daOT+Ffvy/IpFkfNQn
+					EYVWn76WQN6qZ24O/ajJ1eBH7LNN5XqM3s1heanf8BJSKESDbLY/00cgq3oh4iAi
+					uCbuqFyc4xZSAkNnbmoS+jAK4AYQB6u+cbrVZQtpqXx2IH+duAtix1CwSKV4uSPq
+					eRCCNVriymVkgCPalgtmFf6widqATymiac1ZpyjzeWfW7DEy3T0cbbxPHt0vtHW0
+					uMkMvihdVG9IqxeMv5EO7CfYYfnwTz1yS74Y/H6EmtRCcZc1N4NaknzJMALxUQ4S
+					IsEQ5hukazSn86Noe4ObIOOZh3HjtIf3EAde7eqZd27XkbJKxe7OsU+xfu8S8Dkv
+					lhZCbVjuhCCLsLE84Y/5juPFA0ND7h+UG9G7odMpGUL5eOvd87rBtvHUG3DqTVTg
+					nZFVgNFWlyJUUD5b+UpItHbGwFr3KX4cL2FNpQ1xZIOVnDaIs1jpSNEk9BIm+zdp
+					xtIGm0To2MUPlFgRt+r1B79EEjvUC2sIKqDXyXL7p76RFoD5rPZ/fv95SqgNgTIp
+					mXU2CaCn9w5wnE8rx1VbvV4wVfjfk7OWJV7rQE6Htty5ad5dsoubSxeMH8kkRnks
+					c9bxV7/fDx+9GSpyXKeK
+				</ds:X509Certificate>
+			</ds:X509Data>
+		</ds:KeyInfo>
+	</md:KeyDescriptor>
+	<md:KeyDescriptor use="encryption">
+		<ds:KeyInfo>
+			<ds:X509Data>
+				<ds:X509Certificate>
+					MIIIGzCCBgOgAwIBAgIIWHmWHXYCPaMwDQYJKoZIhvcNAQENBQAwgeUxCzAJBgNV
+					BAYTAklUMQ0wCwYDVQQHDARSb21lMSYwJAYDVQQKDB1BZ2VuemlhIHBlciBsJ0l0
+					YWxpYSBEaWdpdGFsZTEsMCoGA1UECwwjU2Vydml6aW8gQWNjcmVkaXRhbWVudG8g
+					ZSBWaWdpbGFuemExKjAoBgNVBAMMIVByb2dldHRvIFNQSUQgLSBTb2dnZXR0aV9w
+					dWJibGljaTEpMCcGCSqGSIb3DQEJARYacHJvdG9jb2xsb0BwZWMuYWdpZC5nb3Yu
+					aXQxGjAYBgNVBAUTEVZBVElULTk3NzM1MDIwNTg0MB4XDTIxMTAwNjAwMDAwMFoX
+					DTM2MTAwNTIzNTk1OVowgdwxCzAJBgNVBAYTAklUMQswCQYDVQQIDAJQUjETMBEG
+					A1UEBwwKQ29sbGVjY2hpbzEiMCAGA1UECgwZTmV4dCBTdGVwIFNvbHV0aW9uIHMu
+					ci5sLjEhMB8GA1UEAwwYc3BpZC5uZXh0c3RlcHNvbHV0aW9uLml0MRowGAYDVQRh
+					DBFWQVRJVC0wMjU1NDQ4MDM0OTFIMEYGA1UEUww/aHR0cHM6Ly9wb3J0YWxlYXBp
+					LWhvc3RpbmcuZW50cmFuZXh0Lml0L3B1Yi1hZy1mdWxsLzAyNTU0NDgwMzQ5MIIB
+					IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA0dCeT5oO2TQn3jVYP20tcQzF
+					36QdLMkhA84wg8HCpIAdxX5ZWdAW3ArTtXN3g8jsL1IJaA/XnX/fxnF9PbNKqiWO
+					7LC3blzYazGSX4H3v3J3MPcm0EQFtI3S85d5YWZ3aYc6vFVwWHvstnD5e6KQOSUr
+					DgHAhfYrZ1kZj1LRjAJgSTS1mR3ZXl05r1tzjDvQ2geaPN7DSig+e8DhKWY079Tl
+					k5Bl9S7M5yoVBA1jxDKMmbr7YRwo9at6NBE9swy9UfoT1Xcp5/r7MrZsAL7LLYKW
+					OxSMQzPwvWD4WdlntkkI+XQqnxHIZR+l+XD/h6RSSmOTTtF+gkBqDw7wARtNHQID
+					AQABo4IC1DCCAtAwDAYDVR0TAQH/BAIwADAdBgNVHQ4EFgQUtiTaDuYgCkLTYZwz
+					eSq8XB5iIGkwHwYDVR0jBBgwFoAUPLtt6x79nW7L7lTm6jnViaBH1zQwDgYDVR0P
+					AQH/BAQDAgbAMBYGA1UdEgQPMA2CC3NwaWQuZ292Lml0MEIGA1UdHwQ7MDkwN6A1
+					oDOGMWh0dHBzOi8vZWlkYXMuYWdpZC5nb3YuaXQvY3JsL2NybF9TUElEX1B1Yl9T
+					QS5jcmwwNwYIKwYBBQUHAQEEKzApMCcGCCsGAQUFBzABhhtodHRwczovL29jc3Bf
+					U0EuYWdpZC5nb3YuaXQwggHZBgNVHSAEggHQMIIBzDAJBgcEAI5GAQYCMIGVBgQr
+					TBAGMIGMMEQGCCsGAQUFBwICMDgaNkVsZWN0cm9uaWMgY2VydGlmaWNhdGUgY29u
+					Zm9ybWluZyB3aXRoIEFHSUQgR3VpZGVsaW5lczBEBggrBgEFBQcCAjA4GjZDZXJ0
+					aWZpY2F0byBlbGV0dHJvbmljbyBjb25mb3JtZSBhbGxlIExpbmVlIGd1aWRhIEFn
+					SUQwfQYGK0wQBAICMHMwOgYIKwYBBQUHAgIwLhosU1BJRDogYWdncmVnYXRvcmUg
+					J2Z1bGwnIGRpIHNlcnZpemkgcHViYmxpY2kwNQYIKwYBBQUHAgIwKRonU1BJRDog
+					cHVibGljLXNlcnZpY2VzICdmdWxsJyBBZ2dyZWdhdG9yMAgGBgQAj3oBAzBNBgQr
+					TBAEMEUwQwYIKwYBBQUHAgEWN2h0dHBzOi8vZWlkYXMuYWdpZC5nb3YuaXQvY3Bz
+					L0FnSURfZUlEQVNfcm9vdENBX2Nwcy5wZGYwTwYGBACORgEFMEUwQwYIKwYBBQUH
+					AgEWN2h0dHBzOi8vZWlkYXMuYWdpZC5nb3YuaXQvY3BzL0FnSURfZUlEQVNfcm9v
+					dENBX2Nwcy5wZGYwDQYJKoZIhvcNAQENBQADggIBAAi9gXIJTLUayenIaJae7YTp
+					tQun2zahd/CaOvrKZdMVjkVVEDT2DPQmJUkG1FMOfraMN1daOT+Ffvy/IpFkfNQn
+					EYVWn76WQN6qZ24O/ajJ1eBH7LNN5XqM3s1heanf8BJSKESDbLY/00cgq3oh4iAi
+					uCbuqFyc4xZSAkNnbmoS+jAK4AYQB6u+cbrVZQtpqXx2IH+duAtix1CwSKV4uSPq
+					eRCCNVriymVkgCPalgtmFf6widqATymiac1ZpyjzeWfW7DEy3T0cbbxPHt0vtHW0
+					uMkMvihdVG9IqxeMv5EO7CfYYfnwTz1yS74Y/H6EmtRCcZc1N4NaknzJMALxUQ4S
+					IsEQ5hukazSn86Noe4ObIOOZh3HjtIf3EAde7eqZd27XkbJKxe7OsU+xfu8S8Dkv
+					lhZCbVjuhCCLsLE84Y/5juPFA0ND7h+UG9G7odMpGUL5eOvd87rBtvHUG3DqTVTg
+					nZFVgNFWlyJUUD5b+UpItHbGwFr3KX4cL2FNpQ1xZIOVnDaIs1jpSNEk9BIm+zdp
+					xtIGm0To2MUPlFgRt+r1B79EEjvUC2sIKqDXyXL7p76RFoD5rPZ/fv95SqgNgTIp
+					mXU2CaCn9w5wnE8rx1VbvV4wVfjfk7OWJV7rQE6Htty5ad5dsoubSxeMH8kkRnks
+					c9bxV7/fDx+9GSpyXKeK
+				</ds:X509Certificate>
+			</ds:X509Data>
+		</ds:KeyInfo>
+	</md:KeyDescriptor>
+	<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://portale-campogalliano.entranext.it/logout/spid" />
+	<md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+	<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://portale-campogalliano.entranext.it/login/spid" index="0" isDefault="true" />
+	<md:AttributeConsumingService index="0">
+		<md:ServiceName xml:lang="it">EntraNext</md:ServiceName>
+		<md:ServiceDescription xml:lang="it">Portale al cittadino</md:ServiceDescription>
+		<md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" />
+		<md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" />
+		<md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" />
+		<md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" />
+		<md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" />
+	</md:AttributeConsumingService>
+</md:SPSSODescriptor>
+<md:Organization>
+	<md:OrganizationName xml:lang="it">Comune di Campogalliano</md:OrganizationName>
+	<md:OrganizationDisplayName xml:lang="it">Comune di Campogalliano</md:OrganizationDisplayName>
+	<md:OrganizationURL xml:lang="it">https://portale-campogalliano.entranext.it/login</md:OrganizationURL>
+</md:Organization>
+<md:ContactPerson contactType="other" spid:entityType="spid:aggregator">
+	<md:Extensions>
+		<spid:VATNumber>IT02554480349</spid:VATNumber>
+		<spid:FiscalCode>02554480349</spid:FiscalCode>
+		<spid:PublicServicesFullAggregator />
+	</md:Extensions>
+	<md:Company>Next Step Solution s.r.l.</md:Company>
+	<md:EmailAddress>nextstepsolution@pec.it</md:EmailAddress>
+	<md:TelephoneNumber>+390521305707</md:TelephoneNumber>
+</md:ContactPerson>
+<md:ContactPerson contactType="other" spid:entityType="spid:aggregated">
+	<md:Extensions>
+		<spid:IPACode>c_b539</spid:IPACode>
+		<spid:Public />
+	</md:Extensions>
+	<md:Company>Comune di Campogalliano</md:Company>
+</md:ContactPerson>
+</md:EntityDescriptor>
