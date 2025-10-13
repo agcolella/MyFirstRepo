@@ -1,0 +1,115 @@
+<?xml version="1.0"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:spid="https://spid.gov.it/saml-extensions" xmlns:fpa="https://spid.gov.it/invoicing-extensions" entityID="https://sit-spspid.certid.it/pri-ag-full/com.optima">
+
+    <ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:SignedInfo>
+            <ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+            <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+            <ds:Reference>
+                <ds:Transforms>
+                    <ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+                    <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+                </ds:Transforms>
+                <ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+                <ds:DigestValue>mVRMquU5DQ/snGms6eADB3/W+vAPYnzZRBv734gU4mk=</ds:DigestValue>
+            </ds:Reference>
+        </ds:SignedInfo>
+        <ds:SignatureValue>VNRe47mcPDIAk8uUWkHDIQadRYe8H2C9W9t9dPn4vA9xd0C+nBhTGLWDm/SAV7sI
+W73WHm5thHlKUirZifBM8xDqQ6WkfIVrdpBGP7dTSDB1Uvs8LN1k1rcbEHgdOCtw
+izXhVFPxpAYawZM/M6tq6/MrAoCbN701oaF2fIqqr5g/gVwaEfVcCWP7BBfPOhuz
+QXNIPYNGvnQ8JqpD3n/b/6W7FsgduEUw0tqkbMusxF1PjA++Zb/3nfT9Kj1evAvl
+x1lhfxuKuLnV73Gw1R2YW0vV5ZEF/9u3ga0rMURXC41Sm1T9GXu0ZUGnmfTZpqHX
+mD4NDpVO7XYcKyzP2FsjcA==</ds:SignatureValue>
+        <ds:KeyInfo>
+            <ds:X509Data>
+                <ds:X509Certificate>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</ds:X509Certificate>
+            </ds:X509Data>
+        </ds:KeyInfo>
+    </ds:Signature>
+
+    <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true" WantAssertionsSigned="true">
+        
+        <md:KeyDescriptor use="signing">
+            <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+                <ds:X509Data>
+                    <ds:X509Certificate>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</ds:X509Certificate>
+                </ds:X509Data>
+            </ds:KeyInfo>
+        </md:KeyDescriptor>
+
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.certid.it/spid/slo" ResponseLocation="https://spid.certid.it/spid/slo"/>
+
+        <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+
+        <md:AssertionConsumerService index="0" isDefault="true" Location="https://spid.certid.it/spid/acs" Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST"/>
+
+        <md:AttributeConsumingService index="0">
+            <md:ServiceName xml:lang="it">Attivazione SIM Optima</md:ServiceName>
+            <md:ServiceDescription xml:lang="it">Identificazione digitale, tramite sistema pubblico di identit&amp;#xE0; digitale SPID, del soggetto richiedente l&amp;#x2019;attivazione o la Mobile Number Portability (MNP) delle SIM</md:ServiceDescription>
+            <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+        </md:AttributeConsumingService>
+
+    </md:SPSSODescriptor>
+
+    <md:Organization>
+        <md:OrganizationName xml:lang="it">Optima Italia S.p.A.</md:OrganizationName>
+        <md:OrganizationDisplayName xml:lang="it">Optima Italia S.p.A.</md:OrganizationDisplayName>
+        <md:OrganizationURL xml:lang="it">https://www.optimaitalia.com</md:OrganizationURL>
+    </md:Organization>
+
+    <md:ContactPerson contactType="other" spid:entityType="spid:aggregator">
+        <md:Extensions>
+            <spid:VATNumber>IT12925931003</spid:VATNumber>
+            <spid:FiscalCode>12925931003</spid:FiscalCode>
+            <spid:PrivateServicesFullAggregator/>
+        </md:Extensions>
+        <md:Company>TocToc srl</md:Company>
+        <md:EmailAddress>info@toctoc.me</md:EmailAddress>
+        <md:TelephoneNumber>+390692939729</md:TelephoneNumber>
+    </md:ContactPerson>
+
+    <md:ContactPerson contactType="other" spid:entityType="spid:aggregated">
+        <md:Extensions>
+            <spid:VATNumber>IT07469040633</spid:VATNumber>
+            <spid:FiscalCode>07469040633</spid:FiscalCode>
+            <spid:Private/>
+        </md:Extensions>
+        <md:Company>Optima Italia S.p.A.</md:Company>
+        <md:EmailAddress>optimaitalia@legalmail.it</md:EmailAddress>
+        <md:TelephoneNumber>+39800913838</md:TelephoneNumber>
+    </md:ContactPerson>
+
+    <md:ContactPerson contactType="billing">
+        <md:Extensions>
+            <fpa:CessionarioCommittente>
+                <fpa:DatiAnagrafici>
+                    <fpa:IdFiscaleIVA>
+                        <fpa:IdPaese>IT</fpa:IdPaese>
+                        <fpa:IdCodice>12925931003</fpa:IdCodice>
+                    </fpa:IdFiscaleIVA>
+                    <fpa:Anagrafica>
+			           <fpa:Denominazione>TocToc srl</fpa:Denominazione> 
+                    </fpa:Anagrafica>
+                </fpa:DatiAnagrafici>
+                <fpa:Sede>
+		            <fpa:Indirizzo>via Alessandro Dudan</fpa:Indirizzo>
+		            <fpa:NumeroCivico>7</fpa:NumeroCivico>
+		            <fpa:CAP>00143</fpa:CAP>
+		            <fpa:Comune>Roma</fpa:Comune>
+		            <fpa:Provincia>RM</fpa:Provincia>
+                    <fpa:Nazione>IT</fpa:Nazione>
+                </fpa:Sede>
+            </fpa:CessionarioCommittente>
+        </md:Extensions>
+        <md:Company>TocToc srl</md:Company>
+        <md:EmailAddress>info@toctoc.me</md:EmailAddress>
+        <md:TelephoneNumber>+390692939729</md:TelephoneNumber>
+    </md:ContactPerson>
+
+</md:EntityDescriptor>
