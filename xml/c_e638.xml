@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:spid="https://spid.gov.it/saml-extensions" ID="_76c8fc913a20fd2337a112dde2809304" entityID="https://idpcgel.crs.lombardia.it/gelmetadata/013131">
+    <Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/><Reference URI="#_76c8fc913a20fd2337a112dde2809304"><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><DigestValue>4T55oBTl79M+1RXLgFmGoJjS/i9DbjM9fLEWBURMQVQ=</DigestValue></Reference></SignedInfo><SignatureValue>YbezgL6hNA2swyKgL8Z5+adx4QbMrRywxSNWzsQk/FZ8jFMv5eQ34dd18ySRRnFzGsfFfupWIgFu&#13;
+nAAXWm3JZc/XvE2kIsnPKdZIHt9j5aFvAs+nRch9RjgkTRfNBPtTxi6WKshe6PwXoGAsRamDVRoo&#13;
+NHzZxL3ubFNVQl9vC9zcqxZol5EVaFZzFOB/McTD8Ka6S13AhvQYw4WLNGCqz2vD/wsFd1oIyOzu&#13;
+zKPiVYad3Ns1++UQpTwdDqwMj8SoAn55XswKBmtVbDZm8UB0HgwpIVKccXISFeAYTjyPwdA4lC6/&#13;
+QcSBlBm97CZqpTK10JP1INRYE4rfFs+Lml8gPg==</SignatureValue><KeyInfo><X509Data><X509Certificate>MIIEbzCCA1egAwIBAgIUFAezl199Rc44FeJvZShj8O9WgMAwDQYJKoZIhvcNAQELBQAwgZ8xCzAJ&#13;
+BgNVBAYTAklUMQ8wDQYDVQQIDAZNSUxBTk8xDzANBgNVBAcMBk1JTEFOTzEPMA0GA1UECgwGMDEz&#13;
+MTMxMSIwIAYDVQQLDBlDT01VTkUgREkgTE9DQVRFIFZBUkVTSU5PMSIwIAYDVQQDDBlDT01VTkUg&#13;
+REkgTE9DQVRFIFZBUkVTSU5PMRUwEwYDVQRhDAxQQTpJVC1jX2U2MzgwHhcNMjQwNjE0MTIwOTQ4&#13;
+WhcNMjcwNjE0MTIwOTQ4WjCBnzELMAkGA1UEBhMCSVQxDzANBgNVBAgMBk1JTEFOTzEPMA0GA1UE&#13;
+BwwGTUlMQU5PMQ8wDQYDVQQKDAYwMTMxMzExIjAgBgNVBAsMGUNPTVVORSBESSBMT0NBVEUgVkFS&#13;
+RVNJTk8xIjAgBgNVBAMMGUNPTVVORSBESSBMT0NBVEUgVkFSRVNJTk8xFTATBgNVBGEMDFBBOklU&#13;
+LWNfZTYzODCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALFlMeoc72jAiHqesurYT+i1&#13;
+gvBnX4mjhLgm5y7BXmP3o6G/h+vSbhkefCGA4Nt1HcVM1Oxp+0PQWyOEajrdI9huiPneFe+1SzyO&#13;
+tB4QqY3PEfYsRaGM/AyXEL7idbTr46fj6UaznwM9ooUjFYpnPTg0tApkaz8b5XlHsW7bldjcDQPu&#13;
+0MsO7fF+dOPByo+5VHlVdlDoUCJxR9gtZNZW5Zx4ikllWl1z8hJBHG/dhNTXujzJPWsXvpuH/57/&#13;
+5EdjreUg9eNn657Xr8k5AwnMgxomDWALFpAm8kHpFGEf3od+rZoxsUMGNjHdE80Zcg0nKXkLthZG&#13;
+z39g3xQBk+FTqZECAwEAAaOBoDCBnTALBgNVHQ8EBAMCB4AwEwYDVR0lBAwwCgYIKwYBBQUHAwMw&#13;
+OQYDVR0gBDIwMDAuBgYrTBAEAgEwJDAiBggrBgEFBQcCAjAWGhRzcGlkLXB1YmxpY3NlY3Rvci1T&#13;
+UDA+BgNVHREENzA1hjNodHRwczovL2lkcGNnZWwuY3JzLmxvbWJhcmRpYS5pdC9nZWxtZXRhZGF0&#13;
+YS8wMTMxMzEwDQYJKoZIhvcNAQELBQADggEBAF/S8WVsNMrsKik5FkgKntSSGIVRowRGsqqfej3A&#13;
+ojTTYCKyxv0s00Kta/q6v1MUAOVC63L417opCtn0led3z/QjuUabe6vfHPq2gsZmaOYPSlVcTCAv&#13;
+JM1Cs6vRxrGBAmVxAxwzyx7PHdyGwKnRESvJk2/pedJRZ5cAcdCBzK5BSNz4L9hDbgOPxQeWjOu1&#13;
+NWsnwePKqEZibD+YPFeQLQGy77Ej7OvPsd88HyhcyLHf7JsK2pDbXEB5uT1MabTGN2JBtt8kTpOv&#13;
+/nqp7HmyHJd3pHvWahSckU7zQKuwQQ09MInBvyMJuEiLFYWy3N51VXTpYB9XKuKiXHPPwflxzBs=</X509Certificate></X509Data><KeyValue><RSAKeyValue><Modulus>sWUx6hzvaMCIep6y6thP6LWC8GdfiaOEuCbnLsFeY/ejob+H69JuGR58IYDg23UdxUzU7Gn7Q9Bb&#13;
+I4RqOt0j2G6I+d4V77VLPI60HhCpjc8R9ixFoYz8DJcQvuJ1tOvjp+PpRrOfAz2ihSMVimc9ODS0&#13;
+CmRrPxvleUexbtuV2NwNA+7Qyw7t8X5048HKj7lUeVV2UOhQInFH2C1k1lblnHiKSWVaXXPyEkEc&#13;
+b92E1Ne6PMk9axe+m4f/nv/kR2Ot5SD142frntevyTkDCcyDGiYNYAsWkCbyQekUYR/eh36tmjGx&#13;
+QwY2Md0TzRlyDScpeQu2FkbPf2DfFAGT4VOpkQ==</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue></KeyInfo></Signature><md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+        <md:KeyDescriptor use="signing">
+            <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+                <ds:X509Data>
+                    <ds:X509Certificate>MIIEVzCCAz+gAwIBAgIEZCf7pTANBgkqhkiG9w0BAQsFADCBmzEVMBMGA1UEYQwMUEE6SVQtY19lNjM4MSIwIAYDVQQDDBlDb211bmUgZGkgTG9jYXRlIFZhcmVzaW5vMSIwIAYDVQQLDBlDb211bmUgZGkgTG9jYXRlIFZhcmVzaW5vMQ8wDQYDVQQKDAYwMTIwMjExDzANBgNVBAcMBk1pbGFubzELMAkGA1UECAwCTUkxCzAJBgNVBAYTAklUMB4XDTI0MDYxNDEzNDcxNVoXDTI3MDYxNDEzNDcxNVowgZsxFTATBgNVBGEMDFBBOklULWNfZTYzODEiMCAGA1UEAwwZQ29tdW5lIGRpIExvY2F0ZSBWYXJlc2lubzEiMCAGA1UECwwZQ29tdW5lIGRpIExvY2F0ZSBWYXJlc2lubzEPMA0GA1UECgwGMDEyMDIxMQ8wDQYDVQQHDAZNaWxhbm8xCzAJBgNVBAgMAk1JMQswCQYDVQQGEwJJVDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAJu7K4bokIU3txsrRkJ4W0Dif5EmxxCqSON8PuFtyPEnyD0XHnmkzAuBGssZ8NJyZYPVBB+eff0qN+wXY2bZw38eIUo0xJg+9THvkPHW038K12NJod/DNOtdIS9psYfdgzTDRqOLhNEj8VCE3E2o4aZAEjv3IoYhqprljSzTwABjdBGUhlDPSsy1PFW7l96Jif3s0A32LosIcwHaUwl2e+33Y3U6d3JsQPGM8xq/OGfbbyccMWqYkbPQU+Oh2xgzSlFwYMstIBY1Ucno8bxm0ovwerRPdGBmoaOohJQ/4mk1H/Jevy2m1xnSmV3Fk+FIAbW/pPMZYfrEDRjfcrUWz80CAwEAAaOBoDCBnTA5BgNVHSAEMjAwMC4GBitMEAQCATAkMCIGCCsGAQUFBwICMBYMFHNwaWQtcHVibGljc2VjdG9yLVNQMAsGA1UdDwQEAwIHgDATBgNVHSUEDDAKBggrBgEFBQcDAzA+BgNVHREENzA1hjNodHRwczovL2lkcGNnZWwuY3JzLmxvbWJhcmRpYS5pdC9nZWxtZXRhZGF0YS8wMTMxMzEwDQYJKoZIhvcNAQELBQADggEBAEq6Tdfnviassy2O6TGHsH84cz3KvjkzhDIznfdpxd8PyPbmVoTG3ziNnwNRhYz/PI2LBSWjQNYKjOZkrmfdH0U74gCONOl2uP9OXL/gJawOEbjbQbHlKmRHxlffyqVEJv+MUja9tsC9mm+MuLVdR1lUF36QiLuJniW2eZ+CccJYFlKtO6CHaZWDrMup1n1W5laGHQHf20PcVpZulXSkVYzDrHk1F3gfnjQzHf7AIPxUAeD9s9Nvjb5QblPjpOVMPxLe+oMvSn9X9qhGiL7/cwwznffEJyVLFDLDM3XZ5J88UAGLAzHk4wrzHekPLdRJZU+SoaHJA0hfG7Q+qYVC8fY=</ds:X509Certificate>
+                </ds:X509Data>
+            </ds:KeyInfo>
+        </md:KeyDescriptor>
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://idpcgel.crs.lombardia.it/idpcgel/MetadataPublisherServlet"/>
+        <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://idpcgel.crs.lombardia.it/idpcgel/AssertionConsumerService" index="0" isDefault="true"/>
+        <md:AttributeConsumingService index="0">
+            <md:ServiceName xml:lang="it">set0</md:ServiceName>
+            <md:RequestedAttribute Name="name"/>
+            <md:RequestedAttribute Name="familyName"/>
+            <md:RequestedAttribute Name="fiscalNumber"/>
+            <md:RequestedAttribute Name="email"/>
+            <md:RequestedAttribute Name="spidCode"/>
+        </md:AttributeConsumingService>
+        <md:AttributeConsumingService index="1">
+            <md:ServiceName xml:lang="it">set1</md:ServiceName>
+            <md:RequestedAttribute Name="name"/>
+            <md:RequestedAttribute Name="familyName"/>
+            <md:RequestedAttribute Name="fiscalNumber"/>
+            <md:RequestedAttribute Name="email"/>
+            <md:RequestedAttribute Name="spidCode"/>
+            <md:RequestedAttribute Name="gender"/>
+            <md:RequestedAttribute Name="dateOfBirth"/>
+            <md:RequestedAttribute Name="placeOfBirth"/>
+        </md:AttributeConsumingService>
+        <md:AttributeConsumingService index="2">
+            <md:ServiceName xml:lang="it">set2</md:ServiceName>
+            <md:RequestedAttribute Name="name"/>
+            <md:RequestedAttribute Name="familyName"/>
+            <md:RequestedAttribute Name="fiscalNumber"/>
+            <md:RequestedAttribute Name="email"/>
+            <md:RequestedAttribute Name="spidCode"/>
+            <md:RequestedAttribute Name="gender"/>
+            <md:RequestedAttribute Name="dateOfBirth"/>
+            <md:RequestedAttribute Name="placeOfBirth"/>
+            <md:RequestedAttribute Name="countyOfBirth"/>
+        </md:AttributeConsumingService>
+        <md:AttributeConsumingService index="3">
+            <md:ServiceName xml:lang="it">set3</md:ServiceName>
+            <md:RequestedAttribute Name="name"/>
+            <md:RequestedAttribute Name="familyName"/>
+            <md:RequestedAttribute Name="fiscalNumber"/>
+            <md:RequestedAttribute Name="email"/>
+            <md:RequestedAttribute Name="spidCode"/>
+            <md:RequestedAttribute Name="gender"/>
+            <md:RequestedAttribute Name="dateOfBirth"/>
+            <md:RequestedAttribute Name="placeOfBirth"/>
+            <md:RequestedAttribute Name="countyOfBirth"/>
+            <md:RequestedAttribute Name="mobilePhone"/>
+        </md:AttributeConsumingService>
+        <md:AttributeConsumingService index="4">
+            <md:ServiceName xml:lang="it">set4</md:ServiceName>
+            <md:RequestedAttribute Name="name"/>
+            <md:RequestedAttribute Name="familyName"/>
+            <md:RequestedAttribute Name="fiscalNumber"/>
+            <md:RequestedAttribute Name="spidCode"/>
+        </md:AttributeConsumingService>
+        <md:AttributeConsumingService index="5">
+            <md:ServiceName xml:lang="it">set5</md:ServiceName>
+            <md:RequestedAttribute Name="name"/>
+            <md:RequestedAttribute Name="familyName"/>
+            <md:RequestedAttribute Name="fiscalNumber"/>
+            <md:RequestedAttribute Name="spidCode"/>
+            <md:RequestedAttribute Name="companyName"/>
+            <md:RequestedAttribute Name="registeredOffice"/>
+            <md:RequestedAttribute Name="ivaCode"/>
+        </md:AttributeConsumingService>
+    </md:SPSSODescriptor>
+    <md:Organization>
+        <md:OrganizationName xml:lang="it">Comune di Locate Varesino</md:OrganizationName>
+        <md:OrganizationDisplayName xml:lang="it">Comune di Locate Varesino</md:OrganizationDisplayName>
+        <md:OrganizationURL xml:lang="it">https://www.comune.locatevaresino.co.it</md:OrganizationURL>
+    </md:Organization>
+    <md:ContactPerson contactType="other">
+        <md:Extensions>
+            <spid:IPACode>c_e638</spid:IPACode>
+            <spid:Public/>
+        </md:Extensions>
+        <md:EmailAddress>segreteria@comune.locatevaresino.co.it</md:EmailAddress>
+    </md:ContactPerson>
+</md:EntityDescriptor>

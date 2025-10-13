@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" ID="_1ccdd01428b74f095ba3a41a402bc403d152e07c7cc8d290768436d4989c3d1e" entityID="https://carife.halleyweb.it"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#_1ccdd01428b74f095ba3a41a402bc403d152e07c7cc8d290768436d4989c3d1e">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>VVcu+KtaNJMA9vENWH2rxOHTg35MuX+C2YYo+3FcSTI=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+rdv38PdVhYp89DHY5Pg5SzDXienGamvWJRdA7m9TX7aiesbVV6yCMwnfND9RHnYJ0cYWa1W0piOa
+RC8c/GYi3RxQ9/6UIbtp9XTbwEyKBvox0iMY4zMXo+cddA+Cmzuz3z1FOfn/dp0h1YgY7Fu99aBw
+5wuzEJs0p16rU7+qYVS+LBMTL8LLhfndnIzHPxRpdJgjb+mplJgNGmjvBO8vCBKUK6aKFbTCKqg9
+e/1jiC1f0fw44VG+YpIV74zXUX02F4pf61Y9nCZRs580+/4VF4wH+lJ9tHqJOL8kSoUWtZJZYYDy
+ZuaouNMv+a0kKBu+y1Qt/Zt0UNOA/Hfy71ZA2w==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+54xK44R70nBJXDvHcwlvqYPQI0NPm2PWvmvEgiXmnJXqu4B4FXNuqD6Ri7WkkLR4SlunOxtBBQMb
+w67cM9eQks1pa2E01Ji20S2Fbss5z+6oM8+oOVHzZj+ANLSIIccVwFmy5K/BiUUjTl/NgOX0NSqR
+uIid2MN3sKBQrFZDmRLNxlcVWLSIrve3QoSiOtm2jEXvlU0akT8gl4S4e/x2HPWFy99Gzk3urrSd
+MnBajNhael7yr7fXmVzh3gCSC/9awMe8dp7mdgGQOTVUgsI/8VpCANXLsG5x4tuz+XBZvVF7V2B1
+LLgao/HmiPz2Ym7qX06TuiRqCmYhXCBRgg43cw==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDoTCCAomgAwIBAgIJAPWgAAPzZINQMA0GCSqGSIb3DQEBCwUAMGcxCzAJBgNVBAYTAklUMQ4w
+DAYDVQQIDAVJdGFseTEPMA0GA1UEBwwGQ2FyaWZlMRkwFwYDVQQKDBBDb211bmUgZGkgQ2FyaWZl
+MRwwGgYDVQQDDBNjYXJpZmUuaGFsbGV5d2ViLml0MB4XDTI0MDYxMDEwMTgzNVoXDTM0MDYxMDEw
+MTgzNVowZzELMAkGA1UEBhMCSVQxDjAMBgNVBAgMBUl0YWx5MQ8wDQYDVQQHDAZDYXJpZmUxGTAX
+BgNVBAoMEENvbXVuZSBkaSBDYXJpZmUxHDAaBgNVBAMME2NhcmlmZS5oYWxsZXl3ZWIuaXQwggEi
+MA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDnjErjhHvScElcO8dzCW+pg9AjQ0+bY9a+a8SC
+Jeacleq7gHgVc26oPpGLtaSQtHhKW6c7G0EFAxvDrtwz15CSzWlrYTTUmLbRLYVuyznP7qgzz6g5
+UfNmP4A0tIghxxXAWbLkr8GJRSNOX82A5fQ1KpG4iJ3Yw3ewoFCsVkOZEs3GVxVYtIiu97dChKI6
+2baMRe+VTRqRPyCXhLh7/HYc9YXL30bOTe6utJ0ycFqM2Fp6XvKvt9eZXOHeAJIL/1rAx7x2nuZ2
+AZA5NVSCwj/xWkIA1cuwbnHi27P5cFm9UXtXYHUsuBqj8eaI/PZibupfTpO6JGoKZiFcIFGCDjdz
+AgMBAAGjUDBOMB0GA1UdDgQWBBRKc4LKGJbCYSFc/sS/QEnLXkSCmTAfBgNVHSMEGDAWgBRKc4LK
+GJbCYSFc/sS/QEnLXkSCmTAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQBLd2wKW2YB
+vlcIxp+IG4OUuymBC8mUj4s3TOashpUCqScBrMzHmA+1NkPO6G8XmqGB8uS6RMlVbDTwLTBy94yo
+lDjg99RwZwv9xMnLl9biq0H2cGvnjqIcamfOgjOO3KUsdQS0ja3hsXw232Q7v2sozeMhFScaiWF9
+OUJqBmgZV857ssS1RBe6MR4sJ0pwofWoysXVQKNZpgIIp+PYzRFtPPNKwMYjFeFxLXv9XFGZ0EMQ
+VQhIRNXTqLAzTAaup/9shhI6lFtlyQVQF+H+s2sekFtgaKkq0CVEm+i+xbD8WblQF80PZN2iEkoc
+VdMwmAU4cfz5/YUKt8wR8E+I6HKj
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDoTCCAomgAwIBAgIJAPWgAAPzZINQMA0GCSqGSIb3DQEBCwUAMGcxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEPMA0GA1UEBwwGQ2FyaWZlMRkwFwYDVQQKDBBDb211bmUgZGkgQ2FyaWZlMRwwGgYDVQQDDBNjYXJpZmUuaGFsbGV5d2ViLml0MB4XDTI0MDYxMDEwMTgzNVoXDTM0MDYxMDEwMTgzNVowZzELMAkGA1UEBhMCSVQxDjAMBgNVBAgMBUl0YWx5MQ8wDQYDVQQHDAZDYXJpZmUxGTAXBgNVBAoMEENvbXVuZSBkaSBDYXJpZmUxHDAaBgNVBAMME2NhcmlmZS5oYWxsZXl3ZWIuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDnjErjhHvScElcO8dzCW+pg9AjQ0+bY9a+a8SCJeacleq7gHgVc26oPpGLtaSQtHhKW6c7G0EFAxvDrtwz15CSzWlrYTTUmLbRLYVuyznP7qgzz6g5UfNmP4A0tIghxxXAWbLkr8GJRSNOX82A5fQ1KpG4iJ3Yw3ewoFCsVkOZEs3GVxVYtIiu97dChKI62baMRe+VTRqRPyCXhLh7/HYc9YXL30bOTe6utJ0ycFqM2Fp6XvKvt9eZXOHeAJIL/1rAx7x2nuZ2AZA5NVSCwj/xWkIA1cuwbnHi27P5cFm9UXtXYHUsuBqj8eaI/PZibupfTpO6JGoKZiFcIFGCDjdzAgMBAAGjUDBOMB0GA1UdDgQWBBRKc4LKGJbCYSFc/sS/QEnLXkSCmTAfBgNVHSMEGDAWgBRKc4LKGJbCYSFc/sS/QEnLXkSCmTAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQBLd2wKW2YBvlcIxp+IG4OUuymBC8mUj4s3TOashpUCqScBrMzHmA+1NkPO6G8XmqGB8uS6RMlVbDTwLTBy94yolDjg99RwZwv9xMnLl9biq0H2cGvnjqIcamfOgjOO3KUsdQS0ja3hsXw232Q7v2sozeMhFScaiWF9OUJqBmgZV857ssS1RBe6MR4sJ0pwofWoysXVQKNZpgIIp+PYzRFtPPNKwMYjFeFxLXv9XFGZ0EMQVQhIRNXTqLAzTAaup/9shhI6lFtlyQVQF+H+s2sekFtgaKkq0CVEm+i+xbD8WblQF80PZN2iEkocVdMwmAU4cfz5/YUKt8wR8E+I6HKj</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDoTCCAomgAwIBAgIJAPWgAAPzZINQMA0GCSqGSIb3DQEBCwUAMGcxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEPMA0GA1UEBwwGQ2FyaWZlMRkwFwYDVQQKDBBDb211bmUgZGkgQ2FyaWZlMRwwGgYDVQQDDBNjYXJpZmUuaGFsbGV5d2ViLml0MB4XDTI0MDYxMDEwMTgzNVoXDTM0MDYxMDEwMTgzNVowZzELMAkGA1UEBhMCSVQxDjAMBgNVBAgMBUl0YWx5MQ8wDQYDVQQHDAZDYXJpZmUxGTAXBgNVBAoMEENvbXVuZSBkaSBDYXJpZmUxHDAaBgNVBAMME2NhcmlmZS5oYWxsZXl3ZWIuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDnjErjhHvScElcO8dzCW+pg9AjQ0+bY9a+a8SCJeacleq7gHgVc26oPpGLtaSQtHhKW6c7G0EFAxvDrtwz15CSzWlrYTTUmLbRLYVuyznP7qgzz6g5UfNmP4A0tIghxxXAWbLkr8GJRSNOX82A5fQ1KpG4iJ3Yw3ewoFCsVkOZEs3GVxVYtIiu97dChKI62baMRe+VTRqRPyCXhLh7/HYc9YXL30bOTe6utJ0ycFqM2Fp6XvKvt9eZXOHeAJIL/1rAx7x2nuZ2AZA5NVSCwj/xWkIA1cuwbnHi27P5cFm9UXtXYHUsuBqj8eaI/PZibupfTpO6JGoKZiFcIFGCDjdzAgMBAAGjUDBOMB0GA1UdDgQWBBRKc4LKGJbCYSFc/sS/QEnLXkSCmTAfBgNVHSMEGDAWgBRKc4LKGJbCYSFc/sS/QEnLXkSCmTAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQBLd2wKW2YBvlcIxp+IG4OUuymBC8mUj4s3TOashpUCqScBrMzHmA+1NkPO6G8XmqGB8uS6RMlVbDTwLTBy94yolDjg99RwZwv9xMnLl9biq0H2cGvnjqIcamfOgjOO3KUsdQS0ja3hsXw232Q7v2sozeMhFScaiWF9OUJqBmgZV857ssS1RBe6MR4sJ0pwofWoysXVQKNZpgIIp+PYzRFtPPNKwMYjFeFxLXv9XFGZ0EMQVQhIRNXTqLAzTAaup/9shhI6lFtlyQVQF+H+s2sekFtgaKkq0CVEm+i+xbD8WblQF80PZN2iEkocVdMwmAU4cfz5/YUKt8wR8E+I6HKj</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://carife.halleyweb.it/spid/module.php/saml/sp/saml2-logout.php/spid"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://carife.halleyweb.it/spid/module.php/saml/sp/saml2-acs.php/spid" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://carife.halleyweb.it/spid/module.php/saml/sp/saml2-acs.php/spid" index="1"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">Servizi online</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Servizi online</md:ServiceDescription>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Codice identificativo SPID" Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Ragione o denominazione sociale" Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Carife</md:OrganizationName>
+    <md:OrganizationName xml:lang="en">Comune di Carife</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Carife</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Carife</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.comune.carife.av.it/</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="en">https://www.comune.carife.av.it/</md:OrganizationURL>
+  </md:Organization>
+  <md:ContactPerson contactType="other">
+    <md:Extensions>
+      <spid:IPACode>c_b776</spid:IPACode>
+      <spid:Public/>
+    </md:Extensions>
+    <md:Company>Comune di Carife</md:Company>
+    <md:EmailAddress>egov@halley.it</md:EmailAddress>
+  </md:ContactPerson>
+</md:EntityDescriptor>

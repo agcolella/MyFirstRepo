@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:spid="https://spid.gov.it/saml-extensions" ID="_25b9539769ea45d3a55c944cf45edf98" cacheDuration="P0Y0M30DT0H0M0.000S" entityID="https://eid-gateway.infocert.it/pri-ag-full/509595-caixabank"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#_25b9539769ea45d3a55c944cf45edf98">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>d607XGx6K2V9aqYm1OWB8bnh3RCiEfxeyTuJbCJzbic=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+lXo8YCLbs83DZaYj4wJKvD0xTeK4OpX2ii4UiI5FPbI+MWCPmuDcBybzwjr+5NQs6bfp9IvMf1QV
+jencH1DQurIemqLFK6HT4PL3f1HKGs+nZSWJ5RwZVJcCry3lc0fWaSLc4u6Trd08NUoR79CKe5jh
+b27KsM5zWccTUqDGXcUOt63o+oOPtFpXQhMOb4yfyW/qH9BX527yPhvSMDmcMTM5K9HBQzrCSstR
+BgtUeFUB/xGaLsCMb0cQkgp10nlrrZALbXUhVwIZyXW9fdRv20CLhOmhD1vT2Ij0q2eFuMODbm5b
+7UHVi+lfrEoQFQUzt3pJRbha/L8M+oBSVH7XyQ==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+0+8ln4Q3Bcm9U4iymaBO14zM0jzklLmDGOvAs8GqXu2azrmClk0NWwiXN40N/9Vwc9tNFGxCrsbV
+r86DDj62Q2h3oNQqJta/JycIlezx3/pokr/rh70ZhiY/Wjk/BJrubviw1RzjB3dklKuEPtW1rHKF
+9TdjbGheZxPeBlS6xzkRgTxdSkDvO44RiDB4m8vDCsMtXpXuU9mX8s8r9+U3LtfP//OzXK1RbOs5
+1FEpMOjgk5QAv3X5EWRphXrEQbEpTdNST0b55m2NetbeCyJPYjTZUsV6jV7mLJSRWIk0cRXGlglL
+aQufLIFS2/gaPT9yVGkSoSNKLLip8Cy37n86Xw==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIIHDCCBgSgAwIBAgIIV2VK4aoqS70wDQYJKoZIhvcNAQENBQAwgegxCzAJBgNVBAYTAklUMQ0w
+CwYDVQQHDARSb21lMSYwJAYDVQQKDB1BZ2VuemlhIHBlciBsJ0l0YWxpYSBEaWdpdGFsZTEwMC4G
+A1UECwwnU2Vydml6aW8gQWNjcmVkaXRhbWVudG8gZSBwcm9nZXR0byBTUElEMSkwJwYDVQQDDCBQ
+cm9nZXR0byBTUElEIC0gU29nZ2V0dGkgcHJpdmF0aTEpMCcGCSqGSIb3DQEJARYacHJvdG9jb2xs
+b0BwZWMuYWdpZC5nb3YuaXQxGjAYBgNVBAUTEVZBVElULTk3NzM1MDIwNTg0MB4XDTIyMTAxNzAw
+MDAwMFoXDTM3MTAxNjIzNTk1OVowgdwxKDAmBgNVBAMMH2h0dHBzOi8vZWlkLWdhdGV3YXkuaW5m
+b2NlcnQuaXQxGDAWBgNVBAoMD0luZm9DZXJ0IFMucC5BLjEaMBgGA1UEYQwRVkFUSVQtMDc5NDUy
+MTEwMDYxKDAmBgNVBFMMH2h0dHBzOi8vZWlkLWdhdGV3YXkuaW5mb2NlcnQuaXQxDTALBgNVBAcM
+BFJvbWExCzAJBgNVBAYTAklUMQswCQYDVQQIDAJSTTEnMCUGCSqGSIb3DQEJARYYdHNwaW5mb2Nl
+cnRAbGVnYWxtYWlsLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA0+8ln4Q3Bcm9
+U4iymaBO14zM0jzklLmDGOvAs8GqXu2azrmClk0NWwiXN40N/9Vwc9tNFGxCrsbVr86DDj62Q2h3
+oNQqJta/JycIlezx3/pokr/rh70ZhiY/Wjk/BJrubviw1RzjB3dklKuEPtW1rHKF9TdjbGheZxPe
+BlS6xzkRgTxdSkDvO44RiDB4m8vDCsMtXpXuU9mX8s8r9+U3LtfP//OzXK1RbOs51FEpMOjgk5QA
+v3X5EWRphXrEQbEpTdNST0b55m2NetbeCyJPYjTZUsV6jV7mLJSRWIk0cRXGlglLaQufLIFS2/ga
+PT9yVGkSoSNKLLip8Cy37n86XwIDAQABo4IC0jCCAs4wDAYDVR0TAQH/BAIwADAdBgNVHQ4EFgQU
+n4XTSkyZgT5060NwT0eUs6zMe4cwHwYDVR0jBBgwFoAUnEUwxE0PoPomD6nW/CDWB2zOZFYwDgYD
+VR0PAQH/BAQDAgbAMBMGA1UdJQQMMAoGCCsGAQUFBwMBMEMGA1UdHwQ8MDowOKA2oDSGMmh0dHBz
+Oi8vZWlkYXMuYWdpZC5nb3YuaXQvY3JsL2NybF9TUElEX3ByaXZfU0EuY3JsMDcGCCsGAQUFBwEB
+BCswKTAnBggrBgEFBQcwAYYbaHR0cHM6Ly9vY3NwX1NBLmFnaWQuZ292Lml0MIIB2QYDVR0gBIIB
+0DCCAcwwCQYHBACORgEGAjCBlQYEK0wQBjCBjDBEBggrBgEFBQcCAjA4GjZFbGVjdHJvbmljIGNl
+cnRpZmljYXRlIGNvbmZvcm1pbmcgd2l0aCBBR0lEIEd1aWRlbGluZXMwRAYIKwYBBQUHAgIwOBo2
+Q2VydGlmaWNhdG8gZWxldHRyb25pY28gY29uZm9ybWUgYWxsZSBMaW5lZSBndWlkYSBBZ0lEMH0G
+BitMEAQDAjBzMDkGCCsGAQUFBwICMC0aK1NQSUQ6IGFnZ3JlZ2F0b3JlICdmdWxsJyBkaSBzZXJ2
+aXppIHByaXZhdGkwNgYIKwYBBQUHAgIwKhooU1BJRDogcHJpdmF0ZS1zZXJ2aWNlcyAnZnVsbCcg
+QWdncmVnYXRvcjAIBgYEAI96AQMwTQYEK0wQBDBFMEMGCCsGAQUFBwIBFjdodHRwczovL2VpZGFz
+LmFnaWQuZ292Lml0L2Nwcy9BZ0lEX2VJREFTX3Jvb3RDQV9jcHMucGRmME8GBgQAjkYBBTBFMEMG
+CCsGAQUFBwIBFjdodHRwczovL2VpZGFzLmFnaWQuZ292Lml0L2Nwcy9BZ0lEX2VJREFTX3Jvb3RD
+QV9jcHMucGRmMA0GCSqGSIb3DQEBDQUAA4ICAQCcwaGYEQeMo+ZSp1PAT+URrueEU6nZJZGIpVWh
+JCdWUdPCfQDaIVdKZwYnanUe0ahTdgF5fr/FLd1DRR/NdQfZVwfmzGWWJq4LKEiXmQfJX+6yXgNp
+WouERy4vUXrCUle/F8HPLfTXNlmA/+yysxUnJiRff1l113FudVADn0N0glbm25qkDaxe15oekUxg
+I0dRtaaGQE7OBGlZoqTnwMbHfwsyZjiL99tWML+YYfDxUipXf07vgdZ8917HCpFC3C7JQfqIDge5
+tdEcPGWFRHYq+FsYjuIImkUm+uRbBL45+fMsO3lex4IsZ3FAIhicMWtBOVnzAgUGKmB0FBK41J+k
+Np8slgRKCJ++t+T/YqdLQnxAT5Ct8V+/jVx3FKlEmlqy7bAwEWcZvYBShg44Eaxji2inZafVCkQQ
+rzj52LGibb1B8Sta/xENayc7Grocb9MSvVzUXM9MH9Zegmc6CvNk2koaVLbnCJV5QWHx6FJV8mxm
+Q/h+qxlHItu5c1mlc3BiRCWMjPMwP4aoLK8m5sy/rNm4WaQUhviOMWld4qbmadgxfvuTf4dTGDMz
+C0XhgfJbdcIB9rHRBtI7utRSnpAtP735yiiS7XJrgHkDYMIC+OtEdEvzaGGKxwtOTW1B0FiQIYy9
+/MlUr/LoGNlRX5DCMAtcOCIVg4gixttl/HlwmA==
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIIHDCCBgSgAwIBAgIIV2VK4aoqS70wDQYJKoZIhvcNAQENBQAwgegxCzAJBgNV
+BAYTAklUMQ0wCwYDVQQHDARSb21lMSYwJAYDVQQKDB1BZ2VuemlhIHBlciBsJ0l0
+YWxpYSBEaWdpdGFsZTEwMC4GA1UECwwnU2Vydml6aW8gQWNjcmVkaXRhbWVudG8g
+ZSBwcm9nZXR0byBTUElEMSkwJwYDVQQDDCBQcm9nZXR0byBTUElEIC0gU29nZ2V0
+dGkgcHJpdmF0aTEpMCcGCSqGSIb3DQEJARYacHJvdG9jb2xsb0BwZWMuYWdpZC5n
+b3YuaXQxGjAYBgNVBAUTEVZBVElULTk3NzM1MDIwNTg0MB4XDTIyMTAxNzAwMDAw
+MFoXDTM3MTAxNjIzNTk1OVowgdwxKDAmBgNVBAMMH2h0dHBzOi8vZWlkLWdhdGV3
+YXkuaW5mb2NlcnQuaXQxGDAWBgNVBAoMD0luZm9DZXJ0IFMucC5BLjEaMBgGA1UE
+YQwRVkFUSVQtMDc5NDUyMTEwMDYxKDAmBgNVBFMMH2h0dHBzOi8vZWlkLWdhdGV3
+YXkuaW5mb2NlcnQuaXQxDTALBgNVBAcMBFJvbWExCzAJBgNVBAYTAklUMQswCQYD
+VQQIDAJSTTEnMCUGCSqGSIb3DQEJARYYdHNwaW5mb2NlcnRAbGVnYWxtYWlsLml0
+MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA0+8ln4Q3Bcm9U4iymaBO
+14zM0jzklLmDGOvAs8GqXu2azrmClk0NWwiXN40N/9Vwc9tNFGxCrsbVr86DDj62
+Q2h3oNQqJta/JycIlezx3/pokr/rh70ZhiY/Wjk/BJrubviw1RzjB3dklKuEPtW1
+rHKF9TdjbGheZxPeBlS6xzkRgTxdSkDvO44RiDB4m8vDCsMtXpXuU9mX8s8r9+U3
+LtfP//OzXK1RbOs51FEpMOjgk5QAv3X5EWRphXrEQbEpTdNST0b55m2NetbeCyJP
+YjTZUsV6jV7mLJSRWIk0cRXGlglLaQufLIFS2/gaPT9yVGkSoSNKLLip8Cy37n86
+XwIDAQABo4IC0jCCAs4wDAYDVR0TAQH/BAIwADAdBgNVHQ4EFgQUn4XTSkyZgT50
+60NwT0eUs6zMe4cwHwYDVR0jBBgwFoAUnEUwxE0PoPomD6nW/CDWB2zOZFYwDgYD
+VR0PAQH/BAQDAgbAMBMGA1UdJQQMMAoGCCsGAQUFBwMBMEMGA1UdHwQ8MDowOKA2
+oDSGMmh0dHBzOi8vZWlkYXMuYWdpZC5nb3YuaXQvY3JsL2NybF9TUElEX3ByaXZf
+U0EuY3JsMDcGCCsGAQUFBwEBBCswKTAnBggrBgEFBQcwAYYbaHR0cHM6Ly9vY3Nw
+X1NBLmFnaWQuZ292Lml0MIIB2QYDVR0gBIIB0DCCAcwwCQYHBACORgEGAjCBlQYE
+K0wQBjCBjDBEBggrBgEFBQcCAjA4GjZFbGVjdHJvbmljIGNlcnRpZmljYXRlIGNv
+bmZvcm1pbmcgd2l0aCBBR0lEIEd1aWRlbGluZXMwRAYIKwYBBQUHAgIwOBo2Q2Vy
+dGlmaWNhdG8gZWxldHRyb25pY28gY29uZm9ybWUgYWxsZSBMaW5lZSBndWlkYSBB
+Z0lEMH0GBitMEAQDAjBzMDkGCCsGAQUFBwICMC0aK1NQSUQ6IGFnZ3JlZ2F0b3Jl
+ICdmdWxsJyBkaSBzZXJ2aXppIHByaXZhdGkwNgYIKwYBBQUHAgIwKhooU1BJRDog
+cHJpdmF0ZS1zZXJ2aWNlcyAnZnVsbCcgQWdncmVnYXRvcjAIBgYEAI96AQMwTQYE
+K0wQBDBFMEMGCCsGAQUFBwIBFjdodHRwczovL2VpZGFzLmFnaWQuZ292Lml0L2Nw
+cy9BZ0lEX2VJREFTX3Jvb3RDQV9jcHMucGRmME8GBgQAjkYBBTBFMEMGCCsGAQUF
+BwIBFjdodHRwczovL2VpZGFzLmFnaWQuZ292Lml0L2Nwcy9BZ0lEX2VJREFTX3Jv
+b3RDQV9jcHMucGRmMA0GCSqGSIb3DQEBDQUAA4ICAQCcwaGYEQeMo+ZSp1PAT+UR
+rueEU6nZJZGIpVWhJCdWUdPCfQDaIVdKZwYnanUe0ahTdgF5fr/FLd1DRR/NdQfZ
+VwfmzGWWJq4LKEiXmQfJX+6yXgNpWouERy4vUXrCUle/F8HPLfTXNlmA/+yysxUn
+JiRff1l113FudVADn0N0glbm25qkDaxe15oekUxgI0dRtaaGQE7OBGlZoqTnwMbH
+fwsyZjiL99tWML+YYfDxUipXf07vgdZ8917HCpFC3C7JQfqIDge5tdEcPGWFRHYq
++FsYjuIImkUm+uRbBL45+fMsO3lex4IsZ3FAIhicMWtBOVnzAgUGKmB0FBK41J+k
+Np8slgRKCJ++t+T/YqdLQnxAT5Ct8V+/jVx3FKlEmlqy7bAwEWcZvYBShg44Eaxj
+i2inZafVCkQQrzj52LGibb1B8Sta/xENayc7Grocb9MSvVzUXM9MH9Zegmc6CvNk
+2koaVLbnCJV5QWHx6FJV8mxmQ/h+qxlHItu5c1mlc3BiRCWMjPMwP4aoLK8m5sy/
+rNm4WaQUhviOMWld4qbmadgxfvuTf4dTGDMzC0XhgfJbdcIB9rHRBtI7utRSnpAt
+P735yiiS7XJrgHkDYMIC+OtEdEvzaGGKxwtOTW1B0FiQIYy9/MlUr/LoGNlRX5DC
+MAtcOCIVg4gixttl/HlwmA==
+</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://eid-gateway.infocert.it/spid/logout"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://eid-gateway.infocert.it/spid/response" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://eid-gateway.infocert.it/v2/realms/509595-caixabank/broker/spid_infocert/endpoint" index="4" isDefault="false"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://eid-gateway.infocert.it/v2/realms/509595-caixabank/broker/spid_aruba/endpoint" index="5" isDefault="false"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://eid-gateway.infocert.it/v2/realms/509595-caixabank/broker/spid_eht/endpoint" index="6" isDefault="false"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://eid-gateway.infocert.it/v2/realms/509595-caixabank/broker/spid_infocamere/endpoint" index="7" isDefault="false"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://eid-gateway.infocert.it/v2/realms/509595-caixabank/broker/spid_lepida/endpoint" index="8" isDefault="false"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://eid-gateway.infocert.it/v2/realms/509595-caixabank/broker/spid_namirial/endpoint" index="9" isDefault="false"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://eid-gateway.infocert.it/v2/realms/509595-caixabank/broker/spid_poste/endpoint" index="10" isDefault="false"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://eid-gateway.infocert.it/v2/realms/509595-caixabank/broker/spid_sielte/endpoint" index="11" isDefault="false"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://eid-gateway.infocert.it/v2/realms/509595-caixabank/broker/spid_register/endpoint" index="12" isDefault="false"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://eid-gateway.infocert.it/v2/realms/509595-caixabank/broker/spid_teamsystem/endpoint" index="13" isDefault="false"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://eid-gateway.infocert.it/v2/realms/509595-caixabank/broker/spid_tim/endpoint" index="14" isDefault="false"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://eid-gateway.infocert.it/v2/realms/509595-caixabank/broker/spid_intesi/endpoint" index="15" isDefault="false"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://eid-gateway.infocert.it/v3/realms/509595-caixabank/broker/spid_infocert/endpoint" index="26" isDefault="false"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://eid-gateway.infocert.it/v3/realms/509595-caixabank/broker/spid_aruba/endpoint" index="27" isDefault="false"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://eid-gateway.infocert.it/v3/realms/509595-caixabank/broker/spid_eht/endpoint" index="28" isDefault="false"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://eid-gateway.infocert.it/v3/realms/509595-caixabank/broker/spid_infocamere/endpoint" index="29" isDefault="false"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://eid-gateway.infocert.it/v3/realms/509595-caixabank/broker/spid_lepida/endpoint" index="30" isDefault="false"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://eid-gateway.infocert.it/v3/realms/509595-caixabank/broker/spid_namirial/endpoint" index="31" isDefault="false"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://eid-gateway.infocert.it/v3/realms/509595-caixabank/broker/spid_poste/endpoint" index="32" isDefault="false"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://eid-gateway.infocert.it/v3/realms/509595-caixabank/broker/spid_sielte/endpoint" index="33" isDefault="false"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://eid-gateway.infocert.it/v3/realms/509595-caixabank/broker/spid_register/endpoint" index="34" isDefault="false"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://eid-gateway.infocert.it/v3/realms/509595-caixabank/broker/spid_teamsystem/endpoint" index="35" isDefault="false"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://eid-gateway.infocert.it/v3/realms/509595-caixabank/broker/spid_tim/endpoint" index="36" isDefault="false"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://eid-gateway.infocert.it/v3/realms/509595-caixabank/broker/spid_intesi/endpoint" index="37" isDefault="false"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://eid-gateway.infocert.it/k/realms/509595-caixabank/broker/spid_infocert/endpoint" index="48" isDefault="false"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://eid-gateway.infocert.it/k/realms/509595-caixabank/broker/spid_aruba/endpoint" index="49" isDefault="false"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://eid-gateway.infocert.it/k/realms/509595-caixabank/broker/spid_eht/endpoint" index="50" isDefault="false"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://eid-gateway.infocert.it/k/realms/509595-caixabank/broker/spid_infocamere/endpoint" index="51" isDefault="false"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://eid-gateway.infocert.it/k/realms/509595-caixabank/broker/spid_lepida/endpoint" index="52" isDefault="false"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://eid-gateway.infocert.it/k/realms/509595-caixabank/broker/spid_namirial/endpoint" index="53" isDefault="false"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://eid-gateway.infocert.it/k/realms/509595-caixabank/broker/spid_poste/endpoint" index="54" isDefault="false"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://eid-gateway.infocert.it/k/realms/509595-caixabank/broker/spid_sielte/endpoint" index="55" isDefault="false"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://eid-gateway.infocert.it/k/realms/509595-caixabank/broker/spid_register/endpoint" index="56" isDefault="false"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://eid-gateway.infocert.it/k/realms/509595-caixabank/broker/spid_teamsystem/endpoint" index="57" isDefault="false"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://eid-gateway.infocert.it/k/realms/509595-caixabank/broker/spid_tim/endpoint" index="58" isDefault="false"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://eid-gateway.infocert.it/k/realms/509595-caixabank/broker/spid_intesi/endpoint" index="59" isDefault="false"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">Set 0</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice identificativo SPID" Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Ragione o denominazione sociale" Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale persona giuridica" Name="companyFiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">CaixaBank,S.A.,Succursale in Italia</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">CaixaBank,S.A.,Succursale in Italia</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.caixabank.it/</md:OrganizationURL>
+  </md:Organization>
+  <md:ContactPerson contactType="other" spid:entityType="spid:aggregator">
+    <md:Extensions>
+      <spid:VATNumber>IT07945211006</spid:VATNumber>
+      <spid:FiscalCode>07945211006</spid:FiscalCode>
+      <spid:PrivateServicesFullAggregator/>
+    </md:Extensions>
+    <md:Company>INFOCERT SPA</md:Company>
+    <md:EmailAddress>infocert@legalmail.it</md:EmailAddress>
+    <md:TelephoneNumber>+390683669211</md:TelephoneNumber>
+  </md:ContactPerson>
+  <md:ContactPerson contactType="other" spid:entityType="spid:aggregated">
+    <md:Extensions>
+      <spid:VATNumber>IT12470480968</spid:VATNumber>
+      <spid:FiscalCode>12470480968</spid:FiscalCode>
+      <spid:Private/>
+    </md:Extensions>
+    <md:Company>CaixaBank,S.A.,Succursale in Italia</md:Company>
+  </md:ContactPerson>
+  <md:ContactPerson contactType="billing">
+    <md:Extensions xmlns:fpa="http://ivaservizi.agenziaentrate.gov.it/docs/xsd/fatture/v1.2">
+      <fpa:CessionarioCommittente>
+        <fpa:DatiAnagrafici>
+          <fpa:IdFiscaleIVA>
+            <fpa:IdPaese>IT</fpa:IdPaese>
+            <fpa:IdCodice>07945211006</fpa:IdCodice>
+          </fpa:IdFiscaleIVA>
+          <fpa:Anagrafica>
+            <fpa:Denominazione>INFOCERT SPA</fpa:Denominazione>
+          </fpa:Anagrafica>
+        </fpa:DatiAnagrafici>
+        <fpa:Sede>
+          <fpa:Indirizzo>piazza Sallustio</fpa:Indirizzo>
+          <fpa:NumeroCivico>9</fpa:NumeroCivico>
+          <fpa:CAP>00187</fpa:CAP>
+          <fpa:Comune>Roma</fpa:Comune>
+          <fpa:Provincia>Roma</fpa:Provincia>
+          <fpa:Nazione>Italia</fpa:Nazione>
+        </fpa:Sede>
+      </fpa:CessionarioCommittente>
+    </md:Extensions>
+    <md:Company>INFOCERT SPA</md:Company>
+    <md:EmailAddress>infocert@legalmail.it</md:EmailAddress>
+    <md:TelephoneNumber>+390683669211</md:TelephoneNumber>
+  </md:ContactPerson>
+</md:EntityDescriptor>

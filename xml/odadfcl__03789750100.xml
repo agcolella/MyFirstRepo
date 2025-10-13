@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" ID="a088bc6e-33c5-4ff2-b35b-d9c3ff9a2c9e" entityID="https://www.e-fil.it/pub-ag-full/odadfcl"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#a088bc6e-33c5-4ff2-b35b-d9c3ff9a2c9e">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>/iWWxxlnHJxWg50BkukTShjgxdBxtB+Z0sD1dfZ0axY=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+V/KymYV71/hxxFurSxhCGMXcii1a2EXdgbw/ZT7YLJ7RUKVQVi8YVn9waY5qfvhveRZpHJT+yrKx
+GcGcEU4fa9FNEBqRuCpnMTvF2fxrfKMoFahtqHev8VYV/OzPY3wFVIp5B4OO2XaxAM1a+FxwpaQu
+Pj4oAk6DiPjXlzluCqfeOuesyJU9SROvJD+K0kAUU85FIZro5ikNLAWNbzjvjo9xj7NYjoqm/LG8
+47MCrPfj6cmQ/NKK7VUJcx2EtXjSPWyFUfohnVa2QNzjDStzI/WlCzjh1Dcd5jwZGI0/+aCiQA23
+raHLgwJ5KTOhCBJ4a3zHAAObbF/ozUx4GhAl/Q==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+qY4H/GWTewBiu2WSlYEBgj8A43JfVxYrWgJD3qdxocfWPPSM5E7MWIKXzXCFl+zrjeCnfeO3vg+I
+IDgN76rUKxK75XW1gvU0BEzaf7qaKNxYrvKDxKlcrzT20ZRppJ7GaMq4b5ygiFXM91bhmPkeiYGS
+I3VNgl+ZDxpMqEQuvJY1wG+iECe9p7WKVKWebj9lU4cserbIVdTT45/x0lJD+00zeuKrTQ5FQD+7
+FKjg4PThQbPIojaXwekwtZxApbz329zJsY57zomJE6phJl1gJ7+b3dN3otHMUNoGoR2KcTWy74CY
+skWOZs/wD0hbCH4QstxhHSdXH+srFN6tBkJzQw==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIH4TCCBcmgAwIBAgIIbMDMGjctYe8wDQYJKoZIhvcNAQENBQAwgeUxCzAJBgNVBAYTAklUMQ0w
+CwYDVQQHDARSb21lMSYwJAYDVQQKDB1BZ2VuemlhIHBlciBsJ0l0YWxpYSBEaWdpdGFsZTEsMCoG
+A1UECwwjU2Vydml6aW8gQWNjcmVkaXRhbWVudG8gZSBWaWdpbGFuemExKjAoBgNVBAMMIVByb2dl
+dHRvIFNQSUQgLSBTb2dnZXR0aV9wdWJibGljaTEpMCcGCSqGSIb3DQEJARYacHJvdG9jb2xsb0Bw
+ZWMuYWdpZC5nb3YuaXQxGjAYBgNVBAUTEVZBVElULTk3NzM1MDIwNTg0MB4XDTIxMDkxNTAwMDAw
+MFoXDTM2MDkxNDIzNTk1OVowgaIxCzAJBgNVBAYTAklUMQswCQYDVQQIDAJSTTENMAsGA1UEBwwE
+Um9tYTEOMAwGA1UECgwFRS1GSUwxFTATBgNVBAsMDEUtRklMIFMuUi5MLjEVMBMGA1UEAwwMRS1G
+SUwgUy5SLkwuMRowGAYDVQRhDBFWQVRJVC0wMzc4OTc1MDEwMDEdMBsGA1UEUwwUaHR0cHM6Ly93
+d3cuZS1maWwuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCpjgf8ZZN7AGK7ZZKV
+gQGCPwDjcl9XFitaAkPep3Ghx9Y89IzkTsxYgpfNcIWX7OuN4Kd947e+D4ggOA3vqtQrErvldbWC
+9TQETNp/upoo3Fiu8oPEqVyvNPbRlGmknsZoyrhvnKCIVcz3VuGY+R6JgZIjdU2CX5kPGkyoRC68
+ljXAb6IQJ72ntYpUpZ5uP2VThyx6tshV1NPjn/HSUkP7TTN64qtNDkVAP7sUqODg9OFBs8iiNpfB
+6TC1nEClvPfb3MmxjnvOiYkTqmEmXWAnv5vd03ei0cxQ2gahHYpxNbLvgJiyRY5mz/APSFsIfhCy
+3GEdJ1cf6ysU3q0GQnNDAgMBAAGjggLUMIIC0DAMBgNVHRMBAf8EAjAAMB0GA1UdDgQWBBRKUCpu
+F1YOLaPUB3lqAjXk+HWScTAfBgNVHSMEGDAWgBQ8u23rHv2dbsvuVObqOdWJoEfXNDAOBgNVHQ8B
+Af8EBAMCBsAwFgYDVR0SBA8wDYILc3BpZC5nb3YuaXQwQgYDVR0fBDswOTA3oDWgM4YxaHR0cHM6
+Ly9laWRhcy5hZ2lkLmdvdi5pdC9jcmwvY3JsX1NQSURfUHViX1NBLmNybDA3BggrBgEFBQcBAQQr
+MCkwJwYIKwYBBQUHMAGGG2h0dHBzOi8vb2NzcF9TQS5hZ2lkLmdvdi5pdDCCAdkGA1UdIASCAdAw
+ggHMMAkGBwQAjkYBBgIwgZUGBCtMEAYwgYwwRAYIKwYBBQUHAgIwOBo2RWxlY3Ryb25pYyBjZXJ0
+aWZpY2F0ZSBjb25mb3JtaW5nIHdpdGggQUdJRCBHdWlkZWxpbmVzMEQGCCsGAQUFBwICMDgaNkNl
+cnRpZmljYXRvIGVsZXR0cm9uaWNvIGNvbmZvcm1lIGFsbGUgTGluZWUgZ3VpZGEgQWdJRDB9BgYr
+TBAEAgIwczA6BggrBgEFBQcCAjAuGixTUElEOiBhZ2dyZWdhdG9yZSAnZnVsbCcgZGkgc2Vydml6
+aSBwdWJibGljaTA1BggrBgEFBQcCAjApGidTUElEOiBwdWJsaWMtc2VydmljZXMgJ2Z1bGwnIEFn
+Z3JlZ2F0b3IwCAYGBACPegEDME0GBCtMEAQwRTBDBggrBgEFBQcCARY3aHR0cHM6Ly9laWRhcy5h
+Z2lkLmdvdi5pdC9jcHMvQWdJRF9lSURBU19yb290Q0FfY3BzLnBkZjBPBgYEAI5GAQUwRTBDBggr
+BgEFBQcCARY3aHR0cHM6Ly9laWRhcy5hZ2lkLmdvdi5pdC9jcHMvQWdJRF9lSURBU19yb290Q0Ff
+Y3BzLnBkZjANBgkqhkiG9w0BAQ0FAAOCAgEAO9XfbJaLZEb7P7U+yJyE7mIuNsYJGSf18XzG/7sn
+C4POvFLhYOP/IAw/nrKPkXU5z6KH1NCnoKwS/8SxJbpXxU4gn29U4NFlaDYYat9LYXu/a0g75Den
+AsOtNsYH6Qx/iiPk+Ksehly+tBjMOj6EWqQmr+0I8EI5DUgIMCLbiUD0U5yAGMt8lKFlUw6SClEe
+ppp615autplBNWyUNEOVTnu+z2t+uP5midU9JRWm0HRsUOoHATa6zKE7o74fzDCebvJRXJQtH1Cf
+SYprddOg8tcxqrsUY7a0m9FH/no98fmquUwgY9CWnM7byYHAMdKOhGTqLW/TGSuhBNgYnm7mS6RS
+sB/jhC2n5eh2JYYbBw5ku/Vxkwqqt70s5V0zDIYVb5pZ1IYhgUBVuE0WYmLK8SL7FhPEilp4ZRfo
++J3YCs4zd/ncloQhdma+VksA/C06wldIRcVplrcYfJAKTUphoVC0b7o3uh9UR68FzUrdID6qWu0Z
+sQcVuPp3yu++8KpNnYGEdntKS1Kay4VeZB4ZR3qVvz0YP89c+Ia1ht0Q5KnV49BzyXjbZOeGtmnA
+TXZGdKmZCB1UZi1n2q0wPCGCbo/iZxqzLgAbZyYTKxzLgbKnhllUw7yE24F8C9EW0Ad3WgTvQB2j
+inV2kz2IRS9ixUd/8XwEWKVPa6id/0Et5Y4=
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIIGXjCCBEagAwIBAgIJANIi5YqdHOn4MA0GCSqGSIb3DQEBCwUAMIHDMQswCQYD
+                              VQQGEwJJVDENMAsGA1UECAwEUm9tYTEeMBwGA1UEBwwVRm9yZXN0YWxpQ2FsdGFu
+                              aXNldHRhMR4wHAYDVQQKDBVGb3Jlc3RhbGlDYWx0YW5pc2V0dGExEDAOBgNVBAsM
+                              B0RpZ2l0SUQxLTArBgNVBAMMJGNhbHRhbmlzc2V0dGEuYWdyb25vbWkucGx1Z2Fu
+                              ZHBheS5pdDEkMCIGCSqGSIb3DQEJARYVYWdyb25vbWljbEB0aXNjYWxpLml0MB4X
+                              DTI0MDYxNzA5MTgwM1oXDTI3MDYxNzA5MTgwM1owgcMxCzAJBgNVBAYTAklUMQ0w
+                              CwYDVQQIDARSb21hMR4wHAYDVQQHDBVGb3Jlc3RhbGlDYWx0YW5pc2V0dGExHjAc
+                              BgNVBAoMFUZvcmVzdGFsaUNhbHRhbmlzZXR0YTEQMA4GA1UECwwHRGlnaXRJRDEt
+                              MCsGA1UEAwwkY2FsdGFuaXNzZXR0YS5hZ3Jvbm9taS5wbHVnYW5kcGF5Lml0MSQw
+                              IgYJKoZIhvcNAQkBFhVhZ3Jvbm9taWNsQHRpc2NhbGkuaXQwggIiMA0GCSqGSIb3
+                              DQEBAQUAA4ICDwAwggIKAoICAQDjiqSDsLwYlLFrfQDE71UDqdLUoPiGmrM5/lpX
+                              PYzXFVowzXWWXiG7vTSC7YCvnfsFKYomsBxesCB0S8vTzUn33NoXREUITgonR5Dl
+                              KvFPZ9vHNWqUCt5usBnc0t0kdx6CNwZvxAisd06zXH+8HO9xbDOrdBzKCm0M8RUL
+                              YcHNDWYzNV/UqUlwlNNOhrRNDRiZF4c/0NdpelqRb7VnF8xXvHmDPUJ7/rBjNyHk
+                              pxp3biac8FHo840vQtQaKRBMqGjMFN65KBWzH0igfK5r1TBZDqU2vxYLjONmFWcQ
+                              VeJU6HGXoNw64ihSGiixT8TcTr+GvhMm1txGgynDb4kwWukTfyZLwoaD/LoFqRa3
+                              Tzl1fBi3faP5U0OOcuROrP9jzbIRGboiXqtadsaNY1l1xwWRgXTEjUhobGILCEtG
+                              3jcFXeJWN5DK+a58BmEuU7katL+TFlFnycEF5iKYou8qkfLrbr/w6GgyKgucNoe2
+                              imWjsKmM09+vPVPc1oy0QRophYaDUDcVOzK2b/GYK9/7pTDUBNYVsfKY+GdZaV/U
+                              fYqpgOaIrjgNlDNrml5XGJMreZHBUU0MLYAIHV6/B4wukNjoNXd3X4VoykPwB6qT
+                              Gg6l+L6vzQKOMWYvufaHi2cFV6VIrFJ5MW3tH/61QnZ7JPAMzxeUw8AYMPZFDXIH
+                              aQamxwIDAQABo1MwUTAdBgNVHQ4EFgQUuHOnIfMt4pBP3URGJqNg/gzjvWgwHwYD
+                              VR0jBBgwFoAUuHOnIfMt4pBP3URGJqNg/gzjvWgwDwYDVR0TAQH/BAUwAwEB/zAN
+                              BgkqhkiG9w0BAQsFAAOCAgEA2QYCxOIC749J0CoYr8iAuFNKTIfV40+sH6dsugVk
+                              XddCD4JP8hgi+cGK+SJLHzkP8QDOBbwnZU0P+oCVtNoQU4qryr2AB8/eXEjMfGta
+                              gJBfaC0U4WsWx4s7RY4Pf3UcNBCn02P9htL49uWXw6OmvphmvrxNjcwoAMZy+YDS
+                              nZqF0dHtA34B1xVeTtm8OYzWJ99ER7O454TRsteAq7YZi2mwL9WfsnTBhYiK8C7w
+                              C4kKE5QFb1/tMTkMDQCdqx4QJ5sHXcsDPEvywW22YqsLrnShoVkY5AKcuNYfajD5
+                              JtmzhO78/SayBjI+Hsteu/N2nZAQQmYYHUueVsg7sT9WW4LjomRzuSRcEIQT/aep
+                              YzcC/fUFoiF0aTeCrhfaoKwJ7HuCxyRotdriFRmSl3hgX8a32SQMzcaeiVa2z5Uu
+                              FeFHr145qeDXN7fV15eg0Ka1/utWLCx8HKG7LfrXLIpazQSHzicOfAcf1qqShffk
+                              i7JHMk7QI9JcW7Kytrx/dr7vAZf2AX8gfeiXBbPi/MuLBuWFiDQQvP2DxhlEekoc
+                              WoKTQgbmcnDk6PKGztvNeiRT3tlT6DX9xDejtIlEHJr6XPTCjaoeOUkp/D8sLBNx
+                              4Fh56zrKt5m7WyNj/pZ6SnbftkU1lePEL7oWLyr4tzQ3LbeMnbplXSbVCS4X89KY
+                              bfM=
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://caltanissetta.agronomi.plugandpay.it/spidslo"/>
+	<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://idppaproxy.plugandpay.it/spidslo/46fde877-8ac9-4e6c-b926-427f76b7ba16/odadfcl"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://caltanissetta.agronomi.plugandpay.it/spidacs" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://idppaproxy.plugandpay.it/spidacs/46fde877-8ac9-4e6c-b926-427f76b7ba16/odadfcl" index="1" isDefault="false"/>
+   	<md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">Portale dei pagamenti del cittadino</md:ServiceName>
+      <md:RequestedAttribute Name="spidCode"/>
+	  <md:RequestedAttribute Name="familyName"/>
+	  <md:RequestedAttribute Name="name"/>
+	  <md:RequestedAttribute Name="companyName"/>
+	  <md:RequestedAttribute Name="fiscalNumber"/>
+	  <md:RequestedAttribute Name="ivaCode"/>
+	  <md:RequestedAttribute Name="email"/>
+	  <md:RequestedAttribute Name="gender"/>
+	  <md:RequestedAttribute Name="placeOfBirth"/>
+	  <md:RequestedAttribute Name="countyOfBirth"/>
+	  <md:RequestedAttribute Name="dateOfBirth"/>
+    </md:AttributeConsumingService> 
+<md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">Ordine dei Dottori Agronomi e dei Dottori Forestali Della Provincia di Caltanissetta</md:ServiceName>
+      <md:RequestedAttribute Name="spidCode"/>
+	  <md:RequestedAttribute Name="familyName"/>
+	  <md:RequestedAttribute Name="name"/>
+	  <md:RequestedAttribute Name="companyName"/>
+	  <md:RequestedAttribute Name="fiscalNumber"/>
+	  <md:RequestedAttribute Name="ivaCode"/>
+	  <md:RequestedAttribute Name="email"/>
+	  <md:RequestedAttribute Name="gender"/>
+	  <md:RequestedAttribute Name="placeOfBirth"/>
+	  <md:RequestedAttribute Name="countyOfBirth"/>
+	  <md:RequestedAttribute Name="dateOfBirth"/>
+    </md:AttributeConsumingService>	
+  </md:SPSSODescriptor>
+  <md:Organization>
+  	<md:OrganizationName xml:lang="it">Ordine dei Dottori Agronomi e dei Dottori Forestali Della Provincia di Caltanissetta</md:OrganizationName>
+  	<md:OrganizationDisplayName xml:lang="it">Ordine dei Dottori Agronomi e dei Dottori Forestali Della Provincia di Caltanissetta</md:OrganizationDisplayName>
+  	<md:OrganizationURL xml:lang="it">http://agronomicl.it/</md:OrganizationURL>
+  </md:Organization>
+  <md:ContactPerson contactType="other" spid:entityType="spid:aggregator">
+  	<md:Extensions>
+  		<spid:VATNumber>IT03789750100</spid:VATNumber>
+  		<spid:FiscalCode>03789750100</spid:FiscalCode>
+  		<spid:PublicServicesFullAggregator/>
+  	</md:Extensions>
+  	<md:Company>E-fil srl</md:Company>
+  	<md:EmailAddress>segreteria@pec.e-fil.eu</md:EmailAddress>
+  	<md:TelephoneNumber>+390688805363</md:TelephoneNumber>
+  </md:ContactPerson>
+  <md:ContactPerson contactType="other" spid:entityType="spid:aggregated">
+  	<md:Extensions>
+  		<spid:IPACode>odadfcl</spid:IPACode>
+		<spid:Public/>
+  	</md:Extensions>
+  	<md:Company>Ordine dei Dottori Agronomi e dei Dottori Forestali Della Provincia di Caltanissetta</md:Company>
+   </md:ContactPerson>
+</md:EntityDescriptor>

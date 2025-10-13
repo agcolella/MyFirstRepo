@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" entityID="https://reclutamento.conscremona.it" ID="spid-php_e6c252465245ce78dbd54f1389ea33d51d4bb08db64d9367044c33c32c1b5195"><ds:Signature>
+  <ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+    <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+  <ds:Reference URI="#spid-php_e6c252465245ce78dbd54f1389ea33d51d4bb08db64d9367044c33c32c1b5195"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>6ylpxFL7U2Es0aEi2baC0kzeB9yhnK/HtIF1Gc4BuMo=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>WM04w4ZuEm9y+FHoLmrqztyEbGkRLPuq2WIA9YwmcLnP07Iri1tmYK6uUGcMOcMlwOZ0pk73tVHIfBBpkZNn+w16ECOPyHONRMsr0W9INJpfTVDEH9uBw22CK107ZPxbPBhq/V8ZYUku8N8sbVT3DlkGS+VqbjW1S5crYcjk6cNrflFxnaMpVzMIoZVGU24FMXeaVHKswI7oszF1sUyBeBjKt4oNPFfxWwEMoNzekqXPCO+3T/e1K/Xhtk5FkdWCey70P0wpiPIhKD9Uq5Ay/HWQWxzgbD4I4sls4G8nCVzcmPqOQ/p+tg4zNS0xi2axqo4Ho0Si7xBC8LOsRtxo8DR+0YJUYEGlk1xAnSQFbFjpKy1a8R7Jgi0h4CJ+BeRESxYb7jo0GlXaCoNQ0Mdp63fAX5l6+HaCsz3tQcMZwPtyC5xLBrytwoZ8uc1DwgtNrpKmD7436wrdApRLwUCy+22iJQwmDU/GdfOL/iBd8oQA3vkUi5dt4f+2+xrcBPK2</ds:SignatureValue>
+<ds:KeyInfo><ds:X509Data><ds:X509Certificate>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</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature>
+  <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true" WantAssertionsSigned="true">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>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</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>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</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://reclutamento.conscremona.it/myservice/module.php/saml/sp/saml2-logout.php/spid"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://reclutamento.conscremona.it/myservice/module.php/saml/sp/saml2-acs.php/spid" index="0" isDefault="true"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">reclutamentoconscremona</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">reclutamento conscremona</md:ServiceDescription>
+      <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="idCard" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="expirationDate" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="address" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="digitalAddress" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="domicileStreetAddress" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="domicilePostalCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="domicileMunicipality" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="domicileProvince" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="domicileNation" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Conservatorio di Musica "Claudio Monteverdi" di Cremona</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Conservatorio di Musica "Claudio Monteverdi" di Cremona</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.conscremona.it</md:OrganizationURL>
+  </md:Organization>
+  <md:ContactPerson contactType="other">
+    <md:Extensions>
+      <spid:IPACode xmlns:spid="https://spid.gov.it/saml-extensions">issmc</spid:IPACode>
+      <spid:Public xmlns:spid="https://spid.gov.it/saml-extensions"/>
+    </md:Extensions>
+    <md:Company>Conservatorio di Musica "Claudio Monteverdi" di Cremona</md:Company>
+    <md:EmailAddress>supporto@conscremona.it</md:EmailAddress>
+    <md:TelephoneNumber>+39037222423</md:TelephoneNumber>
+  </md:ContactPerson>
+</md:EntityDescriptor>
