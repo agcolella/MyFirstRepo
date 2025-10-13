@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" ID="_ff4e1c0c-7674-42bb-b92b-f349b7b02b14" entityID="https://nmauth.netmon.technacy.it"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#_ff4e1c0c-7674-42bb-b92b-f349b7b02b14">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>iTEwuQuOnm9k6PMhYCCwvgKvyo4SCEoe51mTfqvk9r8=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+ACW7jOcJdaxUxIbC7whH6IATCap46P5iNWX13kKOGvk+hsu3caHVStu2dQhsmldwuFmNwAaVcNpx
+6CxjsGQodVdgqWknTWEG7P60258B9vTAdZKoC7QWCWt9/njtNbtEaYiFyThKR9MixvDnf/R2DlbZ
+oRVoE5DZvLdxEwLy4kHgGCLhrk6fdn/lQa7L01Hj1nRZn6Pma+NeHPcoCD9xBNdvXaREdZNG8IkC
+NdmLDhpauPmUz7V/m5Gkim9EOGrf0GR9A0+xZ8AGxNj0FPE9GSe4j9G0x/8H7F60nI2cRelXU1Ah
+/lwx0SWZCMnzlWuRZyOmZASNn/245gUN4xKOXg==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+ugju4YMhohoz6l+ZbRCSzbe7JobRzY9+gq96kcPBJ6PWdzkK/evTuCx9sfKUcdFOJ1Mt4MhPWK/Y
+WG9bc4Wql83W7GCNdGHz4qpe65OI/EIhe/RdhjxWIqP5oXHO72ZiZnsMPbDUF7MZC93uqbSHrrhl
+Ez1MqrjzCciA/MIzXzQxUWQkAtq294UYM9d1hHhu0Ct/3DuZPHzH6xSpdlMjSsBAvenfosb9o+QS
+1VXF3YPZiIG+H268nvIbxXnyFvhu3H9Dp7yo6WGTyhQgOV0FKibLI5GsUOZdib6G/yHJJINXFMYQ
+cjTJdbdQOAaWQkttBPdR41K4g8yZtNWtUtnFfQ==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIIHzCCBgegAwIBAgIIZ2bH9AVjqf4wDQYJKoZIhvcNAQENBQAwgegxCzAJBgNVBAYTAklUMQ0w
+CwYDVQQHDARSb21lMSYwJAYDVQQKDB1BZ2VuemlhIHBlciBsJ0l0YWxpYSBEaWdpdGFsZTEwMC4G
+A1UECwwnU2Vydml6aW8gQWNjcmVkaXRhbWVudG8gZSBwcm9nZXR0byBTUElEMSkwJwYDVQQDDCBQ
+cm9nZXR0byBTUElEIC0gU29nZ2V0dGkgcHJpdmF0aTEpMCcGCSqGSIb3DQEJARYacHJvdG9jb2xs
+b0BwZWMuYWdpZC5nb3YuaXQxGjAYBgNVBAUTEVZBVElULTk3NzM1MDIwNTg0MB4XDTI0MDYxMTAw
+MDAwMFoXDTM5MDYxMDIzNTk1OVowgcsxGDAWBgNVBAMMD1RlY2huYWN5IFMuci5sLjELMAkGA1UE
+BhMCSVQxDzANBgNVBAcMBkNlcnZpYTELMAkGA1UECAwCUkExGjAYBgNVBGEMEVZBVElULTAyMzk5
+OTIwMzkyMSUwIwYDVQQKDBxUZWNobmFjeSBTLnIubC4gVW5pcGVyc29uYWxlMSAwHgYDVQRTDBdo
+dHRwczovL3d3dy50ZWNobmFjeS5pdDEfMB0GCSqGSIb3DQEJARYQaW5mb0B0ZWNobmFjeS5pdDCC
+ASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALoI7uGDIaIaM+pfmW0Qks23uyaG0c2PfoKv
+epHDwSej1nc5Cv3r07gsfbHylHHRTidTLeDIT1iv2FhvW3OFqpfN1uxgjXRh8+KqXuuTiPxCIXv0
+XYY8ViKj+aFxzu9mYmZ7DD2w1BezGQvd7qm0h664ZRM9TKq48wnIgPzCM180MVFkJALatveFGDPX
+dYR4btArf9w7mTx8x+sUqXZTI0rAQL3p36LG/aPkEtVVxd2D2YiBvh9uvJ7yG8V58hb4btx/Q6e8
+qOlhk8oUIDldBSomyyORrFDmXYm+hv8hySSDVxTGEHI0yXW3UDgGlkJLbQT3UeNSuIPMmbTVrVLZ
+xX0CAwEAAaOCAuYwggLiMAwGA1UdEwEB/wQCMAAwHQYDVR0OBBYEFOLp+rWwx4j/wwWJEEfKs+a1
+MNwiMB8GA1UdIwQYMBaAFJxFMMRND6D6Jg+p1vwg1gdszmRWMA4GA1UdDwEB/wQEAwIGwDAWBgNV
+HRIEDzANggtzcGlkLmdvdi5pdDBDBgNVHR8EPDA6MDigNqA0hjJodHRwczovL2VpZGFzLmFnaWQu
+Z292Lml0L2NybC9jcmxfU1BJRF9wcml2X1NBLmNybDA3BggrBgEFBQcBAQQrMCkwJwYIKwYBBQUH
+MAGGG2h0dHBzOi8vb2NzcF9TQS5hZ2lkLmdvdi5pdDCCAdcGA1UdIASCAc4wggHKMAkGBwQAjkYB
+BgIwgZUGBCtMEAYwgYwwRAYIKwYBBQUHAgIwOBo2RWxlY3Ryb25pYyBjZXJ0aWZpY2F0ZSBjb25m
+b3JtaW5nIHdpdGggQUdJRCBHdWlkZWxpbmVzMEQGCCsGAQUFBwICMDgaNkNlcnRpZmljYXRvIGVs
+ZXR0cm9uaWNvIGNvbmZvcm1lIGFsbGUgTGluZWUgZ3VpZGEgQWdJRDB7BgYrTBAEAwEwcTA1Bggr
+BgEFBQcCAjApGidTUElEOiBmb3JuaXRvcmUgZGkgc2Vydml6aSAoU1ApIHByaXZhdG8wOAYIKwYB
+BQUHAgIwLBoqU1BJRDogcHJpdmF0ZS1zZWN0b3IgU2VydmljZSBQcm92aWRlciAoU1ApMAgGBgQA
+j3oBAzBNBgQrTBAEMEUwQwYIKwYBBQUHAgEWN2h0dHBzOi8vZWlkYXMuYWdpZC5nb3YuaXQvY3Bz
+L0FnSURfZUlEQVNfcm9vdENBX2Nwcy5wZGYwTwYGBACORgEFMEUwQwYIKwYBBQUHAgEWN2h0dHBz
+Oi8vZWlkYXMuYWdpZC5nb3YuaXQvY3BzL0FnSURfZUlEQVNfcm9vdENBX2Nwcy5wZGYwEQYJYIZI
+AYb4QgEBBAQDAgAHMA0GCSqGSIb3DQEBDQUAA4ICAQCFfyUHg8hoym6JZRv0oDv2xD8yVWyGXCwm
+kdXgse3xtVFAyh8zdtQGpfFV1bKpwB3j67G647FpJewbH42U3hXNjzZmHb6htPu770/fjvgU/XBV
+/6O0tZD12XEWiSoAelWmCH1HqGmh7ilREGTAgerBeRjHlEmUDAjht69l4CuX8SvKRwxEayMzCtyG
+z0GKYOa99HuU2sSQb6gfQyBdc9gfRdQyBgzaVdE+Of9R4+0JrTqWDnGKcaDBikGugkFRhLIXeYT4
+Xj58y6NwMG4pVfGPlkofiKDBsDnzym6EyocH5vA8oU3JHPKdGPIWPm57FNA9j/GDu5jkMZqnt4+l
+ibfBl9W+C9TX+FuqCCp1/82PAuOE9wj3MZnlxDWCnLErqwTxLto/n3Cj9Dk4ZiupQEuQDzMFWcUT
+XXLXIlsQWZCLHJ6NE1ptZwy/o2gpcuXYQUILSSHn/IrBBFzWCXnyag27OFtvlyLe53V4+uABPsSm
+gWC3F5V3K371wKyFUXhXiu5KpRg1tV9ophsj7rxB0UQ1ZfdX4RZe9jHKcDAA2sW188xdy5fb8L4j
+K3ugFcJltmZYhYykUQ5vymLMbLhGegZfnO8ph+YcsK2V+7ROg+/xu6caTNfEppycf6oxjRTSmW/K
+MBcwELSFSKgrNR/vqCR91zbTQ0W9U4P8BDBOe0tVtg==
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+    <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+        <md:KeyDescriptor use="signing">
+            <ds:KeyInfo>
+                <ds:X509Data>
+                    <ds:X509Certificate>
+                        MIIIHzCCBgegAwIBAgIIZ2bH9AVjqf4wDQYJKoZIhvcNAQENBQAwgegxCzAJBgNV
+                        BAYTAklUMQ0wCwYDVQQHDARSb21lMSYwJAYDVQQKDB1BZ2VuemlhIHBlciBsJ0l0
+                        YWxpYSBEaWdpdGFsZTEwMC4GA1UECwwnU2Vydml6aW8gQWNjcmVkaXRhbWVudG8g
+                        ZSBwcm9nZXR0byBTUElEMSkwJwYDVQQDDCBQcm9nZXR0byBTUElEIC0gU29nZ2V0
+                        dGkgcHJpdmF0aTEpMCcGCSqGSIb3DQEJARYacHJvdG9jb2xsb0BwZWMuYWdpZC5n
+                        b3YuaXQxGjAYBgNVBAUTEVZBVElULTk3NzM1MDIwNTg0MB4XDTI0MDYxMTAwMDAw
+                        MFoXDTM5MDYxMDIzNTk1OVowgcsxGDAWBgNVBAMMD1RlY2huYWN5IFMuci5sLjEL
+                        MAkGA1UEBhMCSVQxDzANBgNVBAcMBkNlcnZpYTELMAkGA1UECAwCUkExGjAYBgNV
+                        BGEMEVZBVElULTAyMzk5OTIwMzkyMSUwIwYDVQQKDBxUZWNobmFjeSBTLnIubC4g
+                        VW5pcGVyc29uYWxlMSAwHgYDVQRTDBdodHRwczovL3d3dy50ZWNobmFjeS5pdDEf
+                        MB0GCSqGSIb3DQEJARYQaW5mb0B0ZWNobmFjeS5pdDCCASIwDQYJKoZIhvcNAQEB
+                        BQADggEPADCCAQoCggEBALoI7uGDIaIaM+pfmW0Qks23uyaG0c2PfoKvepHDwSej
+                        1nc5Cv3r07gsfbHylHHRTidTLeDIT1iv2FhvW3OFqpfN1uxgjXRh8+KqXuuTiPxC
+                        IXv0XYY8ViKj+aFxzu9mYmZ7DD2w1BezGQvd7qm0h664ZRM9TKq48wnIgPzCM180
+                        MVFkJALatveFGDPXdYR4btArf9w7mTx8x+sUqXZTI0rAQL3p36LG/aPkEtVVxd2D
+                        2YiBvh9uvJ7yG8V58hb4btx/Q6e8qOlhk8oUIDldBSomyyORrFDmXYm+hv8hySSD
+                        VxTGEHI0yXW3UDgGlkJLbQT3UeNSuIPMmbTVrVLZxX0CAwEAAaOCAuYwggLiMAwG
+                        A1UdEwEB/wQCMAAwHQYDVR0OBBYEFOLp+rWwx4j/wwWJEEfKs+a1MNwiMB8GA1Ud
+                        IwQYMBaAFJxFMMRND6D6Jg+p1vwg1gdszmRWMA4GA1UdDwEB/wQEAwIGwDAWBgNV
+                        HRIEDzANggtzcGlkLmdvdi5pdDBDBgNVHR8EPDA6MDigNqA0hjJodHRwczovL2Vp
+                        ZGFzLmFnaWQuZ292Lml0L2NybC9jcmxfU1BJRF9wcml2X1NBLmNybDA3BggrBgEF
+                        BQcBAQQrMCkwJwYIKwYBBQUHMAGGG2h0dHBzOi8vb2NzcF9TQS5hZ2lkLmdvdi5p
+                        dDCCAdcGA1UdIASCAc4wggHKMAkGBwQAjkYBBgIwgZUGBCtMEAYwgYwwRAYIKwYB
+                        BQUHAgIwOBo2RWxlY3Ryb25pYyBjZXJ0aWZpY2F0ZSBjb25mb3JtaW5nIHdpdGgg
+                        QUdJRCBHdWlkZWxpbmVzMEQGCCsGAQUFBwICMDgaNkNlcnRpZmljYXRvIGVsZXR0
+                        cm9uaWNvIGNvbmZvcm1lIGFsbGUgTGluZWUgZ3VpZGEgQWdJRDB7BgYrTBAEAwEw
+                        cTA1BggrBgEFBQcCAjApGidTUElEOiBmb3JuaXRvcmUgZGkgc2Vydml6aSAoU1Ap
+                        IHByaXZhdG8wOAYIKwYBBQUHAgIwLBoqU1BJRDogcHJpdmF0ZS1zZWN0b3IgU2Vy
+                        dmljZSBQcm92aWRlciAoU1ApMAgGBgQAj3oBAzBNBgQrTBAEMEUwQwYIKwYBBQUH
+                        AgEWN2h0dHBzOi8vZWlkYXMuYWdpZC5nb3YuaXQvY3BzL0FnSURfZUlEQVNfcm9v
+                        dENBX2Nwcy5wZGYwTwYGBACORgEFMEUwQwYIKwYBBQUHAgEWN2h0dHBzOi8vZWlk
+                        YXMuYWdpZC5nb3YuaXQvY3BzL0FnSURfZUlEQVNfcm9vdENBX2Nwcy5wZGYwEQYJ
+                        YIZIAYb4QgEBBAQDAgAHMA0GCSqGSIb3DQEBDQUAA4ICAQCFfyUHg8hoym6JZRv0
+                        oDv2xD8yVWyGXCwmkdXgse3xtVFAyh8zdtQGpfFV1bKpwB3j67G647FpJewbH42U
+                        3hXNjzZmHb6htPu770/fjvgU/XBV/6O0tZD12XEWiSoAelWmCH1HqGmh7ilREGTA
+                        gerBeRjHlEmUDAjht69l4CuX8SvKRwxEayMzCtyGz0GKYOa99HuU2sSQb6gfQyBd
+                        c9gfRdQyBgzaVdE+Of9R4+0JrTqWDnGKcaDBikGugkFRhLIXeYT4Xj58y6NwMG4p
+                        VfGPlkofiKDBsDnzym6EyocH5vA8oU3JHPKdGPIWPm57FNA9j/GDu5jkMZqnt4+l
+                        ibfBl9W+C9TX+FuqCCp1/82PAuOE9wj3MZnlxDWCnLErqwTxLto/n3Cj9Dk4Ziup
+                        QEuQDzMFWcUTXXLXIlsQWZCLHJ6NE1ptZwy/o2gpcuXYQUILSSHn/IrBBFzWCXny
+                        ag27OFtvlyLe53V4+uABPsSmgWC3F5V3K371wKyFUXhXiu5KpRg1tV9ophsj7rxB
+                        0UQ1ZfdX4RZe9jHKcDAA2sW188xdy5fb8L4jK3ugFcJltmZYhYykUQ5vymLMbLhG
+                        egZfnO8ph+YcsK2V+7ROg+/xu6caTNfEppycf6oxjRTSmW/KMBcwELSFSKgrNR/v
+                        qCR91zbTQ0W9U4P8BDBOe0tVtg==
+                    </ds:X509Certificate>
+                </ds:X509Data>
+            </ds:KeyInfo>
+        </md:KeyDescriptor>
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://nmauth.netmon.technacy.it/logout/spid/callback"/>
+        <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://nmauth.netmon.technacy.it/login/spid/callback" index="0" isDefault="true"/>
+        <md:AttributeConsumingService index="0">
+            <md:ServiceName xml:lang="it">getIdentity</md:ServiceName>
+            <md:RequestedAttribute Name="spidCode"/>
+        </md:AttributeConsumingService>
+    </md:SPSSODescriptor>
+    <md:Organization>
+        <md:OrganizationName xml:lang="it">Technacy S.r.l. Unipersonale</md:OrganizationName>
+        <md:OrganizationDisplayName xml:lang="it">Technacy S.r.l.</md:OrganizationDisplayName>
+        <md:OrganizationURL xml:lang="it">https://www.technacy.it</md:OrganizationURL>
+    </md:Organization>
+    <md:ContactPerson contactType="other">
+        <md:Extensions>
+            <spid:VATNumber>IT02399920392</spid:VATNumber>
+            <spid:FiscalCode>02399920392</spid:FiscalCode>
+            <spid:Private/>
+        </md:Extensions>
+        <md:EmailAddress>info@technacy.it</md:EmailAddress>
+        <md:TelephoneNumber>+390544971446</md:TelephoneNumber>
+    </md:ContactPerson>
+    <md:ContactPerson contactType="billing">
+        <md:Extensions xmlns:fpa="https://spid.gov.it/invoicing-extensions">
+            <fpa:CessionarioCommittente>
+                <fpa:DatiAnagrafici>
+                    <fpa:IdFiscaleIVA>
+                        <fpa:IdPaese>IT</fpa:IdPaese>
+                        <fpa:IdCodice>02399920392</fpa:IdCodice>
+                    </fpa:IdFiscaleIVA>
+                    <fpa:Anagrafica>
+                        <fpa:Denominazione>Technacy S.r.l. Unipersonale</fpa:Denominazione>
+                    </fpa:Anagrafica>
+                </fpa:DatiAnagrafici>
+                <fpa:Sede>
+                    <fpa:Indirizzo>via Molveno</fpa:Indirizzo>
+                    <fpa:NumeroCivico>5</fpa:NumeroCivico>
+                    <fpa:CAP>48015</fpa:CAP>
+                    <fpa:Comune>Cervia</fpa:Comune>
+                    <fpa:Provincia>RA</fpa:Provincia>
+                    <fpa:Nazione>IT</fpa:Nazione>
+                </fpa:Sede>
+            </fpa:CessionarioCommittente>
+        </md:Extensions>
+        <md:Company>Technacy S.r.l. Unipersonale</md:Company>
+        <md:EmailAddress>amministrazione@technacy.it</md:EmailAddress>
+        <md:TelephoneNumber>+390544971446</md:TelephoneNumber>
+    </md:ContactPerson>
+</md:EntityDescriptor>
