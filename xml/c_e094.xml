@@ -1,0 +1,112 @@
+<?xml version="1.0"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:spid="https://spid.gov.it/saml-extensions" entityID="https://www.sportellotelematico-estmilano.it/" ID="https___www_sportellotelematico-estmilano_it_"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+  <ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+    <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+  <ds:Reference URI="#https___www_sportellotelematico-estmilano_it_"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>ZzHymOYLu4Uvy1sLHE7AppOoIv+6nunGqgrslb45/sc=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>BJ7ZiQaMdWQayuWHJpwB4vR3moBqwKG8SaCgrTL9HeIo+AHQPdIIwJzZb2D+a6zVRvfcZdKDQdqXsRrJL6xHchYBZihc3Kjou3y8rn7ulcUKvA3BuM0a8GT0pCcJ7vfjAKpg4txo1KTmr407xcciPwpXe+7yI+TKtOy9CnLscOvFLvx+iL/5IO4qC8hmhS4ZvyI5A5cN6jvx1c9eHAaa7xeeJ8WcYEi5F6h++TJzf/8tLmLwtM6lE61rMMxUZC7ZQ5vArARQUIaLfAttkKJ6yRWNiu62dr++AR69FpjS5aAWuLA6JE+76IvZvKLeR3/LA265suC6SuTTLT+oE4bynA==</ds:SignatureValue>
+<ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIEeTCCA2GgAwIBAgII6g1KYGspkAAwDQYJKoZIhvcNAQELBQAwgdExCzAJBgNVBAYTAklUMQ8wDQYDVQQIDAZNaWxhbm8xEzARBgNVBAcMCkdvcmdvbnpvbGExHTAbBgNVBAoMFENvbXVuZSBkaSBHb3Jnb256b2xhMR0wGwYDVQQLDBRDb211bmUgZGkgR29yZ29uem9sYTEgMB4GA1UEAwwXY29tdW5lLmdvcmdvbnpvbGEubWkuaXQxPDA6BgkqhkiG9w0BCQEWLWFzc2lzdGVuemFpbmZvcm1hdGljYUBjb211bmUuZ29yZ29uem9sYS5taS5pdDAeFw0yNDAzMjUxMDMwMjVaFw00NDAzMjQxMDMwMjVaMIHRMQswCQYDVQQGEwJJVDEPMA0GA1UECAwGTWlsYW5vMRMwEQYDVQQHDApHb3Jnb256b2xhMR0wGwYDVQQKDBRDb211bmUgZGkgR29yZ29uem9sYTEdMBsGA1UECwwUQ29tdW5lIGRpIEdvcmdvbnpvbGExIDAeBgNVBAMMF2NvbXVuZS5nb3Jnb256b2xhLm1pLml0MTwwOgYJKoZIhvcNAQkBFi1hc3Npc3RlbnphaW5mb3JtYXRpY2FAY29tdW5lLmdvcmdvbnpvbGEubWkuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDm/wtbr0kZ1RPUvgXwjND5vWKCWARwB6+lOG6bXq3O4sFk8+gUtsqKW2bnlmVlWIm8JFD2U74/sbIfKXwBvvnQ/jDN+lyDQwUIlRu/Ja0/7HFpkEfW/efSsyIJ1D+2yXLN3+BBzNiUBqZwYoebs54IMgaw9SfjsNhahGZSiF/rnE9CWLRXCakoaOPMhvh/+jh1rI9FXlj1xFvx5xkeCw+FRL03Hs0NslsqDWUWjPQlIL7K5J+s04xgKcmYjwgPuFACPOXUb2IqQZnO7me3r8R3S2uW8VBZ7j22qlDbwmhn9rLQ0apWxePIVo+IMq6bA8SLCM8Rqbck23dz6m4EmFEHAgMBAAGjUzBRMB0GA1UdDgQWBBSSDGZL33grL+FsOIWuS7pJ5Ut5FTAfBgNVHSMEGDAWgBSSDGZL33grL+FsOIWuS7pJ5Ut5FTAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQC8LirNoxUDdMRwL63D1Y+s2TEqdpL9pRemFBjSmH4ZaXxDBXblqNu4gkt8R3KqXQf1i/o9TAkYquMNS9UfE5UkAyno4tQRMGgp6CAlvxKWEKlK9NXOeUWMQ7y4Ko8b2Z/IW2h4/cPf//oHEci5jLgienyeUhHsqQIwF6Rz+ZuHy0R3RjTJAmf9XeBBU6soEwqbftHOUXeMYHcmKpnZ5PMxc115t2ZBG5EtCtnGQMWAXaB7FQtsqaO6WC97E54o1fURtcJ+3iaer1FjeOZBu7ioUo0qv9XAPP/0t9CWOPexoJzQfZd6vwiDXNlc96VsrIHj+OQWKPV9DoB4yzEQD0Hu</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature>
+    <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true" WantAssertionsSigned="true">    <md:KeyDescriptor use="signing">
+        <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+            <ds:X509Data><ds:X509Certificate>MIIEGDCCAwCgAwIBAgIJAO37iMJ1v4SSMA0GCSqGSIb3DQEBCwUAMIGgMQswCQYDVQQGEwJJVDEPMA0GA1UECAwGTWlsYW5vMRMwEQYDVQQHDApHb3Jnb256b2xhMR0wGwYDVQQKDBRDb211bmUgZGkgR29yZ29uem9sYTEdMBsGA1UECwwUU3BvcnRlbGxvIFRlbGVtYXRpY28xLTArBgNVBAMMJHd3dy5zcG9ydGVsbG90ZWxlbWF0aWNvLWVzdG1pbGFuby5pdDAeFw0xODAxMDgxMTM2NTNaFw0yODAxMDYxMTM2NTNaMIGgMQswCQYDVQQGEwJJVDEPMA0GA1UECAwGTWlsYW5vMRMwEQYDVQQHDApHb3Jnb256b2xhMR0wGwYDVQQKDBRDb211bmUgZGkgR29yZ29uem9sYTEdMBsGA1UECwwUU3BvcnRlbGxvIFRlbGVtYXRpY28xLTArBgNVBAMMJHd3dy5zcG9ydGVsbG90ZWxlbWF0aWNvLWVzdG1pbGFuby5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAL56aKehRNE2WTFbB64+QyLk3D4l7rCemYwrPw5PqmRgtEJU6BUhTn59A/zmMMPyyGz3kjs0f1tsjb27ASnvXSiak9erkGvt4AqaBQMSHKaJPqX0HHH+c1DvXhUyvxIZirXiFt8eWZtKyw6M6P4r7cBIDrNyhaRV1/4cMG8Xq4NtPqRyKD1fbDMx04G6ZpH2JPFfQ0D15E5W17Kx/1usLPeQwvz3fHblPi92MAX0E34Ql42TxLsuwzJLfP+oSFzOjFeld6P/ntOM9YTxapvJL5TF63/gdSEsbtJ8kPxUKdKDJOGz1PDWB2TBmhOKPbcTDoAQ0Rzu5XkbMEFqscBx/TsCAwEAAaNTMFEwHQYDVR0OBBYEFLV2/ROhaGZboCZYy6lPvMCPN6+1MB8GA1UdIwQYMBaAFLV2/ROhaGZboCZYy6lPvMCPN6+1MA8GA1UdEwEB/wQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAC7IXwUt0UkSaiX9evDKLfq3Fbs4PprVo02fDDOlbhdxiWJqESu0LCv9fFogCRVCPfi6/ZhSz9yZuw2xrdayOYth1nS9TJrYzRj9TCjDCFc5I4lc9pSaAPFp9gwrpIwl9mIv4lLLgkBezu4adHTsCyHZqyByMzjiwJPRaCYYlUXjvf/HnHRgWHoeh0srbvnYU6KYRovO3cdrXsTV/nqqHS1F+zP+ml4RZ/3hLqFcXOHIC177W3XdGhG7EWYH10pFlxLDabKIVrZPTnmtbkLHC+Uevp1jfiZnM9fi/q1Wbx0pfX6IeZw+ihw5SnrYSfHXn38YyhoHnZS3l47MyK0SBu4=</ds:X509Certificate></ds:X509Data>
+        </ds:KeyInfo>
+    </md:KeyDescriptor>    <md:KeyDescriptor use="signing">
+        <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+            <ds:X509Data><ds:X509Certificate>MIIDVzCCAj+gAwIBAgIJANgKj2FSLcKRMA0GCSqGSIb3DQEBCwUAMEIxJDAiBgNVBAMMG3d3dy5jb211bmUuZ29yZ29uem9sYS5taS5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwHhcNMTkxMDIzMTE1MjE1WhcNMjkxMDIwMTE1MjE1WjBCMSQwIgYDVQQDDBt3d3cuY29tdW5lLmdvcmdvbnpvbGEubWkuaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAtUe3JWSEwKvBudD/YNd+h6NfnbzkFJARpDTS7JgWpk4fzBKp/9n8hLN3mLiWkV9ipsUMq0NyPa86j9WkwERvToswRhqpQl61PI63Cwsox2GX9atArfmc/O61vzaLOkRaxYu+8qzLgwCZEah+g5Ke6BXK8i2svU3GVrOrg2I4QUxgZAugwffrFZrOZh6mUJntcABaGe1BPxror+f16g9F8MjWrJiQlIazwx/b9P4K7nctRVTWKk8xHSmsAdohbr3wCtH3IG2Ls0WviaySazY5WTjpHvZSUmvpWJhPT9h/yz7DbkngTfxErWRQeffgPgF40YHhSgliHUwl5TTrBhHh0QIDAQABo1AwTjAdBgNVHQ4EFgQUKTDup0bc8oxRhQwHNEuw/niWxWswHwYDVR0jBBgwFoAUKTDup0bc8oxRhQwHNEuw/niWxWswDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEARQiywpdK/mIvhs3BFuAhQiye6cvea6Yo6mg0+1ZfGwcgmITREhTASKeEZwJWLm0Fnu2Yr7Pbfwe6JAg/YYcaOUHIjFL+5uHHUEXqSySmeJ7upVFODcsmZ9eoNd4ieS8E09kJA7cHxMBAslQ21e8AW5oGqbyVpCso5PMaqd5316mEx99U65cmLQxEj/9hoz7jzUgqjzcFjSF/K96yiPY28GyU9e8A4VxtoxG5UFc3u25ic3zFMytiZNanBuXymtJY8YRHGyXM3AkhWbGwT/uoVaIVoiK5DtXTVvYzOsCseMIo95XnKBRrFTBfvsaJeRRkCqAVshF21HLMOndexyih/Q==</ds:X509Certificate></ds:X509Data>
+        </ds:KeyInfo>
+    </md:KeyDescriptor>    <!--SHIELD-->
+    <md:KeyDescriptor use="signing">
+        <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+            <ds:X509Data><ds:X509Certificate>MIIEeTCCA2GgAwIBAgII6g1KYGspkAAwDQYJKoZIhvcNAQELBQAwgdExCzAJBgNVBAYTAklUMQ8wDQYDVQQIDAZNaWxhbm8xEzARBgNVBAcMCkdvcmdvbnpvbGExHTAbBgNVBAoMFENvbXVuZSBkaSBHb3Jnb256b2xhMR0wGwYDVQQLDBRDb211bmUgZGkgR29yZ29uem9sYTEgMB4GA1UEAwwXY29tdW5lLmdvcmdvbnpvbGEubWkuaXQxPDA6BgkqhkiG9w0BCQEWLWFzc2lzdGVuemFpbmZvcm1hdGljYUBjb211bmUuZ29yZ29uem9sYS5taS5pdDAeFw0yNDAzMjUxMDMwMjVaFw00NDAzMjQxMDMwMjVaMIHRMQswCQYDVQQGEwJJVDEPMA0GA1UECAwGTWlsYW5vMRMwEQYDVQQHDApHb3Jnb256b2xhMR0wGwYDVQQKDBRDb211bmUgZGkgR29yZ29uem9sYTEdMBsGA1UECwwUQ29tdW5lIGRpIEdvcmdvbnpvbGExIDAeBgNVBAMMF2NvbXVuZS5nb3Jnb256b2xhLm1pLml0MTwwOgYJKoZIhvcNAQkBFi1hc3Npc3RlbnphaW5mb3JtYXRpY2FAY29tdW5lLmdvcmdvbnpvbGEubWkuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDm/wtbr0kZ1RPUvgXwjND5vWKCWARwB6+lOG6bXq3O4sFk8+gUtsqKW2bnlmVlWIm8JFD2U74/sbIfKXwBvvnQ/jDN+lyDQwUIlRu/Ja0/7HFpkEfW/efSsyIJ1D+2yXLN3+BBzNiUBqZwYoebs54IMgaw9SfjsNhahGZSiF/rnE9CWLRXCakoaOPMhvh/+jh1rI9FXlj1xFvx5xkeCw+FRL03Hs0NslsqDWUWjPQlIL7K5J+s04xgKcmYjwgPuFACPOXUb2IqQZnO7me3r8R3S2uW8VBZ7j22qlDbwmhn9rLQ0apWxePIVo+IMq6bA8SLCM8Rqbck23dz6m4EmFEHAgMBAAGjUzBRMB0GA1UdDgQWBBSSDGZL33grL+FsOIWuS7pJ5Ut5FTAfBgNVHSMEGDAWgBSSDGZL33grL+FsOIWuS7pJ5Ut5FTAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQC8LirNoxUDdMRwL63D1Y+s2TEqdpL9pRemFBjSmH4ZaXxDBXblqNu4gkt8R3KqXQf1i/o9TAkYquMNS9UfE5UkAyno4tQRMGgp6CAlvxKWEKlK9NXOeUWMQ7y4Ko8b2Z/IW2h4/cPf//oHEci5jLgienyeUhHsqQIwF6Rz+ZuHy0R3RjTJAmf9XeBBU6soEwqbftHOUXeMYHcmKpnZ5PMxc115t2ZBG5EtCtnGQMWAXaB7FQtsqaO6WC97E54o1fURtcJ+3iaer1FjeOZBu7ioUo0qv9XAPP/0t9CWOPexoJzQfZd6vwiDXNlc96VsrIHj+OQWKPV9DoB4yzEQD0Hu</ds:X509Certificate></ds:X509Data>
+        </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <!--END SHIELD-->    <md:KeyDescriptor use="encryption">
+        <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+            <ds:X509Data><ds:X509Certificate>MIIEGDCCAwCgAwIBAgIJAO37iMJ1v4SSMA0GCSqGSIb3DQEBCwUAMIGgMQswCQYDVQQGEwJJVDEPMA0GA1UECAwGTWlsYW5vMRMwEQYDVQQHDApHb3Jnb256b2xhMR0wGwYDVQQKDBRDb211bmUgZGkgR29yZ29uem9sYTEdMBsGA1UECwwUU3BvcnRlbGxvIFRlbGVtYXRpY28xLTArBgNVBAMMJHd3dy5zcG9ydGVsbG90ZWxlbWF0aWNvLWVzdG1pbGFuby5pdDAeFw0xODAxMDgxMTM2NTNaFw0yODAxMDYxMTM2NTNaMIGgMQswCQYDVQQGEwJJVDEPMA0GA1UECAwGTWlsYW5vMRMwEQYDVQQHDApHb3Jnb256b2xhMR0wGwYDVQQKDBRDb211bmUgZGkgR29yZ29uem9sYTEdMBsGA1UECwwUU3BvcnRlbGxvIFRlbGVtYXRpY28xLTArBgNVBAMMJHd3dy5zcG9ydGVsbG90ZWxlbWF0aWNvLWVzdG1pbGFuby5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAL56aKehRNE2WTFbB64+QyLk3D4l7rCemYwrPw5PqmRgtEJU6BUhTn59A/zmMMPyyGz3kjs0f1tsjb27ASnvXSiak9erkGvt4AqaBQMSHKaJPqX0HHH+c1DvXhUyvxIZirXiFt8eWZtKyw6M6P4r7cBIDrNyhaRV1/4cMG8Xq4NtPqRyKD1fbDMx04G6ZpH2JPFfQ0D15E5W17Kx/1usLPeQwvz3fHblPi92MAX0E34Ql42TxLsuwzJLfP+oSFzOjFeld6P/ntOM9YTxapvJL5TF63/gdSEsbtJ8kPxUKdKDJOGz1PDWB2TBmhOKPbcTDoAQ0Rzu5XkbMEFqscBx/TsCAwEAAaNTMFEwHQYDVR0OBBYEFLV2/ROhaGZboCZYy6lPvMCPN6+1MB8GA1UdIwQYMBaAFLV2/ROhaGZboCZYy6lPvMCPN6+1MA8GA1UdEwEB/wQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAC7IXwUt0UkSaiX9evDKLfq3Fbs4PprVo02fDDOlbhdxiWJqESu0LCv9fFogCRVCPfi6/ZhSz9yZuw2xrdayOYth1nS9TJrYzRj9TCjDCFc5I4lc9pSaAPFp9gwrpIwl9mIv4lLLgkBezu4adHTsCyHZqyByMzjiwJPRaCYYlUXjvf/HnHRgWHoeh0srbvnYU6KYRovO3cdrXsTV/nqqHS1F+zP+ml4RZ/3hLqFcXOHIC177W3XdGhG7EWYH10pFlxLDabKIVrZPTnmtbkLHC+Uevp1jfiZnM9fi/q1Wbx0pfX6IeZw+ihw5SnrYSfHXn38YyhoHnZS3l47MyK0SBu4=</ds:X509Certificate></ds:X509Data>
+        </ds:KeyInfo>
+    </md:KeyDescriptor>
+            <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.sportellotelematico-estmilano.it/simplesaml/module.php/saml/sp/saml2-logout.php/gorgonzola"/>
+            <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SingleLogout/alias/gorgonzola"/>
+            <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://comune.gorgonzola.mi.it/login-bo/?spid_sso=out"/>        
+        <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+        <md:AssertionConsumerService index="0" isDefault="true" Location="https://www.sportellotelematico-estmilano.it/simplesaml/module.php/saml/sp/saml2-acs.php/gorgonzola" Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST"/>
+        <md:AssertionConsumerService index="1" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/gorgonzola" Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST"/>
+        <md:AssertionConsumerService index="2" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/gorgonzola" Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST"/>
+        <md:AssertionConsumerService index="3" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/gorgonzola" Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST"/>
+        <md:AssertionConsumerService index="4" Location="https://comune.gorgonzola.mi.it/login-bo/?spid_sso=in" Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST"/>
+        <md:AttributeConsumingService index="0">
+            <md:ServiceName xml:lang="it">Set 0</md:ServiceName>       
+            <md:RequestedAttribute Name="gender"/>
+            <md:RequestedAttribute Name="fiscalNumber"/>
+            <md:RequestedAttribute Name="name"/>
+            <md:RequestedAttribute Name="familyName"/>
+            <md:RequestedAttribute Name="placeOfBirth"/>
+            <md:RequestedAttribute Name="dateOfBirth"/>
+            <md:RequestedAttribute Name="mobilePhone"/>
+            <md:RequestedAttribute Name="email"/>
+            <md:RequestedAttribute Name="address"/>
+            <md:RequestedAttribute Name="digitalAddress"/></md:AttributeConsumingService>
+        <md:AttributeConsumingService index="1">
+            <md:ServiceName xml:lang="it">Set 1</md:ServiceName>       
+            <md:RequestedAttribute Name="gender"/>
+            <md:RequestedAttribute Name="companyName"/>
+            <md:RequestedAttribute Name="registeredOffice"/>
+            <md:RequestedAttribute Name="fiscalNumber"/>
+            <md:RequestedAttribute Name="ivaCode"/>
+            <md:RequestedAttribute Name="idCard"/>
+            <md:RequestedAttribute Name="spidCode"/>
+            <md:RequestedAttribute Name="name"/>
+            <md:RequestedAttribute Name="familyName"/>
+            <md:RequestedAttribute Name="placeOfBirth"/>
+            <md:RequestedAttribute Name="countyOfBirth"/>
+            <md:RequestedAttribute Name="dateOfBirth"/>
+            <md:RequestedAttribute Name="mobilePhone"/>
+            <md:RequestedAttribute Name="email"/>
+            <md:RequestedAttribute Name="address"/>
+            <md:RequestedAttribute Name="expirationDate"/>
+            <md:RequestedAttribute Name="digitalAddress"/></md:AttributeConsumingService>
+        <md:AttributeConsumingService index="2">
+            <md:ServiceName xml:lang="it">Set 2</md:ServiceName>       
+            <md:RequestedAttribute Name="fiscalNumber"/>
+            <md:RequestedAttribute Name="spidCode"/>
+            <md:RequestedAttribute Name="name"/>
+            <md:RequestedAttribute Name="familyName"/>
+            <md:RequestedAttribute Name="email"/></md:AttributeConsumingService>
+        <md:AttributeConsumingService index="3">
+            <md:ServiceName xml:lang="it">Set 3</md:ServiceName>       
+            <md:RequestedAttribute Name="gender"/>
+            <md:RequestedAttribute Name="fiscalNumber"/>
+            <md:RequestedAttribute Name="spidCode"/>
+            <md:RequestedAttribute Name="name"/>
+            <md:RequestedAttribute Name="familyName"/>
+            <md:RequestedAttribute Name="placeOfBirth"/>
+            <md:RequestedAttribute Name="countyOfBirth"/>
+            <md:RequestedAttribute Name="dateOfBirth"/>
+            <md:RequestedAttribute Name="mobilePhone"/>
+            <md:RequestedAttribute Name="email"/></md:AttributeConsumingService>
+        <md:AttributeConsumingService index="4">
+            <md:ServiceName xml:lang="it">Set 4</md:ServiceName>       
+            <md:RequestedAttribute Name="gender"/>
+            <md:RequestedAttribute Name="companyName"/>
+            <md:RequestedAttribute Name="registeredOffice"/>
+            <md:RequestedAttribute Name="fiscalNumber"/>
+            <md:RequestedAttribute Name="ivaCode"/>
+            <md:RequestedAttribute Name="idCard"/>
+            <md:RequestedAttribute Name="spidCode"/>
+            <md:RequestedAttribute Name="name"/>
+            <md:RequestedAttribute Name="familyName"/>
+            <md:RequestedAttribute Name="placeOfBirth"/>
+            <md:RequestedAttribute Name="countyOfBirth"/>
+            <md:RequestedAttribute Name="dateOfBirth"/>
+            <md:RequestedAttribute Name="mobilePhone"/>
+            <md:RequestedAttribute Name="email"/>
+            <md:RequestedAttribute Name="address"/>
+            <md:RequestedAttribute Name="expirationDate"/>
+            <md:RequestedAttribute Name="digitalAddress"/>
+            <md:RequestedAttribute Name="domicileStreetAddress"/>
+            <md:RequestedAttribute Name="domicilePostalCode"/>
+            <md:RequestedAttribute Name="domicileMunicipality"/>
+            <md:RequestedAttribute Name="domicileProvince"/>
+            <md:RequestedAttribute Name="domicileNation"/></md:AttributeConsumingService></md:SPSSODescriptor><md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Gorgonzola</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Gorgonzola</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.sportellotelematico-estmilano.it/</md:OrganizationURL>
+</md:Organization><md:ContactPerson contactType="other"><md:Extensions><spid:IPACode>c_e094</spid:IPACode><spid:Public/></md:Extensions><md:EmailAddress>assistenzainformatica@comune.gorgonzola.mi.it</md:EmailAddress><md:TelephoneNumber>+3902957011</md:TelephoneNumber></md:ContactPerson></md:EntityDescriptor>

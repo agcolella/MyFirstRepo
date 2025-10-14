@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<md:EntityDescriptor entityID="https://spid.sogei.it/pub-op-full/" ID="Id-9d389166-c0e2-4448-b697-bee4ffefadb6" xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:spid="https://spid.gov.it/saml-extensions"><Signature xmlns:SOAP="http://schemas.xmlsoap.org/soap/envelope/" xmlns="http://www.w3.org/2000/09/xmldsig#">
+				<SignedInfo>
+  					<CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+  					<SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+  					<Reference URI="#Id-9d389166-c0e2-4448-b697-bee4ffefadb6">
+    					<Transforms>
+      						<Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+      						<Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+    					</Transforms>
+    					<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+    					<DigestValue>SnlkyqsQ+iHKrAZYHG/Hf6gHm2SfxSWHN7369BzDA3s=</DigestValue>
+  					</Reference>
+				</SignedInfo>
+			<SignatureValue>r5xykbEn1lb6oZlO4o/nLblaRK7MNHRL0okZ6EssJ6cuj46WzAE93gLAi1WpBe+R/tjLSXKs7aXMrkdH6L2Uw51iifmbGcSrzpS77Jm9ZOnrNulW3LS/D8l2r/psK4ekFP30byQIeF5BXnkB0/PKarZ/PuLcmXNnkLPcQawdryGYNqCjBogeDgHfrc4oHPjToQGAzYl6c77QFdb6Sq2bP4Cbc4I61cWGRy3CwWgWufBRWABXJcKokE1bCrSfWZxuLl2WWFTrtBio9YUdp2bud7MQXb3IlC6Nj5FZpWT3hN/zllHdb4/MJMfcGtDa5c9imh/QXNA2CmAHtO5CgHhxog==</SignatureValue><KeyInfo><X509Data><X509Certificate>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</X509Certificate><X509IssuerSerial><X509IssuerName>serialNumber=VATIT-97735020584, emailAddress=protocollo@pec.agid.gov.it, CN=Progetto SPID - Soggetti_pubblici, OU=Servizio Accreditamento e Vigilanza, O=Agenzia per l'Italia Digitale, L=Rome, C=IT</X509IssuerName><X509SerialNumber>6749411670843042262</X509SerialNumber></X509IssuerSerial></X509Data></KeyInfo></Signature>
+<md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true" WantAssertionsSigned="true">
+<md:KeyDescriptor use="signing">
+<ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:X509Data>
+<ds:X509Certificate>MIIHxjCCBa6gAwIBAgIIXaq6J5t5qdYwDQYJKoZIhvcNAQENBQAwgeUxCzAJBgNV
+BAYTAklUMQ0wCwYDVQQHDARSb21lMSYwJAYDVQQKDB1BZ2VuemlhIHBlciBsJ0l0
+YWxpYSBEaWdpdGFsZTEsMCoGA1UECwwjU2Vydml6aW8gQWNjcmVkaXRhbWVudG8g
+ZSBWaWdpbGFuemExKjAoBgNVBAMMIVByb2dldHRvIFNQSUQgLSBTb2dnZXR0aV9w
+dWJibGljaTEpMCcGCSqGSIb3DQEJARYacHJvdG9jb2xsb0BwZWMuYWdpZC5nb3Yu
+aXQxGjAYBgNVBAUTEVZBVElULTk3NzM1MDIwNTg0MB4XDTIzMTEyMTAwMDAwMFoX
+DTM4MTEyMDIzNTk1OVowgYcxCzAJBgNVBAYTAklUMQ0wCwYDVQQHDARSb21lMQ4w
+DAYDVQQKDAVTb2dlaTEQMA4GA1UEAwwHU1BJRFNvZzEaMBgGA1UEYQwRVkFUSVQt
+MDEwNDM5MzEwMDMxKzApBgNVBFMMImh0dHBzOi8vc3BpZC5zb2dlaS5pdC9wdWIt
+b3AtZnVsbC8wggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC0A2RwjFEd
+hqp4hqLDmJYEMJS9sfcL8vjIqUFv17w3Q/C4HDC2YktlkOiuZ1xtvBWAwPjno2RZ
+hWradBHRuipJjXTVr7Tjw/o72x18VCk83Jtu/ilHuM8BiVzTujeI/VfgB8pQsUrE
+06br5LMAN4oYeNzh9lJ8V28R8+DvvGc5NVCwH9zMkO4RQ1fGkz5aH2Y8d74+ILP6
+srSbnR665wSdh0AM3KjkFI5KDmpUMUSds1C8qK46IgGeuslZNbgP7ymiomHzuEVP
+1UhKNs4BDly8VJmTSxOPAqaMkAcDq1z0mt+Oq9LGAx5R5SMCgz6fF/ZCgXPeCi0b
+VLD3hwwW1iZzAgMBAAGjggLUMIIC0DAMBgNVHRMBAf8EAjAAMB0GA1UdDgQWBBRc
+k9LgvMbth9NyRB0VHXm5mcY+FjAfBgNVHSMEGDAWgBQ8u23rHv2dbsvuVObqOdWJ
+oEfXNDAOBgNVHQ8BAf8EBAMCBsAwFgYDVR0SBA8wDYILc3BpZC5nb3YuaXQwQgYD
+VR0fBDswOTA3oDWgM4YxaHR0cHM6Ly9laWRhcy5hZ2lkLmdvdi5pdC9jcmwvY3Js
+X1NQSURfUHViX1NBLmNybDA3BggrBgEFBQcBAQQrMCkwJwYIKwYBBQUHMAGGG2h0
+dHBzOi8vb2NzcF9TQS5hZ2lkLmdvdi5pdDCCAdkGA1UdIASCAdAwggHMMAkGBwQA
+jkYBBgIwgZUGBCtMEAYwgYwwRAYIKwYBBQUHAgIwOBo2RWxlY3Ryb25pYyBjZXJ0
+aWZpY2F0ZSBjb25mb3JtaW5nIHdpdGggQUdJRCBHdWlkZWxpbmVzMEQGCCsGAQUF
+BwICMDgaNkNlcnRpZmljYXRvIGVsZXR0cm9uaWNvIGNvbmZvcm1lIGFsbGUgTGlu
+ZWUgZ3VpZGEgQWdJRDB9BgYrTBAEAgIwczA6BggrBgEFBQcCAjAuGixTUElEOiBh
+Z2dyZWdhdG9yZSAnZnVsbCcgZGkgc2Vydml6aSBwdWJibGljaTA1BggrBgEFBQcC
+AjApGidTUElEOiBwdWJsaWMtc2VydmljZXMgJ2Z1bGwnIEFnZ3JlZ2F0b3IwCAYG
+BACPegEDME0GBCtMEAQwRTBDBggrBgEFBQcCARY3aHR0cHM6Ly9laWRhcy5hZ2lk
+Lmdvdi5pdC9jcHMvQWdJRF9lSURBU19yb290Q0FfY3BzLnBkZjBPBgYEAI5GAQUw
+RTBDBggrBgEFBQcCARY3aHR0cHM6Ly9laWRhcy5hZ2lkLmdvdi5pdC9jcHMvQWdJ
+RF9lSURBU19yb290Q0FfY3BzLnBkZjANBgkqhkiG9w0BAQ0FAAOCAgEAT6YyVorl
+/cF9fZg1BnWPO3GL8yWGEntBuBO48nPCZdHpLZeJX5lnSq/QHsnDZXZpazQ3vyNQ
+ExXR542aSM1MFNT2n5oZy7bKY1EH3y1NwmnsVPGmbgKEhPGe5vtGRTEBoNORqLOp
+0ViyEApa8MVsWmxSSdka971l8mTmWRu42TAHvDUdKP1FCFAxLlVpnOWDxpgaeprX
+S3p5EkweW789HtD11MH6wWzTyVt4QHXxtkCoy8Q531WNHIcoz1K3uYFhaHhHXgRz
+ck8GEFyGY2oziUS8usS7T9J+ADiO39fgxuEmn45ozuVqK18WFkh5NFgqRaShtO0H
+w8ui0nYU/CNKKlJD9iLjBuyGs3Bix7Wlikxc5e5Ql59ZoI5sfqnwCGfJk/SRBpVf
+Z3zJgFnkI2txq+yOr42cqmRWeUFL57+Hcc0EThGDXX1JQe7VKIdc3gXJTrIivTRr
+55YO0rfWGm/f5Wp6h63f/cogiq8IiNmNclnR+8ugYE42knP61PbWeiiwf+rhthaM
+gPA2n1OPDLGFG4TL+EYz14cxI7TDsZuzYOxKlB9j7dUJ/cNDj99NDN2Zo0w3w4Wl
+wUqyFUYLX0faN36BGohZcg2/fwvxzhdeojWmThRsIpwusfqvozh99IkwqNaLdcuT
+d6HNZoXj4nVnUvC1aNAl57YrxxaVoU4fNqU=</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</md:KeyDescriptor>
+<md:SingleLogoutService Location="https://sptest.sogei.it/spsogei/SingleLogoutService" ResponseLocation="https://sptest.sogei.it/spsogei/SingleLogoutService/response" Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST"/>
+<md:SingleLogoutService Location="https://sp.sogei.it/spsogei/SingleLogoutService" ResponseLocation="https://sp.sogei.it/spsogei/SingleLogoutService/response" Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST"/>
+<md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+<md:AssertionConsumerService Location="https://sptest.sogei.it/spsogei/AssertionConsumerServiceSOGEI" Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" index="0" isDefault="true"/>
+<md:AssertionConsumerService Location="https://sp.sogei.it/spsogei/AssertionConsumerServiceSOGEI" Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" index="1"/>
+<md:AttributeConsumingService index="0">
+<md:ServiceName xml:lang="it">Sogei</md:ServiceName>
+<md:RequestedAttribute FriendlyName="Nome" Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+<md:RequestedAttribute FriendlyName="Cognome" Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+<md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+<md:RequestedAttribute FriendlyName="Numero di telefono mobile" Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+<md:RequestedAttribute FriendlyName="Indirizzo di posta elettronica" Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+<md:RequestedAttribute FriendlyName="Domicilio digitale (PEC)" Name="digitalAddress" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+<md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+<md:RequestedAttribute FriendlyName="Provincia di nascita" Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+<md:RequestedAttribute FriendlyName="Data di nascita" Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+<md:RequestedAttribute FriendlyName="Sesso" Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+<md:RequestedAttribute FriendlyName="Documento d'identit&#224;" Name="idCard" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+<md:RequestedAttribute FriendlyName="Domicilio" Name="domicileStreetAddress" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+<md:RequestedAttribute FriendlyName="Codice Postale" Name="domicilePostalCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+<md:RequestedAttribute FriendlyName="Comune" Name="domicileMunicipality" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+<md:RequestedAttribute FriendlyName="Provincia" Name="domicileProvince" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+<md:RequestedAttribute FriendlyName="Nazione" Name="domicileNation" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+<md:RequestedAttribute FriendlyName="Domicilio fisico" Name="address" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+<md:RequestedAttribute FriendlyName="Data di scadenza identit&#224;" Name="expirationDate" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+</md:AttributeConsumingService>
+<md:AttributeConsumingService index="1">
+<md:ServiceName xml:lang="it">SogeiSelf</md:ServiceName>
+<md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+</md:AttributeConsumingService>
+<md:AttributeConsumingService index="99">
+<md:ServiceName xml:lang="it">eIDAS Natural Person Minimum Attribute Set</md:ServiceName>
+<md:RequestedAttribute Name="spidCode"/>
+<md:RequestedAttribute Name="name"/>
+<md:RequestedAttribute Name="familyName"/>
+<md:RequestedAttribute Name="dateOfBirth"/>
+</md:AttributeConsumingService>
+<md:AttributeConsumingService index="100">
+<md:ServiceName xml:lang="it">eIDAS Natural Person Full Attribute Set</md:ServiceName>
+<md:RequestedAttribute Name="spidCode"/>
+<md:RequestedAttribute Name="name"/>
+<md:RequestedAttribute Name="familyName"/>
+<md:RequestedAttribute Name="dateOfBirth"/>
+<md:RequestedAttribute Name="placeOfBirth"/>
+<md:RequestedAttribute Name="address"/>
+<md:RequestedAttribute Name="gender"/>
+</md:AttributeConsumingService>
+</md:SPSSODescriptor>
+<md:Organization>
+<md:OrganizationName xml:lang="it">Sogei S.P.A.</md:OrganizationName>
+<md:OrganizationDisplayName xml:lang="it">Sogei S.P.A.</md:OrganizationDisplayName>
+<md:OrganizationURL xml:lang="it">https://www.sogei.it</md:OrganizationURL>
+</md:Organization>
+<md:ContactPerson contactType="other" spid:entityType="spid:aggregator">
+<md:Extensions>
+<spid:IPACode>sogei</spid:IPACode>
+<spid:VATNumber>IT01043931003</spid:VATNumber>
+<spid:FiscalCode>02327910580</spid:FiscalCode>
+<spid:PublicServicesFullOperator/>
+</md:Extensions>
+<md:Company>Sogei S.P.A.</md:Company>
+<md:EmailAddress>protocollosogei@pec.sogei.it</md:EmailAddress>
+</md:ContactPerson>
+</md:EntityDescriptor>

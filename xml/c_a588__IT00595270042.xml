@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<md:EntityDescriptor xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion" xmlns:samlp="urn:oasis:names:tc:SAML:2.0:protocol" entityID="https://www.pa-online.it/SP/pub-ag-full/005007" ID="id3dd68fc2ea7b402da7f79033a87ee9c2" xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata"><Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256" /><Reference URI="#id3dd68fc2ea7b402da7f79033a87ee9c2"><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" /><DigestValue>SpkB+EJTxkgZAH1rvFFLI2cW5/RyP+5QDnpz6xwLJjs=</DigestValue></Reference></SignedInfo><SignatureValue>Xb/9Z1itskkBQtIHH3oqZbzzP03cSEDrNXiplJetnbly+zLTq/AZuCEdrlls+cVfcwDvDsHj5c2V6EbbkZtfVVoFWJRhsG2uWfDdlTPtHJHDI6G9o4+jF+ACZGz9fbO2ypwNMLXplsP0zXDoikyFjYKm3lxUo4fkSDQZCUTdmqAwi7SpkylFx51oiU1PE8ueYM+C6x2JinUnrrc4pYjj9tF9gkpXd6gaiJlvfRQLFFlD5ar7shz+aP2IJZG7tnaTfhMtZtGc3//pCxjj1/30w9XB1LZv0gka9M3m1iUWmTeT1LOAMaScFbZYrv3dlPLu3ViNrkpaX4AOhlIu8bc/dg==</SignatureValue><KeyInfo><X509Data><X509Certificate>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</X509Certificate></X509Data></KeyInfo></Signature>
+  <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true" WantAssertionsSigned="true">
+    <md:KeyDescriptor use="signing">
+      <KeyInfo xmlns="http://www.w3.org/2000/09/xmldsig#">
+        <X509Data>
+          <X509Certificate>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</X509Certificate>
+        </X509Data>
+      </KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.pa-online.it/SP/LogoutSAML" />
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.pa-online.it/SP/LoginSAML" index="0" isDefault="true" />
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">Sportello Unico Digitale</md:ServiceName>
+      <md:RequestedAttribute Name="fiscalNumber" />
+      <md:RequestedAttribute Name="name" />
+      <md:RequestedAttribute Name="familyName" />
+      <md:RequestedAttribute Name="spidCode" />
+      <md:RequestedAttribute Name="email" />
+      <md:RequestedAttribute Name="digitalAddress" />
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="99">
+      <md:ServiceName xml:lang="it">eIDAS Natural Person Minimum Attribute Set</md:ServiceName>
+      <md:RequestedAttribute Name="spidCode" />
+      <md:RequestedAttribute Name="name" />
+      <md:RequestedAttribute Name="familyName" />
+      <md:RequestedAttribute Name="dateOfBirth" />
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="100">
+      <md:ServiceName xml:lang="it">eIDAS Natural Person Full Attribute Set</md:ServiceName>
+      <md:RequestedAttribute Name="spidCode" />
+      <md:RequestedAttribute Name="name" />
+      <md:RequestedAttribute Name="familyName" />
+      <md:RequestedAttribute Name="dateOfBirth" />
+      <md:RequestedAttribute Name="placeOfBirth" />
+      <md:RequestedAttribute Name="address" />
+      <md:RequestedAttribute Name="gender" />
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Baldichieri d'Asti</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Baldichieri d'Asti</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.pa-online.it/GisMasterWebS/SU/SU.aspx?IdCliente=005007&amp;IdPage=SSU</md:OrganizationURL>
+  </md:Organization>
+  <md:ContactPerson spid:entityType="spid:aggregator" contactType="other" xmlns:spid="https://spid.gov.it/saml-extensions">
+    <md:Extensions>
+      <spid:VATNumber>IT00595270042</spid:VATNumber>
+      <spid:FiscalCode>IT00595270042</spid:FiscalCode>
+      <spid:PublicServicesFullAggregator />
+    </md:Extensions>
+    <md:Company>Technical Design s.r.l.</md:Company>
+    <md:EmailAddress>spid@technicaldesign.it</md:EmailAddress>
+    <md:TelephoneNumber>+390171630924</md:TelephoneNumber>
+  </md:ContactPerson>
+  <md:ContactPerson spid:entityType="spid:aggregated" contactType="other" xmlns:spid="https://spid.gov.it/saml-extensions">
+    <md:Extensions>
+      <spid:IPACode>c_a588</spid:IPACode>
+      <spid:Public />
+    </md:Extensions>
+    <md:Company>Comune di Baldichieri d'Asti</md:Company>
+  </md:ContactPerson>
+</md:EntityDescriptor>

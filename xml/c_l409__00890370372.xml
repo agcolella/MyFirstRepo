@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" ID="_ab81e13b99444282beaa63fa44bbd493" entityID="https://spid.ads.it/pub-ag-lite/c_l409"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#_ab81e13b99444282beaa63fa44bbd493">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>Js0ixxQVO+wUw2S6GzXPFtAkB4WJwqA5va27ALpiPCM=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+ZWQgRLbqIpeohOCvfb1GqaMdjd0ZYBqRIhl/m3n69A2P6ILWT89BYLbFMoKbapw8+BQEhV1hEBO2
+n3n8C7+GLURqjICnhUg7rbetDHSyc5jMrwHr6Yh443/P4yzoU2F1V06ivP7rOuqmmQjnH0Kl8WKo
+FeceLDwNdnHKe4Dr7F7WBAugbLK6K52Pd6d3/Hb28LEboy62CeOuMArvUf8115Hq+C2f+5Pw4Xq3
+uJv1l0oIrUgaQXrozGSHFeJjJ+Z4eCrz5R1iwX++WmOkgoAFYlD3C+09H65k+8B94G3Wy+MVGJe6
+twuyhb5y1q97Kjol7pMYvbHqb5WOVP/53+Lecw==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+6OowxpcgSF87+sTxaAIXOsUB/Rk9v09wOPS5Mq/1Ft2psJJ4q9XCjEGWL+clxw+moIsYXSbx1zIz
+E+Xd3r457h2HGX0ydqe6RCxJD2JLD3i6b8vasRW/T3tkV1x/tbzKDz3Jo2IBDyyzEGVpS44Ci0kS
+O9UEGabPzt5tjqklRi8ujTqDcn56CCmGOSdUns9R7mKcOS09sc9BzMx1bD4X7Y7+lBP1v9Tj0LHJ
+mwVXHyN5gBX3qiDFFFGCcE61DvJ7eNFb55YEZFvjzbkwbEjV3Rg4dV8uge8EH+tIUL8v0R44tGNN
+D2+2nZgQ1OmcVjXExspM21HwRJgs5SpF5dH44Q==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIEijCCA3KgAwIBAgIBEDANBgkqhkiG9w0BAQsFADCB3TELMAkGA1UEBhMCSVQxCzAJBgNVBAgM
+AkJPMRAwDgYDVQQHDAdCb2xvZ25hMSkwJwYDVQQKDCBBRFMgQXV0b21hdGVkIERhdGEgU3lzdGVt
+cyBTLnAuQTEpMCcGA1UEAwwgQURTIEF1dG9tYXRlZCBEYXRhIFN5c3RlbXMgUy5wLkExHzAdBgkq
+hkiG9w0BCQEWEHNwaWQudGVjaEBhZHMuaXQxGjAYBgNVBGEMEVZBVElULTAwODkwMzcwMzcyMRww
+GgYDVQRTDBNodHRwczovL3NwaWQuYWRzLml0MB4XDTIxMDYyODA4MjkxMFoXDTI0MDYyNzA4Mjkx
+MFowgYExCzAJBgNVBAYTAklUMR4wHAYDVQQHDBVUcmV6emFubyBzdWwgTmF2aWdsaW8xKDAmBgNV
+BAoMH0NvbXVuZSBkaSBUcmV6emFubyBzdWwgTmF2aWdsaW8xKDAmBgNVBAMMH0NvbXVuZSBkaSBU
+cmV6emFubyBzdWwgTmF2aWdsaW8wggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDo6jDG
+lyBIXzv6xPFoAhc6xQH9GT2/T3A49Lkyr/UW3amwknir1cKMQZYv5yXHD6agixhdJvHXMjMT5d3e
+vjnuHYcZfTJ2p7pELEkPYksPeLpvy9qxFb9Pe2RXXH+1vMoPPcmjYgEPLLMQZWlLjgKLSRI71QQZ
+ps/O3m2OqSVGLy6NOoNyfnoIKYY5J1Sez1HuYpw5LT2xz0HMzHVsPhftjv6UE/W/1OPQscmbBVcf
+I3mAFfeqIMUUUYJwTrUO8nt40VvnlgRkW+PNuTBsSNXdGDh1Xy6B7wQf60hQvy/RHji0Y00Pb7ad
+mBDU6ZxWNcTGykzbUfBEmCzlKkXl0fjhAgMBAAGjga4wgaswCwYDVR0PBAQDAgeAMBMGA1UdJQQM
+MAoGCCsGAQUFBwMDMFQGA1UdIARNMEswSQYHK0wQBAIFATA+MDwGCCsGAQUFBwICMDAaLnNwaWQt
+cHVibGljc2VjdG9yLWxpZ2h0YWdncmVnYXRvci1tZXRhZGF0YXNlYWwwMQYDVR0RBCowKIYmaHR0
+cHM6Ly9zcGlkLmFkcy5pdC9wdWItYWctbGl0ZS9jX2w0MDkwDQYJKoZIhvcNAQELBQADggEBACwm
+neUd32MwBibglItaS1F4p9nQuiA4AZWSthagmoU5i6AVr+89iHe3FCCKW1zxhv0JoH0btnOCVm6w
+N+F35AIsMGAuTmL/o1ldun4cQsdr+v1VEVkRtoTAoeRX2v40o9OwRB8jXOuA8U59EoMYDuc9muB7
+O63nNJFuVkF6tY991Zrrq5Pys1pEsHN37m/hDumfah4JgJ32icRlk5PTRRJIJ8iI/Ij8TK9Du1Cf
+YZD2gQS9BKjr/zq3WYejiWFG7VkCzOBr3auEhtJ/VAIoBEt+WuVGYXBd22WtUedjQjGDkoaRMJdB
+SZYsNLlu+mPmX0Ec8B9aglVFVts4hDVnPVw=
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIIEijCCA3KgAwIBAgIBEDANBgkqhkiG9w0BAQsFADCB3TELMAkGA1UEBhMCSVQx
+CzAJBgNVBAgMAkJPMRAwDgYDVQQHDAdCb2xvZ25hMSkwJwYDVQQKDCBBRFMgQXV0
+b21hdGVkIERhdGEgU3lzdGVtcyBTLnAuQTEpMCcGA1UEAwwgQURTIEF1dG9tYXRl
+ZCBEYXRhIFN5c3RlbXMgUy5wLkExHzAdBgkqhkiG9w0BCQEWEHNwaWQudGVjaEBh
+ZHMuaXQxGjAYBgNVBGEMEVZBVElULTAwODkwMzcwMzcyMRwwGgYDVQRTDBNodHRw
+czovL3NwaWQuYWRzLml0MB4XDTIxMDYyODA4MjkxMFoXDTI0MDYyNzA4MjkxMFow
+gYExCzAJBgNVBAYTAklUMR4wHAYDVQQHDBVUcmV6emFubyBzdWwgTmF2aWdsaW8x
+KDAmBgNVBAoMH0NvbXVuZSBkaSBUcmV6emFubyBzdWwgTmF2aWdsaW8xKDAmBgNV
+BAMMH0NvbXVuZSBkaSBUcmV6emFubyBzdWwgTmF2aWdsaW8wggEiMA0GCSqGSIb3
+DQEBAQUAA4IBDwAwggEKAoIBAQDo6jDGlyBIXzv6xPFoAhc6xQH9GT2/T3A49Lky
+r/UW3amwknir1cKMQZYv5yXHD6agixhdJvHXMjMT5d3evjnuHYcZfTJ2p7pELEkP
+YksPeLpvy9qxFb9Pe2RXXH+1vMoPPcmjYgEPLLMQZWlLjgKLSRI71QQZps/O3m2O
+qSVGLy6NOoNyfnoIKYY5J1Sez1HuYpw5LT2xz0HMzHVsPhftjv6UE/W/1OPQscmb
+BVcfI3mAFfeqIMUUUYJwTrUO8nt40VvnlgRkW+PNuTBsSNXdGDh1Xy6B7wQf60hQ
+vy/RHji0Y00Pb7admBDU6ZxWNcTGykzbUfBEmCzlKkXl0fjhAgMBAAGjga4wgasw
+CwYDVR0PBAQDAgeAMBMGA1UdJQQMMAoGCCsGAQUFBwMDMFQGA1UdIARNMEswSQYH
+K0wQBAIFATA+MDwGCCsGAQUFBwICMDAaLnNwaWQtcHVibGljc2VjdG9yLWxpZ2h0
+YWdncmVnYXRvci1tZXRhZGF0YXNlYWwwMQYDVR0RBCowKIYmaHR0cHM6Ly9zcGlk
+LmFkcy5pdC9wdWItYWctbGl0ZS9jX2w0MDkwDQYJKoZIhvcNAQELBQADggEBACwm
+neUd32MwBibglItaS1F4p9nQuiA4AZWSthagmoU5i6AVr+89iHe3FCCKW1zxhv0J
+oH0btnOCVm6wN+F35AIsMGAuTmL/o1ldun4cQsdr+v1VEVkRtoTAoeRX2v40o9Ow
+RB8jXOuA8U59EoMYDuc9muB7O63nNJFuVkF6tY991Zrrq5Pys1pEsHN37m/hDumf
+ah4JgJ32icRlk5PTRRJIJ8iI/Ij8TK9Du1CfYZD2gQS9BKjr/zq3WYejiWFG7VkC
+zOBr3auEhtJ/VAIoBEt+WuVGYXBd22WtUedjQjGDkoaRMJdBSZYsNLlu+mPmX0Ec
+8B9aglVFVts4hDVnPVw=
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://servizi.comune.trezzano-sul-naviglio.mi.it/Shibboleth.sso/SLO/POST"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://servizi.comune.trezzano-sul-naviglio.mi.it/Shibboleth.sso/SAML2/POST" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://servizionline-trezzano.e-pal.it/Shibboleth.sso/SAML2/POST" index="1"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">Comune di Trezzano sul Naviglio</md:ServiceName>
+      <md:RequestedAttribute Name="spidCode"/>
+      <md:RequestedAttribute Name="name"/>
+      <md:RequestedAttribute Name="familyName"/>
+      <md:RequestedAttribute Name="fiscalNumber"/>
+      <md:RequestedAttribute Name="email"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="99">
+      <md:ServiceName xml:lang="it">eIDAS Natural Person Minimum Attribute Set</md:ServiceName>
+      <md:RequestedAttribute Name="dateOfBirth"/>
+      <md:RequestedAttribute Name="familyName"/>
+      <md:RequestedAttribute Name="name"/>
+      <md:RequestedAttribute Name="spidCode"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="100">
+      <md:ServiceName xml:lang="it">eIDAS Natural Person Full Attribute Set</md:ServiceName>
+      <md:RequestedAttribute Name="address"/>
+      <md:RequestedAttribute Name="dateOfBirth"/>
+      <md:RequestedAttribute Name="familyName"/>
+      <md:RequestedAttribute Name="gender"/>
+      <md:RequestedAttribute Name="name"/>
+      <md:RequestedAttribute Name="placeOfBirth"/>
+      <md:RequestedAttribute Name="spidCode"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Trezzano sul Naviglio</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Trezzano sul Naviglio</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.comune.trezzano-sul-naviglio.mi.it</md:OrganizationURL>
+  </md:Organization>
+  <md:ContactPerson contactType="other" spid:entityType="spid:aggregator">
+    <md:Extensions>
+      <spid:VATNumber>IT00890370372</spid:VATNumber>
+      <spid:FiscalCode>00890370372</spid:FiscalCode>
+      <spid:PublicServicesLightAggregator/>
+    </md:Extensions>
+    <md:Company>ADS Automated Data Systems S.p.A</md:Company>
+    <md:EmailAddress>spid.tech@ads.it</md:EmailAddress>
+    <md:TelephoneNumber>+390516307411</md:TelephoneNumber>
+  </md:ContactPerson>
+  <md:ContactPerson contactType="other" spid:entityType="spid:aggregated">
+     <md:Extensions>
+        <spid:IPACode>c_l409</spid:IPACode>
+        <spid:Public/>
+     </md:Extensions>
+     <md:Company>Comune di Trezzano sul Naviglio</md:Company>
+  </md:ContactPerson>
+</md:EntityDescriptor>
