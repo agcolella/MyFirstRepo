@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" ID="_8e1c1f7babe6c56b364de8a45bd7a6a3de2a7f387f3c0e8f18ec86ab045f655d" entityID="https://maglianodemarsi.halleyweb.it"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#_8e1c1f7babe6c56b364de8a45bd7a6a3de2a7f387f3c0e8f18ec86ab045f655d">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>6/+BfesvKnwuTWImbsw9R4wxXDB0rMn/W08FngNlNj4=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+hN3sKbrGKA6xNO1aPRTKfJOGjZGhwVhFFGMaOMdOlFKXZHUgqdTY9yoyAFxAQ66s+eEv7SffkiDO
+SyMiLu3ujueolO7FyoRcGzlfwM2KGV/3vI8/iEUY5NiyTDRjqebY1wt7Z5zVs0D530Gm15z/4+pt
+1mE5KvxUYEJTlBf9BH/DovrwtdsVn/e03gPh69Bh0bdEejQqDgiNl2G2Qp1q1EqmD8ShdF4HLbP9
+S2IxyUES3mldm8zt2Tb4XPWe150tG15fixj84h9BBV8Ql4hQBJb89huubKizcXkL+6F5VguWGn4y
+IrCjNeQSbfPwSyDl+QXJAfYLu63ZQDyllwaFlg==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+nkkeGVbHPN8HVuuhcpVLcmIuDOJYDdj+Fc3agNJjCzaQIZQ3NR0BoX4sFNHCQHQdK39Le9bBM4rP
+Yxv8BLyP7W+ylpxrzuaHQyJp4gJlcE1YuBRl3EldRk5wBj8+3+JVHu8CWtmnj+YG0R8VKqvMzzAh
+HZnSQ216JTXfj6OzzgPYEsTjsRrUNMl2u51EwreyvLbasnA0K/qoDt/tjVTPAqUAdJjoS7DPBJ6J
+FXVcn13z1MSsKwXD7CEJmJXPXfj8BmGP35Qz9BaOcRUAJNLN6+s3kMlgmIk+VVGnsP8jSjk9p0Kt
+3xzS2byQdOHLrNx4Ae3wpq96vjxzFpntiEvyWQ==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIID4zCCAsugAwIBAgIJALq4u6Z8Z72IMA0GCSqGSIb3DQEBCwUAMIGHMQswCQYDVQQGEwJJVDEO
+MAwGA1UECAwFSXRhbHkxGzAZBgNVBAcMEk1hZ2xpYW5vIGRlICBNYXJzaTEkMCIGA1UECgwbQ29t
+dW5lIGRpIE1hZ2xpYW5vIGRlIE1hcnNpMSUwIwYDVQQDDBxtYWdsaWFub2RlbWFyc2kuaGFsbGV5
+d2ViLml0MB4XDTI0MDQwODExMTI1N1oXDTM0MDQwODExMTI1N1owgYcxCzAJBgNVBAYTAklUMQ4w
+DAYDVQQIDAVJdGFseTEbMBkGA1UEBwwSTWFnbGlhbm8gZGUgIE1hcnNpMSQwIgYDVQQKDBtDb211
+bmUgZGkgTWFnbGlhbm8gZGUgTWFyc2kxJTAjBgNVBAMMHG1hZ2xpYW5vZGVtYXJzaS5oYWxsZXl3
+ZWIuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCeSR4ZVsc83wdW66FylUtyYi4M
+4lgN2P4VzdqA0mMLNpAhlDc1HQGhfiwU0cJAdB0rf0t71sEzis9jG/wEvI/tb7KWnGvO5odDImni
+AmVwTVi4FGXcSV1GTnAGPz7f4lUe7wJa2aeP5gbRHxUqq8zPMCEdmdJDbXolNd+Po7POA9gSxOOx
+GtQ0yXa7nUTCt7K8ttqycDQr+qgO3+2NVM8CpQB0mOhLsM8EnokVdVyfXfPUxKwrBcPsIQmYlc9d
++PwGYY/flDP0Fo5xFQAk0s3r6zeQyWCYiT5VUaew/yNKOT2nQq3fHNLZvJB04cus3HgB7fCmr3q+
+PHMWme2IS/JZAgMBAAGjUDBOMB0GA1UdDgQWBBSM3GfIYzewVGSQQWzun4O9LLJ2eDAfBgNVHSME
+GDAWgBSM3GfIYzewVGSQQWzun4O9LLJ2eDAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IB
+AQBWYLaWh6sED1siybrqp7NHTNB6gzreaSM/04T/4cuSeHxqlisL0TVdj61pdSnQ/Ap6QDB3udNa
+uuHsiqWRl0jBjsEYn+sPtAyDFU3kNDsR+Wm5GjtPjm5Y5jU6WGk8wyO7PuyLut35/3iGTtm2jUSA
+AZetq27IWDqxvfN3/p3oQEQMewXGJmSdpECzGs9AxV95NvmAMNFF/MnX90DVRwHoqH4vxvJ98jPy
+O17BTXP4/XVOE1nJujeBb5V2JBrSTCKbXNEhpBaSxclzk28iWOPSjKSJtH8+ts4zH2iRi0W48131
+uhTvcq6n7QpCyCa0CyDV4V71uCQIRm5EhsVv5ck0
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIID4zCCAsugAwIBAgIJALq4u6Z8Z72IMA0GCSqGSIb3DQEBCwUAMIGHMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxGzAZBgNVBAcMEk1hZ2xpYW5vIGRlICBNYXJzaTEkMCIGA1UECgwbQ29tdW5lIGRpIE1hZ2xpYW5vIGRlIE1hcnNpMSUwIwYDVQQDDBxtYWdsaWFub2RlbWFyc2kuaGFsbGV5d2ViLml0MB4XDTI0MDQwODExMTI1N1oXDTM0MDQwODExMTI1N1owgYcxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEbMBkGA1UEBwwSTWFnbGlhbm8gZGUgIE1hcnNpMSQwIgYDVQQKDBtDb211bmUgZGkgTWFnbGlhbm8gZGUgTWFyc2kxJTAjBgNVBAMMHG1hZ2xpYW5vZGVtYXJzaS5oYWxsZXl3ZWIuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCeSR4ZVsc83wdW66FylUtyYi4M4lgN2P4VzdqA0mMLNpAhlDc1HQGhfiwU0cJAdB0rf0t71sEzis9jG/wEvI/tb7KWnGvO5odDImniAmVwTVi4FGXcSV1GTnAGPz7f4lUe7wJa2aeP5gbRHxUqq8zPMCEdmdJDbXolNd+Po7POA9gSxOOxGtQ0yXa7nUTCt7K8ttqycDQr+qgO3+2NVM8CpQB0mOhLsM8EnokVdVyfXfPUxKwrBcPsIQmYlc9d+PwGYY/flDP0Fo5xFQAk0s3r6zeQyWCYiT5VUaew/yNKOT2nQq3fHNLZvJB04cus3HgB7fCmr3q+PHMWme2IS/JZAgMBAAGjUDBOMB0GA1UdDgQWBBSM3GfIYzewVGSQQWzun4O9LLJ2eDAfBgNVHSMEGDAWgBSM3GfIYzewVGSQQWzun4O9LLJ2eDAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQBWYLaWh6sED1siybrqp7NHTNB6gzreaSM/04T/4cuSeHxqlisL0TVdj61pdSnQ/Ap6QDB3udNauuHsiqWRl0jBjsEYn+sPtAyDFU3kNDsR+Wm5GjtPjm5Y5jU6WGk8wyO7PuyLut35/3iGTtm2jUSAAZetq27IWDqxvfN3/p3oQEQMewXGJmSdpECzGs9AxV95NvmAMNFF/MnX90DVRwHoqH4vxvJ98jPyO17BTXP4/XVOE1nJujeBb5V2JBrSTCKbXNEhpBaSxclzk28iWOPSjKSJtH8+ts4zH2iRi0W48131uhTvcq6n7QpCyCa0CyDV4V71uCQIRm5EhsVv5ck0</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIID4zCCAsugAwIBAgIJALq4u6Z8Z72IMA0GCSqGSIb3DQEBCwUAMIGHMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxGzAZBgNVBAcMEk1hZ2xpYW5vIGRlICBNYXJzaTEkMCIGA1UECgwbQ29tdW5lIGRpIE1hZ2xpYW5vIGRlIE1hcnNpMSUwIwYDVQQDDBxtYWdsaWFub2RlbWFyc2kuaGFsbGV5d2ViLml0MB4XDTI0MDQwODExMTI1N1oXDTM0MDQwODExMTI1N1owgYcxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEbMBkGA1UEBwwSTWFnbGlhbm8gZGUgIE1hcnNpMSQwIgYDVQQKDBtDb211bmUgZGkgTWFnbGlhbm8gZGUgTWFyc2kxJTAjBgNVBAMMHG1hZ2xpYW5vZGVtYXJzaS5oYWxsZXl3ZWIuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCeSR4ZVsc83wdW66FylUtyYi4M4lgN2P4VzdqA0mMLNpAhlDc1HQGhfiwU0cJAdB0rf0t71sEzis9jG/wEvI/tb7KWnGvO5odDImniAmVwTVi4FGXcSV1GTnAGPz7f4lUe7wJa2aeP5gbRHxUqq8zPMCEdmdJDbXolNd+Po7POA9gSxOOxGtQ0yXa7nUTCt7K8ttqycDQr+qgO3+2NVM8CpQB0mOhLsM8EnokVdVyfXfPUxKwrBcPsIQmYlc9d+PwGYY/flDP0Fo5xFQAk0s3r6zeQyWCYiT5VUaew/yNKOT2nQq3fHNLZvJB04cus3HgB7fCmr3q+PHMWme2IS/JZAgMBAAGjUDBOMB0GA1UdDgQWBBSM3GfIYzewVGSQQWzun4O9LLJ2eDAfBgNVHSMEGDAWgBSM3GfIYzewVGSQQWzun4O9LLJ2eDAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQBWYLaWh6sED1siybrqp7NHTNB6gzreaSM/04T/4cuSeHxqlisL0TVdj61pdSnQ/Ap6QDB3udNauuHsiqWRl0jBjsEYn+sPtAyDFU3kNDsR+Wm5GjtPjm5Y5jU6WGk8wyO7PuyLut35/3iGTtm2jUSAAZetq27IWDqxvfN3/p3oQEQMewXGJmSdpECzGs9AxV95NvmAMNFF/MnX90DVRwHoqH4vxvJ98jPyO17BTXP4/XVOE1nJujeBb5V2JBrSTCKbXNEhpBaSxclzk28iWOPSjKSJtH8+ts4zH2iRi0W48131uhTvcq6n7QpCyCa0CyDV4V71uCQIRm5EhsVv5ck0</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://maglianodemarsi.halleyweb.it/spid/module.php/saml/sp/saml2-logout.php/spid"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://maglianodemarsi.halleyweb.it/spid/module.php/saml/sp/saml2-acs.php/spid" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://maglianodemarsi.halleyweb.it/spid/module.php/saml/sp/saml2-acs.php/spid" index="1"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">Servizi online</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Servizi online</md:ServiceDescription>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Codice identificativo SPID" Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Ragione o denominazione sociale" Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Magliano de Marsi</md:OrganizationName>
+    <md:OrganizationName xml:lang="en">Comune di Magliano de Marsi</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Magliano de Marsi</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Magliano de Marsi</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.comune.maglianodemarsi.aq.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="en">https://www.comune.maglianodemarsi.aq.it</md:OrganizationURL>
+  </md:Organization>
+  <md:ContactPerson contactType="other">
+    <md:Extensions>
+      <spid:IPACode>c_e811</spid:IPACode>
+      <spid:Public/>
+    </md:Extensions>
+    <md:Company>Comune di Magliano de Marsi</md:Company>
+    <md:EmailAddress>amministrativo@comune.maglianodemarsi.aq.it</md:EmailAddress>
+  </md:ContactPerson>
+</md:EntityDescriptor>

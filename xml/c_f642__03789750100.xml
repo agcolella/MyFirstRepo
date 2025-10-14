@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" ID="a088bc6e-33c5-4ff2-b35b-d9c3ff9a2c9e" entityID="https://www.e-fil.it/pub-ag-full/c_f642"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#a088bc6e-33c5-4ff2-b35b-d9c3ff9a2c9e">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>RtFHJrD3+a4TY7/YLaRPNIYARv1HfwqDmMKR8gnJ3Nw=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+fSTJycCX8ZU5B8dfygyRCBIjAxEl4B5dNCH0GL8s90o1i8FWE6/j7ZIhyZ10txlMBXrQk3eRgWLD
+4QyUDf89Fu309sC6Q/CRfRasDPJ6aLtp2XPgpMQpiEl0gvn/iiCWAhQzuJaZEqCveZciB652AXYf
+rdBoJ4tJP+FVOtOaAIWDDJBZhJvC26skC4VhQjU/zx6rXdp3lTlTqUeaxuVE2DOPFXYM80cqY6/4
+1AAA3D1JXDxWNZy4Kk729hBLDh6vnHs5ERfhYo3PM+7PYw09iQiSp9lRBFp+4TZyBZH+wpapAgkJ
+d++nR++elUaVpL2eRX9sPEAhvJBtYfzOKcHftw==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+qY4H/GWTewBiu2WSlYEBgj8A43JfVxYrWgJD3qdxocfWPPSM5E7MWIKXzXCFl+zrjeCnfeO3vg+I
+IDgN76rUKxK75XW1gvU0BEzaf7qaKNxYrvKDxKlcrzT20ZRppJ7GaMq4b5ygiFXM91bhmPkeiYGS
+I3VNgl+ZDxpMqEQuvJY1wG+iECe9p7WKVKWebj9lU4cserbIVdTT45/x0lJD+00zeuKrTQ5FQD+7
+FKjg4PThQbPIojaXwekwtZxApbz329zJsY57zomJE6phJl1gJ7+b3dN3otHMUNoGoR2KcTWy74CY
+skWOZs/wD0hbCH4QstxhHSdXH+srFN6tBkJzQw==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIH4TCCBcmgAwIBAgIIbMDMGjctYe8wDQYJKoZIhvcNAQENBQAwgeUxCzAJBgNVBAYTAklUMQ0w
+CwYDVQQHDARSb21lMSYwJAYDVQQKDB1BZ2VuemlhIHBlciBsJ0l0YWxpYSBEaWdpdGFsZTEsMCoG
+A1UECwwjU2Vydml6aW8gQWNjcmVkaXRhbWVudG8gZSBWaWdpbGFuemExKjAoBgNVBAMMIVByb2dl
+dHRvIFNQSUQgLSBTb2dnZXR0aV9wdWJibGljaTEpMCcGCSqGSIb3DQEJARYacHJvdG9jb2xsb0Bw
+ZWMuYWdpZC5nb3YuaXQxGjAYBgNVBAUTEVZBVElULTk3NzM1MDIwNTg0MB4XDTIxMDkxNTAwMDAw
+MFoXDTM2MDkxNDIzNTk1OVowgaIxCzAJBgNVBAYTAklUMQswCQYDVQQIDAJSTTENMAsGA1UEBwwE
+Um9tYTEOMAwGA1UECgwFRS1GSUwxFTATBgNVBAsMDEUtRklMIFMuUi5MLjEVMBMGA1UEAwwMRS1G
+SUwgUy5SLkwuMRowGAYDVQRhDBFWQVRJVC0wMzc4OTc1MDEwMDEdMBsGA1UEUwwUaHR0cHM6Ly93
+d3cuZS1maWwuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCpjgf8ZZN7AGK7ZZKV
+gQGCPwDjcl9XFitaAkPep3Ghx9Y89IzkTsxYgpfNcIWX7OuN4Kd947e+D4ggOA3vqtQrErvldbWC
+9TQETNp/upoo3Fiu8oPEqVyvNPbRlGmknsZoyrhvnKCIVcz3VuGY+R6JgZIjdU2CX5kPGkyoRC68
+ljXAb6IQJ72ntYpUpZ5uP2VThyx6tshV1NPjn/HSUkP7TTN64qtNDkVAP7sUqODg9OFBs8iiNpfB
+6TC1nEClvPfb3MmxjnvOiYkTqmEmXWAnv5vd03ei0cxQ2gahHYpxNbLvgJiyRY5mz/APSFsIfhCy
+3GEdJ1cf6ysU3q0GQnNDAgMBAAGjggLUMIIC0DAMBgNVHRMBAf8EAjAAMB0GA1UdDgQWBBRKUCpu
+F1YOLaPUB3lqAjXk+HWScTAfBgNVHSMEGDAWgBQ8u23rHv2dbsvuVObqOdWJoEfXNDAOBgNVHQ8B
+Af8EBAMCBsAwFgYDVR0SBA8wDYILc3BpZC5nb3YuaXQwQgYDVR0fBDswOTA3oDWgM4YxaHR0cHM6
+Ly9laWRhcy5hZ2lkLmdvdi5pdC9jcmwvY3JsX1NQSURfUHViX1NBLmNybDA3BggrBgEFBQcBAQQr
+MCkwJwYIKwYBBQUHMAGGG2h0dHBzOi8vb2NzcF9TQS5hZ2lkLmdvdi5pdDCCAdkGA1UdIASCAdAw
+ggHMMAkGBwQAjkYBBgIwgZUGBCtMEAYwgYwwRAYIKwYBBQUHAgIwOBo2RWxlY3Ryb25pYyBjZXJ0
+aWZpY2F0ZSBjb25mb3JtaW5nIHdpdGggQUdJRCBHdWlkZWxpbmVzMEQGCCsGAQUFBwICMDgaNkNl
+cnRpZmljYXRvIGVsZXR0cm9uaWNvIGNvbmZvcm1lIGFsbGUgTGluZWUgZ3VpZGEgQWdJRDB9BgYr
+TBAEAgIwczA6BggrBgEFBQcCAjAuGixTUElEOiBhZ2dyZWdhdG9yZSAnZnVsbCcgZGkgc2Vydml6
+aSBwdWJibGljaTA1BggrBgEFBQcCAjApGidTUElEOiBwdWJsaWMtc2VydmljZXMgJ2Z1bGwnIEFn
+Z3JlZ2F0b3IwCAYGBACPegEDME0GBCtMEAQwRTBDBggrBgEFBQcCARY3aHR0cHM6Ly9laWRhcy5h
+Z2lkLmdvdi5pdC9jcHMvQWdJRF9lSURBU19yb290Q0FfY3BzLnBkZjBPBgYEAI5GAQUwRTBDBggr
+BgEFBQcCARY3aHR0cHM6Ly9laWRhcy5hZ2lkLmdvdi5pdC9jcHMvQWdJRF9lSURBU19yb290Q0Ff
+Y3BzLnBkZjANBgkqhkiG9w0BAQ0FAAOCAgEAO9XfbJaLZEb7P7U+yJyE7mIuNsYJGSf18XzG/7sn
+C4POvFLhYOP/IAw/nrKPkXU5z6KH1NCnoKwS/8SxJbpXxU4gn29U4NFlaDYYat9LYXu/a0g75Den
+AsOtNsYH6Qx/iiPk+Ksehly+tBjMOj6EWqQmr+0I8EI5DUgIMCLbiUD0U5yAGMt8lKFlUw6SClEe
+ppp615autplBNWyUNEOVTnu+z2t+uP5midU9JRWm0HRsUOoHATa6zKE7o74fzDCebvJRXJQtH1Cf
+SYprddOg8tcxqrsUY7a0m9FH/no98fmquUwgY9CWnM7byYHAMdKOhGTqLW/TGSuhBNgYnm7mS6RS
+sB/jhC2n5eh2JYYbBw5ku/Vxkwqqt70s5V0zDIYVb5pZ1IYhgUBVuE0WYmLK8SL7FhPEilp4ZRfo
++J3YCs4zd/ncloQhdma+VksA/C06wldIRcVplrcYfJAKTUphoVC0b7o3uh9UR68FzUrdID6qWu0Z
+sQcVuPp3yu++8KpNnYGEdntKS1Kay4VeZB4ZR3qVvz0YP89c+Ia1ht0Q5KnV49BzyXjbZOeGtmnA
+TXZGdKmZCB1UZi1n2q0wPCGCbo/iZxqzLgAbZyYTKxzLgbKnhllUw7yE24F8C9EW0Ad3WgTvQB2j
+inV2kz2IRS9ixUd/8XwEWKVPa6id/0Et5Y4=
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIIGOjCCBCKgAwIBAgIJAIEN8X6jmR3+MA0GCSqGSIb3DQEBCwUAMIGxMQswCQYD
+                              VQQGEwJJVDENMAsGA1UECAwEUm9tYTEQMA4GA1UEBwwHTW9udGVzZTEQMA4GA1UE
+                              CgwHTW9udGVzZTEQMA4GA1UECwwHRGlnaXRJRDElMCMGA1UEAwwcbW9udGVzZS5j
+                              b211bmUucGx1Z2FuZHBheS5pdDE2MDQGCSqGSIb3DQEJARYnY29tdW5lbW9udGVz
+                              ZUBjZXJ0LmNvbXVuZS5tb250ZXNlLm1vLml0MB4XDTI0MDQxNTA4MDg1NloXDTI3
+                              MDQxNTA4MDg1NlowgbExCzAJBgNVBAYTAklUMQ0wCwYDVQQIDARSb21hMRAwDgYD
+                              VQQHDAdNb250ZXNlMRAwDgYDVQQKDAdNb250ZXNlMRAwDgYDVQQLDAdEaWdpdElE
+                              MSUwIwYDVQQDDBxtb250ZXNlLmNvbXVuZS5wbHVnYW5kcGF5Lml0MTYwNAYJKoZI
+                              hvcNAQkBFidjb211bmVtb250ZXNlQGNlcnQuY29tdW5lLm1vbnRlc2UubW8uaXQw
+                              ggIiMA0GCSqGSIb3DQEBAQUAA4ICDwAwggIKAoICAQC26B6Vq2lTfUUDi3YHEosE
+                              IltDfx3ahcMB1UYwr12KZehv0Wnx3BRAzkaD/Q0SRPmP8BNLjgDZ6gT731BV0PQE
+                              IwgdR+//1dpMkz02guPouimOGh15oZesTpy5/SJv9B2wcnyjg1MITxP8QlSwGhAa
+                              1gkNPLrOsEN6rURiGJYHjQ1yToNpWRZN54/AlDJH2iQHps3/Jlm8f3Flti9nDj+Z
+                              sxy3Efj8b+Uo0TDSwcscinTbmz+3BCURp5KxvfOeXDOLDmWbDAts9eRixaFa8GB4
+                              WMxZyKg0iN1exmfH9piD8Omx632/5qvKHH7AhF1f56LksftXw+/f8XyyrUpFcjYK
+                              nmGg0Sv5tcTRYgJrjH3A9zv4FgVz0D7XpbnP44ZAcc+9cDJNbhibYgKCAGZKc8p4
+                              PP5OL/Ft1fpOhL/iQZZ+wie1yeNFmEksfvoy+BlYB4dsZm6yIHOasCw5uiOOrxi5
+                              BBQkpSiSG+hvyfRIRhYJnLHJqXI6pEMVp6LOq7IrXVCr8i1cx4Ws3s3N07oymJaM
+                              zYXkCoaRfC4GyKsLQCWOT1/67vmFyn1FAj7U486ZOlmtTw7Jagvktdt0ff7mn+IL
+                              b6Rq38820hhisUJ8wx8zkWXH2gJEaev97bf8EwbOnPycdlxzpabL01cgkB50SZ+k
+                              7QVcIGREnApJlU5OGEF2/QIDAQABo1MwUTAdBgNVHQ4EFgQU7RdKsnz45sAjgaVt
+                              wPQJVHTWexAwHwYDVR0jBBgwFoAU7RdKsnz45sAjgaVtwPQJVHTWexAwDwYDVR0T
+                              AQH/BAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAgEAmikzAVMvYQRru2hhVqmz+0i5
+                              kUpJl7WxN4EVksgiKNv2Dt7spnpmdyfY7PdxonbETQ0KMpjEpXNnlDpsrA0G4dX+
+                              JCZmu75319iT2ercUs7Ee1unjdE2sWaoy6/lOIDqCimXBckgwsSP2o3zN9rkcvI5
+                              LtxPX9MgliAHoInPtFBGSgOEPIe0+a33A7tY7MHRQVpNbniCvxliXT82Tu+SUeP9
+                              OZGLx2OdE9qU7rIhzoxMjmAvNkbL7TmpXnR43/cBFM+EQo6FeAx/+bPpHocQ1SaM
+                              OqmTgLTQimIGSEYiPwtkYr6U5WDL/secmm+rl1hyfMojSEsob+tgchpFA8QQAPEv
+                              HypNvnefyopvIy2XShor1qQP8NUWYf8Tp5GDnJ3CG8xrJBUqDKkH5Divr0bGbMhw
+                              pEgpXGibCgcccqLFK0M2yGucrEjp5o37vDzOvVu+nOx7kTz7RyDTFiYVess2Ldmw
+                              6eKmwNUx4Jlov6Ain51bWYGYTQAWareaIdUB4G3jjdZVlxt+W8E13Iz8kShWwTd2
+                              QbW1UdKGmGSM6Ybnb+jeFHhGoRX6JFv0fwYjQnRmFEu4tUxlySqLmgTZ8qYggaTo
+                              RDEzwK14HKcYbXoiibg1b6YmQKw3r4jf6mOCb85Mp2D2a6RTJbG9sL+CA+rdtwBh
+                              RvWunI+pkjTvMnG+bSQ=
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://montese.comune.plugandpay.it/spidslo"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://montese.comune.plugandpay.it/spidacs" index="0" isDefault="true"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">Portale dei pagamenti del cittadino</md:ServiceName>
+      <md:RequestedAttribute Name="spidCode"/>
+	  <md:RequestedAttribute Name="familyName"/>
+	  <md:RequestedAttribute Name="name"/>
+	  <md:RequestedAttribute Name="companyName"/>
+	  <md:RequestedAttribute Name="fiscalNumber"/>
+	  <md:RequestedAttribute Name="ivaCode"/>
+	  <md:RequestedAttribute Name="email"/>
+	  <md:RequestedAttribute Name="gender"/>
+	  <md:RequestedAttribute Name="placeOfBirth"/>
+	  <md:RequestedAttribute Name="countyOfBirth"/>
+	  <md:RequestedAttribute Name="dateOfBirth"/>
+    </md:AttributeConsumingService>   
+  </md:SPSSODescriptor>
+  <md:Organization>
+  	<md:OrganizationName xml:lang="it">Comune di Montese</md:OrganizationName>
+  	<md:OrganizationDisplayName xml:lang="it">Comune di Montese</md:OrganizationDisplayName>
+  	<md:OrganizationURL xml:lang="it">https://www.comune.montese.mo.it</md:OrganizationURL>
+  </md:Organization>
+  <md:ContactPerson contactType="other" spid:entityType="spid:aggregator">
+  	<md:Extensions>
+  		<spid:VATNumber>IT03789750100</spid:VATNumber>
+  		<spid:FiscalCode>03789750100</spid:FiscalCode>
+  		<spid:PublicServicesFullAggregator/>
+  	</md:Extensions>
+  	<md:Company>E-fil srl</md:Company>
+  	<md:EmailAddress>segreteria@pec.e-fil.eu</md:EmailAddress>
+  	<md:TelephoneNumber>+390688805363</md:TelephoneNumber>
+  </md:ContactPerson>
+  <md:ContactPerson contactType="other" spid:entityType="spid:aggregated">
+  	<md:Extensions>
+  		<spid:IPACode>c_f642</spid:IPACode>
+		<spid:Public/>
+  	</md:Extensions>
+  	<md:Company>Comune di Montese</md:Company>
+   </md:ContactPerson>
+</md:EntityDescriptor>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" entityID="https://omceopa.ingressodigitale.com" ID="spid-php_7f7f1158335c3bef0855931003480a20f846e9eebeae6236b0e0c8e9d3ff8ff3"><ds:Signature>
+  <ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+    <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+  <ds:Reference URI="#spid-php_7f7f1158335c3bef0855931003480a20f846e9eebeae6236b0e0c8e9d3ff8ff3"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>8hO05hMXYj4IOQMeS774X3YsFIPLkW17PQ1lYHONxUw=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>tcb9wxLiQihGo011xVw045mJUD2flfXmckFvdX6L238pthytR7fVT92NMQnoC5w+LsiiAyasC9zynTz8CylJDZJcD709jHrvWfLxuHxOnjuNnMpHxPCKIQZC0QFTj82aRsHJAJWBmumKa5Zf59In7rlmFmbBx2wFyRTzfgLzX1uv4+j2ahJVcG/mYdAybveZy5Jd28SPS3TKzNIUiz6pdVxw0d5aULyp4PuR1YWm2Z+8WAY4ZKBRrLKOCHoiNv4X0wQSTh6RU1oTAYMPLP92E6y7E6I1E8OnuyjjHwBNmtIj6lPpB8lPapS4BTGr+zHBABe0Gq7n68gl3or9sp9p/6B+M6xVULeDPH4Wx2PCjcTMDbvnsSU14FNhCdRCMQL3ZnaRcMT4JIMoHeJ5y0oc9tk1Ylqn5BbBYyk5HhQN3RIWUSw5b/1S5IL5z2fopTyw8/ADHR6P9EEP44B/KQ7HVRZXccdGAZC4qA+bdsigb5uoovTTnj8u/ho6CIxYtiCP</ds:SignatureValue>
+<ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIFEzCCA3ugAwIBAgIUM+usc2bBxn0VkdMwP/SNXaqf3kQwDQYJKoZIhvcNAQELBQAwgYkxEDAOBgNVBAoMB09NQ0VPUGExEDAOBgNVBAMMB09NQ0VPUGExLTArBgNVBFMMJGh0dHBzOi8vb21jZW9wYS5pbmdyZXNzb2RpZ2l0YWxlLmNvbTEUMBIGA1UEYQwLUEE6SVQtb2RjZG8xCzAJBgNVBAYTAklUMREwDwYDVQQHDAhMb2NhbGl0eTAeFw0yNDA0MDMxMzU5MThaFw0yNjA0MDMxMzU5MThaMIGJMRAwDgYDVQQKDAdPTUNFT1BhMRAwDgYDVQQDDAdPTUNFT1BhMS0wKwYDVQRTDCRodHRwczovL29tY2VvcGEuaW5ncmVzc29kaWdpdGFsZS5jb20xFDASBgNVBGEMC1BBOklULW9kY2RvMQswCQYDVQQGEwJJVDERMA8GA1UEBwwITG9jYWxpdHkwggGiMA0GCSqGSIb3DQEBAQUAA4IBjwAwggGKAoIBgQDnHFNYqRFC8xZWGTQ8YsRWOBRim6bnCFd3J8ih7ab4rDNAcnWkuXLrx8B6DipKIpIdKmy9ppqPwKPX9NfABbjU5cOZBw52XBOmzzbzIPsQMdaGfhchzuCeVhHwrOGhu6dKVRmNPfPEHVGK5SU6wt977qi76n6eoMGpW7n9yjtUXmn33r8rV10nxxAWbo6Q0ss4V1tWsaKgrgvvsSTH4+hSNuVkuP/SRaSGBMviDkTy5CUR1blAFBvmWiUGdZCc4Xukm2/pfZqk6Xxogfg66vFfWNFKVRcIM5ZvNOKLsczg45jxRGigMaFcYDTijbmB5q13Et9czMxK/pFtT0xu2ZzOTUJFdOUapWSbfQoNrJW8VkswSzGeUiLRuWGTkxg34MZr1IzZ3ZrVe+Uk85nMjhgrqcIL262KDRuZ/e9SFg2cQwIm3ERF9cqC9GlsxT646hCaSVIVNwB9yOl/aV//Xoa4BVyv2p0g0yo8vy55QgDs2PdiWYafGESKk3rn2yLFaAsCAwEAAaNxMG8wCQYDVR0TBAIwADAOBgNVHQ8BAf8EBAMCBsAwUgYDVR0gBEswSTAgBgQrTBAGMBgwFgYIKwYBBQUHAgIwChoIYWdJRGNlcnQwJQYGK0wQBAIBMBswGQYIKwYBBQUHAgIwDRoLY2VydF9TUF9QdWIwDQYJKoZIhvcNAQELBQADggGBAN2QTxHDX2f0bEughAi78uAD0JnIMDjZA3WcepgUI4cQws+H5oCQsdevvf/Y7EkqkrCZZWBkTvbsQa7jbbav2L8MxesBBvimUzR4fMxSwWM2Us+HoP2z14o5TU9nhBatePTdjDLzvo1J4tlkKIYS+RAsWgwws0PEdoPlU0L2eDqeKh5/owtR2S91lrci2w4evP+q2ewJQbDUHBqRt11WG5jhDBQFa1J8JkKGO+sGKwjTabQJPWKOZxhF2lGxInWHIw4OvZoLobXUuwke83pq9O2lD2G/GYcUzbt1AWFt/9q7x1kTHW2/4YXaQfPKEO0cDyYDRmc8I89lxL9IqVchF8qEYmkcRzqbjnNHpWeNPUM3lCTFnw9Ur6jGx0fxuVaXKDt5BLT1SivfYsWla+SmYnL/kyocIhvO+FnIqYkEEd4sJuhowpsL/jUS/7ZXuwdY3YR0G1Kx8O3oeirVM7L3gxO0z+pk6TX8h1oEdqmtP5MpBJcBeXmfkFSbW0ScsYA+0g==</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature>
+  <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true" WantAssertionsSigned="true">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIFEzCCA3ugAwIBAgIUM+usc2bBxn0VkdMwP/SNXaqf3kQwDQYJKoZIhvcNAQELBQAwgYkxEDAOBgNVBAoMB09NQ0VPUGExEDAOBgNVBAMMB09NQ0VPUGExLTArBgNVBFMMJGh0dHBzOi8vb21jZW9wYS5pbmdyZXNzb2RpZ2l0YWxlLmNvbTEUMBIGA1UEYQwLUEE6SVQtb2RjZG8xCzAJBgNVBAYTAklUMREwDwYDVQQHDAhMb2NhbGl0eTAeFw0yNDA0MDMxMzU5MThaFw0yNjA0MDMxMzU5MThaMIGJMRAwDgYDVQQKDAdPTUNFT1BhMRAwDgYDVQQDDAdPTUNFT1BhMS0wKwYDVQRTDCRodHRwczovL29tY2VvcGEuaW5ncmVzc29kaWdpdGFsZS5jb20xFDASBgNVBGEMC1BBOklULW9kY2RvMQswCQYDVQQGEwJJVDERMA8GA1UEBwwITG9jYWxpdHkwggGiMA0GCSqGSIb3DQEBAQUAA4IBjwAwggGKAoIBgQDnHFNYqRFC8xZWGTQ8YsRWOBRim6bnCFd3J8ih7ab4rDNAcnWkuXLrx8B6DipKIpIdKmy9ppqPwKPX9NfABbjU5cOZBw52XBOmzzbzIPsQMdaGfhchzuCeVhHwrOGhu6dKVRmNPfPEHVGK5SU6wt977qi76n6eoMGpW7n9yjtUXmn33r8rV10nxxAWbo6Q0ss4V1tWsaKgrgvvsSTH4+hSNuVkuP/SRaSGBMviDkTy5CUR1blAFBvmWiUGdZCc4Xukm2/pfZqk6Xxogfg66vFfWNFKVRcIM5ZvNOKLsczg45jxRGigMaFcYDTijbmB5q13Et9czMxK/pFtT0xu2ZzOTUJFdOUapWSbfQoNrJW8VkswSzGeUiLRuWGTkxg34MZr1IzZ3ZrVe+Uk85nMjhgrqcIL262KDRuZ/e9SFg2cQwIm3ERF9cqC9GlsxT646hCaSVIVNwB9yOl/aV//Xoa4BVyv2p0g0yo8vy55QgDs2PdiWYafGESKk3rn2yLFaAsCAwEAAaNxMG8wCQYDVR0TBAIwADAOBgNVHQ8BAf8EBAMCBsAwUgYDVR0gBEswSTAgBgQrTBAGMBgwFgYIKwYBBQUHAgIwChoIYWdJRGNlcnQwJQYGK0wQBAIBMBswGQYIKwYBBQUHAgIwDRoLY2VydF9TUF9QdWIwDQYJKoZIhvcNAQELBQADggGBAN2QTxHDX2f0bEughAi78uAD0JnIMDjZA3WcepgUI4cQws+H5oCQsdevvf/Y7EkqkrCZZWBkTvbsQa7jbbav2L8MxesBBvimUzR4fMxSwWM2Us+HoP2z14o5TU9nhBatePTdjDLzvo1J4tlkKIYS+RAsWgwws0PEdoPlU0L2eDqeKh5/owtR2S91lrci2w4evP+q2ewJQbDUHBqRt11WG5jhDBQFa1J8JkKGO+sGKwjTabQJPWKOZxhF2lGxInWHIw4OvZoLobXUuwke83pq9O2lD2G/GYcUzbt1AWFt/9q7x1kTHW2/4YXaQfPKEO0cDyYDRmc8I89lxL9IqVchF8qEYmkcRzqbjnNHpWeNPUM3lCTFnw9Ur6jGx0fxuVaXKDt5BLT1SivfYsWla+SmYnL/kyocIhvO+FnIqYkEEd4sJuhowpsL/jUS/7ZXuwdY3YR0G1Kx8O3oeirVM7L3gxO0z+pk6TX8h1oEdqmtP5MpBJcBeXmfkFSbW0ScsYA+0g==</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIFEzCCA3ugAwIBAgIUM+usc2bBxn0VkdMwP/SNXaqf3kQwDQYJKoZIhvcNAQELBQAwgYkxEDAOBgNVBAoMB09NQ0VPUGExEDAOBgNVBAMMB09NQ0VPUGExLTArBgNVBFMMJGh0dHBzOi8vb21jZW9wYS5pbmdyZXNzb2RpZ2l0YWxlLmNvbTEUMBIGA1UEYQwLUEE6SVQtb2RjZG8xCzAJBgNVBAYTAklUMREwDwYDVQQHDAhMb2NhbGl0eTAeFw0yNDA0MDMxMzU5MThaFw0yNjA0MDMxMzU5MThaMIGJMRAwDgYDVQQKDAdPTUNFT1BhMRAwDgYDVQQDDAdPTUNFT1BhMS0wKwYDVQRTDCRodHRwczovL29tY2VvcGEuaW5ncmVzc29kaWdpdGFsZS5jb20xFDASBgNVBGEMC1BBOklULW9kY2RvMQswCQYDVQQGEwJJVDERMA8GA1UEBwwITG9jYWxpdHkwggGiMA0GCSqGSIb3DQEBAQUAA4IBjwAwggGKAoIBgQDnHFNYqRFC8xZWGTQ8YsRWOBRim6bnCFd3J8ih7ab4rDNAcnWkuXLrx8B6DipKIpIdKmy9ppqPwKPX9NfABbjU5cOZBw52XBOmzzbzIPsQMdaGfhchzuCeVhHwrOGhu6dKVRmNPfPEHVGK5SU6wt977qi76n6eoMGpW7n9yjtUXmn33r8rV10nxxAWbo6Q0ss4V1tWsaKgrgvvsSTH4+hSNuVkuP/SRaSGBMviDkTy5CUR1blAFBvmWiUGdZCc4Xukm2/pfZqk6Xxogfg66vFfWNFKVRcIM5ZvNOKLsczg45jxRGigMaFcYDTijbmB5q13Et9czMxK/pFtT0xu2ZzOTUJFdOUapWSbfQoNrJW8VkswSzGeUiLRuWGTkxg34MZr1IzZ3ZrVe+Uk85nMjhgrqcIL262KDRuZ/e9SFg2cQwIm3ERF9cqC9GlsxT646hCaSVIVNwB9yOl/aV//Xoa4BVyv2p0g0yo8vy55QgDs2PdiWYafGESKk3rn2yLFaAsCAwEAAaNxMG8wCQYDVR0TBAIwADAOBgNVHQ8BAf8EBAMCBsAwUgYDVR0gBEswSTAgBgQrTBAGMBgwFgYIKwYBBQUHAgIwChoIYWdJRGNlcnQwJQYGK0wQBAIBMBswGQYIKwYBBQUHAgIwDRoLY2VydF9TUF9QdWIwDQYJKoZIhvcNAQELBQADggGBAN2QTxHDX2f0bEughAi78uAD0JnIMDjZA3WcepgUI4cQws+H5oCQsdevvf/Y7EkqkrCZZWBkTvbsQa7jbbav2L8MxesBBvimUzR4fMxSwWM2Us+HoP2z14o5TU9nhBatePTdjDLzvo1J4tlkKIYS+RAsWgwws0PEdoPlU0L2eDqeKh5/owtR2S91lrci2w4evP+q2ewJQbDUHBqRt11WG5jhDBQFa1J8JkKGO+sGKwjTabQJPWKOZxhF2lGxInWHIw4OvZoLobXUuwke83pq9O2lD2G/GYcUzbt1AWFt/9q7x1kTHW2/4YXaQfPKEO0cDyYDRmc8I89lxL9IqVchF8qEYmkcRzqbjnNHpWeNPUM3lCTFnw9Ur6jGx0fxuVaXKDt5BLT1SivfYsWla+SmYnL/kyocIhvO+FnIqYkEEd4sJuhowpsL/jUS/7ZXuwdY3YR0G1Kx8O3oeirVM7L3gxO0z+pk6TX8h1oEdqmtP5MpBJcBeXmfkFSbW0ScsYA+0g==</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://omceopa.ingressodigitale.com/OMCEOPa/module.php/saml/sp/saml2-logout.php/spid"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://omceopa.ingressodigitale.com/OMCEOPa/module.php/saml/sp/saml2-acs.php/spid" index="0" isDefault="true"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">OMCEOPa</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Ordine dei Medici Chirurghi e degli Odontoiatri della Provincia di Palermo</md:ServiceDescription>
+      <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="registeredOffice" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="idCard" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="expirationDate" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="address" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="digitalAddress" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="domicileStreetAddress" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="domicilePostalCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="domicileMunicipality" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="domicileProvince" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="domicileNation" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Ordine dei Medici Chirurghi e degli Odontoiatri della Provincia di Palermo</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Ordine dei Medici Chirurghi e degli Odontoiatri della Provincia di Palermo</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.ordinemedicipa.it</md:OrganizationURL>
+  </md:Organization>
+  <md:ContactPerson contactType="other">
+    <md:Extensions>
+      <spid:IPACode xmlns:spid="https://spid.gov.it/saml-extensions">odcdo</spid:IPACode>
+      <spid:Public xmlns:spid="https://spid.gov.it/saml-extensions"/>
+    </md:Extensions>
+    <md:Company>Ordine dei Medici Chirurghi e degli Odontoiatri della Provincia di Palermo</md:Company>
+    <md:EmailAddress>spid@ordinemedicipa.it</md:EmailAddress>
+    <md:TelephoneNumber>+390916710220</md:TelephoneNumber>
+  </md:ContactPerson>
+</md:EntityDescriptor>

@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:spid="https://spid.gov.it/saml-extensions" entityID="https://www.icpederobba.edu.it" ID="https___www_icpederobba_edu_it"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+  <ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+    <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+  <ds:Reference URI="#https___www_icpederobba_edu_it"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>7Vb5FwY1KGkA/891JyuEliXV4ic/q0MidTO2IjHzkzw=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>DYu4acFYRFGw5LomOHyZEKKAi6gOMWFYv926WHek8/9LWaPVqwEDa1V9GN3YeFAgGXP12fkQMEfrtCnc1fIT+VGBnQt6Y57jy9HVUTP5eg50ywh0mzY8CbccRFNpZDbNZ89/1AdkG5fhn5u0fYMlqnydI97qNDyttVgwgiR5Ck3XsfNJMDqTiRemLtzSSTpFgQzVKoEQKDb40ZGDRSceLfXei27wiQvFM6dBLZvx1JsUUSNanpbQ7USewQBbDrTzv+WsTMA1393fuoOp+X+lsyMMp9D5BZok9oHYL7uTAYjsiN0OyMfAPa/7PITo8ZR1KIR0mFx53rVwXpWuJyjgGQ==</ds:SignatureValue>
+<ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIEgDCCA2igAwIBAgIHLeOSjEGe8jANBgkqhkiG9w0BAQsFADCB1TELMAkGA1UEBhMCSVQxEDAOBgNVBAgMB1RyZXZpc28xEjAQBgNVBAcMCVBlZGVyb2JiYTEsMCoGA1UECgwjSVNUSVRVVE8gQ09NUFJFTlNJVk8gLSBJQyBQRURFUk9CQkExLDAqBgNVBAsMI0lTVElUVVRPIENPTVBSRU5TSVZPIC0gSUMgUEVERVJPQkJBMRswGQYDVQQDDBJpY3BlZGVyb2JiYS5lZHUuaXQxJzAlBgkqhkiG9w0BCQEWGHR2aWM4NTAwMHJAaXN0cnV6aW9uZS5pdDAeFw0yNDA0MDkwOTAzNTBaFw00NDA0MDgwOTAzNTBaMIHVMQswCQYDVQQGEwJJVDEQMA4GA1UECAwHVHJldmlzbzESMBAGA1UEBwwJUGVkZXJvYmJhMSwwKgYDVQQKDCNJU1RJVFVUTyBDT01QUkVOU0lWTyAtIElDIFBFREVST0JCQTEsMCoGA1UECwwjSVNUSVRVVE8gQ09NUFJFTlNJVk8gLSBJQyBQRURFUk9CQkExGzAZBgNVBAMMEmljcGVkZXJvYmJhLmVkdS5pdDEnMCUGCSqGSIb3DQEJARYYdHZpYzg1MDAwckBpc3RydXppb25lLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAz73gFII/6m/qa3jbkLSmst3/Fm1jpqIPFPIysipfGgFteJCEKgpH62DGvSBDfAbWkgB3k92qPqotyEuBOji2F1SIrFNdEjQOEDqjmHFKzcgmkCnIZUPgNp7eA1JhG/qMbtxfIyW8kPd0FJjdTmOHuE4Xwmq9NauoO8YCbIgdu2/NNUN25mL12Xs79lgUaAzSJvSaHxZKYRK029JS/PyFhyxE0d5mHrBDNRLwhr77C3t8awcYtfZnnkD03/LdE8epTPX+6nIJ7A4iINu0+af5g3gOdm+nLx5FpgcuIyvuxT1NnUFEIsHOdRJaQ7c7iZGBfWfsHOpzcfI9Ltv183iDPwIDAQABo1MwUTAdBgNVHQ4EFgQUf/rPF/oGfgKxUQhnV/+prG4jCIUwHwYDVR0jBBgwFoAUf/rPF/oGfgKxUQhnV/+prG4jCIUwDwYDVR0TAQH/BAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAxkuVQO6P49z2TcQrtCZKt0eyeb7CRPBStC0R5lPbyeSqbpZynqBxDt8KWd1I9otJFS62NXt6Lxpw6dNF6s1ppzMNt9cUiQ7csJpwT1VxOUKQ6cCIySmgz4CYDqNB2pDwyzG1bF+EamN4BWclyOXRMDuqXOS4bEViyG+UbPSevi6fVWMtqSbc6QJcL3EaT+Byxbpa4L1GDoOfFRRTHh0dxz4+6bPoDVbJIrjFncoiolUgnLlvME9FNoPrNxRAvT6v2S9VuyVg7B5BjFVMTVMOfKI0hPUFNKWG8uG41WVt0eI3hc2hZxKyUTUhWdSadepYzG0BK8ZHRchlp88ETbWvNw==</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature>
+    <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true" WantAssertionsSigned="true">
+        <md:KeyDescriptor use="signing">
+            <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+                <ds:X509Data><ds:X509Certificate>MIIEgDCCA2igAwIBAgIHLeOSjEGe8jANBgkqhkiG9w0BAQsFADCB1TELMAkGA1UEBhMCSVQxEDAOBgNVBAgMB1RyZXZpc28xEjAQBgNVBAcMCVBlZGVyb2JiYTEsMCoGA1UECgwjSVNUSVRVVE8gQ09NUFJFTlNJVk8gLSBJQyBQRURFUk9CQkExLDAqBgNVBAsMI0lTVElUVVRPIENPTVBSRU5TSVZPIC0gSUMgUEVERVJPQkJBMRswGQYDVQQDDBJpY3BlZGVyb2JiYS5lZHUuaXQxJzAlBgkqhkiG9w0BCQEWGHR2aWM4NTAwMHJAaXN0cnV6aW9uZS5pdDAeFw0yNDA0MDkwOTAzNTBaFw00NDA0MDgwOTAzNTBaMIHVMQswCQYDVQQGEwJJVDEQMA4GA1UECAwHVHJldmlzbzESMBAGA1UEBwwJUGVkZXJvYmJhMSwwKgYDVQQKDCNJU1RJVFVUTyBDT01QUkVOU0lWTyAtIElDIFBFREVST0JCQTEsMCoGA1UECwwjSVNUSVRVVE8gQ09NUFJFTlNJVk8gLSBJQyBQRURFUk9CQkExGzAZBgNVBAMMEmljcGVkZXJvYmJhLmVkdS5pdDEnMCUGCSqGSIb3DQEJARYYdHZpYzg1MDAwckBpc3RydXppb25lLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAz73gFII/6m/qa3jbkLSmst3/Fm1jpqIPFPIysipfGgFteJCEKgpH62DGvSBDfAbWkgB3k92qPqotyEuBOji2F1SIrFNdEjQOEDqjmHFKzcgmkCnIZUPgNp7eA1JhG/qMbtxfIyW8kPd0FJjdTmOHuE4Xwmq9NauoO8YCbIgdu2/NNUN25mL12Xs79lgUaAzSJvSaHxZKYRK029JS/PyFhyxE0d5mHrBDNRLwhr77C3t8awcYtfZnnkD03/LdE8epTPX+6nIJ7A4iINu0+af5g3gOdm+nLx5FpgcuIyvuxT1NnUFEIsHOdRJaQ7c7iZGBfWfsHOpzcfI9Ltv183iDPwIDAQABo1MwUTAdBgNVHQ4EFgQUf/rPF/oGfgKxUQhnV/+prG4jCIUwHwYDVR0jBBgwFoAUf/rPF/oGfgKxUQhnV/+prG4jCIUwDwYDVR0TAQH/BAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAxkuVQO6P49z2TcQrtCZKt0eyeb7CRPBStC0R5lPbyeSqbpZynqBxDt8KWd1I9otJFS62NXt6Lxpw6dNF6s1ppzMNt9cUiQ7csJpwT1VxOUKQ6cCIySmgz4CYDqNB2pDwyzG1bF+EamN4BWclyOXRMDuqXOS4bEViyG+UbPSevi6fVWMtqSbc6QJcL3EaT+Byxbpa4L1GDoOfFRRTHh0dxz4+6bPoDVbJIrjFncoiolUgnLlvME9FNoPrNxRAvT6v2S9VuyVg7B5BjFVMTVMOfKI0hPUFNKWG8uG41WVt0eI3hc2hZxKyUTUhWdSadepYzG0BK8ZHRchlp88ETbWvNw==</ds:X509Certificate></ds:X509Data>
+            </ds:KeyInfo>
+        </md:KeyDescriptor>
+            <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.icpederobba.edu.it/wp-login.php?spid_sso=out"/>        
+        <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+        <md:AssertionConsumerService index="0" isDefault="true" Location="https://www.icpederobba.edu.it/wp-login.php?spid_sso=in" Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST"/>
+        <md:AttributeConsumingService index="0">
+            <md:ServiceName xml:lang="it">Set 0</md:ServiceName>       
+            <md:RequestedAttribute Name="name"/>
+            <md:RequestedAttribute Name="familyName"/>
+            <md:RequestedAttribute Name="fiscalNumber"/>
+            <md:RequestedAttribute Name="email"/></md:AttributeConsumingService></md:SPSSODescriptor><md:Organization>
+    <md:OrganizationName xml:lang="it">ISTITUTO COMPRENSIVO - IC PEDEROBBA</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">ISTITUTO COMPRENSIVO - IC PEDEROBBA</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.icpederobba.edu.it</md:OrganizationURL>
+</md:Organization><md:ContactPerson contactType="other"><md:Extensions><spid:IPACode>istsc_tvic85000r</spid:IPACode><spid:Public/></md:Extensions><md:EmailAddress>tvic85000r@istruzione.it</md:EmailAddress><md:TelephoneNumber>+39042364059</md:TelephoneNumber></md:ContactPerson></md:EntityDescriptor>
+
+<!--
+Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/
+
+
+Served from: icpederobba.edu.it @ 2024-04-15 10:16:32 by W3 Total Cache
+-->

@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:spid="https://spid.gov.it/saml-extensions" entityID="https://login.comune.solarino.sr.it" ID="https___login_comune_solarino_sr_it"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+  <ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+    <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+  <ds:Reference URI="#https___login_comune_solarino_sr_it"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>AFMTmZ3aPbtp/R9inoZ6dTLJWWPDTJWxnHgrlpuaVeY=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>Glg+VyXaXDikkl/EmYrp0xQ8VbiEU+8V7PSi9OKQZyaxutDwQVxbLkWlugXnbnb+tGhMuuxWi0xn09AbrSu3ndhbg2Z3sG7i0sz7lNLzps9bF50BYKg1jNUZYxNZopkB0qGaA6CJxOPZzmcyI7V9X0qAMy178SWbSkSCIo+hXX8rXXqXc5lQiKc1/8SPMUix4ydzv2k8DSUnxbt9Xoq7rbAcrXxI8sJyUuMqqOWADDuAk9FZSpYlRWt9eQ25gv8aCW7mAoH3pwXbQuQZjNAyj17Kz5zvGna83U4Dl9gnftyRJ17ZMXNtJ7mUHN3fthcbwIsuGyJxmCXifZznx0R2Pg==</ds:SignatureValue>
+<ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIID+jCCAuKgAwIBAgII13LRlMjJMAAwDQYJKoZIhvcNAQELBQAwgbwxGzAZBgNVBAoMEkNvbXVuZSBkaSBTb2xhcmlubzEVMBMGA1UEYQwMUEE6SVQtY19pNzg1MQswCQYDVQQGEwJJVDERMA8GA1UEBwwIU29sYXJpbm8xETAPBgNVBAMMCFNvbGFyaW5vMSUwIwYJKoZIhvcNAQkBFhZjb211bmVAc29sYXJpbm8tcGVjLml0MSwwKgYDVQRTDCNodHRwczovL2xvZ2luLmNvbXVuZS5zb2xhcmluby5zci5pdDAeFw0yNDA0MDgwOTExMzRaFw0yNjA0MDgwOTExMzRaMIG8MRswGQYDVQQKDBJDb211bmUgZGkgU29sYXJpbm8xFTATBgNVBGEMDFBBOklULWNfaTc4NTELMAkGA1UEBhMCSVQxETAPBgNVBAcMCFNvbGFyaW5vMREwDwYDVQQDDAhTb2xhcmlubzElMCMGCSqGSIb3DQEJARYWY29tdW5lQHNvbGFyaW5vLXBlYy5pdDEsMCoGA1UEUwwjaHR0cHM6Ly9sb2dpbi5jb211bmUuc29sYXJpbm8uc3IuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQD3XuR9nywibfCYfrRWVXes86GO2qA/AR09h2CJnQp2KvqrOe4EvMEiiRdTDLM4q7w8ZS75+HTNgbU+Vd0tn6EEa1O3x70lN1WSWmBW3PXeWJt9QfuY2fn5FRDdEVnTIiT+l7wpn2a83Az9SEow1RddlSUrpGY3uDFCAuyiBdOn+yl5PuoLsGTO1vUAOTnu2B5B4bcTru9vpPm8+pl2nvqB6y4inuoIlbo7cfBvir6TtHn9B0aEojWOi16CMJU1qPUIW3FTWoX6r4t+EgTFoGtlZYXe1ZtLeBmbMXr8cWBNO4O3zy8gSfO+T3EoevMNqv7O5YenYWLtjQYXJvFalcS5AgMBAAEwDQYJKoZIhvcNAQELBQADggEBAM09+z7tcMTa87boRtXubHcKdc/OZoxI/LvA2GQeUWAPGM68bHcKw+1ASMTLtVKpvw0QfmSdpz8bsd847S5ERpxzm8FA0USSmNU+/xNZA6RJAPl9/5EIkpB4eTYSJlJrctX7c3sKM+Z3XcL3PGhOA4/rey70b0RM7uBn+Kkd2qnRjCWRdsXC9N/QB6eFGUeMZViJnMUj6xTQNbu/wRUARRRFuNMmfauNKN02HQ2EpanuaEVMPx5kCYz+ip0midjv/l2RgEWlYAl4M1ofml8tIRV9jnoOtNo3J29kPJtNAQtxkybAmHfbq9RU7lzyhyjyrlCit15gJz8so+CVFO142ts=</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature>
+    <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true" WantAssertionsSigned="true">
+        <md:KeyDescriptor use="signing">
+            <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+                <ds:X509Data><ds:X509Certificate>MIID+jCCAuKgAwIBAgII13LRlMjJMAAwDQYJKoZIhvcNAQELBQAwgbwxGzAZBgNVBAoMEkNvbXVuZSBkaSBTb2xhcmlubzEVMBMGA1UEYQwMUEE6SVQtY19pNzg1MQswCQYDVQQGEwJJVDERMA8GA1UEBwwIU29sYXJpbm8xETAPBgNVBAMMCFNvbGFyaW5vMSUwIwYJKoZIhvcNAQkBFhZjb211bmVAc29sYXJpbm8tcGVjLml0MSwwKgYDVQRTDCNodHRwczovL2xvZ2luLmNvbXVuZS5zb2xhcmluby5zci5pdDAeFw0yNDA0MDgwOTExMzRaFw0yNjA0MDgwOTExMzRaMIG8MRswGQYDVQQKDBJDb211bmUgZGkgU29sYXJpbm8xFTATBgNVBGEMDFBBOklULWNfaTc4NTELMAkGA1UEBhMCSVQxETAPBgNVBAcMCFNvbGFyaW5vMREwDwYDVQQDDAhTb2xhcmlubzElMCMGCSqGSIb3DQEJARYWY29tdW5lQHNvbGFyaW5vLXBlYy5pdDEsMCoGA1UEUwwjaHR0cHM6Ly9sb2dpbi5jb211bmUuc29sYXJpbm8uc3IuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQD3XuR9nywibfCYfrRWVXes86GO2qA/AR09h2CJnQp2KvqrOe4EvMEiiRdTDLM4q7w8ZS75+HTNgbU+Vd0tn6EEa1O3x70lN1WSWmBW3PXeWJt9QfuY2fn5FRDdEVnTIiT+l7wpn2a83Az9SEow1RddlSUrpGY3uDFCAuyiBdOn+yl5PuoLsGTO1vUAOTnu2B5B4bcTru9vpPm8+pl2nvqB6y4inuoIlbo7cfBvir6TtHn9B0aEojWOi16CMJU1qPUIW3FTWoX6r4t+EgTFoGtlZYXe1ZtLeBmbMXr8cWBNO4O3zy8gSfO+T3EoevMNqv7O5YenYWLtjQYXJvFalcS5AgMBAAEwDQYJKoZIhvcNAQELBQADggEBAM09+z7tcMTa87boRtXubHcKdc/OZoxI/LvA2GQeUWAPGM68bHcKw+1ASMTLtVKpvw0QfmSdpz8bsd847S5ERpxzm8FA0USSmNU+/xNZA6RJAPl9/5EIkpB4eTYSJlJrctX7c3sKM+Z3XcL3PGhOA4/rey70b0RM7uBn+Kkd2qnRjCWRdsXC9N/QB6eFGUeMZViJnMUj6xTQNbu/wRUARRRFuNMmfauNKN02HQ2EpanuaEVMPx5kCYz+ip0midjv/l2RgEWlYAl4M1ofml8tIRV9jnoOtNo3J29kPJtNAQtxkybAmHfbq9RU7lzyhyjyrlCit15gJz8so+CVFO142ts=</ds:X509Certificate></ds:X509Data>
+            </ds:KeyInfo>
+        </md:KeyDescriptor>
+            <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://solarino.login.opencityitalia.it/slo"/>        
+        <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+        <md:AssertionConsumerService index="0" isDefault="true" Location="https://solarino.login.opencityitalia.it/acs" Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST"/>
+        <md:AttributeConsumingService index="0">
+            <md:ServiceName xml:lang="it">Set 0</md:ServiceName>       
+            <md:RequestedAttribute Name="gender"/>
+            <md:RequestedAttribute Name="companyName"/>
+            <md:RequestedAttribute Name="registeredOffice"/>
+            <md:RequestedAttribute Name="fiscalNumber"/>
+            <md:RequestedAttribute Name="ivaCode"/>
+            <md:RequestedAttribute Name="idCard"/>
+            <md:RequestedAttribute Name="spidCode"/>
+            <md:RequestedAttribute Name="name"/>
+            <md:RequestedAttribute Name="familyName"/>
+            <md:RequestedAttribute Name="placeOfBirth"/>
+            <md:RequestedAttribute Name="countyOfBirth"/>
+            <md:RequestedAttribute Name="dateOfBirth"/>
+            <md:RequestedAttribute Name="mobilePhone"/>
+            <md:RequestedAttribute Name="email"/>
+            <md:RequestedAttribute Name="address"/>
+            <md:RequestedAttribute Name="expirationDate"/>
+            <md:RequestedAttribute Name="digitalAddress"/></md:AttributeConsumingService></md:SPSSODescriptor><md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Solarino</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Solarino</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://login.comune.solarino.sr.it</md:OrganizationURL>
+</md:Organization><md:ContactPerson contactType="other"><md:Extensions><spid:IPACode>c_i785</spid:IPACode><spid:Public/><spid:FiscalCode>80000970899</spid:FiscalCode></md:Extensions><md:EmailAddress>comune@solarino-pec.it</md:EmailAddress><md:TelephoneNumber>+390931921380</md:TelephoneNumber></md:ContactPerson></md:EntityDescriptor>

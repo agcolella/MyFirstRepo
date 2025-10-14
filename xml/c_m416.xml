@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:spid="https://spid.gov.it/saml-extensions" entityID="https://login.comune.gatticoveruno.no.it" ID="https___login_comune_gatticoveruno_no_it"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+  <ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+    <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+  <ds:Reference URI="#https___login_comune_gatticoveruno_no_it"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>9omGYMHDhkEkVn1SeGVOXuxw94xh4WHqZ3yJ+bfj3MQ=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>DmFV8dQUuyFdYzVckCY3Y+thQ/5hp+lkSyJ4qJACIbrgUKirCrnjnVKIKFZNDB+sadY+qAU8mrjGbUyzE8XEpLVIqalTb6Tffg6kWeG3we80cT3baLNE/CVHmwjlJtqMZ+OTVih+4SuM8ErvecXIYDLnZGbzw/czMUwhD9+f2wAEp4bjCrqr2FCiZHJYu81VvXLSvT8caxoiVL9Pdo9T/9RGmF1CmiCE8ssZssq0VkeeVIqOYbswIpwVtWpQYDG8SQM+69OAwLVZ38A1xgStsxC4xuT/d6y2paZ/bdgyh3bX7uMlR7L21SDjnv0h1Dslyw1rsjq/Ky9r9UsSJFZV1g==</ds:SignatureValue>
+<ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIEODCCAyCgAwIBAgIIhUkwfjrP0AAwDQYJKoZIhvcNAQELBQAwgdsxITAfBgNVBAoMGENvbXVuZSBkaSBHYXR0aWNvLVZlcnVubzEVMBMGA1UEYQwMUEE6SVQtY19tNDE2MQswCQYDVQQGEwJJVDEXMBUGA1UEBwwOR2F0dGljby1WZXJ1bm8xFzAVBgNVBAMMDkdhdHRpY28tVmVydW5vMS0wKwYJKoZIhvcNAQkBFh5jb211bmUuZ2F0dGljby12ZXJ1bm9AcGNlcnQuaXQxMTAvBgNVBFMMKGh0dHBzOi8vbG9naW4uY29tdW5lLmdhdHRpY292ZXJ1bm8ubm8uaXQwHhcNMjQwMzI4MTEzMDAwWhcNMjYwMzI4MTEzMDAwWjCB2zEhMB8GA1UECgwYQ29tdW5lIGRpIEdhdHRpY28tVmVydW5vMRUwEwYDVQRhDAxQQTpJVC1jX200MTYxCzAJBgNVBAYTAklUMRcwFQYDVQQHDA5HYXR0aWNvLVZlcnVubzEXMBUGA1UEAwwOR2F0dGljby1WZXJ1bm8xLTArBgkqhkiG9w0BCQEWHmNvbXVuZS5nYXR0aWNvLXZlcnVub0BwY2VydC5pdDExMC8GA1UEUwwoaHR0cHM6Ly9sb2dpbi5jb211bmUuZ2F0dGljb3ZlcnVuby5uby5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAKP8G4xz7hkRibl37uVJmnAc/WI/emCHHB0ps/hZcyLxoKAMEC0XsPFRpx4I8RCvcX4CrNbd0PUlBVJkLv2qTPhBAQn65DgTnabF/8jN/47W+BF0P2Rvn1Nk+k/WieV1JwBDSXvjjBYfRIMx7cDPAbexaZNrw9gtDYujk274/O79DUMVGZv6nXqSQ/ik9FDqhml2iArTLtNqRgSAuwn75rs5VtGdo7yLcPbC0Hwmy3NCOCtrucaMpS9Fq6oL2ixMhWgYY2RRkK9sJcJM40araoj5HCqx/bzyCwacN5EpWqiB5jBRjBj4CH6snQbyb2v6crDiDgqRe09eWJjVz9QwP1kCAwEAATANBgkqhkiG9w0BAQsFAAOCAQEAAsyG1t9tDM52MwWqSe3CdyYOXWU+qYGjlv4xzELYQGTQqLScY9Xbr3K/Q4Aw8LrKUT7pInZWHonHuYZFmbQ4yz6kEHpvWlwQ7iSdEEKZK3vxmmlJt9hHyBVl3IptAV9ojHU2VSneZBTR7JAHMQbU/F3AX2Vn1AdWbQOs4H6QenxtNG0wm3hNKI69wdzAPQ7/w20iYo/BWeZjMRo0WatLYMTeD+Mo8yQbi7B6D8CTZ7n7+vK2RrCxGB3rb8LGb5JTAioP9/rMkKgttGqxT35gq76yp6UVrRAW1wvjoOAk1QsTMpT93j7HExW1TrO3io300Ne9cIR38L2WvGBoN6Kgjg==</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature>
+    <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true" WantAssertionsSigned="true">
+        <md:KeyDescriptor use="signing">
+            <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+                <ds:X509Data><ds:X509Certificate>MIIEODCCAyCgAwIBAgIIhUkwfjrP0AAwDQYJKoZIhvcNAQELBQAwgdsxITAfBgNVBAoMGENvbXVuZSBkaSBHYXR0aWNvLVZlcnVubzEVMBMGA1UEYQwMUEE6SVQtY19tNDE2MQswCQYDVQQGEwJJVDEXMBUGA1UEBwwOR2F0dGljby1WZXJ1bm8xFzAVBgNVBAMMDkdhdHRpY28tVmVydW5vMS0wKwYJKoZIhvcNAQkBFh5jb211bmUuZ2F0dGljby12ZXJ1bm9AcGNlcnQuaXQxMTAvBgNVBFMMKGh0dHBzOi8vbG9naW4uY29tdW5lLmdhdHRpY292ZXJ1bm8ubm8uaXQwHhcNMjQwMzI4MTEzMDAwWhcNMjYwMzI4MTEzMDAwWjCB2zEhMB8GA1UECgwYQ29tdW5lIGRpIEdhdHRpY28tVmVydW5vMRUwEwYDVQRhDAxQQTpJVC1jX200MTYxCzAJBgNVBAYTAklUMRcwFQYDVQQHDA5HYXR0aWNvLVZlcnVubzEXMBUGA1UEAwwOR2F0dGljby1WZXJ1bm8xLTArBgkqhkiG9w0BCQEWHmNvbXVuZS5nYXR0aWNvLXZlcnVub0BwY2VydC5pdDExMC8GA1UEUwwoaHR0cHM6Ly9sb2dpbi5jb211bmUuZ2F0dGljb3ZlcnVuby5uby5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAKP8G4xz7hkRibl37uVJmnAc/WI/emCHHB0ps/hZcyLxoKAMEC0XsPFRpx4I8RCvcX4CrNbd0PUlBVJkLv2qTPhBAQn65DgTnabF/8jN/47W+BF0P2Rvn1Nk+k/WieV1JwBDSXvjjBYfRIMx7cDPAbexaZNrw9gtDYujk274/O79DUMVGZv6nXqSQ/ik9FDqhml2iArTLtNqRgSAuwn75rs5VtGdo7yLcPbC0Hwmy3NCOCtrucaMpS9Fq6oL2ixMhWgYY2RRkK9sJcJM40araoj5HCqx/bzyCwacN5EpWqiB5jBRjBj4CH6snQbyb2v6crDiDgqRe09eWJjVz9QwP1kCAwEAATANBgkqhkiG9w0BAQsFAAOCAQEAAsyG1t9tDM52MwWqSe3CdyYOXWU+qYGjlv4xzELYQGTQqLScY9Xbr3K/Q4Aw8LrKUT7pInZWHonHuYZFmbQ4yz6kEHpvWlwQ7iSdEEKZK3vxmmlJt9hHyBVl3IptAV9ojHU2VSneZBTR7JAHMQbU/F3AX2Vn1AdWbQOs4H6QenxtNG0wm3hNKI69wdzAPQ7/w20iYo/BWeZjMRo0WatLYMTeD+Mo8yQbi7B6D8CTZ7n7+vK2RrCxGB3rb8LGb5JTAioP9/rMkKgttGqxT35gq76yp6UVrRAW1wvjoOAk1QsTMpT93j7HExW1TrO3io300Ne9cIR38L2WvGBoN6Kgjg==</ds:X509Certificate></ds:X509Data>
+            </ds:KeyInfo>
+        </md:KeyDescriptor>
+            <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://gatticoveruno.login.opencityitalia.it/slo"/>        
+        <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+        <md:AssertionConsumerService index="0" isDefault="true" Location="https://gatticoveruno.login.opencityitalia.it/acs" Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST"/>
+        <md:AttributeConsumingService index="0">
+            <md:ServiceName xml:lang="it">Set 0</md:ServiceName>       
+            <md:RequestedAttribute Name="gender"/>
+            <md:RequestedAttribute Name="companyName"/>
+            <md:RequestedAttribute Name="registeredOffice"/>
+            <md:RequestedAttribute Name="fiscalNumber"/>
+            <md:RequestedAttribute Name="ivaCode"/>
+            <md:RequestedAttribute Name="idCard"/>
+            <md:RequestedAttribute Name="spidCode"/>
+            <md:RequestedAttribute Name="name"/>
+            <md:RequestedAttribute Name="familyName"/>
+            <md:RequestedAttribute Name="placeOfBirth"/>
+            <md:RequestedAttribute Name="countyOfBirth"/>
+            <md:RequestedAttribute Name="dateOfBirth"/>
+            <md:RequestedAttribute Name="mobilePhone"/>
+            <md:RequestedAttribute Name="email"/>
+            <md:RequestedAttribute Name="address"/>
+            <md:RequestedAttribute Name="expirationDate"/>
+            <md:RequestedAttribute Name="digitalAddress"/></md:AttributeConsumingService></md:SPSSODescriptor><md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Gattico-Veruno</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Gattico-Veruno</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://login.comune.gatticoveruno.no.it</md:OrganizationURL>
+</md:Organization><md:ContactPerson contactType="other"><md:Extensions><spid:IPACode>c_m416</spid:IPACode><spid:Public/><spid:FiscalCode>02581850035</spid:FiscalCode></md:Extensions><md:EmailAddress>comune.gattico-veruno@pcert.it</md:EmailAddress><md:TelephoneNumber>+390322838988</md:TelephoneNumber></md:ContactPerson></md:EntityDescriptor>

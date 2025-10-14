@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" ID="_672e4588dd04d35775316639c4f1db8ced44ffeb350c86233dfe2c935e7e8fa1" entityID="https://servizi.comune.barrali.ca.it"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#_672e4588dd04d35775316639c4f1db8ced44ffeb350c86233dfe2c935e7e8fa1">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>ZE3qWI5P9v6CJBH02ImFD5Xe8Fh4hlTxetg+vIVpdkQ=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+QZd9ov/w0fH2zPQBDluk+vw71kExclBssnS3pf5mIathv4E3bkXiBdupVlpiW520jQa8usqL6Vmj
+r1zIu19UMSf1Sxbs7TIC/nAyrZgHluucNjnZkJ4vbmgNjjVffU8AQ94W24k87ZTAL0DZJhiUyftP
+fBgEfs0SHRozSZw+Z/QaZ7jYQk6V2WftboXyBK8aRC5iodMc/tmnYxC6wJi0LVQGB/mTIIphMkj+
+K/VxCtAAmR4wtwGedUZgdHB8trdXxScpke06nLdfdccbc4ETwlAKtqP4kMn1p1YqoKmJKAdKcSDo
+zOgrM/XBF7DeYkpA+L/hu+snIwG4co7lpBj5eQ==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+t5/vRpbjI2JUeK/Rs73e+0MMBk0698Xz0OXsf51q0JbpsLBvmbdoGHwIVgz1ag8Y8IU81HuTE5+Z
+Ii5Zv8vzanuLLE/3Vh2AEgWJYi/hNedFibO7+SGCm5iDb5bAsQ+HYHlyoM0HMyA8s1CbpNoogzfD
+XzGWLbymS6BNhKgbiyeb1AMuvLY6XhX6N16bCLhTRtyIiVPERwXgPKYgSZEbNGPb5i59++48yI5H
+raoadtZuRXGRiELOWucACVI0v6pE1tld90hFgeGqVk7tjMtnlK8/17239uqUYJpqm+Vqa3D9Lh/3
+iEwoCGTH+U6VTHkxu1UQZW0iC/P/KN/aBrvy8w==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDtzCCAp+gAwIBAgIJAOP52T66LtJhMA0GCSqGSIb3DQEBCwUAMHIxCzAJBgNVBAYTAklUMQ4w
+DAYDVQQIDAVJdGFseTEQMA4GA1UEBwwHQmFycmFsaTEaMBgGA1UECgwRQ29tdW5lIGRpIEJhcnJh
+bGkxJTAjBgNVBAMMHHNlcnZpemkuY29tdW5lLmJhcnJhbGkuY2EuaXQwHhcNMjQwMzEzMTUxMjEx
+WhcNMzQwMzEzMTUxMjExWjByMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxEDAOBgNVBAcM
+B0JhcnJhbGkxGjAYBgNVBAoMEUNvbXVuZSBkaSBCYXJyYWxpMSUwIwYDVQQDDBxzZXJ2aXppLmNv
+bXVuZS5iYXJyYWxpLmNhLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAt5/vRpbj
+I2JUeK/Rs73e+0MMBk0698Xz0OXsf51q0JbpsLBvmbdoGHwIVgz1ag8Y8IU81HuTE5+ZIi5Zv8vz
+anuLLE/3Vh2AEgWJYi/hNedFibO7+SGCm5iDb5bAsQ+HYHlyoM0HMyA8s1CbpNoogzfDXzGWLbym
+S6BNhKgbiyeb1AMuvLY6XhX6N16bCLhTRtyIiVPERwXgPKYgSZEbNGPb5i59++48yI5HraoadtZu
+RXGRiELOWucACVI0v6pE1tld90hFgeGqVk7tjMtnlK8/17239uqUYJpqm+Vqa3D9Lh/3iEwoCGTH
++U6VTHkxu1UQZW0iC/P/KN/aBrvy8wIDAQABo1AwTjAdBgNVHQ4EFgQUjj4jWrutjsPEXUn6MmQy
+bcDcn8wwHwYDVR0jBBgwFoAUjj4jWrutjsPEXUn6MmQybcDcn8wwDAYDVR0TBAUwAwEB/zANBgkq
+hkiG9w0BAQsFAAOCAQEAMOKKhEpMAZaV66+SerEvTKU5YPADV/SQE/VseOOkUqy2DwMU0bqxeSc9
+7RWoqecdfPS1MSkYQSR7CnPtiB2vF5USrSoSKO7o6c2BG+vdNWGAyaqaB20MhxFu3vInjdXey6/p
+1Ncpx231Dn900FtALjaNMi6wxAmjyCzTeC4AmqJWupG2AxpsiBG+NOBF2YMSx4VroCzvbjkzuHJk
+Oef4UU1B2i4g8u09j2cW5IT6tJ/7Ig7osftXjm/DNvamtvzobVTkDYDnBt3q817HZt/mQRnfwJdp
+RSnrhTFRwaZm783EmwTJyoHnUuugtJUkU2ZWaIWvSiYdUyvAa7bBeOQf4A==
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDtzCCAp+gAwIBAgIJAOP52T66LtJhMA0GCSqGSIb3DQEBCwUAMHIxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEQMA4GA1UEBwwHQmFycmFsaTEaMBgGA1UECgwRQ29tdW5lIGRpIEJhcnJhbGkxJTAjBgNVBAMMHHNlcnZpemkuY29tdW5lLmJhcnJhbGkuY2EuaXQwHhcNMjQwMzEzMTUxMjExWhcNMzQwMzEzMTUxMjExWjByMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxEDAOBgNVBAcMB0JhcnJhbGkxGjAYBgNVBAoMEUNvbXVuZSBkaSBCYXJyYWxpMSUwIwYDVQQDDBxzZXJ2aXppLmNvbXVuZS5iYXJyYWxpLmNhLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAt5/vRpbjI2JUeK/Rs73e+0MMBk0698Xz0OXsf51q0JbpsLBvmbdoGHwIVgz1ag8Y8IU81HuTE5+ZIi5Zv8vzanuLLE/3Vh2AEgWJYi/hNedFibO7+SGCm5iDb5bAsQ+HYHlyoM0HMyA8s1CbpNoogzfDXzGWLbymS6BNhKgbiyeb1AMuvLY6XhX6N16bCLhTRtyIiVPERwXgPKYgSZEbNGPb5i59++48yI5HraoadtZuRXGRiELOWucACVI0v6pE1tld90hFgeGqVk7tjMtnlK8/17239uqUYJpqm+Vqa3D9Lh/3iEwoCGTH+U6VTHkxu1UQZW0iC/P/KN/aBrvy8wIDAQABo1AwTjAdBgNVHQ4EFgQUjj4jWrutjsPEXUn6MmQybcDcn8wwHwYDVR0jBBgwFoAUjj4jWrutjsPEXUn6MmQybcDcn8wwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAMOKKhEpMAZaV66+SerEvTKU5YPADV/SQE/VseOOkUqy2DwMU0bqxeSc97RWoqecdfPS1MSkYQSR7CnPtiB2vF5USrSoSKO7o6c2BG+vdNWGAyaqaB20MhxFu3vInjdXey6/p1Ncpx231Dn900FtALjaNMi6wxAmjyCzTeC4AmqJWupG2AxpsiBG+NOBF2YMSx4VroCzvbjkzuHJkOef4UU1B2i4g8u09j2cW5IT6tJ/7Ig7osftXjm/DNvamtvzobVTkDYDnBt3q817HZt/mQRnfwJdpRSnrhTFRwaZm783EmwTJyoHnUuugtJUkU2ZWaIWvSiYdUyvAa7bBeOQf4A==</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDtzCCAp+gAwIBAgIJAOP52T66LtJhMA0GCSqGSIb3DQEBCwUAMHIxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEQMA4GA1UEBwwHQmFycmFsaTEaMBgGA1UECgwRQ29tdW5lIGRpIEJhcnJhbGkxJTAjBgNVBAMMHHNlcnZpemkuY29tdW5lLmJhcnJhbGkuY2EuaXQwHhcNMjQwMzEzMTUxMjExWhcNMzQwMzEzMTUxMjExWjByMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxEDAOBgNVBAcMB0JhcnJhbGkxGjAYBgNVBAoMEUNvbXVuZSBkaSBCYXJyYWxpMSUwIwYDVQQDDBxzZXJ2aXppLmNvbXVuZS5iYXJyYWxpLmNhLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAt5/vRpbjI2JUeK/Rs73e+0MMBk0698Xz0OXsf51q0JbpsLBvmbdoGHwIVgz1ag8Y8IU81HuTE5+ZIi5Zv8vzanuLLE/3Vh2AEgWJYi/hNedFibO7+SGCm5iDb5bAsQ+HYHlyoM0HMyA8s1CbpNoogzfDXzGWLbymS6BNhKgbiyeb1AMuvLY6XhX6N16bCLhTRtyIiVPERwXgPKYgSZEbNGPb5i59++48yI5HraoadtZuRXGRiELOWucACVI0v6pE1tld90hFgeGqVk7tjMtnlK8/17239uqUYJpqm+Vqa3D9Lh/3iEwoCGTH+U6VTHkxu1UQZW0iC/P/KN/aBrvy8wIDAQABo1AwTjAdBgNVHQ4EFgQUjj4jWrutjsPEXUn6MmQybcDcn8wwHwYDVR0jBBgwFoAUjj4jWrutjsPEXUn6MmQybcDcn8wwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAMOKKhEpMAZaV66+SerEvTKU5YPADV/SQE/VseOOkUqy2DwMU0bqxeSc97RWoqecdfPS1MSkYQSR7CnPtiB2vF5USrSoSKO7o6c2BG+vdNWGAyaqaB20MhxFu3vInjdXey6/p1Ncpx231Dn900FtALjaNMi6wxAmjyCzTeC4AmqJWupG2AxpsiBG+NOBF2YMSx4VroCzvbjkzuHJkOef4UU1B2i4g8u09j2cW5IT6tJ/7Ig7osftXjm/DNvamtvzobVTkDYDnBt3q817HZt/mQRnfwJdpRSnrhTFRwaZm783EmwTJyoHnUuugtJUkU2ZWaIWvSiYdUyvAa7bBeOQf4A==</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://servizi.comune.barrali.ca.it/spid/module.php/saml/sp/saml2-logout.php/spid"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://servizi.comune.barrali.ca.it/spid/module.php/saml/sp/saml2-acs.php/spid" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://servizi.comune.barrali.ca.it/spid/module.php/saml/sp/saml2-acs.php/spid" index="1"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">Servizi online</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Servizi online</md:ServiceDescription>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Codice identificativo SPID" Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Ragione o denominazione sociale" Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Barrali</md:OrganizationName>
+    <md:OrganizationName xml:lang="en">Comune di Barrali</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Barrali</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Barrali</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.comune.barrali.ca.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="en">https://www.comune.barrali.ca.it</md:OrganizationURL>
+  </md:Organization>
+  <md:ContactPerson contactType="other">
+    <md:Extensions>
+      <spid:IPACode>c_a677</spid:IPACode>
+      <spid:Public/>
+    </md:Extensions>
+    <md:Company>Comune di Barrali</md:Company>
+    <md:EmailAddress>utc@comune.barrali.ca.it</md:EmailAddress>
+  </md:ContactPerson>
+</md:EntityDescriptor>
