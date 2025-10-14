@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" xmlns:fpa="https://spid.gov.it/invoicing-extensions" entityID="https://spid-cie.niuma.it" ID="spid-php_327b621aae2f76c631f673a8f07448769967e34c3bdafa388b8325d370f78ac0"><ds:Signature>
+  <ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+    <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+  <ds:Reference URI="#spid-php_327b621aae2f76c631f673a8f07448769967e34c3bdafa388b8325d370f78ac0"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>IDmsUaqWKe2Lx+sEV9+Xk/N43hSS0gOOGf/O0FAOplU=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>nsPmn/u4agsm4qtOxkBL/ryt9NKwSIK/VMN6FW4nbENLzgAjFbTU7uHMU2rk3S/3whkhB9v3Su1opJlvrJn0YFlDhPiVipOjn8pjdKImPgPzkglcluf1WzsjbifExUVo8fY8nDgzbzb/U1ElHfsm5QarR/hO7wZk2ckAXoN+sJ5e9rlW+nKLG9iixt4z5S1/FQtvQMXVTBRQ6Nrnk4y+oaqvRR07Ln9rp9X983WOwFfis9jkOsUTtZHvPAvcoqp2Bp68igCj/ylqQGwUHek1K860+dSsph8bi7yks9Rx4pVVVmBUQ9mCMddiAAfLF32OOrVY5Ptn/oxRMz+t2VvELw==</ds:SignatureValue>
+<ds:KeyInfo><ds:X509Data><ds:X509Certificate>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</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature>
+  <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true" WantAssertionsSigned="true">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>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</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>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</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://spid-cie.niuma.it/spid-service/module.php/saml/sp/saml2-logout.php/spid"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid-cie.niuma.it/spid-service/module.php/saml/sp/saml2-acs.php/spid" index="0" isDefault="true"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">Niuma S.r.l.</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Niuma S.r.l.</md:ServiceDescription>
+      <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="digitalAddress" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Niuma S.r.l.</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Niuma S.r.l.</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.niuma.it</md:OrganizationURL>
+  </md:Organization>
+  <md:ContactPerson contactType="other">
+    <md:Extensions>
+      <spid:VATNumber xmlns:spid="https://spid.gov.it/saml-extensions">IT01704740560</spid:VATNumber>
+      <spid:Private xmlns:spid="https://spid.gov.it/saml-extensions"/>
+    </md:Extensions>
+    <md:Company>Niuma S.r.l.</md:Company>
+    <md:EmailAddress>info@niuma.it</md:EmailAddress>
+    <md:TelephoneNumber>+390640042111</md:TelephoneNumber>
+  </md:ContactPerson>
+  <md:ContactPerson contactType="billing">
+    <md:Extensions>
+      <fpa:CessionarioCommittente xmlns:fpa="https://spid.gov.it/invoicing-extensions">
+        <fpa:DatiAnagrafici>
+          <fpa:IdFiscaleIVA>
+            <fpa:IdPaese>IT</fpa:IdPaese>
+            <fpa:IdCodice>01704740560</fpa:IdCodice>
+          </fpa:IdFiscaleIVA>
+          <fpa:Anagrafica>
+            <fpa:Denominazione>Niuma S.r.l.</fpa:Denominazione>
+          </fpa:Anagrafica>
+        </fpa:DatiAnagrafici>
+        <fpa:Sede>
+          <fpa:Indirizzo>Via Giacomo Peroni 400, Roma</fpa:Indirizzo>
+          <fpa:NumeroCivico>400</fpa:NumeroCivico>
+          <fpa:CAP>00131</fpa:CAP>
+          <fpa:Comune>Roma</fpa:Comune>
+          <fpa:Provincia>RM</fpa:Provincia>
+          <fpa:Nazione>IT</fpa:Nazione>
+        </fpa:Sede>
+      </fpa:CessionarioCommittente>
+    </md:Extensions>
+    <md:Company>Niuma S.r.l.</md:Company>
+    <md:EmailAddress>info@niuma.it</md:EmailAddress>
+    <md:TelephoneNumber>+390640042111</md:TelephoneNumber>
+  </md:ContactPerson>
+</md:EntityDescriptor>

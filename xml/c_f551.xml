@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:spid="https://spid.gov.it/saml-extensions" ID="pfx4472bee7-612e-15ed-e3b5-03cc53890db2" entityID="https://www.comune.montelupo-fiorentino.fi.it/"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#pfx4472bee7-612e-15ed-e3b5-03cc53890db2">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>R4Cll69ATl98MeQXWaw84HydT/fa+4greJ3cS7cPSxs=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+Vzdbh9FNI676j6302pHzmKHQuBOzK0IyUA0YleAs1AkdbrW9O8nXSBUNRyaRo6P23QFsytJ2UG3G
+qAj1sXEsiCiWaG+V5EnCYatlUqgkwmGZ6fchNM4FIYJxPSAm1kcbQpH8zq+yJMCwzdDeUw4pdadO
+o9D7oucBJEWHX7EIwnlSrLQyNSfLrasA+6QW43t1SKgEzTGUjwhU2AMikE4j4ZfC0+W0HRU/PczV
+OcGPWoNRe116ZZbc1nBtPyy3tvmGIVfYBSYlF6NbwgG4GVq/AYebLrtY0uU4xwOvzKanhCzhSZW0
+gR/wjntMbuyCqWNVtCecrxQ43thMHPJJd3sT6tpAGMoYeSPcjJ+UKlYedeKk8hdE/CwjyMxwpcNU
+Z/9u8ob6uNm/MUb2ARTDHOZKgrBMwaZ3lNhuDGZLBeSBr2+ecKKpb89pzhORLkWkBXo4qrnnXhB1
+ixKwaOPTel6QxdPnBcCn4vHfRoHouJODFo9my+y7phJfc4Rp+7LmosFF
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+0wNHrGH1oWurmLw7HabRboEyLuyqUCscs9KuDzkEBwwtLw9fRT1/bUnY3GqYlf289H9mQrWm3A25
+cR8FhmuW+sGEfVgvP/ZgT83a98jdDmJ594VZhhapOsxEYi9lAGlD/IDF1iRaG/+8Oo/dKe1rshr4
+5IXFvoyeOda7hYzHsmcgLouufEdGEF8B5qQVr1ThiXRMZnPfoaNZ4C7iZzHhHvUW/YahgRdraSt+
+lWa4sP9AiKZMLfN6ITJZIP74QZNm586Hun7Xf6s28QxyQ+1dChLdh6mnUbgGvt22ekt6ZrPcIdcI
+6rG1esWhMRgYPbni2nLFYUxQmJKEZQH81UMM72a30HnwKdT3GPWq+CxqYmH6rYLEBvO904ATrn73
+IYj5+MTRdpWBUzUw5aWa1sjj2XCUJMUJQSLPZvohycFZRL731kFqgmG0hzwR2iTF19G2wWHxwyUk
+v1VNwbffuogrq8QnejS47pwTTHlF6FhnzC+FxdvT9d6ltdpOFlh24PS5
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIFNzCCA5+gAwIBAgIUAa/eyzglxCfrLR/cuBYdLlxau2gwDQYJKoZIhvcNAQELBQAwgcgxJDAi
+BgNVBAoMG0NvbXVuZSBNb250ZWx1cG8gRmlvcmVudGlubzEkMCIGA1UEAwwbQ29tdW5lIE1vbnRl
+bHVwbyBGaW9yZW50aW5vMTcwNQYDVQRTDC5odHRwczovL3d3dy5jb211bmUubW9udGVsdXBvLWZp
+b3JlbnRpbm8uZmkuaXQvMRUwEwYDVQRhDAxQQTpJVC1jX2Y1NTExCzAJBgNVBAYTAklUMR0wGwYD
+VQQHDBRNb250ZWx1cG8gRmlvcmVudGlubzAeFw0yMzEwMjUxNDE5NTZaFw0yNTEwMjQxNDE5NTZa
+MIHIMSQwIgYDVQQKDBtDb211bmUgTW9udGVsdXBvIEZpb3JlbnRpbm8xJDAiBgNVBAMMG0NvbXVu
+ZSBNb250ZWx1cG8gRmlvcmVudGlubzE3MDUGA1UEUwwuaHR0cHM6Ly93d3cuY29tdW5lLm1vbnRl
+bHVwby1maW9yZW50aW5vLmZpLml0LzEVMBMGA1UEYQwMUEE6SVQtY19mNTUxMQswCQYDVQQGEwJJ
+VDEdMBsGA1UEBwwUTW9udGVsdXBvIEZpb3JlbnRpbm8wggGiMA0GCSqGSIb3DQEBAQUAA4IBjwAw
+ggGKAoIBgQDTA0esYfWha6uYvDsdptFugTIu7KpQKxyz0q4POQQHDC0vD19FPX9tSdjcapiV/bz0
+f2ZCtabcDblxHwWGa5b6wYR9WC8/9mBPzdr3yN0OYnn3hVmGFqk6zERiL2UAaUP8gMXWJFob/7w6
+j90p7WuyGvjkhcW+jJ451ruFjMeyZyAui658R0YQXwHmpBWvVOGJdExmc9+ho1ngLuJnMeEe9Rb9
+hqGBF2tpK36VZriw/0CIpkwt83ohMlkg/vhBk2bnzoe6ftd/qzbxDHJD7V0KEt2HqadRuAa+3bZ6
+S3pms9wh1wjqsbV6xaExGBg9ueLacsVhTFCYkoRlAfzVQwzvZrfQefAp1PcY9ar4LGpiYfqtgsQG
+873TgBOufvchiPn4xNF2lYFTNTDlpZrWyOPZcJQkxQlBIs9m+iHJwVlEvvfWQWqCYbSHPBHaJMXX
+0bbBYfHDJSS/VU3Bt9+6iCurxCd6NLjunBNMeUXoWGfML4XF29P13qW12k4WWHbg9LkCAwEAAaMX
+MBUwEwYDVR0gBAwwCjAIBgYrTBAEAgEwDQYJKoZIhvcNAQELBQADggGBAAcimAgidGj312Z7uRcC
+z34NnbV4cOAsuNE+sXbqmgcs4zd8Vb5haKEspKh3RgL0sAm5/xClisMVAiekqlWOdNGqRbYP7KWe
+7dbyVFt36W3UWY7WJdjNGLVyAPg6j+ecdsgRWH25RTv2kGTrPP1bdXKzJYC7GOG2F7EyOngg6+yq
+zIrNS7Sq0nwzCvQNKjxXv3gQOXMZeOIY0a1f7dcei/ITV+hcG38B7WDofMmAsQFP2ypuDSuBKpgN
+5PwQeT9KUvQOS9Y1TNR4RtXffGopvT25v539zMlz3hCx/NMbRjd06UJpMNky9GGY92hJ2cTC0f5a
+88CNvr25mRxN+1R9Jmwrdi3IZ1BBJdIExqxwG/5GQpFzs9iTzxpjRTKZUVAUAnOY2TZPy+bRnsIk
+4p/P1AgBNAjQ5pNzVXS9zyuJL4encyvlZkUDaznQNsEMMzkt+DbyqA8ftx2r4W3r5hdT9lCooq2Q
+DnxVLMcBivClBKrEpYk6XviBWafYNkQB9AReeQ==
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+    <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+
+        <md:KeyDescriptor use="signing">
+            <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+                <ds:X509Data>
+                    <ds:X509SubjectName>emailAddress=comune.montelupo-fiorentino@postacert.toscana.it,CN=*.montelupo-fiorentino.fi.it,OU=Spid,O=Comune,L=Montelupo Fiorentino,ST=Firenze,C=IT</ds:X509SubjectName>
+                    <ds:X509Certificate>MIIFNzCCA5+gAwIBAgIUAa/eyzglxCfrLR/cuBYdLlxau2gwDQYJKoZIhvcNAQEL
+BQAwgcgxJDAiBgNVBAoMG0NvbXVuZSBNb250ZWx1cG8gRmlvcmVudGlubzEkMCIG
+A1UEAwwbQ29tdW5lIE1vbnRlbHVwbyBGaW9yZW50aW5vMTcwNQYDVQRTDC5odHRw
+czovL3d3dy5jb211bmUubW9udGVsdXBvLWZpb3JlbnRpbm8uZmkuaXQvMRUwEwYD
+VQRhDAxQQTpJVC1jX2Y1NTExCzAJBgNVBAYTAklUMR0wGwYDVQQHDBRNb250ZWx1
+cG8gRmlvcmVudGlubzAeFw0yMzEwMjUxNDE5NTZaFw0yNTEwMjQxNDE5NTZaMIHI
+MSQwIgYDVQQKDBtDb211bmUgTW9udGVsdXBvIEZpb3JlbnRpbm8xJDAiBgNVBAMM
+G0NvbXVuZSBNb250ZWx1cG8gRmlvcmVudGlubzE3MDUGA1UEUwwuaHR0cHM6Ly93
+d3cuY29tdW5lLm1vbnRlbHVwby1maW9yZW50aW5vLmZpLml0LzEVMBMGA1UEYQwM
+UEE6SVQtY19mNTUxMQswCQYDVQQGEwJJVDEdMBsGA1UEBwwUTW9udGVsdXBvIEZp
+b3JlbnRpbm8wggGiMA0GCSqGSIb3DQEBAQUAA4IBjwAwggGKAoIBgQDTA0esYfWh
+a6uYvDsdptFugTIu7KpQKxyz0q4POQQHDC0vD19FPX9tSdjcapiV/bz0f2ZCtabc
+DblxHwWGa5b6wYR9WC8/9mBPzdr3yN0OYnn3hVmGFqk6zERiL2UAaUP8gMXWJFob
+/7w6j90p7WuyGvjkhcW+jJ451ruFjMeyZyAui658R0YQXwHmpBWvVOGJdExmc9+h
+o1ngLuJnMeEe9Rb9hqGBF2tpK36VZriw/0CIpkwt83ohMlkg/vhBk2bnzoe6ftd/
+qzbxDHJD7V0KEt2HqadRuAa+3bZ6S3pms9wh1wjqsbV6xaExGBg9ueLacsVhTFCY
+koRlAfzVQwzvZrfQefAp1PcY9ar4LGpiYfqtgsQG873TgBOufvchiPn4xNF2lYFT
+NTDlpZrWyOPZcJQkxQlBIs9m+iHJwVlEvvfWQWqCYbSHPBHaJMXX0bbBYfHDJSS/
+VU3Bt9+6iCurxCd6NLjunBNMeUXoWGfML4XF29P13qW12k4WWHbg9LkCAwEAAaMX
+MBUwEwYDVR0gBAwwCjAIBgYrTBAEAgEwDQYJKoZIhvcNAQELBQADggGBAAcimAgi
+dGj312Z7uRcCz34NnbV4cOAsuNE+sXbqmgcs4zd8Vb5haKEspKh3RgL0sAm5/xCl
+isMVAiekqlWOdNGqRbYP7KWe7dbyVFt36W3UWY7WJdjNGLVyAPg6j+ecdsgRWH25
+RTv2kGTrPP1bdXKzJYC7GOG2F7EyOngg6+yqzIrNS7Sq0nwzCvQNKjxXv3gQOXMZ
+eOIY0a1f7dcei/ITV+hcG38B7WDofMmAsQFP2ypuDSuBKpgN5PwQeT9KUvQOS9Y1
+TNR4RtXffGopvT25v539zMlz3hCx/NMbRjd06UJpMNky9GGY92hJ2cTC0f5a88CN
+vr25mRxN+1R9Jmwrdi3IZ1BBJdIExqxwG/5GQpFzs9iTzxpjRTKZUVAUAnOY2TZP
+y+bRnsIk4p/P1AgBNAjQ5pNzVXS9zyuJL4encyvlZkUDaznQNsEMMzkt+DbyqA8f
+tx2r4W3r5hdT9lCooq2QDnxVLMcBivClBKrEpYk6XviBWafYNkQB9AReeQ==
+                    </ds:X509Certificate>
+                </ds:X509Data>
+            </ds:KeyInfo>
+        </md:KeyDescriptor>
+
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.urbi.it/sp-spid/logoutService"/>
+
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://www.comune.montelupo-fiorentino.fi.it/myservice/module.php/saml/sp/saml2-logout.php/service"/>
+
+        <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.urbi.it/sp-spid/assertionConsumerService" index="0" isDefault="true"/>
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.comune.montelupo-fiorentino.fi.it/myservice/module.php/saml/sp/saml2-acs.php/service" index="1" isDefault="false"/>
+
+        <md:AttributeConsumingService index="0">
+            <md:ServiceName xml:lang="it">SOL</md:ServiceName>
+            <md:RequestedAttribute Name="name"/>
+            <md:RequestedAttribute Name="familyName"/>
+            <md:RequestedAttribute Name="gender"/>
+            <md:RequestedAttribute Name="dateOfBirth"/>
+            <md:RequestedAttribute Name="fiscalNumber"/>
+            <md:RequestedAttribute Name="placeOfBirth"/>
+            <md:RequestedAttribute Name="email"/>
+            <md:RequestedAttribute Name="address"/>
+        </md:AttributeConsumingService>
+
+        <md:AttributeConsumingService index="1">
+            <md:ServiceName xml:lang="it">Comune Montelupo Fiorentino</md:ServiceName>
+            <md:ServiceDescription xml:lang="it">Comune Montelupo Fiorentino</md:ServiceDescription>
+            <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="registeredOffice" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="idCard" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="expirationDate" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="address" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="digitalAddress" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+        </md:AttributeConsumingService>
+    </md:SPSSODescriptor>
+
+    <md:Organization>
+        <md:OrganizationName xml:lang="it">Comune di Montelupo Fiorentino</md:OrganizationName>
+        <md:OrganizationDisplayName xml:lang="it">Comune di Montelupo Fiorentino</md:OrganizationDisplayName>
+        <md:OrganizationURL xml:lang="it">https://www.comune.montelupo-fiorentino.fi.it/</md:OrganizationURL>
+    </md:Organization>
+    <md:ContactPerson contactType="other">
+        <md:Extensions>
+            <spid:IPACode>c_f551</spid:IPACode>
+            <spid:Public/>
+        </md:Extensions>
+        <md:Company>Comune di Montelupo Fiorentino</md:Company>
+        <md:EmailAddress>comune.montelupo-fiorentino@postacert.toscana.it</md:EmailAddress>
+        <md:TelephoneNumber>+390571917517</md:TelephoneNumber>
+    </md:ContactPerson>
+</md:EntityDescriptor>
