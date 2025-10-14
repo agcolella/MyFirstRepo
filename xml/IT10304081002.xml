@@ -1,0 +1,209 @@
+<?xml version="1.0"?>
+<md:EntityDescriptor
+    entityID="https://identitadigitale.gestoreposta.it/"
+    ID="GSP_681a637-6cd4-434f-92c3-4fed720b2ad8"
+    xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata"
+    xmlns:ds="http://www.w3.org/2000/09/xmldsig#"
+    xmlns:spid="https://spid.gov.it/saml-extensions">
+    <ds:Signature>
+  <ds:SignedInfo>
+    <ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+    <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+    <ds:Reference URI="#GSP_681a637-6cd4-434f-92c3-4fed720b2ad8">
+      <ds:Transforms>
+        <ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+        <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+      </ds:Transforms>
+      <ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+      <ds:DigestValue>wN0fu00HBE28H0DhdRNdeHvmDYrNDxz195UTgiVbVE0=</ds:DigestValue>
+    </ds:Reference>
+  </ds:SignedInfo>
+  <ds:SignatureValue>ZwsonL5il9E6ZR5uFgmf+HAcDUsYNhKgxh6eIFvWlHlVoyqAl/1QOwIWOSreouKM4R2tHA0aILlsa7SFhz/vldVWrx0fhBCZRE80qgaO6/YbWVbc6S7leQka090WaLL+2N3giN+ZbElXu3JnxrA+cRaWVSdCuTW1+HRBFEoJ2vPTDlOltdEW2nLmNCh02XS8IrYRrXYThDlzYvE67r3tpaJt8Rm1BjO0p62+di2cimm1hH4/kSOl04Eky7t952Z1WsZorYVfUMKIGJhL8KWvXSj33GyBY6s3R7Eahb0zhfqDwE7+nsYIKjENd9oErXkyrdEsKTUZwIwJCrcmZmQPbA==</ds:SignatureValue>
+  <ds:KeyInfo>
+    <ds:KeyValue>
+      <ds:RSAKeyValue><ds:Modulus>8tQ4e0G1RkFGzZZ5PdJVJ+LCRqPQOCacUP1Qqtq0kudsw+MZns3eZnAxvE8QgYsQg+U7O3117xMpzhFh2ZV7ieq+4ovTC/rS2M511xRCpMReHDTb7um6HHExRFn9JkoLYNvFnBX6GASKJ0wKlgWjXCd8tuIiiG31TRcSFrcKW3tTbDAlp0CumTgkb+ON/MTPf+EkddmW5PLXqNYcFGQ2Kkj1VWrerd1Xo45MjTMrViW3sguJenPZlqhdI9QsB25y/9nekKo+ablyMRo9Knu1UaPZO9UXq610nm5BWr7LQow851gmpv5HB2N0l1DeMvxLjkVr8tVWSPDZE7ncZM1MKw==</ds:Modulus><ds:Exponent>AQAB</ds:Exponent></ds:RSAKeyValue>
+    </ds:KeyValue>
+    <ds:X509Data>
+      <ds:X509Certificate>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</ds:X509Certificate>
+    </ds:X509Data>
+  </ds:KeyInfo>
+</ds:Signature><md:SPSSODescriptor
+        protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol"
+        AuthnRequestsSigned="true"
+        WantAssertionsSigned="true">
+
+        <md:KeyDescriptor use="signing">
+            <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+                <ds:X509Data>
+                    <ds:X509Certificate>MIIIgDCCBmigAwIBAgIIaKScBZ1WejowDQYJKoZIhvcNAQENBQAwgegxCzAJBgNV
+BAYTAklUMQ0wCwYDVQQHDARSb21lMSYwJAYDVQQKDB1BZ2VuemlhIHBlciBsJ0l0
+YWxpYSBEaWdpdGFsZTEwMC4GA1UECwwnU2Vydml6aW8gQWNjcmVkaXRhbWVudG8g
+ZSBwcm9nZXR0byBTUElEMSkwJwYDVQQDDCBQcm9nZXR0byBTUElEIC0gU29nZ2V0
+dGkgcHJpdmF0aTEpMCcGCSqGSIb3DQEJARYacHJvdG9jb2xsb0BwZWMuYWdpZC5n
+b3YuaXQxGjAYBgNVBAUTEVZBVElULTk3NzM1MDIwNTg0MB4XDTI0MDExMDAwMDAw
+MFoXDTM5MDEwOTIzNTk1OVowggErMTEwLwYDVQQDDChodHRwczovL2lkZW50aXRh
+ZGlnaXRhbGUuZ2VzdG9yZXBvc3RhLml0MQswCQYDVQQGEwJJVDENMAsGA1UEBwwE
+Um9tYTELMAkGA1UECAwCUk0xGjAYBgNVBGEMEVZBVElULTEwMzA0MDgxMDAyMSgw
+JgYDVQQKDB9HZXN0aW9uZSBTZXJ2aXppIFByaXZhdGkgUy5yLmwuMRowGAYDVQQF
+ExFWQVRJVC0xMDMwNDA4MTAwMjExMC8GA1UEUwwoaHR0cHM6Ly9pZGVudGl0YWRp
+Z2l0YWxlLmdlc3RvcmVwb3N0YS5pdDE4MDYGCSqGSIb3DQEJARYpYW1taW5pc3Ry
+YXppb25lQGdlc3Rpb25lc2Vydml6aXByaXZhdGkuaXQwggEiMA0GCSqGSIb3DQEB
+AQUAA4IBDwAwggEKAoIBAQDy1Dh7QbVGQUbNlnk90lUn4sJGo9A4JpxQ/VCq2rSS
+52zD4xmezd5mcDG8TxCBixCD5Ts7fXXvEynOEWHZlXuJ6r7ii9ML+tLYznXXFEKk
+xF4cNNvu6boccTFEWf0mSgtg28WcFfoYBIonTAqWBaNcJ3y24iKIbfVNFxIWtwpb
+e1NsMCWnQK6ZOCRv4438xM9/4SR12Zbk8teo1hwUZDYqSPVVat6t3VejjkyNMytW
+JbeyC4l6c9mWqF0j1CwHbnL/2d6Qqj5puXIxGj0qe7VRo9k71RerrXSebkFavstC
+jDznWCam/kcHY3SXUN4y/EuORWvy1VZI8NkTudxkzUwrAgMBAAGjggLmMIIC4jAM
+BgNVHRMBAf8EAjAAMB0GA1UdDgQWBBSVJigTAAcNKpdbfrO5Kl2X47j1IjAfBgNV
+HSMEGDAWgBScRTDETQ+g+iYPqdb8INYHbM5kVjAOBgNVHQ8BAf8EBAMCBsAwFgYD
+VR0SBA8wDYILc3BpZC5nb3YuaXQwQwYDVR0fBDwwOjA4oDagNIYyaHR0cHM6Ly9l
+aWRhcy5hZ2lkLmdvdi5pdC9jcmwvY3JsX1NQSURfcHJpdl9TQS5jcmwwNwYIKwYB
+BQUHAQEEKzApMCcGCCsGAQUFBzABhhtodHRwczovL29jc3BfU0EuYWdpZC5nb3Yu
+aXQwggHXBgNVHSAEggHOMIIByjAJBgcEAI5GAQYCMIGVBgQrTBAGMIGMMEQGCCsG
+AQUFBwICMDgaNkVsZWN0cm9uaWMgY2VydGlmaWNhdGUgY29uZm9ybWluZyB3aXRo
+IEFHSUQgR3VpZGVsaW5lczBEBggrBgEFBQcCAjA4GjZDZXJ0aWZpY2F0byBlbGV0
+dHJvbmljbyBjb25mb3JtZSBhbGxlIExpbmVlIGd1aWRhIEFnSUQwewYGK0wQBAMB
+MHEwNQYIKwYBBQUHAgIwKRonU1BJRDogZm9ybml0b3JlIGRpIHNlcnZpemkgKFNQ
+KSBwcml2YXRvMDgGCCsGAQUFBwICMCwaKlNQSUQ6IHByaXZhdGUtc2VjdG9yIFNl
+cnZpY2UgUHJvdmlkZXIgKFNQKTAIBgYEAI96AQMwTQYEK0wQBDBFMEMGCCsGAQUF
+BwIBFjdodHRwczovL2VpZGFzLmFnaWQuZ292Lml0L2Nwcy9BZ0lEX2VJREFTX3Jv
+b3RDQV9jcHMucGRmME8GBgQAjkYBBTBFMEMGCCsGAQUFBwIBFjdodHRwczovL2Vp
+ZGFzLmFnaWQuZ292Lml0L2Nwcy9BZ0lEX2VJREFTX3Jvb3RDQV9jcHMucGRmMBEG
+CWCGSAGG+EIBAQQEAwIABzANBgkqhkiG9w0BAQ0FAAOCAgEAnCnjDw4bT63nzv1y
+bB0uzFn8Vdjbts2r/xs5wFLfMk66krd8Lr0cVkXfhJOQGrjqSg2nWmeQo4OkBIWY
+N/Vs8HmXULNlrecHTlnZeHjbcfjguW0IEMtd9XuFosZBn0kYrz1AZji3mvpzXzvc
+9EgpYS1kIngsHD/674L37RuwtjuI3ogiNGu6/ebxF8dq+pcor7mcABMLb5DSWYf8
+1K84vu5iT5kdFx+2yJ5icfdVoChR1TMpLyGT7Dbtt072YUPkbt9SUdzeiw7+AECq
+1DMjPmpibo6PfxBTmAcHxL+IueqNIF2vEju7QZWfbLg4opx78f+J4Vu2bGsplcbf
+0Vb3yMbNAKF92fp+j71pZK6x625PtfUAt/zAAPwzqwiZgUOkItn7MQM+viaBKwnU
+8jvQ6GyP7nUOHCnPBPM1uXWeuBv8X0S6fuPjoY7g/KRVfIH2mc4hRmawmbeEE6Kw
+amDIp96V3blqUICfPELIJiFoE9uo8zeKLLL+KpCYPHskXS1yJ+fL7Kjr8XqYJYap
+ApVTlQaf7uJliaUOJNTbdnUSmahRfDP2+BnMmfWq0h5pxoxgAf8ZlyyOnzkc5b2i
+A4+ggNv2LY82ARTlodssFSKLlKZ17cPE+svlcNpch+r1Bxbo/lAAPXgxIt0JmcNK
+40OQiEW2ZVCnXTZ+FUHHB+VzKaM=</ds:X509Certificate>
+                </ds:X509Data>
+            </ds:KeyInfo>
+        </md:KeyDescriptor>
+
+        <md:KeyDescriptor use="encryption">
+            <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+                <ds:X509Data>
+                    <ds:X509Certificate>MIIIgDCCBmigAwIBAgIIaKScBZ1WejowDQYJKoZIhvcNAQENBQAwgegxCzAJBgNV
+BAYTAklUMQ0wCwYDVQQHDARSb21lMSYwJAYDVQQKDB1BZ2VuemlhIHBlciBsJ0l0
+YWxpYSBEaWdpdGFsZTEwMC4GA1UECwwnU2Vydml6aW8gQWNjcmVkaXRhbWVudG8g
+ZSBwcm9nZXR0byBTUElEMSkwJwYDVQQDDCBQcm9nZXR0byBTUElEIC0gU29nZ2V0
+dGkgcHJpdmF0aTEpMCcGCSqGSIb3DQEJARYacHJvdG9jb2xsb0BwZWMuYWdpZC5n
+b3YuaXQxGjAYBgNVBAUTEVZBVElULTk3NzM1MDIwNTg0MB4XDTI0MDExMDAwMDAw
+MFoXDTM5MDEwOTIzNTk1OVowggErMTEwLwYDVQQDDChodHRwczovL2lkZW50aXRh
+ZGlnaXRhbGUuZ2VzdG9yZXBvc3RhLml0MQswCQYDVQQGEwJJVDENMAsGA1UEBwwE
+Um9tYTELMAkGA1UECAwCUk0xGjAYBgNVBGEMEVZBVElULTEwMzA0MDgxMDAyMSgw
+JgYDVQQKDB9HZXN0aW9uZSBTZXJ2aXppIFByaXZhdGkgUy5yLmwuMRowGAYDVQQF
+ExFWQVRJVC0xMDMwNDA4MTAwMjExMC8GA1UEUwwoaHR0cHM6Ly9pZGVudGl0YWRp
+Z2l0YWxlLmdlc3RvcmVwb3N0YS5pdDE4MDYGCSqGSIb3DQEJARYpYW1taW5pc3Ry
+YXppb25lQGdlc3Rpb25lc2Vydml6aXByaXZhdGkuaXQwggEiMA0GCSqGSIb3DQEB
+AQUAA4IBDwAwggEKAoIBAQDy1Dh7QbVGQUbNlnk90lUn4sJGo9A4JpxQ/VCq2rSS
+52zD4xmezd5mcDG8TxCBixCD5Ts7fXXvEynOEWHZlXuJ6r7ii9ML+tLYznXXFEKk
+xF4cNNvu6boccTFEWf0mSgtg28WcFfoYBIonTAqWBaNcJ3y24iKIbfVNFxIWtwpb
+e1NsMCWnQK6ZOCRv4438xM9/4SR12Zbk8teo1hwUZDYqSPVVat6t3VejjkyNMytW
+JbeyC4l6c9mWqF0j1CwHbnL/2d6Qqj5puXIxGj0qe7VRo9k71RerrXSebkFavstC
+jDznWCam/kcHY3SXUN4y/EuORWvy1VZI8NkTudxkzUwrAgMBAAGjggLmMIIC4jAM
+BgNVHRMBAf8EAjAAMB0GA1UdDgQWBBSVJigTAAcNKpdbfrO5Kl2X47j1IjAfBgNV
+HSMEGDAWgBScRTDETQ+g+iYPqdb8INYHbM5kVjAOBgNVHQ8BAf8EBAMCBsAwFgYD
+VR0SBA8wDYILc3BpZC5nb3YuaXQwQwYDVR0fBDwwOjA4oDagNIYyaHR0cHM6Ly9l
+aWRhcy5hZ2lkLmdvdi5pdC9jcmwvY3JsX1NQSURfcHJpdl9TQS5jcmwwNwYIKwYB
+BQUHAQEEKzApMCcGCCsGAQUFBzABhhtodHRwczovL29jc3BfU0EuYWdpZC5nb3Yu
+aXQwggHXBgNVHSAEggHOMIIByjAJBgcEAI5GAQYCMIGVBgQrTBAGMIGMMEQGCCsG
+AQUFBwICMDgaNkVsZWN0cm9uaWMgY2VydGlmaWNhdGUgY29uZm9ybWluZyB3aXRo
+IEFHSUQgR3VpZGVsaW5lczBEBggrBgEFBQcCAjA4GjZDZXJ0aWZpY2F0byBlbGV0
+dHJvbmljbyBjb25mb3JtZSBhbGxlIExpbmVlIGd1aWRhIEFnSUQwewYGK0wQBAMB
+MHEwNQYIKwYBBQUHAgIwKRonU1BJRDogZm9ybml0b3JlIGRpIHNlcnZpemkgKFNQ
+KSBwcml2YXRvMDgGCCsGAQUFBwICMCwaKlNQSUQ6IHByaXZhdGUtc2VjdG9yIFNl
+cnZpY2UgUHJvdmlkZXIgKFNQKTAIBgYEAI96AQMwTQYEK0wQBDBFMEMGCCsGAQUF
+BwIBFjdodHRwczovL2VpZGFzLmFnaWQuZ292Lml0L2Nwcy9BZ0lEX2VJREFTX3Jv
+b3RDQV9jcHMucGRmME8GBgQAjkYBBTBFMEMGCCsGAQUFBwIBFjdodHRwczovL2Vp
+ZGFzLmFnaWQuZ292Lml0L2Nwcy9BZ0lEX2VJREFTX3Jvb3RDQV9jcHMucGRmMBEG
+CWCGSAGG+EIBAQQEAwIABzANBgkqhkiG9w0BAQ0FAAOCAgEAnCnjDw4bT63nzv1y
+bB0uzFn8Vdjbts2r/xs5wFLfMk66krd8Lr0cVkXfhJOQGrjqSg2nWmeQo4OkBIWY
+N/Vs8HmXULNlrecHTlnZeHjbcfjguW0IEMtd9XuFosZBn0kYrz1AZji3mvpzXzvc
+9EgpYS1kIngsHD/674L37RuwtjuI3ogiNGu6/ebxF8dq+pcor7mcABMLb5DSWYf8
+1K84vu5iT5kdFx+2yJ5icfdVoChR1TMpLyGT7Dbtt072YUPkbt9SUdzeiw7+AECq
+1DMjPmpibo6PfxBTmAcHxL+IueqNIF2vEju7QZWfbLg4opx78f+J4Vu2bGsplcbf
+0Vb3yMbNAKF92fp+j71pZK6x625PtfUAt/zAAPwzqwiZgUOkItn7MQM+viaBKwnU
+8jvQ6GyP7nUOHCnPBPM1uXWeuBv8X0S6fuPjoY7g/KRVfIH2mc4hRmawmbeEE6Kw
+amDIp96V3blqUICfPELIJiFoE9uo8zeKLLL+KpCYPHskXS1yJ+fL7Kjr8XqYJYap
+ApVTlQaf7uJliaUOJNTbdnUSmahRfDP2+BnMmfWq0h5pxoxgAf8ZlyyOnzkc5b2i
+A4+ggNv2LY82ARTlodssFSKLlKZ17cPE+svlcNpch+r1Bxbo/lAAPXgxIt0JmcNK
+40OQiEW2ZVCnXTZ+FUHHB+VzKaM=</ds:X509Certificate>
+                </ds:X509Data>
+            </ds:KeyInfo>
+        </md:KeyDescriptor>
+        <md:SingleLogoutService
+            Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST"
+            Location="https://identitadigitale.gestoreposta.it/spid/logout" />
+        <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+        <md:AssertionConsumerService
+            index="0" 
+            isDefault="true"
+            Location="https://identitadigitale.gestoreposta.it/sso/monidoc.php"
+            Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" />
+        <md:AssertionConsumerService
+            index="1"
+            Location="https://identitadigitale.gestoreposta.it/sso/whistly.php"
+            Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST"/>
+        <md:AttributeConsumingService index="0">
+            <md:ServiceName xml:lang="it">MoniDoc</md:ServiceName>
+            <md:RequestedAttribute Name="spidCode"/>
+            <md:RequestedAttribute Name="name"/>
+            <md:RequestedAttribute Name="familyName"/>
+            <md:RequestedAttribute Name="fiscalNumber"/>
+            <md:RequestedAttribute Name="mobilePhone"/>
+            <md:RequestedAttribute Name="email"/>
+        </md:AttributeConsumingService>
+        <md:AttributeConsumingService index="1">
+            <md:ServiceName xml:lang="it">Whistly</md:ServiceName>
+            <md:RequestedAttribute Name="spidCode"/>
+            <md:RequestedAttribute Name="fiscalNumber"/>
+        </md:AttributeConsumingService>
+    </md:SPSSODescriptor>
+    <md:Organization>
+        <md:OrganizationName xml:lang="it">Gestione Servizi Privati S.r.l.</md:OrganizationName>
+        <md:OrganizationDisplayName xml:lang="it">Gestione Servizi Privati S.r.l.</md:OrganizationDisplayName>
+        <md:OrganizationURL xml:lang="it">https://www.gspnet.it</md:OrganizationURL>
+    </md:Organization>
+    <md:ContactPerson contactType="other">
+        <md:Extensions>
+            <spid:VATNumber>IT10304081002</spid:VATNumber>
+            <spid:FiscalCode>10304081002</spid:FiscalCode>
+            <spid:Private/>
+        </md:Extensions>
+        <md:EmailAddress>commerciale@gestioneserviziprivati.it</md:EmailAddress>
+        <md:TelephoneNumber>+390624404002</md:TelephoneNumber>
+    </md:ContactPerson>
+    <md:ContactPerson contactType="billing">
+        <md:Extensions
+        xmlns:fpa="https://spid.gov.it/invoicing-extensions">
+            <fpa:CessionarioCommittente>
+            <fpa:DatiAnagrafici>
+                <fpa:IdFiscaleIVA>
+                    <fpa:IdPaese>IT</fpa:IdPaese>
+                    <fpa:IdCodice>10304081002</fpa:IdCodice>
+                </fpa:IdFiscaleIVA>
+                <fpa:Anagrafica>
+                    <fpa:Denominazione>Gestione Servizi Privati S.r.l.</fpa:Denominazione>
+                </fpa:Anagrafica>
+            </fpa:DatiAnagrafici>
+            <fpa:Sede>
+                <fpa:Indirizzo>via Lucio Mariani</fpa:Indirizzo>
+                <fpa:NumeroCivico>66</fpa:NumeroCivico>
+                <fpa:CAP>00178</fpa:CAP>
+                <fpa:Comune>Roma</fpa:Comune>
+                <fpa:Provincia>RM</fpa:Provincia>
+                <fpa:Nazione>IT</fpa:Nazione>
+            </fpa:Sede>
+            </fpa:CessionarioCommittente>
+        </md:Extensions>
+        <md:Company>Gestione Servizi Privati S.r.l.</md:Company>
+        <md:EmailAddress>amministrazione@gestioneserviziprivati.it</md:EmailAddress>
+        <md:TelephoneNumber>+390624404002</md:TelephoneNumber>
+    </md:ContactPerson>
+</md:EntityDescriptor>
