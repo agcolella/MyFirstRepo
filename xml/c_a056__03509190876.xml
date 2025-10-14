@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" ID="C6B98046_71C7_4AED_8CB6_8293FC4F5375" entityID="https://spidurbix.it/pub-ag-full/Adrano"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#C6B98046_71C7_4AED_8CB6_8293FC4F5375">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>8tAxWRM2z7LNE3JfEcYP7zGrKmLGyuNlFUFx8THdIOo=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+jR7/RuNNQ/kqgPU7e1gpW8gEZNW2LnengXNls/GRCEl7f/jPnBBU0dFgkEEg/0yXqV/ldhZUG2cZ
+1Po6jaAiS37I1XMNc4PLYAazthko9ckUzW98i0BNFgJJugSn4264CPou56/4z2ngRYcUzXgaQqaS
+0bsYW+VccgAeghVRMVQ6HRo7qc0tQtg00zdJ1LOWQ1jWRCcwTn/9tNLT11VH0H3MfKvlx0H5lFPN
+tIfz7mkSL3TRbUlptce38tb9vTPADgc7ShWmXuHcmVOzAVKopt4KqXdazNjDDy5yas9ApN65JP6D
+SXkxDyG95MM3MiMux/p9x4IVdsZFbiWvGYomnQ==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+yTYKyoccunO5ssBr5UJlFHhX9Tebykr6DmDe2G8ooE0GBG5gqLjSn0WXLi4Af1GEeZtWwY3sAhED
+wWF0ZvL5ghT0uPRXB+ItnlY6s5BPQ21BN8fd6UMD5o8ekADE4MdhF0Ztln48uTyrru1w/eBfIq2g
+g07kNawvwnuWUpBxD6VbVaG1kiFUdVN0l+mO631UrmdU1JejtDpo8skMcJMtycRB7uVjcLdpB8wT
+URWhH4vPLoxXQUppxhUr0FVbKyVxROhdiBBEkAy3jf6le7Q1PoSYkPFxj6bLSpknma6mUm+xLgfz
+8h8z4DMtLT7Ex80BUSNv7LU64hNJnRhowdkHzw==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIIKjCCBhKgAwIBAgIIbxfal8qJQ1gwDQYJKoZIhvcNAQENBQAwgeUxCzAJBgNVBAYTAklUMQ0w
+CwYDVQQHDARSb21lMSYwJAYDVQQKDB1BZ2VuemlhIHBlciBsJ0l0YWxpYSBEaWdpdGFsZTEsMCoG
+A1UECwwjU2Vydml6aW8gQWNjcmVkaXRhbWVudG8gZSBWaWdpbGFuemExKjAoBgNVBAMMIVByb2dl
+dHRvIFNQSUQgLSBTb2dnZXR0aV9wdWJibGljaTEpMCcGCSqGSIb3DQEJARYacHJvdG9jb2xsb0Bw
+ZWMuYWdpZC5nb3YuaXQxGjAYBgNVBAUTEVZBVElULTk3NzM1MDIwNTg0MB4XDTIzMDQxMjAwMDAw
+MFoXDTM4MDQxMTIzNTk1OVowgesxHTAbBgNVBAMMFGh0dHBzOi8vc3BpZHVyYml4Lml0MQswCQYD
+VQQGEwJJVDEPMA0GA1UEBwwGQWRyYW5vMQswCQYDVQQIDAJDVDEaMBgGA1UEYQwRVkFUSVQtMDM1
+MDkxOTA4NzYxKTAnBgNVBAoMIEpQU09GVCBESSBQVUxFTyBHSU9WQU5OSSBFIEMgU05DMRowGAYD
+VQQFExFWQVRJVC0wMzUwOTE5MDg3NjEdMBsGA1UEUwwUaHR0cHM6Ly9zcGlkdXJiaXguaXQxHTAb
+BgkqhkiG9w0BCQEWDnNwaWRAanBzb2Z0Lml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKC
+AQEAyTYKyoccunO5ssBr5UJlFHhX9Tebykr6DmDe2G8ooE0GBG5gqLjSn0WXLi4Af1GEeZtWwY3s
+AhEDwWF0ZvL5ghT0uPRXB+ItnlY6s5BPQ21BN8fd6UMD5o8ekADE4MdhF0Ztln48uTyrru1w/eBf
+Iq2gg07kNawvwnuWUpBxD6VbVaG1kiFUdVN0l+mO631UrmdU1JejtDpo8skMcJMtycRB7uVjcLdp
+B8wTURWhH4vPLoxXQUppxhUr0FVbKyVxROhdiBBEkAy3jf6le7Q1PoSYkPFxj6bLSpknma6mUm+x
+Lgfz8h8z4DMtLT7Ex80BUSNv7LU64hNJnRhowdkHzwIDAQABo4IC1DCCAtAwDAYDVR0TAQH/BAIw
+ADAdBgNVHQ4EFgQUWT/sVUdvjjm2mzC5tZfTRbVRsKUwHwYDVR0jBBgwFoAUPLtt6x79nW7L7lTm
+6jnViaBH1zQwDgYDVR0PAQH/BAQDAgbAMBYGA1UdEgQPMA2CC3NwaWQuZ292Lml0MEIGA1UdHwQ7
+MDkwN6A1oDOGMWh0dHBzOi8vZWlkYXMuYWdpZC5nb3YuaXQvY3JsL2NybF9TUElEX1B1Yl9TQS5j
+cmwwNwYIKwYBBQUHAQEEKzApMCcGCCsGAQUFBzABhhtodHRwczovL29jc3BfU0EuYWdpZC5nb3Yu
+aXQwggHZBgNVHSAEggHQMIIBzDAJBgcEAI5GAQYCMIGVBgQrTBAGMIGMMEQGCCsGAQUFBwICMDga
+NkVsZWN0cm9uaWMgY2VydGlmaWNhdGUgY29uZm9ybWluZyB3aXRoIEFHSUQgR3VpZGVsaW5lczBE
+BggrBgEFBQcCAjA4GjZDZXJ0aWZpY2F0byBlbGV0dHJvbmljbyBjb25mb3JtZSBhbGxlIExpbmVl
+IGd1aWRhIEFnSUQwfQYGK0wQBAICMHMwOgYIKwYBBQUHAgIwLhosU1BJRDogYWdncmVnYXRvcmUg
+J2Z1bGwnIGRpIHNlcnZpemkgcHViYmxpY2kwNQYIKwYBBQUHAgIwKRonU1BJRDogcHVibGljLXNl
+cnZpY2VzICdmdWxsJyBBZ2dyZWdhdG9yMAgGBgQAj3oBAzBNBgQrTBAEMEUwQwYIKwYBBQUHAgEW
+N2h0dHBzOi8vZWlkYXMuYWdpZC5nb3YuaXQvY3BzL0FnSURfZUlEQVNfcm9vdENBX2Nwcy5wZGYw
+TwYGBACORgEFMEUwQwYIKwYBBQUHAgEWN2h0dHBzOi8vZWlkYXMuYWdpZC5nb3YuaXQvY3BzL0Fn
+SURfZUlEQVNfcm9vdENBX2Nwcy5wZGYwDQYJKoZIhvcNAQENBQADggIBALbzG0JwcVlrt0c2p4JF
+NjwT9+OfStLHpOC/PjSZbmWPz1mtEzpUf3mShCsWfkhpRD38CRLAjxu+r7OABHfXT8O+iDmRA3H4
+j2DLAPc+sdOX9otmDQjRbgT2/9IxafgADZ65Vh9VzpnquwZWw4QCmhykQzUJJq12RD5VW5HfQtcO
+zPQN60m/2IEAyOM9EnuqUcsjF/UeI33XyJsbmrrt/lqdDe0K/WKAlQV1bXaQWr2BSEw3CNNEYpET
+gk518WN8YkPmayaDbEaWVqfE5OPnsRwBiCHiXpCkfmpwkyFadF9jxuCf0ldoVAHwZWRw/96tCewH
+Tw5HqeiqO0lMaWWxTWUQWkPo64+880JyEPz0tHp5AEwvQb1we33ck+IiKFbEORyy3pNJdjOEqqSK
+7WJEu7D6K59RwkhJHFduV29bwv8xWgdepGwjWHjKN/xPzzVkvFMw5LPS+ZnsGhyiK9ABrm13APlt
+Ve/PaLuH8rgoOVPfsEkQC5Fc1eJMenIu581yrLFCuhBsUt5XJ1KGAtPRvqSuIkXCTta4DrdyCxWe
+CRFD3Yj/7xIFOjqZhVbiZfB/bi0M4iXbyZk/lWm8ejyYEBcmacDeFYY///ahJwshhacd2xz48ZSr
+tnD1e/233VJnIpTu1fmh/43hzBMs8NxsXcCMzBfacBZxZ5dvACqp5ayO
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+<md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+          <md:KeyDescriptor use="signing">
+            <ds:KeyInfo>
+				<ds:X509Data>
+                    <ds:X509Certificate>MIIIKjCCBhKgAwIBAgIIbxfal8qJQ1gwDQYJKoZIhvcNAQENBQAwgeUxCzAJBgNV
+BAYTAklUMQ0wCwYDVQQHDARSb21lMSYwJAYDVQQKDB1BZ2VuemlhIHBlciBsJ0l0
+YWxpYSBEaWdpdGFsZTEsMCoGA1UECwwjU2Vydml6aW8gQWNjcmVkaXRhbWVudG8g
+ZSBWaWdpbGFuemExKjAoBgNVBAMMIVByb2dldHRvIFNQSUQgLSBTb2dnZXR0aV9w
+dWJibGljaTEpMCcGCSqGSIb3DQEJARYacHJvdG9jb2xsb0BwZWMuYWdpZC5nb3Yu
+aXQxGjAYBgNVBAUTEVZBVElULTk3NzM1MDIwNTg0MB4XDTIzMDQxMjAwMDAwMFoX
+DTM4MDQxMTIzNTk1OVowgesxHTAbBgNVBAMMFGh0dHBzOi8vc3BpZHVyYml4Lml0
+MQswCQYDVQQGEwJJVDEPMA0GA1UEBwwGQWRyYW5vMQswCQYDVQQIDAJDVDEaMBgG
+A1UEYQwRVkFUSVQtMDM1MDkxOTA4NzYxKTAnBgNVBAoMIEpQU09GVCBESSBQVUxF
+TyBHSU9WQU5OSSBFIEMgU05DMRowGAYDVQQFExFWQVRJVC0wMzUwOTE5MDg3NjEd
+MBsGA1UEUwwUaHR0cHM6Ly9zcGlkdXJiaXguaXQxHTAbBgkqhkiG9w0BCQEWDnNw
+aWRAanBzb2Z0Lml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAyTYK
+yoccunO5ssBr5UJlFHhX9Tebykr6DmDe2G8ooE0GBG5gqLjSn0WXLi4Af1GEeZtW
+wY3sAhEDwWF0ZvL5ghT0uPRXB+ItnlY6s5BPQ21BN8fd6UMD5o8ekADE4MdhF0Zt
+ln48uTyrru1w/eBfIq2gg07kNawvwnuWUpBxD6VbVaG1kiFUdVN0l+mO631UrmdU
+1JejtDpo8skMcJMtycRB7uVjcLdpB8wTURWhH4vPLoxXQUppxhUr0FVbKyVxROhd
+iBBEkAy3jf6le7Q1PoSYkPFxj6bLSpknma6mUm+xLgfz8h8z4DMtLT7Ex80BUSNv
+7LU64hNJnRhowdkHzwIDAQABo4IC1DCCAtAwDAYDVR0TAQH/BAIwADAdBgNVHQ4E
+FgQUWT/sVUdvjjm2mzC5tZfTRbVRsKUwHwYDVR0jBBgwFoAUPLtt6x79nW7L7lTm
+6jnViaBH1zQwDgYDVR0PAQH/BAQDAgbAMBYGA1UdEgQPMA2CC3NwaWQuZ292Lml0
+MEIGA1UdHwQ7MDkwN6A1oDOGMWh0dHBzOi8vZWlkYXMuYWdpZC5nb3YuaXQvY3Js
+L2NybF9TUElEX1B1Yl9TQS5jcmwwNwYIKwYBBQUHAQEEKzApMCcGCCsGAQUFBzAB
+hhtodHRwczovL29jc3BfU0EuYWdpZC5nb3YuaXQwggHZBgNVHSAEggHQMIIBzDAJ
+BgcEAI5GAQYCMIGVBgQrTBAGMIGMMEQGCCsGAQUFBwICMDgaNkVsZWN0cm9uaWMg
+Y2VydGlmaWNhdGUgY29uZm9ybWluZyB3aXRoIEFHSUQgR3VpZGVsaW5lczBEBggr
+BgEFBQcCAjA4GjZDZXJ0aWZpY2F0byBlbGV0dHJvbmljbyBjb25mb3JtZSBhbGxl
+IExpbmVlIGd1aWRhIEFnSUQwfQYGK0wQBAICMHMwOgYIKwYBBQUHAgIwLhosU1BJ
+RDogYWdncmVnYXRvcmUgJ2Z1bGwnIGRpIHNlcnZpemkgcHViYmxpY2kwNQYIKwYB
+BQUHAgIwKRonU1BJRDogcHVibGljLXNlcnZpY2VzICdmdWxsJyBBZ2dyZWdhdG9y
+MAgGBgQAj3oBAzBNBgQrTBAEMEUwQwYIKwYBBQUHAgEWN2h0dHBzOi8vZWlkYXMu
+YWdpZC5nb3YuaXQvY3BzL0FnSURfZUlEQVNfcm9vdENBX2Nwcy5wZGYwTwYGBACO
+RgEFMEUwQwYIKwYBBQUHAgEWN2h0dHBzOi8vZWlkYXMuYWdpZC5nb3YuaXQvY3Bz
+L0FnSURfZUlEQVNfcm9vdENBX2Nwcy5wZGYwDQYJKoZIhvcNAQENBQADggIBALbz
+G0JwcVlrt0c2p4JFNjwT9+OfStLHpOC/PjSZbmWPz1mtEzpUf3mShCsWfkhpRD38
+CRLAjxu+r7OABHfXT8O+iDmRA3H4j2DLAPc+sdOX9otmDQjRbgT2/9IxafgADZ65
+Vh9VzpnquwZWw4QCmhykQzUJJq12RD5VW5HfQtcOzPQN60m/2IEAyOM9EnuqUcsj
+F/UeI33XyJsbmrrt/lqdDe0K/WKAlQV1bXaQWr2BSEw3CNNEYpETgk518WN8YkPm
+ayaDbEaWVqfE5OPnsRwBiCHiXpCkfmpwkyFadF9jxuCf0ldoVAHwZWRw/96tCewH
+Tw5HqeiqO0lMaWWxTWUQWkPo64+880JyEPz0tHp5AEwvQb1we33ck+IiKFbEORyy
+3pNJdjOEqqSK7WJEu7D6K59RwkhJHFduV29bwv8xWgdepGwjWHjKN/xPzzVkvFMw
+5LPS+ZnsGhyiK9ABrm13APltVe/PaLuH8rgoOVPfsEkQC5Fc1eJMenIu581yrLFC
+uhBsUt5XJ1KGAtPRvqSuIkXCTta4DrdyCxWeCRFD3Yj/7xIFOjqZhVbiZfB/bi0M
+4iXbyZk/lWm8ejyYEBcmacDeFYY///ahJwshhacd2xz48ZSrtnD1e/233VJnIpTu
+1fmh/43hzBMs8NxsXcCMzBfacBZxZ5dvACqp5ayO</ds:X509Certificate>
+                </ds:X509Data>
+            </ds:KeyInfo>
+        </md:KeyDescriptor>
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spidurbix.it/slo"/>
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://spidurbix.it./slo"/>
+        <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spidurbix.it/sso" index="0" isDefault="true"/>
+
+        <md:AttributeConsumingService index="0">
+            <md:ServiceName xml:lang="it">Set 0
+            </md:ServiceName>
+            <md:ServiceDescription xml:lang="it">Login Attribute Set 0
+            </md:ServiceDescription>
+            <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="idCard" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="registeredOffice" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			</md:AttributeConsumingService>
+           </md:SPSSODescriptor>
+    <md:Organization>
+        <md:OrganizationName xml:lang="it">Comune di Adrano</md:OrganizationName>
+        <md:OrganizationDisplayName xml:lang="it">ComuneAdrano </md:OrganizationDisplayName>
+        <md:OrganizationURL xml:lang="it">https://spidurbix.it
+        </md:OrganizationURL>
+    </md:Organization>
+    <md:ContactPerson contactType="other" spid:entityType="spid:aggregator">
+        <md:Extensions>
+            <spid:VATNumber>IT03509190876</spid:VATNumber>
+			<spid:Fiscalcode>03509190876</spid:Fiscalcode>
+            <spid:PublicServicesFullAggregator/>
+        </md:Extensions>
+        <md:Company>JPSOFT DI PULEO GIOVANNI E C SNC</md:Company>
+        <md:EmailAddress>spid@jpsoft.it</md:EmailAddress>
+        <md:TelephoneNumber>+39095688506</md:TelephoneNumber>
+    </md:ContactPerson>
+    <md:ContactPerson contactType="other" spid:entityType="spid:aggregated">
+        <md:Extensions>
+            <spid:IPACode>c_a056</spid:IPACode>
+            <spid:Public/>
+        </md:Extensions>
+        <md:Company>Comune di Adrano</md:Company>
+    </md:ContactPerson>
+</md:EntityDescriptor>

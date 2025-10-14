@@ -1,0 +1,93 @@
+<?xml version="1.0"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:spid="https://spid.gov.it/saml-extensions" entityID="https://www.comune.lainate.mi.it/serviziSPID" ID="https___www_comune_lainate_mi_it_servizi____"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+  <ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+    <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+  <ds:Reference URI="#https___www_comune_lainate_mi_it_servizi____"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>7c+63U8W/dKBsWLeQXUeTWd3B+GFs8P2XN0UcqTpHLM=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>GHoGxStrT3yazHM3WvKC61nQ4AW9n08Hr4L4+kZjpC3rLAbcDYVSGafNIIOXjQLOxihUtX65n0HNd3a/CqiwO/mZRk+WMcpzGkUhFb4OCDTFnlUgXmYx4KHTS125TPlJ7ZDxxCvYkmsclDdcPo5S3oSGVml/V96VLcUIlRVCuD/BCA95T3zzJC9qrzfHsaADg6km4gHRrvNPv5p4QRgavf5xK6PLUSFLMDVsusj6wSepKkx3PqcuIpgZZYAy9jxgs9Q6Bhy7h7fqg3z6F4CMcxT4Vjxnf3SZTf4Fpwo16LZqL6cwjTyRimLdE3ESFz1PhgER4gTYwV9c06ysr82h4Q==</ds:SignatureValue>
+<ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIENzCCAx+gAwIBAgII7cpz4a/o6AAwDQYJKoZIhvcNAQELBQAwgbAxCzAJBgNVBAYTAklUMQ8wDQYDVQQIDAZNaWxhbm8xEDAOBgNVBAcMB0xhaW5hdGUxGjAYBgNVBAoMEUNvbXVuZSBkaSBMYWluYXRlMRowGAYDVQQLDBFDb211bmUgZGkgTGFpbmF0ZTEdMBsGA1UEAwwUY29tdW5lLmxhaW5hdGUubWkuaXQxJzAlBgkqhkiG9w0BCQEWGGNlZEBjb211bmUubGFpbmF0ZS5taS5pdDAeFw0yNDAxMTEwOTIzNDNaFw00NDAxMTAwOTIzNDNaMIGwMQswCQYDVQQGEwJJVDEPMA0GA1UECAwGTWlsYW5vMRAwDgYDVQQHDAdMYWluYXRlMRowGAYDVQQKDBFDb211bmUgZGkgTGFpbmF0ZTEaMBgGA1UECwwRQ29tdW5lIGRpIExhaW5hdGUxHTAbBgNVBAMMFGNvbXVuZS5sYWluYXRlLm1pLml0MScwJQYJKoZIhvcNAQkBFhhjZWRAY29tdW5lLmxhaW5hdGUubWkuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCdFqtlQI/UIbRtC9YwsOBV22GGgyZ71uxsU72i0AiCDjgdC50nXtYIWjuYHgt0mpEfwS1J/aasi4sNYEr8JzG8FF+gw716HUUHo3HuA8G1i0JOmUNiAW2pZPFElpXG2GeZTQFeHRCjV3A4K6tKyiB+7QHMWqPWPUKXXnQ4meetRAHzNKn3luWgkGsOWMuo4xPEOXay6NYrP6YAb8hg+DRmhu7kqEHuE57HgO4hUXVnn3zCmVmILkbMbsJ8xpzgk9hGpBNCKx3PAz4FszYg7OE6ovmQF75o+sGGZDI0KY3Fg5bhNx/Jh78Je6BLW42wzTyjXOSeROmuhuLRpSBKfaOpAgMBAAGjUzBRMB0GA1UdDgQWBBSY1JOtnocLxmqk2LVe3BNakBy4nzAfBgNVHSMEGDAWgBSY1JOtnocLxmqk2LVe3BNakBy4nzAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQAda+B4XtDqdHzjhK8cWZVVeXPXm/Z4JpD3xTfS7hLm/YTF39aC5IwQ8FYUA7v3xP9N8cq+edtOZichE3t2TpERj5qU6zdOIvNh6jI1VbsxOP2g9HghptSDH0GwO+rrgOB9aysIeVmP0u5lTn1UnC5JmetIzeFdwNHmlgV4gzhQFw0rGPw9ggkmSYwXrtN2oLOoOzjbX/Tgn6UNPFjoAwMPqgUXC02sO5u18zOXNhMkjnso2Vr75CbVd8Vz5DL53iMtsJ8yn/MUMnIfWO1iNMW2Rn+3mw5dBvJmASFjZQcN3KAnJqdiBGyy9pRAo8oil74vC8/DN2sAyHjYY0gYKeIk</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature>
+    <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true" WantAssertionsSigned="true">    <md:KeyDescriptor use="signing">
+        <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+            <ds:X509Data><ds:X509Certificate>MIIDUTCCAjmgAwIBAgIJALN72K0+vS+cMA0GCSqGSIb3DQEBCwUAMD8xITAfBgNVBAMMGHd3dy5jb211bmUubGFpbmF0ZS5taS5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwHhcNMTgwNjE4MTAwNzI4WhcNMjgwNjE1MTAwNzI4WjA/MSEwHwYDVQQDDBh3d3cuY29tdW5lLmxhaW5hdGUubWkuaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAoGuqfkOA0h+6s96e+Y7jY928Ybj9VFw1r97YSZ156xOfIIkJBZ48AtJHM9wm/Xc3rEg40UYjGT25QAYkvHgu4Bz4DA71H1lXVDSt8uYt29WjNDxDm9x1zb7GSyzB6AketVBEUHXbh7oNR+kz3S7JIFvu8LbdoTI29Hpgm5v/QlDhQGFJ3hJkRF0NDavBiwnWsPEQuQ4JBgr8LPnQShPk4W/UVsx849AIpPjY53ftpQfu1SSQGMKj/sZ1Kksllt0jAaDkCjk+nFvkj6G42bfavBn5dtH2XO8I+F0+4nvhQV9MKfRObMKsJgmbId7/2zxQk64ZDqc90gyfsr1RAiujFwIDAQABo1AwTjAdBgNVHQ4EFgQU30uIutaCOvxkXWzdjRV9qoYTPoswHwYDVR0jBBgwFoAU30uIutaCOvxkXWzdjRV9qoYTPoswDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAjvVVY9etA1gIR9st80z/6H640YxmNRSLLoAQsnfvQhHJe1050gA7YJkWCKuQDeSlwBRsa0OhCtHngSWyAP7vNaNPZTPW7sAoKEfCZj2zvZO0xIrffRSxM80WW06GyzAQyRNM1UvEjRJIFQSq1xNx0RZvVF3vQXrj3xWOAgYeOnbro0tyDKU8x4pTLXvjeChDdncYIMmpv5YGsGIBjPT7m2KTymECY8rTuXTyz5GawN1XnODm6nyzLhHVHNa/DqkR7nQey1dWusB51Q5Vxs3yFlc3U5Xh6XGHPjIuOX/a3h7H5VgJhM9Zj1JWb9jChPeqt55J16VvlG/IdIcqzFFn6w==</ds:X509Certificate></ds:X509Data>
+        </ds:KeyInfo>
+    </md:KeyDescriptor>    <md:KeyDescriptor use="signing">
+        <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+            <ds:X509Data><ds:X509Certificate> MIIDsDCCApigAwIBAgIJAKuQC381GpOoMA0GCSqGSIb3DQEBCwUAMH8xITAfBgNVBAMMGHd3dy5j b211bmUubGFpbmF0ZS5taS5pdDEaMBgGA1UECgwRQ29tdW5lIGRpIExhaW5hdGUxFTATBgNVBAQM DFBBOklULWNfZTQxNTELMAkGA1UEBhMCSVQxGjAYBgNVBAcMEUNvbXVuZSBkaSBMYWluYXRlMB4X DTIwMTAyNjExMjY0N1oXDTMwMTAyNDExMjY0N1owfzEhMB8GA1UEAwwYd3d3LmNvbXVuZS5sYWlu YXRlLm1pLml0MRowGAYDVQQKDBFDb211bmUgZGkgTGFpbmF0ZTEVMBMGA1UEBAwMUEE6SVQtY19l NDE1MQswCQYDVQQGEwJJVDEaMBgGA1UEBwwRQ29tdW5lIGRpIExhaW5hdGUwggEiMA0GCSqGSIb3 DQEBAQUAA4IBDwAwggEKAoIBAQDCNU66BxDy6qGJhriirdSttOM5kfEd0F6KTWtJHpR6Um718PXT yl6RqPrOTq/sm7ziJx50FR+vV83NX5kYQEnOX0R870yLaJyt7ibOVmYgQqrKW2XxEZ7ur+TUEysZ tpS0hKz90DxaL6xAU/j9+hQVbbmzwXEn/ULO0Q65fqB6XUXG8kzgdqUBdgbw4fj2jS7rLtPOjnOh qJ5sFDs4+vDVLgK/wem8g3NOtQWuME7P3mkcVBRohCvDgFv4TmNTO/sNbEOoCmEMin1Ol93rzuVU Z4AAVtcaegugAD3cDRj2BT6kR/TmWvxKmE+OThBAIqv+Z7apL8qhGcI4tCYf/HW3AgMBAAGjLzAt MAkGA1UdEwQCMAAwCwYDVR0PBAQDAgXgMBMGA1UdIAQMMAowCAYGK0wQBAIBMA0GCSqGSIb3DQEB CwUAA4IBAQAB9m3YgaYngDk2lz+ekCi2Lro9qohoGMmpAgYMryjQ3ObrGnvE0ZpPymOJhHAF0u2N 9HBYvHS98xgEmFmmqcTf2yn2zWdJmuNLhDyHMYNDq83tFxLOLsZ7hgSiGo09LKiqJZw3uT7md1VU GXHJkW+bL9kEN+VoHeTnwW5npr5EtsolenHEGdrh0F3Yrkz0U9z1CleI9Kzv5r1D2BmBTObnzrbE HkbNNs9w9GH6Mp8Efj142oDxrAVxRO60DjR9jNYc2M0lWoM/tF65J1GCImgTZDqqOLrL32LjnMk+ eR40N/INRl2bo5Jr4efVWJqgBscXx6mo+GtAOC76ZiPgoQgg </ds:X509Certificate></ds:X509Data>
+        </ds:KeyInfo>
+    </md:KeyDescriptor>    <!--SHIELD-->
+    <md:KeyDescriptor use="signing">
+        <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+            <ds:X509Data><ds:X509Certificate>MIIENzCCAx+gAwIBAgII7cpz4a/o6AAwDQYJKoZIhvcNAQELBQAwgbAxCzAJBgNVBAYTAklUMQ8wDQYDVQQIDAZNaWxhbm8xEDAOBgNVBAcMB0xhaW5hdGUxGjAYBgNVBAoMEUNvbXVuZSBkaSBMYWluYXRlMRowGAYDVQQLDBFDb211bmUgZGkgTGFpbmF0ZTEdMBsGA1UEAwwUY29tdW5lLmxhaW5hdGUubWkuaXQxJzAlBgkqhkiG9w0BCQEWGGNlZEBjb211bmUubGFpbmF0ZS5taS5pdDAeFw0yNDAxMTEwOTIzNDNaFw00NDAxMTAwOTIzNDNaMIGwMQswCQYDVQQGEwJJVDEPMA0GA1UECAwGTWlsYW5vMRAwDgYDVQQHDAdMYWluYXRlMRowGAYDVQQKDBFDb211bmUgZGkgTGFpbmF0ZTEaMBgGA1UECwwRQ29tdW5lIGRpIExhaW5hdGUxHTAbBgNVBAMMFGNvbXVuZS5sYWluYXRlLm1pLml0MScwJQYJKoZIhvcNAQkBFhhjZWRAY29tdW5lLmxhaW5hdGUubWkuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCdFqtlQI/UIbRtC9YwsOBV22GGgyZ71uxsU72i0AiCDjgdC50nXtYIWjuYHgt0mpEfwS1J/aasi4sNYEr8JzG8FF+gw716HUUHo3HuA8G1i0JOmUNiAW2pZPFElpXG2GeZTQFeHRCjV3A4K6tKyiB+7QHMWqPWPUKXXnQ4meetRAHzNKn3luWgkGsOWMuo4xPEOXay6NYrP6YAb8hg+DRmhu7kqEHuE57HgO4hUXVnn3zCmVmILkbMbsJ8xpzgk9hGpBNCKx3PAz4FszYg7OE6ovmQF75o+sGGZDI0KY3Fg5bhNx/Jh78Je6BLW42wzTyjXOSeROmuhuLRpSBKfaOpAgMBAAGjUzBRMB0GA1UdDgQWBBSY1JOtnocLxmqk2LVe3BNakBy4nzAfBgNVHSMEGDAWgBSY1JOtnocLxmqk2LVe3BNakBy4nzAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQAda+B4XtDqdHzjhK8cWZVVeXPXm/Z4JpD3xTfS7hLm/YTF39aC5IwQ8FYUA7v3xP9N8cq+edtOZichE3t2TpERj5qU6zdOIvNh6jI1VbsxOP2g9HghptSDH0GwO+rrgOB9aysIeVmP0u5lTn1UnC5JmetIzeFdwNHmlgV4gzhQFw0rGPw9ggkmSYwXrtN2oLOoOzjbX/Tgn6UNPFjoAwMPqgUXC02sO5u18zOXNhMkjnso2Vr75CbVd8Vz5DL53iMtsJ8yn/MUMnIfWO1iNMW2Rn+3mw5dBvJmASFjZQcN3KAnJqdiBGyy9pRAo8oil74vC8/DN2sAyHjYY0gYKeIk</ds:X509Certificate></ds:X509Data>
+        </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <!--END SHIELD-->
+            <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SingleLogout/alias/lainate"/>
+            <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://servizi.lainate.comune.cloud/simplesaml/module.php/saml/sp/saml2-logout.php/lainate-sp"/>
+            <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://comune.lainate.mi.it/login-bo/?spid_sso=out"/>        
+        <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+        <md:AssertionConsumerService index="0" isDefault="true" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/lainate" Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST"/>
+        <md:AssertionConsumerService index="1" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/lainate" Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST"/>
+        <md:AssertionConsumerService index="2" Location="https://servizi.lainate.comune.cloud/simplesaml/module.php/saml/sp/saml2-acs.php/lainate-sp" Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST"/>
+        <md:AssertionConsumerService index="3" Location="https://comune.lainate.mi.it/login-bo/?spid_sso=in" Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST"/>
+        <md:AttributeConsumingService index="0">
+            <md:ServiceName xml:lang="it">Set 0</md:ServiceName>       
+            <md:RequestedAttribute Name="gender"/>
+            <md:RequestedAttribute Name="companyName"/>
+            <md:RequestedAttribute Name="registeredOffice"/>
+            <md:RequestedAttribute Name="fiscalNumber"/>
+            <md:RequestedAttribute Name="ivaCode"/>
+            <md:RequestedAttribute Name="idCard"/>
+            <md:RequestedAttribute Name="spidCode"/>
+            <md:RequestedAttribute Name="name"/>
+            <md:RequestedAttribute Name="familyName"/>
+            <md:RequestedAttribute Name="placeOfBirth"/>
+            <md:RequestedAttribute Name="countyOfBirth"/>
+            <md:RequestedAttribute Name="dateOfBirth"/>
+            <md:RequestedAttribute Name="mobilePhone"/>
+            <md:RequestedAttribute Name="email"/>
+            <md:RequestedAttribute Name="address"/>
+            <md:RequestedAttribute Name="expirationDate"/>
+            <md:RequestedAttribute Name="digitalAddress"/></md:AttributeConsumingService>
+        <md:AttributeConsumingService index="1">
+            <md:ServiceName xml:lang="it">Set 1</md:ServiceName>       
+            <md:RequestedAttribute Name="fiscalNumber"/>
+            <md:RequestedAttribute Name="spidCode"/>
+            <md:RequestedAttribute Name="name"/>
+            <md:RequestedAttribute Name="familyName"/></md:AttributeConsumingService>
+        <md:AttributeConsumingService index="2">
+            <md:ServiceName xml:lang="it">Set 2</md:ServiceName>       
+            <md:RequestedAttribute Name="companyName"/>
+            <md:RequestedAttribute Name="registeredOffice"/>
+            <md:RequestedAttribute Name="fiscalNumber"/>
+            <md:RequestedAttribute Name="spidCode"/>
+            <md:RequestedAttribute Name="name"/>
+            <md:RequestedAttribute Name="familyName"/>
+            <md:RequestedAttribute Name="dateOfBirth"/>
+            <md:RequestedAttribute Name="mobilePhone"/>
+            <md:RequestedAttribute Name="email"/></md:AttributeConsumingService>
+        <md:AttributeConsumingService index="3">
+            <md:ServiceName xml:lang="it">Set 3</md:ServiceName>       
+            <md:RequestedAttribute Name="gender"/>
+            <md:RequestedAttribute Name="companyName"/>
+            <md:RequestedAttribute Name="registeredOffice"/>
+            <md:RequestedAttribute Name="fiscalNumber"/>
+            <md:RequestedAttribute Name="ivaCode"/>
+            <md:RequestedAttribute Name="idCard"/>
+            <md:RequestedAttribute Name="spidCode"/>
+            <md:RequestedAttribute Name="name"/>
+            <md:RequestedAttribute Name="familyName"/>
+            <md:RequestedAttribute Name="placeOfBirth"/>
+            <md:RequestedAttribute Name="countyOfBirth"/>
+            <md:RequestedAttribute Name="dateOfBirth"/>
+            <md:RequestedAttribute Name="mobilePhone"/>
+            <md:RequestedAttribute Name="email"/>
+            <md:RequestedAttribute Name="address"/>
+            <md:RequestedAttribute Name="expirationDate"/>
+            <md:RequestedAttribute Name="digitalAddress"/>
+            <md:RequestedAttribute Name="domicileStreetAddress"/>
+            <md:RequestedAttribute Name="domicilePostalCode"/>
+            <md:RequestedAttribute Name="domicileMunicipality"/>
+            <md:RequestedAttribute Name="domicileProvince"/>
+            <md:RequestedAttribute Name="domicileNation"/></md:AttributeConsumingService></md:SPSSODescriptor><md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Lainate</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Lainate</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.comune.lainate.mi.it/serviziSPID</md:OrganizationURL>
+</md:Organization><md:ContactPerson contactType="other"><md:Extensions><spid:IPACode>c_e415</spid:IPACode><spid:Public/></md:Extensions><md:EmailAddress>ced@comune.lainate.mi.it</md:EmailAddress><md:TelephoneNumber>+3902935981</md:TelephoneNumber></md:ContactPerson></md:EntityDescriptor>

@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:spid="https://spid.gov.it/saml-extensions" ID="_994e3ee93a9146eea0a38d258819c5ff" cacheDuration="P0Y0M30DT0H0M0.000S" entityID="https://eid-gateway.infocert.it/pub-ag-full/148002-avvbolzano"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#_994e3ee93a9146eea0a38d258819c5ff">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>Zuf3XuTUiT+SKn0ed4IdbBBRCTSSiT9bdvQHqLhkfvI=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+bedXWCb8ci5aeROXfWyx1y/w/P773+aa9owN77OdJNqwqWXhlfbz5W7JLgWvQZXo0bWYlbcMcEWk
+h8v9C0VBVXCnTz36UF3qWTztEXd5eamLCocpPWAqgBWfcHZTm2tTnf6bsfAugT+hlJ68Kzvl4jmP
+qi+61hs0UQJWSG7Rd7g1nFB7VnRPr1cTzDaoO+/jeCxxcUdwu0U0HqU7T7sz6SLQUdoMR+3EQvdv
+bMnG4qZuqg8kkKpcNi4Ifbe2iLy1mAi28mJDVRezBIJAPLweHE9gQyBPTtiNM2fNZSwLEaMiw7Fd
+9btxxVFsq21+5/+kq8ZHtpTRbWzMc7VZ+DfIFA==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+3LtW1AMSBh3CF0ZCrXyIpLTWFVhST5fQPoqkOqRMfDfd2k8ZwKvnKlMUiGWBN042VjafJBuV4KN4
+1apAOO7NlFpExr0lNL2LJmEPcVna75huKiUS43HzXnkBPZVfv3xbemvLKs5xlwES3G211b35oIPV
+GKzcG41QuQQQjJWYkiiB4IL5jrfbn1OckMHLeJeGrpZTQ7QCxdz9s++V43g3hIw+V7zYo9KTNWSV
+z+DCaRQPR5dAN9WFRCcg/25xQZ++UJ54Equ9UF5I2nSnBqNMJm0gHxB4mXc+UVkeYt6xfXm1AajS
+7h2YYf8sZoagKFnZ2li8N884/iy8YdIKt112fw==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIIGzCCBgOgAwIBAgIIONNAIytIVtgwDQYJKoZIhvcNAQENBQAwgeUxCzAJBgNVBAYTAklUMQ0w
+CwYDVQQHDARSb21lMSYwJAYDVQQKDB1BZ2VuemlhIHBlciBsJ0l0YWxpYSBEaWdpdGFsZTEsMCoG
+A1UECwwjU2Vydml6aW8gQWNjcmVkaXRhbWVudG8gZSBWaWdpbGFuemExKjAoBgNVBAMMIVByb2dl
+dHRvIFNQSUQgLSBTb2dnZXR0aV9wdWJibGljaTEpMCcGCSqGSIb3DQEJARYacHJvdG9jb2xsb0Bw
+ZWMuYWdpZC5nb3YuaXQxGjAYBgNVBAUTEVZBVElULTk3NzM1MDIwNTg0MB4XDTIyMTExMDAwMDAw
+MFoXDTM3MTEwOTIzNTk1OVowgdwxKDAmBgNVBAMMH2h0dHBzOi8vZWlkLWdhdGV3YXkuaW5mb2Nl
+cnQuaXQxGDAWBgNVBAoMD0luZm9DZXJ0IFMucC5BLjEaMBgGA1UEYQwRVkFUSVQtMDc5NDUyMTEw
+MDYxKDAmBgNVBFMMH2h0dHBzOi8vZWlkLWdhdGV3YXkuaW5mb2NlcnQuaXQxDTALBgNVBAcMBFJv
+bWExCzAJBgNVBAYTAklUMQswCQYDVQQIDAJSTTEnMCUGCSqGSIb3DQEJARYYdHNwaW5mb2NlcnRA
+bGVnYWxtYWlsLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA3LtW1AMSBh3CF0ZC
+rXyIpLTWFVhST5fQPoqkOqRMfDfd2k8ZwKvnKlMUiGWBN042VjafJBuV4KN41apAOO7NlFpExr0l
+NL2LJmEPcVna75huKiUS43HzXnkBPZVfv3xbemvLKs5xlwES3G211b35oIPVGKzcG41QuQQQjJWY
+kiiB4IL5jrfbn1OckMHLeJeGrpZTQ7QCxdz9s++V43g3hIw+V7zYo9KTNWSVz+DCaRQPR5dAN9WF
+RCcg/25xQZ++UJ54Equ9UF5I2nSnBqNMJm0gHxB4mXc+UVkeYt6xfXm1AajS7h2YYf8sZoagKFnZ
+2li8N884/iy8YdIKt112fwIDAQABo4IC1DCCAtAwDAYDVR0TAQH/BAIwADAdBgNVHQ4EFgQUBBCb
+4GyhxF5tnWuvD18v0ybxoQowHwYDVR0jBBgwFoAUPLtt6x79nW7L7lTm6jnViaBH1zQwDgYDVR0P
+AQH/BAQDAgbAMBYGA1UdEgQPMA2CC3NwaWQuZ292Lml0MEIGA1UdHwQ7MDkwN6A1oDOGMWh0dHBz
+Oi8vZWlkYXMuYWdpZC5nb3YuaXQvY3JsL2NybF9TUElEX1B1Yl9TQS5jcmwwNwYIKwYBBQUHAQEE
+KzApMCcGCCsGAQUFBzABhhtodHRwczovL29jc3BfU0EuYWdpZC5nb3YuaXQwggHZBgNVHSAEggHQ
+MIIBzDAJBgcEAI5GAQYCMIGVBgQrTBAGMIGMMEQGCCsGAQUFBwICMDgaNkVsZWN0cm9uaWMgY2Vy
+dGlmaWNhdGUgY29uZm9ybWluZyB3aXRoIEFHSUQgR3VpZGVsaW5lczBEBggrBgEFBQcCAjA4GjZD
+ZXJ0aWZpY2F0byBlbGV0dHJvbmljbyBjb25mb3JtZSBhbGxlIExpbmVlIGd1aWRhIEFnSUQwfQYG
+K0wQBAICMHMwOgYIKwYBBQUHAgIwLhosU1BJRDogYWdncmVnYXRvcmUgJ2Z1bGwnIGRpIHNlcnZp
+emkgcHViYmxpY2kwNQYIKwYBBQUHAgIwKRonU1BJRDogcHVibGljLXNlcnZpY2VzICdmdWxsJyBB
+Z2dyZWdhdG9yMAgGBgQAj3oBAzBNBgQrTBAEMEUwQwYIKwYBBQUHAgEWN2h0dHBzOi8vZWlkYXMu
+YWdpZC5nb3YuaXQvY3BzL0FnSURfZUlEQVNfcm9vdENBX2Nwcy5wZGYwTwYGBACORgEFMEUwQwYI
+KwYBBQUHAgEWN2h0dHBzOi8vZWlkYXMuYWdpZC5nb3YuaXQvY3BzL0FnSURfZUlEQVNfcm9vdENB
+X2Nwcy5wZGYwDQYJKoZIhvcNAQENBQADggIBAFbW2Nv62/KRCDSQAc0BXAMZD/SrTEZL9du+c8RB
+Vup37UQB9qBQLTz+X5OQNgBVuGywc6GGmwO/bSCifSTMZRAhxme4LjQT7NtrrmpOEK4Q+8rv2dKM
+r77ahKNx8VY5BYgBBwLL1PH67qvDrGBjW/cAzBvriEhLsSv/uSxxrq9LY9rhfpcQTv8wt6cUFKUH
+DZtjKVUw+PN/bLwWMpYLRiABZNytahef6RMHVAKWRxRjAnAH/clS/MCqgrtPb8Dabl7309S88R/m
+RtdYPAZ3VY3R0BrCIhg1t/uKJbVYHB9f7MnNGuPDMYv+4kuGlkY3JM5Dn9DPqTI3FZuDL8phOlpe
+7gL6cnvP23kkmfRObeWJ1vz/tk20I3nPK/mb45hCy71JTOMpMTlvEb5bA42Dc4A0yzaKHiAneqYo
+dvSsbNxuRt3zIOF+F+m3kpF0lNdr+aOnWT7xSrrpdzLn7HwokEZmzzTjkUdrShgWoWZNRR12h3X/
+2JyrQOD1SBT0d9hgCGFuIK96nyui5XXQRqJly/OwIkN7BeK49XAOU+4i8rnsvszxOi2uR8MdAgCk
+tRVEh9q4FGVYkd/LLBfO7mWZJ4Id0lxWQdkDqxblDT/3MGJCbXO3dy3VpV8j83UDod36nvGZibI9
+qs4Qeg3XvXghHLV+RTtKsp+5QDTlA09XpsKt
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIIGzCCBgOgAwIBAgIIONNAIytIVtgwDQYJKoZIhvcNAQENBQAwgeUxCzAJBgNV
+BAYTAklUMQ0wCwYDVQQHDARSb21lMSYwJAYDVQQKDB1BZ2VuemlhIHBlciBsJ0l0
+YWxpYSBEaWdpdGFsZTEsMCoGA1UECwwjU2Vydml6aW8gQWNjcmVkaXRhbWVudG8g
+ZSBWaWdpbGFuemExKjAoBgNVBAMMIVByb2dldHRvIFNQSUQgLSBTb2dnZXR0aV9w
+dWJibGljaTEpMCcGCSqGSIb3DQEJARYacHJvdG9jb2xsb0BwZWMuYWdpZC5nb3Yu
+aXQxGjAYBgNVBAUTEVZBVElULTk3NzM1MDIwNTg0MB4XDTIyMTExMDAwMDAwMFoX
+DTM3MTEwOTIzNTk1OVowgdwxKDAmBgNVBAMMH2h0dHBzOi8vZWlkLWdhdGV3YXku
+aW5mb2NlcnQuaXQxGDAWBgNVBAoMD0luZm9DZXJ0IFMucC5BLjEaMBgGA1UEYQwR
+VkFUSVQtMDc5NDUyMTEwMDYxKDAmBgNVBFMMH2h0dHBzOi8vZWlkLWdhdGV3YXku
+aW5mb2NlcnQuaXQxDTALBgNVBAcMBFJvbWExCzAJBgNVBAYTAklUMQswCQYDVQQI
+DAJSTTEnMCUGCSqGSIb3DQEJARYYdHNwaW5mb2NlcnRAbGVnYWxtYWlsLml0MIIB
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA3LtW1AMSBh3CF0ZCrXyIpLTW
+FVhST5fQPoqkOqRMfDfd2k8ZwKvnKlMUiGWBN042VjafJBuV4KN41apAOO7NlFpE
+xr0lNL2LJmEPcVna75huKiUS43HzXnkBPZVfv3xbemvLKs5xlwES3G211b35oIPV
+GKzcG41QuQQQjJWYkiiB4IL5jrfbn1OckMHLeJeGrpZTQ7QCxdz9s++V43g3hIw+
+V7zYo9KTNWSVz+DCaRQPR5dAN9WFRCcg/25xQZ++UJ54Equ9UF5I2nSnBqNMJm0g
+HxB4mXc+UVkeYt6xfXm1AajS7h2YYf8sZoagKFnZ2li8N884/iy8YdIKt112fwID
+AQABo4IC1DCCAtAwDAYDVR0TAQH/BAIwADAdBgNVHQ4EFgQUBBCb4GyhxF5tnWuv
+D18v0ybxoQowHwYDVR0jBBgwFoAUPLtt6x79nW7L7lTm6jnViaBH1zQwDgYDVR0P
+AQH/BAQDAgbAMBYGA1UdEgQPMA2CC3NwaWQuZ292Lml0MEIGA1UdHwQ7MDkwN6A1
+oDOGMWh0dHBzOi8vZWlkYXMuYWdpZC5nb3YuaXQvY3JsL2NybF9TUElEX1B1Yl9T
+QS5jcmwwNwYIKwYBBQUHAQEEKzApMCcGCCsGAQUFBzABhhtodHRwczovL29jc3Bf
+U0EuYWdpZC5nb3YuaXQwggHZBgNVHSAEggHQMIIBzDAJBgcEAI5GAQYCMIGVBgQr
+TBAGMIGMMEQGCCsGAQUFBwICMDgaNkVsZWN0cm9uaWMgY2VydGlmaWNhdGUgY29u
+Zm9ybWluZyB3aXRoIEFHSUQgR3VpZGVsaW5lczBEBggrBgEFBQcCAjA4GjZDZXJ0
+aWZpY2F0byBlbGV0dHJvbmljbyBjb25mb3JtZSBhbGxlIExpbmVlIGd1aWRhIEFn
+SUQwfQYGK0wQBAICMHMwOgYIKwYBBQUHAgIwLhosU1BJRDogYWdncmVnYXRvcmUg
+J2Z1bGwnIGRpIHNlcnZpemkgcHViYmxpY2kwNQYIKwYBBQUHAgIwKRonU1BJRDog
+cHVibGljLXNlcnZpY2VzICdmdWxsJyBBZ2dyZWdhdG9yMAgGBgQAj3oBAzBNBgQr
+TBAEMEUwQwYIKwYBBQUHAgEWN2h0dHBzOi8vZWlkYXMuYWdpZC5nb3YuaXQvY3Bz
+L0FnSURfZUlEQVNfcm9vdENBX2Nwcy5wZGYwTwYGBACORgEFMEUwQwYIKwYBBQUH
+AgEWN2h0dHBzOi8vZWlkYXMuYWdpZC5nb3YuaXQvY3BzL0FnSURfZUlEQVNfcm9v
+dENBX2Nwcy5wZGYwDQYJKoZIhvcNAQENBQADggIBAFbW2Nv62/KRCDSQAc0BXAMZ
+D/SrTEZL9du+c8RBVup37UQB9qBQLTz+X5OQNgBVuGywc6GGmwO/bSCifSTMZRAh
+xme4LjQT7NtrrmpOEK4Q+8rv2dKMr77ahKNx8VY5BYgBBwLL1PH67qvDrGBjW/cA
+zBvriEhLsSv/uSxxrq9LY9rhfpcQTv8wt6cUFKUHDZtjKVUw+PN/bLwWMpYLRiAB
+ZNytahef6RMHVAKWRxRjAnAH/clS/MCqgrtPb8Dabl7309S88R/mRtdYPAZ3VY3R
+0BrCIhg1t/uKJbVYHB9f7MnNGuPDMYv+4kuGlkY3JM5Dn9DPqTI3FZuDL8phOlpe
+7gL6cnvP23kkmfRObeWJ1vz/tk20I3nPK/mb45hCy71JTOMpMTlvEb5bA42Dc4A0
+yzaKHiAneqYodvSsbNxuRt3zIOF+F+m3kpF0lNdr+aOnWT7xSrrpdzLn7HwokEZm
+zzTjkUdrShgWoWZNRR12h3X/2JyrQOD1SBT0d9hgCGFuIK96nyui5XXQRqJly/Ow
+IkN7BeK49XAOU+4i8rnsvszxOi2uR8MdAgCktRVEh9q4FGVYkd/LLBfO7mWZJ4Id
+0lxWQdkDqxblDT/3MGJCbXO3dy3VpV8j83UDod36nvGZibI9qs4Qeg3XvXghHLV+
+RTtKsp+5QDTlA09XpsKt
+</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://eid-gateway.infocert.it/spid/logout"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://eid-gateway.infocert.it/spid/response" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://eid-gateway.infocert.it/v2/realms/148002-avvbolzano/broker/spid_infocert/endpoint" index="4" isDefault="false"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://eid-gateway.infocert.it/v2/realms/148002-avvbolzano/broker/spid_aruba/endpoint" index="5" isDefault="false"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://eid-gateway.infocert.it/v2/realms/148002-avvbolzano/broker/spid_eht/endpoint" index="6" isDefault="false"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://eid-gateway.infocert.it/v2/realms/148002-avvbolzano/broker/spid_infocamere/endpoint" index="7" isDefault="false"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://eid-gateway.infocert.it/v2/realms/148002-avvbolzano/broker/spid_lepida/endpoint" index="8" isDefault="false"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://eid-gateway.infocert.it/v2/realms/148002-avvbolzano/broker/spid_namirial/endpoint" index="9" isDefault="false"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://eid-gateway.infocert.it/v2/realms/148002-avvbolzano/broker/spid_poste/endpoint" index="10" isDefault="false"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://eid-gateway.infocert.it/v2/realms/148002-avvbolzano/broker/spid_sielte/endpoint" index="11" isDefault="false"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://eid-gateway.infocert.it/v2/realms/148002-avvbolzano/broker/spid_register/endpoint" index="12" isDefault="false"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://eid-gateway.infocert.it/v2/realms/148002-avvbolzano/broker/spid_teamsystem/endpoint" index="13" isDefault="false"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://eid-gateway.infocert.it/v2/realms/148002-avvbolzano/broker/spid_tim/endpoint" index="14" isDefault="false"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://eid-gateway.infocert.it/v2/realms/148002-avvbolzano/broker/spid_intesi/endpoint" index="15" isDefault="false"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://eid-gateway.infocert.it/v3/realms/148002-avvbolzano/broker/spid_infocert/endpoint" index="26" isDefault="false"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://eid-gateway.infocert.it/v3/realms/148002-avvbolzano/broker/spid_aruba/endpoint" index="27" isDefault="false"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://eid-gateway.infocert.it/v3/realms/148002-avvbolzano/broker/spid_eht/endpoint" index="28" isDefault="false"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://eid-gateway.infocert.it/v3/realms/148002-avvbolzano/broker/spid_infocamere/endpoint" index="29" isDefault="false"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://eid-gateway.infocert.it/v3/realms/148002-avvbolzano/broker/spid_lepida/endpoint" index="30" isDefault="false"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://eid-gateway.infocert.it/v3/realms/148002-avvbolzano/broker/spid_namirial/endpoint" index="31" isDefault="false"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://eid-gateway.infocert.it/v3/realms/148002-avvbolzano/broker/spid_poste/endpoint" index="32" isDefault="false"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://eid-gateway.infocert.it/v3/realms/148002-avvbolzano/broker/spid_sielte/endpoint" index="33" isDefault="false"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://eid-gateway.infocert.it/v3/realms/148002-avvbolzano/broker/spid_register/endpoint" index="34" isDefault="false"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://eid-gateway.infocert.it/v3/realms/148002-avvbolzano/broker/spid_teamsystem/endpoint" index="35" isDefault="false"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://eid-gateway.infocert.it/v3/realms/148002-avvbolzano/broker/spid_tim/endpoint" index="36" isDefault="false"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://eid-gateway.infocert.it/v3/realms/148002-avvbolzano/broker/spid_intesi/endpoint" index="37" isDefault="false"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://eid-gateway.infocert.it/k/realms/148002-avvbolzano/broker/spid_infocert/endpoint" index="48" isDefault="false"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://eid-gateway.infocert.it/k/realms/148002-avvbolzano/broker/spid_aruba/endpoint" index="49" isDefault="false"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://eid-gateway.infocert.it/k/realms/148002-avvbolzano/broker/spid_eht/endpoint" index="50" isDefault="false"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://eid-gateway.infocert.it/k/realms/148002-avvbolzano/broker/spid_infocamere/endpoint" index="51" isDefault="false"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://eid-gateway.infocert.it/k/realms/148002-avvbolzano/broker/spid_lepida/endpoint" index="52" isDefault="false"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://eid-gateway.infocert.it/k/realms/148002-avvbolzano/broker/spid_namirial/endpoint" index="53" isDefault="false"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://eid-gateway.infocert.it/k/realms/148002-avvbolzano/broker/spid_poste/endpoint" index="54" isDefault="false"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://eid-gateway.infocert.it/k/realms/148002-avvbolzano/broker/spid_sielte/endpoint" index="55" isDefault="false"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://eid-gateway.infocert.it/k/realms/148002-avvbolzano/broker/spid_register/endpoint" index="56" isDefault="false"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://eid-gateway.infocert.it/k/realms/148002-avvbolzano/broker/spid_teamsystem/endpoint" index="57" isDefault="false"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://eid-gateway.infocert.it/k/realms/148002-avvbolzano/broker/spid_tim/endpoint" index="58" isDefault="false"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://eid-gateway.infocert.it/k/realms/148002-avvbolzano/broker/spid_intesi/endpoint" index="59" isDefault="false"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">Set 0</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice identificativo SPID" Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale persona fisica" Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Ordine degli Avvocati di Bolzano - Rechtsanwaltskammer Bozen</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Ordine degli Avvocati di Bolzano - Rechtsanwaltskammer Bozen</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://sfera.sferabit.com/spid-sfera.php?idAtz=1021</md:OrganizationURL>
+  </md:Organization>
+  <md:ContactPerson contactType="other" spid:entityType="spid:aggregator">
+    <md:Extensions>
+      <spid:VATNumber>IT07945211006</spid:VATNumber>
+      <spid:FiscalCode>07945211006</spid:FiscalCode>
+      <spid:PublicServicesFullAggregator/>
+    </md:Extensions>
+    <md:Company>INFOCERT SPA</md:Company>
+    <md:EmailAddress>infocert@legalmail.it</md:EmailAddress>
+    <md:TelephoneNumber>+390683669211</md:TelephoneNumber>
+  </md:ContactPerson>
+  <md:ContactPerson contactType="other" spid:entityType="spid:aggregated">
+    <md:Extensions>
+      <spid:IPACode>odab_021</spid:IPACode>
+      <spid:Public/>
+    </md:Extensions>
+    <md:Company>Ordine degli Avvocati di Bolzano - Rechtsanwaltskammer Bozen</md:Company>
+  </md:ContactPerson>
+</md:EntityDescriptor>

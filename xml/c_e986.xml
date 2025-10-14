@@ -1,0 +1,86 @@
+<?xml version="1.0"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:spid="https://spid.gov.it/saml-extensions" entityID="https://www.comune.martinafranca.ta.it/moduli/espid/spid/metadata.php" ID="https___www_comune_martinafranca_ta_it_moduli_espid_spid_metadata_php"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+  <ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+    <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+  <ds:Reference URI="#https___www_comune_martinafranca_ta_it_moduli_espid_spid_metadata_php"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>6qBiKWezkmyKSuQo+0E2gj81X/Kfn6enkA0S/RI892M=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>caHCiIAgX4cibTDLXBe2UgHDI6LCW8UmZ/RzII2d+iIJjuEXqqeUW0j4EK9qoZ9wgd0pT9VFpcS6GMddgb9C+NS3MrDSopc4HypKiNUtlq6yv74rdy6RuarVGG2/oy2s1XnPaOZDNEFO/s0UVipz6ISrCuEBeDgUxyuJNqnr5nrHUafDyAyI4wducB3pGyXRX41Wrdm6MXiqy7c4CMQB++OBcSZrBvNlz11Ex3iBSNFdkMjQ27BIoMzkrflZQeyiXJB5PdbgJS4BuEwTISo7QufnFFvd+Q5d9+yzbNAD/RZYy1/yZbHk6y+lMxBspS99N8wE1+/T8q2HklOrsMzgmw==</ds:SignatureValue>
+<ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIEnDCCA4SgAwIBAgII2fNmcw66IAAwDQYJKoZIhvcNAQELBQAwggEMMSEwHwYDVQQKDBhDb211bmUgZGkgTWFydGluYSBGcmFuY2ExFTATBgNVBGEMDFBBOklULWNfZTk4NjELMAkGA1UEBhMCSVQxFzAVBgNVBAcMDk1hcnRpbmEgRnJhbmNhMRcwFQYDVQQDDA5NYXJ0aW5hIEZyYW5jYTFBMD8GCSqGSIb3DQEJARYycHJvdG9jb2xsby5jb211bmVtYXJ0aW5hZnJhbmNhQHBlYy5ydXBhci5wdWdsaWEuaXQxTjBMBgNVBFMMRWh0dHBzOi8vd3d3LmNvbXVuZS5tYXJ0aW5hZnJhbmNhLnRhLml0L21vZHVsaS9lc3BpZC9zcGlkL21ldGFkYXRhLnBocDAeFw0yMzExMjcxNjM5MzRaFw0yNTExMjYxNjM5MzRaMIIBDDEhMB8GA1UECgwYQ29tdW5lIGRpIE1hcnRpbmEgRnJhbmNhMRUwEwYDVQRhDAxQQTpJVC1jX2U5ODYxCzAJBgNVBAYTAklUMRcwFQYDVQQHDA5NYXJ0aW5hIEZyYW5jYTEXMBUGA1UEAwwOTWFydGluYSBGcmFuY2ExQTA/BgkqhkiG9w0BCQEWMnByb3RvY29sbG8uY29tdW5lbWFydGluYWZyYW5jYUBwZWMucnVwYXIucHVnbGlhLml0MU4wTAYDVQRTDEVodHRwczovL3d3dy5jb211bmUubWFydGluYWZyYW5jYS50YS5pdC9tb2R1bGkvZXNwaWQvc3BpZC9tZXRhZGF0YS5waHAwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCthqd5YWtEJH4C4GCCQdnXkoAb4S7yeHCd8oP5WgZjAqxpX6Rsfdcar0ZUtOgrxGirxHZ3hj3MRyto7/1yZW2fYneI7SEr//iPsP/a6QJfdUvAJ1ECzNkQ/NEan3z3Y/XSky1ZAk6DVcPdXN1ADA3+YE45695o3AmG0muBoCuR1DIkZYzIpoGlWAHgva9sYDG+Cxu7ZP/UQV7LoMxJD9KVZx2kKGK28Q7Ln1NpmwnGS8Vee21KdWqiUALLdfOGaiPunhehtC7pDHG1Bryld5ipFWLdrKP1Clef1HaCJAeg9g38bd6QY+3hdOYMClD2R3imFGHtWs6KRBRyeOYRjs1RAgMBAAEwDQYJKoZIhvcNAQELBQADggEBAC4GItmCJdOImmCMcUwTzxoVXVK4/u/kr59qgTnNq9zqlX8MPRZaGqBw52OaH69woqhbXoNRGOfLb9i5FFXbcPssZxsAeFGCeGCXzxBLab401UL7djPcOJkSFZ69O8eJDvVh4JQffJ981rdjINWntMlNRc0HpycfQkdBbkv75WEmcjojcK32G4To3Z+m/XSgJhqpIPSBh7J2NKaOiYsMzE1AqJcQXhywIO6Lnevx6jGC3FqRH5Ys5c5TyHEcfGZlFGkO88wLmIpw+URuRHU+Qrgr6jHz0YLtrukpxRurpNhxCE2v8rm1H0PKYZERrnBgJGY5JEMkOe7ddg7vg13fe1o=</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature>
+    <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true" WantAssertionsSigned="true">
+        <md:KeyDescriptor use="signing">
+            <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+                <ds:X509Data><ds:X509Certificate>MIIEnDCCA4SgAwIBAgII2fNmcw66IAAwDQYJKoZIhvcNAQELBQAwggEMMSEwHwYDVQQKDBhDb211bmUgZGkgTWFydGluYSBGcmFuY2ExFTATBgNVBGEMDFBBOklULWNfZTk4NjELMAkGA1UEBhMCSVQxFzAVBgNVBAcMDk1hcnRpbmEgRnJhbmNhMRcwFQYDVQQDDA5NYXJ0aW5hIEZyYW5jYTFBMD8GCSqGSIb3DQEJARYycHJvdG9jb2xsby5jb211bmVtYXJ0aW5hZnJhbmNhQHBlYy5ydXBhci5wdWdsaWEuaXQxTjBMBgNVBFMMRWh0dHBzOi8vd3d3LmNvbXVuZS5tYXJ0aW5hZnJhbmNhLnRhLml0L21vZHVsaS9lc3BpZC9zcGlkL21ldGFkYXRhLnBocDAeFw0yMzExMjcxNjM5MzRaFw0yNTExMjYxNjM5MzRaMIIBDDEhMB8GA1UECgwYQ29tdW5lIGRpIE1hcnRpbmEgRnJhbmNhMRUwEwYDVQRhDAxQQTpJVC1jX2U5ODYxCzAJBgNVBAYTAklUMRcwFQYDVQQHDA5NYXJ0aW5hIEZyYW5jYTEXMBUGA1UEAwwOTWFydGluYSBGcmFuY2ExQTA/BgkqhkiG9w0BCQEWMnByb3RvY29sbG8uY29tdW5lbWFydGluYWZyYW5jYUBwZWMucnVwYXIucHVnbGlhLml0MU4wTAYDVQRTDEVodHRwczovL3d3dy5jb211bmUubWFydGluYWZyYW5jYS50YS5pdC9tb2R1bGkvZXNwaWQvc3BpZC9tZXRhZGF0YS5waHAwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCthqd5YWtEJH4C4GCCQdnXkoAb4S7yeHCd8oP5WgZjAqxpX6Rsfdcar0ZUtOgrxGirxHZ3hj3MRyto7/1yZW2fYneI7SEr//iPsP/a6QJfdUvAJ1ECzNkQ/NEan3z3Y/XSky1ZAk6DVcPdXN1ADA3+YE45695o3AmG0muBoCuR1DIkZYzIpoGlWAHgva9sYDG+Cxu7ZP/UQV7LoMxJD9KVZx2kKGK28Q7Ln1NpmwnGS8Vee21KdWqiUALLdfOGaiPunhehtC7pDHG1Bryld5ipFWLdrKP1Clef1HaCJAeg9g38bd6QY+3hdOYMClD2R3imFGHtWs6KRBRyeOYRjs1RAgMBAAEwDQYJKoZIhvcNAQELBQADggEBAC4GItmCJdOImmCMcUwTzxoVXVK4/u/kr59qgTnNq9zqlX8MPRZaGqBw52OaH69woqhbXoNRGOfLb9i5FFXbcPssZxsAeFGCeGCXzxBLab401UL7djPcOJkSFZ69O8eJDvVh4JQffJ981rdjINWntMlNRc0HpycfQkdBbkv75WEmcjojcK32G4To3Z+m/XSgJhqpIPSBh7J2NKaOiYsMzE1AqJcQXhywIO6Lnevx6jGC3FqRH5Ys5c5TyHEcfGZlFGkO88wLmIpw+URuRHU+Qrgr6jHz0YLtrukpxRurpNhxCE2v8rm1H0PKYZERrnBgJGY5JEMkOe7ddg7vg13fe1o=</ds:X509Certificate></ds:X509Data>
+            </ds:KeyInfo>
+        </md:KeyDescriptor>        <md:KeyDescriptor use="signing">
+            <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+                <ds:X509Data>
+                    <ds:X509Certificate>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</ds:X509Certificate>
+                </ds:X509Data>
+            </ds:KeyInfo>
+        </md:KeyDescriptor>
+            <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.comune.martinafranca.ta.it/index.php?sls"/>
+            <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.comune.martinafranca.ta.it/index.php?sls"/>
+            <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://martinafranca.login.opencityitalia.it/slo"/>        
+        <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+        <md:AssertionConsumerService index="0" isDefault="true" Location="https://www.comune.martinafranca.ta.it/index.php?acs" Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST"/>
+        <md:AssertionConsumerService index="1" Location="https://www.comune.martinafranca.ta.it/index.php?acs" Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST"/>
+        <md:AssertionConsumerService index="2" Location="https://martinafranca.login.opencityitalia.it/acs" Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST"/>
+        <md:AttributeConsumingService index="0">
+            <md:ServiceName xml:lang="it">Set 0</md:ServiceName>       
+            <md:RequestedAttribute Name="gender"/>
+            <md:RequestedAttribute Name="companyName"/>
+            <md:RequestedAttribute Name="registeredOffice"/>
+            <md:RequestedAttribute Name="fiscalNumber"/>
+            <md:RequestedAttribute Name="ivaCode"/>
+            <md:RequestedAttribute Name="idCard"/>
+            <md:RequestedAttribute Name="spidCode"/>
+            <md:RequestedAttribute Name="name"/>
+            <md:RequestedAttribute Name="familyName"/>
+            <md:RequestedAttribute Name="placeOfBirth"/>
+            <md:RequestedAttribute Name="countyOfBirth"/>
+            <md:RequestedAttribute Name="dateOfBirth"/>
+            <md:RequestedAttribute Name="mobilePhone"/>
+            <md:RequestedAttribute Name="email"/>
+            <md:RequestedAttribute Name="address"/>
+            <md:RequestedAttribute Name="expirationDate"/>
+            <md:RequestedAttribute Name="digitalAddress"/></md:AttributeConsumingService>
+        <md:AttributeConsumingService index="1">
+            <md:ServiceName xml:lang="it">Set 1</md:ServiceName>       
+            <md:RequestedAttribute Name="gender"/>
+            <md:RequestedAttribute Name="companyName"/>
+            <md:RequestedAttribute Name="registeredOffice"/>
+            <md:RequestedAttribute Name="fiscalNumber"/>
+            <md:RequestedAttribute Name="ivaCode"/>
+            <md:RequestedAttribute Name="idCard"/>
+            <md:RequestedAttribute Name="spidCode"/>
+            <md:RequestedAttribute Name="name"/>
+            <md:RequestedAttribute Name="familyName"/>
+            <md:RequestedAttribute Name="placeOfBirth"/>
+            <md:RequestedAttribute Name="countyOfBirth"/>
+            <md:RequestedAttribute Name="dateOfBirth"/>
+            <md:RequestedAttribute Name="mobilePhone"/>
+            <md:RequestedAttribute Name="email"/>
+            <md:RequestedAttribute Name="address"/>
+            <md:RequestedAttribute Name="expirationDate"/>
+            <md:RequestedAttribute Name="digitalAddress"/></md:AttributeConsumingService>
+        <md:AttributeConsumingService index="2">
+            <md:ServiceName xml:lang="it">Set 2</md:ServiceName>       
+            <md:RequestedAttribute Name="gender"/>
+            <md:RequestedAttribute Name="companyName"/>
+            <md:RequestedAttribute Name="registeredOffice"/>
+            <md:RequestedAttribute Name="fiscalNumber"/>
+            <md:RequestedAttribute Name="ivaCode"/>
+            <md:RequestedAttribute Name="idCard"/>
+            <md:RequestedAttribute Name="spidCode"/>
+            <md:RequestedAttribute Name="name"/>
+            <md:RequestedAttribute Name="familyName"/>
+            <md:RequestedAttribute Name="placeOfBirth"/>
+            <md:RequestedAttribute Name="countyOfBirth"/>
+            <md:RequestedAttribute Name="dateOfBirth"/>
+            <md:RequestedAttribute Name="mobilePhone"/>
+            <md:RequestedAttribute Name="email"/>
+            <md:RequestedAttribute Name="address"/>
+            <md:RequestedAttribute Name="expirationDate"/>
+            <md:RequestedAttribute Name="digitalAddress"/></md:AttributeConsumingService></md:SPSSODescriptor><md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Martina Franca</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Martina Franca</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.comune.martinafranca.ta.it/moduli/espid/spid/metadata.php</md:OrganizationURL>
+</md:Organization><md:ContactPerson contactType="other"><md:Extensions><spid:IPACode>c_e986</spid:IPACode><spid:Public/><spid:FiscalCode>80006710737</spid:FiscalCode></md:Extensions><md:EmailAddress>protocollo.comunemartinafranca@pec.rupar.puglia.it</md:EmailAddress><md:TelephoneNumber>+390804836111</md:TelephoneNumber></md:ContactPerson></md:EntityDescriptor>

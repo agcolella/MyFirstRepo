@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:spid="https://spid.gov.it/saml-extensions" entityID="https://srrennaprovincia.gestionequalitarifiuti.it" ID="https___srrennaprovincia_gestionequalitarifiuti_it"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+  <ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+    <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+  <ds:Reference URI="#https___srrennaprovincia_gestionequalitarifiuti_it"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>a7GiOj7r9T18rzBkZ0kI+V3ns5mLsc7HHhKLbUOA384=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>dA+56KF1CFpHe+atFBQeImPEg8wYrbmsWMT05e+ZcjmzCSBnfo40MZc6m2263yNya+X90uWegtGu8D9+hPbIguQEw3+cTD2929GgnKDq30J29S5266ci/eiHcqKFxVImaYtE00GIqs2VvpjUm0BaSGdlUi38HuAVR3bhXBU2Kr49i7DqovnxpwBT+LTXeo9BtkltpOnmlYZjyGX53oLKJ68xL/d9NWnICf3OyAau/kI+yGIye1+CxbBb8hHEsGrC5qC3fam5iIn85+sujlpq3C6T574kxuUHOQ5JT7D4tWQ8t59C9cXKMPNPQ0KIopcw91Lc+AvVEHNzr/YUVDgDJQ==</ds:SignatureValue>
+<ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIFZTCCBE2gAwIBAgIIEQ+wQifKpDcwDQYJKoZIhvcNAQELBQAwggE3MQswCQYDVQQGEwJJVDENMAsGA1UECAwERW5uYTENMAsGA1UEBwwERW5uYTEtMCsGA1UECgwkUy5SLlIuIEVubmEgUHJvdmluY2lhIEF0byA2IFMuUC5DLkEuMS0wKwYDVQQLDCRTLlIuUi4gRW5uYSBQcm92aW5jaWEgQXRvIDYgUy5QLkMuQS4xMzAxBgNVBAMMKnNycmVubmFwcm92aW5jaWEuZ2VzdGlvbmVxdWFsaXRhcmlmaXV0aS5pdDEkMCIGCSqGSIb3DQEJARYVZGV2ZWxvcGVyQGdvbGVtbmV0Lml0MRQwEgYDVQRhDAtQQTpJVC1zcnJlcDE7MDkGA1UEUwwyaHR0cHM6Ly9zcnJlbm5hcHJvdmluY2lhLmdlc3Rpb25lcXVhbGl0YXJpZml1dGkuaXQwHhcNMjMxMjA1MTY1ODExWhcNNDMxMjA0MTY1ODExWjCCATcxCzAJBgNVBAYTAklUMQ0wCwYDVQQIDARFbm5hMQ0wCwYDVQQHDARFbm5hMS0wKwYDVQQKDCRTLlIuUi4gRW5uYSBQcm92aW5jaWEgQXRvIDYgUy5QLkMuQS4xLTArBgNVBAsMJFMuUi5SLiBFbm5hIFByb3ZpbmNpYSBBdG8gNiBTLlAuQy5BLjEzMDEGA1UEAwwqc3JyZW5uYXByb3ZpbmNpYS5nZXN0aW9uZXF1YWxpdGFyaWZpdXRpLml0MSQwIgYJKoZIhvcNAQkBFhVkZXZlbG9wZXJAZ29sZW1uZXQuaXQxFDASBgNVBGEMC1BBOklULXNycmVwMTswOQYDVQRTDDJodHRwczovL3NycmVubmFwcm92aW5jaWEuZ2VzdGlvbmVxdWFsaXRhcmlmaXV0aS5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAI51lrOaIKtxRwas/YEZqeFNobnpXyUq0aiQWUJQDEZtc+lzIg4WzqJJgUQzMJHBDAqlAJcE3ieaQW+yPojx6M8Q/cYn3T/XiCHBPC2JpaVZKIedB0vo/pMcPEYirCu1ba3Ut+xM7OGKaQn1BsmnfhR1gQCNrWd0ZMgYvG2sMs5FoH++fYNw7G7lj1gFGBuegQjx3P89vqIeqe/FEtaakNFRaFW/0b2Muw8UQx0hm6wjEjgcudiE7k9etl985WPQXbFzNYSU2NPFqjYHapeFoRnQX91++AvPeXlM5D1te0ScRnONWbiUg6N9WF+jn5GaLKpZHN4AOjRCAamrK0KdltECAwEAAaNxMG8wCQYDVR0TBAIwADAOBgNVHQ8BAf8EBAMCBsAwUgYDVR0gBEswSTAgBgQrTBAGMBgwFgYIKwYBBQUHAgIwChoIYWdJRGNlcnQwJQYGK0wQBAIBMBswGQYIKwYBBQUHAgIwDRoLY2VydF9TUF9QdWIwDQYJKoZIhvcNAQELBQADggEBABSuDvJcJVFE2vfv00EgA/puAr/MdP9WtRC71LULELW6PAnb4EKrzyzbDt5BH0dHsAW/av7tlAIJDhyCKUMJO6EK+aTv525jo6GosYY26ItEYdx+yWeXytZgTl2p9RUqRmLXEzX4ROA+kBsyZzezLOSEVFor2IjNz7fF7GxJr0HvM0jrGxzs4sPL1aAuwGRslZU7tzujwRfB+zNMj7+kkuvh/Dd4kZ4hsGmdgzbiBvjbSTKH9DOm60Y6yC3PYdnJvEZZpT5IFR1c9htyCXnxXgsTFM9Y6rubuMCJTBI9IFLHepz2k03BwAPCYVqngtGI+5a91xT4+5cdRVmoI27gGr8=</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature>
+    <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true" WantAssertionsSigned="true">
+        <md:KeyDescriptor use="signing">
+            <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+                <ds:X509Data><ds:X509Certificate>MIIFZTCCBE2gAwIBAgIIEQ+wQifKpDcwDQYJKoZIhvcNAQELBQAwggE3MQswCQYDVQQGEwJJVDENMAsGA1UECAwERW5uYTENMAsGA1UEBwwERW5uYTEtMCsGA1UECgwkUy5SLlIuIEVubmEgUHJvdmluY2lhIEF0byA2IFMuUC5DLkEuMS0wKwYDVQQLDCRTLlIuUi4gRW5uYSBQcm92aW5jaWEgQXRvIDYgUy5QLkMuQS4xMzAxBgNVBAMMKnNycmVubmFwcm92aW5jaWEuZ2VzdGlvbmVxdWFsaXRhcmlmaXV0aS5pdDEkMCIGCSqGSIb3DQEJARYVZGV2ZWxvcGVyQGdvbGVtbmV0Lml0MRQwEgYDVQRhDAtQQTpJVC1zcnJlcDE7MDkGA1UEUwwyaHR0cHM6Ly9zcnJlbm5hcHJvdmluY2lhLmdlc3Rpb25lcXVhbGl0YXJpZml1dGkuaXQwHhcNMjMxMjA1MTY1ODExWhcNNDMxMjA0MTY1ODExWjCCATcxCzAJBgNVBAYTAklUMQ0wCwYDVQQIDARFbm5hMQ0wCwYDVQQHDARFbm5hMS0wKwYDVQQKDCRTLlIuUi4gRW5uYSBQcm92aW5jaWEgQXRvIDYgUy5QLkMuQS4xLTArBgNVBAsMJFMuUi5SLiBFbm5hIFByb3ZpbmNpYSBBdG8gNiBTLlAuQy5BLjEzMDEGA1UEAwwqc3JyZW5uYXByb3ZpbmNpYS5nZXN0aW9uZXF1YWxpdGFyaWZpdXRpLml0MSQwIgYJKoZIhvcNAQkBFhVkZXZlbG9wZXJAZ29sZW1uZXQuaXQxFDASBgNVBGEMC1BBOklULXNycmVwMTswOQYDVQRTDDJodHRwczovL3NycmVubmFwcm92aW5jaWEuZ2VzdGlvbmVxdWFsaXRhcmlmaXV0aS5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAI51lrOaIKtxRwas/YEZqeFNobnpXyUq0aiQWUJQDEZtc+lzIg4WzqJJgUQzMJHBDAqlAJcE3ieaQW+yPojx6M8Q/cYn3T/XiCHBPC2JpaVZKIedB0vo/pMcPEYirCu1ba3Ut+xM7OGKaQn1BsmnfhR1gQCNrWd0ZMgYvG2sMs5FoH++fYNw7G7lj1gFGBuegQjx3P89vqIeqe/FEtaakNFRaFW/0b2Muw8UQx0hm6wjEjgcudiE7k9etl985WPQXbFzNYSU2NPFqjYHapeFoRnQX91++AvPeXlM5D1te0ScRnONWbiUg6N9WF+jn5GaLKpZHN4AOjRCAamrK0KdltECAwEAAaNxMG8wCQYDVR0TBAIwADAOBgNVHQ8BAf8EBAMCBsAwUgYDVR0gBEswSTAgBgQrTBAGMBgwFgYIKwYBBQUHAgIwChoIYWdJRGNlcnQwJQYGK0wQBAIBMBswGQYIKwYBBQUHAgIwDRoLY2VydF9TUF9QdWIwDQYJKoZIhvcNAQELBQADggEBABSuDvJcJVFE2vfv00EgA/puAr/MdP9WtRC71LULELW6PAnb4EKrzyzbDt5BH0dHsAW/av7tlAIJDhyCKUMJO6EK+aTv525jo6GosYY26ItEYdx+yWeXytZgTl2p9RUqRmLXEzX4ROA+kBsyZzezLOSEVFor2IjNz7fF7GxJr0HvM0jrGxzs4sPL1aAuwGRslZU7tzujwRfB+zNMj7+kkuvh/Dd4kZ4hsGmdgzbiBvjbSTKH9DOm60Y6yC3PYdnJvEZZpT5IFR1c9htyCXnxXgsTFM9Y6rubuMCJTBI9IFLHepz2k03BwAPCYVqngtGI+5a91xT4+5cdRVmoI27gGr8=</ds:X509Certificate></ds:X509Data>
+            </ds:KeyInfo>
+        </md:KeyDescriptor>
+            <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://srrennaprovincia.gestionequalitarifiuti.it?page=utente&amp;action=logged&amp;spid_sso=out"/>        
+        <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+        <md:AssertionConsumerService index="0" isDefault="true" Location="https://srrennaprovincia.gestionequalitarifiuti.it?page=utente&amp;action=logged&amp;spid_sso=in" Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST"/>
+        <md:AttributeConsumingService index="0">
+            <md:ServiceName xml:lang="it">Set 0</md:ServiceName>       
+            <md:RequestedAttribute Name="spidCode"/>
+            <md:RequestedAttribute Name="name"/>
+            <md:RequestedAttribute Name="familyName"/>
+            <md:RequestedAttribute Name="placeOfBirth"/>
+            <md:RequestedAttribute Name="countyOfBirth"/>
+            <md:RequestedAttribute Name="dateOfBirth"/>
+            <md:RequestedAttribute Name="gender"/>
+            <md:RequestedAttribute Name="companyName"/>
+            <md:RequestedAttribute Name="registeredOffice"/>
+            <md:RequestedAttribute Name="fiscalNumber"/>
+            <md:RequestedAttribute Name="ivaCode"/>
+            <md:RequestedAttribute Name="idCard"/>
+            <md:RequestedAttribute Name="mobilePhone"/>
+            <md:RequestedAttribute Name="email"/>
+            <md:RequestedAttribute Name="address"/>
+            <md:RequestedAttribute Name="expirationDate"/>
+            <md:RequestedAttribute Name="digitalAddress"/>
+            <md:RequestedAttribute Name="domicileStreetAddress"/>
+            <md:RequestedAttribute Name="domicilePostalCode"/>
+            <md:RequestedAttribute Name="domicileMunicipality"/>
+            <md:RequestedAttribute Name="domicileProvince"/>
+            <md:RequestedAttribute Name="domicileNation"/></md:AttributeConsumingService></md:SPSSODescriptor><md:Organization>
+    <md:OrganizationName xml:lang="it">S.R.R. Enna Provincia Ato 6 S.P.C.A.</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">S.R.R. Enna Provincia Ato 6 S.P.C.A.</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://srrennaprovincia.gestionequalitarifiuti.it</md:OrganizationURL>
+</md:Organization><md:ContactPerson contactType="other"><md:Extensions><spid:IPACode>srrep</spid:IPACode><spid:Public/><spid:FiscalCode>01201410865</spid:FiscalCode></md:Extensions><md:EmailAddress>amministrazione@srrennaprovincia.it</md:EmailAddress><md:TelephoneNumber>+390935561363</md:TelephoneNumber></md:ContactPerson></md:EntityDescriptor>

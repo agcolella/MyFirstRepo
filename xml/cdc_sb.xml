@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:spid="https://spid.gov.it/saml-extensions" entityID="https://consorziogardaidro.it" ID="https___consorziogardaidro_it"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+  <ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+    <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+  <ds:Reference URI="#https___consorziogardaidro_it"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>4kXisKsWcoyMm8rRFfImbNzpBP9ytSGO2Gbyhi8gBpY=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>TQQ9VbtxutB7Z7ifboV8TGIVXW24gnA/gR8afFJQP95t1kH/jzSPH/I9l45n2YXH2OmOJpU9+BcLoPlGnNFF0H9seE4CkVCRc2HPLBnyY0OuElLpC98nmVhDN4QQ/ZnQqJKFyQH+A5SSQMo+PG1lumZwQDJZrZaQUiwGkb06BbDSWbRFR0DsG9XZ5j29N/P4GPwKOok0kuz/yIwrhyDL2Wfj0Y2o9RiG54RYBW0CLS2qN5XbC1FYgvAEl8bb3f21VcPwTEP9y0SVXcyzJTUdvWFmPXTWdpboQnjoko36rt9cPTYik7DPvIKKACwfaGWlzqcbt/8GBfZvjRMmhUy6WA==</ds:SignatureValue>
+<ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIElTCCA32gAwIBAgIIgwVdn60ciAAwDQYJKoZIhvcNAQELBQAwgd8xCzAJBgNVBAYTAklUMQswCQYDVQQIDAJCUzEOMAwGA1UEBwwFU2Fsw7IxLzAtBgNVBAoMJkF1dG9yaXTDoCBkaSBCYWNpbm8gTGFnaGkgR2FyZGEgZSBJZHJvMS8wLQYDVQQLDCZBdXRvcml0w6AgZGkgQmFjaW5vIExhZ2hpIEdhcmRhIGUgSWRybzEmMCQGA1UEAwwdaXN0YW56ZS5jb25zb3J6aW9nYXJkYWlkcm8uaXQxKTAnBgkqhkiG9w0BCQEWGmluZm9AY29uc29yemlvZ2FyZGFpZHJvLml0MB4XDTIzMTAxNjEyMzUyMVoXDTQzMTAxNTEyMzUyMVowgd8xCzAJBgNVBAYTAklUMQswCQYDVQQIDAJCUzEOMAwGA1UEBwwFU2Fsw7IxLzAtBgNVBAoMJkF1dG9yaXTDoCBkaSBCYWNpbm8gTGFnaGkgR2FyZGEgZSBJZHJvMS8wLQYDVQQLDCZBdXRvcml0w6AgZGkgQmFjaW5vIExhZ2hpIEdhcmRhIGUgSWRybzEmMCQGA1UEAwwdaXN0YW56ZS5jb25zb3J6aW9nYXJkYWlkcm8uaXQxKTAnBgkqhkiG9w0BCQEWGmluZm9AY29uc29yemlvZ2FyZGFpZHJvLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA35A0aFFq2ceVZthAO0I99HwFtINEoEA+z9chZMB497sWmOW8a7BIkeHA4ZfFHIa/BmsAbNdgraKnzg1uh2C8l9AFeJFsWjE+QKokqs5FES6J0HWR8v+a6UY0g+zBmkhkQjj9HDW3sOtY8fWuBM7u7lcr5tgQyTPX9K1bH+LcpDoZEhn1NMJmtza6TaPu/ppZ0NyoiyXC5jnjMjW8u5hs7gMC13IREqj1/a3gVVwYhya+IYMjqL+S5d57vkp07COrAUGWJTRjg8sDudq5IyGODS2WZzVhFZMiV+AhRbujRbLAVrRefI80ZztbzWg1G2FjM+ITeReLbE1FXFNdfZmmlwIDAQABo1MwUTAdBgNVHQ4EFgQUjivLln9PubToD95Dv6r+U0XM1b8wHwYDVR0jBBgwFoAUjivLln9PubToD95Dv6r+U0XM1b8wDwYDVR0TAQH/BAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAqfpg+oHP9IyGsB3a92u6DxUhiE79S+QTrJSP1ZdC9mfhO0+TbWH5+GuQmTqpKqf4bj804DpklwlgP7wJSk0BZX26+lVEHDspbRU+mjH8pK36lIvcOOyIco3agWHRlOdxgEwkuHDiFalXTC9PLwrwC3za730mhn/KGHepCZ/AvnHdgmZFCPPEIGE2MXvkEPsjalEYAebCMOwOh5x9/bFENGZmYt5JHrHsLTPApmdgdlNRAqRfQ0K3EGJyFf+N7Y3UK/v3E+G/QNUIf42y+/daJZzmOGl/dF9cxHTF3SqIGKNSAg8nw5wosKq2daGXdqufk6CH6fy84IFsSBrIW1UWNw==</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature>
+    <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true" WantAssertionsSigned="true">    <!--SHIELD-->
+    <md:KeyDescriptor use="signing">
+        <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+            <ds:X509Data><ds:X509Certificate>MIIElTCCA32gAwIBAgIIgwVdn60ciAAwDQYJKoZIhvcNAQELBQAwgd8xCzAJBgNVBAYTAklUMQswCQYDVQQIDAJCUzEOMAwGA1UEBwwFU2Fsw7IxLzAtBgNVBAoMJkF1dG9yaXTDoCBkaSBCYWNpbm8gTGFnaGkgR2FyZGEgZSBJZHJvMS8wLQYDVQQLDCZBdXRvcml0w6AgZGkgQmFjaW5vIExhZ2hpIEdhcmRhIGUgSWRybzEmMCQGA1UEAwwdaXN0YW56ZS5jb25zb3J6aW9nYXJkYWlkcm8uaXQxKTAnBgkqhkiG9w0BCQEWGmluZm9AY29uc29yemlvZ2FyZGFpZHJvLml0MB4XDTIzMTAxNjEyMzUyMVoXDTQzMTAxNTEyMzUyMVowgd8xCzAJBgNVBAYTAklUMQswCQYDVQQIDAJCUzEOMAwGA1UEBwwFU2Fsw7IxLzAtBgNVBAoMJkF1dG9yaXTDoCBkaSBCYWNpbm8gTGFnaGkgR2FyZGEgZSBJZHJvMS8wLQYDVQQLDCZBdXRvcml0w6AgZGkgQmFjaW5vIExhZ2hpIEdhcmRhIGUgSWRybzEmMCQGA1UEAwwdaXN0YW56ZS5jb25zb3J6aW9nYXJkYWlkcm8uaXQxKTAnBgkqhkiG9w0BCQEWGmluZm9AY29uc29yemlvZ2FyZGFpZHJvLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA35A0aFFq2ceVZthAO0I99HwFtINEoEA+z9chZMB497sWmOW8a7BIkeHA4ZfFHIa/BmsAbNdgraKnzg1uh2C8l9AFeJFsWjE+QKokqs5FES6J0HWR8v+a6UY0g+zBmkhkQjj9HDW3sOtY8fWuBM7u7lcr5tgQyTPX9K1bH+LcpDoZEhn1NMJmtza6TaPu/ppZ0NyoiyXC5jnjMjW8u5hs7gMC13IREqj1/a3gVVwYhya+IYMjqL+S5d57vkp07COrAUGWJTRjg8sDudq5IyGODS2WZzVhFZMiV+AhRbujRbLAVrRefI80ZztbzWg1G2FjM+ITeReLbE1FXFNdfZmmlwIDAQABo1MwUTAdBgNVHQ4EFgQUjivLln9PubToD95Dv6r+U0XM1b8wHwYDVR0jBBgwFoAUjivLln9PubToD95Dv6r+U0XM1b8wDwYDVR0TAQH/BAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAqfpg+oHP9IyGsB3a92u6DxUhiE79S+QTrJSP1ZdC9mfhO0+TbWH5+GuQmTqpKqf4bj804DpklwlgP7wJSk0BZX26+lVEHDspbRU+mjH8pK36lIvcOOyIco3agWHRlOdxgEwkuHDiFalXTC9PLwrwC3za730mhn/KGHepCZ/AvnHdgmZFCPPEIGE2MXvkEPsjalEYAebCMOwOh5x9/bFENGZmYt5JHrHsLTPApmdgdlNRAqRfQ0K3EGJyFf+N7Y3UK/v3E+G/QNUIf42y+/daJZzmOGl/dF9cxHTF3SqIGKNSAg8nw5wosKq2daGXdqufk6CH6fy84IFsSBrIW1UWNw==</ds:X509Certificate></ds:X509Data>
+        </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <!--END SHIELD-->
+            <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://istanze.consorziogardaidro.it/login-bo/?spid_sso=out"/>        
+        <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+        <md:AssertionConsumerService index="0" isDefault="true" Location="https://istanze.consorziogardaidro.it/login-bo/?spid_sso=in" Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST"/>
+        <md:AttributeConsumingService index="0">
+            <md:ServiceName xml:lang="it">Set 0</md:ServiceName>       
+            <md:RequestedAttribute Name="gender"/>
+            <md:RequestedAttribute Name="companyName"/>
+            <md:RequestedAttribute Name="registeredOffice"/>
+            <md:RequestedAttribute Name="fiscalNumber"/>
+            <md:RequestedAttribute Name="ivaCode"/>
+            <md:RequestedAttribute Name="idCard"/>
+            <md:RequestedAttribute Name="spidCode"/>
+            <md:RequestedAttribute Name="name"/>
+            <md:RequestedAttribute Name="familyName"/>
+            <md:RequestedAttribute Name="placeOfBirth"/>
+            <md:RequestedAttribute Name="countyOfBirth"/>
+            <md:RequestedAttribute Name="dateOfBirth"/>
+            <md:RequestedAttribute Name="mobilePhone"/>
+            <md:RequestedAttribute Name="email"/>
+            <md:RequestedAttribute Name="address"/>
+            <md:RequestedAttribute Name="expirationDate"/>
+            <md:RequestedAttribute Name="digitalAddress"/>
+            <md:RequestedAttribute Name="domicileStreetAddress"/>
+            <md:RequestedAttribute Name="domicilePostalCode"/>
+            <md:RequestedAttribute Name="domicileMunicipality"/>
+            <md:RequestedAttribute Name="domicileProvince"/>
+            <md:RequestedAttribute Name="domicileNation"/></md:AttributeConsumingService></md:SPSSODescriptor><md:Organization>
+    <md:OrganizationName xml:lang="it">Autorit&#xE0; di Bacino Laghi Garda e Idro</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Autorit&#xE0; di Bacino Laghi Garda e Idro</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://consorziogardaidro.it</md:OrganizationURL>
+</md:Organization><md:ContactPerson contactType="other"><md:Extensions><spid:IPACode>cdc_sb</spid:IPACode><spid:Public/></md:Extensions><md:EmailAddress>info@consorziogardaidro.it</md:EmailAddress><md:TelephoneNumber>+390365525993</md:TelephoneNumber></md:ContactPerson></md:EntityDescriptor>
