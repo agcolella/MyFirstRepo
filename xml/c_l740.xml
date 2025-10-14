@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" ID="_276bcbcc767aa5b108e3fdeb80f8c91152969b0d41f827d22f27846ebe929dc8" entityID="https://servizionline.comune.ventimigliadisicilia.pa.it"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#_276bcbcc767aa5b108e3fdeb80f8c91152969b0d41f827d22f27846ebe929dc8">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>rOYHg+q9qfnIqIx/M+CdaJRuN/ej8e6ss8BHYDFdAXI=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+RJ7LtFi2lk7EA7f6uMN36ft9BgK32+UbEmj0mpnfj9JH9O/6RNCybM9SMa5mZD2KlMxczUpISky/
+9NxyBi3X5zOTaxxFqQ1A3y8tvH2Yg61x8SDq4KU1nshQ1CcL5+tzQxYrvFJvIA9+H1HxUTkK0Nme
+iC8GQ+xLf3cwmua/54NfWdvQ5TbJB9hoKrNiGkd8TnWVrnHB+NSfQ7z+b4++nQbttL2l7XXPeKKM
+wkL17omCdh1pIncu7zJw2z0j+DBAUw5E447g8m/ySyuakVBXy+i1z2uKT2J3u+9I2NiJbx4StqH7
+9cjYV10nZqG7SKz/gztZzIYYXyIVwISTx6KUzQ==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+rQ1/86Uyl8AOcH3G6CpRTFLItdrzzDT4/zSiqvukr/alQf0SFBWq79/JR3ls8ZzqSOxm3UPAtNaJ
+sL7jBAQtfK7vWiz7QZlT5ocnM+NakYltoq4lAQANPDF+E98+9Pso75Dpn1m9zKTgOHjRsU8G96VS
+1NQm/ysXPYwGbECxonGotYSlSC0IZxX/IrJE2jDhzLj6qYI6mO8ugF2x3EJpHwa66U/FA57OWv6/
+IWNzCN816XIaVnM4S2g07yuknA1uqd3G3oAMV0Ey8Yzfl49fK71Q8bxRXVeDPtTJuYUlEbLRw2VX
+V9mOhVdYdpkqA0M33h4ho3h/tWiPAtEulJi7zw==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIEHTCCAwWgAwIBAgIJAPdicXO7vHIHMA0GCSqGSIb3DQEBCwUAMIGkMQswCQYDVQQGEwJJVDEO
+MAwGA1UECAwFSXRhbHkxIDAeBgNVBAcMFyBWZW50aW1pZ2xpYSBkaSBTaWNpbGlhMSkwJwYDVQQK
+DCBDb211bmUgZGkgVmVudGltaWdsaWEgZGkgU2ljaWxpYTE4MDYGA1UEAwwvc2Vydml6aW9ubGlu
+ZS5jb211bmUudmVudGltaWdsaWFkaXNpY2lsaWEucGEuaXQwHhcNMjQwMTEwMTAwMDQxWhcNMzQw
+MTA5MTAwMDQxWjCBpDELMAkGA1UEBhMCSVQxDjAMBgNVBAgMBUl0YWx5MSAwHgYDVQQHDBcgVmVu
+dGltaWdsaWEgZGkgU2ljaWxpYTEpMCcGA1UECgwgQ29tdW5lIGRpIFZlbnRpbWlnbGlhIGRpIFNp
+Y2lsaWExODA2BgNVBAMML3NlcnZpemlvbmxpbmUuY29tdW5lLnZlbnRpbWlnbGlhZGlzaWNpbGlh
+LnBhLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEArQ1/86Uyl8AOcH3G6CpRTFLI
+tdrzzDT4/zSiqvukr/alQf0SFBWq79/JR3ls8ZzqSOxm3UPAtNaJsL7jBAQtfK7vWiz7QZlT5ocn
+M+NakYltoq4lAQANPDF+E98+9Pso75Dpn1m9zKTgOHjRsU8G96VS1NQm/ysXPYwGbECxonGotYSl
+SC0IZxX/IrJE2jDhzLj6qYI6mO8ugF2x3EJpHwa66U/FA57OWv6/IWNzCN816XIaVnM4S2g07yuk
+nA1uqd3G3oAMV0Ey8Yzfl49fK71Q8bxRXVeDPtTJuYUlEbLRw2VXV9mOhVdYdpkqA0M33h4ho3h/
+tWiPAtEulJi7zwIDAQABo1AwTjAdBgNVHQ4EFgQUl+retSMupdFGgF6+qnHdpd6sMnIwHwYDVR0j
+BBgwFoAUl+retSMupdFGgF6+qnHdpd6sMnIwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOC
+AQEAEuG08YXOWLFcX2IiRX8qZj4XU9iHPvtuGytmQpUFv39vmDSV3Z75YxBk8BBIncN9deomehda
+pGQDpaSiHyIkDOW3gxv4JxqkGnyb/o1juYefQfUYZmZzjYdVg939BsVAvVbXk5ee6RnWAWPEvreS
+t/Ak0EqES+SEtCQivIVUn5Uke32+X5ai6QfVlcJfkNkiThgQoKSqdI2X6PZSuHKgw33wUQKgAqQI
+aJIe5RZ/LWDM4cNMPRuO4lOhDZmD0J6QXYeO9IMPBrJrAlEU6Iu5TB9vDv4ZgVN/GWNdD6VM5RJU
+UrELNJLitmch5DWJJ46CnmO0Y79hcILbbSqFRZlGKA==
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIIEHTCCAwWgAwIBAgIJAPdicXO7vHIHMA0GCSqGSIb3DQEBCwUAMIGkMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxIDAeBgNVBAcMFyBWZW50aW1pZ2xpYSBkaSBTaWNpbGlhMSkwJwYDVQQKDCBDb211bmUgZGkgVmVudGltaWdsaWEgZGkgU2ljaWxpYTE4MDYGA1UEAwwvc2Vydml6aW9ubGluZS5jb211bmUudmVudGltaWdsaWFkaXNpY2lsaWEucGEuaXQwHhcNMjQwMTEwMTAwMDQxWhcNMzQwMTA5MTAwMDQxWjCBpDELMAkGA1UEBhMCSVQxDjAMBgNVBAgMBUl0YWx5MSAwHgYDVQQHDBcgVmVudGltaWdsaWEgZGkgU2ljaWxpYTEpMCcGA1UECgwgQ29tdW5lIGRpIFZlbnRpbWlnbGlhIGRpIFNpY2lsaWExODA2BgNVBAMML3NlcnZpemlvbmxpbmUuY29tdW5lLnZlbnRpbWlnbGlhZGlzaWNpbGlhLnBhLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEArQ1/86Uyl8AOcH3G6CpRTFLItdrzzDT4/zSiqvukr/alQf0SFBWq79/JR3ls8ZzqSOxm3UPAtNaJsL7jBAQtfK7vWiz7QZlT5ocnM+NakYltoq4lAQANPDF+E98+9Pso75Dpn1m9zKTgOHjRsU8G96VS1NQm/ysXPYwGbECxonGotYSlSC0IZxX/IrJE2jDhzLj6qYI6mO8ugF2x3EJpHwa66U/FA57OWv6/IWNzCN816XIaVnM4S2g07yuknA1uqd3G3oAMV0Ey8Yzfl49fK71Q8bxRXVeDPtTJuYUlEbLRw2VXV9mOhVdYdpkqA0M33h4ho3h/tWiPAtEulJi7zwIDAQABo1AwTjAdBgNVHQ4EFgQUl+retSMupdFGgF6+qnHdpd6sMnIwHwYDVR0jBBgwFoAUl+retSMupdFGgF6+qnHdpd6sMnIwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAEuG08YXOWLFcX2IiRX8qZj4XU9iHPvtuGytmQpUFv39vmDSV3Z75YxBk8BBIncN9deomehdapGQDpaSiHyIkDOW3gxv4JxqkGnyb/o1juYefQfUYZmZzjYdVg939BsVAvVbXk5ee6RnWAWPEvreSt/Ak0EqES+SEtCQivIVUn5Uke32+X5ai6QfVlcJfkNkiThgQoKSqdI2X6PZSuHKgw33wUQKgAqQIaJIe5RZ/LWDM4cNMPRuO4lOhDZmD0J6QXYeO9IMPBrJrAlEU6Iu5TB9vDv4ZgVN/GWNdD6VM5RJUUrELNJLitmch5DWJJ46CnmO0Y79hcILbbSqFRZlGKA==</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIIEHTCCAwWgAwIBAgIJAPdicXO7vHIHMA0GCSqGSIb3DQEBCwUAMIGkMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxIDAeBgNVBAcMFyBWZW50aW1pZ2xpYSBkaSBTaWNpbGlhMSkwJwYDVQQKDCBDb211bmUgZGkgVmVudGltaWdsaWEgZGkgU2ljaWxpYTE4MDYGA1UEAwwvc2Vydml6aW9ubGluZS5jb211bmUudmVudGltaWdsaWFkaXNpY2lsaWEucGEuaXQwHhcNMjQwMTEwMTAwMDQxWhcNMzQwMTA5MTAwMDQxWjCBpDELMAkGA1UEBhMCSVQxDjAMBgNVBAgMBUl0YWx5MSAwHgYDVQQHDBcgVmVudGltaWdsaWEgZGkgU2ljaWxpYTEpMCcGA1UECgwgQ29tdW5lIGRpIFZlbnRpbWlnbGlhIGRpIFNpY2lsaWExODA2BgNVBAMML3NlcnZpemlvbmxpbmUuY29tdW5lLnZlbnRpbWlnbGlhZGlzaWNpbGlhLnBhLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEArQ1/86Uyl8AOcH3G6CpRTFLItdrzzDT4/zSiqvukr/alQf0SFBWq79/JR3ls8ZzqSOxm3UPAtNaJsL7jBAQtfK7vWiz7QZlT5ocnM+NakYltoq4lAQANPDF+E98+9Pso75Dpn1m9zKTgOHjRsU8G96VS1NQm/ysXPYwGbECxonGotYSlSC0IZxX/IrJE2jDhzLj6qYI6mO8ugF2x3EJpHwa66U/FA57OWv6/IWNzCN816XIaVnM4S2g07yuknA1uqd3G3oAMV0Ey8Yzfl49fK71Q8bxRXVeDPtTJuYUlEbLRw2VXV9mOhVdYdpkqA0M33h4ho3h/tWiPAtEulJi7zwIDAQABo1AwTjAdBgNVHQ4EFgQUl+retSMupdFGgF6+qnHdpd6sMnIwHwYDVR0jBBgwFoAUl+retSMupdFGgF6+qnHdpd6sMnIwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAEuG08YXOWLFcX2IiRX8qZj4XU9iHPvtuGytmQpUFv39vmDSV3Z75YxBk8BBIncN9deomehdapGQDpaSiHyIkDOW3gxv4JxqkGnyb/o1juYefQfUYZmZzjYdVg939BsVAvVbXk5ee6RnWAWPEvreSt/Ak0EqES+SEtCQivIVUn5Uke32+X5ai6QfVlcJfkNkiThgQoKSqdI2X6PZSuHKgw33wUQKgAqQIaJIe5RZ/LWDM4cNMPRuO4lOhDZmD0J6QXYeO9IMPBrJrAlEU6Iu5TB9vDv4ZgVN/GWNdD6VM5RJUUrELNJLitmch5DWJJ46CnmO0Y79hcILbbSqFRZlGKA==</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://servizionline.comune.ventimigliadisicilia.pa.it/spid/module.php/saml/sp/saml2-logout.php/spid"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://servizionline.comune.ventimigliadisicilia.pa.it/spid/module.php/saml/sp/saml2-acs.php/spid" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://servizionline.comune.ventimigliadisicilia.pa.it/spid/module.php/saml/sp/saml2-acs.php/spid" index="1"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">Servizi online</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Servizi online</md:ServiceDescription>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Codice identificativo SPID" Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Ragione o denominazione sociale" Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Ventimiglia di Sicilia</md:OrganizationName>
+    <md:OrganizationName xml:lang="en">Comune di Ventimiglia di Sicilia</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Ventimiglia di Sicilia</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Ventimiglia di Sicilia</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.comune.ventimigliadisicilia.pa.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="en">https://www.comune.ventimigliadisicilia.pa.it</md:OrganizationURL>
+  </md:Organization>
+  <md:ContactPerson contactType="other">
+    <md:Extensions>
+      <spid:IPACode>c_l740</spid:IPACode>
+      <spid:Public/>
+    </md:Extensions>
+    <md:Company>Comune di Ventimiglia di Sicilia</md:Company>
+    <md:EmailAddress>urbanistica@comune.ventimigliadisicilia.pa.it</md:EmailAddress>
+  </md:ContactPerson>
+</md:EntityDescriptor>

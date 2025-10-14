@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:spid="https://spid.gov.it/saml-extensions" entityID="https://icscunardo.edu.it" ID="https___icscunardo_edu_it"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+  <ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+    <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+  <ds:Reference URI="#https___icscunardo_edu_it"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>GwYkgGqj+luid67UX+/z5HlO0WpwtIDpJlLMYZUkH64=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>F6Fliy8emsC6lS5aG0lSFCS3VgCxVoysGvVIrP6z8O1WKetyo8zrjmuY3Jtgf5woy4mreQqPIm84c45AyjPk9Pgp5Y3SOosGboJnVVawIFuC754+g7MgjM77cxiEDMG2ki/owzsakFXcS8H/We0dImbRU9CuVKMDJ8NU6HV4wHfnBTe7/rb/Hpc+3Z3V4oqTUyJAg56h+mkHbE/tpiLKBj0aySmJiAZTNv4BlnCXf+cUjbWzYmBrIvJOaCxp2zlOk5RWQHON/9vl9iD3ODwu2hbINFXDzTyz+HgyG2I8ufwjcCKpVmb98UFuAv4/DrFYnqLBb/vcKtQ3d4ngIzd+aQ==</ds:SignatureValue>
+<ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIErTCCA5WgAwIBAgII027kSM/NMAAwDQYJKoZIhvcNAQELBQAwgesxCzAJBgNVBAYTAklUMQ8wDQYDVQQIDAZWYXJlc2UxEDAOBgNVBAcMB0N1bmFyZG8xOTA3BgNVBAoMMElTVElUVVRPIENPTVBSRU5TSVZPIC0gSS5DLiBDVU5BUkRPICdWQUNDQVJPU1NJJzE5MDcGA1UECwwwSVNUSVRVVE8gQ09NUFJFTlNJVk8gLSBJLkMuIENVTkFSRE8gJ1ZBQ0NBUk9TU0knMRowGAYDVQQDDBFpY3NjdW5hcmRvLmVkdS5pdDEnMCUGCSqGSIb3DQEJARYYVkFJQzgyMzAwMkBpc3RydXppb25lLml0MB4XDTIzMTEyNDExMTcyOVoXDTQzMTEyMzExMTcyOVowgesxCzAJBgNVBAYTAklUMQ8wDQYDVQQIDAZWYXJlc2UxEDAOBgNVBAcMB0N1bmFyZG8xOTA3BgNVBAoMMElTVElUVVRPIENPTVBSRU5TSVZPIC0gSS5DLiBDVU5BUkRPICdWQUNDQVJPU1NJJzE5MDcGA1UECwwwSVNUSVRVVE8gQ09NUFJFTlNJVk8gLSBJLkMuIENVTkFSRE8gJ1ZBQ0NBUk9TU0knMRowGAYDVQQDDBFpY3NjdW5hcmRvLmVkdS5pdDEnMCUGCSqGSIb3DQEJARYYVkFJQzgyMzAwMkBpc3RydXppb25lLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAzzA3Iy7XFarJhyhdanJzixIWpoU3XN9hD+zqGxBFUlL5bSHN84HlCrMTIk95JXX27aXecsvE5gtN0cgWjJqjk475KvLU2rQIXknF3Fvr7O0qgOaNLmAAEyaMsd4QwaXzgIiIfJuRU61asnuoK7YdtlRZn2ufMjOGZjMfZHBREdBzPuzQIZneeytDSue8A6Ec7UirweaOGkWegDTZ+0vzPYo8S1pW5iZGCS8+6I+cAfqmQZAhLp+bhogAXuqA7M5EQCh0sikXTZhVCdknL40KDvjSgm6C/iuZSvCx4335750BfDfHDst6dLh2wFh6UMZWtKaG+nfCl6b8dvB4nr8eNwIDAQABo1MwUTAdBgNVHQ4EFgQUnUOqjYiKO6ZpkE6YgPjAO69h8TowHwYDVR0jBBgwFoAUnUOqjYiKO6ZpkE6YgPjAO69h8TowDwYDVR0TAQH/BAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAqCxChwdHxCidpmrxvpPsE7ntRwJsNLjzAtxJQAZBKEITy8H6q2rd5Yrk+g+Z71tV8vo5EGZPz8wB5tWLAk6Ywx1eGdYkBrfj1z2GGnBKZ0fR0Z48DU5wEyxgdogR1ZOIaOImezllIyeEay0idw/eymoE3rZMhnc6B1wPATq3Vx60tKGm7fWUCN5mcZtyD0r0dVWNGBRCow9S+g/rGYWXLci+eQo3/PF2ruLzjMh1G87PdZEot8LG3cwitQAf37aJQPQislLsocpAKZBiURNYKH4SdCy+4AxiCUHCKR+CJY09YJBDmOLaX5xUsqTE/x6W6XVfKRIojaAxZTAyAm6BPA==</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature>
+    <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true" WantAssertionsSigned="true">
+        <md:KeyDescriptor use="signing">
+            <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+                <ds:X509Data><ds:X509Certificate>MIIErTCCA5WgAwIBAgII027kSM/NMAAwDQYJKoZIhvcNAQELBQAwgesxCzAJBgNVBAYTAklUMQ8wDQYDVQQIDAZWYXJlc2UxEDAOBgNVBAcMB0N1bmFyZG8xOTA3BgNVBAoMMElTVElUVVRPIENPTVBSRU5TSVZPIC0gSS5DLiBDVU5BUkRPICdWQUNDQVJPU1NJJzE5MDcGA1UECwwwSVNUSVRVVE8gQ09NUFJFTlNJVk8gLSBJLkMuIENVTkFSRE8gJ1ZBQ0NBUk9TU0knMRowGAYDVQQDDBFpY3NjdW5hcmRvLmVkdS5pdDEnMCUGCSqGSIb3DQEJARYYVkFJQzgyMzAwMkBpc3RydXppb25lLml0MB4XDTIzMTEyNDExMTcyOVoXDTQzMTEyMzExMTcyOVowgesxCzAJBgNVBAYTAklUMQ8wDQYDVQQIDAZWYXJlc2UxEDAOBgNVBAcMB0N1bmFyZG8xOTA3BgNVBAoMMElTVElUVVRPIENPTVBSRU5TSVZPIC0gSS5DLiBDVU5BUkRPICdWQUNDQVJPU1NJJzE5MDcGA1UECwwwSVNUSVRVVE8gQ09NUFJFTlNJVk8gLSBJLkMuIENVTkFSRE8gJ1ZBQ0NBUk9TU0knMRowGAYDVQQDDBFpY3NjdW5hcmRvLmVkdS5pdDEnMCUGCSqGSIb3DQEJARYYVkFJQzgyMzAwMkBpc3RydXppb25lLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAzzA3Iy7XFarJhyhdanJzixIWpoU3XN9hD+zqGxBFUlL5bSHN84HlCrMTIk95JXX27aXecsvE5gtN0cgWjJqjk475KvLU2rQIXknF3Fvr7O0qgOaNLmAAEyaMsd4QwaXzgIiIfJuRU61asnuoK7YdtlRZn2ufMjOGZjMfZHBREdBzPuzQIZneeytDSue8A6Ec7UirweaOGkWegDTZ+0vzPYo8S1pW5iZGCS8+6I+cAfqmQZAhLp+bhogAXuqA7M5EQCh0sikXTZhVCdknL40KDvjSgm6C/iuZSvCx4335750BfDfHDst6dLh2wFh6UMZWtKaG+nfCl6b8dvB4nr8eNwIDAQABo1MwUTAdBgNVHQ4EFgQUnUOqjYiKO6ZpkE6YgPjAO69h8TowHwYDVR0jBBgwFoAUnUOqjYiKO6ZpkE6YgPjAO69h8TowDwYDVR0TAQH/BAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAqCxChwdHxCidpmrxvpPsE7ntRwJsNLjzAtxJQAZBKEITy8H6q2rd5Yrk+g+Z71tV8vo5EGZPz8wB5tWLAk6Ywx1eGdYkBrfj1z2GGnBKZ0fR0Z48DU5wEyxgdogR1ZOIaOImezllIyeEay0idw/eymoE3rZMhnc6B1wPATq3Vx60tKGm7fWUCN5mcZtyD0r0dVWNGBRCow9S+g/rGYWXLci+eQo3/PF2ruLzjMh1G87PdZEot8LG3cwitQAf37aJQPQislLsocpAKZBiURNYKH4SdCy+4AxiCUHCKR+CJY09YJBDmOLaX5xUsqTE/x6W6XVfKRIojaAxZTAyAm6BPA==</ds:X509Certificate></ds:X509Data>
+            </ds:KeyInfo>
+        </md:KeyDescriptor>
+            <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://icscunardo.edu.it/wp-login.php?spid_sso=out"/>        
+        <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+        <md:AssertionConsumerService index="0" isDefault="true" Location="https://icscunardo.edu.it/wp-login.php?spid_sso=in" Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST"/>
+        <md:AttributeConsumingService index="0">
+            <md:ServiceName xml:lang="it">Set 0</md:ServiceName>       
+            <md:RequestedAttribute Name="name"/>
+            <md:RequestedAttribute Name="familyName"/>
+            <md:RequestedAttribute Name="fiscalNumber"/>
+            <md:RequestedAttribute Name="email"/></md:AttributeConsumingService></md:SPSSODescriptor><md:Organization>
+    <md:OrganizationName xml:lang="it">ISTITUTO COMPRENSIVO - I.C. CUNARDO 'VACCAROSSI'</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">ISTITUTO COMPRENSIVO - I.C. CUNARDO 'VACCAROSSI'</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://icscunardo.edu.it</md:OrganizationURL>
+</md:Organization><md:ContactPerson contactType="other"><md:Extensions><spid:IPACode>istsc_vaic823002</spid:IPACode><spid:Public/></md:Extensions><md:EmailAddress>VAIC823002@istruzione.it</md:EmailAddress><md:TelephoneNumber>+390332716580</md:TelephoneNumber></md:ContactPerson></md:EntityDescriptor>
+
+<!--
+Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/
+
+Object Caching 0/55 objects using Disk
+Lazy Loading
+Minified using Disk
+Database Caching using Disk
+
+Served from: icscunardo.edu.it @ 2024-01-25 11:06:35 by W3 Total Cache
+-->

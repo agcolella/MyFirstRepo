@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:spid="https://spid.gov.it/saml-extensions" ID="pfx0b34ce31-93c8-ff0a-0891-06ea63cac3c5" entityID="https://trasparenza.comune.casto.bs.it/moduli/espid/spid/metadata.php"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#pfx0b34ce31-93c8-ff0a-0891-06ea63cac3c5">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>GHmcbiVSe8aDYNcq3vGFdIWNjDudAbiQH1fLqiPoxUY=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+fKIUk/2PiRC2JxuPmRWvtmrqQembo9Lu3fVFfiXHLjEs7UIvM39P38CWilE+IGqtF+/xQY5Hij5U
+IuHx+OTZ51yu6yLOUpvcMD5I9UUtoLpADV78lrV53oAo1yNzWk8l+Nq3DBHu8RO/cOzYE9iq/ROm
+ytu7zHvXQX9w2DKG3BDxZC4Y0chcI2ChLBc0wjIWq7q9niaxaBTKkTHxcdKWPLovwqf0cvYF3hsV
+61zbWSagY+k02c0r2pFhzwDgvkp8Vf5Ol5MTjU+dbF8SacFk2dcO1C/LFK9u+OBPNnhqYrNm9ElL
+Ih8z2HVXiPx+VjrS+TBpA8YKXARM1+1pwqh4q9yvrZZ5EFFUFaVu6q7fejhSraFRe77GLtIUC+k0
+oiw0YsFt3Oo6eMkeYgPdvj61dAtavKi/Hb2YYHzPnNXhO339qkhcU5rqIiPP+Bd6UPNbtDOYHzmq
+sLDT2raDYU1S7vbFF8vHCamysrdgoI/gXXzduzM9JTZC+dxoM3EMw41HFpFoG99V3gyjKfclp/Mo
+86+/XGjcpd5IQunel8Mp3ySbCdzeCmyi+UBqFdg3ktjKzPG/fE80WHXx/nUTOP0ccvhrdKHLajrr
+Dg8skeU+ghEv2JnBWc40R/Xly2pJ1sCUGN7+rVxqNnimIl2Sx6e0oTJNFHmwJvbFz/8ikJ4zM+0=
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+pVmp/yHaBgc7mejgwx3qIEbMuVVHawOB3R8myBNAxTQPwvomna3+vGyQqYwTkvhQDnnU17uYF+kj
+3UXfsxzD5iSd7m/ldnMSkVqer9bzEQOk4Zs59wY3sM6xerwFd+qodfHu/h44skeuZkg4fENM215m
+2aBNhMAtzSF88DGAx0/eH2F96LE7n/NnY7SvDwhDcB/Ai6ioSTepth/CJAdwEr9waeIEyLBG7TRd
+QOwAAMr4AZNZSbog6rUkWLJdPeyzysQbOq3dDgso2BRgoWzMb2zB0jsMItzRnsuKFb/mnAsV0frE
+hkgSr1MdTq4g6zKuGs7oJLyJbQpUZOHxbGTbGmGOatR9dAeYEwCJe96LYWcnrh6cZwKiB7LQiH2Z
+nQcfRnaU6EYZ0C7n9YQYdory3lu9gBaW0k5CzD9ms9lBdfEZ6Q5NGuqnXZ6RxZBwEa5Xxfgg9a3D
+PUq+6HF3CDfWzA/flWCZulscP92Bwa3BXVfSgJ/kinbUfp5JmnKltISyNMhsRHrs+9b169FZdoEN
+sZBTGDf15bKgJrWNAPJfbo4qF2f54NvmX45DVQCTL23m+Kpm4pDkyz6kXC48aHiUQnDXhoiNarUi
+ME1v9+MUwOK6NzrKLP2B8mywHGtjGrWd4E0dQsIFYRJz6tgqKjoqEWJBHJp5ehbdryl455odUA0=
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+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
+3DagxWai1N2JX+TesMfTwg==
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  
+    <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+        
+    
+        <md:KeyDescriptor use="signing">
+            
+      
+            <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+                
+        
+                <ds:X509Data>
+                    
+          
+                    <ds:X509Certificate>
+                        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
+                    </ds:X509Certificate>
+                    
+        
+                </ds:X509Data>
+                
+      
+            </ds:KeyInfo>
+            
+    
+        </md:KeyDescriptor>
+        
+    
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://trasparenza.comune.casto.bs.it/index.php?sls"/>
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://www.castopnrr.secovalweb.it/index.php?sls"/>
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://www.comune.casto.bs.it/index.php?sls"/>
+        
+    
+        <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+        
+    
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://trasparenza.comune.casto.bs.it/index.php?acs" index="0" isDefault="true"/>
+		<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.castopnrr.secovalweb.it/index.php?acs" index="3"/>
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.comune.casto.bs.it/index.php?acs" index="4"/>
+        
+    
+        <md:AttributeConsumingService index="1">
+            
+      
+            <md:ServiceName xml:lang="it">
+                Servizio SPID-eTrasparenza per Comune di Casto
+            </md:ServiceName>
+            
+      
+            <md:ServiceDescription xml:lang="it">
+                Descrizione SPID per Comune di Casto
+            </md:ServiceDescription>
+            
+      
+            <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute Name="address" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute Name="expirationDate" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute Name="idCard" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute Name="registeredOffice" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute Name="digitalAddress" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+    
+        </md:AttributeConsumingService>
+		
+		<md:AttributeConsumingService index="4">
+            
+      
+            <md:ServiceName xml:lang="it">
+                'Servizio SPID-eComune SECOVAL'
+            </md:ServiceName>
+            
+      
+            <md:ServiceDescription xml:lang="it">
+                Descrizione SPID per Comune di Casto
+            </md:ServiceDescription>
+            
+      
+            <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute Name="address" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute Name="expirationDate" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute Name="idCard" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute Name="registeredOffice" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute Name="digitalAddress" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+    
+        </md:AttributeConsumingService>
+        
+  
+    </md:SPSSODescriptor>
+    
+  
+    <md:Organization>
+        
+    
+        <md:OrganizationName xml:lang="it">Comune di Casto</md:OrganizationName>
+        
+    
+        <md:OrganizationDisplayName xml:lang="it">Comune di Casto</md:OrganizationDisplayName>
+        
+    
+        <md:OrganizationURL xml:lang="it">https://trasparenza.comune.casto.bs.it</md:OrganizationURL>
+        
+  
+    </md:Organization>
+    
+  
+    <md:ContactPerson contactType="other">
+        
+    
+        <md:Extensions>
+            
+      
+            <spid:IPACode>c_l406</spid:IPACode>
+            
+      
+            <spid:Public/>
+            
+    
+        </md:Extensions>
+        
+    
+        <md:EmailAddress>trasformazionedigitale@secoval.it</md:EmailAddress>
+        
+  
+    </md:ContactPerson>
+    
+
+</md:EntityDescriptor>
