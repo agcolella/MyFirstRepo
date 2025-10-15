@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" ID="pfx556587ea-ffe9-0b8d-4d02-28478d204fe9" entityID="https://servizionline.comune.morcianodileuca.le.it"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#pfx556587ea-ffe9-0b8d-4d02-28478d204fe9">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>IXSZ5OtNvhOcDUz5xq9rLgrvSZybXTojb+l/HM2tVHg=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+tVsRnBd7Oq/jmfYsKOg1kTnJ03FlQ3ECyQFRuwd47ArgwCJIGpfbpY1dhpk5Ii/E6Cjl4BoC1qUn
+K0+R5jasz1TvOAHaYj7aKlMqvNyLNH+jbM+xp4UFeLyaQLGE+pGEgzAv8z0hbqUOlkRi9td1rrvf
+IoVXZezmHS7JTkJOeNLPS07C1iReihN5lMEOmAB640EPzlE8FdUBwdP7HK9heAFPfghHCdgYWFzc
+RokYdXbhmCDvtnunizEdDnY0cWL/Uf5TbX48GnfMZIcTDnR9k8EvA8Uq/rF5ndjCQWA617EeRshK
+LVABr+cDMmTVNfhKZqcccWVdUEPuQA9VAvYopQ==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+w3xp9doISXBHx9TdoKeL1s35smxxbUIsqIsurImHmbhzt3PcUKQ3ndMP8hcs9VbpMHZTZogMX1Je
+9EyOPQKiIeIMIL7ibK/SMmD/cgwts//MbZq1+tochK6l/MNbUViWW6mbIcyYk4bMkMBrPXS+uElp
+CDmhaEvOZPuqQZAOukmQibeUIOxApn/FSMApvTFSvpQGWkLlfpaeyOaC7CQme5p9hcow82PPggvf
+sXtu4/3qERdAqKygaXbiTC0Ht7oXIP4p2HQ6phH4E5rBoX57ji/FmF4NxFoFpRt+S365/+kJavv4
+BTdqYuj8QpUR0LQS5XZxrEHfIVBGe4ciL4s8XQ==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIID/TCCAuWgAwIBAgIJALy27vKu3LqRMA0GCSqGSIb3DQEBCwUAMIGUMQswCQYDVQQGEwJJVDEO
+MAwGA1UECAwFSXRhbHkxGjAYBgNVBAcMEU1vcmNpYW5vIGRpIExldWNhMSQwIgYDVQQKDBtDb211
+bmUgZGkgTW9yY2lhbm8gZGkgTGV1Y2ExMzAxBgNVBAMMKnNlcnZpemlvbmxpbmUuY29tdW5lLm1v
+cmNpYW5vZGlsZXVjYS5sZS5pdDAeFw0yMTA3MDUxNTAyMjlaFw0zMTA3MDUxNTAyMjlaMIGUMQsw
+CQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxGjAYBgNVBAcMEU1vcmNpYW5vIGRpIExldWNhMSQw
+IgYDVQQKDBtDb211bmUgZGkgTW9yY2lhbm8gZGkgTGV1Y2ExMzAxBgNVBAMMKnNlcnZpemlvbmxp
+bmUuY29tdW5lLm1vcmNpYW5vZGlsZXVjYS5sZS5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCC
+AQoCggEBAMN8afXaCElwR8fU3aCni9bN+bJscW1CLKiLLqyJh5m4c7dz3FCkN53TD/IXLPVW6TB2
+U2aIDF9SXvRMjj0CoiHiDCC+4myv0jJg/3IMLbP/zG2atfraHISupfzDW1FYllupmyHMmJOGzJDA
+az10vrhJaQg5oWhLzmT7qkGQDrpJkIm3lCDsQKZ/xUjAKb0xUr6UBlpC5X6WnsjmguwkJnuafYXK
+MPNjz4IL37F7buP96hEXQKisoGl24kwtB7e6FyD+Kdh0OqYR+BOawaF+e44vxZheDcRaBaUbfkt+
+uf/pCWr7+AU3amLo/EKVEdC0EuV2caxB3yFQRnuHIi+LPF0CAwEAAaNQME4wHQYDVR0OBBYEFA9h
+Oe6pwg6e0enKGbzN3eP9VavoMB8GA1UdIwQYMBaAFA9hOe6pwg6e0enKGbzN3eP9VavoMAwGA1Ud
+EwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAK1rKaxkaw4pDoeZvnb7SWaxaHrIzoXmfQyauSOy
+q4Bljjl7i6yPErZMjsTssCwpzC1L/0qTTc5l0usPruRnOT7zwswO9uOpTIr3e8y1E4YnVaREgCAX
+YMX8em7z5QJWylOJXD++GkzrPBKY2xRKOF+qAzo2wyRvgn4XVTmhGue+cMr24TyxW8k+g8asO1IU
+Dhjhj8ArejslyPDOm87Y/pdB8yFxS5lFtmYLJwnLHKZUkh5jE1T+9WFqTfGtnKKRJjc9LsGaf5Q8
+Q8TO4dmjGlGkyeMBfP2pI7EoBmIBBNuOs6cCFqhpkm6qPYjoD5Xf7suWczNRL4xS8QEXIHi026Y=
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIID/TCCAuWgAwIBAgIJALy27vKu3LqRMA0GCSqGSIb3DQEBCwUAMIGUMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxGjAYBgNVBAcMEU1vcmNpYW5vIGRpIExldWNhMSQwIgYDVQQKDBtDb211bmUgZGkgTW9yY2lhbm8gZGkgTGV1Y2ExMzAxBgNVBAMMKnNlcnZpemlvbmxpbmUuY29tdW5lLm1vcmNpYW5vZGlsZXVjYS5sZS5pdDAeFw0yMTA3MDUxNTAyMjlaFw0zMTA3MDUxNTAyMjlaMIGUMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxGjAYBgNVBAcMEU1vcmNpYW5vIGRpIExldWNhMSQwIgYDVQQKDBtDb211bmUgZGkgTW9yY2lhbm8gZGkgTGV1Y2ExMzAxBgNVBAMMKnNlcnZpemlvbmxpbmUuY29tdW5lLm1vcmNpYW5vZGlsZXVjYS5sZS5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMN8afXaCElwR8fU3aCni9bN+bJscW1CLKiLLqyJh5m4c7dz3FCkN53TD/IXLPVW6TB2U2aIDF9SXvRMjj0CoiHiDCC+4myv0jJg/3IMLbP/zG2atfraHISupfzDW1FYllupmyHMmJOGzJDAaz10vrhJaQg5oWhLzmT7qkGQDrpJkIm3lCDsQKZ/xUjAKb0xUr6UBlpC5X6WnsjmguwkJnuafYXKMPNjz4IL37F7buP96hEXQKisoGl24kwtB7e6FyD+Kdh0OqYR+BOawaF+e44vxZheDcRaBaUbfkt+uf/pCWr7+AU3amLo/EKVEdC0EuV2caxB3yFQRnuHIi+LPF0CAwEAAaNQME4wHQYDVR0OBBYEFA9hOe6pwg6e0enKGbzN3eP9VavoMB8GA1UdIwQYMBaAFA9hOe6pwg6e0enKGbzN3eP9VavoMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAK1rKaxkaw4pDoeZvnb7SWaxaHrIzoXmfQyauSOyq4Bljjl7i6yPErZMjsTssCwpzC1L/0qTTc5l0usPruRnOT7zwswO9uOpTIr3e8y1E4YnVaREgCAXYMX8em7z5QJWylOJXD++GkzrPBKY2xRKOF+qAzo2wyRvgn4XVTmhGue+cMr24TyxW8k+g8asO1IUDhjhj8ArejslyPDOm87Y/pdB8yFxS5lFtmYLJwnLHKZUkh5jE1T+9WFqTfGtnKKRJjc9LsGaf5Q8Q8TO4dmjGlGkyeMBfP2pI7EoBmIBBNuOs6cCFqhpkm6qPYjoD5Xf7suWczNRL4xS8QEXIHi026Y=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIID/TCCAuWgAwIBAgIJALy27vKu3LqRMA0GCSqGSIb3DQEBCwUAMIGUMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxGjAYBgNVBAcMEU1vcmNpYW5vIGRpIExldWNhMSQwIgYDVQQKDBtDb211bmUgZGkgTW9yY2lhbm8gZGkgTGV1Y2ExMzAxBgNVBAMMKnNlcnZpemlvbmxpbmUuY29tdW5lLm1vcmNpYW5vZGlsZXVjYS5sZS5pdDAeFw0yMTA3MDUxNTAyMjlaFw0zMTA3MDUxNTAyMjlaMIGUMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxGjAYBgNVBAcMEU1vcmNpYW5vIGRpIExldWNhMSQwIgYDVQQKDBtDb211bmUgZGkgTW9yY2lhbm8gZGkgTGV1Y2ExMzAxBgNVBAMMKnNlcnZpemlvbmxpbmUuY29tdW5lLm1vcmNpYW5vZGlsZXVjYS5sZS5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMN8afXaCElwR8fU3aCni9bN+bJscW1CLKiLLqyJh5m4c7dz3FCkN53TD/IXLPVW6TB2U2aIDF9SXvRMjj0CoiHiDCC+4myv0jJg/3IMLbP/zG2atfraHISupfzDW1FYllupmyHMmJOGzJDAaz10vrhJaQg5oWhLzmT7qkGQDrpJkIm3lCDsQKZ/xUjAKb0xUr6UBlpC5X6WnsjmguwkJnuafYXKMPNjz4IL37F7buP96hEXQKisoGl24kwtB7e6FyD+Kdh0OqYR+BOawaF+e44vxZheDcRaBaUbfkt+uf/pCWr7+AU3amLo/EKVEdC0EuV2caxB3yFQRnuHIi+LPF0CAwEAAaNQME4wHQYDVR0OBBYEFA9hOe6pwg6e0enKGbzN3eP9VavoMB8GA1UdIwQYMBaAFA9hOe6pwg6e0enKGbzN3eP9VavoMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAK1rKaxkaw4pDoeZvnb7SWaxaHrIzoXmfQyauSOyq4Bljjl7i6yPErZMjsTssCwpzC1L/0qTTc5l0usPruRnOT7zwswO9uOpTIr3e8y1E4YnVaREgCAXYMX8em7z5QJWylOJXD++GkzrPBKY2xRKOF+qAzo2wyRvgn4XVTmhGue+cMr24TyxW8k+g8asO1IUDhjhj8ArejslyPDOm87Y/pdB8yFxS5lFtmYLJwnLHKZUkh5jE1T+9WFqTfGtnKKRJjc9LsGaf5Q8Q8TO4dmjGlGkyeMBfP2pI7EoBmIBBNuOs6cCFqhpkm6qPYjoD5Xf7suWczNRL4xS8QEXIHi026Y=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://servizionline.comune.morcianodileuca.le.it/spid/module.php/saml/sp/saml2-logout.php/spid"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://servizionline.comune.morcianodileuca.le.it/spid/module.php/saml/sp/saml2-acs.php/spid" index="0" isDefault="true"/>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">Servizi online</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Servizi online</md:ServiceDescription>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Codice identificativo SPID" Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Ragione o denominazione sociale" Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Morciano di Leuca</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Morciano di Leuca</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">http://www.comune.morcianodileuca.le.it</md:OrganizationURL>
+  </md:Organization>
+  <md:ContactPerson contactType="other">
+    <md:Extensions>
+      <spid:IPACode>c_f716</spid:IPACode>
+      <spid:Public/>
+    </md:Extensions>
+    <md:Company>Comune di Morciano di Leuca</md:Company>
+    <md:EmailAddress>administrator@comune.morcianodileuca.le.it</md:EmailAddress>
+  </md:ContactPerson>
+</md:EntityDescriptor>

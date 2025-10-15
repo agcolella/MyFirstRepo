@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" ID="pfx8cc49c7d-7f19-f118-7cb2-ee53cf75062c" entityID="https://www.comune.monteurano.fm.it">
+    <ds:Signature>
+        
+
+        <ds:SignedInfo>
+            
+
+            <ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+            
+
+            <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+            
+
+            <ds:Reference URI="#pfx8cc49c7d-7f19-f118-7cb2-ee53cf75062c">
+                
+
+                <ds:Transforms>
+                    
+
+                    <ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+                    
+
+                    <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+                    
+
+                </ds:Transforms>
+                
+
+                <ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+                
+
+                <ds:DigestValue>
+                    Bero/OUfGi4mMxmK1IK15mLhtWb8IuASGfccBpjKoTQ=
+                </ds:DigestValue>
+                
+
+            </ds:Reference>
+            
+
+        </ds:SignedInfo>
+        
+
+        <ds:SignatureValue>
+            
+NpS7W1lhysDB3ZLcAkH6OZODYLD18z5utaOoo6Bk84oOjxOtllpMZ8Cw/Ck/sTdAnqi9Pvbz5xwC
+2sGL3QVaIWbuQx7LAQhn6Lm4pEW6rl/qVj28hzJmkGRxpIFQfmu5SsQBO9Ub07RosP7UR+f1Ak5w
+bpnPiQ4EEkdXxw6/ZbICKuXDf0F/CRHs7tZYZ1lPwXKTFrAVE1loSWLYLhsuI++lUY7s14dMJR+X
+MU79HuYw6x26lXR0aJ9Yv80puVK7vSnw3gbvAaoA1aQiXx+/1lG+Ej7T8f/+hCp2Rvq6QVsKJ22N
+t+p0NggIA4EggrFBNPiLW4ztx/R9vKMczK9ZVQ==
+
+        </ds:SignatureValue>
+        
+
+        <ds:KeyInfo>
+            
+
+            <ds:KeyValue>
+                
+
+                <ds:RSAKeyValue>
+                    
+
+                    <ds:Modulus>
+                        
+mHIqu/zKvh4Hc3X1AnYuNSvtSZNdxQiq+k2YtIe1XGQWABXFcZ46N/QswpTFYhCtJSPBXiqksnJG
+SLkMZmx6u2yTVuWmhcadGCkXv6GVEW09Uit4dJuhmRH5MxNJONM0udNiE1L/uZxf9EgXI9jZAGKc
+Mr8J6Zipj3kHtafF3qVJs5HLfxjr7pHnc83PGNF//ZO5e2ur+WvFkhK9zKHvQF/4vWjjqPhKoajF
+sP+WWDcSB/3n0CCvpsw5Yxq3ijTg5CLTfNvNLv0otMWKT7Sy/rpVkyTafZ5Udvr7DaH7+j2M7Lb8
+N1vv/L3ypABsnsCkmu3oSI4D9xE6y9UOnY8g7w==
+
+                    </ds:Modulus>
+                    
+
+                    <ds:Exponent>
+                        AQAB
+                    </ds:Exponent>
+                    
+
+                </ds:RSAKeyValue>
+                
+
+            </ds:KeyValue>
+            
+
+            <ds:X509Data>
+                
+
+                <ds:X509Certificate>
+                    
+MIIDxTCCAq2gAwIBAgIJAJlFxJJByGpeMA0GCSqGSIb3DQEBCwUAMHkxCzAJBgNVBAYTAklUMQ4w
+DAYDVQQIDAVJdGFseTEUMBIGA1UEBwwLTW9udGUgVXJhbm8xHjAcBgNVBAoMFUNvbXVuZSBkaSBN
+b250ZSBVcmFubzEkMCIGA1UEAwwbd3d3LmNvbXVuZS5tb250ZXVyYW5vLmZtLml0MB4XDTIxMDYy
+OTE0MzMzMloXDTMxMDYyOTE0MzMzMloweTELMAkGA1UEBhMCSVQxDjAMBgNVBAgMBUl0YWx5MRQw
+EgYDVQQHDAtNb250ZSBVcmFubzEeMBwGA1UECgwVQ29tdW5lIGRpIE1vbnRlIFVyYW5vMSQwIgYD
+VQQDDBt3d3cuY29tdW5lLm1vbnRldXJhbm8uZm0uaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAw
+ggEKAoIBAQCYciq7/Mq+HgdzdfUCdi41K+1Jk13FCKr6TZi0h7VcZBYAFcVxnjo39CzClMViEK0l
+I8FeKqSyckZIuQxmbHq7bJNW5aaFxp0YKRe/oZURbT1SK3h0m6GZEfkzE0k40zS502ITUv+5nF/0
+SBcj2NkAYpwyvwnpmKmPeQe1p8XepUmzkct/GOvukedzzc8Y0X/9k7l7a6v5a8WSEr3Moe9AX/i9
+aOOo+EqhqMWw/5ZYNxIH/efQIK+mzDljGreKNODkItN8280u/Si0xYpPtLL+ulWTJNp9nlR2+vsN
+ofv6PYzstvw3W+/8vfKkAGyewKSa7ehIjgP3ETrL1Q6djyDvAgMBAAGjUDBOMB0GA1UdDgQWBBSk
+B60UDn8aDq3orbB2EwjFX2nehjAfBgNVHSMEGDAWgBSkB60UDn8aDq3orbB2EwjFX2nehjAMBgNV
+HRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQAmHHuYbigGACS7HIkxFuxfHtC5IYd2xsfLvtod
+SSGR6FUXbcpf/arrOTIfluJhfIk8TPFjbtWj+n6wXkxfqmpQMxtytVUWGTiJAjkWuHkgnK2cCPHJ
+atdq77DnVu6uzktkJV99I6e/CxG89mxzR/t2nR+PicSzNdrlEAy+i6fzJXlO7DMJDRZXyMliJMbl
+K9j31GOkaTCYq9xN0MiaI2dKXRazTLRmRmrCoNPsXfKKqErVVs7dhxQMbV0LBevUGNkuA1pKbiXe
+SoWPqKF3yxdPZJ7+PtlyUUccQpJm7N+xBYbC4iMWquzevY3ajoKUHlRxHczfPXK9SvITS6DAUP+3
+
+                </ds:X509Certificate>
+                
+
+            </ds:X509Data>
+            
+
+        </ds:KeyInfo>
+        
+
+    </ds:Signature>
+    
+  
+    <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+        
+    
+        <md:KeyDescriptor use="signing">
+            
+      
+            <ds:KeyInfo>
+                
+        
+                <ds:X509Data>
+                    
+          
+                    <ds:X509Certificate>
+                        MIIDxTCCAq2gAwIBAgIJAJlFxJJByGpeMA0GCSqGSIb3DQEBCwUAMHkxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEUMBIGA1UEBwwLTW9udGUgVXJhbm8xHjAcBgNVBAoMFUNvbXVuZSBkaSBNb250ZSBVcmFubzEkMCIGA1UEAwwbd3d3LmNvbXVuZS5tb250ZXVyYW5vLmZtLml0MB4XDTIxMDYyOTE0MzMzMloXDTMxMDYyOTE0MzMzMloweTELMAkGA1UEBhMCSVQxDjAMBgNVBAgMBUl0YWx5MRQwEgYDVQQHDAtNb250ZSBVcmFubzEeMBwGA1UECgwVQ29tdW5lIGRpIE1vbnRlIFVyYW5vMSQwIgYDVQQDDBt3d3cuY29tdW5lLm1vbnRldXJhbm8uZm0uaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCYciq7/Mq+HgdzdfUCdi41K+1Jk13FCKr6TZi0h7VcZBYAFcVxnjo39CzClMViEK0lI8FeKqSyckZIuQxmbHq7bJNW5aaFxp0YKRe/oZURbT1SK3h0m6GZEfkzE0k40zS502ITUv+5nF/0SBcj2NkAYpwyvwnpmKmPeQe1p8XepUmzkct/GOvukedzzc8Y0X/9k7l7a6v5a8WSEr3Moe9AX/i9aOOo+EqhqMWw/5ZYNxIH/efQIK+mzDljGreKNODkItN8280u/Si0xYpPtLL+ulWTJNp9nlR2+vsNofv6PYzstvw3W+/8vfKkAGyewKSa7ehIjgP3ETrL1Q6djyDvAgMBAAGjUDBOMB0GA1UdDgQWBBSkB60UDn8aDq3orbB2EwjFX2nehjAfBgNVHSMEGDAWgBSkB60UDn8aDq3orbB2EwjFX2nehjAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQAmHHuYbigGACS7HIkxFuxfHtC5IYd2xsfLvtodSSGR6FUXbcpf/arrOTIfluJhfIk8TPFjbtWj+n6wXkxfqmpQMxtytVUWGTiJAjkWuHkgnK2cCPHJatdq77DnVu6uzktkJV99I6e/CxG89mxzR/t2nR+PicSzNdrlEAy+i6fzJXlO7DMJDRZXyMliJMblK9j31GOkaTCYq9xN0MiaI2dKXRazTLRmRmrCoNPsXfKKqErVVs7dhxQMbV0LBevUGNkuA1pKbiXeSoWPqKF3yxdPZJ7+PtlyUUccQpJm7N+xBYbC4iMWquzevY3ajoKUHlRxHczfPXK9SvITS6DAUP+3
+                    </ds:X509Certificate>
+                    
+        
+                </ds:X509Data>
+                
+      
+            </ds:KeyInfo>
+            
+    
+        </md:KeyDescriptor>
+        
+    
+        <md:KeyDescriptor use="encryption">
+            
+      
+            <ds:KeyInfo>
+                
+        
+                <ds:X509Data>
+                    
+          
+                    <ds:X509Certificate>
+                        MIIDxTCCAq2gAwIBAgIJAJlFxJJByGpeMA0GCSqGSIb3DQEBCwUAMHkxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEUMBIGA1UEBwwLTW9udGUgVXJhbm8xHjAcBgNVBAoMFUNvbXVuZSBkaSBNb250ZSBVcmFubzEkMCIGA1UEAwwbd3d3LmNvbXVuZS5tb250ZXVyYW5vLmZtLml0MB4XDTIxMDYyOTE0MzMzMloXDTMxMDYyOTE0MzMzMloweTELMAkGA1UEBhMCSVQxDjAMBgNVBAgMBUl0YWx5MRQwEgYDVQQHDAtNb250ZSBVcmFubzEeMBwGA1UECgwVQ29tdW5lIGRpIE1vbnRlIFVyYW5vMSQwIgYDVQQDDBt3d3cuY29tdW5lLm1vbnRldXJhbm8uZm0uaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCYciq7/Mq+HgdzdfUCdi41K+1Jk13FCKr6TZi0h7VcZBYAFcVxnjo39CzClMViEK0lI8FeKqSyckZIuQxmbHq7bJNW5aaFxp0YKRe/oZURbT1SK3h0m6GZEfkzE0k40zS502ITUv+5nF/0SBcj2NkAYpwyvwnpmKmPeQe1p8XepUmzkct/GOvukedzzc8Y0X/9k7l7a6v5a8WSEr3Moe9AX/i9aOOo+EqhqMWw/5ZYNxIH/efQIK+mzDljGreKNODkItN8280u/Si0xYpPtLL+ulWTJNp9nlR2+vsNofv6PYzstvw3W+/8vfKkAGyewKSa7ehIjgP3ETrL1Q6djyDvAgMBAAGjUDBOMB0GA1UdDgQWBBSkB60UDn8aDq3orbB2EwjFX2nehjAfBgNVHSMEGDAWgBSkB60UDn8aDq3orbB2EwjFX2nehjAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQAmHHuYbigGACS7HIkxFuxfHtC5IYd2xsfLvtodSSGR6FUXbcpf/arrOTIfluJhfIk8TPFjbtWj+n6wXkxfqmpQMxtytVUWGTiJAjkWuHkgnK2cCPHJatdq77DnVu6uzktkJV99I6e/CxG89mxzR/t2nR+PicSzNdrlEAy+i6fzJXlO7DMJDRZXyMliJMblK9j31GOkaTCYq9xN0MiaI2dKXRazTLRmRmrCoNPsXfKKqErVVs7dhxQMbV0LBevUGNkuA1pKbiXeSoWPqKF3yxdPZJ7+PtlyUUccQpJm7N+xBYbC4iMWquzevY3ajoKUHlRxHczfPXK9SvITS6DAUP+3
+                    </ds:X509Certificate>
+                    
+        
+                </ds:X509Data>
+                
+      
+            </ds:KeyInfo>
+            
+    
+        </md:KeyDescriptor>
+        
+    
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://www.comune.monteurano.fm.it/spid/module.php/saml/sp/saml2-logout.php/spid"/>
+        
+    
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.comune.monteurano.fm.it/spid/module.php/saml/sp/saml2-acs.php/spid" index="0" isDefault="true"/>
+        
+    
+        <md:AttributeConsumingService index="1">
+            
+      
+            <md:ServiceName xml:lang="it">
+                Servizi online
+            </md:ServiceName>
+            
+      
+            <md:ServiceDescription xml:lang="it">
+                Servizi online
+            </md:ServiceDescription>
+            
+      
+            <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute FriendlyName="Cognome" Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute FriendlyName="Nome" Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute FriendlyName="Codice identificativo SPID" Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute FriendlyName="Ragione o denominazione sociale" Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+    
+        </md:AttributeConsumingService>
+        
+  
+    </md:SPSSODescriptor>
+    
+  
+    <md:Organization>
+        
+    
+        <md:OrganizationName xml:lang="it">
+            Comune di Monte Urano
+        </md:OrganizationName>
+        
+    
+        <md:OrganizationDisplayName xml:lang="it">
+            Comune di Monte Urano
+        </md:OrganizationDisplayName>
+        
+    
+        <md:OrganizationURL xml:lang="it">
+            https://www.comune.monteurano.fm.it
+        </md:OrganizationURL>
+        
+  
+    </md:Organization>
+    
+  
+    <md:ContactPerson contactType="other">
+        
+    
+        <md:Extensions>
+            
+      
+            <spid:IPACode>
+                c_f633
+            </spid:IPACode>
+            
+      
+            <spid:Public/>
+            
+    
+        </md:Extensions>
+        
+    
+        <md:Company>
+            Comune di Monte Urano
+        </md:Company>
+        
+    
+        <md:EmailAddress>
+            comune.monteurano@emarche.it
+        </md:EmailAddress>
+        
+  
+    </md:ContactPerson>
+    
+
+</md:EntityDescriptor>
