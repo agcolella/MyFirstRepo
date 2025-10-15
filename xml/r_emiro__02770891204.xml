@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:spid="https://spid.gov.it/saml-extensions" ID="_ojigtpa1fg677ijy562y" cacheDuration="P1M" entityID="https://federa.lepida.it/gw/spid-meta/pub-ag-full/r_emiro" xmlns:xml="http://www.w3.org/XML/1998/namespace">
-	<Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#WithComments"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><DigestValue>ozEVD5aXoxasQIcdJyRpqzkcTCL1ja0wH/+ypgTylDc=</DigestValue></Reference></SignedInfo><SignatureValue>AwW5K2+1HDfYD812hHbJNn7UQzxPDZf8ixnLMMjV8IHocWnp6YjEh0HdcOe8IwOo0uYesqjNzjAY&#13;
-wW+YIii3GguIQHlxF6bGTfBtR/wf+1a77Ewe/sFCoRJPFnW2Ruj78ChhEE/8BEu5GMOewrPQXeES&#13;
-U+AmoOxqt+/WDvZqpkJOInzpYhOPKYo9lH7vKdPqTfw/pvJ6aKmH5XVV/6ycnO/GGaYwPLPuIZJF&#13;
-D90CehPMdz2538N1sHyGRt9hxQGIRzy+nXf9q587WZ5JSjXp3pg11irc9/ZtUE2oX3tzqQm2HzD4&#13;
-G38kI81oPXBIHpt5wLtFMbmn/PZZo+ucq2rfqw==</SignatureValue><KeyInfo><X509Data><X509Certificate>MIIDtTCCAp2gAwIBAgIEX/AxhDANBgkqhkiG9w0BAQsFADCBiTELMAkGA1UEBhMCSVQxDjAMBgNV&#13;
+	<Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#WithComments"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><DigestValue>pgJShYg5LKckrqP5ae26UMuyWalr3YKUzvJUNUfRcaM=</DigestValue></Reference></SignedInfo><SignatureValue>R096Yd1PKXazdQdsjh3O9VCeRNZbl0zocJObHgEXbwaf/w/tXUdPVvGp/p0micQHqAirvwS57rhm&#13;
+c35vQ8A7iHzPR7aFtZw8mZHTUyJQzIJGMIbPeDkZFTXSCnCYOXG/PRmA4UR7rgrLHOz1Bwve5+5r&#13;
+wzsU37vOvv0WOhOEciwBxwk6ikpTCgoL7HkIBmNth4HnDza0zoWK5OKFlAlhocl7C0ipZloYmRmp&#13;
+YRHth890RRV78d6tkyQ40stpSNp0gWYH6hkAoyywM/7dpd4lj8GbV8CMjw7yC7fF8O4qP5VCkyUY&#13;
+jnZgE0GUjHuC0Mt1CLHO+waIqgKwbqOxmapYVA==</SignatureValue><KeyInfo><X509Data><X509Certificate>MIIDtTCCAp2gAwIBAgIEX/AxhDANBgkqhkiG9w0BAQsFADCBiTELMAkGA1UEBhMCSVQxDjAMBgNV&#13;
 BAgTBUl0YWx5MRAwDgYDVQQHEwdCb2xvZ25hMRIwEAYDVQQKEwlMZXBpZGFTcGExKTAnBgNVBAsT&#13;
 IFByb2dldHRhemlvbmUgZSBTdmlsdXBwbyBTZXJ2aXppMRkwFwYDVQQDExBmZWRlcmEubGVwaWRh&#13;
 Lml0MCAXDTE2MDMyMjE3MjU1OFoYDzIwNjYwMzEwMTcyNTU4WjCBiTELMAkGA1UEBhMCSVQxDjAM&#13;
@@ -1150,27 +1150,6 @@ HPIAka1gRmwehL5HQ+4xo0uccv5boXF/2qF3vFL1lx7KuA==
 		<md:AttributeConsumingService index="886">
 			<md:ServiceName xml:lang="it">Metasfera produzione - Regione Emilia-Romagna</md:ServiceName>
 			<md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
-			<md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
-		</md:AttributeConsumingService>
-		<md:AttributeConsumingService index="887">
-			<md:ServiceName xml:lang="it">SIAV SA (siav_sa) - Regione Emilia-Romagna</md:ServiceName>
-			<md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
-			<md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
-		</md:AttributeConsumingService>
-		<md:AttributeConsumingService index="888">
-			<md:ServiceName xml:lang="it">Taglio Boschivo (backoffice)- Regione Emilia-Romagna</md:ServiceName>
-			<md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
-			<md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
-			<md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
-			<md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
-			<md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
-		</md:AttributeConsumingService>
-		<md:AttributeConsumingService index="889">
-			<md:ServiceName xml:lang="it">Taglio Boschivo (frontoffice)- Regione Emilia-Romagna</md:ServiceName>
-			<md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
-			<md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
-			<md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
-			<md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
 			<md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
 		</md:AttributeConsumingService>
 		<md:AttributeConsumingService index="99">

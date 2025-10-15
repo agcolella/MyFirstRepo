@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" ID="_84fb0f9da58d8ed7fd9a6eb1c01f20049d8852cd93f47fbc2ba564d2c3849ee7" entityID="https://servizi.comune.salaparuta.tp.it"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#_84fb0f9da58d8ed7fd9a6eb1c01f20049d8852cd93f47fbc2ba564d2c3849ee7">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>xhtMxm1Gx0WBcYEsgvqB6eStpak8zSYNWUyHLvR1jaw=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+fZpUuh7jCg8cFbzUUfZzAL5ZduCdJVgmY++mj+sp4PouMPsj9PgNyBTi2M5TmIglc1xffDK6SFO3
+BSxXH7w+B5opOgjBQoA6KBTMqEY03cFYDmUy40YMZPCq+vjavxuCFCa1uUyGLzfMQwRGD5Wpx6oa
+Ga52STgp4tsLx95tA0rOawMdgnwzXUGk+1mwx+Oae6XQyX/M0TlvNz4qbLeHASzouEocBvaszlX3
+n4NQyq7YWL4kUG0tiDXnsN0JlBLf7wg+LQBU/9S4sbawsO41o5jdRbmmBRVB983P5B03ssBF0GqC
+Wrt9EWVEziqSScl/WtJo5p5TxaXLvpIKMbH7JA==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+qIbkjF2FN8Lah3y5iSpksrgpFHWM1NOt9JiCTK064DMX+g7e7Lb1p89zlt5idUP6l/TuyZlqtmnr
+LEmWhdvzjqg4hCWV94LAiblPi4QcYi/dRBKmwjReuMHc7PBu2b3C15jTHGCIgGLITrn0rEkoPAmv
+qw2DumArJ+/XdhDtRT2Z1HhGWvX18EZ74hMqRXt5FAno25ZbkZ8A1PhaxqsjhD4nO8neOfDKt7Rq
+OJ+wDY7gZ3t0vbS+C9++PRCDBYRxr5KZRjrL/QEgiLb47U8Xz8p54KMerKvVIdx71TjzZvP0OyTJ
+GLGBCEegjcusRjJRWtdY0DzJ2Plf70PufRNo3w==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDyTCCArGgAwIBAgIJAOIEs7FzEI65MA0GCSqGSIb3DQEBCwUAMHsxCzAJBgNVBAYTAklUMQ4w
+DAYDVQQIDAVJdGFseTETMBEGA1UEBwwKU2FsYXBhcnV0YTEdMBsGA1UECgwUQ29tdW5lIGRpIFNh
+bGFwYXJ1dGExKDAmBgNVBAMMH3NlcnZpemkuY29tdW5lLnNhbGFwYXJ1dGEudHAuaXQwHhcNMjQw
+NjA2MDgwNDUwWhcNMzQwNjA2MDgwNDUwWjB7MQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkx
+EzARBgNVBAcMClNhbGFwYXJ1dGExHTAbBgNVBAoMFENvbXVuZSBkaSBTYWxhcGFydXRhMSgwJgYD
+VQQDDB9zZXJ2aXppLmNvbXVuZS5zYWxhcGFydXRhLnRwLml0MIIBIjANBgkqhkiG9w0BAQEFAAOC
+AQ8AMIIBCgKCAQEAqIbkjF2FN8Lah3y5iSpksrgpFHWM1NOt9JiCTK064DMX+g7e7Lb1p89zlt5i
+dUP6l/TuyZlqtmnrLEmWhdvzjqg4hCWV94LAiblPi4QcYi/dRBKmwjReuMHc7PBu2b3C15jTHGCI
+gGLITrn0rEkoPAmvqw2DumArJ+/XdhDtRT2Z1HhGWvX18EZ74hMqRXt5FAno25ZbkZ8A1Phaxqsj
+hD4nO8neOfDKt7RqOJ+wDY7gZ3t0vbS+C9++PRCDBYRxr5KZRjrL/QEgiLb47U8Xz8p54KMerKvV
+Idx71TjzZvP0OyTJGLGBCEegjcusRjJRWtdY0DzJ2Plf70PufRNo3wIDAQABo1AwTjAdBgNVHQ4E
+FgQUt+zj26xeShVETJM+efm/3ldk2PowHwYDVR0jBBgwFoAUt+zj26xeShVETJM+efm/3ldk2Pow
+DAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEASHQAuA96xSCeUhguTBZN3GOZ4iFy/wDq
+OAKuTRQNpOTrs+dQI50h52acgqT73fU1qbepHVjBZlJDqg/5FGcR7MJ06bFB+d4thAW3w5D2OrKE
+GYe6HsL8L+PhoUd1/bkEBQ4eC/7P7UH1SOtKxKHVuSxjBXy/LGM3gbQczyQB/J8MjBmpHz28uquK
+cn6OwtB/m6LYDsM+ZVmG6so7/h+xtyXbWuxClvKPajHmBmvKjdmCKck7cy/5I87rU08SbzvfV7fQ
+jOy2fAiQFsslQwCQ68r/noCpfsJ0sGX34p/+oFgdjxFF9wmtchoP6n09LlGeRkhBMBc+k5mcId4U
+QObMPA==
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDyTCCArGgAwIBAgIJAOIEs7FzEI65MA0GCSqGSIb3DQEBCwUAMHsxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTETMBEGA1UEBwwKU2FsYXBhcnV0YTEdMBsGA1UECgwUQ29tdW5lIGRpIFNhbGFwYXJ1dGExKDAmBgNVBAMMH3NlcnZpemkuY29tdW5lLnNhbGFwYXJ1dGEudHAuaXQwHhcNMjQwNjA2MDgwNDUwWhcNMzQwNjA2MDgwNDUwWjB7MQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxEzARBgNVBAcMClNhbGFwYXJ1dGExHTAbBgNVBAoMFENvbXVuZSBkaSBTYWxhcGFydXRhMSgwJgYDVQQDDB9zZXJ2aXppLmNvbXVuZS5zYWxhcGFydXRhLnRwLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAqIbkjF2FN8Lah3y5iSpksrgpFHWM1NOt9JiCTK064DMX+g7e7Lb1p89zlt5idUP6l/TuyZlqtmnrLEmWhdvzjqg4hCWV94LAiblPi4QcYi/dRBKmwjReuMHc7PBu2b3C15jTHGCIgGLITrn0rEkoPAmvqw2DumArJ+/XdhDtRT2Z1HhGWvX18EZ74hMqRXt5FAno25ZbkZ8A1PhaxqsjhD4nO8neOfDKt7RqOJ+wDY7gZ3t0vbS+C9++PRCDBYRxr5KZRjrL/QEgiLb47U8Xz8p54KMerKvVIdx71TjzZvP0OyTJGLGBCEegjcusRjJRWtdY0DzJ2Plf70PufRNo3wIDAQABo1AwTjAdBgNVHQ4EFgQUt+zj26xeShVETJM+efm/3ldk2PowHwYDVR0jBBgwFoAUt+zj26xeShVETJM+efm/3ldk2PowDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEASHQAuA96xSCeUhguTBZN3GOZ4iFy/wDqOAKuTRQNpOTrs+dQI50h52acgqT73fU1qbepHVjBZlJDqg/5FGcR7MJ06bFB+d4thAW3w5D2OrKEGYe6HsL8L+PhoUd1/bkEBQ4eC/7P7UH1SOtKxKHVuSxjBXy/LGM3gbQczyQB/J8MjBmpHz28uquKcn6OwtB/m6LYDsM+ZVmG6so7/h+xtyXbWuxClvKPajHmBmvKjdmCKck7cy/5I87rU08SbzvfV7fQjOy2fAiQFsslQwCQ68r/noCpfsJ0sGX34p/+oFgdjxFF9wmtchoP6n09LlGeRkhBMBc+k5mcId4UQObMPA==</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDyTCCArGgAwIBAgIJAOIEs7FzEI65MA0GCSqGSIb3DQEBCwUAMHsxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTETMBEGA1UEBwwKU2FsYXBhcnV0YTEdMBsGA1UECgwUQ29tdW5lIGRpIFNhbGFwYXJ1dGExKDAmBgNVBAMMH3NlcnZpemkuY29tdW5lLnNhbGFwYXJ1dGEudHAuaXQwHhcNMjQwNjA2MDgwNDUwWhcNMzQwNjA2MDgwNDUwWjB7MQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxEzARBgNVBAcMClNhbGFwYXJ1dGExHTAbBgNVBAoMFENvbXVuZSBkaSBTYWxhcGFydXRhMSgwJgYDVQQDDB9zZXJ2aXppLmNvbXVuZS5zYWxhcGFydXRhLnRwLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAqIbkjF2FN8Lah3y5iSpksrgpFHWM1NOt9JiCTK064DMX+g7e7Lb1p89zlt5idUP6l/TuyZlqtmnrLEmWhdvzjqg4hCWV94LAiblPi4QcYi/dRBKmwjReuMHc7PBu2b3C15jTHGCIgGLITrn0rEkoPAmvqw2DumArJ+/XdhDtRT2Z1HhGWvX18EZ74hMqRXt5FAno25ZbkZ8A1PhaxqsjhD4nO8neOfDKt7RqOJ+wDY7gZ3t0vbS+C9++PRCDBYRxr5KZRjrL/QEgiLb47U8Xz8p54KMerKvVIdx71TjzZvP0OyTJGLGBCEegjcusRjJRWtdY0DzJ2Plf70PufRNo3wIDAQABo1AwTjAdBgNVHQ4EFgQUt+zj26xeShVETJM+efm/3ldk2PowHwYDVR0jBBgwFoAUt+zj26xeShVETJM+efm/3ldk2PowDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEASHQAuA96xSCeUhguTBZN3GOZ4iFy/wDqOAKuTRQNpOTrs+dQI50h52acgqT73fU1qbepHVjBZlJDqg/5FGcR7MJ06bFB+d4thAW3w5D2OrKEGYe6HsL8L+PhoUd1/bkEBQ4eC/7P7UH1SOtKxKHVuSxjBXy/LGM3gbQczyQB/J8MjBmpHz28uquKcn6OwtB/m6LYDsM+ZVmG6so7/h+xtyXbWuxClvKPajHmBmvKjdmCKck7cy/5I87rU08SbzvfV7fQjOy2fAiQFsslQwCQ68r/noCpfsJ0sGX34p/+oFgdjxFF9wmtchoP6n09LlGeRkhBMBc+k5mcId4UQObMPA==</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://servizi.comune.salaparuta.tp.it/spid/module.php/saml/sp/saml2-logout.php/spid"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://servizi.comune.salaparuta.tp.it/spid/module.php/saml/sp/saml2-acs.php/spid" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://servizi.comune.salaparuta.tp.it/spid/module.php/saml/sp/saml2-acs.php/spid" index="1"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">Servizi online</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Servizi online</md:ServiceDescription>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Codice identificativo SPID" Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Ragione o denominazione sociale" Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Salaparuta</md:OrganizationName>
+    <md:OrganizationName xml:lang="en">Comune di Salaparuta</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Salaparuta</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Salaparuta</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.comune.salaparuta.tp.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="en">https://www.comune.salaparuta.tp.it</md:OrganizationURL>
+  </md:Organization>
+  <md:ContactPerson contactType="other">
+    <md:Extensions>
+      <spid:IPACode>c_h688</spid:IPACode>
+      <spid:Public/>
+    </md:Extensions>
+    <md:Company>Comune di Salaparuta</md:Company>
+    <md:EmailAddress>info@comune.salaparuta.tp.it</md:EmailAddress>
+  </md:ContactPerson>
+</md:EntityDescriptor>

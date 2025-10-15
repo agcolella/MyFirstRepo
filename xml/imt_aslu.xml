@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" xmlns:xsi="http://www.w3.org/2001/XMLSchemainstance" ID="_0f03413520b1f02f87314845fb5be8c7c6ba31d7" entityID="https://spid.imtlucca.it"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>G7cZXAy4tk849cXmL81+QP37YeWeJtIEq7bxQ+uc+gY=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+pJLeTsgRsR33YttcgacfbWTe6GRIdobA7HKgqHk5pgXjMlcJJoR3jDB7L6uhHG/3ZdJ7BRu7sO+M
++q/plmivgcj7hzQ0ZPt3j5Mekq917jyVfQbPFDowbIEom3RJ1ijFEnMUumBVGDqJ/mxwKCQAl8GZ
+BTNB8RQZT0Jp/xRVRLnurUnD1es4W1qJuXRo9KMBk7e4sZ0jOnNmKUpWBJFKsDnLThJ2rdXr/7U9
+NeWp4gAiXMG8zsQA4ziTFnlL31L0ozZOMpMI6rwLezlzOblgql9b3O4iZwFVaiFkJN7Hny3V4/Si
+M2GFNsK0geREZxF9EZzTzP8AZpAIr1jvkak07g==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+vUVVmsqdn5KqF6VanS7Ym/rdf26FyUFD1xtXYm/4pQGYy6fSXER9z916Oxr2dLCySxYwSmtt5X3f
+Hrt2pc6EvB7CA37CYLr048CQuVTsOMddC2TJfmeGd3JubwWPBsxNfL0ldUb/xJnDjIOGEJoOj7me
+imqtb6dK+/Z6bT2dBzNSQu3DA1yWjRwS09RixD52+jNJNzBMR6DLGoapiVw4O6e8TJQboR9CgNF7
++SFmRKadk7dCoEnkk+RJP7DJBE8otbh+MmYEKy/KZojLxb2oeZI9QxsHgAnRON86C0xBQjUtB9kP
+rNI41Vck7v+qdpLnhxlS6N63fHjt/SyKHSM46w==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIECzCCAvOgAwIBAgIUeEitG9o0ghrk7V0egKVuAeBaGUQwDQYJKoZIhvcNAQELBQAwgbIxCzAJ
+BgNVBAYTAklUMRwwGgYDVQQHDBNDYXNhbGVjY2hpbyBkaSBSZW5vMSwwKgYDVQQKDCNDaW5lY2Eg
+Q29uc29yemlvIEludGVydW5pdmVyc2l0YXJpbzEPMA0GA1UEAwwGQ0lORUNBMRIwEAYDVQRhDAlQ
+QTpJVC1jY2kxMjAwBgNVBFMMKWh0dHBzOi8vbWV0YWRhdGFwcm92aWRlci5jaW5lY2EuaXQvc2ln
+bmVyMB4XDTI0MDIwOTEyMDQzNloXDTQ0MDIwODEyMDQzNlowgbIxCzAJBgNVBAYTAklUMRwwGgYD
+VQQHDBNDYXNhbGVjY2hpbyBkaSBSZW5vMSwwKgYDVQQKDCNDaW5lY2EgQ29uc29yemlvIEludGVy
+dW5pdmVyc2l0YXJpbzEPMA0GA1UEAwwGQ0lORUNBMRIwEAYDVQRhDAlQQTpJVC1jY2kxMjAwBgNV
+BFMMKWh0dHBzOi8vbWV0YWRhdGFwcm92aWRlci5jaW5lY2EuaXQvc2lnbmVyMIIBIjANBgkqhkiG
+9w0BAQEFAAOCAQ8AMIIBCgKCAQEAvUVVmsqdn5KqF6VanS7Ym/rdf26FyUFD1xtXYm/4pQGYy6fS
+XER9z916Oxr2dLCySxYwSmtt5X3fHrt2pc6EvB7CA37CYLr048CQuVTsOMddC2TJfmeGd3JubwWP
+BsxNfL0ldUb/xJnDjIOGEJoOj7meimqtb6dK+/Z6bT2dBzNSQu3DA1yWjRwS09RixD52+jNJNzBM
+R6DLGoapiVw4O6e8TJQboR9CgNF7+SFmRKadk7dCoEnkk+RJP7DJBE8otbh+MmYEKy/KZojLxb2o
+eZI9QxsHgAnRON86C0xBQjUtB9kPrNI41Vck7v+qdpLnhxlS6N63fHjt/SyKHSM46wIDAQABoxcw
+FTATBgNVHSAEDDAKMAgGBitMEAQCATANBgkqhkiG9w0BAQsFAAOCAQEAJaCt39l1uGtxaMudihNL
+AilujJMFmEfx8AXbqDvLkOOndqPNkYaJfaxE17tQKVjv9FU+qv67av4UJoi1zUTTeBJZ9aqlpwPJ
+6yCf1jyKk1atWe1pe0nKOwPEMoAUXKOXA2Giq2v3leMC8pmAFGyYM5KknF1cBqLp+ELkZLh+ZNSG
+XO2IZT4G7+mzWLwPi6XfNGwLhOqS62jqn//Qu53LO6xat8rzDPJtEAtGMRG96YjShkpOT+ryyWXj
+2wmb8dW8FsP7njTX/0resSHVTvboUP3ZJFFL13PlBbt5c3RFfl2wJWSZYbiaxs7Fe+5UXlKTvBs2
+QXUCNQFx/Lv0BjtLAA==
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+
+	<md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+
+		<md:KeyDescriptor use="signing">
+			<ds:KeyInfo>
+				<ds:X509Data>
+					<ds:X509Certificate>
+MIIDwzCCAqugAwIBAgIUCMix0BYPDr5GUxLyOhCIrJ4UJWEwDQYJKoZIhvcNAQEL
+BQAwgY4xCzAJBgNVBAYTAklUMQ4wDAYDVQQHDAVMdWNjYTEgMB4GA1UECgwXSW10
+IEFsdGkgU3R1ZGkgZGkgTHVjY2ExETAPBgNVBAMMCGltdGx1Y2NhMRcwFQYDVQRh
+DA5QQTpJVC1pbXRfYXNsdTEhMB8GA1UEUwwYaHR0cHM6Ly9zcGlkLmltdGx1Y2Nh
+Lml0MB4XDTI0MDUyOTA5MTM1OFoXDTQ0MDUyODA5MTM1OFowgY4xCzAJBgNVBAYT
+AklUMQ4wDAYDVQQHDAVMdWNjYTEgMB4GA1UECgwXSW10IEFsdGkgU3R1ZGkgZGkg
+THVjY2ExETAPBgNVBAMMCGltdGx1Y2NhMRcwFQYDVQRhDA5QQTpJVC1pbXRfYXNs
+dTEhMB8GA1UEUwwYaHR0cHM6Ly9zcGlkLmltdGx1Y2NhLml0MIIBIjANBgkqhkiG
+9w0BAQEFAAOCAQ8AMIIBCgKCAQEA2y0mdrCKQh/S/ngcby1jQjiBL59iWghZbyFI
+1BZK7f83153qHKkUYC83V9cXczPGmQg1173F9fXfuWxdfimtrQYFniMIPl5eogqw
+c0qSAzkuI25cJtH+1/oNbG4A43bX8YPMCWkj8NH5ueSxMt+BA0XS+bmawM6oVe+4
+KiblBWgERclyWqB7VkPy1E93QGb96uP2u/sqhGK6zv8CkCkwFlZZJ81Cx6VAAcDI
+c0G5aXp5P7Ykal/qnTQ5oFcPhbK/plg3mK55XFCoBJvOApN+jtT2GGgTozwug7R1
+6NMpuBvI3mEj+cEaorj0PEZdDdNRKwhvt5IrWNeSYrBPnYYYzQIDAQABoxcwFTAT
+BgNVHSAEDDAKMAgGBitMEAQCATANBgkqhkiG9w0BAQsFAAOCAQEA0zGcBXc2tH7K
+V3mgvNFeSysMWg6lFjW2YmsOWBiKzJn53q7MvjRRjyaTQr+eesOpn1zQ8iGTFxbS
+fPfAcz6BQ3oSZlyL+jBXXzJbFzIznrxUqtcwmt8ColVXr6fK+GfQyr5ld7MnOb4p
+iEN9/05+yMRTtQmAWlEp+HSV3cUhW1K9nHn7IvbrovG0y++b4CbttShExp44zWUz
+DC8nv1hygkmyTNGB33lOK/Jm79u6dF5W6tBRlwaOp1FylaczSLTuQd7WZJM0M2WG
+U/4mfNP/F64JGLhJ3d0k83FObBaPgWEh0LSyC361JJ8yGBp2YeLzXBGxpdczpK1y
+B9tXvXwSQQ==
+					</ds:X509Certificate>
+				</ds:X509Data>
+			</ds:KeyInfo>
+		</md:KeyDescriptor>
+
+		<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://imtlucca.idp.pp.cineca.it/Shibboleth.sso/SLO/POST"/>
+		<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://imtlucca.idp.pp.cineca.it/Shibboleth.sso/SLO/Redirect"/>
+
+		<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://imtlucca.idp.cineca.it/Shibboleth.sso/SLO/POST"/>
+		<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://imtlucca.idp.cineca.it/Shibboleth.sso/SLO/Redirect"/>
+
+		<md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+
+		<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://imtlucca.idp.cineca.it/Shibboleth.sso/SAML2/POST" index="0" isDefault="true"/>
+		<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://imtlucca.idp.pp.cineca.it/Shibboleth.sso/SAML2/POST" index="1"/>
+
+		<md:AttributeConsumingService index="0">
+			<md:ServiceName xml:lang="it">ImtLucca SPID - Login </md:ServiceName>
+			<md:RequestedAttribute Name="name"/>
+			<md:RequestedAttribute Name="familyName"/>
+			<md:RequestedAttribute Name="fiscalNumber"/>
+			<md:RequestedAttribute Name="spidCode"/>
+		</md:AttributeConsumingService>	
+
+		<md:AttributeConsumingService index="1">
+			<md:ServiceName xml:lang="it">ImtLucca SPID - Registrazione</md:ServiceName>
+			<md:RequestedAttribute Name="name"/>
+			<md:RequestedAttribute Name="familyName"/>
+			<md:RequestedAttribute Name="fiscalNumber"/>
+			<md:RequestedAttribute Name="spidCode"/>
+			<md:RequestedAttribute Name="placeOfBirth"/>
+			<md:RequestedAttribute Name="dateOfBirth"/>				
+			<md:RequestedAttribute Name="gender"/>
+			<md:RequestedAttribute Name="idCard"/>
+			<md:RequestedAttribute Name="mobilePhone"/>
+			<md:RequestedAttribute Name="email"/>
+			<md:RequestedAttribute Name="address"/>
+			<md:RequestedAttribute Name="domicileStreetAddress"/>
+			<md:RequestedAttribute Name="domicilePostalCode"/>
+			<md:RequestedAttribute Name="domicileMunicipality"/>
+			<md:RequestedAttribute Name="domicileProvince"/>
+			<md:RequestedAttribute Name="domicileNation"/>
+		</md:AttributeConsumingService>
+
+		<md:AttributeConsumingService index="2">
+			<md:ServiceName xml:lang="it">ImtLucca SPID - Intermediate set</md:ServiceName>
+			<md:RequestedAttribute Name="name"/>
+			<md:RequestedAttribute Name="familyName"/>
+			<md:RequestedAttribute Name="fiscalNumber"/>
+			<md:RequestedAttribute Name="spidCode"/>
+			<md:RequestedAttribute Name="email"/>
+		</md:AttributeConsumingService>
+		
+		<md:AttributeConsumingService index="99">
+			<md:ServiceName xml:lang="it">eIDAS Natural Person Minimum Attribute Set</md:ServiceName>
+			<md:RequestedAttribute Name="spidCode"/>
+			<md:RequestedAttribute Name="name"/>
+			<md:RequestedAttribute Name="familyName"/>
+			<md:RequestedAttribute Name="dateOfBirth"/>
+		</md:AttributeConsumingService>
+		
+		<md:AttributeConsumingService index="100">
+			<md:ServiceName xml:lang="it">eIDAS Natural Person Full Attribute Set</md:ServiceName>
+			<md:RequestedAttribute Name="spidCode"/>
+			<md:RequestedAttribute Name="name"/>
+			<md:RequestedAttribute Name="familyName"/>
+			<md:RequestedAttribute Name="dateOfBirth"/>
+			<md:RequestedAttribute Name="placeOfBirth"/>
+			<md:RequestedAttribute Name="address"/>
+			<md:RequestedAttribute Name="gender"/>
+		</md:AttributeConsumingService>
+
+
+	</md:SPSSODescriptor>
+  
+	<md:Organization>
+		<md:OrganizationName xml:lang="it">Imt Alti Studi di Lucca</md:OrganizationName>
+		<md:OrganizationDisplayName xml:lang="it">ImtLucca</md:OrganizationDisplayName>
+		<md:OrganizationURL xml:lang="it">www.imtlucca.it</md:OrganizationURL>
+	</md:Organization>
+
+	<md:ContactPerson contactType="other">
+		<md:Extensions>
+			<spid:IPACode>imt_aslu</spid:IPACode>
+			<spid:Public/>
+		</md:Extensions>
+		<md:EmailAddress>support@imtlucca.it</md:EmailAddress>
+		<md:TelephoneNumber>+3905834326783</md:TelephoneNumber>
+	</md:ContactPerson>
+
+</md:EntityDescriptor>
