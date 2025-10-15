@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" ID="_33105920ed911e9e2b14b076fad9ea6fdf9414a35a949a47e747fad3fdbe1c34" entityID="https://agerola.halleyweb.it"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#_33105920ed911e9e2b14b076fad9ea6fdf9414a35a949a47e747fad3fdbe1c34">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>BtLwp4fwRwq3s9oAu58tJmt+rWz3GMQeatb9e97KyXE=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+gZwFCJHT1xikimMyiaHxbOMUztpcru3B/Nh3PEupU73Pm3tXwyXFdIsxuqIgkhq2/6lPTTGX9FnY
+sfAcEMpHaF8R3Jw2tSXssvMHmHeA2TgQh3BPp0KOv0PY60U5TwoDuEfUwLuxmL99F8Z0lWoyDSXN
+h2ibosxoeu7sJi5j6I2AZgf6rdVtdYxBTHJ1HyeobxfnGJj4b5GmrTcrKOPu2PV4LemvJQopa+5H
+cGJqqSLOewv+FXgwe2ASFO5OFhhnoR7MvqdQwg1QaGRvxG46gQwJRHXflpMq1j7pSdctr+2UyTo+
+pmjsP0AHf0BUHinuCBK628eDDvf0pa3ySq4y/A==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+vpPnNCx1ZNFSQVpbFjZLSVcbjcKjVnulACIOtbptBRCHsgLZeG2h/Lc1Pt57LqGlt2HYT+UijIsj
+CoRS5MBGqzFzjPSJziQa4+4NDLfE2j8WGwFuGv3n8dcG8bNkERsSS9Adg2yabnLvBdeUZM9uVanR
+hYOJoILIHRwr6U/zcip1jVhehUQRMQXW6t6GmLTDcV0l3I+i5MnHdmwd4m45YKNG+DicoJ4Iyzqh
+X0kk7bmaNU6ol3jqWzrAjIruvEV1bavxxBuWtyajIPtpi5tsgoHIT931Nya/wl8weDMYZDJRCog5
+E9PUdbGv3VtP7T6sPbKDfWHr/wK5B9vjxVjh/Q==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDpzCCAo+gAwIBAgIJAMIGM01vRVuWMA0GCSqGSIb3DQEBCwUAMGoxCzAJBgNVBAYTAklUMQ4w
+DAYDVQQIDAVJdGFseTEQMA4GA1UEBwwHQWdlcm9sYTEaMBgGA1UECgwRQ29tdW5lIGRpIEFnZXJv
+bGExHTAbBgNVBAMMFGFnZXJvbGEuaGFsbGV5d2ViLml0MB4XDTI0MDcxNzA5MzUwM1oXDTM0MDcx
+NzA5MzUwM1owajELMAkGA1UEBhMCSVQxDjAMBgNVBAgMBUl0YWx5MRAwDgYDVQQHDAdBZ2Vyb2xh
+MRowGAYDVQQKDBFDb211bmUgZGkgQWdlcm9sYTEdMBsGA1UEAwwUYWdlcm9sYS5oYWxsZXl3ZWIu
+aXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC+k+c0LHVk0VJBWlsWNktJVxuNwqNW
+e6UAIg61um0FEIeyAtl4baH8tzU+3nsuoaW3YdhP5SKMiyMKhFLkwEarMXOM9InOJBrj7g0Mt8Ta
+PxYbAW4a/efx1wbxs2QRGxJL0B2DbJpucu8F15Rkz25VqdGFg4mggsgdHCvpT/NyKnWNWF6FRBEx
+Bdbq3oaYtMNxXSXcj6Lkycd2bB3ibjlgo0b4OJygngjLOqFfSSTtuZo1TqiXeOpbOsCMiu68RXVt
+q/HEG5a3JqMg+2mLm2yCgchP3fU3Jr/CXzB4MxhkMlEKiDkT09R1sa/dW0/tPqw9soN9Yev/ArkH
+2+PFWOH9AgMBAAGjUDBOMB0GA1UdDgQWBBQU0tzrfaMIhMb1EJ6+YuxU5j2HZjAfBgNVHSMEGDAW
+gBQU0tzrfaMIhMb1EJ6+YuxU5j2HZjAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQB3
+3uZPK/NeoxQ4R6WwmH+O3a9ZnG6cr3FhPY6rePEJsKolvJKW31KmHQH/0g7oUiQBA5xEcRundM/X
+ChTZDr7d4sTgDvBwyoDPJbbiaaWk9+N8nz7ZZZriTkwI4yeaZFMl0w1lldXYN5s8BLb/JgDWuxrW
+SOfAYn9odSgDa4SkFez/giF8E112A6ngx9OOtJH20p4Kn2+0cpaAhHs0XXXr3j4SOwzP37RpHvWh
+bZ0bkpJn1Y8LmTb4tpXSVLjPvp+J+osguYQgN6ZdjeeZcqnZfN97WOgw2LX7Gcu/6QQ2Fz6tRtma
+q+fRjKDmgSMxmmYPQi3xv1a9mF8V2aMfScxa
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDpzCCAo+gAwIBAgIJAMIGM01vRVuWMA0GCSqGSIb3DQEBCwUAMGoxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEQMA4GA1UEBwwHQWdlcm9sYTEaMBgGA1UECgwRQ29tdW5lIGRpIEFnZXJvbGExHTAbBgNVBAMMFGFnZXJvbGEuaGFsbGV5d2ViLml0MB4XDTI0MDcxNzA5MzUwM1oXDTM0MDcxNzA5MzUwM1owajELMAkGA1UEBhMCSVQxDjAMBgNVBAgMBUl0YWx5MRAwDgYDVQQHDAdBZ2Vyb2xhMRowGAYDVQQKDBFDb211bmUgZGkgQWdlcm9sYTEdMBsGA1UEAwwUYWdlcm9sYS5oYWxsZXl3ZWIuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC+k+c0LHVk0VJBWlsWNktJVxuNwqNWe6UAIg61um0FEIeyAtl4baH8tzU+3nsuoaW3YdhP5SKMiyMKhFLkwEarMXOM9InOJBrj7g0Mt8TaPxYbAW4a/efx1wbxs2QRGxJL0B2DbJpucu8F15Rkz25VqdGFg4mggsgdHCvpT/NyKnWNWF6FRBExBdbq3oaYtMNxXSXcj6Lkycd2bB3ibjlgo0b4OJygngjLOqFfSSTtuZo1TqiXeOpbOsCMiu68RXVtq/HEG5a3JqMg+2mLm2yCgchP3fU3Jr/CXzB4MxhkMlEKiDkT09R1sa/dW0/tPqw9soN9Yev/ArkH2+PFWOH9AgMBAAGjUDBOMB0GA1UdDgQWBBQU0tzrfaMIhMb1EJ6+YuxU5j2HZjAfBgNVHSMEGDAWgBQU0tzrfaMIhMb1EJ6+YuxU5j2HZjAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQB33uZPK/NeoxQ4R6WwmH+O3a9ZnG6cr3FhPY6rePEJsKolvJKW31KmHQH/0g7oUiQBA5xEcRundM/XChTZDr7d4sTgDvBwyoDPJbbiaaWk9+N8nz7ZZZriTkwI4yeaZFMl0w1lldXYN5s8BLb/JgDWuxrWSOfAYn9odSgDa4SkFez/giF8E112A6ngx9OOtJH20p4Kn2+0cpaAhHs0XXXr3j4SOwzP37RpHvWhbZ0bkpJn1Y8LmTb4tpXSVLjPvp+J+osguYQgN6ZdjeeZcqnZfN97WOgw2LX7Gcu/6QQ2Fz6tRtmaq+fRjKDmgSMxmmYPQi3xv1a9mF8V2aMfScxa</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDpzCCAo+gAwIBAgIJAMIGM01vRVuWMA0GCSqGSIb3DQEBCwUAMGoxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEQMA4GA1UEBwwHQWdlcm9sYTEaMBgGA1UECgwRQ29tdW5lIGRpIEFnZXJvbGExHTAbBgNVBAMMFGFnZXJvbGEuaGFsbGV5d2ViLml0MB4XDTI0MDcxNzA5MzUwM1oXDTM0MDcxNzA5MzUwM1owajELMAkGA1UEBhMCSVQxDjAMBgNVBAgMBUl0YWx5MRAwDgYDVQQHDAdBZ2Vyb2xhMRowGAYDVQQKDBFDb211bmUgZGkgQWdlcm9sYTEdMBsGA1UEAwwUYWdlcm9sYS5oYWxsZXl3ZWIuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC+k+c0LHVk0VJBWlsWNktJVxuNwqNWe6UAIg61um0FEIeyAtl4baH8tzU+3nsuoaW3YdhP5SKMiyMKhFLkwEarMXOM9InOJBrj7g0Mt8TaPxYbAW4a/efx1wbxs2QRGxJL0B2DbJpucu8F15Rkz25VqdGFg4mggsgdHCvpT/NyKnWNWF6FRBExBdbq3oaYtMNxXSXcj6Lkycd2bB3ibjlgo0b4OJygngjLOqFfSSTtuZo1TqiXeOpbOsCMiu68RXVtq/HEG5a3JqMg+2mLm2yCgchP3fU3Jr/CXzB4MxhkMlEKiDkT09R1sa/dW0/tPqw9soN9Yev/ArkH2+PFWOH9AgMBAAGjUDBOMB0GA1UdDgQWBBQU0tzrfaMIhMb1EJ6+YuxU5j2HZjAfBgNVHSMEGDAWgBQU0tzrfaMIhMb1EJ6+YuxU5j2HZjAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQB33uZPK/NeoxQ4R6WwmH+O3a9ZnG6cr3FhPY6rePEJsKolvJKW31KmHQH/0g7oUiQBA5xEcRundM/XChTZDr7d4sTgDvBwyoDPJbbiaaWk9+N8nz7ZZZriTkwI4yeaZFMl0w1lldXYN5s8BLb/JgDWuxrWSOfAYn9odSgDa4SkFez/giF8E112A6ngx9OOtJH20p4Kn2+0cpaAhHs0XXXr3j4SOwzP37RpHvWhbZ0bkpJn1Y8LmTb4tpXSVLjPvp+J+osguYQgN6ZdjeeZcqnZfN97WOgw2LX7Gcu/6QQ2Fz6tRtmaq+fRjKDmgSMxmmYPQi3xv1a9mF8V2aMfScxa</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://agerola.halleyweb.it/spid/module.php/saml/sp/saml2-logout.php/spid"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://agerola.halleyweb.it/spid/module.php/saml/sp/saml2-acs.php/spid" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://agerola.halleyweb.it/spid/module.php/saml/sp/saml2-acs.php/spid" index="1"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">Servizi online</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Servizi online</md:ServiceDescription>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Codice identificativo SPID" Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Ragione o denominazione sociale" Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Agerola</md:OrganizationName>
+    <md:OrganizationName xml:lang="en">Comune di Agerola</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Agerola</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Agerola</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.comune.agerola.na.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="en">https://www.comune.agerola.na.it</md:OrganizationURL>
+  </md:Organization>
+  <md:ContactPerson contactType="other">
+    <md:Extensions>
+      <spid:IPACode>C_A068</spid:IPACode>
+      <spid:Public/>
+    </md:Extensions>
+    <md:Company>Comune di Agerola</md:Company>
+    <md:EmailAddress>egov@halley.it</md:EmailAddress>
+  </md:ContactPerson>
+</md:EntityDescriptor>
