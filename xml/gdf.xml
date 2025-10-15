@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:fpa="https://spid.gov.it/invoicing-extensions" xmlns:spid="https://spid.gov.it/saml-extensions" ID="_f073d06906fa42f49e8f644b159cf8604f9fe8a" entityID="https://spid.gdf.gov.it/adfs/services/trust" validUntil="2043-03-22T15:47:00.263Z"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>dHEWMUVApqRfSPVUoypZtBFkKQtOitwzfgv3LSyqLZw=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+TNDsEqX8WEU6y6AoovH30YzeayMxxYv8wRtknkpRnLO7R3m1rjhXY1wtf5rGcczUudVCi6Dlv4M2
+XEuy68pN9f5XZ0DchjSRuQnJmwIeeGoQaHWDyUbxGgA6cPbEw+HqpkOZbXaHLBVzzINLebCBZTZx
+9Hz4S2X6PMsLm0TAebM+wg7DBze2SmGJ1zS3zGd5iYlGCy2WeNPExpXGuSzKxG4Fo65O76iY18sm
+y2WYOCzJ/VupBdpQCOKRHCBT9OKSs0ao9qgtEw8GiBVZy+sPpmh48socwSvKnJ5wDl0G07jsf6E0
+l3uKqUILuh+Jktaqc0Ts3c3/IG9rZej3qJJPiQ==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+u/pobBQl7p2NhuFyuoyn92cqM00Mb60/StFuScUOtIp61qm9mIE7rvRj2HbUzXaoY7UMU4MVtyUZ
+HT6ULY/l5wdfXfGa1Qofz/o62M/GlPVK3R794hhqhZtX3G3tFkSfT3cZ1ifyBOy5Zpl62HGcrYFJ
+EohUTGui/TOc524zd3TC2OKfGQWoAB5K61pKpW/WkGEKuN16RC7i+Nv0GKpcbnPK0GsWnVZdc1dS
+ZUkgvQvE9mZXfLckVaLrWiDQ7ybISMJIuIkY0KWD2EeO4S7ZCDMcZWh5xwOeGrO9nvD16uv8iJrc
+YWMEO5qf+y1tibbjktKFDkOFHNaQx4iz6T3HOw==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIESTCCAzGgAwIBAgIUfBqSUI9L8BShQVx+78nnZpetnlwwDQYJKoZIhvcNAQELBQAwgYoxCzAJ
+BgNVBAYTAklUMQswCQYDVQQIDAJSTTENMAsGA1UEBwwEUm9tYTEbMBkGA1UECgwSR3VhcmRpYSBk
+aSBGaW5hbnphMR0wGwYDVQQLDBRTZXJ2aXppbyBJbmZvcm1hdGljYTEPMA0GA1UEAwwGZ2RmLml0
+MRIwEAYDVQRhDAlQQTpJVC1nZGYwHhcNMjIwNzA3MTMyMTM0WhcNMjQwNjI2MTMyMTM0WjCBijEL
+MAkGA1UEBhMCSVQxCzAJBgNVBAgMAlJNMQ0wCwYDVQQHDARSb21hMRswGQYDVQQKDBJHdWFyZGlh
+IGRpIEZpbmFuemExHTAbBgNVBAsMFFNlcnZpemlvIEluZm9ybWF0aWNhMQ8wDQYDVQQDDAZnZGYu
+aXQxEjAQBgNVBGEMCVBBOklULWdkZjCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALv6
+aGwUJe6djYbhcrqMp/dnKjNNDG+tP0rRbknFDrSKetapvZiBO670Y9h21M12qGO1DFODFbclGR0+
+lC2P5ecHX13xmtUKH8/6OtjPxpT1St0e/eIYaoWbV9xt7RZEn093GdYn8gTsuWaZethxnK2BSRKI
+VExrov0znOduM3d0wtjinxkFqAAeSutaSqVv1pBhCrjdekQu4vjb9BiqXG5zytBrFp1WXXNXUmVJ
+IL0LxPZmV3y3JFWi61og0O8myEjCSLiJGNClg9hHjuEu2QgzHGVoeccDnhqzvZ7w9err/Iia3GFj
+BDuan/stbYm245LShQ5DhRzWkMeIs+k9xzsCAwEAAaOBpDCBoTALBgNVHQ8EBAMCB4AwEwYDVR0l
+BAwwCgYIKwYBBQUHAwMwPwYDVR0gBDgwNjA0BgYrTBAEAgEwKjAoBggrBgEFBQcCAjAcGhrigJxz
+cGlkLXB1YmxpY3NlY3Rvci1TUOKAnTAdBgNVHREEFjAUhhJodHRwczovL3d3dy5nZGYuaXQwHQYD
+VR0OBBYEFO88Ob5gueJxdzAe+zbOQt95j4laMA0GCSqGSIb3DQEBCwUAA4IBAQCbq++vV5qXQadj
+3/kdrf215d7GRlyFby6wLyrSKZ9aFxQlpVAbM0nK4cjY20x7fzQIJs+GvYufV0Zf8zZK2etBu3zx
+yxApzwaQBhntWqFgwS27UIHhcRogVhpG91A9Z3ubCxp9m/KPCpuCLdWOHbhE6LiHJRsIRkMpffyo
+K5lmXE9wfEuTe1kYL7fWLeL9yKM01elAdMpuwHTDPvLPd+VUROFox9+n/1uX5prBaNfOt1cxjzAs
+a3onHXbsa2EihwC3r5xHQdCxJpoR035tjhry5MxxEle1rscGPxi53heaV73IeLg3ig+fv/4Kc/MC
+GUXUSXjZ+R4RiqltzvPuJEgq
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:Extensions>
+    <spid:AgeLimit>
+      <spid:AssertionConsumerServiceIndex>3</spid:AssertionConsumerServiceIndex>
+      <spid:MinAge>17</spid:MinAge>
+      <spid:MaxAge>999</spid:MaxAge>
+      <spid:AgeParentAuth>18</spid:AgeParentAuth>
+    </spid:AgeLimit>
+    <spid:AgeLimit>
+      <spid:AssertionConsumerServiceIndex>4</spid:AssertionConsumerServiceIndex>
+      <spid:MinAge>17</spid:MinAge>
+      <spid:MaxAge>999</spid:MaxAge>
+      <spid:AgeParentAuth>18</spid:AgeParentAuth>
+    </spid:AgeLimit>
+    <spid:AgeLimit>
+      <spid:AssertionConsumerServiceIndex>5</spid:AssertionConsumerServiceIndex>
+      <spid:MinAge>17</spid:MinAge>
+      <spid:MaxAge>999</spid:MaxAge>
+      <spid:AgeParentAuth>18</spid:AgeParentAuth>
+    </spid:AgeLimit>
+    <spid:AgeLimit>
+      <spid:AssertionConsumerServiceIndex>6</spid:AssertionConsumerServiceIndex>
+      <spid:MinAge>17</spid:MinAge>
+      <spid:MaxAge>999</spid:MaxAge>
+      <spid:AgeParentAuth>18</spid:AgeParentAuth>
+    </spid:AgeLimit>
+    <spid:AgeLimit>
+      <spid:AssertionConsumerServiceIndex>7</spid:AssertionConsumerServiceIndex>
+      <spid:MinAge>17</spid:MinAge>
+      <spid:MaxAge>999</spid:MaxAge>
+      <spid:AgeParentAuth>18</spid:AgeParentAuth>
+    </spid:AgeLimit>
+    <spid:AgeLimit>
+      <spid:AssertionConsumerServiceIndex>8</spid:AssertionConsumerServiceIndex>
+      <spid:MinAge>17</spid:MinAge>
+      <spid:MaxAge>999</spid:MaxAge>
+      <spid:AgeParentAuth>18</spid:AgeParentAuth>
+    </spid:AgeLimit>
+    <spid:AgeLimit>
+      <spid:AssertionConsumerServiceIndex>9</spid:AssertionConsumerServiceIndex>
+      <spid:MinAge>17</spid:MinAge>
+      <spid:MaxAge>999</spid:MaxAge>
+      <spid:AgeParentAuth>18</spid:AgeParentAuth>
+    </spid:AgeLimit>
+    <spid:AgeLimit>
+      <spid:AssertionConsumerServiceIndex>10</spid:AssertionConsumerServiceIndex>
+      <spid:MinAge>17</spid:MinAge>
+      <spid:MaxAge>999</spid:MaxAge>
+      <spid:AgeParentAuth>18</spid:AgeParentAuth>
+    </spid:AgeLimit>
+    <spid:AgeLimit>
+      <spid:AssertionConsumerServiceIndex>11</spid:AssertionConsumerServiceIndex>
+      <spid:MinAge>17</spid:MinAge>
+      <spid:MaxAge>999</spid:MaxAge>
+      <spid:AgeParentAuth>18</spid:AgeParentAuth>
+    </spid:AgeLimit>
+    <spid:AgeLimit>
+      <spid:AssertionConsumerServiceIndex>12</spid:AssertionConsumerServiceIndex>
+      <spid:MinAge>17</spid:MinAge>
+      <spid:MaxAge>999</spid:MaxAge>
+      <spid:AgeParentAuth>18</spid:AgeParentAuth>
+    </spid:AgeLimit>
+  </md:Extensions>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIESTCCAzGgAwIBAgIUfBqSUI9L8BShQVx+78nnZpetnlwwDQYJKoZIhvcNAQELBQAwgYoxCzAJBgNVBAYTAklUMQswCQYDVQQIDAJSTTENMAsGA1UEBwwEUm9tYTEbMBkGA1UECgwSR3VhcmRpYSBkaSBGaW5hbnphMR0wGwYDVQQLDBRTZXJ2aXppbyBJbmZvcm1hdGljYTEPMA0GA1UEAwwGZ2RmLml0MRIwEAYDVQRhDAlQQTpJVC1nZGYwHhcNMjIwNzA3MTMyMTM0WhcNMjQwNjI2MTMyMTM0WjCBijELMAkGA1UEBhMCSVQxCzAJBgNVBAgMAlJNMQ0wCwYDVQQHDARSb21hMRswGQYDVQQKDBJHdWFyZGlhIGRpIEZpbmFuemExHTAbBgNVBAsMFFNlcnZpemlvIEluZm9ybWF0aWNhMQ8wDQYDVQQDDAZnZGYuaXQxEjAQBgNVBGEMCVBBOklULWdkZjCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALv6aGwUJe6djYbhcrqMp/dnKjNNDG+tP0rRbknFDrSKetapvZiBO670Y9h21M12qGO1DFODFbclGR0+lC2P5ecHX13xmtUKH8/6OtjPxpT1St0e/eIYaoWbV9xt7RZEn093GdYn8gTsuWaZethxnK2BSRKIVExrov0znOduM3d0wtjinxkFqAAeSutaSqVv1pBhCrjdekQu4vjb9BiqXG5zytBrFp1WXXNXUmVJIL0LxPZmV3y3JFWi61og0O8myEjCSLiJGNClg9hHjuEu2QgzHGVoeccDnhqzvZ7w9err/Iia3GFjBDuan/stbYm245LShQ5DhRzWkMeIs+k9xzsCAwEAAaOBpDCBoTALBgNVHQ8EBAMCB4AwEwYDVR0lBAwwCgYIKwYBBQUHAwMwPwYDVR0gBDgwNjA0BgYrTBAEAgEwKjAoBggrBgEFBQcCAjAcGhrigJxzcGlkLXB1YmxpY3NlY3Rvci1TUOKAnTAdBgNVHREEFjAUhhJodHRwczovL3d3dy5nZGYuaXQwHQYDVR0OBBYEFO88Ob5gueJxdzAe+zbOQt95j4laMA0GCSqGSIb3DQEBCwUAA4IBAQCbq++vV5qXQadj3/kdrf215d7GRlyFby6wLyrSKZ9aFxQlpVAbM0nK4cjY20x7fzQIJs+GvYufV0Zf8zZK2etBu3zxyxApzwaQBhntWqFgwS27UIHhcRogVhpG91A9Z3ubCxp9m/KPCpuCLdWOHbhE6LiHJRsIRkMpffyoK5lmXE9wfEuTe1kYL7fWLeL9yKM01elAdMpuwHTDPvLPd+VUROFox9+n/1uX5prBaNfOt1cxjzAsa3onHXbsa2EihwC3r5xHQdCxJpoR035tjhry5MxxEle1rscGPxi53heaV73IeLg3ig+fv/4Kc/MCGUXUSXjZ+R4RiqltzvPuJEgq</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDGTCCAgGgAwIBAgIBATANBgkqhkiG9w0BAQsFADAxMQswCQYDVQQGEwJJVDEOMAwGA1UEChMF U29nZWkxEjAQBgNVBAMTCXNhbWwtc2lnbjAeFw0xOTEwMTEwODA1MDBaFw00OTEwMTEwODA1MDBa MDExCzAJBgNVBAYTAklUMQ4wDAYDVQQKEwVTb2dlaTESMBAGA1UEAxMJc2FtbC1zaWduMIIBIjAN BgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA2vgeCTASdYQXZ2QGJPY8jIsHENEf4cZT7ZPJWlpg PoO++qPd8h/LylxD4W6bdBlj9WuXnYv5+c4WDNvNptPn1MIYYUe9cg22I+bDpxtYM1Qc7bNF2cFQ Qv3oHAfhFb0dSMZtugzmaa3Bb7ZYESAvzFzhwyZP1tzbkZ2VsXGyGkFT+TFPF4s2AbCqxYSQb2XQ elGI5zTPBA67hIfrZKPAV2iyW9XeWDkG9wFsS0IS0v1Iwro21UwJubiEPXXByvcum58ZOPVnAcF0 F/xF4aUshH30g3b18esvi/QqZmvDJJ+9sCYzQNCT4zZxCrZvvMfn7w9B+fooF5l/ITAELg1NGQID AQABozwwOjAJBgNVHRMEAjAAMB0GA1UdDgQWBBQThf3hsQJx/DFYZT8P830K9+zopzAOBgNVHQ8B Af8EBAMCBkAwDQYJKoZIhvcNAQELBQADggEBAHpI1c4CIKmF3qXwTj+9STFpS4aEupJ03MOQv7+Z sM7OdWn60BLHSUh8BJchThCOGtgggwrVp3GPn4no3hrj77oW97IaFP/T/TUdiiipzYN+Ie+83uvU frMyKpo0+P9aJKElhPWXycerlfB0bRdCW6hOB4xnuMl3vaNVQnsTJ5qD5ADrQJKU0U9mjia7oOqK VE2MFKsx4DHBUr6N2LC+sJVgOqynRxco3nB0AVRfgnttaLwMy/6il3haTB+ahT4EENE4+Pq/iH3e Oc/Akr5sZo3Ee2MFoC/aelTFM0lpOHR5p/ELvvaarxZW/74UfUwfCyjf1fd+WPwcLd5jbqVAJzk=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://gdf.spidgateway.infocert.it/gateway/login"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.gdf.gov.it/adfs/ls/" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sptest.sogei.it/spgdf/AssertionConsumerService" index="1"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sp.sogei.it/spgdf/AssertionConsumerService" index="2"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://gdf.spidgateway.infocert.it/gateway/login?client_name=infocert" index="3"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://gdf.spidgateway.infocert.it/gateway/login?client_name=aruba" index="4"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://gdf.spidgateway.infocert.it/gateway/login?client_name=namirial" index="5"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://gdf.spidgateway.infocert.it/gateway/login?client_name=poste" index="6"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://gdf.spidgateway.infocert.it/gateway/login?client_name=sielte" index="7"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://gdf.spidgateway.infocert.it/gateway/login?client_name=tim" index="8"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://gdf.spidgateway.infocert.it/gateway/login?client_name=register" index="9"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://gdf.spidgateway.infocert.it/gateway/login?client_name=intesa" index="10"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://gdf.spidgateway.infocert.it/gateway/login?client_name=lepida" index="11"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://gdf.spidgateway.infocert.it/gateway/login?client_name=teamsystem" index="12"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://gdf.spidgateway.infocert.it/gateway/login?client_name=etnaid" index="13"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://gdf.spidgateway.infocert.it/gateway/login?client_name=infocamereid" index="14"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://gdf.spidgateway.infocert.it/gateway/login?client_name=intesigroup" index="15"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">setbase</md:ServiceName>
+      <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">setpersona</md:ServiceName>
+      <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="idCard" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="address" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="2">
+      <md:ServiceName xml:lang="it">setazienda</md:ServiceName>
+      <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="registeredOffice" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="idCard" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="digitalAddress" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="3">
+      <md:ServiceName xml:lang="it">setcompleto</md:ServiceName>
+      <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="registeredOffice" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="idCard" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="address" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="digitalAddress" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Guardia di Finanza</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Guardia di Finanza</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">www.gdf.gov.it</md:OrganizationURL>
+  </md:Organization>
+  <md:ContactPerson contactType="other">
+    <md:Extensions>
+      <spid:IPACode>gdf</spid:IPACode>
+      <spid:FiscalCode>80194230589</spid:FiscalCode>
+      <spid:Public/>
+    </md:Extensions>
+    <md:EmailAddress>comando.generale@pec.gdf.it</md:EmailAddress>
+  </md:ContactPerson>
+</md:EntityDescriptor>

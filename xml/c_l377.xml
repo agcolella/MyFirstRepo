@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" ID="_5cdf7d975573bd7595e3c461126187ac04ee90f86cfdc1f282f177f2fef1fc77" entityID="https://trentinara.halleyweb.it"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#_5cdf7d975573bd7595e3c461126187ac04ee90f86cfdc1f282f177f2fef1fc77">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>sXmNJM4fA5SUt1RKXKOjBTHe2LXJrrwP/miiu/vgxYk=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+vDZsjlzcRk9mlUIUaNmiJFgTal6NddR9xWhIc7kZLvIi5BxdCA1hEK9HgX2msAdr5tPwjOIaI5dF
+qIXq/A+Lm/QcWCqADUGCAakup1VDdBuAQtdMJG81kn4vcRZBnzJvpCTLETTeXmsUiyBb/Ze9in94
+u5WpiQzH98BTokodVjYxwMfwhhfheU6j4V5Lo3AI1q/gfuReGi00UitFFSCPU1Yj9FFu5MqTLYTa
+wtD9B/0fvMCavnrMJPyNXjYdCaypal4c3dlc8rBH4McG99NE7c0fDOQBu5O9OIHKVxnapWqzfUbA
+Va/voSj6Sle/2fDGxu6KB4satHug78Iq4eVKRw==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+vi1nXQQ7NylvuUCf9E0lzpgQKe/m8T4jneGFow+y4XWIY/K4BnrvfLl7pbeEOsOVwr9aexFC1GKI
+NQmwa7Z24FnCayz247lwYX7rdE1dlXjOicue6fYkW9MBQEUGbsF5SgEqSgrz/JaZJwRNs5tMU/Hu
+FePxXV7Tw33C/InVmKgmQzekxVD2/luKiemEO0ahUTEdUFmOBDIDEpbMdTxRI5KjfkCmJawwqz4J
+MhfeE4H9P0OJGsVxLZRgh3d4vomLWN2ZCCC7ym70Ue0fulmW6zASyzu6OCRxTHivkA9XTVR9BWkw
+smsvTnEdHcV1BLbJZP091rKTkBXA0nPiDXE4Ww==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDuTCCAqGgAwIBAgIJAPAkqXspxqFrMA0GCSqGSIb3DQEBCwUAMHMxCzAJBgNVBAYTAklUMQ4w
+DAYDVQQIDAVJdGFseTETMBEGA1UEBwwKVHJlbnRpbmFyYTEdMBsGA1UECgwUQ29tdW5lIGRpIFRy
+ZW50aW5hcmExIDAeBgNVBAMMF3RyZW50aW5hcmEuaGFsbGV5d2ViLml0MB4XDTIzMTAyNjExNTAx
+MloXDTMzMTAyNTExNTAxMlowczELMAkGA1UEBhMCSVQxDjAMBgNVBAgMBUl0YWx5MRMwEQYDVQQH
+DApUcmVudGluYXJhMR0wGwYDVQQKDBRDb211bmUgZGkgVHJlbnRpbmFyYTEgMB4GA1UEAwwXdHJl
+bnRpbmFyYS5oYWxsZXl3ZWIuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC+LWdd
+BDs3KW+5QJ/0TSXOmBAp7+bxPiOd4YWjD7LhdYhj8rgGeu98uXult4Q6w5XCv1p7EULUYog1CbBr
+tnbgWcJrLPbjuXBhfut0TV2VeM6Jy57p9iRb0wFARQZuwXlKASpKCvP8lpknBE2zm0xT8e4V4/Fd
+XtPDfcL8idWYqCZDN6TFUPb+W4qJ6YQ7RqFRMR1QWY4EMgMSlsx1PFEjkqN+QKYlrDCrPgkyF94T
+gf0/Q4kaxXEtlGCHd3i+iYtY3ZkIILvKbvRR7R+6WZbrMBLLO7o4JHFMeK+QD1dNVH0FaTCyay9O
+cR0dxXUEtslk/T3WspOQFcDSc+INcThbAgMBAAGjUDBOMB0GA1UdDgQWBBTVXsu605h7qjtnFYqQ
+hmOAUjaiUjAfBgNVHSMEGDAWgBTVXsu605h7qjtnFYqQhmOAUjaiUjAMBgNVHRMEBTADAQH/MA0G
+CSqGSIb3DQEBCwUAA4IBAQANMKR2Ncykof3tTj/5udZtYGPX2cH3qWxCaEHL66KihEaCQFmvlUT2
+gZT7RIFLiATWqp3F1mI1fz8jStNKYh88sNqdzLDjVJHE/f38Aqk1rLgRu9vWCmYKAC+T6sxH6s7R
+vHleIb9gp79B6pBmkggV6F51ItX7kC4NBdefp4RJ0zB30r/ynDcIbSMyxzjnGAEhDzOMF7zmw1zH
+k5ql/U6LaoPb8QecMgg6E9t39rqBh109UX4HCG5Wxg0mEvf3ONl5U3BcT/rJKjrPwP2gqBR775U8
+onvSVKmulb3PPq4gpPcyDRbxXeZug/f6a32M9raCscrr4Jz/6H6EpEy8BXFl
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDuTCCAqGgAwIBAgIJAPAkqXspxqFrMA0GCSqGSIb3DQEBCwUAMHMxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTETMBEGA1UEBwwKVHJlbnRpbmFyYTEdMBsGA1UECgwUQ29tdW5lIGRpIFRyZW50aW5hcmExIDAeBgNVBAMMF3RyZW50aW5hcmEuaGFsbGV5d2ViLml0MB4XDTIzMTAyNjExNTAxMloXDTMzMTAyNTExNTAxMlowczELMAkGA1UEBhMCSVQxDjAMBgNVBAgMBUl0YWx5MRMwEQYDVQQHDApUcmVudGluYXJhMR0wGwYDVQQKDBRDb211bmUgZGkgVHJlbnRpbmFyYTEgMB4GA1UEAwwXdHJlbnRpbmFyYS5oYWxsZXl3ZWIuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC+LWddBDs3KW+5QJ/0TSXOmBAp7+bxPiOd4YWjD7LhdYhj8rgGeu98uXult4Q6w5XCv1p7EULUYog1CbBrtnbgWcJrLPbjuXBhfut0TV2VeM6Jy57p9iRb0wFARQZuwXlKASpKCvP8lpknBE2zm0xT8e4V4/FdXtPDfcL8idWYqCZDN6TFUPb+W4qJ6YQ7RqFRMR1QWY4EMgMSlsx1PFEjkqN+QKYlrDCrPgkyF94Tgf0/Q4kaxXEtlGCHd3i+iYtY3ZkIILvKbvRR7R+6WZbrMBLLO7o4JHFMeK+QD1dNVH0FaTCyay9OcR0dxXUEtslk/T3WspOQFcDSc+INcThbAgMBAAGjUDBOMB0GA1UdDgQWBBTVXsu605h7qjtnFYqQhmOAUjaiUjAfBgNVHSMEGDAWgBTVXsu605h7qjtnFYqQhmOAUjaiUjAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQANMKR2Ncykof3tTj/5udZtYGPX2cH3qWxCaEHL66KihEaCQFmvlUT2gZT7RIFLiATWqp3F1mI1fz8jStNKYh88sNqdzLDjVJHE/f38Aqk1rLgRu9vWCmYKAC+T6sxH6s7RvHleIb9gp79B6pBmkggV6F51ItX7kC4NBdefp4RJ0zB30r/ynDcIbSMyxzjnGAEhDzOMF7zmw1zHk5ql/U6LaoPb8QecMgg6E9t39rqBh109UX4HCG5Wxg0mEvf3ONl5U3BcT/rJKjrPwP2gqBR775U8onvSVKmulb3PPq4gpPcyDRbxXeZug/f6a32M9raCscrr4Jz/6H6EpEy8BXFl</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDuTCCAqGgAwIBAgIJAPAkqXspxqFrMA0GCSqGSIb3DQEBCwUAMHMxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTETMBEGA1UEBwwKVHJlbnRpbmFyYTEdMBsGA1UECgwUQ29tdW5lIGRpIFRyZW50aW5hcmExIDAeBgNVBAMMF3RyZW50aW5hcmEuaGFsbGV5d2ViLml0MB4XDTIzMTAyNjExNTAxMloXDTMzMTAyNTExNTAxMlowczELMAkGA1UEBhMCSVQxDjAMBgNVBAgMBUl0YWx5MRMwEQYDVQQHDApUcmVudGluYXJhMR0wGwYDVQQKDBRDb211bmUgZGkgVHJlbnRpbmFyYTEgMB4GA1UEAwwXdHJlbnRpbmFyYS5oYWxsZXl3ZWIuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC+LWddBDs3KW+5QJ/0TSXOmBAp7+bxPiOd4YWjD7LhdYhj8rgGeu98uXult4Q6w5XCv1p7EULUYog1CbBrtnbgWcJrLPbjuXBhfut0TV2VeM6Jy57p9iRb0wFARQZuwXlKASpKCvP8lpknBE2zm0xT8e4V4/FdXtPDfcL8idWYqCZDN6TFUPb+W4qJ6YQ7RqFRMR1QWY4EMgMSlsx1PFEjkqN+QKYlrDCrPgkyF94Tgf0/Q4kaxXEtlGCHd3i+iYtY3ZkIILvKbvRR7R+6WZbrMBLLO7o4JHFMeK+QD1dNVH0FaTCyay9OcR0dxXUEtslk/T3WspOQFcDSc+INcThbAgMBAAGjUDBOMB0GA1UdDgQWBBTVXsu605h7qjtnFYqQhmOAUjaiUjAfBgNVHSMEGDAWgBTVXsu605h7qjtnFYqQhmOAUjaiUjAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQANMKR2Ncykof3tTj/5udZtYGPX2cH3qWxCaEHL66KihEaCQFmvlUT2gZT7RIFLiATWqp3F1mI1fz8jStNKYh88sNqdzLDjVJHE/f38Aqk1rLgRu9vWCmYKAC+T6sxH6s7RvHleIb9gp79B6pBmkggV6F51ItX7kC4NBdefp4RJ0zB30r/ynDcIbSMyxzjnGAEhDzOMF7zmw1zHk5ql/U6LaoPb8QecMgg6E9t39rqBh109UX4HCG5Wxg0mEvf3ONl5U3BcT/rJKjrPwP2gqBR775U8onvSVKmulb3PPq4gpPcyDRbxXeZug/f6a32M9raCscrr4Jz/6H6EpEy8BXFl</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://trentinara.halleyweb.it/spid/module.php/saml/sp/saml2-logout.php/spid"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://trentinara.halleyweb.it/spid/module.php/saml/sp/saml2-acs.php/spid" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://trentinara.halleyweb.it/spid/module.php/saml/sp/saml2-acs.php/spid" index="1"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">Servizi online</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Servizi online</md:ServiceDescription>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Codice identificativo SPID" Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Ragione o denominazione sociale" Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Trentinara</md:OrganizationName>
+    <md:OrganizationName xml:lang="en">Comune di Trentinara</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Trentinara</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Trentinara</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.comune.trentinara.sa.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="en">https://www.comune.trentinara.sa.it</md:OrganizationURL>
+  </md:Organization>
+  <md:ContactPerson contactType="other">
+    <md:Extensions>
+      <spid:IPACode>c_l377</spid:IPACode>
+      <spid:Public/>
+    </md:Extensions>
+    <md:Company>Comune di Trentinara</md:Company>
+    <md:EmailAddress>info@comune.trentinara.sa.it</md:EmailAddress>
+  </md:ContactPerson>
+</md:EntityDescriptor>
