@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" ID="_6b98f350e759840c0aee9d4f2e0d89630a1fed068e543645e4213db9a086a724" entityID="https://servizionline.comune.sanmichelediganzaria.ct.it"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#_6b98f350e759840c0aee9d4f2e0d89630a1fed068e543645e4213db9a086a724">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>6Ovu3oSeLIMuCbb04ai/sUpapX9HOI8RJoznJKyeUVY=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+U2ANv+Bztkbv5qtXXkO7tzv6J5SdACUHrDu5BLIfX4xnPApbRfeZRkRCDnwSkEBDSQ8/4jWWTqfw
+jNQo81hPLInHuSlaJZBACWFqdQH101ppVzu+maMmVlel+5mZt6/c9YWsWkA/KWgAw2n7R3U0YVwv
+IxOqwdrMzmREHS+VzxE1os6SG1OmYgYeVlBUqZ3jz/DquzNTYZpKfPX9/ZAeAivJH2meps8ujOaF
+dsBRCAscdxAkO3enBV/JipfWczUMnXHK9WsqjCYtQd+0bG7KyVtzvWvYfcKGs1wIL844eY72IbR/
+KC2Tgopf/jknduNlGgnr6GjKtW+hlwbyG0UTXA==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+z+JvMqq7GjHIc2RFN8PC7NZgWkJjpvdJAElqHa3kxN8HxyuMQ+31Ke7hYY0IjT78h/MmmoL78JVH
+BKOScpqc9QemI2BXvNTRs8jd0t+J1eIVPbndcKhN838Y9L85OMwTtlj3+z1aG/Vz+7ULgnlR/ZJ5
+3A16lOeROxZH8x5uaWg0f5F3QYSCIgr1sRrGSREjDJqrrovvBR+Do4BTt9ROaZXWr4wDdTxVivM+
+hr6bHIMIQCKGoYwqL/DSTk81aLpZTURLRJWCB7nwZP/tqwmCxKyq9H+St1BlvsunskSbo6eqt3/K
+pGBdejnfWUW6A1JpSXF5tJNIzwyl5UU8yh7tDw==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIEHzCCAwegAwIBAgIJANuX4g++450uMA0GCSqGSIb3DQEBCwUAMIGlMQswCQYDVQQGEwJJVDEO
+MAwGA1UECAwFSXRhbHkxIDAeBgNVBAcMF1NhbiBNaWNoZWxlIGRpIEdhbnphcmlhMSowKAYDVQQK
+DCFjb211bmUgZGkgU2FuIE1pY2hlbGUgZGkgR2FuemFyaWExODA2BgNVBAMML3NlcnZpemlvbmxp
+bmUuY29tdW5lLnNhbm1pY2hlbGVkaWdhbnphcmlhLmN0Lml0MB4XDTIzMTAyMDE0NTgwNFoXDTMz
+MTAxOTE0NTgwNFowgaUxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEgMB4GA1UEBwwXU2Fu
+IE1pY2hlbGUgZGkgR2FuemFyaWExKjAoBgNVBAoMIWNvbXVuZSBkaSBTYW4gTWljaGVsZSBkaSBH
+YW56YXJpYTE4MDYGA1UEAwwvc2Vydml6aW9ubGluZS5jb211bmUuc2FubWljaGVsZWRpZ2FuemFy
+aWEuY3QuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDP4m8yqrsaMchzZEU3w8Ls
+1mBaQmOm90kASWodreTE3wfHK4xD7fUp7uFhjQiNPvyH8yaagvvwlUcEo5Jympz1B6YjYFe81NGz
+yN3S34nV4hU9ud1wqE3zfxj0vzk4zBO2WPf7PVob9XP7tQuCeVH9knncDXqU55E7FkfzHm5paDR/
+kXdBhIIiCvWxGsZJESMMmquui+8FH4OjgFO31E5pldavjAN1PFWK8z6GvpscgwhAIoahjCov8NJO
+TzVoullNREtElYIHufBk/+2rCYLErKr0f5K3UGW+y6eyRJujp6q3f8qkYF16Od9ZRboDUmlJcXm0
+k0jPDKXlRTzKHu0PAgMBAAGjUDBOMB0GA1UdDgQWBBSCqPnDgDqXQZ5EogbjZpTtpuYvTTAfBgNV
+HSMEGDAWgBSCqPnDgDqXQZ5EogbjZpTtpuYvTTAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUA
+A4IBAQBl9cNhnIlhU2snBfbp1tHyFY/xONW4lUW0x71JXEQ5U99pE0lEgdXoRvMZEbCWDuzG84Q2
+Va/mgKB3Vxm80Q7scM27L59If2EdQTRSiKvJ/GVugkBDhQYiHDXyxpGzXQGXM2MPILHWPpnqAR2J
+9MSvBn3fUNH5sQsI5NZvFHwnXj83d/T159KjxNfdAujFKd8kza88t/Js9gyscFtdIbwrRsO3gmZI
+1fAKSnBXBM3atMEgIOHrZLUaqw3oCk6VD6ydj/LgONRd8WY7qToHfNh3ihcMBQoCrD/flKIpd+LV
+CRMwwzuJF8BF2qO9BGpnkH4hcXxPBX/zYwVD2o1QYOvF
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIIEHzCCAwegAwIBAgIJANuX4g++450uMA0GCSqGSIb3DQEBCwUAMIGlMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxIDAeBgNVBAcMF1NhbiBNaWNoZWxlIGRpIEdhbnphcmlhMSowKAYDVQQKDCFjb211bmUgZGkgU2FuIE1pY2hlbGUgZGkgR2FuemFyaWExODA2BgNVBAMML3NlcnZpemlvbmxpbmUuY29tdW5lLnNhbm1pY2hlbGVkaWdhbnphcmlhLmN0Lml0MB4XDTIzMTAyMDE0NTgwNFoXDTMzMTAxOTE0NTgwNFowgaUxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEgMB4GA1UEBwwXU2FuIE1pY2hlbGUgZGkgR2FuemFyaWExKjAoBgNVBAoMIWNvbXVuZSBkaSBTYW4gTWljaGVsZSBkaSBHYW56YXJpYTE4MDYGA1UEAwwvc2Vydml6aW9ubGluZS5jb211bmUuc2FubWljaGVsZWRpZ2FuemFyaWEuY3QuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDP4m8yqrsaMchzZEU3w8Ls1mBaQmOm90kASWodreTE3wfHK4xD7fUp7uFhjQiNPvyH8yaagvvwlUcEo5Jympz1B6YjYFe81NGzyN3S34nV4hU9ud1wqE3zfxj0vzk4zBO2WPf7PVob9XP7tQuCeVH9knncDXqU55E7FkfzHm5paDR/kXdBhIIiCvWxGsZJESMMmquui+8FH4OjgFO31E5pldavjAN1PFWK8z6GvpscgwhAIoahjCov8NJOTzVoullNREtElYIHufBk/+2rCYLErKr0f5K3UGW+y6eyRJujp6q3f8qkYF16Od9ZRboDUmlJcXm0k0jPDKXlRTzKHu0PAgMBAAGjUDBOMB0GA1UdDgQWBBSCqPnDgDqXQZ5EogbjZpTtpuYvTTAfBgNVHSMEGDAWgBSCqPnDgDqXQZ5EogbjZpTtpuYvTTAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQBl9cNhnIlhU2snBfbp1tHyFY/xONW4lUW0x71JXEQ5U99pE0lEgdXoRvMZEbCWDuzG84Q2Va/mgKB3Vxm80Q7scM27L59If2EdQTRSiKvJ/GVugkBDhQYiHDXyxpGzXQGXM2MPILHWPpnqAR2J9MSvBn3fUNH5sQsI5NZvFHwnXj83d/T159KjxNfdAujFKd8kza88t/Js9gyscFtdIbwrRsO3gmZI1fAKSnBXBM3atMEgIOHrZLUaqw3oCk6VD6ydj/LgONRd8WY7qToHfNh3ihcMBQoCrD/flKIpd+LVCRMwwzuJF8BF2qO9BGpnkH4hcXxPBX/zYwVD2o1QYOvF</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIIEHzCCAwegAwIBAgIJANuX4g++450uMA0GCSqGSIb3DQEBCwUAMIGlMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxIDAeBgNVBAcMF1NhbiBNaWNoZWxlIGRpIEdhbnphcmlhMSowKAYDVQQKDCFjb211bmUgZGkgU2FuIE1pY2hlbGUgZGkgR2FuemFyaWExODA2BgNVBAMML3NlcnZpemlvbmxpbmUuY29tdW5lLnNhbm1pY2hlbGVkaWdhbnphcmlhLmN0Lml0MB4XDTIzMTAyMDE0NTgwNFoXDTMzMTAxOTE0NTgwNFowgaUxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEgMB4GA1UEBwwXU2FuIE1pY2hlbGUgZGkgR2FuemFyaWExKjAoBgNVBAoMIWNvbXVuZSBkaSBTYW4gTWljaGVsZSBkaSBHYW56YXJpYTE4MDYGA1UEAwwvc2Vydml6aW9ubGluZS5jb211bmUuc2FubWljaGVsZWRpZ2FuemFyaWEuY3QuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDP4m8yqrsaMchzZEU3w8Ls1mBaQmOm90kASWodreTE3wfHK4xD7fUp7uFhjQiNPvyH8yaagvvwlUcEo5Jympz1B6YjYFe81NGzyN3S34nV4hU9ud1wqE3zfxj0vzk4zBO2WPf7PVob9XP7tQuCeVH9knncDXqU55E7FkfzHm5paDR/kXdBhIIiCvWxGsZJESMMmquui+8FH4OjgFO31E5pldavjAN1PFWK8z6GvpscgwhAIoahjCov8NJOTzVoullNREtElYIHufBk/+2rCYLErKr0f5K3UGW+y6eyRJujp6q3f8qkYF16Od9ZRboDUmlJcXm0k0jPDKXlRTzKHu0PAgMBAAGjUDBOMB0GA1UdDgQWBBSCqPnDgDqXQZ5EogbjZpTtpuYvTTAfBgNVHSMEGDAWgBSCqPnDgDqXQZ5EogbjZpTtpuYvTTAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQBl9cNhnIlhU2snBfbp1tHyFY/xONW4lUW0x71JXEQ5U99pE0lEgdXoRvMZEbCWDuzG84Q2Va/mgKB3Vxm80Q7scM27L59If2EdQTRSiKvJ/GVugkBDhQYiHDXyxpGzXQGXM2MPILHWPpnqAR2J9MSvBn3fUNH5sQsI5NZvFHwnXj83d/T159KjxNfdAujFKd8kza88t/Js9gyscFtdIbwrRsO3gmZI1fAKSnBXBM3atMEgIOHrZLUaqw3oCk6VD6ydj/LgONRd8WY7qToHfNh3ihcMBQoCrD/flKIpd+LVCRMwwzuJF8BF2qO9BGpnkH4hcXxPBX/zYwVD2o1QYOvF</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://servizionline.comune.sanmichelediganzaria.ct.it/spid/module.php/saml/sp/saml2-logout.php/spid"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://servizionline.comune.sanmichelediganzaria.ct.it/spid/module.php/saml/sp/saml2-acs.php/spid" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://servizionline.comune.sanmichelediganzaria.ct.it/spid/module.php/saml/sp/saml2-acs.php/spid" index="1"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">Servizi online</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Servizi online</md:ServiceDescription>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Codice identificativo SPID" Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Ragione o denominazione sociale" Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">comune di San Michele di Ganzaria</md:OrganizationName>
+    <md:OrganizationName xml:lang="en">comune di San Michele di Ganzaria</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">comune di San Michele di Ganzaria</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="en">comune di San Michele di Ganzaria</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://comune.sanmichelediganzaria.ct.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="en">https://comune.sanmichelediganzaria.ct.it</md:OrganizationURL>
+  </md:Organization>
+  <md:ContactPerson contactType="other">
+    <md:Extensions>
+      <spid:IPACode>c_h805</spid:IPACode>
+      <spid:Public/>
+    </md:Extensions>
+    <md:Company>comune di San Michele di Ganzaria</md:Company>
+    <md:EmailAddress>tributi@comune.sanmichelediganzaria.ct.it</md:EmailAddress>
+  </md:ContactPerson>
+</md:EntityDescriptor>

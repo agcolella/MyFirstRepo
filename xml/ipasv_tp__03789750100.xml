@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" ID="a088bc6e-33c5-4ff2-b35b-d9c3ff9a2c9e" entityID="https://www.e-fil.it/pub-ag-full/ipasv_tp"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#a088bc6e-33c5-4ff2-b35b-d9c3ff9a2c9e">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>V1AkrH8vYHcw4ZmB0S0LYrx5mB8QQfFKdR5y7MWW0pU=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+C9Ft0EeI/RqSw0enwN7J5Cwke/RFHznURk+rWMX6osQCipOkImLm3Tuv2BxsfFZrdivjQr4dw5h/
++fXtd8wxBQ0vO1dC6lv3d2uhqqLAyiyhAJTDFRWmT0Mo5Ip5Cj0dVvm5YoqKANydFwIGf3MmV1EO
+oBNjyZ5SNdkq6rPgP5kEN8ky9NE3JRmKe9EuLEZ6qMLT9HQWSpLn2EJreiE7Rwbdgfu6ZppteTOV
+TFNNJv7A+WI7s/77FIi3elFX2tsKIy5LL2PT6qTy7b0z+bTTG2HngJXt9fAz2Ng6o/oO2Jqa1SAE
+caGDHkBs0FdnZ2Ame3y4me4u1tzUGZEofcDPKg==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+qY4H/GWTewBiu2WSlYEBgj8A43JfVxYrWgJD3qdxocfWPPSM5E7MWIKXzXCFl+zrjeCnfeO3vg+I
+IDgN76rUKxK75XW1gvU0BEzaf7qaKNxYrvKDxKlcrzT20ZRppJ7GaMq4b5ygiFXM91bhmPkeiYGS
+I3VNgl+ZDxpMqEQuvJY1wG+iECe9p7WKVKWebj9lU4cserbIVdTT45/x0lJD+00zeuKrTQ5FQD+7
+FKjg4PThQbPIojaXwekwtZxApbz329zJsY57zomJE6phJl1gJ7+b3dN3otHMUNoGoR2KcTWy74CY
+skWOZs/wD0hbCH4QstxhHSdXH+srFN6tBkJzQw==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIH4TCCBcmgAwIBAgIIbMDMGjctYe8wDQYJKoZIhvcNAQENBQAwgeUxCzAJBgNVBAYTAklUMQ0w
+CwYDVQQHDARSb21lMSYwJAYDVQQKDB1BZ2VuemlhIHBlciBsJ0l0YWxpYSBEaWdpdGFsZTEsMCoG
+A1UECwwjU2Vydml6aW8gQWNjcmVkaXRhbWVudG8gZSBWaWdpbGFuemExKjAoBgNVBAMMIVByb2dl
+dHRvIFNQSUQgLSBTb2dnZXR0aV9wdWJibGljaTEpMCcGCSqGSIb3DQEJARYacHJvdG9jb2xsb0Bw
+ZWMuYWdpZC5nb3YuaXQxGjAYBgNVBAUTEVZBVElULTk3NzM1MDIwNTg0MB4XDTIxMDkxNTAwMDAw
+MFoXDTM2MDkxNDIzNTk1OVowgaIxCzAJBgNVBAYTAklUMQswCQYDVQQIDAJSTTENMAsGA1UEBwwE
+Um9tYTEOMAwGA1UECgwFRS1GSUwxFTATBgNVBAsMDEUtRklMIFMuUi5MLjEVMBMGA1UEAwwMRS1G
+SUwgUy5SLkwuMRowGAYDVQRhDBFWQVRJVC0wMzc4OTc1MDEwMDEdMBsGA1UEUwwUaHR0cHM6Ly93
+d3cuZS1maWwuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCpjgf8ZZN7AGK7ZZKV
+gQGCPwDjcl9XFitaAkPep3Ghx9Y89IzkTsxYgpfNcIWX7OuN4Kd947e+D4ggOA3vqtQrErvldbWC
+9TQETNp/upoo3Fiu8oPEqVyvNPbRlGmknsZoyrhvnKCIVcz3VuGY+R6JgZIjdU2CX5kPGkyoRC68
+ljXAb6IQJ72ntYpUpZ5uP2VThyx6tshV1NPjn/HSUkP7TTN64qtNDkVAP7sUqODg9OFBs8iiNpfB
+6TC1nEClvPfb3MmxjnvOiYkTqmEmXWAnv5vd03ei0cxQ2gahHYpxNbLvgJiyRY5mz/APSFsIfhCy
+3GEdJ1cf6ysU3q0GQnNDAgMBAAGjggLUMIIC0DAMBgNVHRMBAf8EAjAAMB0GA1UdDgQWBBRKUCpu
+F1YOLaPUB3lqAjXk+HWScTAfBgNVHSMEGDAWgBQ8u23rHv2dbsvuVObqOdWJoEfXNDAOBgNVHQ8B
+Af8EBAMCBsAwFgYDVR0SBA8wDYILc3BpZC5nb3YuaXQwQgYDVR0fBDswOTA3oDWgM4YxaHR0cHM6
+Ly9laWRhcy5hZ2lkLmdvdi5pdC9jcmwvY3JsX1NQSURfUHViX1NBLmNybDA3BggrBgEFBQcBAQQr
+MCkwJwYIKwYBBQUHMAGGG2h0dHBzOi8vb2NzcF9TQS5hZ2lkLmdvdi5pdDCCAdkGA1UdIASCAdAw
+ggHMMAkGBwQAjkYBBgIwgZUGBCtMEAYwgYwwRAYIKwYBBQUHAgIwOBo2RWxlY3Ryb25pYyBjZXJ0
+aWZpY2F0ZSBjb25mb3JtaW5nIHdpdGggQUdJRCBHdWlkZWxpbmVzMEQGCCsGAQUFBwICMDgaNkNl
+cnRpZmljYXRvIGVsZXR0cm9uaWNvIGNvbmZvcm1lIGFsbGUgTGluZWUgZ3VpZGEgQWdJRDB9BgYr
+TBAEAgIwczA6BggrBgEFBQcCAjAuGixTUElEOiBhZ2dyZWdhdG9yZSAnZnVsbCcgZGkgc2Vydml6
+aSBwdWJibGljaTA1BggrBgEFBQcCAjApGidTUElEOiBwdWJsaWMtc2VydmljZXMgJ2Z1bGwnIEFn
+Z3JlZ2F0b3IwCAYGBACPegEDME0GBCtMEAQwRTBDBggrBgEFBQcCARY3aHR0cHM6Ly9laWRhcy5h
+Z2lkLmdvdi5pdC9jcHMvQWdJRF9lSURBU19yb290Q0FfY3BzLnBkZjBPBgYEAI5GAQUwRTBDBggr
+BgEFBQcCARY3aHR0cHM6Ly9laWRhcy5hZ2lkLmdvdi5pdC9jcHMvQWdJRF9lSURBU19yb290Q0Ff
+Y3BzLnBkZjANBgkqhkiG9w0BAQ0FAAOCAgEAO9XfbJaLZEb7P7U+yJyE7mIuNsYJGSf18XzG/7sn
+C4POvFLhYOP/IAw/nrKPkXU5z6KH1NCnoKwS/8SxJbpXxU4gn29U4NFlaDYYat9LYXu/a0g75Den
+AsOtNsYH6Qx/iiPk+Ksehly+tBjMOj6EWqQmr+0I8EI5DUgIMCLbiUD0U5yAGMt8lKFlUw6SClEe
+ppp615autplBNWyUNEOVTnu+z2t+uP5midU9JRWm0HRsUOoHATa6zKE7o74fzDCebvJRXJQtH1Cf
+SYprddOg8tcxqrsUY7a0m9FH/no98fmquUwgY9CWnM7byYHAMdKOhGTqLW/TGSuhBNgYnm7mS6RS
+sB/jhC2n5eh2JYYbBw5ku/Vxkwqqt70s5V0zDIYVb5pZ1IYhgUBVuE0WYmLK8SL7FhPEilp4ZRfo
++J3YCs4zd/ncloQhdma+VksA/C06wldIRcVplrcYfJAKTUphoVC0b7o3uh9UR68FzUrdID6qWu0Z
+sQcVuPp3yu++8KpNnYGEdntKS1Kay4VeZB4ZR3qVvz0YP89c+Ia1ht0Q5KnV49BzyXjbZOeGtmnA
+TXZGdKmZCB1UZi1n2q0wPCGCbo/iZxqzLgAbZyYTKxzLgbKnhllUw7yE24F8C9EW0Ad3WgTvQB2j
+inV2kz2IRS9ixUd/8XwEWKVPa6id/0Et5Y4=
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>
+							MIIGHjCCBAagAwIBAgIJALKypHVE30OdMA0GCSqGSIb3DQEBCwUAMIGjMQswCQYD
+							VQQGEwJJVDENMAsGA1UECAwEUm9tYTETMBEGA1UEBwwKT3BpVHJhcGFuaTETMBEG
+							A1UECgwKT3BpVHJhcGFuaTEQMA4GA1UECwwHRGlnaXRJRDEiMCAGA1UEAwwZdHJh
+							cGFuaS5vcGkucGx1Z2FuZHBheS5pdDElMCMGCSqGSIb3DQEJARYWb3BpdHJhcGFu
+							aUBhcnViYXBlYy5pdDAeFw0yMzEwMTgwOTU1MzNaFw0yNjEwMTcwOTU1MzNaMIGj
+							MQswCQYDVQQGEwJJVDENMAsGA1UECAwEUm9tYTETMBEGA1UEBwwKT3BpVHJhcGFu
+							aTETMBEGA1UECgwKT3BpVHJhcGFuaTEQMA4GA1UECwwHRGlnaXRJRDEiMCAGA1UE
+							AwwZdHJhcGFuaS5vcGkucGx1Z2FuZHBheS5pdDElMCMGCSqGSIb3DQEJARYWb3Bp
+							dHJhcGFuaUBhcnViYXBlYy5pdDCCAiIwDQYJKoZIhvcNAQEBBQADggIPADCCAgoC
+							ggIBAMjo8XdJzPCH9rHzNMgfCSZLFer25DxuS0v94XRJgxiajAH23E0GqBkhs0E1
+							tQIz4kpXndSqiieut6OTphkKzZ/BosVHC8EIezPAw1XeEkWPaZnxy9A9vid3ieK3
+							TW8v42iKGTumH9neiQUOzN74yWv6xV38xUK/EGTiyxbPXiDd1mFP28qWb8zGhe6b
+							Nbb0EPlZToVGwsFJKvbo9TQMfM0Slp4kMsVjgP+dT3G2Py5k4PZCcamY4BUeAZUy
+							WHXjlkVJIEcbteAyIKxydBFyh/cs4r52m0TCK0ChbjSYluEhJuXDKyI+yJDjbfsM
+							YGkqCqiNjEP7suvSJ4i3Cj44ALut6tDXJo76QLRbK6rgB7b7yK9RkUPx9FJwc/M3
+							HWnTb348Fl6wZec7soTq5qM+mJMqgN662Jw1c+NE7NtAEXVm7HhiBDf6k/gHJZc/
+							8K0XQK2ETEfSoJrdVD8xwvf9n+t3c3XOGA+kbO4a5VxUvooXbzRqU/ddHSeoT2p9
+							bsV6eubd6aQ8IsGmA1syw4sA9+6C6zvrWhNUQUAbyoNJdBVHBqwWpoKqiVGRvJp6
+							b7Kt9QOQagbef/cMigy+m3dpjGhrhoy1Z5Z3vZp21RyFk+D082Jl8dWd/d7ox+SQ
+							h2v0tm2yYp1oC0JFamQ9wu5Tyy1b6Bn5FCqKydO31tD3/iQdAgMBAAGjUzBRMB0G
+							A1UdDgQWBBSog0IsK02PDsKrodrE0Nk8AeYM5DAfBgNVHSMEGDAWgBSog0IsK02P
+							DsKrodrE0Nk8AeYM5DAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IC
+							AQBF0LHFx3SweJ5OJQY9FoXreNd9dC7lphWoPPKF9u1r/YqqPhd2DIu8JHxBJ5OW
+							CXqIzTu3XBoTv+wPIyy1xZy37qvl6uJFWGox3/+/PRNruFfedt/rR+1UeEoRtAPW
+							ncsKiDXDWUiB19qm8Np/VwlbfuooQ0VGEM4GxAGSDp6KGYjDJUVMnG9l4vdOzMvy
+							oFnoNwxmjRlgj2bNd9iCnf9sXL0LnGXFoZRpl3d7K+ZJt9ndk2wsO1/JWtG58Bt6
+							2wfMHIlNu0s0Ii9+pn/8T4X/YImSr3vObgEGUiTzB0P86UkePXhd810UMQoCl9US
+							fcSUibYyznrfS/Slxo8z1k/KIOdz8N0FmvVhGQ7K4kUvp/s1nNy+w9kTNlExsFCE
+							LujfCHJTjm/Iz6+XezQKJCxVVdzzhnfAAAoYwViBEpuU6V/NZkh3k5x9rpM9NEaL
+							3rLC0cOAYsXUy0jole3Hlq3dExokEulG+edndHbK/B581DFPjFV+LsolM3Vs9Lhd
+							p5qdYRNXMixWGYJJH3ceVXrJYW6iAj2zSxWO9e49nkEPJyWLVYOVgghuhDlQ2RLO
+							V7tQ8uaszAhGY3hTgEvPzzCEcisaqh0LzwX/huxY+upEkCgbosVt8kzaVOC09+AK
+							9ze2bKZ+VTzmhPDwzES1Do/tpHTWBxLWwKK7180GNZJx7w==
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://trapani.opi.plugandpay.it/spidslo"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://trapani.opi.plugandpay.it/spidacs" index="0" isDefault="true"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">Portale dei pagamenti del cittadino</md:ServiceName>
+      <md:RequestedAttribute Name="spidCode"/>
+	  <md:RequestedAttribute Name="familyName"/>
+	  <md:RequestedAttribute Name="name"/>
+	  <md:RequestedAttribute Name="companyName"/>
+	  <md:RequestedAttribute Name="fiscalNumber"/>
+	  <md:RequestedAttribute Name="ivaCode"/>
+	  <md:RequestedAttribute Name="email"/>
+	  <md:RequestedAttribute Name="gender"/>
+	  <md:RequestedAttribute Name="placeOfBirth"/>
+	  <md:RequestedAttribute Name="countyOfBirth"/>
+	  <md:RequestedAttribute Name="dateOfBirth"/>
+    </md:AttributeConsumingService>   
+  </md:SPSSODescriptor>
+  <md:Organization>
+  	<md:OrganizationName xml:lang="it">Ordine delle professioni Infermieristiche di Trapani</md:OrganizationName>
+  	<md:OrganizationDisplayName xml:lang="it">Ordine delle professioni Infermieristiche di Trapani</md:OrganizationDisplayName>
+  	<md:OrganizationURL xml:lang="it">https://www.opitrapani.it</md:OrganizationURL>
+  </md:Organization>
+  <md:ContactPerson contactType="other" spid:entityType="spid:aggregator">
+  	<md:Extensions>
+  		<spid:VATNumber>IT03789750100</spid:VATNumber>
+  		<spid:FiscalCode>03789750100</spid:FiscalCode>
+  		<spid:PublicServicesFullAggregator/>
+  	</md:Extensions>
+  	<md:Company>E-fil srl</md:Company>
+  	<md:EmailAddress>segreteria@pec.e-fil.eu</md:EmailAddress>
+  	<md:TelephoneNumber>+390688805363</md:TelephoneNumber>
+  </md:ContactPerson>
+  <md:ContactPerson contactType="other" spid:entityType="spid:aggregated">
+  	<md:Extensions>
+  		<spid:IPACode>ipasv_tp</spid:IPACode>
+		<spid:Public/>
+  	</md:Extensions>
+  	<md:Company>Ordine delle professioni Infermieristiche di Trapani</md:Company>
+   </md:ContactPerson>
+</md:EntityDescriptor>

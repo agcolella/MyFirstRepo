@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" ID="_4cabc6f9403e7645b3eaa5b135d5565c1957a37c" entityID="https://spid.portalecup.aulss6.veneto.it/O4S.sso"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#_4cabc6f9403e7645b3eaa5b135d5565c1957a37c">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>3ulOsjgZVf+mbu2JKJzDZjZPJJ9DzGFBbYbEjE+7MEg=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+kt4UTbjN4bXLp41WXw/a4vwM4yqVKRMO41sPTz0BeqwPAnqRvGtMN9gGm0zg/H8WS+JqQTexPWJJ
+ltEmIR2YWSYrz3ECKZ8up9t37kbIaxGZPD+78lLRLla6X2x5aqARanEWA6H+K/i/bfOxX0dk7bEe
+unkIRukq1IWQjkg3+frpdaMDbSsbvqU1iEAsnqyD8tFwsSFFQjkmbUqqO8LlGIOUVH50kVJB1bPv
+AHLmP4uZ6cOK9yBHPJXfMr1dqgN02ikPxlsAqbyIJWXTYjkS5vA4ta8xrzaDe2TtOMVFeumFw3xk
+bzWIg7H7jGd52q3r2nY0oDeC775u4ZinbtJQugIpAdRfgnr7KQ1tCVAGwevBMsxeoIYfDSW27JfO
+B3hWYdQFAVa4OF1E1x8+OvUffW+59uKqSSzyati9cUDRRhgf2UAYmScOQIFdDXo3TV+x36qdGa22
+xnNPLodBRDIAXWHHYUZVW32dbRwUZV8+6uY0Eou/uPT4lgtecIOLbunn
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+rrMVJTs0g4vE9HzSbV//SRpXzzgHjZvNkpufFK00Jl6y8g+uDLXMLtHRTuTWJ1BZwjPnCsQD+0os
+tHVXtRcU75d4ANGrmJikIPXxQYXl4oL38FG25ltozQVVHdaQFOCZCZoj68llIt3P8l9BEfz7ecfu
+P1f7IgMK4l8IoprgKOXFZrXNeLBedDJaIW8hPt7C/Addq+3v1maxxmUwXNnYLjUExomB7p5roAkK
+dXUIKOUahDb34W/l7iMv25tneossgzly+cIzqyLvG5BoCe2heplpBAhHkrYLiKVwT3fYfbT4wgOn
+/90pEsxNvTtE2ixJB3uZYsSWbORzA/M8m/xX8KbTLP3tiBHJ4MsdbRsaiooFkTAKtkiwdBabV4Bv
+tJ+UDei3CZqbPeaD/0DMGlm9rpHStmoOXgJe7rPDSzXq8lmVLxbAwvR/A9nHm9adcBpGE0uqkXJH
+GEwPnH2ZUH7wNrD3KcZ67XFTrXlJYz+j0YlqIkqvHfLaPzHr8cjqNKyf
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIFQTCCA6mgAwIBAgIUPGDYqeg7SpJ66xySsZfru03/JPMwDQYJKoZIhvcNAQENBQAwgaAxFzAV
+BgNVBAMMDkFVTFNTNiBFdWdhbmVhMQswCQYDVQQGEwJJVDEPMA0GA1UEBwwGUGFkb3ZhMRMwEQYD
+VQRhDApQQTpJVC1BVTFQMRcwFQYDVQQKDA5BVUxTUzYgRXVnYW5lYTE5MDcGA1UEUwwwaHR0cHM6
+Ly9zcGlkLnBvcnRhbGVjdXAuYXVsc3M2LnZlbmV0by5pdC9PNFMuc3NvMB4XDTIzMTAxNjEyMjEy
+NVoXDTMzMTAxMzEyMjEyNVowgaAxFzAVBgNVBAMMDkFVTFNTNiBFdWdhbmVhMQswCQYDVQQGEwJJ
+VDEPMA0GA1UEBwwGUGFkb3ZhMRMwEQYDVQRhDApQQTpJVC1BVTFQMRcwFQYDVQQKDA5BVUxTUzYg
+RXVnYW5lYTE5MDcGA1UEUwwwaHR0cHM6Ly9zcGlkLnBvcnRhbGVjdXAuYXVsc3M2LnZlbmV0by5p
+dC9PNFMuc3NvMIIBojANBgkqhkiG9w0BAQEFAAOCAY8AMIIBigKCAYEArrMVJTs0g4vE9HzSbV//
+SRpXzzgHjZvNkpufFK00Jl6y8g+uDLXMLtHRTuTWJ1BZwjPnCsQD+0ostHVXtRcU75d4ANGrmJik
+IPXxQYXl4oL38FG25ltozQVVHdaQFOCZCZoj68llIt3P8l9BEfz7ecfuP1f7IgMK4l8IoprgKOXF
+ZrXNeLBedDJaIW8hPt7C/Addq+3v1maxxmUwXNnYLjUExomB7p5roAkKdXUIKOUahDb34W/l7iMv
+25tneossgzly+cIzqyLvG5BoCe2heplpBAhHkrYLiKVwT3fYfbT4wgOn/90pEsxNvTtE2ixJB3uZ
+YsSWbORzA/M8m/xX8KbTLP3tiBHJ4MsdbRsaiooFkTAKtkiwdBabV4BvtJ+UDei3CZqbPeaD/0DM
+Glm9rpHStmoOXgJe7rPDSzXq8lmVLxbAwvR/A9nHm9adcBpGE0uqkXJHGEwPnH2ZUH7wNrD3KcZ6
+7XFTrXlJYz+j0YlqIkqvHfLaPzHr8cjqNKyfAgMBAAGjcTBvMAkGA1UdEwQCMAAwDgYDVR0PAQH/
+BAQDAgbAMFIGA1UdIARLMEkwIAYEK0wQBjAYMBYGCCsGAQUFBwICMAoaCGFnSURjZXJ0MCUGBitM
+EAQCATAbMBkGCCsGAQUFBwICMA0aC2NlcnRfU1BfUHViMA0GCSqGSIb3DQEBDQUAA4IBgQCVVU5n
+Ji6YZpZ0XKbZxdwdCtd1ZOAPVsUpSpaR54IygJw+RBiimCkkkjycgBCDm5csPW2USSq77GAhuZoq
+5qjae3FRyPvf+U6wK67m2SJR+xS9eZeR+EUdSzQIh4JCqhy8JOxJdK+d0KdIDp4GeJ9lvjRgIm3A
+Q85pYXGvKpipKraKUm7v10HPVFLjwEgX/B3meNBWFeBCe+QvimIgX69cFyddv3brpsiKKWyEgKVy
+KJ4aP/N1aXYJ+4BrmkwNe1YMfBqPePFMOO00xxSZr16mJXUW//xIQQJP5QpW52nE6RKnbnFGt4l6
+Cn/1oEwamHvtpyqeKLOvXlV6thdUmi5lIf36ZFsBabw8ysBGOxle9VK+D3j4wcIVDM05iPQ85kqS
+MyJl6ZdoMZrKzMQmRa3ICfpK91M5+lcyAlokYOJVvDVS3xR+SXkpLr73I/AgXyX876tb1NGErm41
+074vSGTlMx1xSpNh/Nk75I53t/i+dior+ePyaGx6unDIMQKc+yY=
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+<md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+	    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509SubjectName>CN=spid.portalecup.aulss6.veneto.it,O=Azienda ULSS n.6 Euganea,L=Padova,ST=Veneto,C=IT</ds:X509SubjectName>
+          <ds:X509Certificate>MIIGxzCCBa+gAwIBAgIQAjTl6MqZSkC+DWSxw9Y7nDANBgkqhkiG9w0BAQsFADBe
+MQswCQYDVQQGEwJVUzEVMBMGA1UEChMMRGlnaUNlcnQgSW5jMRkwFwYDVQQLExB3
+d3cuZGlnaWNlcnQuY29tMR0wGwYDVQQDExRHZW9UcnVzdCBSU0EgQ0EgMjAxODAe
+Fw0yMjEwMjEwMDAwMDBaFw0yMzEwMjgyMzU5NTlaMH0xCzAJBgNVBAYTAklUMQ8w
+DQYDVQQIEwZWZW5ldG8xDzANBgNVBAcTBlBhZG92YTEhMB8GA1UEChMYQXppZW5k
+YSBVTFNTIG4uNiBFdWdhbmVhMSkwJwYDVQQDEyBzcGlkLnBvcnRhbGVjdXAuYXVs
+c3M2LnZlbmV0by5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALRj
+en1NANiCkha11r6iX1e4QsUqUfg+ohRGsgaqBpLtPj66O5d9tM/W5QQ45lV1a0uI
+VJjQ2dOmWWCch3oshDGt6WHCGKSvRHkiumfW/3LGSQt2e/PqFETxmRwUBAW/x4tG
+iQscjrETYpC9MlWTF62Ho/jvGpPwMMQtkqNpiOag3LSODAm8fJ0OcHzeYIPT/Y0B
+2+4bGFMjnxuFBwWsfMyV+lj+dHgDNvBq2PPuRZcVyU9IPBR0sjY8nUCmmTopbS0J
+qznUzr92drXzHIvi8sCaQja6jlCzBzZnSnrOQ2UQZzE+FV++xcu9PzWUG92ywTA5
+ESvzNKzjI5L2KkmCn0MCAwEAAaOCA2AwggNcMB8GA1UdIwQYMBaAFJBY/7CcdahR
+VHex7fKjQxY4nmzFMB0GA1UdDgQWBBTQeKB9v9AoX5Bxjfuvm8geEyWBxjBoBgNV
+HREEYTBfgiBzcGlkLnBvcnRhbGVjdXAuYXVsc3M2LnZlbmV0by5pdIIVc3BpZC5h
+dWxzczYudmVuZXRvLml0giRzcGlkLnBvcnRhbGVjdXB0ZXN0LmF1bHNzNi52ZW5l
+dG8uaXQwDgYDVR0PAQH/BAQDAgWgMB0GA1UdJQQWMBQGCCsGAQUFBwMBBggrBgEF
+BQcDAjA+BgNVHR8ENzA1MDOgMaAvhi1odHRwOi8vY2RwLmdlb3RydXN0LmNvbS9H
+ZW9UcnVzdFJTQUNBMjAxOC5jcmwwPgYDVR0gBDcwNTAzBgZngQwBAgIwKTAnBggr
+BgEFBQcCARYbaHR0cDovL3d3dy5kaWdpY2VydC5jb20vQ1BTMHUGCCsGAQUFBwEB
+BGkwZzAmBggrBgEFBQcwAYYaaHR0cDovL3N0YXR1cy5nZW90cnVzdC5jb20wPQYI
+KwYBBQUHMAKGMWh0dHA6Ly9jYWNlcnRzLmdlb3RydXN0LmNvbS9HZW9UcnVzdFJT
+QUNBMjAxOC5jcnQwCQYDVR0TBAIwADCCAX0GCisGAQQB1nkCBAIEggFtBIIBaQFn
+AHUA6D7Q2j71BjUy51covIlryQPTy9ERa+zraeF3fW0GvW4AAAGD+rWdiAAABAMA
+RjBEAiBr49ZwdvBsYP55Xg7uAcSvCQoFzA0hZcVGWa0V44tt9wIgerxyGLf+/ffW
+WzMzxMlLfHzrG0ouiKHNLCLI+a+qqA8AdgC3Pvsk35xNunXyOcW6WPRsXfxCz3qf
+NcSeHQmBJe20mQAAAYP6tZ1hAAAEAwBHMEUCIG4bi9S/77Sw7aig7XgFBAa2lWco
+q46YvUekIedDH506AiEAlyI6A4U80mhf4Esz+d08JP3oFu+WS/uMz0BpRyqxisMA
+dgBVgdTCFpA2AUrqC5tXPFPwwOQ4eHAlCBcvo6odBxPTDAAAAYP6tZ5gAAAEAwBH
+MEUCIHYGi+25xoLHKr1o1S+CtjY4vIoKyiwBBKoOn/ki88gTAiEAjM8/JL6V6hPK
+QlaYHBKebV1jbVm5eDOZnKknTC6jkp0wDQYJKoZIhvcNAQELBQADggEBABvYLUHk
+isUPVnxMiRO39e3wMwisnlqG3l1+cHSESc3GwzIWIAAHtb8BgMMq0XPKfDaOeISW
+0IVfMUpWY/TRShENAu3QRywyPRi1VRBQUsYzwXobKKBBGIXNS4CKwPo6KZiyfG+l
+F8F4B72qqNSEk51Q+x+KgMF5VrukRRZD7de15tyqVFSvVxf5A+TvFjhyNxuL/NYg
+cyCgSLtVJGhDt0nMYYCRPqJJGr5F59jRSKzEMKVqG+7hBetyKs0m61jHvhAFS85Z
+xiParbtxYy5C17bboxX/+T14YaJ0QQtBc3a+suRRkc7Qlogrpndx7lscXv+anFvO
+Kg7jZFWd0hgT0Pc=
+</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+		    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509SubjectName>L=Padova,C=IT,2.5.4.97=PA:IT-AU1P,2.5.4.83=https://spid.portalecup.aulss6.veneto.it/O4S.sso,CN=AULSS6 Euganea,O=AULSS6 Euganea</ds:X509SubjectName>
+          <ds:X509Certificate>MIIFQTCCA6mgAwIBAgIUPGDYqeg7SpJ66xySsZfru03/JPMwDQYJKoZIhvcNAQEN
+BQAwgaAxFzAVBgNVBAMMDkFVTFNTNiBFdWdhbmVhMQswCQYDVQQGEwJJVDEPMA0G
+A1UEBwwGUGFkb3ZhMRMwEQYDVQRhDApQQTpJVC1BVTFQMRcwFQYDVQQKDA5BVUxT
+UzYgRXVnYW5lYTE5MDcGA1UEUwwwaHR0cHM6Ly9zcGlkLnBvcnRhbGVjdXAuYXVs
+c3M2LnZlbmV0by5pdC9PNFMuc3NvMB4XDTIzMTAxNjEyMjEyNVoXDTMzMTAxMzEy
+MjEyNVowgaAxFzAVBgNVBAMMDkFVTFNTNiBFdWdhbmVhMQswCQYDVQQGEwJJVDEP
+MA0GA1UEBwwGUGFkb3ZhMRMwEQYDVQRhDApQQTpJVC1BVTFQMRcwFQYDVQQKDA5B
+VUxTUzYgRXVnYW5lYTE5MDcGA1UEUwwwaHR0cHM6Ly9zcGlkLnBvcnRhbGVjdXAu
+YXVsc3M2LnZlbmV0by5pdC9PNFMuc3NvMIIBojANBgkqhkiG9w0BAQEFAAOCAY8A
+MIIBigKCAYEArrMVJTs0g4vE9HzSbV//SRpXzzgHjZvNkpufFK00Jl6y8g+uDLXM
+LtHRTuTWJ1BZwjPnCsQD+0ostHVXtRcU75d4ANGrmJikIPXxQYXl4oL38FG25lto
+zQVVHdaQFOCZCZoj68llIt3P8l9BEfz7ecfuP1f7IgMK4l8IoprgKOXFZrXNeLBe
+dDJaIW8hPt7C/Addq+3v1maxxmUwXNnYLjUExomB7p5roAkKdXUIKOUahDb34W/l
+7iMv25tneossgzly+cIzqyLvG5BoCe2heplpBAhHkrYLiKVwT3fYfbT4wgOn/90p
+EsxNvTtE2ixJB3uZYsSWbORzA/M8m/xX8KbTLP3tiBHJ4MsdbRsaiooFkTAKtkiw
+dBabV4BvtJ+UDei3CZqbPeaD/0DMGlm9rpHStmoOXgJe7rPDSzXq8lmVLxbAwvR/
+A9nHm9adcBpGE0uqkXJHGEwPnH2ZUH7wNrD3KcZ67XFTrXlJYz+j0YlqIkqvHfLa
+PzHr8cjqNKyfAgMBAAGjcTBvMAkGA1UdEwQCMAAwDgYDVR0PAQH/BAQDAgbAMFIG
+A1UdIARLMEkwIAYEK0wQBjAYMBYGCCsGAQUFBwICMAoaCGFnSURjZXJ0MCUGBitM
+EAQCATAbMBkGCCsGAQUFBwICMA0aC2NlcnRfU1BfUHViMA0GCSqGSIb3DQEBDQUA
+A4IBgQCVVU5nJi6YZpZ0XKbZxdwdCtd1ZOAPVsUpSpaR54IygJw+RBiimCkkkjyc
+gBCDm5csPW2USSq77GAhuZoq5qjae3FRyPvf+U6wK67m2SJR+xS9eZeR+EUdSzQI
+h4JCqhy8JOxJdK+d0KdIDp4GeJ9lvjRgIm3AQ85pYXGvKpipKraKUm7v10HPVFLj
+wEgX/B3meNBWFeBCe+QvimIgX69cFyddv3brpsiKKWyEgKVyKJ4aP/N1aXYJ+4Br
+mkwNe1YMfBqPePFMOO00xxSZr16mJXUW//xIQQJP5QpW52nE6RKnbnFGt4l6Cn/1
+oEwamHvtpyqeKLOvXlV6thdUmi5lIf36ZFsBabw8ysBGOxle9VK+D3j4wcIVDM05
+iPQ85kqSMyJl6ZdoMZrKzMQmRa3ICfpK91M5+lcyAlokYOJVvDVS3xR+SXkpLr73
+I/AgXyX876tb1NGErm41074vSGTlMx1xSpNh/Nk75I53t/i+dior+ePyaGx6unDI
+MQKc+yY=
+</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.portalecup.aulss6.veneto.it/O4S.sso/SLO/POST"/>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://spid.portalecup.aulss6.veneto.it/O4S.sso/SLO/Redirect"/>
+	    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.aulss6.veneto.it/O4S.sso/SLO/POST"/>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://spid.aulss6.veneto.it/O4S.sso/SLO/Redirect"/>
+	<md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.portalecup.aulss6.veneto.it/O4S.sso/SAML2/POST" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.aulss6.veneto.it/O4S.sso/SAML2/POST" index="1"/>
+	<md:AttributeConsumingService index="0">
+            <md:ServiceName xml:lang="it">AULSS6 Euganea PortaleCUP</md:ServiceName>
+            <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="digitalAddress" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="address" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="registeredOffice" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="idCard" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="expirationDate" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+    </md:AttributeConsumingService>
+		<md:AttributeConsumingService index="1">
+            <md:ServiceName xml:lang="it">AULSS6 Euganea</md:ServiceName>
+            <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="address" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+        <md:Organization>
+                        <md:OrganizationName xml:lang="it">AULSS6 Euganea</md:OrganizationName>
+                        <md:OrganizationDisplayName xml:lang="it">AULSS6 Euganea</md:OrganizationDisplayName>
+                        <md:OrganizationURL xml:lang="it">https://portalecup.aulss6.veneto.it/</md:OrganizationURL>
+        </md:Organization>
+	<md:ContactPerson contactType="other">
+		<md:Extensions>
+			<spid:IPACode>AU1P</spid:IPACode>
+			<spid:FiscalCode>00349050286</spid:FiscalCode>
+			<spid:Public/>  
+		</md:Extensions>
+			<md:EmailAddress>sistema.informativo@aulss6.veneto.it</md:EmailAddress>
+			<md:TelephoneNumber>+390498214772</md:TelephoneNumber>
+	</md:ContactPerson>
+  </md:EntityDescriptor>

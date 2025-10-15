@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:spid="https://spid.gov.it/saml-extensions" ID="_e0io45c1j5ulfn34teba4vzrw0ju8ui1xrpnuiznfbd" cacheDuration="PT604800S" entityID="https://www.comune.castelveteresulcalore.av.it"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#_e0io45c1j5ulfn34teba4vzrw0ju8ui1xrpnuiznfbd">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>qS2wBoxTzmAKTkfPPXiygIQ3Y0CwgFcqUuyf/eFlRrw=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+xtOtI7u1iF97L+15K5AV5dh1x7/Y+ib+AFj3HsPU7Lftu/Qyr+gRSKIFmdHYl381nM0uBXts6E1F
+K67Uk2e47mHECQVdKe5dTW6zWHRI9Jd1H7gbfllIXwoptn5aEcZNfqpfb2/PRLUPdmD6DBj+XWeh
+SZ5f8ZOVkOPBbezabkfcqAxPBIqgFHB2y3qez3JvOVUAqSJ4M7HCpGkz3u2x5EkVKe3daVRlctwA
+hw/BD+QzP+J9mBY8ytwzn07jKs1y/De6LU7clhfBkWC85YS22QtFfmN2eomHcGX1OQu1lPLYn24O
+cCtmQ5FcYsnSrwdoiyOwy8PJCF0FdFSGbjosb2ok+MI9hSKaUxPoZGmiwYfUJ9SYuvGwHTVO0Mdp
+q475L5YRdxxUg8YYMPqXr7f4tZ6uz1PWqmS4nf6jzY+8PUx+CmdzK3xdv/0ooJUWn9bPjx73EWU3
+a77WZ25RDZvBCti0kD3fNuLJtW992XKo/kcXwW35G2Y8+YyggL3C196PUKHIbFqCEgHK6KiFGWfb
+ft5Oscqe2XlVqe4VHSfoWTnmWq+j67MvnCZKhnftGJrOMBpBxSIZJ8jtPeX1cUeiVgsXUDvqixSx
+7DNT/lszuZlLli21AcZANEGoiabTFgFuRmqZTkolQiIF+5OnonAfpb/dUbzpNqq1nBuHy0qlndU=
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+1yLMUnGH13rTHpS3Iv+R8ZuH9qhX39I3pM3/ZYzhRveQo3AYIt7bSZkDrY1c1EwnrvbqPQudtNeg
+J8/xqc08bfYRQk0QyFrBQDCbRdqxYDb7Jby3oVPcUqnGyS47X6as5UmSPpR6rAmEP90VxIpKWCWy
+SITXgHXFaiY/MPyZH5FXDHIjZ1NfHg2J+d+SDbocUcCB7omheCLG4LxfyMUwTO2JMQCSSdUa9Arm
+tGgFeVFmfBl8ervnRz/J9xwnX8wyjndfMxY2sXq1P6DYYpfmX9MEBUvs4WswzAFaE6P1FAgVC0zl
+cwzFbo96izFImd8chdg6Bwv4HSx7EvUOgzUfdA19AAn1FTAyeOU6swXNzuGtkHR+/QWwDWifxdax
+20g6t7XOUfW2pKAfON8OtX8qzOlHilZLwQ6dAP+557cOXz6VNxeWAa7ahO9SO8fZYaxHTPnuUZ2X
++MNfNNylCvu0hP5/wHVjMedSkYJ6U20L3H4Xi8ME+l0uT560BTlBTF9zwEfk2kWCbdlic0eBdRae
++gwMj0I/HAFbSfcJBmqf66atX+R/za9kZDqhu7pBYn1oqk6hSvIAB21pg3yLhpRARP1UoHOGQ+yV
+pfbBCEusVWhKaWYovfYcn2E2DARYTMauE6BDIUK469B0zF5+WmcpLrTUGbq0wb/jJ37A92sHJ+c=
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIGiDCCBHCgAwIBAgIJAORdj14OFsjAMA0GCSqGSIb3DQEBCwUAMIHYMQswCQYDVQQGEwJJVDER
+MA8GA1UECAwIQXZlbGxpbm8xITAfBgNVBAcMGENhc3RlbCBWZXRlcmUgc3VsIENhbG9yZTErMCkG
+A1UECgwiQ29tdW5lIGRpIENhc3RlbCBWZXRlcmUgc3VsIENhbG9yZTENMAsGA1UECwwEU3BpZDEi
+MCAGA1UEAwwZc3BpZC1jYXN0ZWx2ZXRlcmVzdWNhbG9yZTEzMDEGCSqGSIb3DQEJARYkYW1taW5p
+c3RyYXRpdm8uY2FzdGVsdmV0ZXJlc2NAcGVjLml0MB4XDTIzMDUxMjEyMTQwNloXDTI2MDUxMTEy
+MTQwNlowgdgxCzAJBgNVBAYTAklUMREwDwYDVQQIDAhBdmVsbGlubzEhMB8GA1UEBwwYQ2FzdGVs
+IFZldGVyZSBzdWwgQ2Fsb3JlMSswKQYDVQQKDCJDb211bmUgZGkgQ2FzdGVsIFZldGVyZSBzdWwg
+Q2Fsb3JlMQ0wCwYDVQQLDARTcGlkMSIwIAYDVQQDDBlzcGlkLWNhc3RlbHZldGVyZXN1Y2Fsb3Jl
+MTMwMQYJKoZIhvcNAQkBFiRhbW1pbmlzdHJhdGl2by5jYXN0ZWx2ZXRlcmVzY0BwZWMuaXQwggIi
+MA0GCSqGSIb3DQEBAQUAA4ICDwAwggIKAoICAQDXIsxScYfXetMelLci/5Hxm4f2qFff0jekzf9l
+jOFG95CjcBgi3ttJmQOtjVzUTCeu9uo9C52016Anz/GpzTxt9hFCTRDIWsFAMJtF2rFgNvslvLeh
+U9xSqcbJLjtfpqzlSZI+lHqsCYQ/3RXEikpYJbJIhNeAdcVqJj8w/JkfkVcMciNnU18eDYn535IN
+uhxRwIHuiaF4IsbgvF/IxTBM7YkxAJJJ1Rr0Cua0aAV5UWZ8GXx6u+dHP8n3HCdfzDKOd18zFjax
+erU/oNhil+Zf0wQFS+zhazDMAVoTo/UUCBULTOVzDMVuj3qLMUiZ3xyF2DoHC/gdLHsS9Q6DNR90
+DX0ACfUVMDJ45TqzBc3O4a2QdH79BbANaJ/F1rHbSDq3tc5R9bakoB843w61fyrM6UeKVkvBDp0A
+/7nntw5fPpU3F5YBrtqE71I7x9lhrEdM+e5RnZf4w1803KUK+7SE/n/AdWMx51KRgnpTbQvcfheL
+wwT6XS5PnrQFOUFMX3PAR+TaRYJt2WJzR4F1Fp76DAyPQj8cAVtJ9wkGap/rpq1f5H/Nr2RkOqG7
+ukFifWiqTqFK8gAHbWmDfIuGlEBE/VSgc4ZD7JWl9sEIS6xVaEppZii99hyfYTYMBFhMxq4ToEMh
+Qrjr0HTMXn5aZykutNQZurTBv+MnfsD3awcn5wIDAQABo1MwUTAdBgNVHQ4EFgQUojD7cGeStCnd
+NBJ0/IKKsLu/IyYwHwYDVR0jBBgwFoAUojD7cGeStCndNBJ0/IKKsLu/IyYwDwYDVR0TAQH/BAUw
+AwEB/zANBgkqhkiG9w0BAQsFAAOCAgEAy6cLUZ+/jys6nwZ31znvnNLkp1VL9LnB+1sj+KJ7Pn4x
+uRH07yurVunU56/u3lY+c3u3fvaMTrbAciPQBZy1EtOLeOADXB3gyeimrPfMtaud93hlugLi+Ijj
+wZvYGbnv8aSM7Pw4Fxn4z5eoyjEYmQGCwK7snm0r0m8MVnR0o06SwHc9FHof1Qm9Fxez6wFDv3Ju
+qt2xFSIxrkb08piu9CquhqOEMo81JxmASWSeXqLkOt7Loh3q4E0uPKLYNgII4e5sHFxxYmxbbE/l
+q4rf+3hR2tTtjhhzp3Dp6gR5dAq7pb4s+ea+9jthSjMdnf87x3HRlb29zotaaYQLeWlsQeKKaywn
+4KjEgtgcGRJQTCw+vqWGz222au7WVT1SBqO8Wt9X5PbE/U/4GoxMmD332tbCi6ecDOeLDlcrtxRj
+Xx9WakofwCXUYeUD2TaLP415jkesrhU5sffcbR/Lyep0c95XZW8nCrGYVcHSBzAIs5u85KH6dZcF
+VDu0qMbUZTPz2YBqFdrTSCRhVxQO8du5Fa0ByEm3vvNccMXa0ht5oq9lMAEM9pJPyANnyIdIgsBh
+0Vo1mmNU8Sb4NCjkQD77CM7HYrkMNyTnyEba56hSa9lESx36/UfVbRWK+g3cw8NQMooBN2se0RHA
+VbnMboK+aL/loFI32ne+TC96/CkKsaE=
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIGiDCCBHCgAwIBAgIJAORdj14OFsjAMA0GCSqGSIb3DQEBCwUAMIHYMQswCQYD
+VQQGEwJJVDERMA8GA1UECAwIQXZlbGxpbm8xITAfBgNVBAcMGENhc3RlbCBWZXRl
+cmUgc3VsIENhbG9yZTErMCkGA1UECgwiQ29tdW5lIGRpIENhc3RlbCBWZXRlcmUg
+c3VsIENhbG9yZTENMAsGA1UECwwEU3BpZDEiMCAGA1UEAwwZc3BpZC1jYXN0ZWx2
+ZXRlcmVzdWNhbG9yZTEzMDEGCSqGSIb3DQEJARYkYW1taW5pc3RyYXRpdm8uY2Fz
+dGVsdmV0ZXJlc2NAcGVjLml0MB4XDTIzMDUxMjEyMTQwNloXDTI2MDUxMTEyMTQw
+NlowgdgxCzAJBgNVBAYTAklUMREwDwYDVQQIDAhBdmVsbGlubzEhMB8GA1UEBwwY
+Q2FzdGVsIFZldGVyZSBzdWwgQ2Fsb3JlMSswKQYDVQQKDCJDb211bmUgZGkgQ2Fz
+dGVsIFZldGVyZSBzdWwgQ2Fsb3JlMQ0wCwYDVQQLDARTcGlkMSIwIAYDVQQDDBlz
+cGlkLWNhc3RlbHZldGVyZXN1Y2Fsb3JlMTMwMQYJKoZIhvcNAQkBFiRhbW1pbmlz
+dHJhdGl2by5jYXN0ZWx2ZXRlcmVzY0BwZWMuaXQwggIiMA0GCSqGSIb3DQEBAQUA
+A4ICDwAwggIKAoICAQDXIsxScYfXetMelLci/5Hxm4f2qFff0jekzf9ljOFG95Cj
+cBgi3ttJmQOtjVzUTCeu9uo9C52016Anz/GpzTxt9hFCTRDIWsFAMJtF2rFgNvsl
+vLehU9xSqcbJLjtfpqzlSZI+lHqsCYQ/3RXEikpYJbJIhNeAdcVqJj8w/JkfkVcM
+ciNnU18eDYn535INuhxRwIHuiaF4IsbgvF/IxTBM7YkxAJJJ1Rr0Cua0aAV5UWZ8
+GXx6u+dHP8n3HCdfzDKOd18zFjaxerU/oNhil+Zf0wQFS+zhazDMAVoTo/UUCBUL
+TOVzDMVuj3qLMUiZ3xyF2DoHC/gdLHsS9Q6DNR90DX0ACfUVMDJ45TqzBc3O4a2Q
+dH79BbANaJ/F1rHbSDq3tc5R9bakoB843w61fyrM6UeKVkvBDp0A/7nntw5fPpU3
+F5YBrtqE71I7x9lhrEdM+e5RnZf4w1803KUK+7SE/n/AdWMx51KRgnpTbQvcfheL
+wwT6XS5PnrQFOUFMX3PAR+TaRYJt2WJzR4F1Fp76DAyPQj8cAVtJ9wkGap/rpq1f
+5H/Nr2RkOqG7ukFifWiqTqFK8gAHbWmDfIuGlEBE/VSgc4ZD7JWl9sEIS6xVaEpp
+Zii99hyfYTYMBFhMxq4ToEMhQrjr0HTMXn5aZykutNQZurTBv+MnfsD3awcn5wID
+AQABo1MwUTAdBgNVHQ4EFgQUojD7cGeStCndNBJ0/IKKsLu/IyYwHwYDVR0jBBgw
+FoAUojD7cGeStCndNBJ0/IKKsLu/IyYwDwYDVR0TAQH/BAUwAwEB/zANBgkqhkiG
+9w0BAQsFAAOCAgEAy6cLUZ+/jys6nwZ31znvnNLkp1VL9LnB+1sj+KJ7Pn4xuRH0
+7yurVunU56/u3lY+c3u3fvaMTrbAciPQBZy1EtOLeOADXB3gyeimrPfMtaud93hl
+ugLi+IjjwZvYGbnv8aSM7Pw4Fxn4z5eoyjEYmQGCwK7snm0r0m8MVnR0o06SwHc9
+FHof1Qm9Fxez6wFDv3Juqt2xFSIxrkb08piu9CquhqOEMo81JxmASWSeXqLkOt7L
+oh3q4E0uPKLYNgII4e5sHFxxYmxbbE/lq4rf+3hR2tTtjhhzp3Dp6gR5dAq7pb4s
++ea+9jthSjMdnf87x3HRlb29zotaaYQLeWlsQeKKaywn4KjEgtgcGRJQTCw+vqWG
+z222au7WVT1SBqO8Wt9X5PbE/U/4GoxMmD332tbCi6ecDOeLDlcrtxRjXx9Wakof
+wCXUYeUD2TaLP415jkesrhU5sffcbR/Lyep0c95XZW8nCrGYVcHSBzAIs5u85KH6
+dZcFVDu0qMbUZTPz2YBqFdrTSCRhVxQO8du5Fa0ByEm3vvNccMXa0ht5oq9lMAEM
+9pJPyANnyIdIgsBh0Vo1mmNU8Sb4NCjkQD77CM7HYrkMNyTnyEba56hSa9lESx36
+/UfVbRWK+g3cw8NQMooBN2se0RHAVbnMboK+aL/loFI32ne+TC96/CkKsaE=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIGiDCCBHCgAwIBAgIJAORdj14OFsjAMA0GCSqGSIb3DQEBCwUAMIHYMQswCQYD
+VQQGEwJJVDERMA8GA1UECAwIQXZlbGxpbm8xITAfBgNVBAcMGENhc3RlbCBWZXRl
+cmUgc3VsIENhbG9yZTErMCkGA1UECgwiQ29tdW5lIGRpIENhc3RlbCBWZXRlcmUg
+c3VsIENhbG9yZTENMAsGA1UECwwEU3BpZDEiMCAGA1UEAwwZc3BpZC1jYXN0ZWx2
+ZXRlcmVzdWNhbG9yZTEzMDEGCSqGSIb3DQEJARYkYW1taW5pc3RyYXRpdm8uY2Fz
+dGVsdmV0ZXJlc2NAcGVjLml0MB4XDTIzMDUxMjEyMTQwNloXDTI2MDUxMTEyMTQw
+NlowgdgxCzAJBgNVBAYTAklUMREwDwYDVQQIDAhBdmVsbGlubzEhMB8GA1UEBwwY
+Q2FzdGVsIFZldGVyZSBzdWwgQ2Fsb3JlMSswKQYDVQQKDCJDb211bmUgZGkgQ2Fz
+dGVsIFZldGVyZSBzdWwgQ2Fsb3JlMQ0wCwYDVQQLDARTcGlkMSIwIAYDVQQDDBlz
+cGlkLWNhc3RlbHZldGVyZXN1Y2Fsb3JlMTMwMQYJKoZIhvcNAQkBFiRhbW1pbmlz
+dHJhdGl2by5jYXN0ZWx2ZXRlcmVzY0BwZWMuaXQwggIiMA0GCSqGSIb3DQEBAQUA
+A4ICDwAwggIKAoICAQDXIsxScYfXetMelLci/5Hxm4f2qFff0jekzf9ljOFG95Cj
+cBgi3ttJmQOtjVzUTCeu9uo9C52016Anz/GpzTxt9hFCTRDIWsFAMJtF2rFgNvsl
+vLehU9xSqcbJLjtfpqzlSZI+lHqsCYQ/3RXEikpYJbJIhNeAdcVqJj8w/JkfkVcM
+ciNnU18eDYn535INuhxRwIHuiaF4IsbgvF/IxTBM7YkxAJJJ1Rr0Cua0aAV5UWZ8
+GXx6u+dHP8n3HCdfzDKOd18zFjaxerU/oNhil+Zf0wQFS+zhazDMAVoTo/UUCBUL
+TOVzDMVuj3qLMUiZ3xyF2DoHC/gdLHsS9Q6DNR90DX0ACfUVMDJ45TqzBc3O4a2Q
+dH79BbANaJ/F1rHbSDq3tc5R9bakoB843w61fyrM6UeKVkvBDp0A/7nntw5fPpU3
+F5YBrtqE71I7x9lhrEdM+e5RnZf4w1803KUK+7SE/n/AdWMx51KRgnpTbQvcfheL
+wwT6XS5PnrQFOUFMX3PAR+TaRYJt2WJzR4F1Fp76DAyPQj8cAVtJ9wkGap/rpq1f
+5H/Nr2RkOqG7ukFifWiqTqFK8gAHbWmDfIuGlEBE/VSgc4ZD7JWl9sEIS6xVaEpp
+Zii99hyfYTYMBFhMxq4ToEMhQrjr0HTMXn5aZykutNQZurTBv+MnfsD3awcn5wID
+AQABo1MwUTAdBgNVHQ4EFgQUojD7cGeStCndNBJ0/IKKsLu/IyYwHwYDVR0jBBgw
+FoAUojD7cGeStCndNBJ0/IKKsLu/IyYwDwYDVR0TAQH/BAUwAwEB/zANBgkqhkiG
+9w0BAQsFAAOCAgEAy6cLUZ+/jys6nwZ31znvnNLkp1VL9LnB+1sj+KJ7Pn4xuRH0
+7yurVunU56/u3lY+c3u3fvaMTrbAciPQBZy1EtOLeOADXB3gyeimrPfMtaud93hl
+ugLi+IjjwZvYGbnv8aSM7Pw4Fxn4z5eoyjEYmQGCwK7snm0r0m8MVnR0o06SwHc9
+FHof1Qm9Fxez6wFDv3Juqt2xFSIxrkb08piu9CquhqOEMo81JxmASWSeXqLkOt7L
+oh3q4E0uPKLYNgII4e5sHFxxYmxbbE/lq4rf+3hR2tTtjhhzp3Dp6gR5dAq7pb4s
++ea+9jthSjMdnf87x3HRlb29zotaaYQLeWlsQeKKaywn4KjEgtgcGRJQTCw+vqWG
+z222au7WVT1SBqO8Wt9X5PbE/U/4GoxMmD332tbCi6ecDOeLDlcrtxRjXx9Wakof
+wCXUYeUD2TaLP415jkesrhU5sffcbR/Lyep0c95XZW8nCrGYVcHSBzAIs5u85KH6
+dZcFVDu0qMbUZTPz2YBqFdrTSCRhVxQO8du5Fa0ByEm3vvNccMXa0ht5oq9lMAEM
+9pJPyANnyIdIgsBh0Vo1mmNU8Sb4NCjkQD77CM7HYrkMNyTnyEba56hSa9lESx36
+/UfVbRWK+g3cw8NQMooBN2se0RHAVbnMboK+aL/loFI32ne+TC96/CkKsaE=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.comune.castelveteresulcalore.av.it/api/logout"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>  
+	<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.comune.castelveteresulcalore.av.it/api/acs" index="0" isDefault="true"/>  	
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://servizi.comune.castelveteresulcalore.av.it/api/acs" index="1"/>  	
+	<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://castelveteresucalore.wemapp.eu/api/acs" index="2"/>     
+            <md:AttributeConsumingService index="0"> 
+                <md:ServiceName xml:lang="it">Comune di Castelvetere sul Calore</md:ServiceName> 
+                <md:ServiceDescription xml:lang="it">Servizio SPID del Comune di Castelvetere sul Calore</md:ServiceDescription> 
+                <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="address" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="expirationDate" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="idCard" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="registeredOffice" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="digitalAddress" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+        </md:AttributeConsumingService> 
+            <md:AttributeConsumingService index="1"> 
+                <md:ServiceName xml:lang="it">Servizi Online</md:ServiceName> 
+                <md:ServiceDescription xml:lang="it">Servizio SPID del Comune di Castelvetere sul Calore</md:ServiceDescription> 
+                <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="address" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="expirationDate" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="idCard" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="registeredOffice" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="digitalAddress" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+        </md:AttributeConsumingService> 
+		    <md:AttributeConsumingService index="2"> 
+                <md:ServiceName xml:lang="it">Wemapp SPID</md:ServiceName> 
+                <md:ServiceDescription xml:lang="it">Servizio SPID del Comune di Castelvetere sul Calore</md:ServiceDescription> 
+                <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="address" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="expirationDate" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="idCard" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="registeredOffice" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="digitalAddress" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+        </md:AttributeConsumingService> 
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Castelvetere sul Calore</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Castelvetere sul Calore</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://comune.castelveteresulcalore.av.it/</md:OrganizationURL>
+  </md:Organization>
+  
+<md:ContactPerson contactType="other"> 
+<md:Extensions> 
+<spid:IPACode>c_c283</spid:IPACode> 
+<spid:Public/> 
+</md:Extensions> 
+<md:Company>Comune di Castelvetere sul Calore</md:Company> 
+<md:EmailAddress>protocollo@comune.castelveteresulcalore.av.it</md:EmailAddress> 
+<md:TelephoneNumber>+390974988009</md:TelephoneNumber> 
+</md:ContactPerson> 
+  
+</md:EntityDescriptor>
