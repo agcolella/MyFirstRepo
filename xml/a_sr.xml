@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:spid="https://spid.gov.it/saml-extensions" entityID="https://login.asp.sr.it" ID="https___login_asp_sr_it"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+  <ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+    <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+  <ds:Reference URI="#https___login_asp_sr_it"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>+zbs0uLWNQd59nf8ZlSb1M3wvUpOtI6v7cpaSHw4DjU=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>cgrDTzSTvuo6XsL96bxNVjt/05MKed1jL+16BaSvLNCI9CKL8Rf5eN/CmeeoJXFGse8ZYjV+xJ+F2rFUrYRwP0KzrzJCj4PkcjxXlC+BrVIbwUT0KHsLZYIPrbsQJNNVmwhJwjqRBmAJUk7U+9C9S2+Ph/NfqLPKIRiqnSfY52K3wewkGuuVWv7iX2sdyJ3qKgbSXJ02G6enBMKthi/vCq6xGvvACBCMUxdjHxJ2rFwiDkGfH8ZlMCCdCreRSiHPesJKSQQ9kylOuuULww7xXvaoA9YvHmfZZljdsE3f4vNv5DX2+56bo4esuLt/MVeWtdk1TpmH9RceaIuEHbVCbw==</ds:SignatureValue>
+<ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIEljCCA36gAwIBAgIIsQOVXBCkgAAwDQYJKoZIhvcNAQELBQAwggEJMTIwMAYDVQQKDClBemllbmRhIFNhbml0YXJpYSBQcm92aW5jaWFsZSBkaSBTaXJhY3VzYTETMBEGA1UEYQwKUEE6SVQtYV9zcjELMAkGA1UEBhMCSVQxMjAwBgNVBAcMKUF6aWVuZGEgU2FuaXRhcmlhIFByb3ZpbmNpYWxlIGRpIFNpcmFjdXNhMTIwMAYDVQQDDClBemllbmRhIFNhbml0YXJpYSBQcm92aW5jaWFsZSBkaSBTaXJhY3VzYTEnMCUGCSqGSIb3DQEJARYYcHJvdG9jb2xsb0BwZWMuYXNwLnNyLml0MSAwHgYDVQRTDBdodHRwczovL2xvZ2luLmFzcC5zci5pdDAeFw0yNDAyMjgxMDU4MDlaFw0yNjAyMjcxMDU4MDlaMIIBCTEyMDAGA1UECgwpQXppZW5kYSBTYW5pdGFyaWEgUHJvdmluY2lhbGUgZGkgU2lyYWN1c2ExEzARBgNVBGEMClBBOklULWFfc3IxCzAJBgNVBAYTAklUMTIwMAYDVQQHDClBemllbmRhIFNhbml0YXJpYSBQcm92aW5jaWFsZSBkaSBTaXJhY3VzYTEyMDAGA1UEAwwpQXppZW5kYSBTYW5pdGFyaWEgUHJvdmluY2lhbGUgZGkgU2lyYWN1c2ExJzAlBgkqhkiG9w0BCQEWGHByb3RvY29sbG9AcGVjLmFzcC5zci5pdDEgMB4GA1UEUwwXaHR0cHM6Ly9sb2dpbi5hc3Auc3IuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCzFpTIkc/JI1NK0EcanEJzOPzu9dnwHOwfmralc0cPbaceVogvQMEywLqCvNK6SqxNdsjL37G5XH8VB7cHgua6sD9BoBdZHP9ls+NMejxbt084slS7OzOZ+5Qcnk9E+TqhGwcIXiiax1bkG46jifZ22Rfdo+PTlBC9DdWWFMXKEg618jCNsumVSgkzfQrFmKyfP/YvXwy1jwyglxOJv/EWzM2EvZ3SfpM/fxijKCYacjMQog5CToleapHjZIMBbXvpX2K4DJIGnvMxZpMPD3o3YACi7k7hT7o1uj5YIbrhBw1XYtzz7sELjiHO2jM9QxxWpB4i8zZNSqTKJjP/03whAgMBAAEwDQYJKoZIhvcNAQELBQADggEBAFgquoH8Geaic6up9+jlZcuCG7H3oRLV3sf6kX7dRDvCQD5yzihcWcZhWkfdqtruiIXZZfL1tL0llRXik5sRxCpZ6x1lFDcWG9Z9DS++6uRJ710Q/XU6yCnMlgRfmc+4ZcU16SVryBhnCEuzUbwoBFsUnKA/JZS3Q03Mze4NtYVhT8jh7hAUptjNzgEiqAEYmwOrWUiXhZwphzUP67Imv9MgLd0LSYvfGRMyKmhDCEHwQTM5s8pEKbSd2O++zm5YBXEC+SqbUzIlA2Jfbt2blmg4s1L5+EpGPEzY00Qn+kBO1KfxkIv6P27HaWDMAy8On04G3dLCOuE7l64kaAC7rQs=</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature>
+    <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true" WantAssertionsSigned="true">
+        <md:KeyDescriptor use="signing">
+            <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+                <ds:X509Data><ds:X509Certificate>MIIEljCCA36gAwIBAgIIsQOVXBCkgAAwDQYJKoZIhvcNAQELBQAwggEJMTIwMAYDVQQKDClBemllbmRhIFNhbml0YXJpYSBQcm92aW5jaWFsZSBkaSBTaXJhY3VzYTETMBEGA1UEYQwKUEE6SVQtYV9zcjELMAkGA1UEBhMCSVQxMjAwBgNVBAcMKUF6aWVuZGEgU2FuaXRhcmlhIFByb3ZpbmNpYWxlIGRpIFNpcmFjdXNhMTIwMAYDVQQDDClBemllbmRhIFNhbml0YXJpYSBQcm92aW5jaWFsZSBkaSBTaXJhY3VzYTEnMCUGCSqGSIb3DQEJARYYcHJvdG9jb2xsb0BwZWMuYXNwLnNyLml0MSAwHgYDVQRTDBdodHRwczovL2xvZ2luLmFzcC5zci5pdDAeFw0yNDAyMjgxMDU4MDlaFw0yNjAyMjcxMDU4MDlaMIIBCTEyMDAGA1UECgwpQXppZW5kYSBTYW5pdGFyaWEgUHJvdmluY2lhbGUgZGkgU2lyYWN1c2ExEzARBgNVBGEMClBBOklULWFfc3IxCzAJBgNVBAYTAklUMTIwMAYDVQQHDClBemllbmRhIFNhbml0YXJpYSBQcm92aW5jaWFsZSBkaSBTaXJhY3VzYTEyMDAGA1UEAwwpQXppZW5kYSBTYW5pdGFyaWEgUHJvdmluY2lhbGUgZGkgU2lyYWN1c2ExJzAlBgkqhkiG9w0BCQEWGHByb3RvY29sbG9AcGVjLmFzcC5zci5pdDEgMB4GA1UEUwwXaHR0cHM6Ly9sb2dpbi5hc3Auc3IuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCzFpTIkc/JI1NK0EcanEJzOPzu9dnwHOwfmralc0cPbaceVogvQMEywLqCvNK6SqxNdsjL37G5XH8VB7cHgua6sD9BoBdZHP9ls+NMejxbt084slS7OzOZ+5Qcnk9E+TqhGwcIXiiax1bkG46jifZ22Rfdo+PTlBC9DdWWFMXKEg618jCNsumVSgkzfQrFmKyfP/YvXwy1jwyglxOJv/EWzM2EvZ3SfpM/fxijKCYacjMQog5CToleapHjZIMBbXvpX2K4DJIGnvMxZpMPD3o3YACi7k7hT7o1uj5YIbrhBw1XYtzz7sELjiHO2jM9QxxWpB4i8zZNSqTKJjP/03whAgMBAAEwDQYJKoZIhvcNAQELBQADggEBAFgquoH8Geaic6up9+jlZcuCG7H3oRLV3sf6kX7dRDvCQD5yzihcWcZhWkfdqtruiIXZZfL1tL0llRXik5sRxCpZ6x1lFDcWG9Z9DS++6uRJ710Q/XU6yCnMlgRfmc+4ZcU16SVryBhnCEuzUbwoBFsUnKA/JZS3Q03Mze4NtYVhT8jh7hAUptjNzgEiqAEYmwOrWUiXhZwphzUP67Imv9MgLd0LSYvfGRMyKmhDCEHwQTM5s8pEKbSd2O++zm5YBXEC+SqbUzIlA2Jfbt2blmg4s1L5+EpGPEzY00Qn+kBO1KfxkIv6P27HaWDMAy8On04G3dLCOuE7l64kaAC7rQs=</ds:X509Certificate></ds:X509Data>
+            </ds:KeyInfo>
+        </md:KeyDescriptor>
+            <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://asps.login.opencityitalia.it/slo"/>        
+        <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+        <md:AssertionConsumerService index="0" isDefault="true" Location="https://asps.login.opencityitalia.it/acs" Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST"/>
+        <md:AttributeConsumingService index="0">
+            <md:ServiceName xml:lang="it">Set 0</md:ServiceName>       
+            <md:RequestedAttribute Name="gender"/>
+            <md:RequestedAttribute Name="companyName"/>
+            <md:RequestedAttribute Name="registeredOffice"/>
+            <md:RequestedAttribute Name="fiscalNumber"/>
+            <md:RequestedAttribute Name="ivaCode"/>
+            <md:RequestedAttribute Name="idCard"/>
+            <md:RequestedAttribute Name="spidCode"/>
+            <md:RequestedAttribute Name="name"/>
+            <md:RequestedAttribute Name="familyName"/>
+            <md:RequestedAttribute Name="placeOfBirth"/>
+            <md:RequestedAttribute Name="countyOfBirth"/>
+            <md:RequestedAttribute Name="dateOfBirth"/>
+            <md:RequestedAttribute Name="mobilePhone"/>
+            <md:RequestedAttribute Name="email"/>
+            <md:RequestedAttribute Name="address"/>
+            <md:RequestedAttribute Name="expirationDate"/>
+            <md:RequestedAttribute Name="digitalAddress"/></md:AttributeConsumingService></md:SPSSODescriptor><md:Organization>
+    <md:OrganizationName xml:lang="it">Azienda Sanitaria Provinciale di Siracusa</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Azienda Sanitaria Provinciale di Siracusa</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://login.asp.sr.it</md:OrganizationURL>
+</md:Organization><md:ContactPerson contactType="other"><md:Extensions><spid:IPACode>a_sr</spid:IPACode><spid:Public/><spid:FiscalCode>01661590891</spid:FiscalCode></md:Extensions><md:EmailAddress>protocollo@pec.asp.sr.it</md:EmailAddress><md:TelephoneNumber>+390931724111</md:TelephoneNumber></md:ContactPerson></md:EntityDescriptor>

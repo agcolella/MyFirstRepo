@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" ID="_b20d0372297de62da92627790da4620c7f19ac58bae489c7153164bdef966028" entityID="https://www.comune.alessandriadellarocca.ag.it"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#_b20d0372297de62da92627790da4620c7f19ac58bae489c7153164bdef966028">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>fRiHDsq2wzIz+yuzeMdPRZnXn3nGgq5qVp42tt1klq8=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+G74N5Drr1wGaqH6sWknh3PgtR7m45Pp+Dshtedo8pwpMxDKjRhpnpufc15VA2jw64Ntu/HqmRuQ7
+KPYkLtSc9LcmDqJFlEWZPe47WhStabRZRcTaUzmKbe+tK7B3cyFn5ChmIV3mUmyzBECtAQdjycxB
+NzU7kToh/Dda07kZ4rOaEEaTRzLe+/htYV0wZ07IP64oGanOIjxtDEGT9o22kWQkL5I7sOsIr36q
+Ep5sE/HaugcGlyTOF7mJW7igHWzFVv+6iI9M2igYGoOV1DXMgHm7YB19pnEbWvvJXO/jlJ8J5vW0
+O/hKrslZ1GDYuHUPbNt1gx5MS5XzSWjZVx93cg==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+3dOcscOlYZhk8Aos8iDpSgXHaaZuFDw9LhRhdAQa8OLVCvW4BIIO+aNvDEur/9sZqLAMJ9hyITW8
+CQUWRZRo7AxP2aR0hmIpZGjwqulm5+9Ic6HtbHtGMM40PbkcorXUMgRMCsW27YDmzmPHf5rEzQB8
+950/a1ICJSPy0HgAyqsb5y6+WjjAjH9y/c7YvUEixBH7k95kwbooAUBNl9QNcNJMQMRLtHUfXMBg
+quW+W6DkeYGXxTiXhar0jwcPUGQQD8b7k4qUc5/w2/r4QPuCGgWR8ylhLp79RlG6eRpA9owBzXUc
+rw1n+Ga/PdKVSBy+MFnGyIUvhoiIMOn/P3S3xQ==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIEDTCCAvWgAwIBAgIJAIPwRuw6N9XmMA0GCSqGSIb3DQEBCwUAMIGcMQswCQYDVQQGEwJJVDEO
+MAwGA1UECAwFSXRhbHkxIDAeBgNVBAcMF0FsZXNzYW5kcmlhIGRlbGxhIFJvY2NhMSowKAYDVQQK
+DCFDb211bmUgZGkgQWxlc3NhbmRyaWEgZGVsbGEgUm9jY2ExLzAtBgNVBAMMJnd3dy5jb211bmUu
+YWxlc3NhbmRyaWFkZWxsYXJvY2NhLmFnLml0MB4XDTI0MDIwOTA4NTIwMFoXDTM0MDIwODA4NTIw
+MFowgZwxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEgMB4GA1UEBwwXQWxlc3NhbmRyaWEg
+ZGVsbGEgUm9jY2ExKjAoBgNVBAoMIUNvbXVuZSBkaSBBbGVzc2FuZHJpYSBkZWxsYSBSb2NjYTEv
+MC0GA1UEAwwmd3d3LmNvbXVuZS5hbGVzc2FuZHJpYWRlbGxhcm9jY2EuYWcuaXQwggEiMA0GCSqG
+SIb3DQEBAQUAA4IBDwAwggEKAoIBAQDd05yxw6VhmGTwCizyIOlKBcdppm4UPD0uFGF0BBrw4tUK
+9bgEgg75o28MS6v/2xmosAwn2HIhNbwJBRZFlGjsDE/ZpHSGYilkaPCq6Wbn70hzoe1se0YwzjQ9
+uRyitdQyBEwKxbbtgObOY8d/msTNAHz3nT9rUgIlI/LQeADKqxvnLr5aOMCMf3L9zti9QSLEEfuT
+3mTBuigBQE2X1A1w0kxAxEu0dR9cwGCq5b5boOR5gZfFOJeFqvSPBw9QZBAPxvuTipRzn/Db+vhA
++4IaBZHzKWEunv1GUbp5GkD2jAHNdRyvDWf4Zr890pVIHL4wWcbIhS+GiIgw6f8/dLfFAgMBAAGj
+UDBOMB0GA1UdDgQWBBRDpOO+t5nONF85PfNmEbIyJF0/DzAfBgNVHSMEGDAWgBRDpOO+t5nONF85
+PfNmEbIyJF0/DzAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQCOLFT1O7FbXmPjW8AD
+m27r96AZ8iIFEhw0nent9D61zlGJkGbsq8OYNhBl98J6nN5qpEqaqiBz4LAQnhW2ic5kAFiQ8PE2
+A0KjSLovTtazLJqgKOj9w3Yh93a6e7VvV+xf6UmKVcixzgMok4seKa/KoM+SoxKtu/V3qlBd3UkD
+GnJDxZim7VKLlZ5kppRziRApYX3yW98+ZRr883gMHe8MGIeMWez4TcgawQcWdPvgHFgIiBJZXiL4
+SqYgLRdwisZEIBk7QqneontQR0oQBC9nYJeNcYYyVGDoN0scm5eyemK4ehl67MyKRIJ5LmI1YlKQ
+Gxad7tRrdCawDpfo2/bh
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIIEDTCCAvWgAwIBAgIJAIPwRuw6N9XmMA0GCSqGSIb3DQEBCwUAMIGcMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxIDAeBgNVBAcMF0FsZXNzYW5kcmlhIGRlbGxhIFJvY2NhMSowKAYDVQQKDCFDb211bmUgZGkgQWxlc3NhbmRyaWEgZGVsbGEgUm9jY2ExLzAtBgNVBAMMJnd3dy5jb211bmUuYWxlc3NhbmRyaWFkZWxsYXJvY2NhLmFnLml0MB4XDTI0MDIwOTA4NTIwMFoXDTM0MDIwODA4NTIwMFowgZwxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEgMB4GA1UEBwwXQWxlc3NhbmRyaWEgZGVsbGEgUm9jY2ExKjAoBgNVBAoMIUNvbXVuZSBkaSBBbGVzc2FuZHJpYSBkZWxsYSBSb2NjYTEvMC0GA1UEAwwmd3d3LmNvbXVuZS5hbGVzc2FuZHJpYWRlbGxhcm9jY2EuYWcuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDd05yxw6VhmGTwCizyIOlKBcdppm4UPD0uFGF0BBrw4tUK9bgEgg75o28MS6v/2xmosAwn2HIhNbwJBRZFlGjsDE/ZpHSGYilkaPCq6Wbn70hzoe1se0YwzjQ9uRyitdQyBEwKxbbtgObOY8d/msTNAHz3nT9rUgIlI/LQeADKqxvnLr5aOMCMf3L9zti9QSLEEfuT3mTBuigBQE2X1A1w0kxAxEu0dR9cwGCq5b5boOR5gZfFOJeFqvSPBw9QZBAPxvuTipRzn/Db+vhA+4IaBZHzKWEunv1GUbp5GkD2jAHNdRyvDWf4Zr890pVIHL4wWcbIhS+GiIgw6f8/dLfFAgMBAAGjUDBOMB0GA1UdDgQWBBRDpOO+t5nONF85PfNmEbIyJF0/DzAfBgNVHSMEGDAWgBRDpOO+t5nONF85PfNmEbIyJF0/DzAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQCOLFT1O7FbXmPjW8ADm27r96AZ8iIFEhw0nent9D61zlGJkGbsq8OYNhBl98J6nN5qpEqaqiBz4LAQnhW2ic5kAFiQ8PE2A0KjSLovTtazLJqgKOj9w3Yh93a6e7VvV+xf6UmKVcixzgMok4seKa/KoM+SoxKtu/V3qlBd3UkDGnJDxZim7VKLlZ5kppRziRApYX3yW98+ZRr883gMHe8MGIeMWez4TcgawQcWdPvgHFgIiBJZXiL4SqYgLRdwisZEIBk7QqneontQR0oQBC9nYJeNcYYyVGDoN0scm5eyemK4ehl67MyKRIJ5LmI1YlKQGxad7tRrdCawDpfo2/bh</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIIEDTCCAvWgAwIBAgIJAIPwRuw6N9XmMA0GCSqGSIb3DQEBCwUAMIGcMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxIDAeBgNVBAcMF0FsZXNzYW5kcmlhIGRlbGxhIFJvY2NhMSowKAYDVQQKDCFDb211bmUgZGkgQWxlc3NhbmRyaWEgZGVsbGEgUm9jY2ExLzAtBgNVBAMMJnd3dy5jb211bmUuYWxlc3NhbmRyaWFkZWxsYXJvY2NhLmFnLml0MB4XDTI0MDIwOTA4NTIwMFoXDTM0MDIwODA4NTIwMFowgZwxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEgMB4GA1UEBwwXQWxlc3NhbmRyaWEgZGVsbGEgUm9jY2ExKjAoBgNVBAoMIUNvbXVuZSBkaSBBbGVzc2FuZHJpYSBkZWxsYSBSb2NjYTEvMC0GA1UEAwwmd3d3LmNvbXVuZS5hbGVzc2FuZHJpYWRlbGxhcm9jY2EuYWcuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDd05yxw6VhmGTwCizyIOlKBcdppm4UPD0uFGF0BBrw4tUK9bgEgg75o28MS6v/2xmosAwn2HIhNbwJBRZFlGjsDE/ZpHSGYilkaPCq6Wbn70hzoe1se0YwzjQ9uRyitdQyBEwKxbbtgObOY8d/msTNAHz3nT9rUgIlI/LQeADKqxvnLr5aOMCMf3L9zti9QSLEEfuT3mTBuigBQE2X1A1w0kxAxEu0dR9cwGCq5b5boOR5gZfFOJeFqvSPBw9QZBAPxvuTipRzn/Db+vhA+4IaBZHzKWEunv1GUbp5GkD2jAHNdRyvDWf4Zr890pVIHL4wWcbIhS+GiIgw6f8/dLfFAgMBAAGjUDBOMB0GA1UdDgQWBBRDpOO+t5nONF85PfNmEbIyJF0/DzAfBgNVHSMEGDAWgBRDpOO+t5nONF85PfNmEbIyJF0/DzAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQCOLFT1O7FbXmPjW8ADm27r96AZ8iIFEhw0nent9D61zlGJkGbsq8OYNhBl98J6nN5qpEqaqiBz4LAQnhW2ic5kAFiQ8PE2A0KjSLovTtazLJqgKOj9w3Yh93a6e7VvV+xf6UmKVcixzgMok4seKa/KoM+SoxKtu/V3qlBd3UkDGnJDxZim7VKLlZ5kppRziRApYX3yW98+ZRr883gMHe8MGIeMWez4TcgawQcWdPvgHFgIiBJZXiL4SqYgLRdwisZEIBk7QqneontQR0oQBC9nYJeNcYYyVGDoN0scm5eyemK4ehl67MyKRIJ5LmI1YlKQGxad7tRrdCawDpfo2/bh</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://www.comune.alessandriadellarocca.ag.it/spid/module.php/saml/sp/saml2-logout.php/spid"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.comune.alessandriadellarocca.ag.it/spid/module.php/saml/sp/saml2-acs.php/spid" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://www.comune.alessandriadellarocca.ag.it/spid/module.php/saml/sp/saml2-acs.php/spid" index="1"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">Servizi online</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Servizi online</md:ServiceDescription>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Codice identificativo SPID" Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Ragione o denominazione sociale" Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Alessandria della Rocca</md:OrganizationName>
+    <md:OrganizationName xml:lang="en">Comune di Alessandria della Rocca</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Alessandria della Rocca</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Alessandria della Rocca</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.comune.alessandriadellarocca.ag.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="en">https://www.comune.alessandriadellarocca.ag.it</md:OrganizationURL>
+  </md:Organization>
+  <md:ContactPerson contactType="other">
+    <md:Extensions>
+      <spid:IPACode>c_a181</spid:IPACode>
+      <spid:Public/>
+    </md:Extensions>
+    <md:Company>Comune di Alessandria della Rocca</md:Company>
+    <md:EmailAddress>comune.adr@libero.it</md:EmailAddress>
+  </md:ContactPerson>
+</md:EntityDescriptor>
