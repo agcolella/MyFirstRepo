@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" ID="_5e7558101cb1e967261a5d2e47bb077e94244fa4822e88ce8549db115b07cf50" entityID="https://www.comune.collesannita.bn.it"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#_5e7558101cb1e967261a5d2e47bb077e94244fa4822e88ce8549db115b07cf50">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>biJ1BgW5rDZ4s8UGzgfjKIsTDxjlsSpbD9T/sE5XPlU=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+weKRzZ3nyGtqGy4gmhZ+EErBQgJdZeEbkQ/2alTQcW00dyddBvTn563tSGZlzvvvJVADc2KnObin
+9igghSEukfCWHR9FR4CE1Hcef3KOk9GWLwcXVWQzkBv0qblpJM3hKCvjAbKBciETgdPqMAOhGK3s
+8t03MUjxw9QsjPKE9jRZkNkOAileDEF+3SpoKE9o7mceimpjcpgqjgTCpJjcINbX9lfIHdphPWUI
+cfduBQZli/L1ag5wLgOTbmf/KI5Gu+WR7jIP1kp6ohON1LvInEnUbhJzI5BKSHKFuNf3asyIb7Oe
+E2zcyZwog/3qao8sDtnXxVXo4WxC5Mc5z4zlWQ==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+zF7C8TFu0fd6fkT16O+fGLuJq68e56Zg2hnD87LEjaW4uy6mSf1huRMGQ+3S86iKk/2axYRWkrR/
++zqX5imFRMfI7dBZbJDkiyGwHxWGOkEMNwZsnhl6D0MTMkE8hSUkOiQkeJuAixHxKfS/FgewkyGP
+Hlt+atQTjrEg2mHM0zOtEocS8RfnEKnPrt2qJew88jwSktG0Q+OQg13i6Wf402fIpXP01zNjv6qF
+JLbhNPJgaZLSRFAexw95CxRy+NdbPo8Cpb8Ar6qleNc8z7fqMN50bQvVBsC+7jRsR0Hsg9mYn4A5
+k2ilUGdNe4muwH/iYDBY7xt5q0puUGYrVS1iVQ==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIID0TCCArmgAwIBAgIJAO4pCDuog5DQMA0GCSqGSIb3DQEBCwUAMH8xCzAJBgNVBAYTAklUMQ4w
+DAYDVQQIDAVJdGFseTEWMBQGA1UEBwwNQ29sbGUgU2Fubml0YTEgMB4GA1UECgwXQ29tdW5lIGRp
+IENvbGxlIFNhbm5pdGExJjAkBgNVBAMMHXd3dy5jb211bmUuY29sbGVzYW5uaXRhLmJuLml0MB4X
+DTI0MDUyMjA4MjAzMFoXDTM0MDUyMjA4MjAzMFowfzELMAkGA1UEBhMCSVQxDjAMBgNVBAgMBUl0
+YWx5MRYwFAYDVQQHDA1Db2xsZSBTYW5uaXRhMSAwHgYDVQQKDBdDb211bmUgZGkgQ29sbGUgU2Fu
+bml0YTEmMCQGA1UEAwwdd3d3LmNvbXVuZS5jb2xsZXNhbm5pdGEuYm4uaXQwggEiMA0GCSqGSIb3
+DQEBAQUAA4IBDwAwggEKAoIBAQDMXsLxMW7R93p+RPXo758Yu4mrrx7npmDaGcPzssSNpbi7LqZJ
+/WG5EwZD7dLzqIqT/ZrFhFaStH/7OpfmKYVEx8jt0FlskOSLIbAfFYY6QQw3BmyeGXoPQxMyQTyF
+JSQ6JCR4m4CLEfEp9L8WB7CTIY8eW35q1BOOsSDaYczTM60ShxLxF+cQqc+u3aol7DzyPBKS0bRD
+45CDXeLpZ/jTZ8ilc/TXM2O/qoUktuE08mBpktJEUB7HD3kLFHL411s+jwKlvwCvqqV41zzPt+ow
+3nRtC9UGwL7uNGxHQeyD2ZifgDmTaKVQZ017ia7Af+JgMFjvG3mrSm5QZitVLWJVAgMBAAGjUDBO
+MB0GA1UdDgQWBBS4y2XmwzyCW9vU5+Bn6kZ/fqSwUTAfBgNVHSMEGDAWgBS4y2XmwzyCW9vU5+Bn
+6kZ/fqSwUTAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQCP72N3riEdTkFjCMbn5jHj
+O4iqZDy4odbS+u5cJvdne0leLDEGNY3kBu5zjwQiXqQvm5sxwzyt9K0LaSOcsJprmUcgODIWsYIb
+ObNVKyMyi9M9E5x+F0IyHZsEtwWUCFA8ilUa4kt94OKcJf4cYSd90l/aFh6aSgvu8QfcEfNedK7V
+5uKaiowp3Qjl72r3oQUZ1gcjNVNlnSsPyBrdJoJ3/o2dO74iMAPucV9Wt4y0crTVDa0HZ08S3+6O
+jZN1SS6LPLfUfQggIQ5v5lZIQQT4364npXh8AuiL70BNpEATzb30APqOrIvMkN3qqcwWYkxDAkBh
+OPoX5LlT/jiicek/
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIID0TCCArmgAwIBAgIJAO4pCDuog5DQMA0GCSqGSIb3DQEBCwUAMH8xCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEWMBQGA1UEBwwNQ29sbGUgU2Fubml0YTEgMB4GA1UECgwXQ29tdW5lIGRpIENvbGxlIFNhbm5pdGExJjAkBgNVBAMMHXd3dy5jb211bmUuY29sbGVzYW5uaXRhLmJuLml0MB4XDTI0MDUyMjA4MjAzMFoXDTM0MDUyMjA4MjAzMFowfzELMAkGA1UEBhMCSVQxDjAMBgNVBAgMBUl0YWx5MRYwFAYDVQQHDA1Db2xsZSBTYW5uaXRhMSAwHgYDVQQKDBdDb211bmUgZGkgQ29sbGUgU2Fubml0YTEmMCQGA1UEAwwdd3d3LmNvbXVuZS5jb2xsZXNhbm5pdGEuYm4uaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDMXsLxMW7R93p+RPXo758Yu4mrrx7npmDaGcPzssSNpbi7LqZJ/WG5EwZD7dLzqIqT/ZrFhFaStH/7OpfmKYVEx8jt0FlskOSLIbAfFYY6QQw3BmyeGXoPQxMyQTyFJSQ6JCR4m4CLEfEp9L8WB7CTIY8eW35q1BOOsSDaYczTM60ShxLxF+cQqc+u3aol7DzyPBKS0bRD45CDXeLpZ/jTZ8ilc/TXM2O/qoUktuE08mBpktJEUB7HD3kLFHL411s+jwKlvwCvqqV41zzPt+ow3nRtC9UGwL7uNGxHQeyD2ZifgDmTaKVQZ017ia7Af+JgMFjvG3mrSm5QZitVLWJVAgMBAAGjUDBOMB0GA1UdDgQWBBS4y2XmwzyCW9vU5+Bn6kZ/fqSwUTAfBgNVHSMEGDAWgBS4y2XmwzyCW9vU5+Bn6kZ/fqSwUTAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQCP72N3riEdTkFjCMbn5jHjO4iqZDy4odbS+u5cJvdne0leLDEGNY3kBu5zjwQiXqQvm5sxwzyt9K0LaSOcsJprmUcgODIWsYIbObNVKyMyi9M9E5x+F0IyHZsEtwWUCFA8ilUa4kt94OKcJf4cYSd90l/aFh6aSgvu8QfcEfNedK7V5uKaiowp3Qjl72r3oQUZ1gcjNVNlnSsPyBrdJoJ3/o2dO74iMAPucV9Wt4y0crTVDa0HZ08S3+6OjZN1SS6LPLfUfQggIQ5v5lZIQQT4364npXh8AuiL70BNpEATzb30APqOrIvMkN3qqcwWYkxDAkBhOPoX5LlT/jiicek/</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIID0TCCArmgAwIBAgIJAO4pCDuog5DQMA0GCSqGSIb3DQEBCwUAMH8xCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEWMBQGA1UEBwwNQ29sbGUgU2Fubml0YTEgMB4GA1UECgwXQ29tdW5lIGRpIENvbGxlIFNhbm5pdGExJjAkBgNVBAMMHXd3dy5jb211bmUuY29sbGVzYW5uaXRhLmJuLml0MB4XDTI0MDUyMjA4MjAzMFoXDTM0MDUyMjA4MjAzMFowfzELMAkGA1UEBhMCSVQxDjAMBgNVBAgMBUl0YWx5MRYwFAYDVQQHDA1Db2xsZSBTYW5uaXRhMSAwHgYDVQQKDBdDb211bmUgZGkgQ29sbGUgU2Fubml0YTEmMCQGA1UEAwwdd3d3LmNvbXVuZS5jb2xsZXNhbm5pdGEuYm4uaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDMXsLxMW7R93p+RPXo758Yu4mrrx7npmDaGcPzssSNpbi7LqZJ/WG5EwZD7dLzqIqT/ZrFhFaStH/7OpfmKYVEx8jt0FlskOSLIbAfFYY6QQw3BmyeGXoPQxMyQTyFJSQ6JCR4m4CLEfEp9L8WB7CTIY8eW35q1BOOsSDaYczTM60ShxLxF+cQqc+u3aol7DzyPBKS0bRD45CDXeLpZ/jTZ8ilc/TXM2O/qoUktuE08mBpktJEUB7HD3kLFHL411s+jwKlvwCvqqV41zzPt+ow3nRtC9UGwL7uNGxHQeyD2ZifgDmTaKVQZ017ia7Af+JgMFjvG3mrSm5QZitVLWJVAgMBAAGjUDBOMB0GA1UdDgQWBBS4y2XmwzyCW9vU5+Bn6kZ/fqSwUTAfBgNVHSMEGDAWgBS4y2XmwzyCW9vU5+Bn6kZ/fqSwUTAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQCP72N3riEdTkFjCMbn5jHjO4iqZDy4odbS+u5cJvdne0leLDEGNY3kBu5zjwQiXqQvm5sxwzyt9K0LaSOcsJprmUcgODIWsYIbObNVKyMyi9M9E5x+F0IyHZsEtwWUCFA8ilUa4kt94OKcJf4cYSd90l/aFh6aSgvu8QfcEfNedK7V5uKaiowp3Qjl72r3oQUZ1gcjNVNlnSsPyBrdJoJ3/o2dO74iMAPucV9Wt4y0crTVDa0HZ08S3+6OjZN1SS6LPLfUfQggIQ5v5lZIQQT4364npXh8AuiL70BNpEATzb30APqOrIvMkN3qqcwWYkxDAkBhOPoX5LlT/jiicek/</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://www.comune.collesannita.bn.it/spid/module.php/saml/sp/saml2-logout.php/spid"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.comune.collesannita.bn.it/spid/module.php/saml/sp/saml2-acs.php/spid" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://www.comune.collesannita.bn.it/spid/module.php/saml/sp/saml2-acs.php/spid" index="1"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">Servizi online</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Servizi online</md:ServiceDescription>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Codice identificativo SPID" Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Ragione o denominazione sociale" Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Colle Sannita</md:OrganizationName>
+    <md:OrganizationName xml:lang="en">Comune di Colle Sannita</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Colle Sannita</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Colle Sannita</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.comune.collesannita.bn.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="en">https://www.comune.collesannita.bn.it</md:OrganizationURL>
+  </md:Organization>
+  <md:ContactPerson contactType="other">
+    <md:Extensions>
+      <spid:IPACode>c_c846</spid:IPACode>
+      <spid:Public/>
+    </md:Extensions>
+    <md:Company>Comune di Colle Sannita</md:Company>
+    <md:EmailAddress>protocollo@comune.collesannita.bn.it</md:EmailAddress>
+  </md:ContactPerson>
+</md:EntityDescriptor>
