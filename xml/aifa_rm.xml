@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<md:EntityDescriptor xmlns="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:spid="https://spid.gov.it/saml-extensions" entityID="https://servizionline.aifa.gov.it/" ID="sd50e6f01e1e03457bfdvfp232276711cc93764gg">
+                <ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+                <ds:SignedInfo>
+                        <ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+                        <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+                        <ds:Reference URI="#sd50e6f01e1e03457bfdvfp232276711cc93764gg">
+                                <ds:Transforms>
+                                        <ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+                                        <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+                                </ds:Transforms>
+                                <ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+                                <ds:DigestValue>f/zFRnL3fimtFdYqWYQlcW5MNLKmwrNoeHmxShk+190=</ds:DigestValue>
+                        </ds:Reference>
+                </ds:SignedInfo>
+                <ds:SignatureValue>GASKQf/gkIMfM6SA9CtHuMCiAXdBYQ68eZByLNtFDtRjrgyGdj8soOy+GejbPiHP
+4geSPmHDEsZhFftU9LI1131pHezjawHZhMeXEseekSCn9o3ya6pjQ4CaiNI3pPdn
+iw+IP1wDO+z6gTCeXprbeRVgESvgk4c4JOvxDA0riduHw4MnUWzg5Jtft36liDKg
+dCkG3071jiR5K0h9OiUjdwfcfvEJ4tVOU52uzUrawKX4z0f/Ubj80XUNql3dUM3b
+eOECqHy32F2wbKQwddCahe+a9ezqIXIbBuVROZSrtra3L7/HabvaGVR8kq7A8HTE
+okZGU+uVBUOwVqP8hg/oZQ==</ds:SignatureValue>
+                <ds:KeyInfo>
+                        <ds:X509Data>
+                          <ds:X509Certificate>MIIHyjCCBbKgAwIBAgIQJMA5HGo+RvM98qlpXl4znzANBgkqhkiG9w0BAQsFADCB
+iTELMAkGA1UEBhMCSVQxEDAOBgNVBAgMB0JlcmdhbW8xGTAXBgNVBAcMEFBvbnRl
+IFNhbiBQaWV0cm8xFzAVBgNVBAoMDkFjdGFsaXMgUy5wLkEuMTQwMgYDVQQDDCtB
+Y3RhbGlzIE9yZ2FuaXphdGlvbiBWYWxpZGF0ZWQgU2VydmVyIENBIEczMB4XDTI0
+MDUwODE1MTIzMVoXDTI1MDUwODE1MTIzMVowajELMAkGA1UEBhMCSVQxDTALBgNV
+BAgMBFJvbWExDTALBgNVBAcMBFJvbWExJTAjBgNVBAoMHEFnZW56aWEgSXRhbGlh
+bmEgZGVsIEZhcm1hY28xFjAUBgNVBAMMDSouYWlmYS5nb3YuaXQwggEiMA0GCSqG
+SIb3DQEBAQUAA4IBDwAwggEKAoIBAQCIbY84ITNu4lNVYYrsmq7mPM5SdKb3Yfoq
+rNZ2jOXjzx/E7qVn03nMh16RwliemYdOcVEvQn9n60ueQrOeZ0fLrCJVCEPkWA2W
+ULCEnQeLLfgsj7vygrNpBoVU4BIXnvCimky+O3cYE85pQHcafObYr+rCBQyAeZr/
+yJCsYg4FmlrIGEnr6XRbCqg5cadw9M019viYppkL1de0GwJEz/XrNt2xlHYDSkCb
+BftTuNj7tw4iYo6Inn4Blx5W8vTILXZ28JG4FlWL/HayQ7TPWcIQh5UmFCWjxBBH
+gkbkHq3SNjUty1vxtQ+6cpFPyhEhKjEnSHp3pEw1ICbMUufyY673AgMBAAGjggNK
+MIIDRjAMBgNVHRMBAf8EAjAAMB8GA1UdIwQYMBaAFJ+KsbXxsd6C9Cd8vojN3qlD
+gaNLMH4GCCsGAQUFBwEBBHIwcDA7BggrBgEFBQcwAoYvaHR0cDovL2NhY2VydC5h
+Y3RhbGlzLml0L2NlcnRzL2FjdGFsaXMtYXV0aG92ZzMwMQYIKwYBBQUHMAGGJWh0
+dHA6Ly9vY3NwMDkuYWN0YWxpcy5pdC9WQS9BVVRIT1YtRzMwJQYDVR0RBB4wHIIL
+YWlmYS5nb3YuaXSCDSouYWlmYS5nb3YuaXQwUQYDVR0gBEowSDA8BgYrgR8BEwEw
+MjAwBggrBgEFBQcCARYkaHR0cHM6Ly93d3cuYWN0YWxpcy5pdC9hcmVhLWRvd25s
+b2FkMAgGBmeBDAECAjAdBgNVHSUEFjAUBggrBgEFBQcDAgYIKwYBBQUHAwEwSAYD
+VR0fBEEwPzA9oDugOYY3aHR0cDovL2NybDA5LmFjdGFsaXMuaXQvUmVwb3NpdG9y
+eS9BVVRIT1YtRzMvZ2V0TGFzdENSTDAdBgNVHQ4EFgQUkNPpPy8Pi3VnSpJe2XRR
+3o6/xOIwDgYDVR0PAQH/BAQDAgWgMIIBgQYKKwYBBAHWeQIEAgSCAXEEggFtAWsA
+dwDPEVbu1S58r/OHW9lpLpvpGnFnSrAX7KwB0lt3zsw7CAAAAY9YzJGJAAAEAwBI
+MEYCIQDwZEG8HizouP5jGrhEZjb61DlAOjAVYtUi9yUTUuYHVQIhAKzakXGDkTdB
+m956hJj2tszg9emRGdhKvMy19T9NefnoAHcAzPsPaoVxCWX+lZtTzumyfCLphVwN
+l422qX5UwP5MDbAAAAGPWMySHgAABAMASDBGAiEA3AHTm4VgQrKT2WkSC7R3Fykg
+MeLHVaF4CtXQ8flzocYCIQCzRrKVsFEb+bDrJRG1mjxM08sQzA3c0Y3YuuK+n2Gw
+bAB3AE51oydcmhDDOFts1N8/Uusd8OCOG41pwLH6ZLFimjnfAAABj1jMkcIAAAQD
+AEgwRgIhANnZor8p6djfTRBS5ju+n01lQfW3Y641RxaiCsSVKlRyAiEAkajA0psG
+GpPhpypvYID6m8k9abPJ8ztrw+pFEIGkTRgwDQYJKoZIhvcNAQELBQADggIBADdM
+F5kuZ71+Tv7yczPlsuBLJNCYmUPIlWbXTinYqh9ioNNAKVFVB4c9HX3NkATFdLgn
+UjrrBgKd3xrCBZQgpa0fU4/14BzP8YO/yEtItf4LnHCt1lplj3o+1ex0cO2O2wzo
+EIMRA9N3L2LbBOEScQ6yKu9Vv5z55owF8k6IV/Z7e7bIp2JSBmMoTAkvBo4pE5Bf
+Cpi1L5PaFx0o3jpAbNF+I78Zd+zVluRLrosSe1B8xbkluVCrn+LWbW/SwCf8gWqr
+Vzd27KJrXkvOWDL6e2b9iQiQ5mY0u/O+QnUa0Gl+IiyDAqdR4uyYNs92q6b97p+x
+g2Izak5uTnIec2OHVOTcp0U2Tlga1fUlBzEmg2FHl7LJ3IbxtmMkeAKKxIRJQPZi
+TYKqDNi3hOaJUMi0ktyauFRK8y+IbKMil+d+rzfL4YduCUAn7zlJKGbu2ww1/7Bt
+sHiyxO5W6NrIB5k7/P/GaMNxgUiSJZ3c/xKbhkz4j0FkbQUGZ6LXOZ04Si/YG3co
+2mObNUDzxr0+MH4031N1OxwZnaRCpH5iwy2Mqox0zzRkg4IyM2dp+CEYc2U/DcSD
+ak/dNLaMLwIBQdOT6PAW6OgZqRgFOP7SmtBHbIOv4KV1asMkYkWp1V5pMBrNLRqi
+GjsddQ04qhy7Vc6wO4CVYcUO8m5nFwcYVb1HiGvZ</ds:X509Certificate>
+                        </ds:X509Data>
+                </ds:KeyInfo>
+        </ds:Signature>
+    <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+        <md:KeyDescriptor use="signing">
+            <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+                <ds:X509Data>
+                    <ds:X509Certificate>MIIHyjCCBbKgAwIBAgIQJMA5HGo+RvM98qlpXl4znzANBgkqhkiG9w0BAQsFADCB
+iTELMAkGA1UEBhMCSVQxEDAOBgNVBAgMB0JlcmdhbW8xGTAXBgNVBAcMEFBvbnRl
+IFNhbiBQaWV0cm8xFzAVBgNVBAoMDkFjdGFsaXMgUy5wLkEuMTQwMgYDVQQDDCtB
+Y3RhbGlzIE9yZ2FuaXphdGlvbiBWYWxpZGF0ZWQgU2VydmVyIENBIEczMB4XDTI0
+MDUwODE1MTIzMVoXDTI1MDUwODE1MTIzMVowajELMAkGA1UEBhMCSVQxDTALBgNV
+BAgMBFJvbWExDTALBgNVBAcMBFJvbWExJTAjBgNVBAoMHEFnZW56aWEgSXRhbGlh
+bmEgZGVsIEZhcm1hY28xFjAUBgNVBAMMDSouYWlmYS5nb3YuaXQwggEiMA0GCSqG
+SIb3DQEBAQUAA4IBDwAwggEKAoIBAQCIbY84ITNu4lNVYYrsmq7mPM5SdKb3Yfoq
+rNZ2jOXjzx/E7qVn03nMh16RwliemYdOcVEvQn9n60ueQrOeZ0fLrCJVCEPkWA2W
+ULCEnQeLLfgsj7vygrNpBoVU4BIXnvCimky+O3cYE85pQHcafObYr+rCBQyAeZr/
+yJCsYg4FmlrIGEnr6XRbCqg5cadw9M019viYppkL1de0GwJEz/XrNt2xlHYDSkCb
+BftTuNj7tw4iYo6Inn4Blx5W8vTILXZ28JG4FlWL/HayQ7TPWcIQh5UmFCWjxBBH
+gkbkHq3SNjUty1vxtQ+6cpFPyhEhKjEnSHp3pEw1ICbMUufyY673AgMBAAGjggNK
+MIIDRjAMBgNVHRMBAf8EAjAAMB8GA1UdIwQYMBaAFJ+KsbXxsd6C9Cd8vojN3qlD
+gaNLMH4GCCsGAQUFBwEBBHIwcDA7BggrBgEFBQcwAoYvaHR0cDovL2NhY2VydC5h
+Y3RhbGlzLml0L2NlcnRzL2FjdGFsaXMtYXV0aG92ZzMwMQYIKwYBBQUHMAGGJWh0
+dHA6Ly9vY3NwMDkuYWN0YWxpcy5pdC9WQS9BVVRIT1YtRzMwJQYDVR0RBB4wHIIL
+YWlmYS5nb3YuaXSCDSouYWlmYS5nb3YuaXQwUQYDVR0gBEowSDA8BgYrgR8BEwEw
+MjAwBggrBgEFBQcCARYkaHR0cHM6Ly93d3cuYWN0YWxpcy5pdC9hcmVhLWRvd25s
+b2FkMAgGBmeBDAECAjAdBgNVHSUEFjAUBggrBgEFBQcDAgYIKwYBBQUHAwEwSAYD
+VR0fBEEwPzA9oDugOYY3aHR0cDovL2NybDA5LmFjdGFsaXMuaXQvUmVwb3NpdG9y
+eS9BVVRIT1YtRzMvZ2V0TGFzdENSTDAdBgNVHQ4EFgQUkNPpPy8Pi3VnSpJe2XRR
+3o6/xOIwDgYDVR0PAQH/BAQDAgWgMIIBgQYKKwYBBAHWeQIEAgSCAXEEggFtAWsA
+dwDPEVbu1S58r/OHW9lpLpvpGnFnSrAX7KwB0lt3zsw7CAAAAY9YzJGJAAAEAwBI
+MEYCIQDwZEG8HizouP5jGrhEZjb61DlAOjAVYtUi9yUTUuYHVQIhAKzakXGDkTdB
+m956hJj2tszg9emRGdhKvMy19T9NefnoAHcAzPsPaoVxCWX+lZtTzumyfCLphVwN
+l422qX5UwP5MDbAAAAGPWMySHgAABAMASDBGAiEA3AHTm4VgQrKT2WkSC7R3Fykg
+MeLHVaF4CtXQ8flzocYCIQCzRrKVsFEb+bDrJRG1mjxM08sQzA3c0Y3YuuK+n2Gw
+bAB3AE51oydcmhDDOFts1N8/Uusd8OCOG41pwLH6ZLFimjnfAAABj1jMkcIAAAQD
+AEgwRgIhANnZor8p6djfTRBS5ju+n01lQfW3Y641RxaiCsSVKlRyAiEAkajA0psG
+GpPhpypvYID6m8k9abPJ8ztrw+pFEIGkTRgwDQYJKoZIhvcNAQELBQADggIBADdM
+F5kuZ71+Tv7yczPlsuBLJNCYmUPIlWbXTinYqh9ioNNAKVFVB4c9HX3NkATFdLgn
+UjrrBgKd3xrCBZQgpa0fU4/14BzP8YO/yEtItf4LnHCt1lplj3o+1ex0cO2O2wzo
+EIMRA9N3L2LbBOEScQ6yKu9Vv5z55owF8k6IV/Z7e7bIp2JSBmMoTAkvBo4pE5Bf
+Cpi1L5PaFx0o3jpAbNF+I78Zd+zVluRLrosSe1B8xbkluVCrn+LWbW/SwCf8gWqr
+Vzd27KJrXkvOWDL6e2b9iQiQ5mY0u/O+QnUa0Gl+IiyDAqdR4uyYNs92q6b97p+x
+g2Izak5uTnIec2OHVOTcp0U2Tlga1fUlBzEmg2FHl7LJ3IbxtmMkeAKKxIRJQPZi
+TYKqDNi3hOaJUMi0ktyauFRK8y+IbKMil+d+rzfL4YduCUAn7zlJKGbu2ww1/7Bt
+sHiyxO5W6NrIB5k7/P/GaMNxgUiSJZ3c/xKbhkz4j0FkbQUGZ6LXOZ04Si/YG3co
+2mObNUDzxr0+MH4031N1OxwZnaRCpH5iwy2Mqox0zzRkg4IyM2dp+CEYc2U/DcSD
+ak/dNLaMLwIBQdOT6PAW6OgZqRgFOP7SmtBHbIOv4KV1asMkYkWp1V5pMBrNLRqi
+GjsddQ04qhy7Vc6wO4CVYcUO8m5nFwcYVb1HiGvZ</ds:X509Certificate>
+                </ds:X509Data>
+            </ds:KeyInfo>
+        </md:KeyDescriptor>
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://servizionline.aifa.gov.it/jam/SPSloPOST/metaAlias/spid" ResponseLocation="https://servizionline.aifa.gov.it/jam/SPSloPOST/metaAlias/spid"/>
+        <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+        <md:AssertionConsumerService index="0" isDefault="true" Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://servizionline.aifa.gov.it/jam/Consumer/metaAlias/spid"/>
+                <md:AttributeConsumingService index="0">
+            <md:ServiceName xml:lang="it">Portale AIFA</md:ServiceName>
+            <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="digitalAddress" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+                </md:AttributeConsumingService>
+    </md:SPSSODescriptor>
+        <md:Organization>
+                <md:OrganizationName xml:lang="it">Aifa</md:OrganizationName>
+                <md:OrganizationDisplayName xml:lang="it">AIFA</md:OrganizationDisplayName>
+                <md:OrganizationURL xml:lang="it">https://servizionline.aifa.gov.it</md:OrganizationURL>
+        </md:Organization>
+		   <md:ContactPerson contactType="other">
+              <md:Extensions>
+                  <spid:IPACode>aifa_rm</spid:IPACode>
+		     	  <spid:Public/>
+              </md:Extensions>
+                   <md:EmailAddress>settoreict@aifa.gov.it</md:EmailAddress>
+           </md:ContactPerson>	       
+</md:EntityDescriptor>

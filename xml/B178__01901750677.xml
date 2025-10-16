@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" ID="id-kHNTqphhJZcxdBzcM" entityID="https://www.actainfo.it/pub-ag-lite/brignano.xml"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#id-kHNTqphhJZcxdBzcM">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>TykgmsT+q4yFtUnHqIqcOxXXvrSI1p2nZ0hk8nzlPOs=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+SZOxwtkvRgrLj0i1SALFzXSmqY59++32NdHzMUTgyfLcyMJCR8ANpHhhLEaCPnUfYEGXfrQrPkCt
+YS7yZJyUreqbv9OZY9/7xfZ6gO9XfpXOLD6LKPHVZ1aIZ1K45EaE+V9CiPxPT91f/OHuhFDoxUDZ
+qgNSzzpaScrDK/VWTHEy0KluRGquVHqS7tYYIbUnBkXEnEjC/XlMS2AOO06aeVxe/lJ6ttVxyQad
+nR4WMJ0J39xmrvZRzZeAiklfLxshLjldFDnHLeSF64pgCYVPtEkxaZHm5X0AX2Cr/w5lEN74DiL9
+2FUnia+otweOUJqAVPUIqbwhNWGQkHWEmTqV6eRCFKIXAmhc4cQdaH804jTS0+had+J2ebBRLjGS
+50mkZyaKCnF9Wm4AwIOq573nQjboE/A8jjwQY+kBEmGT4oTZdR6Mnkjl5e+qR+dZxe6h56lUKhyA
+eY/W2wEcnujF6YytAIshPsOJHP6tAp3N2Uyvn0THK66Bkz9GeQvvJodM
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+mzNOEv2kuumtX9kqoAtpqoQKKr/47mxwPsUIBDt4X1cskH4p1uG2ydIAED/itUO16wZAEPik6L+4
+ANOcjlYTObYCip/rkkygTMyM6+Y0KaZHsTNTc8bqLEwbEKETKqBpYR0fUqZMjZ5ONFlwvXCRbgLH
+/t7J+/wZ+Fi1yavzYwoLxurPn6f9WpyurMedknQ5k2dxd967mF0SAVjLFtVxObRIWbKo0cnospyL
+j6Qf8dEI+bmSwXlbWEdesEdrQVEflQoIQUPvKMq7OfmMzW8m6EFRlwCprZUIWkB++uV+OixSARnM
+hF4rP3tE0/aOpNUw4SMQDuORom1csMIw4x2RV8VLVgLCf3VEKIASe5afTLk2UkbJau0LdhmpaqdC
+f/GydUMfWi5SoarQiX4oXlusY/4yT1hjVTcjgr++nH7bPIB0yCpJbEh5YOGu7w7LtqUQJ/N+dxse
+bmLK+L9E89+Q/sQ07YDJjstjxkCQvO4w5pzdRvMdgipPDWaNvEkhzxn7
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIEpjCCA46gAwIBAgICEC8wDQYJKoZIhvcNAQELBQAwgZkxFTATBgNVBAMMDEFjdGFpbmZvIFNy
+bDELMAkGA1UEBhMCSVQxHTAbBgNVBAcMFFJvc2V0byBkZWdsaSBBYnJ1enppMRowGAYDVQRhDBFW
+QVRJVC0wMTkwMTc1MDY3NzEVMBMGA1UECgwMQWN0YWluZm8gU3JsMSEwHwYDVQRTDBhodHRwczov
+L3d3dy5hY3RhaW5mby5pdC8wHhcNMjQwNTEwMTIwMDU3WhcNMjUwNTEwMTIwMDU3WjCB1TEmMCQG
+A1UEAwwdQ29tdW5lIGRpIEJyaWduYW5vIEdlcmEgZEFkZGExCzAJBgNVBAYTAklUMRswGQYDVQQH
+DBJCcmlnYW5vIEdlcmEgZEFkZGExFTATBgNVBGEMDFBBOklULWNfYjE3ODEmMCQGA1UECgwdQ29t
+dW5lIGRpIEJyaWduYW5vIEdlcmEgZEFkZGExQjBABgNVBFMMOWh0dHBzOi8vd3d3LmFjdGFpbmZv
+Lml0L3B1Yi1hZy1saXRlL2JyaWduYW5vZ2VyYWRhZGRhLnhtbDCCAaIwDQYJKoZIhvcNAQEBBQAD
+ggGPADCCAYoCggGBAJszThL9pLrprV/ZKqALaaqECiq/+O5scD7FCAQ7eF9XLJB+KdbhtsnSABA/
+4rVDtesGQBD4pOi/uADTnI5WEzm2Aoqf65JMoEzMjOvmNCmmR7EzU3PG6ixMGxChEyqgaWEdH1Km
+TI2eTjRZcL1wkW4Cx/7eyfv8GfhYtcmr82MKC8bqz5+n/VqcrqzHnZJ0OZNncXfeu5hdEgFYyxbV
+cTm0SFmyqNHJ6LKci4+kH/HRCPm5ksF5W1hHXrBHa0FRH5UKCEFD7yjKuzn5jM1vJuhBUZcAqa2V
+CFpAfvrlfjosUgEZzIReKz97RNP2jqTVMOEjEA7jkaJtXLDCMOMdkVfFS1YCwn91RCiAEnuWn0y5
+NlJGyWrtC3YZqWqnQn/xsnVDH1ouUqGq0Il+KF5brGP+Mk9YY1U3I4K/vpx+2zyAdMgqSWxIeWDh
+ru8Oy7alECfzfncbHm5iyvi/RPPfkP7ENO2AyY7LY8ZAkLzuMOac3UbzHYIqTw1mjbxJIc8Z+wID
+AQABozowODAJBgNVHRMEAjAAMA4GA1UdDwEB/wQEAwIGwDAbBgNVHSAEFDASMAYGBCtMEAYwCAYG
+K0wQBAIBMA0GCSqGSIb3DQEBCwUAA4IBAQCSMzT2+TcGGsDQciu24NFth0vA6aiagvzi7ekkRrMj
+GgsmogGCjfLMkZ+Mh6S5PRn1xT2FodEAksxswj2UUk3kQ3bO4YPzfu3O+6iJH0q4q10/Vg8LnNI6
+eRBZu75yRs4ee1mFbB/UXnmaF2BbrNMrIkYDvUT055gZ47ydA7aBDJhtkSXw4ofSI/ZJ/Ge1J7tK
+X7os/LnkTOp3DOfly8jzU6r25rYnmIuHmGFgSQ/p/eJlj+CI+Bc4h32Q3XavCVWR2Ps1dm9z3mpp
+kCaWJ+ErUwZYIYxwmnFvou2ybBQjGD1nHZMAFE1iQytWILsdfqf85XWWIv3MAJwuWF84iaNO
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+	<md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+<md:KeyDescriptor use="signing">
+<ds:KeyInfo>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIEpjCCA46gAwIBAgICEC8wDQYJKoZIhvcNAQELBQAwgZkxFTATBgNVBAMMDEFjdGFpbmZvIFNybDELMAkGA1UEBhMCSVQxHTAbBgNVBAcMFFJvc2V0byBkZWdsaSBBYnJ1enppMRowGAYDVQRhDBFWQVRJVC0wMTkwMTc1MDY3NzEVMBMGA1UECgwMQWN0YWluZm8gU3JsMSEwHwYDVQRTDBhodHRwczovL3d3dy5hY3RhaW5mby5pdC8wHhcNMjQwNTEwMTIwMDU3WhcNMjUwNTEwMTIwMDU3WjCB1TEmMCQGA1UEAwwdQ29tdW5lIGRpIEJyaWduYW5vIEdlcmEgZEFkZGExCzAJBgNVBAYTAklUMRswGQYDVQQHDBJCcmlnYW5vIEdlcmEgZEFkZGExFTATBgNVBGEMDFBBOklULWNfYjE3ODEmMCQGA1UECgwdQ29tdW5lIGRpIEJyaWduYW5vIEdlcmEgZEFkZGExQjBABgNVBFMMOWh0dHBzOi8vd3d3LmFjdGFpbmZvLml0L3B1Yi1hZy1saXRlL2JyaWduYW5vZ2VyYWRhZGRhLnhtbDCCAaIwDQYJKoZIhvcNAQEBBQADggGPADCCAYoCggGBAJszThL9pLrprV/ZKqALaaqECiq/+O5scD7FCAQ7eF9XLJB+KdbhtsnSABA/4rVDtesGQBD4pOi/uADTnI5WEzm2Aoqf65JMoEzMjOvmNCmmR7EzU3PG6ixMGxChEyqgaWEdH1KmTI2eTjRZcL1wkW4Cx/7eyfv8GfhYtcmr82MKC8bqz5+n/VqcrqzHnZJ0OZNncXfeu5hdEgFYyxbVcTm0SFmyqNHJ6LKci4+kH/HRCPm5ksF5W1hHXrBHa0FRH5UKCEFD7yjKuzn5jM1vJuhBUZcAqa2VCFpAfvrlfjosUgEZzIReKz97RNP2jqTVMOEjEA7jkaJtXLDCMOMdkVfFS1YCwn91RCiAEnuWn0y5NlJGyWrtC3YZqWqnQn/xsnVDH1ouUqGq0Il+KF5brGP+Mk9YY1U3I4K/vpx+2zyAdMgqSWxIeWDhru8Oy7alECfzfncbHm5iyvi/RPPfkP7ENO2AyY7LY8ZAkLzuMOac3UbzHYIqTw1mjbxJIc8Z+wIDAQABozowODAJBgNVHRMEAjAAMA4GA1UdDwEB/wQEAwIGwDAbBgNVHSAEFDASMAYGBCtMEAYwCAYGK0wQBAIBMA0GCSqGSIb3DQEBCwUAA4IBAQCSMzT2+TcGGsDQciu24NFth0vA6aiagvzi7ekkRrMjGgsmogGCjfLMkZ+Mh6S5PRn1xT2FodEAksxswj2UUk3kQ3bO4YPzfu3O+6iJH0q4q10/Vg8LnNI6eRBZu75yRs4ee1mFbB/UXnmaF2BbrNMrIkYDvUT055gZ47ydA7aBDJhtkSXw4ofSI/ZJ/Ge1J7tKX7os/LnkTOp3DOfly8jzU6r25rYnmIuHmGFgSQ/p/eJlj+CI+Bc4h32Q3XavCVWR2Ps1dm9z3mppkCaWJ+ErUwZYIYxwmnFvou2ybBQjGD1nHZMAFE1iQytWILsdfqf85XWWIv3MAJwuWF84iaNO
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</md:KeyDescriptor>
+<md:KeyDescriptor use="encryption">
+<ds:KeyInfo>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIEpjCCA46gAwIBAgICEC8wDQYJKoZIhvcNAQELBQAwgZkxFTATBgNVBAMMDEFjdGFpbmZvIFNybDELMAkGA1UEBhMCSVQxHTAbBgNVBAcMFFJvc2V0byBkZWdsaSBBYnJ1enppMRowGAYDVQRhDBFWQVRJVC0wMTkwMTc1MDY3NzEVMBMGA1UECgwMQWN0YWluZm8gU3JsMSEwHwYDVQRTDBhodHRwczovL3d3dy5hY3RhaW5mby5pdC8wHhcNMjQwNTEwMTIwMDU3WhcNMjUwNTEwMTIwMDU3WjCB1TEmMCQGA1UEAwwdQ29tdW5lIGRpIEJyaWduYW5vIEdlcmEgZEFkZGExCzAJBgNVBAYTAklUMRswGQYDVQQHDBJCcmlnYW5vIEdlcmEgZEFkZGExFTATBgNVBGEMDFBBOklULWNfYjE3ODEmMCQGA1UECgwdQ29tdW5lIGRpIEJyaWduYW5vIEdlcmEgZEFkZGExQjBABgNVBFMMOWh0dHBzOi8vd3d3LmFjdGFpbmZvLml0L3B1Yi1hZy1saXRlL2JyaWduYW5vZ2VyYWRhZGRhLnhtbDCCAaIwDQYJKoZIhvcNAQEBBQADggGPADCCAYoCggGBAJszThL9pLrprV/ZKqALaaqECiq/+O5scD7FCAQ7eF9XLJB+KdbhtsnSABA/4rVDtesGQBD4pOi/uADTnI5WEzm2Aoqf65JMoEzMjOvmNCmmR7EzU3PG6ixMGxChEyqgaWEdH1KmTI2eTjRZcL1wkW4Cx/7eyfv8GfhYtcmr82MKC8bqz5+n/VqcrqzHnZJ0OZNncXfeu5hdEgFYyxbVcTm0SFmyqNHJ6LKci4+kH/HRCPm5ksF5W1hHXrBHa0FRH5UKCEFD7yjKuzn5jM1vJuhBUZcAqa2VCFpAfvrlfjosUgEZzIReKz97RNP2jqTVMOEjEA7jkaJtXLDCMOMdkVfFS1YCwn91RCiAEnuWn0y5NlJGyWrtC3YZqWqnQn/xsnVDH1ouUqGq0Il+KF5brGP+Mk9YY1U3I4K/vpx+2zyAdMgqSWxIeWDhru8Oy7alECfzfncbHm5iyvi/RPPfkP7ENO2AyY7LY8ZAkLzuMOac3UbzHYIqTw1mjbxJIc8Z+wIDAQABozowODAJBgNVHRMEAjAAMA4GA1UdDwEB/wQEAwIGwDAbBgNVHSAEFDASMAYGBCtMEAYwCAYGK0wQBAIBMA0GCSqGSIb3DQEBCwUAA4IBAQCSMzT2+TcGGsDQciu24NFth0vA6aiagvzi7ekkRrMjGgsmogGCjfLMkZ+Mh6S5PRn1xT2FodEAksxswj2UUk3kQ3bO4YPzfu3O+6iJH0q4q10/Vg8LnNI6eRBZu75yRs4ee1mFbB/UXnmaF2BbrNMrIkYDvUT055gZ47ydA7aBDJhtkSXw4ofSI/ZJ/Ge1J7tKX7os/LnkTOp3DOfly8jzU6r25rYnmIuHmGFgSQ/p/eJlj+CI+Bc4h32Q3XavCVWR2Ps1dm9z3mppkCaWJ+ErUwZYIYxwmnFvou2ybBQjGD1nHZMAFE1iQytWILsdfqf85XWWIv3MAJwuWF84iaNO
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</md:KeyDescriptor>
+		<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://login.comune.brignano.bg.it/spid/ls/post/"/>
+		<md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+		<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://login.comune.brignano.bg.it/spid/acs/" index="0" isDefault="true"/>
+		<md:AttributeConsumingService index="0">
+			<md:ServiceName xml:lang="it">https://login.comune.brignano.bg.it</md:ServiceName>
+			<md:RequestedAttribute Name="spidCode" isRequired="true"/>
+			<md:RequestedAttribute Name="name" isRequired="true"/>
+			<md:RequestedAttribute Name="familyName" isRequired="true"/>
+			<md:RequestedAttribute Name="fiscalNumber" isRequired="true"/>
+			<md:RequestedAttribute Name="email" isRequired="true"/>
+			<md:RequestedAttribute Name="gender" isRequired="false"/>
+			<md:RequestedAttribute Name="companyName" isRequired="false"/>
+			<md:RequestedAttribute Name="registeredOffice" isRequired="false"/>
+			<md:RequestedAttribute Name="ivaCode" isRequired="false"/>
+			<md:RequestedAttribute Name="idCard" isRequired="false"/>
+			<md:RequestedAttribute Name="digitalAddress" isRequired="false"/>
+			<md:RequestedAttribute Name="placeOfBirth" isRequired="false"/>
+			<md:RequestedAttribute Name="countyOfBirth" isRequired="false"/>
+			<md:RequestedAttribute Name="dateOfBirth" isRequired="false"/>
+			<md:RequestedAttribute Name="address" isRequired="false"/>
+			<md:RequestedAttribute Name="mobilePhone" isRequired="false"/>
+			<md:RequestedAttribute Name="expirationDate" isRequired="false"/>
+		</md:AttributeConsumingService>
+	</md:SPSSODescriptor>
+	<md:Organization>
+		<md:OrganizationName xml:lang="it">Comune di Brignano Gera d'Adda</md:OrganizationName>
+		<md:OrganizationName xml:lang="en">Comune di Brignano Gera d'Adda</md:OrganizationName>
+		<md:OrganizationDisplayName xml:lang="it">Comune di Brignano Gera d'Adda</md:OrganizationDisplayName>
+		<md:OrganizationDisplayName xml:lang="en">Comune di Brignano Gera d'Adda</md:OrganizationDisplayName>
+		<md:OrganizationURL xml:lang="it">https://comune.brignano.bg.it</md:OrganizationURL>
+		<md:OrganizationURL xml:lang="en">https://comune.brignano.bg.it</md:OrganizationURL>
+	</md:Organization>
+	<md:ContactPerson contactType="other" spid:entityType="spid:aggregator">
+		<md:Extensions>
+			<spid:VATNumber>IT01901750677</spid:VATNumber>
+			<spid:FiscalCode>01901750677</spid:FiscalCode>
+			<spid:PublicServicesLightAggregator/>
+			<spid:KeyDescriptor md:use="spid:validation">
+				<ds:KeyInfo>
+					<ds:X509Data>
+						<ds:X509Certificate>
+ MIIEezCCAuMCAQAwgbMxFTATBgNVBAMMDEFjdGFpbmZvIFNybDELMAkGA1UEBhMC
+SVQxHTAbBgNVBAcMFFJvc2V0byBkZWdsaSBBYnJ1enppMRowGAYDVQRhDBFWQVRJ
+VC0wMTkwMTc1MDY3NzEVMBMGA1UECgwMQWN0YWluZm8gU3JsMTswOQYDVQRTDDJo
+dHRwczovL2xvZ2luLmNvbXVuZS5hY3RpYS5zcG9ydGVsbG9kaWdpdGFsZS5jbG91
+ZDCCAaIwDQYJKoZIhvcNAQEBBQADggGPADCCAYoCggGBAPHqWB7mBIMmSKTbAn61
+3qAEM/wYXla12ravrhm4I/vnNOy4n/Y/mjkHv9SL/OVvvyEQld2d91M/I7NRFf1X
+31i+L+sOt6hPGcw5O6gwPNWMWnCe7ZQfFUUGuva1LiDVzNCjoK4KiAm621a7aP6L
+sx9VqRcXWIDzJx91kNegCJcLe/kVT12k5HNfz9AgRREtD3bnPiK8oY+c+stgPpJv
+7QyL80KI8Og54V5zr4+MX04yezuu+UMUxL2F2F7AEzx3USGOPYuP+kU2XV4pp4y1
+dtGHdsUoQOds+FH6TGnEFNIklgV0qnxCgpznKuzZUz73R26qbmdLhxFdcdhtPfhx
+3E9tp661w+HgqbnnY57JjuZZRwdjgKPRcrlPb7xphdAYRCUlJgJ7nwO4GwY6f9kc
+EfuZ9aleIe1qe1wp5krRfguxoIDE3BDuz0sJCa2SEt+bwG9NbRs5F5gNM/W1NX4d
+JG2ms9sEt8Tnyd+7IBuAUHcVMvd4LiOXeFA+rrHvoqpYiwIDAQABoIGBMH8GCSqG
+SIb3DQEJDjFyMHAwCQYDVR0TBAIwADAOBgNVHQ8BAf8EBAMCBsAwUwYDVR0gBEww
+SjAgBgQrTBAGMBgwFgYIKwYBBQUHAgIwChoIYWdJRGNlcnQwJgYGK0wQBAMBMBww
+GgYIKwYBBQUHAgIwDhoMY2VydF9TUF9Qcml2MA0GCSqGSIb3DQEBCwUAA4IBgQAw
+Es94QxenOhshUG3KU6FVpiFPn/IeDcpLhzf47GL/DPEdDx3AN+0jMTupaYsEJu8N
+OJJy2tQrito7W6GbWr2eJWBrG0ZVcBFG5RyuEGj1MMZzmb+WL357F/9OuE2gFkNe
+0VliXKg4oXnB4j1OyAuSlWKDrxRm+c7WXEPBHHLmEp67v5f3BrJzXwF8UXkAQAjt
++Bvs/ytIgHlJMuewkBxuZ1IBgXRzJgwsFxPJEgdBHDGcbsAiWmqQXoJsYlTXZ/+3
+RMUQVOGOfftbOYMLrwFjbqDUgjjEnFggColevOZvts9yVsukQg2wllPpxCt1JGBf
+1D37pu75rg3WlYimttBWsl7swFKDNqxxnIK2W8CoATFjojWjNccR5ITJojDTUkPe
+8OoZpMozzKaUqeG1ESzh5T5w/FVemKnRCAA0Z55mrG+BFuXdkqdLNeRQNCTuFS6y
+aWd0U9k0X+dHh5GHQXQT9+sTdf0huQhliiuu0IynPDdI9q5vpJz9r+w/OFfLMxQ=
+ </ds:X509Certificate>
+					</ds:X509Data>
+				</ds:KeyInfo>
+			</spid:KeyDescriptor>
+		</md:Extensions>
+		<md:Company>Actainfo S.r.l.</md:Company>
+		<md:EmailAddress>info@actainfo.it</md:EmailAddress>
+		<md:TelephoneNumber>+390852015591</md:TelephoneNumber>
+	</md:ContactPerson>
+	<md:ContactPerson contactType="other" spid:entityType="spid:aggregated">
+		<md:Extensions>
+			<spid:IPACode>c_B178</spid:IPACode>
+			<spid:Public/>
+		</md:Extensions>
+		<md:Company>Comune di Brignano Gera d'Adda</md:Company>
+		<md:EmailAddress>info@comune.brignano.bg.it</md:EmailAddress>
+		<md:TelephoneNumber>+390363815011</md:TelephoneNumber>
+	</md:ContactPerson>
+</md:EntityDescriptor>
