@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" ID="_f3a2e92da941a7b2b87092412463a5738ce1673170c84bef8c78208ef8e7f816" entityID="https://sol.comune.gonnostramatza.oristano.it"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#_f3a2e92da941a7b2b87092412463a5738ce1673170c84bef8c78208ef8e7f816">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>GwuzatE+whSzIvL/9fJSOGzkk6qbThxW6w/cPZH6JGQ=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+bJ3IOfjFsxMgaYcvweSZ6ksjECNsk4C0uVE7gfCf1vx4pvd5mOG1or5gnV89HlyvYUn1q3+7g0Pw
+nF/0k2ZHnk3cXc78ybJ6xy7dbuvPRPX1M6d5CeP8O9OjVTP/nWy6Re67PYQm03zfgaAqlUAN5NVf
+IR33qnOV5mUNOVLUMgvqdmgFMUzqgN9+fz2NrMwcUfI3UUyCb2bASVLSE1BKL3Xl97Q7/d1JEkv1
+DpIrlCIV2eorWADuo+kg6EVElySHIaHgD+YF/Ci66tdBM9a5FdMo8iCL93z7VmAx8FsCl/fPsUcZ
+nscq2NgNHdO/GlxVTQkhH8U2nwCQT7N1Mn+JoA==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+pcDOrhUnA0ib663jg6CkmLpOUSBH9TOa4/tRyA+JjEN2TC8NnfVrkxE4l/udTcNegZDTKehEXXHc
+EFAyYxz/BmbWxwfRcNYZ748H//lJJxdGlhqR1Rfu/5fdZSIDt3dHgkO8XSH5ER6JK0PMCXcprEiS
+AoA0klUJhsC9TjWkYwjb8Dq6nAZK95yIO16ROA5zzHvp+QfFHuygHdfF6LwZNIzN47iX8mkT1rDN
+SL7uhOPFdQgLLrv9/wmy4LKdtjCDWwSzv9zYNOusup0k5m6Wxae2aFF6ajt2VLEP2Y1fnhE/2Xwz
+iCn9ADhpGVtnO/4UHv6ArDX+QCrKwmlnQpV3bQ==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIID5zCCAs+gAwIBAgIJAJMv6YkO1FthMA0GCSqGSIb3DQEBCwUAMIGJMQswCQYDVQQGEwJJVDEO
+MAwGA1UECAwFSXRhbHkxFzAVBgNVBAcMDkdvbm5vc3RyYW1hdHphMSEwHwYDVQQKDBhDb211bmUg
+ZGkgR29ubm9zdHJhbWF0emExLjAsBgNVBAMMJXNvbC5jb211bmUuZ29ubm9zdHJhbWF0emEub3Jp
+c3Rhbm8uaXQwHhcNMjQwNzE5MDkxNDA3WhcNMzQwNzE5MDkxNDA3WjCBiTELMAkGA1UEBhMCSVQx
+DjAMBgNVBAgMBUl0YWx5MRcwFQYDVQQHDA5Hb25ub3N0cmFtYXR6YTEhMB8GA1UECgwYQ29tdW5l
+IGRpIEdvbm5vc3RyYW1hdHphMS4wLAYDVQQDDCVzb2wuY29tdW5lLmdvbm5vc3RyYW1hdHphLm9y
+aXN0YW5vLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEApcDOrhUnA0ib663jg6Ck
+mLpOUSBH9TOa4/tRyA+JjEN2TC8NnfVrkxE4l/udTcNegZDTKehEXXHcEFAyYxz/BmbWxwfRcNYZ
+748H//lJJxdGlhqR1Rfu/5fdZSIDt3dHgkO8XSH5ER6JK0PMCXcprEiSAoA0klUJhsC9TjWkYwjb
+8Dq6nAZK95yIO16ROA5zzHvp+QfFHuygHdfF6LwZNIzN47iX8mkT1rDNSL7uhOPFdQgLLrv9/wmy
+4LKdtjCDWwSzv9zYNOusup0k5m6Wxae2aFF6ajt2VLEP2Y1fnhE/2XwziCn9ADhpGVtnO/4UHv6A
+rDX+QCrKwmlnQpV3bQIDAQABo1AwTjAdBgNVHQ4EFgQU/gv2RPppuoGGHg7drSia4t1HbnIwHwYD
+VR0jBBgwFoAU/gv2RPppuoGGHg7drSia4t1HbnIwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsF
+AAOCAQEAQgr58gpMUNhxNzRQhNrKuVVL8gRS0yqAvl3sC2MMpWxsVAolR88B+CnmtB+LUuRw/jid
+ZsA7HhPzVkjSCB6cT+ts1L3cND5ccyA+QHKbtmGsYXU2LMZoOl1qf3RxEVJfmRU+XUPe6NVjJX+g
+5avd9zEdB9vrqMr1KMMPBURtfD8XvGL1ZwJMuBEdvuRnto/Cn3AWimREbCNhcTiEBTotextt4Cbn
+JYvWgnywqG6BgVCeRxTVRDzzVHA3A2m/lTZNL5HmLnE1B2UddbqNzSaZmkAUc1qu7Ne8RdOcIIPN
+cxLo3/1GUfR4iSW2t7FLVZYP48HADxyWF3vIQk7uiyvXAw==
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIID5zCCAs+gAwIBAgIJAJMv6YkO1FthMA0GCSqGSIb3DQEBCwUAMIGJMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxFzAVBgNVBAcMDkdvbm5vc3RyYW1hdHphMSEwHwYDVQQKDBhDb211bmUgZGkgR29ubm9zdHJhbWF0emExLjAsBgNVBAMMJXNvbC5jb211bmUuZ29ubm9zdHJhbWF0emEub3Jpc3Rhbm8uaXQwHhcNMjQwNzE5MDkxNDA3WhcNMzQwNzE5MDkxNDA3WjCBiTELMAkGA1UEBhMCSVQxDjAMBgNVBAgMBUl0YWx5MRcwFQYDVQQHDA5Hb25ub3N0cmFtYXR6YTEhMB8GA1UECgwYQ29tdW5lIGRpIEdvbm5vc3RyYW1hdHphMS4wLAYDVQQDDCVzb2wuY29tdW5lLmdvbm5vc3RyYW1hdHphLm9yaXN0YW5vLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEApcDOrhUnA0ib663jg6CkmLpOUSBH9TOa4/tRyA+JjEN2TC8NnfVrkxE4l/udTcNegZDTKehEXXHcEFAyYxz/BmbWxwfRcNYZ748H//lJJxdGlhqR1Rfu/5fdZSIDt3dHgkO8XSH5ER6JK0PMCXcprEiSAoA0klUJhsC9TjWkYwjb8Dq6nAZK95yIO16ROA5zzHvp+QfFHuygHdfF6LwZNIzN47iX8mkT1rDNSL7uhOPFdQgLLrv9/wmy4LKdtjCDWwSzv9zYNOusup0k5m6Wxae2aFF6ajt2VLEP2Y1fnhE/2XwziCn9ADhpGVtnO/4UHv6ArDX+QCrKwmlnQpV3bQIDAQABo1AwTjAdBgNVHQ4EFgQU/gv2RPppuoGGHg7drSia4t1HbnIwHwYDVR0jBBgwFoAU/gv2RPppuoGGHg7drSia4t1HbnIwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAQgr58gpMUNhxNzRQhNrKuVVL8gRS0yqAvl3sC2MMpWxsVAolR88B+CnmtB+LUuRw/jidZsA7HhPzVkjSCB6cT+ts1L3cND5ccyA+QHKbtmGsYXU2LMZoOl1qf3RxEVJfmRU+XUPe6NVjJX+g5avd9zEdB9vrqMr1KMMPBURtfD8XvGL1ZwJMuBEdvuRnto/Cn3AWimREbCNhcTiEBTotextt4CbnJYvWgnywqG6BgVCeRxTVRDzzVHA3A2m/lTZNL5HmLnE1B2UddbqNzSaZmkAUc1qu7Ne8RdOcIIPNcxLo3/1GUfR4iSW2t7FLVZYP48HADxyWF3vIQk7uiyvXAw==</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIID5zCCAs+gAwIBAgIJAJMv6YkO1FthMA0GCSqGSIb3DQEBCwUAMIGJMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxFzAVBgNVBAcMDkdvbm5vc3RyYW1hdHphMSEwHwYDVQQKDBhDb211bmUgZGkgR29ubm9zdHJhbWF0emExLjAsBgNVBAMMJXNvbC5jb211bmUuZ29ubm9zdHJhbWF0emEub3Jpc3Rhbm8uaXQwHhcNMjQwNzE5MDkxNDA3WhcNMzQwNzE5MDkxNDA3WjCBiTELMAkGA1UEBhMCSVQxDjAMBgNVBAgMBUl0YWx5MRcwFQYDVQQHDA5Hb25ub3N0cmFtYXR6YTEhMB8GA1UECgwYQ29tdW5lIGRpIEdvbm5vc3RyYW1hdHphMS4wLAYDVQQDDCVzb2wuY29tdW5lLmdvbm5vc3RyYW1hdHphLm9yaXN0YW5vLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEApcDOrhUnA0ib663jg6CkmLpOUSBH9TOa4/tRyA+JjEN2TC8NnfVrkxE4l/udTcNegZDTKehEXXHcEFAyYxz/BmbWxwfRcNYZ748H//lJJxdGlhqR1Rfu/5fdZSIDt3dHgkO8XSH5ER6JK0PMCXcprEiSAoA0klUJhsC9TjWkYwjb8Dq6nAZK95yIO16ROA5zzHvp+QfFHuygHdfF6LwZNIzN47iX8mkT1rDNSL7uhOPFdQgLLrv9/wmy4LKdtjCDWwSzv9zYNOusup0k5m6Wxae2aFF6ajt2VLEP2Y1fnhE/2XwziCn9ADhpGVtnO/4UHv6ArDX+QCrKwmlnQpV3bQIDAQABo1AwTjAdBgNVHQ4EFgQU/gv2RPppuoGGHg7drSia4t1HbnIwHwYDVR0jBBgwFoAU/gv2RPppuoGGHg7drSia4t1HbnIwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAQgr58gpMUNhxNzRQhNrKuVVL8gRS0yqAvl3sC2MMpWxsVAolR88B+CnmtB+LUuRw/jidZsA7HhPzVkjSCB6cT+ts1L3cND5ccyA+QHKbtmGsYXU2LMZoOl1qf3RxEVJfmRU+XUPe6NVjJX+g5avd9zEdB9vrqMr1KMMPBURtfD8XvGL1ZwJMuBEdvuRnto/Cn3AWimREbCNhcTiEBTotextt4CbnJYvWgnywqG6BgVCeRxTVRDzzVHA3A2m/lTZNL5HmLnE1B2UddbqNzSaZmkAUc1qu7Ne8RdOcIIPNcxLo3/1GUfR4iSW2t7FLVZYP48HADxyWF3vIQk7uiyvXAw==</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://sol.comune.gonnostramatza.oristano.it/spid/module.php/saml/sp/saml2-logout.php/spid"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sol.comune.gonnostramatza.oristano.it/spid/module.php/saml/sp/saml2-acs.php/spid" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://sol.comune.gonnostramatza.oristano.it/spid/module.php/saml/sp/saml2-acs.php/spid" index="1"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">Servizi online</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Servizi online</md:ServiceDescription>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Codice identificativo SPID" Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Ragione o denominazione sociale" Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Gonnostramatza</md:OrganizationName>
+    <md:OrganizationName xml:lang="en">Comune di Gonnostramatza</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Gonnostramatza</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Gonnostramatza</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.comune.gonnostramatza.oristano.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="en">https://www.comune.gonnostramatza.oristano.it</md:OrganizationURL>
+  </md:Organization>
+  <md:ContactPerson contactType="other">
+    <md:Extensions>
+      <spid:IPACode>c_e088</spid:IPACode>
+      <spid:Public/>
+    </md:Extensions>
+    <md:Company>Comune di Gonnostramatza</md:Company>
+    <md:EmailAddress>tributi@comune.gonnostramatza.or.it</md:EmailAddress>
+  </md:ContactPerson>
+</md:EntityDescriptor>
