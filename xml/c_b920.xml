@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:spid="https://spid.gov.it/saml-extensions" entityID="https://login.comune.casalvolone.no.it" ID="https___login_comune_casalvolone_no_it"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+  <ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+    <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+  <ds:Reference URI="#https___login_comune_casalvolone_no_it"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>UYMxI8aUZs1srMvgy6+GpbMxRRKb3QpLagtjEjD5thU=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>OHJ+uqEB7qzOsvYT1aBU7mGoTdlkkBvfDI1GOg6+3w6hZIkAvU2QjyAwyjBklFJ08VpXxtqr7qbnBKp5tZniMOUgVOCGhVvnQS9fJ15FEUil6xLxxwhke/uDIdIYG0jpn3iTswDP1wfzLF/ndQgKXVq/1zDsBE1tkEnlUBPf0M2Jlp592k41TXhwCBNTMpOPWi766Sl3SLee9/2BggWFZ+9+E8unlHotK7whcHUCJdZ0y3qg09cSbmOpA+I1TV8mGn+1XllN/UJWa42cZLNGfLtrt2i5aqwizR2tpdA8asZ3U4bkTo3u51IeV7xKVtO0Ok8iGdTNgXz4K/yHUzo4WQ==</ds:SignatureValue>
+<ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIEKDCCAxCgAwIBAgIImpQA/BkYIAAwDQYJKoZIhvcNAQELBQAwgdMxHjAcBgNVBAoMFUNvbXVuZSBkaSBDYXNhbHZvbG9uZTEVMBMGA1UEYQwMUEE6SVQtY19iOTIwMQswCQYDVQQGEwJJVDEUMBIGA1UEBwwLQ2FzYWx2b2xvbmUxFDASBgNVBAMMC0Nhc2Fsdm9sb25lMTAwLgYJKoZIhvcNAQkBFiFjYXNhbHZvbG9uZUBjZXJ0LnJ1cGFycGllbW9udGUuaXQxLzAtBgNVBFMMJmh0dHBzOi8vbG9naW4uY29tdW5lLmNhc2Fsdm9sb25lLm5vLml0MB4XDTI0MDMwMTEwNTAyMFoXDTI2MDMwMTEwNTAyMFowgdMxHjAcBgNVBAoMFUNvbXVuZSBkaSBDYXNhbHZvbG9uZTEVMBMGA1UEYQwMUEE6SVQtY19iOTIwMQswCQYDVQQGEwJJVDEUMBIGA1UEBwwLQ2FzYWx2b2xvbmUxFDASBgNVBAMMC0Nhc2Fsdm9sb25lMTAwLgYJKoZIhvcNAQkBFiFjYXNhbHZvbG9uZUBjZXJ0LnJ1cGFycGllbW9udGUuaXQxLzAtBgNVBFMMJmh0dHBzOi8vbG9naW4uY29tdW5lLmNhc2Fsdm9sb25lLm5vLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA91Do7TK1zvRXH3Iq5igqjeArGe4QfMjOoE8JjXFFUM/Evw2Z8bO9OHDNafhb72gDb7V9FzPOk3uXJF+M/5+Qnql68Ts8aMga9W40wgbtifAoouaX7Lm8mitYQ0/zyBpgFgNPkMlh6jA6AY2MljkqZLbfHZUy5jy69KUWyXAlYkSRLc/MGZRExikwwx9wvIdDPvbto3OYF8xRl2TWD02W5Li0/u9wc7fg1ph01izYkwH2eXiZcuay3SmXbbH/D2yAheWSPN30blx31Y1tZgHwJ8K9fw4xphVmmiT0zSL3oSI7A8AaaRPVfzUeTYT69VoCA43xxpEdqjZZSvi7/lDJkwIDAQABMA0GCSqGSIb3DQEBCwUAA4IBAQDlGfm8C913z0kn0z+ReTaxAdgfeaodRvvHA4zQFD0dGjwO1qxvCWtrkqXwxXzA9yd1EZYMFs5jIffb3Junko5oikCZ1JahezJ6pA18+AeSEowNSo8u7bB5rs4wjtvCRGbwABO4/6q45CzaEuReACJAIpMYEEMOQh3stxNxGHmYS5Ns2T4WZm7dlF3uiJJprxVd8lj1uS74ac+XYDKP3zsy65mRE3qTO3aLYIq0Lqsv3wZhcDSbejtymOohlt18e+Zd7Oz5EY8Vp0E65ESaGL/VZff1DCCzhOV3jzBUj8riA8d17rZ7PmvbAbjg2+B4GCul9XWuZnR9E7cFc2qAUDyn</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature>
+    <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true" WantAssertionsSigned="true">
+        <md:KeyDescriptor use="signing">
+            <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+                <ds:X509Data><ds:X509Certificate>MIIEKDCCAxCgAwIBAgIImpQA/BkYIAAwDQYJKoZIhvcNAQELBQAwgdMxHjAcBgNVBAoMFUNvbXVuZSBkaSBDYXNhbHZvbG9uZTEVMBMGA1UEYQwMUEE6SVQtY19iOTIwMQswCQYDVQQGEwJJVDEUMBIGA1UEBwwLQ2FzYWx2b2xvbmUxFDASBgNVBAMMC0Nhc2Fsdm9sb25lMTAwLgYJKoZIhvcNAQkBFiFjYXNhbHZvbG9uZUBjZXJ0LnJ1cGFycGllbW9udGUuaXQxLzAtBgNVBFMMJmh0dHBzOi8vbG9naW4uY29tdW5lLmNhc2Fsdm9sb25lLm5vLml0MB4XDTI0MDMwMTEwNTAyMFoXDTI2MDMwMTEwNTAyMFowgdMxHjAcBgNVBAoMFUNvbXVuZSBkaSBDYXNhbHZvbG9uZTEVMBMGA1UEYQwMUEE6SVQtY19iOTIwMQswCQYDVQQGEwJJVDEUMBIGA1UEBwwLQ2FzYWx2b2xvbmUxFDASBgNVBAMMC0Nhc2Fsdm9sb25lMTAwLgYJKoZIhvcNAQkBFiFjYXNhbHZvbG9uZUBjZXJ0LnJ1cGFycGllbW9udGUuaXQxLzAtBgNVBFMMJmh0dHBzOi8vbG9naW4uY29tdW5lLmNhc2Fsdm9sb25lLm5vLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA91Do7TK1zvRXH3Iq5igqjeArGe4QfMjOoE8JjXFFUM/Evw2Z8bO9OHDNafhb72gDb7V9FzPOk3uXJF+M/5+Qnql68Ts8aMga9W40wgbtifAoouaX7Lm8mitYQ0/zyBpgFgNPkMlh6jA6AY2MljkqZLbfHZUy5jy69KUWyXAlYkSRLc/MGZRExikwwx9wvIdDPvbto3OYF8xRl2TWD02W5Li0/u9wc7fg1ph01izYkwH2eXiZcuay3SmXbbH/D2yAheWSPN30blx31Y1tZgHwJ8K9fw4xphVmmiT0zSL3oSI7A8AaaRPVfzUeTYT69VoCA43xxpEdqjZZSvi7/lDJkwIDAQABMA0GCSqGSIb3DQEBCwUAA4IBAQDlGfm8C913z0kn0z+ReTaxAdgfeaodRvvHA4zQFD0dGjwO1qxvCWtrkqXwxXzA9yd1EZYMFs5jIffb3Junko5oikCZ1JahezJ6pA18+AeSEowNSo8u7bB5rs4wjtvCRGbwABO4/6q45CzaEuReACJAIpMYEEMOQh3stxNxGHmYS5Ns2T4WZm7dlF3uiJJprxVd8lj1uS74ac+XYDKP3zsy65mRE3qTO3aLYIq0Lqsv3wZhcDSbejtymOohlt18e+Zd7Oz5EY8Vp0E65ESaGL/VZff1DCCzhOV3jzBUj8riA8d17rZ7PmvbAbjg2+B4GCul9XWuZnR9E7cFc2qAUDyn</ds:X509Certificate></ds:X509Data>
+            </ds:KeyInfo>
+        </md:KeyDescriptor>
+            <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://casalvolone.login.opencityitalia.it/slo"/>        
+        <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+        <md:AssertionConsumerService index="0" isDefault="true" Location="https://casalvolone.login.opencityitalia.it/acs" Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST"/>
+        <md:AttributeConsumingService index="0">
+            <md:ServiceName xml:lang="it">Set 0</md:ServiceName>       
+            <md:RequestedAttribute Name="gender"/>
+            <md:RequestedAttribute Name="companyName"/>
+            <md:RequestedAttribute Name="registeredOffice"/>
+            <md:RequestedAttribute Name="fiscalNumber"/>
+            <md:RequestedAttribute Name="ivaCode"/>
+            <md:RequestedAttribute Name="idCard"/>
+            <md:RequestedAttribute Name="spidCode"/>
+            <md:RequestedAttribute Name="name"/>
+            <md:RequestedAttribute Name="familyName"/>
+            <md:RequestedAttribute Name="placeOfBirth"/>
+            <md:RequestedAttribute Name="countyOfBirth"/>
+            <md:RequestedAttribute Name="dateOfBirth"/>
+            <md:RequestedAttribute Name="mobilePhone"/>
+            <md:RequestedAttribute Name="email"/>
+            <md:RequestedAttribute Name="address"/>
+            <md:RequestedAttribute Name="expirationDate"/>
+            <md:RequestedAttribute Name="digitalAddress"/></md:AttributeConsumingService></md:SPSSODescriptor><md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Casalvolone</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Casalvolone</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://login.comune.casalvolone.no.it</md:OrganizationURL>
+</md:Organization><md:ContactPerson contactType="other"><md:Extensions><spid:IPACode>c_b920</spid:IPACode><spid:Public/><spid:FiscalCode>80001330036</spid:FiscalCode></md:Extensions><md:EmailAddress>casalvolone@cert.ruparpiemonte.it</md:EmailAddress><md:TelephoneNumber>+390161315157</md:TelephoneNumber></md:ContactPerson></md:EntityDescriptor>

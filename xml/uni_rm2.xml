@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" ID="_d68bbcc7-12b7-4fdf-aa5a-cbf9ce61c7a8" entityID="http://spid.uniroma2.eu/adfs/services/trust"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#_d68bbcc7-12b7-4fdf-aa5a-cbf9ce61c7a8">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>LNRpUIIC2mZFLGKKJPm5OSntwnDZ4E2xniFdOzUhh/s=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+Up16OnHGBYc+PmIzzF0NwhBAFjXizrsCVKC33EDEIC7ZhK3FwPz8jWU+w4lBQGWbZJMY6FBPLFTK
+OQd9Ji20vyFNoo5Z6WZ97m1Zyg96CI8oCRj+pOknLtIithLCj30lTUGtX21Kr4pib6p/0imzZFKj
+ZyQtXzxc8c8x5OkwqNNF7ht0F7ljIJ1lilDBmFhgHUM63UYf8E8Own0f5Dq5gsaA5/8GATD84xNe
+CAxSIjuKRO35pyYbapFdfxuFH+L3J9JOhgPTQaxFv2Wdib4pOeK+nSjUXdK9s01gzJCbr7WqsGyz
+R/2s/BP04eJ3K2tm4Rt2jZBa2hCNYFL/B/LmzQ==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+tW7hRfi+C57jNKfsytQMAW3w1kQc2LycXTLrL9EwEnB6wL+8xK//TfrMe4vV5CyfO9CSXrEMUyVy
+rqwN0ol6a0NPCaXNIA4s7J5nWgl6kRhWWPHjqsNmP0wnWG9GhcbkI/9MjVvxhDFiOfGBiv9vDgkH
+A2NVisX0cWAQ2GC6xw6JQRGEd+AVy5AWq+aERoTya7IwSP1C3o/Ii0euL1YAVUGrwP/1wRXEVmnp
+VPJgqhRYsdCsMug4pv7EyjWzCEA34xaPZ3F4vnXksF50Sak840HjNIOMNYN0+Qwa1+hZxXFdxU4Q
+CHM1suyC43Z4u1GSNe+HbGQbdjize8tNbO1VvQ==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIE1DCCA7ygAwIBAgIUUPwBlWfg8ZCk00c2bcYalnIH754wDQYJKoZIhvcNAQELBQAwgdoxCzAJ
+BgNVBAYTAklUMQ0wCwYDVQQHDARSb21hMTYwNAYDVQQKDC1Vbml2ZXJzaXRhJyBkZWdsaSBTdHVk
+aSBkaSBSb21hICdUb3IgVmVyZ2F0YScxNjA0BgNVBAMMLVVuaXZlcnNpdGEnIGRlZ2xpIFN0dWRp
+IGRpIFJvbWEgJ1RvciBWZXJnYXRhJzEWMBQGA1UEYQwNUEE6SVQtdW5pX3JtMjE0MDIGA1UEUwwr
+aHR0cDovL3NwaWQudW5pcm9tYTIuZXUvYWRmcy9zZXJ2aWNlcy90cnVzdDAeFw0yMjAyMjUxNjAx
+NDNaFw00MjAyMjAxNjAxNDNaMIHaMQswCQYDVQQGEwJJVDENMAsGA1UEBwwEUm9tYTE2MDQGA1UE
+CgwtVW5pdmVyc2l0YScgZGVnbGkgU3R1ZGkgZGkgUm9tYSAnVG9yIFZlcmdhdGEnMTYwNAYDVQQD
+DC1Vbml2ZXJzaXRhJyBkZWdsaSBTdHVkaSBkaSBSb21hICdUb3IgVmVyZ2F0YScxFjAUBgNVBGEM
+DVBBOklULXVuaV9ybTIxNDAyBgNVBFMMK2h0dHA6Ly9zcGlkLnVuaXJvbWEyLmV1L2FkZnMvc2Vy
+dmljZXMvdHJ1c3QwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC1buFF+L4LnuM0p+zK
+1AwBbfDWRBzYvJxdMusv0TAScHrAv7zEr/9N+sx7i9XkLJ870JJesQxTJXKurA3SiXprQ08Jpc0g
+DizsnmdaCXqRGFZY8eOqw2Y/TCdYb0aFxuQj/0yNW/GEMWI58YGK/28OCQcDY1WKxfRxYBDYYLrH
+DolBEYR34BXLkBar5oRGhPJrsjBI/ULej8iLR64vVgBVQavA//XBFcRWaelU8mCqFFix0Kwy6Dim
+/sTKNbMIQDfjFo9ncXi+deSwXnRJqTzjQeM0g4w1g3T5DBrX6FnFcV3FThAIczWy7ILjdni7UZI1
+74dsZBt2OLN7y01s7VW9AgMBAAGjgY8wgYwwHQYDVR0OBBYEFLG6MT8PcAwyrr7fNs92rSgJ+jIc
+MB8GA1UdIwQYMBaAFLG6MT8PcAwyrr7fNs92rSgJ+jIcMA8GA1UdEwEB/wQFMAMBAf8wOQYDVR0g
+BDIwMDAuBgYrTBAEAgEwJDAiBggrBgEFBQcCAjAWGhRzcGlkLXB1YmxpY3NlY3Rvci1TUDANBgkq
+hkiG9w0BAQsFAAOCAQEAM3E8HkxcjSEkdoTc+ny7g2piIlr8dq46rRRG2F9wAEhbDeyYTaeKtVrH
+fZDWwVIzjSW2YXWzK5yNmQaQaRyWNrrldLeNWmX33YrEW/hpPlM3WQEwZp3uISUhAvF2aXkMuRtn
+ebLnKfjQbE16+/Ou5e/Jt8leogIvxurfAC0KtGJeFlXp7vPQKIr53fNKQqR6EE5k5oPv0ZuwfZE7
+ZpQnbxDo7M9dwJNhar/NaXFhi2AOlJlj4sP84kP1MB8LsXWL7KzofZzcV9uSKDaYzbE5mFepuVeE
+W3AMhdsTqHBigUMIpb+jZreecxX+KVLfl7s70wBc6AuZiCz84I/vgz0ArQ==
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+
+   <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+      <md:KeyDescriptor use="signing">
+         <KeyInfo xmlns="http://www.w3.org/2000/09/xmldsig#">
+            <X509Data>
+               <X509Certificate>
+                  MIIE1DCCA7ygAwIBAgIUUPwBlWfg8ZCk00c2bcYalnIH754wDQYJKoZIhvcNAQELBQAwgdoxCzAJBgNVBAYTAklUMQ0wCwYDVQQHDARSb21hMTYwNAYDVQQKDC1Vbml2ZXJzaXRhJyBkZWdsaSBTdHVkaSBkaSBSb21hICdUb3IgVmVyZ2F0YScxNjA0BgNVBAMMLVVuaXZlcnNpdGEnIGRlZ2xpIFN0dWRpIGRpIFJvbWEgJ1RvciBWZXJnYXRhJzEWMBQGA1UEYQwNUEE6SVQtdW5pX3JtMjE0MDIGA1UEUwwraHR0cDovL3NwaWQudW5pcm9tYTIuZXUvYWRmcy9zZXJ2aWNlcy90cnVzdDAeFw0yMjAyMjUxNjAxNDNaFw00MjAyMjAxNjAxNDNaMIHaMQswCQYDVQQGEwJJVDENMAsGA1UEBwwEUm9tYTE2MDQGA1UECgwtVW5pdmVyc2l0YScgZGVnbGkgU3R1ZGkgZGkgUm9tYSAnVG9yIFZlcmdhdGEnMTYwNAYDVQQDDC1Vbml2ZXJzaXRhJyBkZWdsaSBTdHVkaSBkaSBSb21hICdUb3IgVmVyZ2F0YScxFjAUBgNVBGEMDVBBOklULXVuaV9ybTIxNDAyBgNVBFMMK2h0dHA6Ly9zcGlkLnVuaXJvbWEyLmV1L2FkZnMvc2VydmljZXMvdHJ1c3QwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC1buFF+L4LnuM0p+zK1AwBbfDWRBzYvJxdMusv0TAScHrAv7zEr/9N+sx7i9XkLJ870JJesQxTJXKurA3SiXprQ08Jpc0gDizsnmdaCXqRGFZY8eOqw2Y/TCdYb0aFxuQj/0yNW/GEMWI58YGK/28OCQcDY1WKxfRxYBDYYLrHDolBEYR34BXLkBar5oRGhPJrsjBI/ULej8iLR64vVgBVQavA//XBFcRWaelU8mCqFFix0Kwy6Dim/sTKNbMIQDfjFo9ncXi+deSwXnRJqTzjQeM0g4w1g3T5DBrX6FnFcV3FThAIczWy7ILjdni7UZI174dsZBt2OLN7y01s7VW9AgMBAAGjgY8wgYwwHQYDVR0OBBYEFLG6MT8PcAwyrr7fNs92rSgJ+jIcMB8GA1UdIwQYMBaAFLG6MT8PcAwyrr7fNs92rSgJ+jIcMA8GA1UdEwEB/wQFMAMBAf8wOQYDVR0gBDIwMDAuBgYrTBAEAgEwJDAiBggrBgEFBQcCAjAWGhRzcGlkLXB1YmxpY3NlY3Rvci1TUDANBgkqhkiG9w0BAQsFAAOCAQEAM3E8HkxcjSEkdoTc+ny7g2piIlr8dq46rRRG2F9wAEhbDeyYTaeKtVrHfZDWwVIzjSW2YXWzK5yNmQaQaRyWNrrldLeNWmX33YrEW/hpPlM3WQEwZp3uISUhAvF2aXkMuRtnebLnKfjQbE16+/Ou5e/Jt8leogIvxurfAC0KtGJeFlXp7vPQKIr53fNKQqR6EE5k5oPv0ZuwfZE7ZpQnbxDo7M9dwJNhar/NaXFhi2AOlJlj4sP84kP1MB8LsXWL7KzofZzcV9uSKDaYzbE5mFepuVeEW3AMhdsTqHBigUMIpb+jZreecxX+KVLfl7s70wBc6AuZiCz84I/vgz0ArQ==</X509Certificate>
+            </X509Data>
+         </KeyInfo>
+      </md:KeyDescriptor>
+
+      <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://spid.uniroma2.eu/adfs/ls/"/>
+      <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.uniroma2.eu/adfs/ls/"/>
+      <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://appspid.uniroma2.eu/proxy/assertionconsumer"/>
+      <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://appspid.uniroma2.eu/proxy/logout"/>
+
+      <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+
+      <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.uniroma2.eu/adfs/ls/" index="0" isDefault="true"/>
+      <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://spid.uniroma2.eu/adfs/ls/" index="2"/>
+      <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://appspid.uniroma2.eu/proxy/assertionconsumer" index="3"/>
+
+      <md:AttributeConsumingService index="0">
+         <md:ServiceName xml:lang="it">SetMinimum</md:ServiceName>
+         <md:ServiceDescription xml:lang="it">Attributi servizio minimi</md:ServiceDescription>
+         <md:RequestedAttribute Name="fiscalNumber"/>
+      </md:AttributeConsumingService>
+      <md:AttributeConsumingService index="1">
+         <md:ServiceName xml:lang="it">SetFull</md:ServiceName>
+         <md:ServiceDescription xml:lang="it">Attributi servizio totali</md:ServiceDescription>
+         <md:RequestedAttribute Name="familyName"/>
+         <md:RequestedAttribute Name="name"/>
+         <md:RequestedAttribute Name="gender"/>
+         <md:RequestedAttribute Name="email"/>
+         <md:RequestedAttribute Name="fiscalNumber"/>
+         <md:RequestedAttribute Name="dateOfBirth"/>
+         <md:RequestedAttribute Name="placeOfBirth"/>
+         <md:RequestedAttribute Name="countyOfBirth"/>
+         <md:RequestedAttribute Name="digitalAddress"/>
+         <md:RequestedAttribute Name="mobilePhone"/>
+         <md:RequestedAttribute Name="address"/>
+         <md:RequestedAttribute Name="domicileStreetAddress"/>
+         <md:RequestedAttribute Name="domicilePostalCode"/>
+         <md:RequestedAttribute Name="domicileMunicipality"/>
+         <md:RequestedAttribute Name="domicileProvince"/>
+         <md:RequestedAttribute Name="domicileNation"/>
+      </md:AttributeConsumingService>
+      <md:AttributeConsumingService index="2">
+         <md:ServiceName xml:lang="it">Attributi anagrafici eIDAS</md:ServiceName>
+         <md:RequestedAttribute Name="fiscalNumber"/>
+         <md:RequestedAttribute Name="familyName"/>
+         <md:RequestedAttribute Name="name"/>
+         <md:RequestedAttribute Name="dateOfBirth"/>
+      </md:AttributeConsumingService>
+      <md:AttributeConsumingService index="3">
+         <md:ServiceName xml:lang="it">Attributi anagrafici eIDAS con email</md:ServiceName>
+         <md:RequestedAttribute Name="fiscalNumber"/>
+         <md:RequestedAttribute Name="familyName"/>
+         <md:RequestedAttribute Name="name"/>
+         <md:RequestedAttribute Name="dateOfBirth"/>
+         <md:RequestedAttribute Name="email"/>
+      </md:AttributeConsumingService>
+      <md:AttributeConsumingService index="4">
+         <md:ServiceName xml:lang="it">Attributi anagrafici eIDAS con email e PEC</md:ServiceName>
+         <md:RequestedAttribute Name="fiscalNumber"/>
+         <md:RequestedAttribute Name="familyName"/>
+         <md:RequestedAttribute Name="name"/>
+         <md:RequestedAttribute Name="dateOfBirth"/>
+         <md:RequestedAttribute Name="email"/>
+         <md:RequestedAttribute Name="digitalAddress"/>
+      </md:AttributeConsumingService>
+      <md:AttributeConsumingService index="5">
+         <md:ServiceName xml:lang="it">Attributi anagrafici eIDAS con numero di telefono mobile</md:ServiceName>
+         <md:RequestedAttribute Name="fiscalNumber"/>
+         <md:RequestedAttribute Name="familyName"/>
+         <md:RequestedAttribute Name="name"/>
+         <md:RequestedAttribute Name="dateOfBirth"/>
+         <md:RequestedAttribute Name="mobilePhone"/>
+      </md:AttributeConsumingService>
+      <md:AttributeConsumingService index="6">
+         <md:ServiceName xml:lang="it">Attributi anagrafici eIDAS con numero di telefono mobile ed email</md:ServiceName>
+         <md:RequestedAttribute Name="fiscalNumber"/>
+         <md:RequestedAttribute Name="familyName"/>
+         <md:RequestedAttribute Name="name"/>
+         <md:RequestedAttribute Name="dateOfBirth"/>
+         <md:RequestedAttribute Name="mobilePhone"/>
+         <md:RequestedAttribute Name="email"/>
+      </md:AttributeConsumingService>
+      <md:AttributeConsumingService index="7">
+         <md:ServiceName xml:lang="it">Attributi anagrafici eIDAS con numero di telefono mobile, email e PEC</md:ServiceName>
+         <md:RequestedAttribute Name="fiscalNumber"/>
+         <md:RequestedAttribute Name="familyName"/>
+         <md:RequestedAttribute Name="name"/>
+         <md:RequestedAttribute Name="dateOfBirth"/>
+         <md:RequestedAttribute Name="mobilePhone"/>
+         <md:RequestedAttribute Name="email"/>
+         <md:RequestedAttribute Name="digitalAddress"/>
+      </md:AttributeConsumingService>
+      <md:AttributeConsumingService index="99">
+         <md:ServiceName xml:lang="it">eIDAS Natural Person Minimum Attribute Set</md:ServiceName>
+         <md:RequestedAttribute Name="dateOfBirth"/>
+         <md:RequestedAttribute Name="familyName"/>
+         <md:RequestedAttribute Name="name"/>
+         <md:RequestedAttribute Name="spidCode"/>
+      </md:AttributeConsumingService>
+      <md:AttributeConsumingService index="100">
+         <md:ServiceName xml:lang="it">eIDAS Natural Person Full Attribute Set</md:ServiceName>
+         <md:RequestedAttribute Name="address"/>
+         <md:RequestedAttribute Name="dateOfBirth"/>
+         <md:RequestedAttribute Name="familyName"/>
+         <md:RequestedAttribute Name="gender"/>
+         <md:RequestedAttribute Name="name"/>
+         <md:RequestedAttribute Name="placeOfBirth"/>
+         <md:RequestedAttribute Name="spidCode"/>
+      </md:AttributeConsumingService>
+   </md:SPSSODescriptor>
+   <md:Organization>
+      <md:OrganizationName xml:lang="it">Universita' degli Studi di Roma 'Tor Vergata'</md:OrganizationName>
+      <md:OrganizationDisplayName xml:lang="it">Universita' degli Studi di Roma 'Tor Vergata'</md:OrganizationDisplayName>
+      <md:OrganizationURL xml:lang="it">https://web.uniroma2.it/</md:OrganizationURL>
+   </md:Organization>
+   <md:ContactPerson contactType="other">
+      <md:Extensions>
+         <spid:IPACode>uni_rm2</spid:IPACode>
+         <spid:Public/>
+      </md:Extensions>
+      <md:EmailAddress>atp-security@uniroma2.it</md:EmailAddress>
+   </md:ContactPerson>
+</md:EntityDescriptor>

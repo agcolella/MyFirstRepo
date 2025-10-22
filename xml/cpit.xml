@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" entityID="https://spid.opitreviso.it" ID="spid-php_2e53cd39accc106da8aed812b3cf6cdd1f474995275c136b0d6ab7c4f53ff13a"><ds:Signature>
+  <ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+    <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+  <ds:Reference URI="#spid-php_2e53cd39accc106da8aed812b3cf6cdd1f474995275c136b0d6ab7c4f53ff13a"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>ofbuXzsug1Iyw+RzhRNCPZ4SMENY6UcC6VkMhWNU/Us=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>nVXE2yT+5Jbh61+29d/jliyM5YSkMN0RpFRN/lvajJGr1gnt8xtpSLFT4hzaaJaVwgPUy/H7UdAjt1xuSQ5VXXl+m+zR4zPH1bJQqFqAfonc+23LCv64rcEqcCVEdJACONSxhAxXbPYgMsP0D5BZ2l7HcDR+ur85uq2EsGWsm/ntVyWkQZuz4D7ODoNLe/VvVGBCqv+lWiJW1oke1K5OxW11ETCtRrhP94fy6TMmNb/oubDAkukYcgv0t8xk2Ok8WOlE4TyS1zrxPXnOK94xwoDkcsrxNwM876zkhI44fQfQO0rkpEwkyHe05vd/mcl2TkCOFETeGbEQzl9A5iLA0KKNNNIvNdGrPtM/WllLOIW+0yIHE1qxGqMCfWxxtBppdOG71gCEKb6KrnF+xBe/uYV1mHSpIEbKzFL49yJlO6hBPkBpzkg/QxdsSG9V+PmVknFccv2iy525RkGLNqV4E8pKO7HOtPwDsJBMCdyJAhb52tNX4Km4xaSirAmvRIso</ds:SignatureValue>
+<ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIF0jCCBDqgAwIBAgIUNLNpgSi6xr+0o03ZLjx9I+z+NT8wDQYJKoZIhvcNAQELBQAwgdgxPTA7BgNVBAoMNE9yZGluZSBkZWxsZSBQcm9mZXNzaW9uaSBJbmZlcm1pZXJpc3RpY2hlIGRpIFRyZXZpc28xPTA7BgNVBAMMNE9yZGluZSBkZWxsZSBQcm9mZXNzaW9uaSBJbmZlcm1pZXJpc3RpY2hlIGRpIFRyZXZpc28xIzAhBgNVBFMMGmh0dHBzOi8vc3BpZC5vcGl0cmV2aXNvLml0MRQwEgYDVQRhDAtQQTpJVC1jaXBpdDELMAkGA1UEBhMCSVQxEDAOBgNVBAcMB1RyZXZpc28wHhcNMjQwMzA1MTQyNTQ4WhcNMjYwMzA1MTQyNTQ4WjCB2DE9MDsGA1UECgw0T3JkaW5lIGRlbGxlIFByb2Zlc3Npb25pIEluZmVybWllcmlzdGljaGUgZGkgVHJldmlzbzE9MDsGA1UEAww0T3JkaW5lIGRlbGxlIFByb2Zlc3Npb25pIEluZmVybWllcmlzdGljaGUgZGkgVHJldmlzbzEjMCEGA1UEUwwaaHR0cHM6Ly9zcGlkLm9waXRyZXZpc28uaXQxFDASBgNVBGEMC1BBOklULWNpcGl0MQswCQYDVQQGEwJJVDEQMA4GA1UEBwwHVHJldmlzbzCCAaIwDQYJKoZIhvcNAQEBBQADggGPADCCAYoCggGBALjEZPS2CBG+sIxtXwpfyp0t1mxiPBp25G42zRnWOK7qhVx/YvBElnR6GE+Y/RpWRZ64kLXjrmiP7qKZcweHaqT/dL6YiRvl2sKEo+g+ZUMcjr58HafmL7qqM0nbSxc9zYoe6dNaweTxPlKypRYwCLYahoy3pxw017E2aBIoYcuaT+9WItnmkld1R6f0JyFgpnBlimXNRnQ1ED8D1ITH0/fbOCsN1NuvMUnahvZGShHCCs/v7Drk/CetWwAeJgSncWM5xOgGtBhTRMyKaaGk3MLscgvOpWhUlA9Tqm2Tqr5bCf6xZgdIkT2S0/J2Lfkt9PiOPTBCJ+QMJX+9F+TIxbH1pfpEA3PIpHlBX489xEUr3rOKPxEzdLH20ysfokEkSPW7E3cl59bAqREdts52crMi1hgxabd4IzWKfOWNrNJQK4V+9O0wfa/Ub1eYPF82nCHxrpGopY8vhxLm6UY9yZZft3NMeK3ODb92pSokXzsTzH4V6NzTHiAnj6k2gT3dIwIDAQABo4GRMIGOMAkGA1UdEwQCMAAwDgYDVR0PAQH/BAQDAgbAMFIGA1UdIARLMEkwIAYEK0wQBjAYMBYGCCsGAQUFBwICMAoaCGFnSURjZXJ0MCUGBitMEAQCATAbMBkGCCsGAQUFBwICMA0aC2NlcnRfU1BfUHViMB0GA1UdDgQWBBSQJXBj4kG/53Zyxsq9BoAUzmRxkjANBgkqhkiG9w0BAQsFAAOCAYEAPljz/C20bWIRrYdogBVyL+3AdERvdhfFmbJSGzaTvLSSVybtJoZ9LnBkZIr0698LQqry0eNkcSzTdETdaEnL5YmsaT+tUlXwcaTCdiCi4jisYsqFzOPf2I6ACqUEIH/Kbxg2tUyygxDQ0R97qF49ZCd+wdZZX+wM2KRIGX8tmEtIWZH+0Z4V538PpwCFQhX4FT39zOGa7BxCwEFAtvjw3qIYJx0LSHRUkN1Cis8OnZGkAD+XaNwidrwMs/e5guKigmFKwo9oXW3pv6uDge3qdiAPVGbw9KjKlVuVzGpCJu3K4aOtdswZADkBnbAy9iCOOEKBDh9O4gOyMPJqbJQp+Xzcz01U5bvBkOpzRSwWs5lgBalxmVtqyPioB+qbTOCMcNvsmtpbfncVeM/E7RQAT9Q4XRS+GPLZpTC6yMGJ4SWWc1dCrjxVX2y28dRyGB8PdkAv8DOeNR3L3kle+QJ0+29Jp7O8p71JDqSlRcz9ik4Q8Ykjl+jGx4T1CZV2rj8a</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature>
+  <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true" WantAssertionsSigned="true">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIF0jCCBDqgAwIBAgIUNLNpgSi6xr+0o03ZLjx9I+z+NT8wDQYJKoZIhvcNAQELBQAwgdgxPTA7BgNVBAoMNE9yZGluZSBkZWxsZSBQcm9mZXNzaW9uaSBJbmZlcm1pZXJpc3RpY2hlIGRpIFRyZXZpc28xPTA7BgNVBAMMNE9yZGluZSBkZWxsZSBQcm9mZXNzaW9uaSBJbmZlcm1pZXJpc3RpY2hlIGRpIFRyZXZpc28xIzAhBgNVBFMMGmh0dHBzOi8vc3BpZC5vcGl0cmV2aXNvLml0MRQwEgYDVQRhDAtQQTpJVC1jaXBpdDELMAkGA1UEBhMCSVQxEDAOBgNVBAcMB1RyZXZpc28wHhcNMjQwMzA1MTQyNTQ4WhcNMjYwMzA1MTQyNTQ4WjCB2DE9MDsGA1UECgw0T3JkaW5lIGRlbGxlIFByb2Zlc3Npb25pIEluZmVybWllcmlzdGljaGUgZGkgVHJldmlzbzE9MDsGA1UEAww0T3JkaW5lIGRlbGxlIFByb2Zlc3Npb25pIEluZmVybWllcmlzdGljaGUgZGkgVHJldmlzbzEjMCEGA1UEUwwaaHR0cHM6Ly9zcGlkLm9waXRyZXZpc28uaXQxFDASBgNVBGEMC1BBOklULWNpcGl0MQswCQYDVQQGEwJJVDEQMA4GA1UEBwwHVHJldmlzbzCCAaIwDQYJKoZIhvcNAQEBBQADggGPADCCAYoCggGBALjEZPS2CBG+sIxtXwpfyp0t1mxiPBp25G42zRnWOK7qhVx/YvBElnR6GE+Y/RpWRZ64kLXjrmiP7qKZcweHaqT/dL6YiRvl2sKEo+g+ZUMcjr58HafmL7qqM0nbSxc9zYoe6dNaweTxPlKypRYwCLYahoy3pxw017E2aBIoYcuaT+9WItnmkld1R6f0JyFgpnBlimXNRnQ1ED8D1ITH0/fbOCsN1NuvMUnahvZGShHCCs/v7Drk/CetWwAeJgSncWM5xOgGtBhTRMyKaaGk3MLscgvOpWhUlA9Tqm2Tqr5bCf6xZgdIkT2S0/J2Lfkt9PiOPTBCJ+QMJX+9F+TIxbH1pfpEA3PIpHlBX489xEUr3rOKPxEzdLH20ysfokEkSPW7E3cl59bAqREdts52crMi1hgxabd4IzWKfOWNrNJQK4V+9O0wfa/Ub1eYPF82nCHxrpGopY8vhxLm6UY9yZZft3NMeK3ODb92pSokXzsTzH4V6NzTHiAnj6k2gT3dIwIDAQABo4GRMIGOMAkGA1UdEwQCMAAwDgYDVR0PAQH/BAQDAgbAMFIGA1UdIARLMEkwIAYEK0wQBjAYMBYGCCsGAQUFBwICMAoaCGFnSURjZXJ0MCUGBitMEAQCATAbMBkGCCsGAQUFBwICMA0aC2NlcnRfU1BfUHViMB0GA1UdDgQWBBSQJXBj4kG/53Zyxsq9BoAUzmRxkjANBgkqhkiG9w0BAQsFAAOCAYEAPljz/C20bWIRrYdogBVyL+3AdERvdhfFmbJSGzaTvLSSVybtJoZ9LnBkZIr0698LQqry0eNkcSzTdETdaEnL5YmsaT+tUlXwcaTCdiCi4jisYsqFzOPf2I6ACqUEIH/Kbxg2tUyygxDQ0R97qF49ZCd+wdZZX+wM2KRIGX8tmEtIWZH+0Z4V538PpwCFQhX4FT39zOGa7BxCwEFAtvjw3qIYJx0LSHRUkN1Cis8OnZGkAD+XaNwidrwMs/e5guKigmFKwo9oXW3pv6uDge3qdiAPVGbw9KjKlVuVzGpCJu3K4aOtdswZADkBnbAy9iCOOEKBDh9O4gOyMPJqbJQp+Xzcz01U5bvBkOpzRSwWs5lgBalxmVtqyPioB+qbTOCMcNvsmtpbfncVeM/E7RQAT9Q4XRS+GPLZpTC6yMGJ4SWWc1dCrjxVX2y28dRyGB8PdkAv8DOeNR3L3kle+QJ0+29Jp7O8p71JDqSlRcz9ik4Q8Ykjl+jGx4T1CZV2rj8a</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIF0jCCBDqgAwIBAgIUNLNpgSi6xr+0o03ZLjx9I+z+NT8wDQYJKoZIhvcNAQELBQAwgdgxPTA7BgNVBAoMNE9yZGluZSBkZWxsZSBQcm9mZXNzaW9uaSBJbmZlcm1pZXJpc3RpY2hlIGRpIFRyZXZpc28xPTA7BgNVBAMMNE9yZGluZSBkZWxsZSBQcm9mZXNzaW9uaSBJbmZlcm1pZXJpc3RpY2hlIGRpIFRyZXZpc28xIzAhBgNVBFMMGmh0dHBzOi8vc3BpZC5vcGl0cmV2aXNvLml0MRQwEgYDVQRhDAtQQTpJVC1jaXBpdDELMAkGA1UEBhMCSVQxEDAOBgNVBAcMB1RyZXZpc28wHhcNMjQwMzA1MTQyNTQ4WhcNMjYwMzA1MTQyNTQ4WjCB2DE9MDsGA1UECgw0T3JkaW5lIGRlbGxlIFByb2Zlc3Npb25pIEluZmVybWllcmlzdGljaGUgZGkgVHJldmlzbzE9MDsGA1UEAww0T3JkaW5lIGRlbGxlIFByb2Zlc3Npb25pIEluZmVybWllcmlzdGljaGUgZGkgVHJldmlzbzEjMCEGA1UEUwwaaHR0cHM6Ly9zcGlkLm9waXRyZXZpc28uaXQxFDASBgNVBGEMC1BBOklULWNpcGl0MQswCQYDVQQGEwJJVDEQMA4GA1UEBwwHVHJldmlzbzCCAaIwDQYJKoZIhvcNAQEBBQADggGPADCCAYoCggGBALjEZPS2CBG+sIxtXwpfyp0t1mxiPBp25G42zRnWOK7qhVx/YvBElnR6GE+Y/RpWRZ64kLXjrmiP7qKZcweHaqT/dL6YiRvl2sKEo+g+ZUMcjr58HafmL7qqM0nbSxc9zYoe6dNaweTxPlKypRYwCLYahoy3pxw017E2aBIoYcuaT+9WItnmkld1R6f0JyFgpnBlimXNRnQ1ED8D1ITH0/fbOCsN1NuvMUnahvZGShHCCs/v7Drk/CetWwAeJgSncWM5xOgGtBhTRMyKaaGk3MLscgvOpWhUlA9Tqm2Tqr5bCf6xZgdIkT2S0/J2Lfkt9PiOPTBCJ+QMJX+9F+TIxbH1pfpEA3PIpHlBX489xEUr3rOKPxEzdLH20ysfokEkSPW7E3cl59bAqREdts52crMi1hgxabd4IzWKfOWNrNJQK4V+9O0wfa/Ub1eYPF82nCHxrpGopY8vhxLm6UY9yZZft3NMeK3ODb92pSokXzsTzH4V6NzTHiAnj6k2gT3dIwIDAQABo4GRMIGOMAkGA1UdEwQCMAAwDgYDVR0PAQH/BAQDAgbAMFIGA1UdIARLMEkwIAYEK0wQBjAYMBYGCCsGAQUFBwICMAoaCGFnSURjZXJ0MCUGBitMEAQCATAbMBkGCCsGAQUFBwICMA0aC2NlcnRfU1BfUHViMB0GA1UdDgQWBBSQJXBj4kG/53Zyxsq9BoAUzmRxkjANBgkqhkiG9w0BAQsFAAOCAYEAPljz/C20bWIRrYdogBVyL+3AdERvdhfFmbJSGzaTvLSSVybtJoZ9LnBkZIr0698LQqry0eNkcSzTdETdaEnL5YmsaT+tUlXwcaTCdiCi4jisYsqFzOPf2I6ACqUEIH/Kbxg2tUyygxDQ0R97qF49ZCd+wdZZX+wM2KRIGX8tmEtIWZH+0Z4V538PpwCFQhX4FT39zOGa7BxCwEFAtvjw3qIYJx0LSHRUkN1Cis8OnZGkAD+XaNwidrwMs/e5guKigmFKwo9oXW3pv6uDge3qdiAPVGbw9KjKlVuVzGpCJu3K4aOtdswZADkBnbAy9iCOOEKBDh9O4gOyMPJqbJQp+Xzcz01U5bvBkOpzRSwWs5lgBalxmVtqyPioB+qbTOCMcNvsmtpbfncVeM/E7RQAT9Q4XRS+GPLZpTC6yMGJ4SWWc1dCrjxVX2y28dRyGB8PdkAv8DOeNR3L3kle+QJ0+29Jp7O8p71JDqSlRcz9ik4Q8Ykjl+jGx4T1CZV2rj8a</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://spid.opitreviso.it/opitreviso/module.php/saml/sp/saml2-logout.php/spid"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.opitreviso.it/opitreviso/module.php/saml/sp/saml2-acs.php/spid" index="0" isDefault="true"/>
+    <md:AttributeConsumingService index="77">
+      <md:ServiceName xml:lang="it">opitreviso</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">login opitreviso</md:ServiceDescription>
+      <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="registeredOffice" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="idCard" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="expirationDate" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="address" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="digitalAddress" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="domicileStreetAddress" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="domicilePostalCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="domicileMunicipality" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="domicileProvince" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="domicileNation" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Ordine delle Professioni Infermieristiche di Treviso</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Ordine delle Professioni Infermieristiche di Treviso</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.opitreviso.it</md:OrganizationURL>
+  </md:Organization>
+  <md:ContactPerson contactType="other">
+    <md:Extensions>
+      <spid:IPACode xmlns:spid="https://spid.gov.it/saml-extensions">cipit</spid:IPACode>
+      <spid:Public xmlns:spid="https://spid.gov.it/saml-extensions"/>
+    </md:Extensions>
+    <md:Company>Ordine delle Professioni Infermieristiche di Treviso</md:Company>
+    <md:EmailAddress>amministrazione@opitreviso.it</md:EmailAddress>
+    <md:TelephoneNumber>+390422305011</md:TelephoneNumber>
+  </md:ContactPerson>
+</md:EntityDescriptor>

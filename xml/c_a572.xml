@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" ID="_41760a0cb69ce22ba8ff90a05ef1c04bab555be9c213c5e2070d9e307003206d" entityID="https://servizionline.comune.bagnolodelsalento.le.it"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#_41760a0cb69ce22ba8ff90a05ef1c04bab555be9c213c5e2070d9e307003206d">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>1qUL6KTxFEfNy3MVFMSYOEQVrWKmztpPKXdL/M2giMU=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+uP8uDkL/eRF7VhejXurQoqUT06mQMRMngl6GTE6vQavjV5fCulwcuEi0iU2uekyoDhqTwIxN7Kxt
+1ghmU09HgLFRt5HoEvS63oQxIKTQdvmES7ccot0MTO8OqJGzLrtsLh/7hqBGob59R08keJrwwre8
+opdLJzjp/PUIAm3PaTFZmuYuu2ynRAh5EGJGUS/RTXKHKj91Q1wgvOf+UuztX92xz0c1OtzkPOxl
+XVnMjOnOtXyTHWxc6zvZ+AE2oO1wGNyoXSxKz4U6u72h1NwewWvXgDPUseZzkVlljiczS/4iYnCx
+RpFpoKYJNrJtrCqRaf3dXS1SYCs+CLCD6PkHMQ==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+x9A6n6bjDEdsDhQsV0M+NbVeTKDt0Wx1zGt1GOBGRsgwcsFJrA66meXISD7ud+YVurMFfDaF7yRo
+NB9UrpDgVuGLZ9ATt0gvZl4DZPpmxYgcXyAP42EL6690gML1zRF2AVd44bBFub4xVlRIYGsKvIf1
+qNCJGAhau7b9VSm5+9R15IysWiR50Kqs9exmyygRgiE0+XhZc+XqWShJPUIajCynDEHp78eL29O6
+PcpfJ4BG3cyXWyorv7UorP36qWpkSxBgQGLWStM7xT4NmVvJn3xRghjR2zPBBnmgB0ppLMHjykid
+8ZHYLWQZGz0xDM2nRnJw8YLvPoKs3/yTR2rKMQ==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIECTCCAvGgAwIBAgIJAMUD11xCn+f1MA0GCSqGSIb3DQEBCwUAMIGaMQswCQYDVQQGEwJJVDEO
+MAwGA1UECAwFSXRhbHkxHDAaBgNVBAcME0JhZ25vbG8gZGVsIFNhbGVudG8xJjAkBgNVBAoMHUNv
+bXVuZSBkaSBCYWdub2xvIGRlbCBTYWxlbnRvMTUwMwYDVQQDDCxzZXJ2aXppb25saW5lLmNvbXVu
+ZS5iYWdub2xvZGVsc2FsZW50by5sZS5pdDAeFw0yNDAyMjYxMDUwMzJaFw0zNDAyMjUxMDUwMzJa
+MIGaMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxHDAaBgNVBAcME0JhZ25vbG8gZGVsIFNh
+bGVudG8xJjAkBgNVBAoMHUNvbXVuZSBkaSBCYWdub2xvIGRlbCBTYWxlbnRvMTUwMwYDVQQDDCxz
+ZXJ2aXppb25saW5lLmNvbXVuZS5iYWdub2xvZGVsc2FsZW50by5sZS5pdDCCASIwDQYJKoZIhvcN
+AQEBBQADggEPADCCAQoCggEBAMfQOp+m4wxHbA4ULFdDPjW1Xkyg7dFsdcxrdRjgRkbIMHLBSawO
+upnlyEg+7nfmFbqzBXw2he8kaDQfVK6Q4Fbhi2fQE7dIL2ZeA2T6ZsWIHF8gD+NhC+uvdIDC9c0R
+dgFXeOGwRbm+MVZUSGBrCryH9ajQiRgIWru2/VUpufvUdeSMrFokedCqrPXsZssoEYIhNPl4WXPl
+6lkoST1CGowspwxB6e/Hi9vTuj3KXyeARt3Ml1sqK7+1KKz9+qlqZEsQYEBi1krTO8U+DZlbyZ98
+UYIY0dszwQZ5oAdKaSzB48pInfGR2C1kGRs9MQzNp0ZycPGC7z6CrN/8k0dqyjECAwEAAaNQME4w
+HQYDVR0OBBYEFEdJqVOptt8qcyK7+7BkzFI9dLpxMB8GA1UdIwQYMBaAFEdJqVOptt8qcyK7+7Bk
+zFI9dLpxMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAJhXMHcUAKtB5hTQpzD25AsG
+7jfa3aZ3mHFXUZI9hnip7scbTuyKsfOtjKPYmxzyurDOl5L1Ya3D/fFTor2GCX4L7MOvo+1p5suj
+RnVWPbWQ8KOyFCY4ip8mXvKGGqqGeN5rmoaOgcJx7DHC+kchWTzsJjO0buAcaxJ42+3FgoFEoxrs
+bOq0pvrehT2fEZAkxI9IPcjfJOJCVmQhEOTrf4RwG48+eQfka5Lo/ULcEnwLbIwEeL9Kh/pBTw2z
+WAwYDVHgJLT/oFbItOvFdaTCENO58pJZtHLXp6Kh8cEfQCy/AQlv3B2UnwbCIm8o+s2P6hy5/ttp
+k68ODVIG2QycSXY=
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIIECTCCAvGgAwIBAgIJAMUD11xCn+f1MA0GCSqGSIb3DQEBCwUAMIGaMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxHDAaBgNVBAcME0JhZ25vbG8gZGVsIFNhbGVudG8xJjAkBgNVBAoMHUNvbXVuZSBkaSBCYWdub2xvIGRlbCBTYWxlbnRvMTUwMwYDVQQDDCxzZXJ2aXppb25saW5lLmNvbXVuZS5iYWdub2xvZGVsc2FsZW50by5sZS5pdDAeFw0yNDAyMjYxMDUwMzJaFw0zNDAyMjUxMDUwMzJaMIGaMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxHDAaBgNVBAcME0JhZ25vbG8gZGVsIFNhbGVudG8xJjAkBgNVBAoMHUNvbXVuZSBkaSBCYWdub2xvIGRlbCBTYWxlbnRvMTUwMwYDVQQDDCxzZXJ2aXppb25saW5lLmNvbXVuZS5iYWdub2xvZGVsc2FsZW50by5sZS5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMfQOp+m4wxHbA4ULFdDPjW1Xkyg7dFsdcxrdRjgRkbIMHLBSawOupnlyEg+7nfmFbqzBXw2he8kaDQfVK6Q4Fbhi2fQE7dIL2ZeA2T6ZsWIHF8gD+NhC+uvdIDC9c0RdgFXeOGwRbm+MVZUSGBrCryH9ajQiRgIWru2/VUpufvUdeSMrFokedCqrPXsZssoEYIhNPl4WXPl6lkoST1CGowspwxB6e/Hi9vTuj3KXyeARt3Ml1sqK7+1KKz9+qlqZEsQYEBi1krTO8U+DZlbyZ98UYIY0dszwQZ5oAdKaSzB48pInfGR2C1kGRs9MQzNp0ZycPGC7z6CrN/8k0dqyjECAwEAAaNQME4wHQYDVR0OBBYEFEdJqVOptt8qcyK7+7BkzFI9dLpxMB8GA1UdIwQYMBaAFEdJqVOptt8qcyK7+7BkzFI9dLpxMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAJhXMHcUAKtB5hTQpzD25AsG7jfa3aZ3mHFXUZI9hnip7scbTuyKsfOtjKPYmxzyurDOl5L1Ya3D/fFTor2GCX4L7MOvo+1p5sujRnVWPbWQ8KOyFCY4ip8mXvKGGqqGeN5rmoaOgcJx7DHC+kchWTzsJjO0buAcaxJ42+3FgoFEoxrsbOq0pvrehT2fEZAkxI9IPcjfJOJCVmQhEOTrf4RwG48+eQfka5Lo/ULcEnwLbIwEeL9Kh/pBTw2zWAwYDVHgJLT/oFbItOvFdaTCENO58pJZtHLXp6Kh8cEfQCy/AQlv3B2UnwbCIm8o+s2P6hy5/ttpk68ODVIG2QycSXY=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIIECTCCAvGgAwIBAgIJAMUD11xCn+f1MA0GCSqGSIb3DQEBCwUAMIGaMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxHDAaBgNVBAcME0JhZ25vbG8gZGVsIFNhbGVudG8xJjAkBgNVBAoMHUNvbXVuZSBkaSBCYWdub2xvIGRlbCBTYWxlbnRvMTUwMwYDVQQDDCxzZXJ2aXppb25saW5lLmNvbXVuZS5iYWdub2xvZGVsc2FsZW50by5sZS5pdDAeFw0yNDAyMjYxMDUwMzJaFw0zNDAyMjUxMDUwMzJaMIGaMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxHDAaBgNVBAcME0JhZ25vbG8gZGVsIFNhbGVudG8xJjAkBgNVBAoMHUNvbXVuZSBkaSBCYWdub2xvIGRlbCBTYWxlbnRvMTUwMwYDVQQDDCxzZXJ2aXppb25saW5lLmNvbXVuZS5iYWdub2xvZGVsc2FsZW50by5sZS5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMfQOp+m4wxHbA4ULFdDPjW1Xkyg7dFsdcxrdRjgRkbIMHLBSawOupnlyEg+7nfmFbqzBXw2he8kaDQfVK6Q4Fbhi2fQE7dIL2ZeA2T6ZsWIHF8gD+NhC+uvdIDC9c0RdgFXeOGwRbm+MVZUSGBrCryH9ajQiRgIWru2/VUpufvUdeSMrFokedCqrPXsZssoEYIhNPl4WXPl6lkoST1CGowspwxB6e/Hi9vTuj3KXyeARt3Ml1sqK7+1KKz9+qlqZEsQYEBi1krTO8U+DZlbyZ98UYIY0dszwQZ5oAdKaSzB48pInfGR2C1kGRs9MQzNp0ZycPGC7z6CrN/8k0dqyjECAwEAAaNQME4wHQYDVR0OBBYEFEdJqVOptt8qcyK7+7BkzFI9dLpxMB8GA1UdIwQYMBaAFEdJqVOptt8qcyK7+7BkzFI9dLpxMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAJhXMHcUAKtB5hTQpzD25AsG7jfa3aZ3mHFXUZI9hnip7scbTuyKsfOtjKPYmxzyurDOl5L1Ya3D/fFTor2GCX4L7MOvo+1p5sujRnVWPbWQ8KOyFCY4ip8mXvKGGqqGeN5rmoaOgcJx7DHC+kchWTzsJjO0buAcaxJ42+3FgoFEoxrsbOq0pvrehT2fEZAkxI9IPcjfJOJCVmQhEOTrf4RwG48+eQfka5Lo/ULcEnwLbIwEeL9Kh/pBTw2zWAwYDVHgJLT/oFbItOvFdaTCENO58pJZtHLXp6Kh8cEfQCy/AQlv3B2UnwbCIm8o+s2P6hy5/ttpk68ODVIG2QycSXY=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://servizionline.comune.bagnolodelsalento.le.it/spid/module.php/saml/sp/saml2-logout.php/spid"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://servizionline.comune.bagnolodelsalento.le.it/spid/module.php/saml/sp/saml2-acs.php/spid" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://servizionline.comune.bagnolodelsalento.le.it/spid/module.php/saml/sp/saml2-acs.php/spid" index="1"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">Servizi online</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Servizi online</md:ServiceDescription>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Codice identificativo SPID" Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Ragione o denominazione sociale" Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Bagnolo del Salento</md:OrganizationName>
+    <md:OrganizationName xml:lang="en">Comune di Bagnolo del Salento</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Bagnolo del Salento</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Bagnolo del Salento</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.comune.bagnolodelsalento.le.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="en">https://www.comune.bagnolodelsalento.le.it</md:OrganizationURL>
+  </md:Organization>
+  <md:ContactPerson contactType="other">
+    <md:Extensions>
+      <spid:IPACode>c_a572</spid:IPACode>
+      <spid:Public/>
+    </md:Extensions>
+    <md:Company>Comune di Bagnolo del Salento</md:Company>
+    <md:EmailAddress>admin@comune.bagnolodelsalento.le.it</md:EmailAddress>
+  </md:ContactPerson>
+</md:EntityDescriptor>

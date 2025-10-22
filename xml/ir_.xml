@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" entityID="https://spid.opirimini.it" ID="spid-php_008b76a8e6f2ed02060148f575a37b3144154f233f5b89267af3f532a5386271"><ds:Signature>
+  <ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+    <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+  <ds:Reference URI="#spid-php_008b76a8e6f2ed02060148f575a37b3144154f233f5b89267af3f532a5386271"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>rH1jNggeeIFQK1aPaBnvypT5piLMB+Veqi3CY1cdPpM=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>kOuS0roZKqRbW9+AzrSYcDjLGMskHySsdx9j0dx1Joq+KQU0HALswpH2ytI/RVGBFJhG5pl5fc9f3FidOnwOxaxnhySBtHrdV2/OJ4r8cOzLgYZLgmhZQgsZExEj1lxGfjCZN7vEBlHog23N05cGwdSajBj7QRJ7yzyI1tKlRKAhBFMM57D4LO8aBvMh3EyM5OjIucrwqDy/QwtcLw1ZJBIlkYuFz7onoq27cuYNbnS9VrExkjoadY9A6fwngHlolHyXT48t3LZj7EJMi9oQ+boXQZHMbFQbsGjA2c+4eZNrFf5+NW7rAewHy8YQ3KUd9fhEqLXlMWrUIcFHPsxcHb4NNDZX7iLZ+zZbK/xI8Q06sf9u4bjE6qqcDzlVNAdHp8gV05BtdqzzpSy7MbIKAI5wD/NjoXs5RkA7mTOS8cYd43RniraOjB34c8HLXPBHkbzmlg2jPMUpqHPz3i094df8dgBdX7gVJkEFD8UlpnWWRJgO3k3+CujDviUtI866</ds:SignatureValue>
+<ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIFxjCCBC6gAwIBAgIUIx8Zuem9hcHDdRIAkrHP8Rav4LcwDQYJKoZIhvcNAQELBQAwgdIxPDA6BgNVBAoMM09yZGluZSBkZWxsZSBQcm9mZXNzaW9uaSBJbmZlcm1pZXJpc3RpY2hlIGRpIFJpbWluaTE8MDoGA1UEAwwzT3JkaW5lIGRlbGxlIFByb2Zlc3Npb25pIEluZmVybWllcmlzdGljaGUgZGkgUmltaW5pMSIwIAYDVQRTDBlodHRwczovL3NwaWQub3BpcmltaW5pLml0MRIwEAYDVQRhDAlQQTpJVC1pcl8xCzAJBgNVBAYTAklUMQ8wDQYDVQQHDAZSaW1pbmkwHhcNMjQwMzA2MTIxMTIyWhcNMjYwMzA2MTIxMTIyWjCB0jE8MDoGA1UECgwzT3JkaW5lIGRlbGxlIFByb2Zlc3Npb25pIEluZmVybWllcmlzdGljaGUgZGkgUmltaW5pMTwwOgYDVQQDDDNPcmRpbmUgZGVsbGUgUHJvZmVzc2lvbmkgSW5mZXJtaWVyaXN0aWNoZSBkaSBSaW1pbmkxIjAgBgNVBFMMGWh0dHBzOi8vc3BpZC5vcGlyaW1pbmkuaXQxEjAQBgNVBGEMCVBBOklULWlyXzELMAkGA1UEBhMCSVQxDzANBgNVBAcMBlJpbWluaTCCAaIwDQYJKoZIhvcNAQEBBQADggGPADCCAYoCggGBAKPuGbwScOEsbpdia8DmiTLglRMFIYhvmoCkL2bkOR4RuAzx7vdwZZb+jfV6pkxpKs6MjcE34oOIS3HQ/FwKu6aNcLGF/MI0s3IRRdzKXewdYsV11GY/OfgAa5Xu6Ar/BKf0atgdViLMKupDqic/L2scntfHQQN4lbVsaw/FPnqYDO0FH9HGVRubKJVw9nUDcDGTRepu47V/1WEtZMmQ+4En3MudhEcIG8Nz5LW0s8G9Q+z83v6/JQH9CnWYG6oa+08c65CpYyaMsOpQFtI2wtKilyjMfe8ROFW4Zw528si2/ue+dNazpPQt2O48clBd12zvVSRhQiPIRP/Xb3CuVvTaXcvfhCLInBBDXnJ3XUO/yG6qlff8OdaXDOCvZG2foOUU6+ZSRr+6oD0GHKBsYdetI9iT+/C8MLObhnafc4Kh5CqRhHlkv2cE3GTzXt9sGWO3GrzGti8t5E7c01lCrKIKngBm3Bcc4h3yhFs2Tx7Sv28oNEhO3zG82dtuGILOHQIDAQABo4GRMIGOMAkGA1UdEwQCMAAwDgYDVR0PAQH/BAQDAgbAMFIGA1UdIARLMEkwIAYEK0wQBjAYMBYGCCsGAQUFBwICMAoaCGFnSURjZXJ0MCUGBitMEAQCATAbMBkGCCsGAQUFBwICMA0aC2NlcnRfU1BfUHViMB0GA1UdDgQWBBRU6olGNgDgr4gniibiT5YyYgPICTANBgkqhkiG9w0BAQsFAAOCAYEAY3rFOaroZC/0OJ6E+RuwUIgQ/tchfQ2GVEQzMrtYIJBa7HvdsMxOQUlz9zZTvP/lcH8lqp+Lv1FFuCZBZsaagEYy9Irv55dD3NFqUVoLR0/TjFdW2s//dzBozBsqJFau/6386TR2yZB+KQ/fQR2xxwiRlmGW9mGgrs33fpT4KIwlCYOrgtPMdwDaXlksTAMFkgkkJp2fGA/nroR1RZ0q5YAAams4l3ikpD1VaIkGLynCI4odMCItMT/RDgTpp3AHebqPLb72g+0iPePC96kmpIsz7qR9ngrAIFnRpkVXvm1eFuBu2oLCJmWQSv1KJL3FTHV6JT/M3cwklM+OUtR+AbHq0UfgaYObr4OA9Ms8JouzpS85caIq+5xdYe9eSAKZSCmST6bFmJ6Hd+UaTc/YMFGBv+phWsscxldGwEXDGk4dkURau49RaZhkOPA3spTLQlRp87J9D+FLBr1q95BZCGatG00nBSDMq+FTAhaevxrjRH7NU7xsvFZTf6g2Oyoq</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature>
+  <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true" WantAssertionsSigned="true">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIFxjCCBC6gAwIBAgIUIx8Zuem9hcHDdRIAkrHP8Rav4LcwDQYJKoZIhvcNAQELBQAwgdIxPDA6BgNVBAoMM09yZGluZSBkZWxsZSBQcm9mZXNzaW9uaSBJbmZlcm1pZXJpc3RpY2hlIGRpIFJpbWluaTE8MDoGA1UEAwwzT3JkaW5lIGRlbGxlIFByb2Zlc3Npb25pIEluZmVybWllcmlzdGljaGUgZGkgUmltaW5pMSIwIAYDVQRTDBlodHRwczovL3NwaWQub3BpcmltaW5pLml0MRIwEAYDVQRhDAlQQTpJVC1pcl8xCzAJBgNVBAYTAklUMQ8wDQYDVQQHDAZSaW1pbmkwHhcNMjQwMzA2MTIxMTIyWhcNMjYwMzA2MTIxMTIyWjCB0jE8MDoGA1UECgwzT3JkaW5lIGRlbGxlIFByb2Zlc3Npb25pIEluZmVybWllcmlzdGljaGUgZGkgUmltaW5pMTwwOgYDVQQDDDNPcmRpbmUgZGVsbGUgUHJvZmVzc2lvbmkgSW5mZXJtaWVyaXN0aWNoZSBkaSBSaW1pbmkxIjAgBgNVBFMMGWh0dHBzOi8vc3BpZC5vcGlyaW1pbmkuaXQxEjAQBgNVBGEMCVBBOklULWlyXzELMAkGA1UEBhMCSVQxDzANBgNVBAcMBlJpbWluaTCCAaIwDQYJKoZIhvcNAQEBBQADggGPADCCAYoCggGBAKPuGbwScOEsbpdia8DmiTLglRMFIYhvmoCkL2bkOR4RuAzx7vdwZZb+jfV6pkxpKs6MjcE34oOIS3HQ/FwKu6aNcLGF/MI0s3IRRdzKXewdYsV11GY/OfgAa5Xu6Ar/BKf0atgdViLMKupDqic/L2scntfHQQN4lbVsaw/FPnqYDO0FH9HGVRubKJVw9nUDcDGTRepu47V/1WEtZMmQ+4En3MudhEcIG8Nz5LW0s8G9Q+z83v6/JQH9CnWYG6oa+08c65CpYyaMsOpQFtI2wtKilyjMfe8ROFW4Zw528si2/ue+dNazpPQt2O48clBd12zvVSRhQiPIRP/Xb3CuVvTaXcvfhCLInBBDXnJ3XUO/yG6qlff8OdaXDOCvZG2foOUU6+ZSRr+6oD0GHKBsYdetI9iT+/C8MLObhnafc4Kh5CqRhHlkv2cE3GTzXt9sGWO3GrzGti8t5E7c01lCrKIKngBm3Bcc4h3yhFs2Tx7Sv28oNEhO3zG82dtuGILOHQIDAQABo4GRMIGOMAkGA1UdEwQCMAAwDgYDVR0PAQH/BAQDAgbAMFIGA1UdIARLMEkwIAYEK0wQBjAYMBYGCCsGAQUFBwICMAoaCGFnSURjZXJ0MCUGBitMEAQCATAbMBkGCCsGAQUFBwICMA0aC2NlcnRfU1BfUHViMB0GA1UdDgQWBBRU6olGNgDgr4gniibiT5YyYgPICTANBgkqhkiG9w0BAQsFAAOCAYEAY3rFOaroZC/0OJ6E+RuwUIgQ/tchfQ2GVEQzMrtYIJBa7HvdsMxOQUlz9zZTvP/lcH8lqp+Lv1FFuCZBZsaagEYy9Irv55dD3NFqUVoLR0/TjFdW2s//dzBozBsqJFau/6386TR2yZB+KQ/fQR2xxwiRlmGW9mGgrs33fpT4KIwlCYOrgtPMdwDaXlksTAMFkgkkJp2fGA/nroR1RZ0q5YAAams4l3ikpD1VaIkGLynCI4odMCItMT/RDgTpp3AHebqPLb72g+0iPePC96kmpIsz7qR9ngrAIFnRpkVXvm1eFuBu2oLCJmWQSv1KJL3FTHV6JT/M3cwklM+OUtR+AbHq0UfgaYObr4OA9Ms8JouzpS85caIq+5xdYe9eSAKZSCmST6bFmJ6Hd+UaTc/YMFGBv+phWsscxldGwEXDGk4dkURau49RaZhkOPA3spTLQlRp87J9D+FLBr1q95BZCGatG00nBSDMq+FTAhaevxrjRH7NU7xsvFZTf6g2Oyoq</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIFxjCCBC6gAwIBAgIUIx8Zuem9hcHDdRIAkrHP8Rav4LcwDQYJKoZIhvcNAQELBQAwgdIxPDA6BgNVBAoMM09yZGluZSBkZWxsZSBQcm9mZXNzaW9uaSBJbmZlcm1pZXJpc3RpY2hlIGRpIFJpbWluaTE8MDoGA1UEAwwzT3JkaW5lIGRlbGxlIFByb2Zlc3Npb25pIEluZmVybWllcmlzdGljaGUgZGkgUmltaW5pMSIwIAYDVQRTDBlodHRwczovL3NwaWQub3BpcmltaW5pLml0MRIwEAYDVQRhDAlQQTpJVC1pcl8xCzAJBgNVBAYTAklUMQ8wDQYDVQQHDAZSaW1pbmkwHhcNMjQwMzA2MTIxMTIyWhcNMjYwMzA2MTIxMTIyWjCB0jE8MDoGA1UECgwzT3JkaW5lIGRlbGxlIFByb2Zlc3Npb25pIEluZmVybWllcmlzdGljaGUgZGkgUmltaW5pMTwwOgYDVQQDDDNPcmRpbmUgZGVsbGUgUHJvZmVzc2lvbmkgSW5mZXJtaWVyaXN0aWNoZSBkaSBSaW1pbmkxIjAgBgNVBFMMGWh0dHBzOi8vc3BpZC5vcGlyaW1pbmkuaXQxEjAQBgNVBGEMCVBBOklULWlyXzELMAkGA1UEBhMCSVQxDzANBgNVBAcMBlJpbWluaTCCAaIwDQYJKoZIhvcNAQEBBQADggGPADCCAYoCggGBAKPuGbwScOEsbpdia8DmiTLglRMFIYhvmoCkL2bkOR4RuAzx7vdwZZb+jfV6pkxpKs6MjcE34oOIS3HQ/FwKu6aNcLGF/MI0s3IRRdzKXewdYsV11GY/OfgAa5Xu6Ar/BKf0atgdViLMKupDqic/L2scntfHQQN4lbVsaw/FPnqYDO0FH9HGVRubKJVw9nUDcDGTRepu47V/1WEtZMmQ+4En3MudhEcIG8Nz5LW0s8G9Q+z83v6/JQH9CnWYG6oa+08c65CpYyaMsOpQFtI2wtKilyjMfe8ROFW4Zw528si2/ue+dNazpPQt2O48clBd12zvVSRhQiPIRP/Xb3CuVvTaXcvfhCLInBBDXnJ3XUO/yG6qlff8OdaXDOCvZG2foOUU6+ZSRr+6oD0GHKBsYdetI9iT+/C8MLObhnafc4Kh5CqRhHlkv2cE3GTzXt9sGWO3GrzGti8t5E7c01lCrKIKngBm3Bcc4h3yhFs2Tx7Sv28oNEhO3zG82dtuGILOHQIDAQABo4GRMIGOMAkGA1UdEwQCMAAwDgYDVR0PAQH/BAQDAgbAMFIGA1UdIARLMEkwIAYEK0wQBjAYMBYGCCsGAQUFBwICMAoaCGFnSURjZXJ0MCUGBitMEAQCATAbMBkGCCsGAQUFBwICMA0aC2NlcnRfU1BfUHViMB0GA1UdDgQWBBRU6olGNgDgr4gniibiT5YyYgPICTANBgkqhkiG9w0BAQsFAAOCAYEAY3rFOaroZC/0OJ6E+RuwUIgQ/tchfQ2GVEQzMrtYIJBa7HvdsMxOQUlz9zZTvP/lcH8lqp+Lv1FFuCZBZsaagEYy9Irv55dD3NFqUVoLR0/TjFdW2s//dzBozBsqJFau/6386TR2yZB+KQ/fQR2xxwiRlmGW9mGgrs33fpT4KIwlCYOrgtPMdwDaXlksTAMFkgkkJp2fGA/nroR1RZ0q5YAAams4l3ikpD1VaIkGLynCI4odMCItMT/RDgTpp3AHebqPLb72g+0iPePC96kmpIsz7qR9ngrAIFnRpkVXvm1eFuBu2oLCJmWQSv1KJL3FTHV6JT/M3cwklM+OUtR+AbHq0UfgaYObr4OA9Ms8JouzpS85caIq+5xdYe9eSAKZSCmST6bFmJ6Hd+UaTc/YMFGBv+phWsscxldGwEXDGk4dkURau49RaZhkOPA3spTLQlRp87J9D+FLBr1q95BZCGatG00nBSDMq+FTAhaevxrjRH7NU7xsvFZTf6g2Oyoq</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://spid.opirimini.it/opirn/module.php/saml/sp/saml2-logout.php/spid"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.opirimini.it/opirn/module.php/saml/sp/saml2-acs.php/spid" index="0" isDefault="true"/>
+    <md:AttributeConsumingService index="77">
+      <md:ServiceName xml:lang="it">opirn</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Login Opi Rimini</md:ServiceDescription>
+      <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="address" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="digitalAddress" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="domicileStreetAddress" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="domicilePostalCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="domicileMunicipality" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="domicileProvince" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="domicileNation" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Ordine delle Professioni Infermieristiche della Provincia di Rimini</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Ordine delle Professioni Infermieristiche della Provincia di Rimini</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.opirimini.it/</md:OrganizationURL>
+  </md:Organization>
+  <md:ContactPerson contactType="other">
+    <md:Extensions>
+      <spid:IPACode xmlns:spid="https://spid.gov.it/saml-extensions">ir_</spid:IPACode>
+      <spid:Public xmlns:spid="https://spid.gov.it/saml-extensions"/>
+    </md:Extensions>
+    <md:Company>Ordine delle Professioni Infermieristiche della Provincia di Rimini</md:Company>
+    <md:EmailAddress>segreteria@opirimini.it</md:EmailAddress>
+    <md:TelephoneNumber>+390541718916</md:TelephoneNumber>
+  </md:ContactPerson>
+</md:EntityDescriptor>

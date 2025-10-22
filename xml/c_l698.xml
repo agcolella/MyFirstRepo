@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:spid="https://spid.gov.it/saml-extensions" entityID="https://login.comune.vaudacanavese.to.it" ID="https___login_comune_vaudacanavese_to_it"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+  <ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+    <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+  <ds:Reference URI="#https___login_comune_vaudacanavese_to_it"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>pF7yxNT9HsVzHYIIl5XB53LMOhakVa3Khj0u7tm0hYw=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>bLraYWnu8WfwECdGRUjRKJncoB0hkrfNW4NAZQK4UwZWuMRaxjAWa3I0dCHJ6xjbkgRDNrmWGZYdUyU2ADweIOOxXLdbnZ3Ix2/F3/AnvLG5pJT4CHgZDP1E7fxHuO9ogaCtIaRepCJUxBkhCtxOx2tTiFcOqdAxxZmayNntJsVfjFO8b0wRkSlAScWL9XWw2k3R3YqQRMfe+OGtMnl/K5Ac9ljODIbJU+AyY5kcyhE9Iq3cb5shhqGucbDDH3cDGu0ocWw3bVEqUxbdppGlxDu0yQXUta53Gz0O5USpGEA8SYiRk4nwCd8x+QU/v3jn16MgoRhSWiZs/qRm47gQ4g==</ds:SignatureValue>
+<ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIEVDCCAzygAwIBAgIIIl4oQLmPKVUwDQYJKoZIhvcNAQELBQAwgekxIjAgBgNVBAoMGSBDb211bmUgZGkgVmF1ZGEgQ2FuYXZlc2UxFTATBgNVBGEMDFBBOklULWNfbDY5ODELMAkGA1UEBhMCSVQxGDAWBgNVBAcMDyBWYXVkYSBDYW5hdmVzZTEYMBYGA1UEAwwPIFZhdWRhIENhbmF2ZXNlMTgwNgYJKoZIhvcNAQkBFiljb211bmUudmF1ZGFjYW5hdmVzZS50b0BjZXJ0LmxlZ2FsbWFpbC5pdDExMC8GA1UEUwwoaHR0cHM6Ly9sb2dpbi5jb211bmUudmF1ZGFjYW5hdmVzZS50by5pdDAeFw0yNDAzMDExMTE4NDdaFw0yNjAzMDExMTE4NDdaMIHpMSIwIAYDVQQKDBkgQ29tdW5lIGRpIFZhdWRhIENhbmF2ZXNlMRUwEwYDVQRhDAxQQTpJVC1jX2w2OTgxCzAJBgNVBAYTAklUMRgwFgYDVQQHDA8gVmF1ZGEgQ2FuYXZlc2UxGDAWBgNVBAMMDyBWYXVkYSBDYW5hdmVzZTE4MDYGCSqGSIb3DQEJARYpY29tdW5lLnZhdWRhY2FuYXZlc2UudG9AY2VydC5sZWdhbG1haWwuaXQxMTAvBgNVBFMMKGh0dHBzOi8vbG9naW4uY29tdW5lLnZhdWRhY2FuYXZlc2UudG8uaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCwjDjEWDCR+kgquSiTgyF35QDRML7Xm1lGrh90cvfFrZNZHZBC4hme5FWDT/ppykzpLUHmSjksllxY11nFKhhT1Ci5pJzqrCBcEVGVOezznTkl+bDIevcXydSaKln6dDKkchrA/dE3Szp5TnJnlKdzyn8KtWAqyRwOD6NtcY+UpxDtNmvHI0cmwQ8vVvsxeFSG/TNrdSVVq96d+aBsct4xAwglDCVB52+Z6H5gQHBWO9ZLxFi9zCNgDvePmqPCCTC29+btjuB/lN4dicGWTQzDogV5uUFkF7K2neCzaXr31B/ZBQIpjIPd5QvRDHnE4/zEz9w6HloZi/T4PWBwrKRVAgMBAAEwDQYJKoZIhvcNAQELBQADggEBAA3dHEjhzz70hwm3wTcKxsY0zT0NrE0TzS4sGCf2h9r4urmo/sfIHTfHYWZ0EKyUwz9IaMPkq7rGoxoDeYl62O5L83paAcRowPbO9vhFUmFbfsJi/8+7jijTCHAwXkyd4ND38aBgIwDg8D4GW3GMK7CnGuc4OoZOw78l/3vaun8f6dXfDn7pUXN9YXkgBsTyA9jPd7k6GUAWmeRma4qNn9CGZIM3P7pu/OVxi4um9bJfadIrS5lvYNAZ/dUDvzyQMut0nWrZhBWijfdRAgqON442+YVuZDNS01uDMiRU8mQRboHzXyhspA4vDLAbh9abJ2PAsuCIp/lxForCo8SxN/Y=</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature>
+    <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true" WantAssertionsSigned="true">
+        <md:KeyDescriptor use="signing">
+            <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+                <ds:X509Data><ds:X509Certificate>MIIEVDCCAzygAwIBAgIIIl4oQLmPKVUwDQYJKoZIhvcNAQELBQAwgekxIjAgBgNVBAoMGSBDb211bmUgZGkgVmF1ZGEgQ2FuYXZlc2UxFTATBgNVBGEMDFBBOklULWNfbDY5ODELMAkGA1UEBhMCSVQxGDAWBgNVBAcMDyBWYXVkYSBDYW5hdmVzZTEYMBYGA1UEAwwPIFZhdWRhIENhbmF2ZXNlMTgwNgYJKoZIhvcNAQkBFiljb211bmUudmF1ZGFjYW5hdmVzZS50b0BjZXJ0LmxlZ2FsbWFpbC5pdDExMC8GA1UEUwwoaHR0cHM6Ly9sb2dpbi5jb211bmUudmF1ZGFjYW5hdmVzZS50by5pdDAeFw0yNDAzMDExMTE4NDdaFw0yNjAzMDExMTE4NDdaMIHpMSIwIAYDVQQKDBkgQ29tdW5lIGRpIFZhdWRhIENhbmF2ZXNlMRUwEwYDVQRhDAxQQTpJVC1jX2w2OTgxCzAJBgNVBAYTAklUMRgwFgYDVQQHDA8gVmF1ZGEgQ2FuYXZlc2UxGDAWBgNVBAMMDyBWYXVkYSBDYW5hdmVzZTE4MDYGCSqGSIb3DQEJARYpY29tdW5lLnZhdWRhY2FuYXZlc2UudG9AY2VydC5sZWdhbG1haWwuaXQxMTAvBgNVBFMMKGh0dHBzOi8vbG9naW4uY29tdW5lLnZhdWRhY2FuYXZlc2UudG8uaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCwjDjEWDCR+kgquSiTgyF35QDRML7Xm1lGrh90cvfFrZNZHZBC4hme5FWDT/ppykzpLUHmSjksllxY11nFKhhT1Ci5pJzqrCBcEVGVOezznTkl+bDIevcXydSaKln6dDKkchrA/dE3Szp5TnJnlKdzyn8KtWAqyRwOD6NtcY+UpxDtNmvHI0cmwQ8vVvsxeFSG/TNrdSVVq96d+aBsct4xAwglDCVB52+Z6H5gQHBWO9ZLxFi9zCNgDvePmqPCCTC29+btjuB/lN4dicGWTQzDogV5uUFkF7K2neCzaXr31B/ZBQIpjIPd5QvRDHnE4/zEz9w6HloZi/T4PWBwrKRVAgMBAAEwDQYJKoZIhvcNAQELBQADggEBAA3dHEjhzz70hwm3wTcKxsY0zT0NrE0TzS4sGCf2h9r4urmo/sfIHTfHYWZ0EKyUwz9IaMPkq7rGoxoDeYl62O5L83paAcRowPbO9vhFUmFbfsJi/8+7jijTCHAwXkyd4ND38aBgIwDg8D4GW3GMK7CnGuc4OoZOw78l/3vaun8f6dXfDn7pUXN9YXkgBsTyA9jPd7k6GUAWmeRma4qNn9CGZIM3P7pu/OVxi4um9bJfadIrS5lvYNAZ/dUDvzyQMut0nWrZhBWijfdRAgqON442+YVuZDNS01uDMiRU8mQRboHzXyhspA4vDLAbh9abJ2PAsuCIp/lxForCo8SxN/Y=</ds:X509Certificate></ds:X509Data>
+            </ds:KeyInfo>
+        </md:KeyDescriptor>
+            <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://vaudacanavese.login.opencityitalia.it/slo"/>        
+        <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+        <md:AssertionConsumerService index="0" isDefault="true" Location="https://vaudacanavese.login.opencityitalia.it/acs" Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST"/>
+        <md:AttributeConsumingService index="0">
+            <md:ServiceName xml:lang="it">Set 0</md:ServiceName>       
+            <md:RequestedAttribute Name="gender"/>
+            <md:RequestedAttribute Name="companyName"/>
+            <md:RequestedAttribute Name="registeredOffice"/>
+            <md:RequestedAttribute Name="fiscalNumber"/>
+            <md:RequestedAttribute Name="ivaCode"/>
+            <md:RequestedAttribute Name="idCard"/>
+            <md:RequestedAttribute Name="spidCode"/>
+            <md:RequestedAttribute Name="name"/>
+            <md:RequestedAttribute Name="familyName"/>
+            <md:RequestedAttribute Name="placeOfBirth"/>
+            <md:RequestedAttribute Name="countyOfBirth"/>
+            <md:RequestedAttribute Name="dateOfBirth"/>
+            <md:RequestedAttribute Name="mobilePhone"/>
+            <md:RequestedAttribute Name="email"/>
+            <md:RequestedAttribute Name="address"/>
+            <md:RequestedAttribute Name="expirationDate"/>
+            <md:RequestedAttribute Name="digitalAddress"/></md:AttributeConsumingService></md:SPSSODescriptor><md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Vauda Canavese</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Vauda Canavese</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://login.comune.vaudacanavese.to.it</md:OrganizationURL>
+</md:Organization><md:ContactPerson contactType="other"><md:Extensions><spid:IPACode>c_l698</spid:IPACode><spid:Public/><spid:FiscalCode>83002730014</spid:FiscalCode></md:Extensions><md:EmailAddress>comune.vaudacanavese.to@cert.legalmail.it</md:EmailAddress><md:TelephoneNumber>+390119243632</md:TelephoneNumber></md:ContactPerson></md:EntityDescriptor>

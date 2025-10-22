@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" entityID="https://servizi.comune.breme.pv.it" ID="spid-php_d6b6dafd26ad73e76221d4881e78fe51b8223b487bae68479215bdf1811e6481"><ds:Signature>
+  <ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+    <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+  <ds:Reference URI="#spid-php_d6b6dafd26ad73e76221d4881e78fe51b8223b487bae68479215bdf1811e6481"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>XaGOoMfRleCZHDq72f6AUpRlgPFZXddbDwxfUObYBzw=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>P6+MSEWKxuxwBiS57Rdj1tXej2c1CQpZnpFnh93gXfWgT7cbUZ2onGwVryJgfXxjlAMMSYreS6AaRUwhZmvQMOzKd0VeDQMQCW3PCeubihE/37h6nnxM5WMt+szqg3rcbLxrkgtIpGPfq95aGLdxjGbf959T7PBexxmgwC+ezpGutoAttbZCyQEKRULw8zdY3luhCRRlvkTUQFy/fsEEyHitqxV4SjKJTWQsbXFLE6wziNhs6Wbd+i1r+BAldVK+n9m57CapS28o6cwNh91eVpjuyLsP/6M66p+wsY9yx6cOOE+x/fwYDIv5id0ZaRhvlpyQtO7hE27AC5i9gvy7EaDiTlF6WAUj9myenj17TCvxu53LPkSw+d0lgrI2fwZYKRYFubBw7JWMtn/fYgNeKfU3B2zHhrZyUcTu4XwC8ab5aDxdhnbrHnCikF70MJNsjGBRI4qnz8MVIzpJPNfTk/witTCm7r40ceAsTRZ2FKY5d4v97JM8bjPY4vDC1Tmg</ds:SignatureValue>
+<ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIFKzCCA5OgAwIBAgIUQVQJzeBFZVJhNj5geXNdcOUVUNIwDQYJKoZIhvcNAQELBQAwgZUxGDAWBgNVBAoMD0NvbXVuZSBkaSBCcmVtZTEYMBYGA1UEAwwPQ29tdW5lIGRpIEJyZW1lMSswKQYDVQRTDCJodHRwczovL3NlcnZpemkuY29tdW5lLmJyZW1lLnB2Lml0MRUwEwYDVQRhDAxQQTpJVC1DX0IxNDIxCzAJBgNVBAYTAklUMQ4wDAYDVQQHDAVCcmVtZTAeFw0yNDAyMjYxNjI5NTJaFw0yNjAyMjUxNjI5NTJaMIGVMRgwFgYDVQQKDA9Db211bmUgZGkgQnJlbWUxGDAWBgNVBAMMD0NvbXVuZSBkaSBCcmVtZTErMCkGA1UEUwwiaHR0cHM6Ly9zZXJ2aXppLmNvbXVuZS5icmVtZS5wdi5pdDEVMBMGA1UEYQwMUEE6SVQtQ19CMTQyMQswCQYDVQQGEwJJVDEOMAwGA1UEBwwFQnJlbWUwggGiMA0GCSqGSIb3DQEBAQUAA4IBjwAwggGKAoIBgQDHBnoZ46hop1XbbBQTGSzrjYUkXso+WnJumz2aMmR76lBXHlyVwsVQjVcUIdFslmVFcsneKux+8NgfWszf+rFBdcWwt+Tje5DNDnn4GOhTgxMi0uyLNHU262R3zuKZNHSweE0teJn0JuUQcJ89OSB41MaiFhlxBA+silSS+YU1U7LAW3iBCU94n1AoZIAk9hCxxt0qPr3Fz5z3/xFvA614+hsAeGoITNxEtYdM/F/xBn50BzTeo27oHj4csxrxInvvxm+ViwYlutMIQB3GrC1lHE5xWve7sTyT1Fk3L7ZtjbvRaAFqObTJQ4c8jVe/qt49wocAEDfq1j+7TXyCF++bwSf9JdelVB2HNa1S6Mvp116H/1h5zvkSxsIHcUGwjJ/pYBFeQ6+pYwqRwL90g2Otk3jkvjA4yqIAsfWN0y4hlq97JZ1XbBi1NQJuWP9YAhAJpIKvWT4OCa8gKwKNJEjY5mQHT3J+qZ5cU1WwPPe+44zn7aLqJ+9ssBwSmP/PzCsCAwEAAaNxMG8wCQYDVR0TBAIwADAOBgNVHQ8BAf8EBAMCBsAwUgYDVR0gBEswSTAgBgQrTBAGMBgwFgYIKwYBBQUHAgIwChoIYWdJRGNlcnQwJQYGK0wQBAIBMBswGQYIKwYBBQUHAgIwDRoLY2VydF9TUF9QdWIwDQYJKoZIhvcNAQELBQADggGBAGEOWYIAEO6qsll+kMOxqPSUxUoyF3rRR4vWEQ5KhStkecpQbsDluAfVvebaZNF7vUpzvNPahT7M/bmRQ10pzJNzfa9JK9hduvdmvzodu93zV4Wdsv2h5k5bKD8NpEXL/8xVmCHtv1Q1ovgx0PNdX8EcfkVjmWiHTVDGNWJjAuxQQfAMbPIwKimRxhoSfNQV1RldOp7Vj1kALDqPuXJnSvF/+uuNqD4rzrAV4Jn+DkSPBHoUkhFGe7XO/W4CtXDUGv33dkLWXai4I1DlT9D4wtEEiQvgBCxb7zwQ42cDA+mLDJwlUAUVePKWxYYokc9IlcZy6JtRCrCf4lscPJsG40O+VD4f5kaF4flySacBCC70Z/9pUBJzu7OT3dhbkJJP6y0e+AxQY5Fgf2LJF8Dj6EuX56+kO/6ydb+L8iaQxqQArVgYCsdta3Qh+O4FA+YzdBS+l53eXo3rSrKap9OENYmjNk8ku83qJpIfqxgYpjMcXGvkfzx3x/tmNf429YEXyA==</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature>
+  <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true" WantAssertionsSigned="true">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIFKzCCA5OgAwIBAgIUQVQJzeBFZVJhNj5geXNdcOUVUNIwDQYJKoZIhvcNAQELBQAwgZUxGDAWBgNVBAoMD0NvbXVuZSBkaSBCcmVtZTEYMBYGA1UEAwwPQ29tdW5lIGRpIEJyZW1lMSswKQYDVQRTDCJodHRwczovL3NlcnZpemkuY29tdW5lLmJyZW1lLnB2Lml0MRUwEwYDVQRhDAxQQTpJVC1DX0IxNDIxCzAJBgNVBAYTAklUMQ4wDAYDVQQHDAVCcmVtZTAeFw0yNDAyMjYxNjI5NTJaFw0yNjAyMjUxNjI5NTJaMIGVMRgwFgYDVQQKDA9Db211bmUgZGkgQnJlbWUxGDAWBgNVBAMMD0NvbXVuZSBkaSBCcmVtZTErMCkGA1UEUwwiaHR0cHM6Ly9zZXJ2aXppLmNvbXVuZS5icmVtZS5wdi5pdDEVMBMGA1UEYQwMUEE6SVQtQ19CMTQyMQswCQYDVQQGEwJJVDEOMAwGA1UEBwwFQnJlbWUwggGiMA0GCSqGSIb3DQEBAQUAA4IBjwAwggGKAoIBgQDHBnoZ46hop1XbbBQTGSzrjYUkXso+WnJumz2aMmR76lBXHlyVwsVQjVcUIdFslmVFcsneKux+8NgfWszf+rFBdcWwt+Tje5DNDnn4GOhTgxMi0uyLNHU262R3zuKZNHSweE0teJn0JuUQcJ89OSB41MaiFhlxBA+silSS+YU1U7LAW3iBCU94n1AoZIAk9hCxxt0qPr3Fz5z3/xFvA614+hsAeGoITNxEtYdM/F/xBn50BzTeo27oHj4csxrxInvvxm+ViwYlutMIQB3GrC1lHE5xWve7sTyT1Fk3L7ZtjbvRaAFqObTJQ4c8jVe/qt49wocAEDfq1j+7TXyCF++bwSf9JdelVB2HNa1S6Mvp116H/1h5zvkSxsIHcUGwjJ/pYBFeQ6+pYwqRwL90g2Otk3jkvjA4yqIAsfWN0y4hlq97JZ1XbBi1NQJuWP9YAhAJpIKvWT4OCa8gKwKNJEjY5mQHT3J+qZ5cU1WwPPe+44zn7aLqJ+9ssBwSmP/PzCsCAwEAAaNxMG8wCQYDVR0TBAIwADAOBgNVHQ8BAf8EBAMCBsAwUgYDVR0gBEswSTAgBgQrTBAGMBgwFgYIKwYBBQUHAgIwChoIYWdJRGNlcnQwJQYGK0wQBAIBMBswGQYIKwYBBQUHAgIwDRoLY2VydF9TUF9QdWIwDQYJKoZIhvcNAQELBQADggGBAGEOWYIAEO6qsll+kMOxqPSUxUoyF3rRR4vWEQ5KhStkecpQbsDluAfVvebaZNF7vUpzvNPahT7M/bmRQ10pzJNzfa9JK9hduvdmvzodu93zV4Wdsv2h5k5bKD8NpEXL/8xVmCHtv1Q1ovgx0PNdX8EcfkVjmWiHTVDGNWJjAuxQQfAMbPIwKimRxhoSfNQV1RldOp7Vj1kALDqPuXJnSvF/+uuNqD4rzrAV4Jn+DkSPBHoUkhFGe7XO/W4CtXDUGv33dkLWXai4I1DlT9D4wtEEiQvgBCxb7zwQ42cDA+mLDJwlUAUVePKWxYYokc9IlcZy6JtRCrCf4lscPJsG40O+VD4f5kaF4flySacBCC70Z/9pUBJzu7OT3dhbkJJP6y0e+AxQY5Fgf2LJF8Dj6EuX56+kO/6ydb+L8iaQxqQArVgYCsdta3Qh+O4FA+YzdBS+l53eXo3rSrKap9OENYmjNk8ku83qJpIfqxgYpjMcXGvkfzx3x/tmNf429YEXyA==</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIFKzCCA5OgAwIBAgIUQVQJzeBFZVJhNj5geXNdcOUVUNIwDQYJKoZIhvcNAQELBQAwgZUxGDAWBgNVBAoMD0NvbXVuZSBkaSBCcmVtZTEYMBYGA1UEAwwPQ29tdW5lIGRpIEJyZW1lMSswKQYDVQRTDCJodHRwczovL3NlcnZpemkuY29tdW5lLmJyZW1lLnB2Lml0MRUwEwYDVQRhDAxQQTpJVC1DX0IxNDIxCzAJBgNVBAYTAklUMQ4wDAYDVQQHDAVCcmVtZTAeFw0yNDAyMjYxNjI5NTJaFw0yNjAyMjUxNjI5NTJaMIGVMRgwFgYDVQQKDA9Db211bmUgZGkgQnJlbWUxGDAWBgNVBAMMD0NvbXVuZSBkaSBCcmVtZTErMCkGA1UEUwwiaHR0cHM6Ly9zZXJ2aXppLmNvbXVuZS5icmVtZS5wdi5pdDEVMBMGA1UEYQwMUEE6SVQtQ19CMTQyMQswCQYDVQQGEwJJVDEOMAwGA1UEBwwFQnJlbWUwggGiMA0GCSqGSIb3DQEBAQUAA4IBjwAwggGKAoIBgQDHBnoZ46hop1XbbBQTGSzrjYUkXso+WnJumz2aMmR76lBXHlyVwsVQjVcUIdFslmVFcsneKux+8NgfWszf+rFBdcWwt+Tje5DNDnn4GOhTgxMi0uyLNHU262R3zuKZNHSweE0teJn0JuUQcJ89OSB41MaiFhlxBA+silSS+YU1U7LAW3iBCU94n1AoZIAk9hCxxt0qPr3Fz5z3/xFvA614+hsAeGoITNxEtYdM/F/xBn50BzTeo27oHj4csxrxInvvxm+ViwYlutMIQB3GrC1lHE5xWve7sTyT1Fk3L7ZtjbvRaAFqObTJQ4c8jVe/qt49wocAEDfq1j+7TXyCF++bwSf9JdelVB2HNa1S6Mvp116H/1h5zvkSxsIHcUGwjJ/pYBFeQ6+pYwqRwL90g2Otk3jkvjA4yqIAsfWN0y4hlq97JZ1XbBi1NQJuWP9YAhAJpIKvWT4OCa8gKwKNJEjY5mQHT3J+qZ5cU1WwPPe+44zn7aLqJ+9ssBwSmP/PzCsCAwEAAaNxMG8wCQYDVR0TBAIwADAOBgNVHQ8BAf8EBAMCBsAwUgYDVR0gBEswSTAgBgQrTBAGMBgwFgYIKwYBBQUHAgIwChoIYWdJRGNlcnQwJQYGK0wQBAIBMBswGQYIKwYBBQUHAgIwDRoLY2VydF9TUF9QdWIwDQYJKoZIhvcNAQELBQADggGBAGEOWYIAEO6qsll+kMOxqPSUxUoyF3rRR4vWEQ5KhStkecpQbsDluAfVvebaZNF7vUpzvNPahT7M/bmRQ10pzJNzfa9JK9hduvdmvzodu93zV4Wdsv2h5k5bKD8NpEXL/8xVmCHtv1Q1ovgx0PNdX8EcfkVjmWiHTVDGNWJjAuxQQfAMbPIwKimRxhoSfNQV1RldOp7Vj1kALDqPuXJnSvF/+uuNqD4rzrAV4Jn+DkSPBHoUkhFGe7XO/W4CtXDUGv33dkLWXai4I1DlT9D4wtEEiQvgBCxb7zwQ42cDA+mLDJwlUAUVePKWxYYokc9IlcZy6JtRCrCf4lscPJsG40O+VD4f5kaF4flySacBCC70Z/9pUBJzu7OT3dhbkJJP6y0e+AxQY5Fgf2LJF8Dj6EuX56+kO/6ydb+L8iaQxqQArVgYCsdta3Qh+O4FA+YzdBS+l53eXo3rSrKap9OENYmjNk8ku83qJpIfqxgYpjMcXGvkfzx3x/tmNf429YEXyA==</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://servizi.comune.breme.pv.it/login/module.php/saml/sp/saml2-logout.php/spid"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://servizi.comune.breme.pv.it/login/module.php/saml/sp/saml2-acs.php/spid" index="0" isDefault="true"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">Comune di Breme</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Comune di Breme</md:ServiceDescription>
+      <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="registeredOffice" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="idCard" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="expirationDate" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="address" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="digitalAddress" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="domicileStreetAddress" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="domicilePostalCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="domicileMunicipality" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="domicileProvince" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="domicileNation" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Breme</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Breme</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://servizi.comune.breme.pv.it</md:OrganizationURL>
+  </md:Organization>
+  <md:ContactPerson contactType="other">
+    <md:Extensions>
+      <spid:IPACode xmlns:spid="https://spid.gov.it/saml-extensions">C_B142</spid:IPACode>
+      <spid:Public xmlns:spid="https://spid.gov.it/saml-extensions"/>
+    </md:Extensions>
+    <md:Company>Comune di Breme</md:Company>
+    <md:EmailAddress>vigili@comunebreme.it</md:EmailAddress>
+    <md:TelephoneNumber>038477001</md:TelephoneNumber>
+  </md:ContactPerson>
+</md:EntityDescriptor>
