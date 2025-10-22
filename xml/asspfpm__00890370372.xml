@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" ID="_012e3df261d34b1f955c73c312eacbfd" entityID="https://spid.ads.it/pub-ag-lite/asspfpm"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#_012e3df261d34b1f955c73c312eacbfd">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>k2nUgqUq0uOAmWrE6BGpYnwCUZdD69cgq1xK50D3c/k=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+EGYlLy2m+1eWYjO4N3neS+1iMDXqn4e1f8MECGlGr299SiUp84CpfVTuo+pPYXT03ulr3oIMeWvh
+vDa8lDiUIC8GaoKaIf3uFsEBLzGJvApU5cCSHRd8sqAweVeZb+XdXLCGt8VQnYDzWthmbMX9t/El
+EpkLoHjBt+me0CN1N+FCaKhtlvb/xnlFSjhavwqB+EJMv8/O9pjI+WUyl546q81CZC5V/Ds+kAIR
+8QXFhWq191sAo9LxWY8RZf4XcukAgGuro50J+T3nnkG41csbRGkbT5VGHq6UoOUWHiGk2knK0s9z
+2tXxn8R7eB6jljj8FBrMaeRWCF2gg2OC8yoAZlckdJ0mCJ7xkXXWhNKNk7mQVz1L25eEQifDk3rx
+Iubw+03hYj/TTbOXeMR1Sy49xddcRRKzrYfCczzVyUqJmXqClzAeMLP3pE9ZFy86L6wlMKTEZGNx
+NKghnkqnCa9nujEO3Gps+N5xG01FgWNSvl3Xi9KGmw2GowpbTW8l4+hA
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+5d3MjJtvJcnH+9PTl/X39oDw3RkrGYWT2DWG2Rzqibnyvn54J16sXWoAiXwqpWWFLmfLRFWZ8y1S
+jzc2ysHZ7gldxIX2At5seDInUHSW4nmIOH5zP5SA2SGQSngtxkx+/ARGBetGL8qI0H5BbxnIIfpv
+BFeWnJtNwymJrb0bmmCcqywRDYfx8N5l2IH3rO46gMT3Dax3Mpx4pHtzSW/bWv8thCDotgloKw+8
+MhfmLjm1UUQR2B7ERBelphJtliwrd2glDeU4ske4j0p/josVn28QfeQagzHap/KvMfTkNHixG6iE
+UcCYhkPBx3Yk4LEBngb9W9qnq5aXFLNv2Fe7ARHdQUfDVeFgM5RJOrA9yMOVFGzrRZltZHMq4eYk
+r2XxuAiN6WXqGNhPgmkJy8MOTC6dFOtKmmrftzeGxsWqFaXRX6SjcM9k7KYda3I8AiXI/Gh9/7HE
+iQiipM2x8DtE2d+D3Qc8C/Ya+HO4B2r4G0ibVWRqtsjD6gvb+n/B6XLB
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIFDTCCA/WgAwIBAgIBRDANBgkqhkiG9w0BAQsFADCB3TELMAkGA1UEBhMCSVQxCzAJBgNVBAgM
+AkJPMRAwDgYDVQQHDAdCb2xvZ25hMSkwJwYDVQQKDCBBRFMgQXV0b21hdGVkIERhdGEgU3lzdGVt
+cyBTLnAuQTEpMCcGA1UEAwwgQURTIEF1dG9tYXRlZCBEYXRhIFN5c3RlbXMgUy5wLkExHzAdBgkq
+hkiG9w0BCQEWEHNwaWQudGVjaEBhZHMuaXQxGjAYBgNVBGEMEVZBVElULTAwODkwMzcwMzcyMRww
+GgYDVQRTDBNodHRwczovL3NwaWQuYWRzLml0MB4XDTI0MDcwNTEwMDQxMFoXDTI3MDcwNTEwMDQx
+MFowgfkxRTBDBgNVBAMMPEF6aWVuZGEgU3BlY2lhbGUgU2Vydml6aSBhbGxhIFBlcnNvbmEgZSBh
+bGxhIEZhbWlnbGlhIEZ1dHVyYTELMAkGA1UEBhMCSVQxEjAQBgNVBAcMCVBpb2x0ZWxsbzEWMBQG
+A1UEYQwNUEE6SVQtYXNzcGZwbTFFMEMGA1UECgw8QXppZW5kYSBTcGVjaWFsZSBTZXJ2aXppIGFs
+bGEgUGVyc29uYSBlIGFsbGEgRmFtaWdsaWEgRnV0dXJhMTAwLgYDVQRTDCdodHRwczovL3NwaWQu
+YWRzLml0L3B1Yi1hZy1saXRlL2Fzc3BmcG0wggGiMA0GCSqGSIb3DQEBAQUAA4IBjwAwggGKAoIB
+gQDl3cyMm28lycf709OX9ff2gPDdGSsZhZPYNYbZHOqJufK+fngnXqxdagCJfCqlZYUuZ8tEVZnz
+LVKPNzbKwdnuCV3EhfYC3mx4MidQdJbieYg4fnM/lIDZIZBKeC3GTH78BEYF60YvyojQfkFvGcgh
++m8EV5acm03DKYmtvRuaYJyrLBENh/Hw3mXYgfes7jqAxPcNrHcynHike3NJb9ta/y2EIOi2CWgr
+D7wyF+YuObVRRBHYHsREF6WmEm2WLCt3aCUN5TiyR7iPSn+OixWfbxB95BqDMdqn8q8x9OQ0eLEb
+qIRRwJiGQ8HHdiTgsQGeBv1b2qerlpcUs2/YV7sBEd1BR8NV4WAzlEk6sD3Iw5UUbOtFmW1kcyrh
+5iSvZfG4CI3pZeoY2E+CaQnLww5MLp0U60qaat+3N4bGxaoVpdFfpKNwz2Tsph1rcjwCJcj8aH3/
+scSJCKKkzbHwO0TZ34PdBzwL9hr4c7gHavgbSJtVZGq2yMPqC9v6f8HpcsECAwEAAaM6MDgwCQYD
+VR0TBAIwADAOBgNVHQ8BAf8EBAMCBsAwGwYDVR0gBBQwEjAGBgQrTBAGMAgGBitMEAQCATANBgkq
+hkiG9w0BAQsFAAOCAQEAtiym9fxznoG4w+Cf64oGhMPASBKR0A5Hk9jKOswrdeqT9l62vDUtPvRp
+Zhay4+geFk0ndotiQiIC5Ty1bg04VaxteXkEebcIqz5Y3aXzrajHCevCcfgFZbKPUaGFV26tG8UZ
+9nlcIu8lc3R3JO75rSJ3gbsHzF3HGSX+sktUBZtfDWq6/XmcsQDJI2ncmo4+Px6idZr9Sed9F00h
+nUhY8+lCtMeIzI8HeuHkX3cDAcfX4jxB/Cy/f/XPJBVhjIevfYqn8IydjbVPpEOFHYLDEfzhfUey
++j7tugU4hhqzJjenF53s/nurkdaAMn6TSNz14NpmaSdAJlKTeXIyX00bMg==
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIIFDTCCA/WgAwIBAgIBRDANBgkqhkiG9w0BAQsFADCB3TELMAkGA1UEBhMCSVQx
+CzAJBgNVBAgMAkJPMRAwDgYDVQQHDAdCb2xvZ25hMSkwJwYDVQQKDCBBRFMgQXV0
+b21hdGVkIERhdGEgU3lzdGVtcyBTLnAuQTEpMCcGA1UEAwwgQURTIEF1dG9tYXRl
+ZCBEYXRhIFN5c3RlbXMgUy5wLkExHzAdBgkqhkiG9w0BCQEWEHNwaWQudGVjaEBh
+ZHMuaXQxGjAYBgNVBGEMEVZBVElULTAwODkwMzcwMzcyMRwwGgYDVQRTDBNodHRw
+czovL3NwaWQuYWRzLml0MB4XDTI0MDcwNTEwMDQxMFoXDTI3MDcwNTEwMDQxMFow
+gfkxRTBDBgNVBAMMPEF6aWVuZGEgU3BlY2lhbGUgU2Vydml6aSBhbGxhIFBlcnNv
+bmEgZSBhbGxhIEZhbWlnbGlhIEZ1dHVyYTELMAkGA1UEBhMCSVQxEjAQBgNVBAcM
+CVBpb2x0ZWxsbzEWMBQGA1UEYQwNUEE6SVQtYXNzcGZwbTFFMEMGA1UECgw8QXpp
+ZW5kYSBTcGVjaWFsZSBTZXJ2aXppIGFsbGEgUGVyc29uYSBlIGFsbGEgRmFtaWds
+aWEgRnV0dXJhMTAwLgYDVQRTDCdodHRwczovL3NwaWQuYWRzLml0L3B1Yi1hZy1s
+aXRlL2Fzc3BmcG0wggGiMA0GCSqGSIb3DQEBAQUAA4IBjwAwggGKAoIBgQDl3cyM
+m28lycf709OX9ff2gPDdGSsZhZPYNYbZHOqJufK+fngnXqxdagCJfCqlZYUuZ8tE
+VZnzLVKPNzbKwdnuCV3EhfYC3mx4MidQdJbieYg4fnM/lIDZIZBKeC3GTH78BEYF
+60YvyojQfkFvGcgh+m8EV5acm03DKYmtvRuaYJyrLBENh/Hw3mXYgfes7jqAxPcN
+rHcynHike3NJb9ta/y2EIOi2CWgrD7wyF+YuObVRRBHYHsREF6WmEm2WLCt3aCUN
+5TiyR7iPSn+OixWfbxB95BqDMdqn8q8x9OQ0eLEbqIRRwJiGQ8HHdiTgsQGeBv1b
+2qerlpcUs2/YV7sBEd1BR8NV4WAzlEk6sD3Iw5UUbOtFmW1kcyrh5iSvZfG4CI3p
+ZeoY2E+CaQnLww5MLp0U60qaat+3N4bGxaoVpdFfpKNwz2Tsph1rcjwCJcj8aH3/
+scSJCKKkzbHwO0TZ34PdBzwL9hr4c7gHavgbSJtVZGq2yMPqC9v6f8HpcsECAwEA
+AaM6MDgwCQYDVR0TBAIwADAOBgNVHQ8BAf8EBAMCBsAwGwYDVR0gBBQwEjAGBgQr
+TBAGMAgGBitMEAQCATANBgkqhkiG9w0BAQsFAAOCAQEAtiym9fxznoG4w+Cf64oG
+hMPASBKR0A5Hk9jKOswrdeqT9l62vDUtPvRpZhay4+geFk0ndotiQiIC5Ty1bg04
+VaxteXkEebcIqz5Y3aXzrajHCevCcfgFZbKPUaGFV26tG8UZ9nlcIu8lc3R3JO75
+rSJ3gbsHzF3HGSX+sktUBZtfDWq6/XmcsQDJI2ncmo4+Px6idZr9Sed9F00hnUhY
+8+lCtMeIzI8HeuHkX3cDAcfX4jxB/Cy/f/XPJBVhjIevfYqn8IydjbVPpEOFHYLD
+EfzhfUey+j7tugU4hhqzJjenF53s/nurkdaAMn6TSNz14NpmaSdAJlKTeXIyX00b
+Mg==
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://pagopa-aziendafutura.e-pal.it/Shibboleth.sso/SLO/POST"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://pagopa-aziendafutura.e-pal.it/Shibboleth.sso/SAML2/POST" index="0" isDefault="true"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">Azienda Speciale Servizi alla Persona e alla Famiglia Futura</md:ServiceName>
+      <md:RequestedAttribute Name="spidCode"/>
+      <md:RequestedAttribute Name="name"/>
+      <md:RequestedAttribute Name="familyName"/>
+      <md:RequestedAttribute Name="fiscalNumber"/>
+      <md:RequestedAttribute Name="email"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="99">
+      <md:ServiceName xml:lang="it">eIDAS Natural Person Minimum Attribute Set</md:ServiceName>
+      <md:RequestedAttribute Name="dateOfBirth"/>
+      <md:RequestedAttribute Name="familyName"/>
+      <md:RequestedAttribute Name="name"/>
+      <md:RequestedAttribute Name="spidCode"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="100">
+      <md:ServiceName xml:lang="it">eIDAS Natural Person Full Attribute Set</md:ServiceName>
+      <md:RequestedAttribute Name="address"/>
+      <md:RequestedAttribute Name="dateOfBirth"/>
+      <md:RequestedAttribute Name="familyName"/>
+      <md:RequestedAttribute Name="gender"/>
+      <md:RequestedAttribute Name="name"/>
+      <md:RequestedAttribute Name="placeOfBirth"/>
+      <md:RequestedAttribute Name="spidCode"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Azienda Speciale Servizi alla Persona e alla Famiglia Futura</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Azienda Speciale Servizi alla Persona e alla Famiglia Futura</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.aziendafutura.org/</md:OrganizationURL>
+  </md:Organization>
+  <md:ContactPerson contactType="other" spid:entityType="spid:aggregator">
+    <md:Extensions>
+      <spid:VATNumber>IT00890370372</spid:VATNumber>
+      <spid:FiscalCode>00890370372</spid:FiscalCode>
+      <spid:PublicServicesLightAggregator/>
+    </md:Extensions>
+    <md:Company>ADS Automated Data Systems S.p.A</md:Company>
+    <md:EmailAddress>spid.tech@ads.it</md:EmailAddress>
+    <md:TelephoneNumber>+390516307411</md:TelephoneNumber>
+  </md:ContactPerson>
+  <md:ContactPerson contactType="other" spid:entityType="spid:aggregated">
+     <md:Extensions>
+        <spid:IPACode>asspfpm</spid:IPACode>
+        <spid:Public/>
+     </md:Extensions>
+     <md:Company>Azienda Speciale Servizi alla Persona e alla Famiglia Futura</md:Company>
+  </md:ContactPerson>
+</md:EntityDescriptor>
