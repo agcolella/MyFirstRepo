@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" ID="_16ab25d4a27c091b4d67f7fc0678d2eca12bfe29c8a50930d24554ce132a7612" entityID="https://castellodelmatese.halleyweb.it"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#_16ab25d4a27c091b4d67f7fc0678d2eca12bfe29c8a50930d24554ce132a7612">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>FXu35YN0GcAyzpr66ja6PmiWtQo1NIkPOJ4Nh6tqXsU=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+dGU32qRH4+6nhLVK0Bko12DGRsGVxrKSCyL2cJ6GnzfhItRGLhxhS8zQQXW4joII8NQDRy84GGwf
+ZNrZKgYVowj6+9CCKEX07Xzp4/RT/p6AXCuhL5SGBlrHinuLdacUXX7PhQVmpYTI+P4A77MFuWNL
+mckm4cv+AtElId0OEYX0+SJkAJivNA01rzqI7IUUuFty5y+TwKAb24hmdPWdGVJfFhc+FB2R1Xqm
+2M8+h50Wr3osoWh8V6jlq8XSoj6KpgZ5ANsQ6NmLMtnXyNVbn1AjwdSs8VQeXfyV540Z9B8qdG1D
+8O8Bl78N3UsB34A9QUJyIndpiq0a2icAn7WLAQ==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+1OyTDh4EY/P3t2AqV16+sLT33hUVC6FumDx/EsbZ7NG2yNs9+39CA7M7VtPu6nrpXSKMyygx3Rm0
+E3TXuDFCMLWHxfKqrI6UOuL3Idp5fSp6CFmbgNmdAQaWiQR2kPcED7HCDxXPBfyAm1x02aMxYco1
+3oMbEs7YIlpyDhkU4lpmbIE1ZRMpBKgTt9wJLpbq34y1J5uHDP1NPcGGGWXupumv+uk9BO4GG9DN
+r4NXve0mDE/QDKyHl33bbH4ra8cehRNIKImgM6Ur5zLhYePoXquaLfr8+6Q9e7MlvC/MZeyUYeeD
+XD8JjzLQQaWsF5D6qOF+PNjD7j03tB+WfcJ0TQ==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIID7TCCAtWgAwIBAgIJAN9/D3U6DaXLMA0GCSqGSIb3DQEBCwUAMIGMMQswCQYDVQQGEwJJVDEO
+MAwGA1UECAwFSXRhbHkxHDAaBgNVBAcME0Nhc3RlbGxvIGRlbCBNYXRlc2UxJjAkBgNVBAoMHUNv
+bXVuZSBkaSBDYXN0ZWxsbyBkZWwgTWF0ZXNlMScwJQYDVQQDDB5jYXN0ZWxsb2RlbG1hdGVzZS5o
+YWxsZXl3ZWIuaXQwHhcNMjQwNzAyMTUwMjQ0WhcNMzQwNzAyMTUwMjQ0WjCBjDELMAkGA1UEBhMC
+SVQxDjAMBgNVBAgMBUl0YWx5MRwwGgYDVQQHDBNDYXN0ZWxsbyBkZWwgTWF0ZXNlMSYwJAYDVQQK
+DB1Db211bmUgZGkgQ2FzdGVsbG8gZGVsIE1hdGVzZTEnMCUGA1UEAwweY2FzdGVsbG9kZWxtYXRl
+c2UuaGFsbGV5d2ViLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA1OyTDh4EY/P3
+t2AqV16+sLT33hUVC6FumDx/EsbZ7NG2yNs9+39CA7M7VtPu6nrpXSKMyygx3Rm0E3TXuDFCMLWH
+xfKqrI6UOuL3Idp5fSp6CFmbgNmdAQaWiQR2kPcED7HCDxXPBfyAm1x02aMxYco13oMbEs7YIlpy
+DhkU4lpmbIE1ZRMpBKgTt9wJLpbq34y1J5uHDP1NPcGGGWXupumv+uk9BO4GG9DNr4NXve0mDE/Q
+DKyHl33bbH4ra8cehRNIKImgM6Ur5zLhYePoXquaLfr8+6Q9e7MlvC/MZeyUYeeDXD8JjzLQQaWs
+F5D6qOF+PNjD7j03tB+WfcJ0TQIDAQABo1AwTjAdBgNVHQ4EFgQU/JdP+BUz5A2Rkj8fyDUBKjQw
+rrYwHwYDVR0jBBgwFoAU/JdP+BUz5A2Rkj8fyDUBKjQwrrYwDAYDVR0TBAUwAwEB/zANBgkqhkiG
+9w0BAQsFAAOCAQEARiS6vcOOZlrYynhbAex/6sj5zC55Diqb+RLrhqisVGXFBLGHUNUGzFATXrdT
+4x1pqpy2ABsJY6n1Sid+HPAPRFXM5rScfuOix3zcaSG8PgGftFF5sG4XnqTcMATN7N8Yp2GY9WPh
+mD8JgppoLGkQNiXIzONh/bp6jiNzBCO1vlY6O8ko99yDo3JZ/1HEc+yDmLn2hj9l8+bXF/nMTKxh
+zLpvefehqOXE4IZvfXc7niVf/gaxesqyb2SU9+09Ctlk8FYd1KkXPArlNfH2Tm+Vw2Y/bQRM5V7i
+nZfMsYrUDLhptPUEG0PJT0ii5DuTIVZxhnKBcvJwcmb2+rqT87GoAA==
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIID7TCCAtWgAwIBAgIJAN9/D3U6DaXLMA0GCSqGSIb3DQEBCwUAMIGMMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxHDAaBgNVBAcME0Nhc3RlbGxvIGRlbCBNYXRlc2UxJjAkBgNVBAoMHUNvbXVuZSBkaSBDYXN0ZWxsbyBkZWwgTWF0ZXNlMScwJQYDVQQDDB5jYXN0ZWxsb2RlbG1hdGVzZS5oYWxsZXl3ZWIuaXQwHhcNMjQwNzAyMTUwMjQ0WhcNMzQwNzAyMTUwMjQ0WjCBjDELMAkGA1UEBhMCSVQxDjAMBgNVBAgMBUl0YWx5MRwwGgYDVQQHDBNDYXN0ZWxsbyBkZWwgTWF0ZXNlMSYwJAYDVQQKDB1Db211bmUgZGkgQ2FzdGVsbG8gZGVsIE1hdGVzZTEnMCUGA1UEAwweY2FzdGVsbG9kZWxtYXRlc2UuaGFsbGV5d2ViLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA1OyTDh4EY/P3t2AqV16+sLT33hUVC6FumDx/EsbZ7NG2yNs9+39CA7M7VtPu6nrpXSKMyygx3Rm0E3TXuDFCMLWHxfKqrI6UOuL3Idp5fSp6CFmbgNmdAQaWiQR2kPcED7HCDxXPBfyAm1x02aMxYco13oMbEs7YIlpyDhkU4lpmbIE1ZRMpBKgTt9wJLpbq34y1J5uHDP1NPcGGGWXupumv+uk9BO4GG9DNr4NXve0mDE/QDKyHl33bbH4ra8cehRNIKImgM6Ur5zLhYePoXquaLfr8+6Q9e7MlvC/MZeyUYeeDXD8JjzLQQaWsF5D6qOF+PNjD7j03tB+WfcJ0TQIDAQABo1AwTjAdBgNVHQ4EFgQU/JdP+BUz5A2Rkj8fyDUBKjQwrrYwHwYDVR0jBBgwFoAU/JdP+BUz5A2Rkj8fyDUBKjQwrrYwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEARiS6vcOOZlrYynhbAex/6sj5zC55Diqb+RLrhqisVGXFBLGHUNUGzFATXrdT4x1pqpy2ABsJY6n1Sid+HPAPRFXM5rScfuOix3zcaSG8PgGftFF5sG4XnqTcMATN7N8Yp2GY9WPhmD8JgppoLGkQNiXIzONh/bp6jiNzBCO1vlY6O8ko99yDo3JZ/1HEc+yDmLn2hj9l8+bXF/nMTKxhzLpvefehqOXE4IZvfXc7niVf/gaxesqyb2SU9+09Ctlk8FYd1KkXPArlNfH2Tm+Vw2Y/bQRM5V7inZfMsYrUDLhptPUEG0PJT0ii5DuTIVZxhnKBcvJwcmb2+rqT87GoAA==</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIID7TCCAtWgAwIBAgIJAN9/D3U6DaXLMA0GCSqGSIb3DQEBCwUAMIGMMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxHDAaBgNVBAcME0Nhc3RlbGxvIGRlbCBNYXRlc2UxJjAkBgNVBAoMHUNvbXVuZSBkaSBDYXN0ZWxsbyBkZWwgTWF0ZXNlMScwJQYDVQQDDB5jYXN0ZWxsb2RlbG1hdGVzZS5oYWxsZXl3ZWIuaXQwHhcNMjQwNzAyMTUwMjQ0WhcNMzQwNzAyMTUwMjQ0WjCBjDELMAkGA1UEBhMCSVQxDjAMBgNVBAgMBUl0YWx5MRwwGgYDVQQHDBNDYXN0ZWxsbyBkZWwgTWF0ZXNlMSYwJAYDVQQKDB1Db211bmUgZGkgQ2FzdGVsbG8gZGVsIE1hdGVzZTEnMCUGA1UEAwweY2FzdGVsbG9kZWxtYXRlc2UuaGFsbGV5d2ViLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA1OyTDh4EY/P3t2AqV16+sLT33hUVC6FumDx/EsbZ7NG2yNs9+39CA7M7VtPu6nrpXSKMyygx3Rm0E3TXuDFCMLWHxfKqrI6UOuL3Idp5fSp6CFmbgNmdAQaWiQR2kPcED7HCDxXPBfyAm1x02aMxYco13oMbEs7YIlpyDhkU4lpmbIE1ZRMpBKgTt9wJLpbq34y1J5uHDP1NPcGGGWXupumv+uk9BO4GG9DNr4NXve0mDE/QDKyHl33bbH4ra8cehRNIKImgM6Ur5zLhYePoXquaLfr8+6Q9e7MlvC/MZeyUYeeDXD8JjzLQQaWsF5D6qOF+PNjD7j03tB+WfcJ0TQIDAQABo1AwTjAdBgNVHQ4EFgQU/JdP+BUz5A2Rkj8fyDUBKjQwrrYwHwYDVR0jBBgwFoAU/JdP+BUz5A2Rkj8fyDUBKjQwrrYwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEARiS6vcOOZlrYynhbAex/6sj5zC55Diqb+RLrhqisVGXFBLGHUNUGzFATXrdT4x1pqpy2ABsJY6n1Sid+HPAPRFXM5rScfuOix3zcaSG8PgGftFF5sG4XnqTcMATN7N8Yp2GY9WPhmD8JgppoLGkQNiXIzONh/bp6jiNzBCO1vlY6O8ko99yDo3JZ/1HEc+yDmLn2hj9l8+bXF/nMTKxhzLpvefehqOXE4IZvfXc7niVf/gaxesqyb2SU9+09Ctlk8FYd1KkXPArlNfH2Tm+Vw2Y/bQRM5V7inZfMsYrUDLhptPUEG0PJT0ii5DuTIVZxhnKBcvJwcmb2+rqT87GoAA==</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://castellodelmatese.halleyweb.it/spid/module.php/saml/sp/saml2-logout.php/spid"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://castellodelmatese.halleyweb.it/spid/module.php/saml/sp/saml2-acs.php/spid" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://castellodelmatese.halleyweb.it/spid/module.php/saml/sp/saml2-acs.php/spid" index="1"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">Servizi online</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Servizi online</md:ServiceDescription>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Codice identificativo SPID" Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Ragione o denominazione sociale" Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Castello del Matese</md:OrganizationName>
+    <md:OrganizationName xml:lang="en">Comune di Castello del Matese</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Castello del Matese</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Castello del Matese</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.comune.castellodelmatese.ce.it/</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="en">https://www.comune.castellodelmatese.ce.it/</md:OrganizationURL>
+  </md:Organization>
+  <md:ContactPerson contactType="other">
+    <md:Extensions>
+      <spid:IPACode>c_c178</spid:IPACode>
+      <spid:Public/>
+    </md:Extensions>
+    <md:Company>Comune di Castello del Matese</md:Company>
+    <md:EmailAddress>egov@halley.it</md:EmailAddress>
+  </md:ContactPerson>
+</md:EntityDescriptor>

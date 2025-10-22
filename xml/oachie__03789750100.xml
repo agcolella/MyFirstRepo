@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" ID="a088bc6e-33c5-4ff2-b35b-d9c3ff9a2c9e" entityID="https://www.e-fil.it/pub-ag-full/oachie"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#a088bc6e-33c5-4ff2-b35b-d9c3ff9a2c9e">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>fc5iKLFCE/cnLZ8S+FV9x3mVyu3p/O9ehP1bAZ9K2Do=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+UZHF7jhlPNZtVF4MBxxrX3xYfRl8QX16EN9VTR4s/VQ2Paf7xItFPpJVO1uQSll4o0inLvav4wHa
+rqBQD6ZfRg/XHZihCMbXL1Jv4otlZdKJ0IUykKGN763zwwZPgjWhcfv6V+8LB6Agl4ASNRDKNCob
+RP9hYH5UDkJVGAjjPFMKXAMBwdWhrwG/sw1BLOnHd4IVAY2yilcxBrZPMp87MDW/sOTJdTqfuKg0
+z1CsxiHGnLEtotbXKssk044Lj/uWxdLUxQlgUXs0OLEPPzBp7UyXimUX6ofkM2Hw/SMbVKj+fWzu
+Y5jFsSpTpN0OMtWsOX5wCbsh8CjJtjZb5IxA9Q==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+qY4H/GWTewBiu2WSlYEBgj8A43JfVxYrWgJD3qdxocfWPPSM5E7MWIKXzXCFl+zrjeCnfeO3vg+I
+IDgN76rUKxK75XW1gvU0BEzaf7qaKNxYrvKDxKlcrzT20ZRppJ7GaMq4b5ygiFXM91bhmPkeiYGS
+I3VNgl+ZDxpMqEQuvJY1wG+iECe9p7WKVKWebj9lU4cserbIVdTT45/x0lJD+00zeuKrTQ5FQD+7
+FKjg4PThQbPIojaXwekwtZxApbz329zJsY57zomJE6phJl1gJ7+b3dN3otHMUNoGoR2KcTWy74CY
+skWOZs/wD0hbCH4QstxhHSdXH+srFN6tBkJzQw==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIH4TCCBcmgAwIBAgIIbMDMGjctYe8wDQYJKoZIhvcNAQENBQAwgeUxCzAJBgNVBAYTAklUMQ0w
+CwYDVQQHDARSb21lMSYwJAYDVQQKDB1BZ2VuemlhIHBlciBsJ0l0YWxpYSBEaWdpdGFsZTEsMCoG
+A1UECwwjU2Vydml6aW8gQWNjcmVkaXRhbWVudG8gZSBWaWdpbGFuemExKjAoBgNVBAMMIVByb2dl
+dHRvIFNQSUQgLSBTb2dnZXR0aV9wdWJibGljaTEpMCcGCSqGSIb3DQEJARYacHJvdG9jb2xsb0Bw
+ZWMuYWdpZC5nb3YuaXQxGjAYBgNVBAUTEVZBVElULTk3NzM1MDIwNTg0MB4XDTIxMDkxNTAwMDAw
+MFoXDTM2MDkxNDIzNTk1OVowgaIxCzAJBgNVBAYTAklUMQswCQYDVQQIDAJSTTENMAsGA1UEBwwE
+Um9tYTEOMAwGA1UECgwFRS1GSUwxFTATBgNVBAsMDEUtRklMIFMuUi5MLjEVMBMGA1UEAwwMRS1G
+SUwgUy5SLkwuMRowGAYDVQRhDBFWQVRJVC0wMzc4OTc1MDEwMDEdMBsGA1UEUwwUaHR0cHM6Ly93
+d3cuZS1maWwuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCpjgf8ZZN7AGK7ZZKV
+gQGCPwDjcl9XFitaAkPep3Ghx9Y89IzkTsxYgpfNcIWX7OuN4Kd947e+D4ggOA3vqtQrErvldbWC
+9TQETNp/upoo3Fiu8oPEqVyvNPbRlGmknsZoyrhvnKCIVcz3VuGY+R6JgZIjdU2CX5kPGkyoRC68
+ljXAb6IQJ72ntYpUpZ5uP2VThyx6tshV1NPjn/HSUkP7TTN64qtNDkVAP7sUqODg9OFBs8iiNpfB
+6TC1nEClvPfb3MmxjnvOiYkTqmEmXWAnv5vd03ei0cxQ2gahHYpxNbLvgJiyRY5mz/APSFsIfhCy
+3GEdJ1cf6ysU3q0GQnNDAgMBAAGjggLUMIIC0DAMBgNVHRMBAf8EAjAAMB0GA1UdDgQWBBRKUCpu
+F1YOLaPUB3lqAjXk+HWScTAfBgNVHSMEGDAWgBQ8u23rHv2dbsvuVObqOdWJoEfXNDAOBgNVHQ8B
+Af8EBAMCBsAwFgYDVR0SBA8wDYILc3BpZC5nb3YuaXQwQgYDVR0fBDswOTA3oDWgM4YxaHR0cHM6
+Ly9laWRhcy5hZ2lkLmdvdi5pdC9jcmwvY3JsX1NQSURfUHViX1NBLmNybDA3BggrBgEFBQcBAQQr
+MCkwJwYIKwYBBQUHMAGGG2h0dHBzOi8vb2NzcF9TQS5hZ2lkLmdvdi5pdDCCAdkGA1UdIASCAdAw
+ggHMMAkGBwQAjkYBBgIwgZUGBCtMEAYwgYwwRAYIKwYBBQUHAgIwOBo2RWxlY3Ryb25pYyBjZXJ0
+aWZpY2F0ZSBjb25mb3JtaW5nIHdpdGggQUdJRCBHdWlkZWxpbmVzMEQGCCsGAQUFBwICMDgaNkNl
+cnRpZmljYXRvIGVsZXR0cm9uaWNvIGNvbmZvcm1lIGFsbGUgTGluZWUgZ3VpZGEgQWdJRDB9BgYr
+TBAEAgIwczA6BggrBgEFBQcCAjAuGixTUElEOiBhZ2dyZWdhdG9yZSAnZnVsbCcgZGkgc2Vydml6
+aSBwdWJibGljaTA1BggrBgEFBQcCAjApGidTUElEOiBwdWJsaWMtc2VydmljZXMgJ2Z1bGwnIEFn
+Z3JlZ2F0b3IwCAYGBACPegEDME0GBCtMEAQwRTBDBggrBgEFBQcCARY3aHR0cHM6Ly9laWRhcy5h
+Z2lkLmdvdi5pdC9jcHMvQWdJRF9lSURBU19yb290Q0FfY3BzLnBkZjBPBgYEAI5GAQUwRTBDBggr
+BgEFBQcCARY3aHR0cHM6Ly9laWRhcy5hZ2lkLmdvdi5pdC9jcHMvQWdJRF9lSURBU19yb290Q0Ff
+Y3BzLnBkZjANBgkqhkiG9w0BAQ0FAAOCAgEAO9XfbJaLZEb7P7U+yJyE7mIuNsYJGSf18XzG/7sn
+C4POvFLhYOP/IAw/nrKPkXU5z6KH1NCnoKwS/8SxJbpXxU4gn29U4NFlaDYYat9LYXu/a0g75Den
+AsOtNsYH6Qx/iiPk+Ksehly+tBjMOj6EWqQmr+0I8EI5DUgIMCLbiUD0U5yAGMt8lKFlUw6SClEe
+ppp615autplBNWyUNEOVTnu+z2t+uP5midU9JRWm0HRsUOoHATa6zKE7o74fzDCebvJRXJQtH1Cf
+SYprddOg8tcxqrsUY7a0m9FH/no98fmquUwgY9CWnM7byYHAMdKOhGTqLW/TGSuhBNgYnm7mS6RS
+sB/jhC2n5eh2JYYbBw5ku/Vxkwqqt70s5V0zDIYVb5pZ1IYhgUBVuE0WYmLK8SL7FhPEilp4ZRfo
++J3YCs4zd/ncloQhdma+VksA/C06wldIRcVplrcYfJAKTUphoVC0b7o3uh9UR68FzUrdID6qWu0Z
+sQcVuPp3yu++8KpNnYGEdntKS1Kay4VeZB4ZR3qVvz0YP89c+Ia1ht0Q5KnV49BzyXjbZOeGtmnA
+TXZGdKmZCB1UZi1n2q0wPCGCbo/iZxqzLgAbZyYTKxzLgbKnhllUw7yE24F8C9EW0Ad3WgTvQB2j
+inV2kz2IRS9ixUd/8XwEWKVPa6id/0Et5Y4=
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIIGQjCCBCqgAwIBAgIJAMoxORfdEIvfMA0GCSqGSIb3DQEBCwUAMIG1MQswCQYD
+                              VQQGEwJJVDENMAsGA1UECAwEUm9tYTEZMBcGA1UEBwwQQXJjaGl0ZXR0aUNoaWV0
+                              aTEZMBcGA1UECgwQQXJjaGl0ZXR0aUNoaWV0aTEQMA4GA1UECwwHRGlnaXRJRDEg
+                              MB4GA1UEAwwXd3d3LmFyY2hpdGV0dGljaGlldGkuaXQxLTArBgkqhkiG9w0BCQEW
+                              Hm9hcHBjLmNoaWV0aUBhcmNoaXdvcmxkcGVjLml0IDAeFw0yNDA4MDUwODM0NTda
+                              Fw0yNzA4MDUwODM0NTdaMIG1MQswCQYDVQQGEwJJVDENMAsGA1UECAwEUm9tYTEZ
+                              MBcGA1UEBwwQQXJjaGl0ZXR0aUNoaWV0aTEZMBcGA1UECgwQQXJjaGl0ZXR0aUNo
+                              aWV0aTEQMA4GA1UECwwHRGlnaXRJRDEgMB4GA1UEAwwXd3d3LmFyY2hpdGV0dGlj
+                              aGlldGkuaXQxLTArBgkqhkiG9w0BCQEWHm9hcHBjLmNoaWV0aUBhcmNoaXdvcmxk
+                              cGVjLml0IDCCAiIwDQYJKoZIhvcNAQEBBQADggIPADCCAgoCggIBAJIzXqIYroyY
+                              DS+Wmxa3zVa0yUlOK4jVdrt/Yk1jqu5jIX7zkMr7WD5qmGshRR2V0Ji+oGIu6dWg
+                              TslZ9qGrHXoxsCr9NriGbnX23Sv6G9kFY1YZcvsXEURglaV3n9N7t2WH13qKO9Q4
+                              QvyDkQKJ7cpQwK6mklrKuro0HVnqOrcUeHYUyNdgDzyOk5yaj2KdIEfAhWvVpuqq
+                              Vn3P9eonecUMz/rhMLWOzaHVzJ2cvaEaiYJpYHUj3wC+G/6B8BUzPYs55b4J7uVh
+                              E9HSz/EBzi4A5+pKZ7/KsYp23Ic6D91bzdyhrRpb9bT3q0jEieDfRADQ8Z+XcyWh
+                              +LruRxYhXEAh2mg4SdHhGGxbQPKxoIoK+kFx7Y7o959Kk9duAKIs33ht5WcfAdTU
+                              4Zo2GQx6VptefBNvIgk2yCzQqAguJYXJk0/JeH39Rt2E3rcDk36jNw7XDyeexHLp
+                              HwYfEt/DEHrJFsognZp7jU57cy00y1KxR4nFz+6/QtrKktztzlGYm/QTMYeKsnKJ
+                              3yVPjfyZjU7cOWuGIhxx1AC9vZob2dkY4gXW9jXDqHOx902ZPryWswmJdzIVLy7P
+                              /xmtiM4/sJqoFu8D9iwpB60xhiw/j5EfSuieUm36+GZiKsCkFMn8WjEwV7x7Nagt
+                              XS9mNbMRtcLrWSPItRcozxxMEJfQ5eBlAgMBAAGjUzBRMB0GA1UdDgQWBBTbT4Gj
+                              +G80Ec/2jd/oe1U+DH/wrjAfBgNVHSMEGDAWgBTbT4Gj+G80Ec/2jd/oe1U+DH/w
+                              rjAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4ICAQA7mz+eUoW6NDgA
+                              vHhjQ3OiSJueGnKdupKUQDDa3xxvQIit869v0xQzRtz8AD5yzK595i3FzuUKNMLG
+                              fmuDiOMeuOhhrF7j4eW8Znemq/RiqIt74yztwUIdxHXK+kNtY3IGtypeYNJW4WZI
+                              8PQaI1RDQU4uF27iBgFS9DYPAx490Rt3PMTjDxxi8n6wY/zMlio/w9DWTNRIBSiC
+                              tIu+wkDNDY/10x1enbs6tIT0OW5yNG3g+Fg2wz4XBcjDY1KqPVDtzBSSOvQaujPY
+                              BB4JBQoHhiSQW3Fo9f9CTm18XXGJK7FVEZJDTlbPsKDxH7p5kUEgOFFWPYqerQBC
+                              /7xNgQtRRQGbQXpiP6PI23vDH9QKSAXY1jBxE4ucmG0akmNFrJjZOe+JxA/zi0QI
+                              G4XVk1wGPSYgF87Iy4r6SU+/7A0LjbnjwaWo8I0/pIMFdkTz/7BOE1o3ucJc5SGG
+                              eacBlO4nj06RtzSKnYK8FHLvwIWma3h5TwmH+4fmXomD5LZP+z+O8NgtsQaVTchK
+                              2Dtebc7+Tv/eNbKblk00kLkOm5xdBdXKHbUSrPWFd6m02f9UY9k+OvTNqnoUN1vi
+                              Eo2RphZJRZEvpkbR/FdQ8ttppREerVMb6VmTbPS+ujIS1jBCkqp9VWYbk99801R+
+                              KoIAqst1RRC7lvG4c/D3oq8PL1n/eg==
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://idppaproxy.plugandpay.it/spidslo/2d97efbc-f10c-454e-818c-45cd4256bde5/oachie"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://idppaproxy.plugandpay.it/spidacs/2d97efbc-f10c-454e-818c-45cd4256bde5/oachie" index="0" isDefault="true"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">Ordine Degli Architetti PPC della Provincia di Chieti</md:ServiceName>
+      <md:RequestedAttribute Name="spidCode"/>
+	  <md:RequestedAttribute Name="familyName"/>
+	  <md:RequestedAttribute Name="name"/>
+	  <md:RequestedAttribute Name="companyName"/>
+	  <md:RequestedAttribute Name="fiscalNumber"/>
+	  <md:RequestedAttribute Name="ivaCode"/>
+	  <md:RequestedAttribute Name="email"/>
+	  <md:RequestedAttribute Name="gender"/>
+	  <md:RequestedAttribute Name="placeOfBirth"/>
+	  <md:RequestedAttribute Name="countyOfBirth"/>
+	  <md:RequestedAttribute Name="dateOfBirth"/>
+    </md:AttributeConsumingService>   
+  </md:SPSSODescriptor>
+  <md:Organization>
+  	<md:OrganizationName xml:lang="it">Ordine Degli Architetti PPC della Provincia di Chieti</md:OrganizationName>
+  	<md:OrganizationDisplayName xml:lang="it">Ordine Degli Architetti PPC della Provincia di Chieti</md:OrganizationDisplayName>
+  	<md:OrganizationURL xml:lang="it">https://www.architettichieti.it</md:OrganizationURL>
+  </md:Organization>
+  <md:ContactPerson contactType="other" spid:entityType="spid:aggregator">
+  	<md:Extensions>
+  		<spid:VATNumber>IT03789750100</spid:VATNumber>
+  		<spid:FiscalCode>03789750100</spid:FiscalCode>
+  		<spid:PublicServicesFullAggregator/>
+  	</md:Extensions>
+  	<md:Company>E-fil srl</md:Company>
+  	<md:EmailAddress>segreteria@pec.e-fil.eu</md:EmailAddress>
+  	<md:TelephoneNumber>+390688805363</md:TelephoneNumber>
+  </md:ContactPerson>
+  <md:ContactPerson contactType="other" spid:entityType="spid:aggregated">
+  	<md:Extensions>
+  		<spid:IPACode>oachie</spid:IPACode>
+		<spid:Public/>
+  	</md:Extensions>
+  	<md:Company>Ordine Degli Architetti PPC della Provincia di Chieti</md:Company>
+   </md:ContactPerson>
+</md:EntityDescriptor>

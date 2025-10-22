@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" ID="_abr16rh65c35a2846z2uy286hj375846x19475ur" entityID="https://spid.geocitycloud.it/pub-ag-full/comune-salerno"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#_abr16rh65c35a2846z2uy286hj375846x19475ur">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>3DvOUDQ788Fbuy6Oop3DTNaPlrpTPukNt5vQcwZ43LM=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+C4TF3v3AOM0G+/zabFZ7aorcN+N1OefzHwSTtUezeQhGgrwbZ1dX4KE+/9u7PL+IAmkFVCK89QIF
+5KR0avm3mRj2KVd2ghJtm5o47nDIj7UZp2j3TL1yoI3B/XRvCZ4h9aY+8HXhn+vYn4cb9NRJtIj2
+BUmCOHeNXMuaQ18hQIn/MPZ3/ihX+V9HKjJLqVeysZGmd7Nwh9n4duBen9U1uQKx3T4tkCRV37Ip
+xPJ7IOp1+usDhZfqMvTFZd+mMS3Rx9XNlq2+AXr4Uv79+Uelj66C5uk/hvpfCkYkGCjvXMYIE0RP
+wWZqWymOSOspblSRqzp54LKiXzzn4QCvL3YToA==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+4pHin10CU6ADNABOQj69DrfHmigWfcBBDld+VeWHY8LtmLhQtaapSf0gp0jetVeh6UZ/1VZDwo6k
+dx2YUnq+HoXT4O7UO9ZZR7MLcULVxzb6mmcUGgM1bTdioaHkFQwC/O4segoU7eLXun5hZxH7tzjY
+kjPrxm9e2258EFORO9rUgmv45ENNKVx8ukfQf727nKFPXsS6zLQJItjIBLm1cu1b7ItH9tmCiMVF
+Jk3xC+Jmg1DQEMcN1AM3HNLDnZgvZZi5pGLxVIhnhGG5qQYkPI5ed7fHXdOFCaAJF1DPUeiH/fa6
+orf9co7StkiX8vxZJ3csnAm5S6T0Emxc9TjLEw==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIIAjCCBeqgAwIBAgIIM9mas06KTAIwDQYJKoZIhvcNAQENBQAwgeUxCzAJBgNVBAYTAklUMQ0w
+CwYDVQQHDARSb21lMSYwJAYDVQQKDB1BZ2VuemlhIHBlciBsJ0l0YWxpYSBEaWdpdGFsZTEsMCoG
+A1UECwwjU2Vydml6aW8gQWNjcmVkaXRhbWVudG8gZSBWaWdpbGFuemExKjAoBgNVBAMMIVByb2dl
+dHRvIFNQSUQgLSBTb2dnZXR0aV9wdWJibGljaTEpMCcGCSqGSIb3DQEJARYacHJvdG9jb2xsb0Bw
+ZWMuYWdpZC5nb3YuaXQxGjAYBgNVBAUTEVZBVElULTk3NzM1MDIwNTg0MB4XDTIyMTIwNjAwMDAw
+MFoXDTM3MTIwNTIzNTk1OVowgcMxEjAQBgNVBAMMCUdFT1NBRkVUWTELMAkGA1UEBhMCSVQxEDAO
+BgNVBAcMB1NBTEVSTk8xCzAJBgNVBAgMAlNBMRkwFwYDVQQKDBBHRU9TQUZFVFkgUy5SLkwuMRow
+GAYDVQRhDBFWQVRJVC0wNTY1NDQ3MDY1NjElMCMGA1UEUwwcaHR0cHM6Ly9zcGlkLmdlb2NpdHlj
+bG91ZC5pdDEjMCEGCSqGSIb3DQEJARYUaW5mb0BnZW9jaXR5Y2xvdWQuaXQwggEiMA0GCSqGSIb3
+DQEBAQUAA4IBDwAwggEKAoIBAQDikeKfXQJToAM0AE5CPr0Ot8eaKBZ9wEEOV35V5Ydjwu2YuFC1
+pqlJ/SCnSN61V6HpRn/VVkPCjqR3HZhSer4ehdPg7tQ71llHswtxQtXHNvqaZxQaAzVtN2KhoeQV
+DAL87ix6ChTt4te6fmFnEfu3ONiSM+vGb17bbnwQU5E72tSCa/jkQ00pXHy6R9B/vbucoU9exLrM
+tAki2MgEubVy7Vvsi0f22YKIxUUmTfEL4maDUNAQxw3UAzcc0sOdmC9lmLmkYvFUiGeEYbmpBiQ8
+jl53t8dd04UJoAkXUM9R6If99rqit/1yjtK2SJfy/FkndyycCblLpPQSbFz1OMsTAgMBAAGjggLU
+MIIC0DAMBgNVHRMBAf8EAjAAMB0GA1UdDgQWBBQYp3g/uBWOCO8jchNqewcZKjyR7TAfBgNVHSME
+GDAWgBQ8u23rHv2dbsvuVObqOdWJoEfXNDAOBgNVHQ8BAf8EBAMCBsAwFgYDVR0SBA8wDYILc3Bp
+ZC5nb3YuaXQwQgYDVR0fBDswOTA3oDWgM4YxaHR0cHM6Ly9laWRhcy5hZ2lkLmdvdi5pdC9jcmwv
+Y3JsX1NQSURfUHViX1NBLmNybDA3BggrBgEFBQcBAQQrMCkwJwYIKwYBBQUHMAGGG2h0dHBzOi8v
+b2NzcF9TQS5hZ2lkLmdvdi5pdDCCAdkGA1UdIASCAdAwggHMMAkGBwQAjkYBBgIwgZUGBCtMEAYw
+gYwwRAYIKwYBBQUHAgIwOBo2RWxlY3Ryb25pYyBjZXJ0aWZpY2F0ZSBjb25mb3JtaW5nIHdpdGgg
+QUdJRCBHdWlkZWxpbmVzMEQGCCsGAQUFBwICMDgaNkNlcnRpZmljYXRvIGVsZXR0cm9uaWNvIGNv
+bmZvcm1lIGFsbGUgTGluZWUgZ3VpZGEgQWdJRDB9BgYrTBAEAgIwczA6BggrBgEFBQcCAjAuGixT
+UElEOiBhZ2dyZWdhdG9yZSAnZnVsbCcgZGkgc2Vydml6aSBwdWJibGljaTA1BggrBgEFBQcCAjAp
+GidTUElEOiBwdWJsaWMtc2VydmljZXMgJ2Z1bGwnIEFnZ3JlZ2F0b3IwCAYGBACPegEDME0GBCtM
+EAQwRTBDBggrBgEFBQcCARY3aHR0cHM6Ly9laWRhcy5hZ2lkLmdvdi5pdC9jcHMvQWdJRF9lSURB
+U19yb290Q0FfY3BzLnBkZjBPBgYEAI5GAQUwRTBDBggrBgEFBQcCARY3aHR0cHM6Ly9laWRhcy5h
+Z2lkLmdvdi5pdC9jcHMvQWdJRF9lSURBU19yb290Q0FfY3BzLnBkZjANBgkqhkiG9w0BAQ0FAAOC
+AgEAfcFizvMtoF1+3MaHjONX6P3BwDC6jYcRJ/vH+NJphzKTM29BJO2p8UOtAztzq5EaX6FzlS+9
+aOdAqAHRCTUU8u1VqAM1Vs8GYeEhbhQULmc10ryy/aGupwlp1vUIKawbqVe+44guvg9feO4/DBJW
+jW+37ME8sHihPXXKcjAVmPJvVLHfNKXKhO/uWccJrVToio2MV2ST4CAz1jOb5uZbeUttZsAvCvSQ
+K+J7nAOFiPdPeGCI99tRph4FMh8kBeWogj9kp/nLQfePUxp78r7K++Crqh6uf7sPj+iBDbCU+v3V
+88oTtDpVIZlT8MvluAb5gwdlGfQna7uEHpYSN5N8mHkej+RslUdKPPbmpagIHUJYbgS7+aowZPPy
+Om4TgsgZAeJnnajT8kNiLiaKFkrFvaIirQL+YuxRx2b23Jx4IVeQ6aba4/rPIKJbFgwqBlS00192
+TIC6DAwbuQrBYN3Jhb8JjOWUzKPjf7+Mt92dqFcO94Xx+En2S0f9ERLevQc7bz63PKYEtnIn5/a1
+JOEO8jH6tSVUcleqkXKTO8mRmR/+J2PuXfdWUSIh/bFEpjE2u5ZJftEBe8VmyAsFEsiA5s5i+jz4
+jTcvI+qy9WN2Afw/fU3wIiUlaUBC+esUw3UBv6IseW+OsHxLjqItN5SFVKZGZAOaFc6t55qY5EwC
+oLQ=
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509SubjectName>emailAddress=spid@pec.geocitycloud.it,CN=spid.geocitycloud.it,OU=Spid,O=Comune,L=Geocity,C=IT</ds:X509SubjectName>
+          <ds:X509Certificate>
+            MIIIAjCCBeqgAwIBAgIIM9mas06KTAIwDQYJKoZIhvcNAQENBQAwgeUxCzAJBgNVBAYTAklUMQ0w
+CwYDVQQHDARSb21lMSYwJAYDVQQKDB1BZ2VuemlhIHBlciBsJ0l0YWxpYSBEaWdpdGFsZTEsMCoG
+A1UECwwjU2Vydml6aW8gQWNjcmVkaXRhbWVudG8gZSBWaWdpbGFuemExKjAoBgNVBAMMIVByb2dl
+dHRvIFNQSUQgLSBTb2dnZXR0aV9wdWJibGljaTEpMCcGCSqGSIb3DQEJARYacHJvdG9jb2xsb0Bw
+ZWMuYWdpZC5nb3YuaXQxGjAYBgNVBAUTEVZBVElULTk3NzM1MDIwNTg0MB4XDTIyMTIwNjAwMDAw
+MFoXDTM3MTIwNTIzNTk1OVowgcMxEjAQBgNVBAMMCUdFT1NBRkVUWTELMAkGA1UEBhMCSVQxEDAO
+BgNVBAcMB1NBTEVSTk8xCzAJBgNVBAgMAlNBMRkwFwYDVQQKDBBHRU9TQUZFVFkgUy5SLkwuMRow
+GAYDVQRhDBFWQVRJVC0wNTY1NDQ3MDY1NjElMCMGA1UEUwwcaHR0cHM6Ly9zcGlkLmdlb2NpdHlj
+bG91ZC5pdDEjMCEGCSqGSIb3DQEJARYUaW5mb0BnZW9jaXR5Y2xvdWQuaXQwggEiMA0GCSqGSIb3
+DQEBAQUAA4IBDwAwggEKAoIBAQDikeKfXQJToAM0AE5CPr0Ot8eaKBZ9wEEOV35V5Ydjwu2YuFC1
+pqlJ/SCnSN61V6HpRn/VVkPCjqR3HZhSer4ehdPg7tQ71llHswtxQtXHNvqaZxQaAzVtN2KhoeQV
+DAL87ix6ChTt4te6fmFnEfu3ONiSM+vGb17bbnwQU5E72tSCa/jkQ00pXHy6R9B/vbucoU9exLrM
+tAki2MgEubVy7Vvsi0f22YKIxUUmTfEL4maDUNAQxw3UAzcc0sOdmC9lmLmkYvFUiGeEYbmpBiQ8
+jl53t8dd04UJoAkXUM9R6If99rqit/1yjtK2SJfy/FkndyycCblLpPQSbFz1OMsTAgMBAAGjggLU
+MIIC0DAMBgNVHRMBAf8EAjAAMB0GA1UdDgQWBBQYp3g/uBWOCO8jchNqewcZKjyR7TAfBgNVHSME
+GDAWgBQ8u23rHv2dbsvuVObqOdWJoEfXNDAOBgNVHQ8BAf8EBAMCBsAwFgYDVR0SBA8wDYILc3Bp
+ZC5nb3YuaXQwQgYDVR0fBDswOTA3oDWgM4YxaHR0cHM6Ly9laWRhcy5hZ2lkLmdvdi5pdC9jcmwv
+Y3JsX1NQSURfUHViX1NBLmNybDA3BggrBgEFBQcBAQQrMCkwJwYIKwYBBQUHMAGGG2h0dHBzOi8v
+b2NzcF9TQS5hZ2lkLmdvdi5pdDCCAdkGA1UdIASCAdAwggHMMAkGBwQAjkYBBgIwgZUGBCtMEAYw
+gYwwRAYIKwYBBQUHAgIwOBo2RWxlY3Ryb25pYyBjZXJ0aWZpY2F0ZSBjb25mb3JtaW5nIHdpdGgg
+QUdJRCBHdWlkZWxpbmVzMEQGCCsGAQUFBwICMDgaNkNlcnRpZmljYXRvIGVsZXR0cm9uaWNvIGNv
+bmZvcm1lIGFsbGUgTGluZWUgZ3VpZGEgQWdJRDB9BgYrTBAEAgIwczA6BggrBgEFBQcCAjAuGixT
+UElEOiBhZ2dyZWdhdG9yZSAnZnVsbCcgZGkgc2Vydml6aSBwdWJibGljaTA1BggrBgEFBQcCAjAp
+GidTUElEOiBwdWJsaWMtc2VydmljZXMgJ2Z1bGwnIEFnZ3JlZ2F0b3IwCAYGBACPegEDME0GBCtM
+EAQwRTBDBggrBgEFBQcCARY3aHR0cHM6Ly9laWRhcy5hZ2lkLmdvdi5pdC9jcHMvQWdJRF9lSURB
+U19yb290Q0FfY3BzLnBkZjBPBgYEAI5GAQUwRTBDBggrBgEFBQcCARY3aHR0cHM6Ly9laWRhcy5h
+Z2lkLmdvdi5pdC9jcHMvQWdJRF9lSURBU19yb290Q0FfY3BzLnBkZjANBgkqhkiG9w0BAQ0FAAOC
+AgEAfcFizvMtoF1+3MaHjONX6P3BwDC6jYcRJ/vH+NJphzKTM29BJO2p8UOtAztzq5EaX6FzlS+9
+aOdAqAHRCTUU8u1VqAM1Vs8GYeEhbhQULmc10ryy/aGupwlp1vUIKawbqVe+44guvg9feO4/DBJW
+jW+37ME8sHihPXXKcjAVmPJvVLHfNKXKhO/uWccJrVToio2MV2ST4CAz1jOb5uZbeUttZsAvCvSQ
+K+J7nAOFiPdPeGCI99tRph4FMh8kBeWogj9kp/nLQfePUxp78r7K++Crqh6uf7sPj+iBDbCU+v3V
+88oTtDpVIZlT8MvluAb5gwdlGfQna7uEHpYSN5N8mHkej+RslUdKPPbmpagIHUJYbgS7+aowZPPy
+Om4TgsgZAeJnnajT8kNiLiaKFkrFvaIirQL+YuxRx2b23Jx4IVeQ6aba4/rPIKJbFgwqBlS00192
+TIC6DAwbuQrBYN3Jhb8JjOWUzKPjf7+Mt92dqFcO94Xx+En2S0f9ERLevQc7bz63PKYEtnIn5/a1
+JOEO8jH6tSVUcleqkXKTO8mRmR/+J2PuXfdWUSIh/bFEpjE2u5ZJftEBe8VmyAsFEsiA5s5i+jz4
+jTcvI+qy9WN2Afw/fU3wIiUlaUBC+esUw3UBv6IseW+OsHxLjqItN5SFVKZGZAOaFc6t55qY5EwC
+oLQ=
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.geocitycloud.it/signout-spid"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.geocitycloud.it/signin-spid" index="0" isDefault="true"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">Proprieta SPID</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Proprieta SPID</md:ServiceDescription>
+      <md:RequestedAttribute Name="spidCode"/>
+      <md:RequestedAttribute Name="name"/>
+      <md:RequestedAttribute Name="familyName"/>
+      <md:RequestedAttribute Name="fiscalNumber"/>
+      <md:RequestedAttribute Name="email"/>
+      <md:RequestedAttribute Name="dateOfBirth"/>
+      <md:RequestedAttribute Name="digitalAddress"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+	<md:Organization>
+		<md:OrganizationName xml:lang="it">Comune di Salerno</md:OrganizationName>
+		<md:OrganizationDisplayName xml:lang="it">Comune di Salerno</md:OrganizationDisplayName>
+		<md:OrganizationURL xml:lang="it">https://www.comune.salerno.it</md:OrganizationURL>
+	</md:Organization>
+	<md:ContactPerson contactType="other" spid:entityType="spid:aggregator">
+		<md:Extensions>
+			<spid:VATNumber>IT05654470656</spid:VATNumber>
+			<spid:FiscalCode>05654470656</spid:FiscalCode>
+			<spid:PublicServicesFullAggregator/>
+		</md:Extensions>
+		<md:Company>Geosafety s.r.l.</md:Company>
+		<md:EmailAddress>info@geocitycloud.it</md:EmailAddress>
+		<md:TelephoneNumber>+39089231818</md:TelephoneNumber>
+	</md:ContactPerson>
+	<md:ContactPerson contactType="other" spid:entityType="spid:aggregated">
+		<md:Extensions>
+			<spid:IPACode>c_h703</spid:IPACode>
+			<spid:Public/>
+		</md:Extensions>
+		<md:Company>Comune di Salerno</md:Company>
+	</md:ContactPerson>
+</md:EntityDescriptor>

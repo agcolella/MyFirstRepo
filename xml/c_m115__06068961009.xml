@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" ID="_0b6fc332-660f-11eb-ae93-0242ac130047" entityID="https://www.telemoney.cloud/pub-ag-full/comune-volla"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#_0b6fc332-660f-11eb-ae93-0242ac130047">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>YBysk68Y+qG4euQSD0bF8/PXqYAlO91XvfyndtVV2Zs=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+BDwHoB2UVXG1z5MlOdCFDuTcLnpriCcqCpyG48I5o1dJU4DRvDCGkeKevXSrCH8ZgyIbCZSi5+Or
+So+R3JDbpUxe/ooYdwvC++16lvC7XqrDnUpUvQ1V2tcHuequcl4z4Oa7BTY7VST5uZTVyL6nlQQa
+X44InatqzZSAc2BUNjQD3Xuw96d6vzYBCY9Opjf+BsAU5CaUmtZ+3mHuw54JkFIDfJGaK7i4ONUY
+5qbmwghOq0+bcZ/n0CTxm3ilLWRCJ1UD/iFWQxhbCUd7PK9Ue6IeUbboiVJRD3cMvLQ2vTWjgvtO
+SryCpCtc8aDWku2iFmyCKXTbaB5Z+CbLgd6IQw==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+vxLbtkIedQHUH5cUVh7p3in3/mSA08WL7Zo16fTV2Zu41FfjV4ZLXQQHodwjLYId6KZGwA25JHcd
+WvnUp43pBdOIhQxmsm7ucGfR2yRst8IzWD3ZKNWLu0f+jqYc+E7pb3yhLCQVBYb+lxotbu8l7XUj
+CbZ8YR5U7ZcqtlyvH+Ced7PBXD5HbruXqeaX3m4i3p9pI/dtnv+tKoA6ctN4gT4hd8O9USjJ5fCe
+KZeg4BvQar6QsY7ejIe+q7SBnVJEyCMpHf+j3P9xYcTlJ6tU77W3z+03N8rdsWSSKBr664iTGZ0u
+xBcERtYprcY3Wl1y6OSniLmUIEQ46SuTlgdPcQ==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIIFzCCBf+gAwIBAgIIC6aHOHpk63EwDQYJKoZIhvcNAQENBQAwgeUxCzAJBgNVBAYTAklUMQ0w
+CwYDVQQHDARSb21lMSYwJAYDVQQKDB1BZ2VuemlhIHBlciBsJ0l0YWxpYSBEaWdpdGFsZTEsMCoG
+A1UECwwjU2Vydml6aW8gQWNjcmVkaXRhbWVudG8gZSBWaWdpbGFuemExKjAoBgNVBAMMIVByb2dl
+dHRvIFNQSUQgLSBTb2dnZXR0aV9wdWJibGljaTEpMCcGCSqGSIb3DQEJARYacHJvdG9jb2xsb0Bw
+ZWMuYWdpZC5nb3YuaXQxGjAYBgNVBAUTEVZBVElULTk3NzM1MDIwNTg0MB4XDTIyMDMzMDAwMDAw
+MFoXDTM3MDMyOTIzNTk1OVowgdgxCzAJBgNVBAYTAklUMQ8wDQYDVQQIDAZJdGFsaWExETAPBgNV
+BAcMCEF2ZWxsaW5vMRgwFgYDVQQKDA9Bc3Ryb3RlbCBTLnIubC4xGDAWBgNVBAMMD3RlbGVtb25l
+eS5jbG91ZDEjMCEGCSqGSIb3DQEJARYUaW5mb0B0ZWxlbW9uZXkuY2xvdWQxGjAYBgNVBGEMEVZB
+VElULTA2MDY4OTYxMDA5MTAwLgYDVQRTDCdodHRwczovL3d3dy50ZWxlbW9uZXkuY2xvdWQvbG9n
+aW4ueGh0bWwwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC/Etu2Qh51AdQflxRWHune
+Kff+ZIDTxYvtmjXp9NXZm7jUV+NXhktdBAeh3CMtgh3opkbADbkkdx1a+dSnjekF04iFDGaybu5w
+Z9HbJGy3wjNYPdko1Yu7R/6Ophz4TulvfKEsJBUFhv6XGi1u7yXtdSMJtnxhHlTtlyq2XK8f4J53
+s8FcPkduu5ep5pfebiLen2kj922e/60qgDpy03iBPiF3w71RKMnl8J4pl6DgG9BqvpCxjt6Mh76r
+tIGdUkTIIykd/6Pc/3FhxOUnq1TvtbfP7Tc3yt2xZJIoGvrriJMZnS7EFwRG1imtxjdaXXLo5KeI
+uZQgRDjpK5OWB09xAgMBAAGjggLUMIIC0DAMBgNVHRMBAf8EAjAAMB0GA1UdDgQWBBSD8BLiETed
+NOrICEiiXPEJHbbSejAfBgNVHSMEGDAWgBQ8u23rHv2dbsvuVObqOdWJoEfXNDAOBgNVHQ8BAf8E
+BAMCBsAwFgYDVR0SBA8wDYILc3BpZC5nb3YuaXQwQgYDVR0fBDswOTA3oDWgM4YxaHR0cHM6Ly9l
+aWRhcy5hZ2lkLmdvdi5pdC9jcmwvY3JsX1NQSURfUHViX1NBLmNybDA3BggrBgEFBQcBAQQrMCkw
+JwYIKwYBBQUHMAGGG2h0dHBzOi8vb2NzcF9TQS5hZ2lkLmdvdi5pdDCCAdkGA1UdIASCAdAwggHM
+MAkGBwQAjkYBBgIwgZUGBCtMEAYwgYwwRAYIKwYBBQUHAgIwOBo2RWxlY3Ryb25pYyBjZXJ0aWZp
+Y2F0ZSBjb25mb3JtaW5nIHdpdGggQUdJRCBHdWlkZWxpbmVzMEQGCCsGAQUFBwICMDgaNkNlcnRp
+ZmljYXRvIGVsZXR0cm9uaWNvIGNvbmZvcm1lIGFsbGUgTGluZWUgZ3VpZGEgQWdJRDB9BgYrTBAE
+AgIwczA6BggrBgEFBQcCAjAuGixTUElEOiBhZ2dyZWdhdG9yZSAnZnVsbCcgZGkgc2Vydml6aSBw
+dWJibGljaTA1BggrBgEFBQcCAjApGidTUElEOiBwdWJsaWMtc2VydmljZXMgJ2Z1bGwnIEFnZ3Jl
+Z2F0b3IwCAYGBACPegEDME0GBCtMEAQwRTBDBggrBgEFBQcCARY3aHR0cHM6Ly9laWRhcy5hZ2lk
+Lmdvdi5pdC9jcHMvQWdJRF9lSURBU19yb290Q0FfY3BzLnBkZjBPBgYEAI5GAQUwRTBDBggrBgEF
+BQcCARY3aHR0cHM6Ly9laWRhcy5hZ2lkLmdvdi5pdC9jcHMvQWdJRF9lSURBU19yb290Q0FfY3Bz
+LnBkZjANBgkqhkiG9w0BAQ0FAAOCAgEAxuetzWsvChR8p1CMs+Ju6T+e1Nn0HTZuxN5jX44JcITY
+7hQ6FFuvyaKKGFI9JHVZPv0j8UVgh92ZDDf++BQJOBvFLWPH4sAd6s5TaEZ6sHQnjZUhQCWgwFIQ
+QLKoRl8ZVy9l/0J3hg75D2m021LHSEq44FUd2Of5NGAzGrez6o6duEGVLycyrT7aUpH1O0r4MXQt
+uBpi+u/xRnkNEYmCnfmsjAvwiyzIZh9r4KAcGaZB7G+iyWbtjT10y1NqRygVWgf+TYU1+jJ45Mt+
+PGKrB1bIX+mjVcxaOA1rKEs14rBzTs5xKxaa+NOE/lUaMuwZu7xw4sURNzqS0YJROXEkS0yoHKGI
+SzVw0/Y0WhAHXZRYd4s6yAhnRpt0Lg9RaBMaxFztegu0WqyblBJTdJn/pnjNyRKWS1mjj0fzLCNI
+BYP4omT5ZF4g22C9DFAEmkqEHF1UF3pGvMtXjpS0YicEOu4q/sCp52zmI3G+jHF7M3u9REe0J/PZ
+B2TEP0tBkSeE7rXvkgOe1IVsYPaNF82gZCSHhAYujWlrMnYWKHwFgM0plNUeyuWcIKZCDeLqeu4i
+EuqeFrXbnKlFHWOkM1jfjsEGDMABjHGvyvBnnUHu5DIei8X+nAgEFCkKP1+NNE6RqhWErFbDgQhR
+n0tPcxzjvPgeOZWG50ub5nfNXP3KZDw=
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+	<md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+		<md:KeyDescriptor use="signing">
+			<ds:KeyInfo>
+				<ds:X509Data>
+					<ds:X509Certificate>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 n0tPcxzjvPgeOZWG50ub5nfNXP3KZDw=</ds:X509Certificate>
+				</ds:X509Data>
+			</ds:KeyInfo>
+		</md:KeyDescriptor>
+		<md:KeyDescriptor use="encryption">
+			<ds:KeyInfo>
+				<ds:X509Data>
+					<ds:X509Certificate>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 n0tPcxzjvPgeOZWG50ub5nfNXP3KZDw=</ds:X509Certificate>
+				</ds:X509Data>
+			</ds:KeyInfo>
+		</md:KeyDescriptor>
+		<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.telemoney.cloud/SpidSpringRest/ws/process-logout"/>
+		<md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+		<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.telemoney.cloud/SpidSpringRest/ws/send-response-rest" index="0" isDefault="true"/>
+		<md:AttributeConsumingService index="1">
+			<md:ServiceName xml:lang="it">telemoneyCloudLogin
+			</md:ServiceName>
+			<md:ServiceDescription xml:lang="it">Login Spid per
+				i servizi telemoney
+			</md:ServiceDescription>
+			<md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="idCard" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="expirationDate" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="digitalAddress" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="domicileStreetAddress" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="domicilePostalCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="domicileMunicipality" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="domicileProvince" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="domicileNation" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+		</md:AttributeConsumingService>
+	</md:SPSSODescriptor>
+	<md:Organization>
+		<md:OrganizationName xml:lang="it">Comune di Volla</md:OrganizationName>
+		<md:OrganizationDisplayName xml:lang="it">Comune di Volla</md:OrganizationDisplayName>
+		<md:OrganizationURL xml:lang="it">https://www.comune.volla.na.it</md:OrganizationURL>
+	</md:Organization>
+	<md:ContactPerson contactType="other" spid:entityType="spid:aggregator">
+		<md:Extensions>
+			<spid:VATNumber>IT06068961009</spid:VATNumber>
+			<spid:PublicServicesFullAggregator/>
+		</md:Extensions>
+		<md:Company>Astrotel Srl</md:Company>
+		<md:EmailAddress>info@telemoneycloud.it</md:EmailAddress>
+		<md:TelephoneNumber>+3908251886628</md:TelephoneNumber>
+	</md:ContactPerson>
+	<md:ContactPerson contactType="other" spid:entityType="spid:aggregated">
+		<md:Extensions>
+			<spid:IPACode>c_m115</spid:IPACode>
+			<spid:Public/>
+		</md:Extensions>
+		<md:Company>Comune di Volla</md:Company>
+	</md:ContactPerson>
+</md:EntityDescriptor>

@@ -1,49 +1,42 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:spid="https://spid.gov.it/saml-extensions" ID="_8c890ba8-5a75-11e7-907b-a6006ad3dba0" entityID="https://myid.regione.veneto.it/gw/metadata">
-        <Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#WithComments"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><DigestValue>v9iDc0yLV6TqStQShfK3BfR70Lm1yAiI+QfgcvOI0tQ=</DigestValue></Reference></SignedInfo><SignatureValue>p2FfrKp6aXJ9Xw+QI37ngXdqib/vJSTGacioGosgfM/+4QWXxg13mcsKcbFFIt+bCesH/goWezGzYxR39YFWSzgR1VCW3fywaJfL+mS5W80pdkUFaa1nfXSJM3MJceisaTSI/x4IH5YqXi4+Fs5fV8x/nA7PnHPxNAw40z11G99iX0N9JR3p7ijwoWsNETsrYb3UH8l2zYRgo4VrBpEJ6GaUgRO25xS9JsfmxUeRrF+pjIvilHJ5P/hg1NeBYQ2s07DiiYz0/MBUQOCpfaKQ3QOLSoCqN3WQLiMn2jx/2w9d6Q4tO22/pnmmVH8HQf01xJTIc8/EnrGjkzzPVFW9Ww==</SignatureValue><KeyInfo><X509Data><X509Certificate>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</X509Certificate></X509Data></KeyInfo></Signature><md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+        <Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#WithComments"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><DigestValue>VaVgtK5FxEX0QZLH7/MOh5zBzUaPUnPMAiQZjZ9FCNo=</DigestValue></Reference></SignedInfo><SignatureValue>WRNzF8nOEMd4kk3ruP9VUKzF2sz7bBwzcInJoFEIW+JT32/d+l03XwI/zzw8svKg7hPdopyvU0sZtRRjMbriQteuAjpy6paqERPuUod6EazWNMnf0NveSKNziHAXxx9RN7/egFHjviVOdkdn6yU8xbvuZf+mKa1Fkkjkr4WUmy0EAByMFV3dX7J1Br173S9wk5ZTvYgiU26w6sYtiba+Pzru3EJrpxxpfFY1D6t3cAzj/3v0C7cKaLwAa8MBlcmnMEZ3etPBepnFbYf4HXAa/T9wOUpHwZZUmuOcL22fRiCWg8N1BE+Aow91ZXr/vAIAs5e6tMg400c5caeY3/iozg==</SignatureValue><KeyInfo><X509Data><X509Certificate>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</X509Certificate></X509Data></KeyInfo></Signature><md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
 				<md:KeyDescriptor use="signing">
                         <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
                                 <ds:X509Data>
-                                        <ds:X509Certificate>MIIHgDCCBWigAwIBAgIQUF0ah1v/W016AvuFSmm+QDANBgkqhkiG9w0BAQsFADCB
-hDELMAkGA1UEBhMCSVQxEDAOBgNVBAgMB0JlcmdhbW8xGTAXBgNVBAcMEFBvbnRl
-IFNhbiBQaWV0cm8xFzAVBgNVBAoMDkFjdGFsaXMgUy5wLkEuMS8wLQYDVQQDDCZB
-Y3RhbGlzIERvbWFpbiBWYWxpZGF0aW9uIFNlcnZlciBDQSBHMzAeFw0yMjA4MDgw
-NTI3MzRaFw0yMzA4MDgwNTI3MzRaMB4xHDAaBgNVBAMMEyoucmVnaW9uZS52ZW5l
-dG8uaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCtrTyDqCJPV9yz
-A3ldRHphsh2vREBpSFGgqbIzJchXb75GDRtkweOw8WIChflxHDEC/HG0utNfWJYh
-tPod86kxXE3K067vhKkSQLSC3IO2TN4mbrJpefldXiwbTd+mhIwKseTy3G1OhLxw
-3C1+1kEsWiAOt2agsEN8Jn3YXKSlT/eT0WlAw634kItqo/f7Nz4letiZdpKmNme/
-c11nxAXLw6/BAA5C4KSYD0hrk0KyfFYm1b1PbTnwE2GKqQCGAnIjaom2aLK0FpHx
-ue5sjUCvQcd1LV8T4bgZsPHxsU7QRs+bhEzmJxIb1dYE3mTHO+6WNeZK4Hbmieq9
-q1/z5FevAgMBAAGjggNRMIIDTTAMBgNVHRMBAf8EAjAAMB8GA1UdIwQYMBaAFEKD
-bYB8CYRn/YBXq/Em9XfIIoJxMH0GCCsGAQUFBwEBBHEwbzA6BggrBgEFBQcwAoYu
-aHR0cDovL2NhY2VydC5hY3RhbGlzLml0L2NlcnRzL2FjdGFsaXMtYXV0ZHZnMzAx
-BggrBgEFBQcwAYYlaHR0cDovL29jc3AwNi5hY3RhbGlzLml0L1ZBL0FVVEhEVi1H
-MzAxBgNVHREEKjAoghFyZWdpb25lLnZlbmV0by5pdIITKi5yZWdpb25lLnZlbmV0
-by5pdDBRBgNVHSAESjBIMDwGBiuBHwEXATAyMDAGCCsGAQUFBwIBFiRodHRwczov
-L3d3dy5hY3RhbGlzLml0L2FyZWEtZG93bmxvYWQwCAYGZ4EMAQIBMB0GA1UdJQQW
-MBQGCCsGAQUFBwMCBggrBgEFBQcDATBIBgNVHR8EQTA/MD2gO6A5hjdodHRwOi8v
-Y3JsMDYuYWN0YWxpcy5pdC9SZXBvc2l0b3J5L0FVVEhEVi1HMy9nZXRMYXN0Q1JM
-MB0GA1UdDgQWBBQY8cqSiDaiLWLiGMU64diD6C/EEDAOBgNVHQ8BAf8EBAMCBaAw
-ggF9BgorBgEEAdZ5AgQCBIIBbQSCAWkBZwB2AK33vvp8/xDIi509nB4+GGq0Zyld
-z7EMJMqFhjTr3IKKAAABgnv1a/8AAAQDAEcwRQIhAPvyRfd30yNemAqcUKKPCs2F
-B36GFVnWStjhGr3sKZwFAiB32s0ZB78fyLzQZDu1ZWNCq6Pr5ARZrbHjOuc2QGQD
-WwB1AFWB1MIWkDYBSuoLm1c8U/DA5Dh4cCUIFy+jqh0HE9MMAAABgnv1bDIAAAQD
-AEYwRAIgU/dRejlcjTIKDhDePIxeGUSZN3z6+sITjjkASee6k+MCIHXFrxXJS5IO
-0XM+foKWuGzoRQFZAHzRBS0fWYOc9JBBAHYAb1N2rDHwMRnYmQCkURX/dxUcEdkC
-wQApBo2yCJo32RMAAAGCe/VsEgAABAMARzBFAiAMmAZjcA0GgUny/km09srCms/S
-Y7nTVBwc0gKopSdBSwIhALR/AUS+ho8pm27EkSlEYVwk1SfPEmQX+zgVkmCz+KRD
-MA0GCSqGSIb3DQEBCwUAA4ICAQBirWNiFeg/vE4Zu40t/ME99ImWthzK3WVHbpjf
-EOVn1ZX22541qLgGQpiv1rnMvXKRMcVD4nxIaIsB5fAeaf4jo6BX8/TqDysETdGG
-6WdCmYj2uzs1Ws09J/niuXuI+AYZlh/klirusK9TIQ73o60oy8Eb1/2fXaQfyJw7
-SjiDUmxxwK+FHFRaAqOUBLEJDPgSa4Chjmm1AFGjHWZQdAZ3PE/YiwdyKUdIYwI0
-Irqa65RDA4qEInbV03eS3M4E+xbov07912C/L+TKUehlkNzcfw4iZkGrZJFLOmwF
-EBSlvqVQE36Nsk79DiqmrnhNV2WeVFgD7e/mz/PzRE9KffrE2VO3Z6VttBdSCpyd
-4Et8ElNbqdyA0p0/y0I71chdapugeRDzakiBrXncVmK2GRWGf6quYAs8miIDddWB
-i9YYOT9TPNsVDsXMGzHZFcdhG9hDGv383y7U/n+SgdMMvNxhxW4IRpR4lytWisU5
-V3RuIjO7CsQ9toujhVofP1CQg/tUMPrlg2Eb7NzCzlPkgvqYfgNshf91dErI4sRQ
-Ae6wbY2sGp4g29VIpKM2yKs+62s/qvObRhZQwNrkq+/UbaJVRzt8CC/C4GYIh4XI
-+70bB5RJSm3b4h5dyU9R8FPcv98gSyhyHVRQj54w3Fn1ekEjG28E8fG5yQJN09fA
-GfS2AQ==</ds:X509Certificate>
+                                        <ds:X509Certificate>MIIGIzCCBQugAwIBAgIQeHJhHpSGUl+TONhJFhwPNjANBgkqhkiG9w0BAQsFADBI
+MQswCQYDVQQGEwJJVDEXMBUGA1UEChMOTmFtaXJpYWwgUy5wLkExIDAeBgNVBAMT
+F05hbWlyaWFsIE9WIFNTTCBDQSAyMDIzMB4XDTI0MDYyNDE0NTc1N1oXDTI1MDYy
+NDE0NTc1NVowaDELMAkGA1UEBhMCSVQxEDAOBgNVBAgTB1ZlbmV6aWExEDAOBgNV
+BAcTB1ZlbmV6aWExFzAVBgNVBAoTDlJlZ2lvbmUgVmVuZXRvMRwwGgYDVQQDDBMq
+LnJlZ2lvbmUudmVuZXRvLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKC
+AQEAycbSIWekqb48Gv91GcEEWdmiMYrIhpuwqJ/mGhNIORZQ4wIR629CYyjU61k2
+C5qr/Vfjz6u3HD+xTbaOUyaYy5VTdW/ksV4fk1XLdUINeETYsKieZR0OxpaxbZu2
+Vk/HFge5ZRSbQ9XAG0nCz5IufwfP6+QAioSdHJ4d9hRM2mkFQRvu6PQOzIk3Bnxj
+VMACMJcqzwaqFPP9QzImlpvC03PHVgh73UOsJ5kVQEiH15tiX8aTIzK9YaMlCILg
+a/zIRHAiY8dsYQ2c/Xoou6OjKKY4TNFvprXTujr1T7Pkr9QDauAoskZ8PAuOn9Gz
+/hI+DkY8ulF597WQeoBSWgJx9QIDAQABo4IC5zCCAuMwDAYDVR0TAQH/BAIwADAd
+BgNVHQ4EFgQUnUSt0HsBzvLmqVPEA1hriy7EoVYwHwYDVR0jBBgwFoAUmp9vpfj+
+NPwQLesvica518aS0x4wbwYIKwYBBQUHAQEEYzBhMCMGCCsGAQUFBzABhhdodHRw
+Oi8vb2NzcC5lbnRydXN0Lm5ldDA6BggrBgEFBQcwAoYuaHR0cDovL2FpYS5lbnRy
+dXN0Lm5ldC9uYW1pcmlhbG92c3NsLWNoYWluLnA3YzA7BgNVHR8ENDAyMDCgLqAs
+hipodHRwOi8vY3JsLmVudHJ1c3QubmV0L25hbWlyaWFsb3Zzc2xjYS5jcmwwHgYD
+VR0RBBcwFYITKi5yZWdpb25lLnZlbmV0by5pdDAOBgNVHQ8BAf8EBAMCBaAwHQYD
+VR0lBBYwFAYIKwYBBQUHAwEGCCsGAQUFBwMCMBMGA1UdIAQMMAowCAYGZ4EMAQIC
+MIIBfwYKKwYBBAHWeQIEAgSCAW8EggFrAWkAdwAN4fIwK9MNwUBiEgnqVS78R3R8
+sdfpMO8OQh60fk6qNAAAAZBKwPIRAAAEAwBIMEYCIQDor41fGn1pB6xIn79vPGZG
+UKYvOy0ypUigjhjXx8d40wIhAO70XsEbp5Xz0aXdt7qIIP9AFrGtB8DP3wrsyTzR
+FDxTAHYATnWjJ1yaEMM4W2zU3z9S6x3w4I4bjWnAsfpksWKaOd8AAAGQSsDyCQAA
+BAMARzBFAiBv79A1FJgUMgAD+DNuKplXYUSP1+hSXNexXCxFA1moZQIhAMg1WIoE
+iTtRk2+BX+GGzWVgMIUpXd15TF4TJHaT+tyuAHYAouMK5EXvva2bfjjtR2d3U9eC
+W4SU1yteGyzEuVCkR+cAAAGQSsDyDQAABAMARzBFAiBJAaiRgAlVZVz/Q1G76fue
+Td1JDNrnBFIrR/AIuwxHfgIhAO7TbrTUeqc3pRxYd39ZajxcyVG10yKwqQyk7/+4
+YTckMA0GCSqGSIb3DQEBCwUAA4IBAQBOPFUXqbMgOCPzn7aOQ5uO5OcwbBOQG5PK
+3vq/yUux7BmiogPem63b5lClKfsHnzvtHq4ii8onsvu5/tvcphJiX8ZyhKxZ2dN+
+zWvOz7FjuR4bT3mu6pYBUd6ew4hRQkkx7CdD1qpYljPNzJU+FCfB4XN02FTQ0X7K
+g8R4eJSkUnEdXNRk+tCNmEMCm1bQNK779vP1/ENU804l28yDKp9TfKXbA74YPLWw
++gw24cVf7C/YL7mh1SdYYIWH+dIor4FSu6SQPeQqO1TufQzqYezsuMD9VCY3f7xx
+yP4JTNNLPXsjhJCnzgSDKcymCajexhvAi9boea3MrE+YlniypfXr
+</ds:X509Certificate>
                                 </ds:X509Data>
                         </ds:KeyInfo>
                 </md:KeyDescriptor>
@@ -8628,45 +8621,6 @@ DMmubAtPKKS4wM3e+V0UPIBE5/ruAQPL5TWIUVz22UcDT4rybpZB</ds:X509Certificate>
 			<md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
 			<md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
 		</md:AttributeConsumingService>
-		<md:AttributeConsumingService index="1002">
-			<md:ServiceName xml:lang="it">SOL-Sportello On Line-Studenti Esu Padova</md:ServiceName>
-			<md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
-			<md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
-			<md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
-			<md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
-			<md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
-			<md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
-			<md:RequestedAttribute Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
-			<md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
-			<md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
-			<md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
-		</md:AttributeConsumingService>
-		<md:AttributeConsumingService index="1003">
-			<md:ServiceName xml:lang="it">SOL-Sportello On Line-Studenti Esu Venezia</md:ServiceName>
-			<md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
-			<md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
-			<md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
-			<md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
-			<md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
-			<md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
-			<md:RequestedAttribute Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
-			<md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
-			<md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
-			<md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
-		</md:AttributeConsumingService>
-		<md:AttributeConsumingService index="1004">
-			<md:ServiceName xml:lang="it">SOL-Sportello On Line-Studenti Esu Verona</md:ServiceName>
-			<md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
-			<md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
-			<md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
-			<md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
-			<md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
-			<md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
-			<md:RequestedAttribute Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
-			<md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
-			<md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
-			<md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
-		</md:AttributeConsumingService>
 		<md:AttributeConsumingService index="1005">
 			<md:ServiceName xml:lang="it">Servizio prenotazione appuntamenti passaporti Padova - operatore</md:ServiceName>
 			<md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
@@ -10422,14 +10376,9 @@ DMmubAtPKKS4wM3e+V0UPIBE5/ruAQPL5TWIUVz22UcDT4rybpZB</ds:X509Certificate>
 		</md:AttributeConsumingService>
 		<md:AttributeConsumingService index="1172">
 			<md:ServiceName xml:lang="it">MyPrenota - AULSS6</md:ServiceName>
-			<md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
-			<md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
 			<md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
 			<md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
-			<md:RequestedAttribute Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
-			<md:RequestedAttribute Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
 			<md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
-			<md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
 			<md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
 		</md:AttributeConsumingService>
 		<md:AttributeConsumingService index="1173">
@@ -10463,19 +10412,6 @@ DMmubAtPKKS4wM3e+V0UPIBE5/ruAQPL5TWIUVz22UcDT4rybpZB</ds:X509Certificate>
 		</md:AttributeConsumingService>
 		<md:AttributeConsumingService index="1176">
 			<md:ServiceName xml:lang="it">Area privata C_A400</md:ServiceName>
-			<md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
-			<md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
-			<md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
-			<md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
-			<md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
-			<md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
-			<md:RequestedAttribute Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
-			<md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
-			<md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
-			<md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
-		</md:AttributeConsumingService>
-		<md:AttributeConsumingService index="1177">
-			<md:ServiceName xml:lang="it">Area personale C_G224_RV</md:ServiceName>
 			<md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
 			<md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
 			<md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
@@ -10802,7 +10738,7 @@ DMmubAtPKKS4wM3e+V0UPIBE5/ruAQPL5TWIUVz22UcDT4rybpZB</ds:X509Certificate>
 			<md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
 		</md:AttributeConsumingService>
 		<md:AttributeConsumingService index="1209">
-			<md:ServiceName xml:lang="it">WebQuality</md:ServiceName>
+			<md:ServiceName xml:lang="it">Webquality - AULSS7</md:ServiceName>
 			<md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
 			<md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
 			<md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
@@ -10889,6 +10825,249 @@ DMmubAtPKKS4wM3e+V0UPIBE5/ruAQPL5TWIUVz22UcDT4rybpZB</ds:X509Certificate>
 			<md:RequestedAttribute Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
 			<md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
 			<md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+		</md:AttributeConsumingService>
+		<md:AttributeConsumingService index="1218">
+			<md:ServiceName xml:lang="it">Area privata C_E489</md:ServiceName>
+			<md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+		</md:AttributeConsumingService>
+		<md:AttributeConsumingService index="1219">
+			<md:ServiceName xml:lang="it">Area privata C_A059</md:ServiceName>
+			<md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+		</md:AttributeConsumingService>
+		<md:AttributeConsumingService index="1220">
+			<md:ServiceName xml:lang="it">Area personale C_G224_RV</md:ServiceName>
+			<md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+		</md:AttributeConsumingService>
+		<md:AttributeConsumingService index="1221">
+			<md:ServiceName xml:lang="it">Myintranet IA_CEREA</md:ServiceName>
+			<md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+		</md:AttributeConsumingService>
+		<md:AttributeConsumingService index="1222">
+			<md:ServiceName xml:lang="it">Area privata C_G642</md:ServiceName>
+			<md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+		</md:AttributeConsumingService>
+		<md:AttributeConsumingService index="1223">
+			<md:ServiceName xml:lang="it">Area personale c_a360</md:ServiceName>
+			<md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+		</md:AttributeConsumingService>
+		<md:AttributeConsumingService index="1224">
+			<md:ServiceName xml:lang="it">Maas-Forms</md:ServiceName>
+			<md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+		</md:AttributeConsumingService>
+		<md:AttributeConsumingService index="1225">
+			<md:ServiceName xml:lang="it">Webquality azero</md:ServiceName>
+			<md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+		</md:AttributeConsumingService>
+		<md:AttributeConsumingService index="1226">
+			<md:ServiceName xml:lang="it">ISON Iscrizioni on-line</md:ServiceName>
+			<md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+		</md:AttributeConsumingService>
+		<md:AttributeConsumingService index="1227">
+			<md:ServiceName xml:lang="it">Segnalazione all’URP di Azienda Ospedale-Università Padova</md:ServiceName>
+			<md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+		</md:AttributeConsumingService>
+		<md:AttributeConsumingService index="1228">
+			<md:ServiceName xml:lang="it">b51a-foreste</md:ServiceName>
+			<md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+		</md:AttributeConsumingService>
+		<md:AttributeConsumingService index="1229">
+			<md:ServiceName xml:lang="it">b51a-foreste-cittadini-private</md:ServiceName>
+			<md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+		</md:AttributeConsumingService>
+		<md:AttributeConsumingService index="1230">
+			<md:ServiceName xml:lang="it">Area privata C_C498</md:ServiceName>
+			<md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+		</md:AttributeConsumingService>
+		<md:AttributeConsumingService index="1231">
+			<md:ServiceName xml:lang="it">Open Stage</md:ServiceName>
+			<md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+		</md:AttributeConsumingService>
+		<md:AttributeConsumingService index="1232">
+			<md:ServiceName xml:lang="it">Area personale C_D897</md:ServiceName>
+			<md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+		</md:AttributeConsumingService>
+		<md:AttributeConsumingService index="1233">
+			<md:ServiceName xml:lang="it">Area personale C_I117</md:ServiceName>
+			<md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+		</md:AttributeConsumingService>
+		<md:AttributeConsumingService index="1234">
+			<md:ServiceName xml:lang="it">Area personale C_F486</md:ServiceName>
+			<md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+		</md:AttributeConsumingService>
+		<md:AttributeConsumingService index="1235">
+			<md:ServiceName xml:lang="it">WebQuality - IOV</md:ServiceName>
+			<md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+		</md:AttributeConsumingService>
+		<md:AttributeConsumingService index="1236">
+			<md:ServiceName xml:lang="it">Area privata C_H512</md:ServiceName>
+			<md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+		</md:AttributeConsumingService>
+		<md:AttributeConsumingService index="1237">
+			<md:ServiceName xml:lang="it">Area personale Comune di Verona</md:ServiceName>
+			<md:RequestedAttribute Name="address" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="companyFiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="digitalAddress" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="idCard" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="registeredOffice" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+		</md:AttributeConsumingService>
+		<md:AttributeConsumingService index="1238">
+			<md:ServiceName xml:lang="it">Myintranet ODIBL</md:ServiceName>
+			<md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
 			<md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
 		</md:AttributeConsumingService>
 

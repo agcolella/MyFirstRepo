@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:spid="https://spid.gov.it/saml-extensions" entityID="https://www.comune.corsano.le.it" ID="https___www_comune_corsano_le_it"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+  <ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+    <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+  <ds:Reference URI="#https___www_comune_corsano_le_it"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>XG/XFj6UFEPFe9a1g2KxZiewE/BmWuJE7p+jlRIEzVc=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>VmFH09JhEtZfUiM7dA3A+LOKwAWSXcx1hLroYxSNcGajTRmHLfUSqtX3jdHyc0UW4Uux2Q0xMB1pf/Ojys0D26XJtM30YNp3IaKGE+780CHYCmKsunb590zpuro/DDDJHMQv3T0ieY4qwk9zxnr8HYGUnCWpoGu08tRgOIZhRFiEpYoRpsXeA1//JpFiAJsldPXgqgzgydFm2UA+KCIzKUhTZ8Oh5QYp7ZuOvx+mwWg/jAHpSQqlB+luer8mp4xSpSv4QS1G0lYHpCrifrA7yJR/Z/stAyZdOGZabwssw4eo10XkkuONWKpKfAWCwNA1r3nHWBIW7kvQfcCiv43TpQ==</ds:SignatureValue>
+<ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIEBjCCAu6gAwIBAgIIFHcedRu2UakwDQYJKoZIhvcNAQELBQAwgcIxGjAYBgNVBAoMEUNvbXVuZSBkaSBDb3JzYW5vMRUwEwYDVQRhDAxQQTpJVC1jX2QwNDQxCzAJBgNVBAYTAklUMRAwDgYDVQQHDAdDb3JzYW5vMRAwDgYDVQQDDAdDb3JzYW5vMTEwLwYJKoZIhvcNAQkBFiJjb211bmUuY29yc2Fub0BwZWMucnVwYXIucHVnbGlhLml0MSkwJwYDVQRTDCBodHRwczovL3d3dy5jb211bmUuY29yc2Fuby5sZS5pdDAeFw0yMzA5MjEwNzQ1NDhaFw0yNTA5MjAwNzQ1NDhaMIHCMRowGAYDVQQKDBFDb211bmUgZGkgQ29yc2FubzEVMBMGA1UEYQwMUEE6SVQtY19kMDQ0MQswCQYDVQQGEwJJVDEQMA4GA1UEBwwHQ29yc2FubzEQMA4GA1UEAwwHQ29yc2FubzExMC8GCSqGSIb3DQEJARYiY29tdW5lLmNvcnNhbm9AcGVjLnJ1cGFyLnB1Z2xpYS5pdDEpMCcGA1UEUwwgaHR0cHM6Ly93d3cuY29tdW5lLmNvcnNhbm8ubGUuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDbnmiq3zUiqXC5Ceu5WHLaig6SPPqPTD4y5+1CLeoFkczchZT9kLXUNE4th8IeEHUUh9yqoIsNsIGQGDRXrgXSFOSsctLDv83h2UcrFW3BHqtKMQDcGtXUJmtIzQv6e8Pb5JqI6WZlKdGSqK8IC6LO73vZsywbvM+oNbCKspAh6bjk/x/G4XizqTD6Ij/vzlajJw8LhzmiEfG/LsayaW+exh2Ofd/6oCcVyhWXN6IhcNJYdJQoBAf7og9Gkms0X3yOFYxJ+T33LjFc4ymZJMO1Q5LoVk2DLAuLaG34ukOd35GA95sxhFoWAOB6jLJDy0VNN3Xs1YHQw3arJXSrO/ZZAgMBAAEwDQYJKoZIhvcNAQELBQADggEBAH5rQcXG89IapeO3YgLvOhZc7e4QPbp0RS58LSmAU5vdrhNk80UD0pKhiebmHqkdThKy5cDp7UwZdKOYyJzhW6lJGbeZZyUGGq/JpsGXFT4ojStQ5UvDU7HVFs2AniVqNy317grKwWtvyI4ROiKsyT+WollVF+hiNDtO7W8VK6wOIIJbIlH+jIuv8CgYcUqkUiW7+bumrQU+sFKEzA02HTqUSt8hVpTSXN6nHuHvyBImMsI36Y2XG76TqF2jd6+P+fDwAua0VhHwDRceLdm4oc+59wIoU5gooELBV5b/iV8qN5MuX4tih1WfivfAB5XcYwGsSbfsX3gHkMBYEhubw4o=</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature>
+    <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true" WantAssertionsSigned="true">
+        <md:KeyDescriptor use="signing">
+            <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+                <ds:X509Data><ds:X509Certificate>MIIEBjCCAu6gAwIBAgIIFHcedRu2UakwDQYJKoZIhvcNAQELBQAwgcIxGjAYBgNVBAoMEUNvbXVuZSBkaSBDb3JzYW5vMRUwEwYDVQRhDAxQQTpJVC1jX2QwNDQxCzAJBgNVBAYTAklUMRAwDgYDVQQHDAdDb3JzYW5vMRAwDgYDVQQDDAdDb3JzYW5vMTEwLwYJKoZIhvcNAQkBFiJjb211bmUuY29yc2Fub0BwZWMucnVwYXIucHVnbGlhLml0MSkwJwYDVQRTDCBodHRwczovL3d3dy5jb211bmUuY29yc2Fuby5sZS5pdDAeFw0yMzA5MjEwNzQ1NDhaFw0yNTA5MjAwNzQ1NDhaMIHCMRowGAYDVQQKDBFDb211bmUgZGkgQ29yc2FubzEVMBMGA1UEYQwMUEE6SVQtY19kMDQ0MQswCQYDVQQGEwJJVDEQMA4GA1UEBwwHQ29yc2FubzEQMA4GA1UEAwwHQ29yc2FubzExMC8GCSqGSIb3DQEJARYiY29tdW5lLmNvcnNhbm9AcGVjLnJ1cGFyLnB1Z2xpYS5pdDEpMCcGA1UEUwwgaHR0cHM6Ly93d3cuY29tdW5lLmNvcnNhbm8ubGUuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDbnmiq3zUiqXC5Ceu5WHLaig6SPPqPTD4y5+1CLeoFkczchZT9kLXUNE4th8IeEHUUh9yqoIsNsIGQGDRXrgXSFOSsctLDv83h2UcrFW3BHqtKMQDcGtXUJmtIzQv6e8Pb5JqI6WZlKdGSqK8IC6LO73vZsywbvM+oNbCKspAh6bjk/x/G4XizqTD6Ij/vzlajJw8LhzmiEfG/LsayaW+exh2Ofd/6oCcVyhWXN6IhcNJYdJQoBAf7og9Gkms0X3yOFYxJ+T33LjFc4ymZJMO1Q5LoVk2DLAuLaG34ukOd35GA95sxhFoWAOB6jLJDy0VNN3Xs1YHQw3arJXSrO/ZZAgMBAAEwDQYJKoZIhvcNAQELBQADggEBAH5rQcXG89IapeO3YgLvOhZc7e4QPbp0RS58LSmAU5vdrhNk80UD0pKhiebmHqkdThKy5cDp7UwZdKOYyJzhW6lJGbeZZyUGGq/JpsGXFT4ojStQ5UvDU7HVFs2AniVqNy317grKwWtvyI4ROiKsyT+WollVF+hiNDtO7W8VK6wOIIJbIlH+jIuv8CgYcUqkUiW7+bumrQU+sFKEzA02HTqUSt8hVpTSXN6nHuHvyBImMsI36Y2XG76TqF2jd6+P+fDwAua0VhHwDRceLdm4oc+59wIoU5gooELBV5b/iV8qN5MuX4tih1WfivfAB5XcYwGsSbfsX3gHkMBYEhubw4o=</ds:X509Certificate></ds:X509Data>
+            </ds:KeyInfo>
+        </md:KeyDescriptor>        <md:KeyDescriptor use="signing">
+            <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+                <ds:X509Data>
+                    <ds:X509Certificate>MIIDrzCCApegAwIBAgIJAII3pqqVV5nHMA0GCSqGSIb3DQEBCwUAMG4xCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEQMA4GA1UEBwwHQ29yc2FubzEaMBgGA1UECgwRQ29tdW5lIGRpIENvcnNhbm8xITAfBgNVBAMMGHd3dy5jb211bmUuY29yc2Fuby5sZS5pdDAeFw0yMTAyMjYxMjUwMTZaFw0zMTAyMjYxMjUwMTZaMG4xCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEQMA4GA1UEBwwHQ29yc2FubzEaMBgGA1UECgwRQ29tdW5lIGRpIENvcnNhbm8xITAfBgNVBAMMGHd3dy5jb211bmUuY29yc2Fuby5sZS5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAKYqpeWUIOn7ee7UlbbcGOKfm3Rb9j6I3oZLOz8aSPkAF/ff1UiL+UxqqsAh8ijIjrIbKYxWj8mrFrulpAhRvgS2ShW+ANUoAe8/dv5h3BC2S+gyKEkJ+geKyc5qSQ27aJ9gE5lbsd1RFHYkGNse2I7KYVFgaZCy1i1UvvhF1d5Q5XDfXuOulI8FcQnHQbJyOIVZ8ktuHSf1/kOfkMd9WtZ1Nm2rS6i/ydg9wwxtbaEKNI/wzT30F6099RtI7ygP6NTTZFIb/H7ypOUDQXcMmswPhiTMezkn20dpmS+MVaGxGPDH+8o2RGvfaJPgOXUts8jv3E8BexkO5laRcqDWhEsCAwEAAaNQME4wHQYDVR0OBBYEFEorWDIhSK20vvUL7r1m9RemuC58MB8GA1UdIwQYMBaAFEorWDIhSK20vvUL7r1m9RemuC58MAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAGKVB2J0BEqXOV5yU2DkTjLQqZuOtzUN19lN374AdT1hjMHxJ4vD3o8s9YVPqRZivvSmtmqhIVo3xtVDBSUIjIAAkbIRmH1NavYBOLSAvSfRlg880o8xSGtdw12+U59Y6vMkoPdOlqU6uudyxhhi404lRcLMxnDtPW8UV8DfFbDutip13Z7DEub/MbuDGJRsdvO7v2aFYv0/jgvo9jVjeUQhrzn3mWSewBcNCfgjb0AN5Bfl/ckJBXCDQHksYw5tpX+Xla4EBDwTe830BvOFcHiw2ud+651rPROma/USp9vvJpkwEGYII3bYTgziyzeAyFwLiVP5zdmUTrdwkLaZGsA=</ds:X509Certificate>
+                </ds:X509Data>
+            </ds:KeyInfo>
+        </md:KeyDescriptor>
+            <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.comune.corsano.le.it/spid/module.php/saml/sp/saml2-logout.php/spid"/>
+            <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://corsano.login.opencityitalia.it/slo"/>
+            <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.comune.corsano.le.it/spid/module.php/saml/sp/saml2-logout.php/spid"/>        
+        <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+        <md:AssertionConsumerService index="0" isDefault="true" Location="https://www.comune.corsano.le.it/spid/module.php/saml/sp/saml2-acs.php/spid" Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST"/>
+        <md:AssertionConsumerService index="1" Location="https://corsano.login.opencityitalia.it/acs" Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST"/>
+        <md:AssertionConsumerService index="2" Location="https://www.comune.corsano.le.it/spid/module.php/saml/sp/saml2-acs.php/spid" Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST"/>
+        <md:AttributeConsumingService index="0">
+            <md:ServiceName xml:lang="it">Set 0</md:ServiceName>       
+            <md:RequestedAttribute Name="companyName"/>
+            <md:RequestedAttribute Name="fiscalNumber"/>
+            <md:RequestedAttribute Name="ivaCode"/>
+            <md:RequestedAttribute Name="spidCode"/>
+            <md:RequestedAttribute Name="name"/>
+            <md:RequestedAttribute Name="familyName"/></md:AttributeConsumingService>
+        <md:AttributeConsumingService index="1">
+            <md:ServiceName xml:lang="it">Set 1</md:ServiceName>       
+            <md:RequestedAttribute Name="gender"/>
+            <md:RequestedAttribute Name="companyName"/>
+            <md:RequestedAttribute Name="registeredOffice"/>
+            <md:RequestedAttribute Name="fiscalNumber"/>
+            <md:RequestedAttribute Name="ivaCode"/>
+            <md:RequestedAttribute Name="idCard"/>
+            <md:RequestedAttribute Name="spidCode"/>
+            <md:RequestedAttribute Name="name"/>
+            <md:RequestedAttribute Name="familyName"/>
+            <md:RequestedAttribute Name="placeOfBirth"/>
+            <md:RequestedAttribute Name="countyOfBirth"/>
+            <md:RequestedAttribute Name="dateOfBirth"/>
+            <md:RequestedAttribute Name="mobilePhone"/>
+            <md:RequestedAttribute Name="email"/>
+            <md:RequestedAttribute Name="address"/>
+            <md:RequestedAttribute Name="expirationDate"/>
+            <md:RequestedAttribute Name="digitalAddress"/></md:AttributeConsumingService>
+        <md:AttributeConsumingService index="2">
+            <md:ServiceName xml:lang="it">Set 2</md:ServiceName>       
+            <md:RequestedAttribute Name="companyName"/>
+            <md:RequestedAttribute Name="fiscalNumber"/>
+            <md:RequestedAttribute Name="ivaCode"/>
+            <md:RequestedAttribute Name="spidCode"/>
+            <md:RequestedAttribute Name="name"/>
+            <md:RequestedAttribute Name="familyName"/></md:AttributeConsumingService></md:SPSSODescriptor><md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Corsano</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Corsano</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.comune.corsano.le.it</md:OrganizationURL>
+</md:Organization><md:ContactPerson contactType="other"><md:Extensions><spid:IPACode>c_d044</spid:IPACode><spid:Public/><spid:FiscalCode>00392220752</spid:FiscalCode></md:Extensions><md:EmailAddress>comune.corsano@pec.rupar.puglia.it</md:EmailAddress><md:TelephoneNumber>+390833531170</md:TelephoneNumber></md:ContactPerson></md:EntityDescriptor>
