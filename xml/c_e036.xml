@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:spid="https://spid.gov.it/saml-extensions" entityID="https://spid.comune.ginosa.ta.it" ID="https___spid_comune_ginosa_ta_it"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+  <ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+    <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+  <ds:Reference URI="#https___spid_comune_ginosa_ta_it"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>EsG+xR0YnGdRWqCVxtkp8/yoD4o8Vhym0TB/uzWSzxw=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>ROVvX+9EnjqEWW/5roRidQlS3MzClW9W2L/eagS5EyCV8rc8u7GUWjS16+OXb5h8gHQeSYTJ9KeBun00GFgpgcxS/qFmRiPQg9ezUERh3btUrjX9somzAK7Nvs1STrrBM6CEld8AGnKQ4i/yBQn36FsKdJF0iwwCkKSE3V3f5QnMTdjzU3sKgZ9sT3m7S1xq78BWPoPCZzAZdMeuX6gb9mhkuofi7wwk5I2Q2kZnzOoBGzWy+d5yTWFahJ7xhNuplRB5IP7hSwZvjmTZf/I4Gm5gSZCNDl8CO+tfFoen65UjgYcNHM6i6zgghcA9dIXkdDIzc+JPg2BEPlmf4IWfIA==</ds:SignatureValue>
+<ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIID/jCCAuagAwIBAgIICkhu+TiaQoAwDQYJKoZIhvcNAQELBQAwgb4xGTAXBgNVBAoMEENvbXVuZSBkaSBHaW5vc2ExFTATBgNVBGEMDFBBOklULWNfZTAzNjELMAkGA1UEBhMCSVQxDzANBgNVBAcMBkdpbm9zYTEPMA0GA1UEAwwGR2lub3NhMTAwLgYJKoZIhvcNAQkBFiFjb211bmUuZ2lub3NhQHBlYy5ydXBhci5wdWdsaWEuaXQxKTAnBgNVBFMMIGh0dHBzOi8vc3BpZC5jb211bmUuZ2lub3NhLnRhLml0MB4XDTIzMTIyMjExMDI0N1oXDTI1MTIyMTExMDI0N1owgb4xGTAXBgNVBAoMEENvbXVuZSBkaSBHaW5vc2ExFTATBgNVBGEMDFBBOklULWNfZTAzNjELMAkGA1UEBhMCSVQxDzANBgNVBAcMBkdpbm9zYTEPMA0GA1UEAwwGR2lub3NhMTAwLgYJKoZIhvcNAQkBFiFjb211bmUuZ2lub3NhQHBlYy5ydXBhci5wdWdsaWEuaXQxKTAnBgNVBFMMIGh0dHBzOi8vc3BpZC5jb211bmUuZ2lub3NhLnRhLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA6ycxe4CQJ+9G4ll94LYv9UH23Ruq9HpWVqXpdDylhkKAALi+OjIzRL/+O/KE7rcqNydT/2NYFTjSnzFXcwYvoShSrE/RknExI3Qu1WLuhnA9B+MS6u1N917yyD91aIs3EPvg3B5ZUV9wB8e79ZuklrCumw1stdOPUjCmIs7PsBqycSYjpQNZCL6VP3W0oE9ZaIUQ/wniK1meZL2eko4fOxvNVEmsVjxi3dr01z4QcS8asNGH31EmSPqpEZO6tLLQwqNJ2DPCeeUZGg+EABugMktQ9LP+rUTtPaENQQgW+51NsvEnS4MEyQ1ytbS+mj2IYjEa+VMKuID9bIx50Zp1RQIDAQABMA0GCSqGSIb3DQEBCwUAA4IBAQBhCBczIX0Y//SnAfQkfvMIFIqEPpdSNbjPf9KmOrcMDVJbBxaTx1K924ksdA4597Sa8Fk78erFNVjE9eWXJVesTBIkM3gF2bSdtr9ArxHPCTsVmCaIrzRv4ooT9jdkEzVDzxEwvicgdHVuKuFI7XWL8saoRnG49w/M8FoS3RaaEPLq4AfzUz7xhD49gsEPdLQ1onKKX+F0JlHUtGj6A4Bh1K+Q33kVgyLABg3yky49xbaSrNtn4f57SNLepnhlndppN48V3ahitkMb2E5Cib2g2mOh3sEgm3HQTCaK/67GEVg0isizjxdwQQ0gdscVsxS+RPmk6O7jLMU9/Uf15N5U</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature>
+    <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true" WantAssertionsSigned="true">
+        <md:KeyDescriptor use="signing">
+            <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+                <ds:X509Data><ds:X509Certificate>MIID/jCCAuagAwIBAgIICkhu+TiaQoAwDQYJKoZIhvcNAQELBQAwgb4xGTAXBgNVBAoMEENvbXVuZSBkaSBHaW5vc2ExFTATBgNVBGEMDFBBOklULWNfZTAzNjELMAkGA1UEBhMCSVQxDzANBgNVBAcMBkdpbm9zYTEPMA0GA1UEAwwGR2lub3NhMTAwLgYJKoZIhvcNAQkBFiFjb211bmUuZ2lub3NhQHBlYy5ydXBhci5wdWdsaWEuaXQxKTAnBgNVBFMMIGh0dHBzOi8vc3BpZC5jb211bmUuZ2lub3NhLnRhLml0MB4XDTIzMTIyMjExMDI0N1oXDTI1MTIyMTExMDI0N1owgb4xGTAXBgNVBAoMEENvbXVuZSBkaSBHaW5vc2ExFTATBgNVBGEMDFBBOklULWNfZTAzNjELMAkGA1UEBhMCSVQxDzANBgNVBAcMBkdpbm9zYTEPMA0GA1UEAwwGR2lub3NhMTAwLgYJKoZIhvcNAQkBFiFjb211bmUuZ2lub3NhQHBlYy5ydXBhci5wdWdsaWEuaXQxKTAnBgNVBFMMIGh0dHBzOi8vc3BpZC5jb211bmUuZ2lub3NhLnRhLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA6ycxe4CQJ+9G4ll94LYv9UH23Ruq9HpWVqXpdDylhkKAALi+OjIzRL/+O/KE7rcqNydT/2NYFTjSnzFXcwYvoShSrE/RknExI3Qu1WLuhnA9B+MS6u1N917yyD91aIs3EPvg3B5ZUV9wB8e79ZuklrCumw1stdOPUjCmIs7PsBqycSYjpQNZCL6VP3W0oE9ZaIUQ/wniK1meZL2eko4fOxvNVEmsVjxi3dr01z4QcS8asNGH31EmSPqpEZO6tLLQwqNJ2DPCeeUZGg+EABugMktQ9LP+rUTtPaENQQgW+51NsvEnS4MEyQ1ytbS+mj2IYjEa+VMKuID9bIx50Zp1RQIDAQABMA0GCSqGSIb3DQEBCwUAA4IBAQBhCBczIX0Y//SnAfQkfvMIFIqEPpdSNbjPf9KmOrcMDVJbBxaTx1K924ksdA4597Sa8Fk78erFNVjE9eWXJVesTBIkM3gF2bSdtr9ArxHPCTsVmCaIrzRv4ooT9jdkEzVDzxEwvicgdHVuKuFI7XWL8saoRnG49w/M8FoS3RaaEPLq4AfzUz7xhD49gsEPdLQ1onKKX+F0JlHUtGj6A4Bh1K+Q33kVgyLABg3yky49xbaSrNtn4f57SNLepnhlndppN48V3ahitkMb2E5Cib2g2mOh3sEgm3HQTCaK/67GEVg0isizjxdwQQ0gdscVsxS+RPmk6O7jLMU9/Uf15N5U</ds:X509Certificate></ds:X509Data>
+            </ds:KeyInfo>
+        </md:KeyDescriptor>        <md:KeyDescriptor use="signing">
+            <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+                <ds:X509Data>
+                    <ds:X509Certificate>MIIEDzCCAnegAwIBAgIJAOaxqs8nzEaMMA0GCSqGSIb3DQEBCwUAMCMxITAfBgNVBAMTGHNwaWQu Y29tdW5lLmdpbm9zYS50YS5pdDAeFw0yMDA0MjMwODEyMzFaFw0zMDA0MjEwODEyMzFaMCMxITAf BgNVBAMTGHNwaWQuY29tdW5lLmdpbm9zYS50YS5pdDCCAaIwDQYJKoZIhvcNAQEBBQADggGPADCC AYoCggGBALbSShfLfCzGO9riCxBBSKShqV4Te4YMVBmuy+pzcPru856bJUG0R5AtRgZLIySE/6sd m2K9HadQqATAkbyCpP5xTg+RxwZzKBCzXU06Aa4NR9ny+nwZKZ+hA412uLMrYlb+zJINZ5Y5r2Jd MJkNUf4vwpW6jH8JNw1bizy1Nf8+rieyRv6Ea3p4iRcgrR9gor7Kckc93oqVgspApHvZ65kh4lzV spDQuKXY/k2ReCeCVUo5n0I/IgylRcCgv0aBCcdP/EzCGHFcCn0UMh4aYULJqGDJu4hfXETxcFUj t2xmvjzafiTv67C9798/HkA+7dGiu4G0v/x3ar1sT5/Ea0YEEc/DQtj9ivlwdaksN9PyRqKwKL7u FIuNXA6P8JjBdzYa/Zc0cVuDVq3tnmyGZmkSZKtCqdS4SmHJ2Cl7PjRJudM9EeMDkz1qTrgCct2G qB2TnsLuq4sZSmuVi9bATPyCE1Gg/CYmbQiA44h0I7EnzAeOieQt3H1H0TUaR+VOVQIDAQABo0Yw RDAjBgNVHREEHDAaghhzcGlkLmNvbXVuZS5naW5vc2EudGEuaXQwHQYDVR0OBBYEFMPzDw9gxHL3 YX9tyVQA5Cvku/BoMA0GCSqGSIb3DQEBCwUAA4IBgQAFOPZQB5HCDXtP0IPv03Eo9NO13zfOMtKB tD2lfsu7iw37XKR8a228vSFE9mM+le5HQYVXqfY9+XsqihJQgKng/NnL/G3lW5Eb7zcuamqLIsP8 MQCmriGK4JfjRWyMkP2G65FB/mVWd4Inb4iT4gaOD8myGAw1jmPwNob7lUK6nItdHvaxxgdFJ7xf HOFtgXrm2DdYUrz3nQ82nImBpSFi4NM8P2oR1Wxwo6+1AbzhTTsvN+rb+vQgWCoPk9V9p4CWIrg7 ivevJsontTDKMZBRqyXo8RQRnQPwYLxPOFGwc/jbm6oZWj516YGnGn6qmpbmgzBdEjVh3VMDaxwn 1ebkh8/INly21sz/xWfYDnF9OFkhRGa+5fBIJXMD0USAx/8SOog0VRhocSAGnHkGpyYkJof87/zf yqLP4GsUa9ncyV9DKaiWnRCelBgZUKGPhX6x8e0kzCaFjMBBWQiiV8CZQpOV6gDfUXfB1VJBENn9 DBYlE1jxJXY9b2iUjj5IZSw=</ds:X509Certificate>
+                </ds:X509Data>
+            </ds:KeyInfo>
+        </md:KeyDescriptor>        <md:KeyDescriptor use="signing">
+            <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+                <ds:X509Data>
+                    <ds:X509Certificate>MIIEDzCCAnegAwIBAgIJAOaxqs8nzEaMMA0GCSqGSIb3DQEBCwUAMCMxITAfBgNV BAMTGHNwaWQuY29tdW5lLmdpbm9zYS50YS5pdDAeFw0yMDA0MjMwODEyMzFaFw0z MDA0MjEwODEyMzFaMCMxITAfBgNVBAMTGHNwaWQuY29tdW5lLmdpbm9zYS50YS5p dDCCAaIwDQYJKoZIhvcNAQEBBQADggGPADCCAYoCggGBALbSShfLfCzGO9riCxBB SKShqV4Te4YMVBmuy+pzcPru856bJUG0R5AtRgZLIySE/6sdm2K9HadQqATAkbyC pP5xTg+RxwZzKBCzXU06Aa4NR9ny+nwZKZ+hA412uLMrYlb+zJINZ5Y5r2JdMJkN Uf4vwpW6jH8JNw1bizy1Nf8+rieyRv6Ea3p4iRcgrR9gor7Kckc93oqVgspApHvZ 65kh4lzVspDQuKXY/k2ReCeCVUo5n0I/IgylRcCgv0aBCcdP/EzCGHFcCn0UMh4a YULJqGDJu4hfXETxcFUjt2xmvjzafiTv67C9798/HkA+7dGiu4G0v/x3ar1sT5/E a0YEEc/DQtj9ivlwdaksN9PyRqKwKL7uFIuNXA6P8JjBdzYa/Zc0cVuDVq3tnmyG ZmkSZKtCqdS4SmHJ2Cl7PjRJudM9EeMDkz1qTrgCct2GqB2TnsLuq4sZSmuVi9bA TPyCE1Gg/CYmbQiA44h0I7EnzAeOieQt3H1H0TUaR+VOVQIDAQABo0YwRDAjBgNV HREEHDAaghhzcGlkLmNvbXVuZS5naW5vc2EudGEuaXQwHQYDVR0OBBYEFMPzDw9g xHL3YX9tyVQA5Cvku/BoMA0GCSqGSIb3DQEBCwUAA4IBgQAFOPZQB5HCDXtP0IPv 03Eo9NO13zfOMtKBtD2lfsu7iw37XKR8a228vSFE9mM+le5HQYVXqfY9+XsqihJQ gKng/NnL/G3lW5Eb7zcuamqLIsP8MQCmriGK4JfjRWyMkP2G65FB/mVWd4Inb4iT 4gaOD8myGAw1jmPwNob7lUK6nItdHvaxxgdFJ7xfHOFtgXrm2DdYUrz3nQ82nImB pSFi4NM8P2oR1Wxwo6+1AbzhTTsvN+rb+vQgWCoPk9V9p4CWIrg7ivevJsontTDK MZBRqyXo8RQRnQPwYLxPOFGwc/jbm6oZWj516YGnGn6qmpbmgzBdEjVh3VMDaxwn 1ebkh8/INly21sz/xWfYDnF9OFkhRGa+5fBIJXMD0USAx/8SOog0VRhocSAGnHkG pyYkJof87/zfyqLP4GsUa9ncyV9DKaiWnRCelBgZUKGPhX6x8e0kzCaFjMBBWQii V8CZQpOV6gDfUXfB1VJBENn9DBYlE1jxJXY9b2iUjj5IZSw=</ds:X509Certificate>
+                </ds:X509Data>
+            </ds:KeyInfo>
+        </md:KeyDescriptor>
+            <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://ginosa.servizilocalispa.it/Shibboleth.sso/SLO/POST"/>
+            <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://ginosa.login.opencityitalia.it/slo"/>        
+        <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+        <md:AssertionConsumerService index="0" isDefault="true" Location="https://ginosa.servizilocalispa.it/Shibboleth.sso/SAML2/POST" Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST"/>
+        <md:AssertionConsumerService index="1" Location="https://ginosa.login.opencityitalia.it/acs" Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST"/>
+        <md:AttributeConsumingService index="0">
+            <md:ServiceName xml:lang="it">Set 0</md:ServiceName>       
+            <md:RequestedAttribute Name="gender"/>
+            <md:RequestedAttribute Name="companyName"/>
+            <md:RequestedAttribute Name="registeredOffice"/>
+            <md:RequestedAttribute Name="fiscalNumber"/>
+            <md:RequestedAttribute Name="ivaCode"/>
+            <md:RequestedAttribute Name="idCard"/>
+            <md:RequestedAttribute Name="spidCode"/>
+            <md:RequestedAttribute Name="name"/>
+            <md:RequestedAttribute Name="familyName"/>
+            <md:RequestedAttribute Name="placeOfBirth"/>
+            <md:RequestedAttribute Name="countyOfBirth"/>
+            <md:RequestedAttribute Name="dateOfBirth"/>
+            <md:RequestedAttribute Name="mobilePhone"/>
+            <md:RequestedAttribute Name="email"/>
+            <md:RequestedAttribute Name="address"/>
+            <md:RequestedAttribute Name="digitalAddress"/></md:AttributeConsumingService>
+        <md:AttributeConsumingService index="1">
+            <md:ServiceName xml:lang="it">Set 1</md:ServiceName>       
+            <md:RequestedAttribute Name="gender"/>
+            <md:RequestedAttribute Name="companyName"/>
+            <md:RequestedAttribute Name="registeredOffice"/>
+            <md:RequestedAttribute Name="fiscalNumber"/>
+            <md:RequestedAttribute Name="ivaCode"/>
+            <md:RequestedAttribute Name="idCard"/>
+            <md:RequestedAttribute Name="spidCode"/>
+            <md:RequestedAttribute Name="name"/>
+            <md:RequestedAttribute Name="familyName"/>
+            <md:RequestedAttribute Name="placeOfBirth"/>
+            <md:RequestedAttribute Name="countyOfBirth"/>
+            <md:RequestedAttribute Name="dateOfBirth"/>
+            <md:RequestedAttribute Name="mobilePhone"/>
+            <md:RequestedAttribute Name="email"/>
+            <md:RequestedAttribute Name="address"/>
+            <md:RequestedAttribute Name="expirationDate"/>
+            <md:RequestedAttribute Name="digitalAddress"/></md:AttributeConsumingService></md:SPSSODescriptor><md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Ginosa</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Ginosa</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://spid.comune.ginosa.ta.it</md:OrganizationURL>
+</md:Organization><md:ContactPerson contactType="other"><md:Extensions><spid:IPACode>c_e036</spid:IPACode><spid:Public/><spid:FiscalCode>80007530738</spid:FiscalCode></md:Extensions><md:EmailAddress>comune.ginosa@pec.rupar.puglia.it</md:EmailAddress><md:TelephoneNumber>+390998290111</md:TelephoneNumber></md:ContactPerson></md:EntityDescriptor>

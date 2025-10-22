@@ -1,0 +1,87 @@
+<?xml version="1.0"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:spid="https://spid.gov.it/saml-extensions" entityID="https://login.comune.monteporziocatone.rm.it" ID="https___login_comune_monteporziocatone_rm_it"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+  <ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+    <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+  <ds:Reference URI="#https___login_comune_monteporziocatone_rm_it"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>qdU+QQqvRs6UHkUiJFTK9hHEInmAxGFpwNZf6Vg3uV4=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>Zurze4pLv35Hoe2IMERMZNNS/412eZo4dgKzO2XujX1evtExYOTVjeRzoBoc74ke8QiJDSK8aOhHiLlb+pUYQFdd1GqMPF0f1vMu9XTWt+K3z2Q+64DuJrUMBxQViik76Zt/NpGxi90xlN+obhn0UNRQBVdicGHXNWg5wUdyO3WDucvm7abvAA2tLuy/w2OApGSgCuEHMmZn9Qxb452vPCG2hNTU50UL280fk0auPC6r7TxqW+Y8VIAAUxb5q4B/zHpj81cLkRmYXFg48suedGAA/ZPtQHkPTkYDe5GBMcsiwUSCrNTH/IN3VbStGWt5PUFQ2PRT1DoIX0TKUvztww==</ds:SignatureValue>
+<ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIEbDCCA1SgAwIBAgIIqwTmpqlqYAAwDQYJKoZIhvcNAQELBQAwgfUxJjAkBgNVBAoMHUNvbXVuZSBkaSBNb250ZSBQb3J6aW8gQ2F0b25lMRUwEwYDVQRhDAxQQTpJVC1jX2Y1OTAxCzAJBgNVBAYTAklUMRwwGgYDVQQHDBNNb250ZSBQb3J6aW8gQ2F0b25lMRwwGgYDVQQDDBNNb250ZSBQb3J6aW8gQ2F0b25lMTQwMgYJKoZIhvcNAQkBFiVjb211bmUubW9udGVwb3J6aW9jYXRvbmVAbGVnYWxtYWlsLml0MTUwMwYDVQRTDCxodHRwczovL2xvZ2luLmNvbXVuZS5tb250ZXBvcnppb2NhdG9uZS5ybS5pdDAeFw0yNDAyMjgxMDIxMzZaFw0yNjAyMjcxMDIxMzZaMIH1MSYwJAYDVQQKDB1Db211bmUgZGkgTW9udGUgUG9yemlvIENhdG9uZTEVMBMGA1UEYQwMUEE6SVQtY19mNTkwMQswCQYDVQQGEwJJVDEcMBoGA1UEBwwTTW9udGUgUG9yemlvIENhdG9uZTEcMBoGA1UEAwwTTW9udGUgUG9yemlvIENhdG9uZTE0MDIGCSqGSIb3DQEJARYlY29tdW5lLm1vbnRlcG9yemlvY2F0b25lQGxlZ2FsbWFpbC5pdDE1MDMGA1UEUwwsaHR0cHM6Ly9sb2dpbi5jb211bmUubW9udGVwb3J6aW9jYXRvbmUucm0uaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDFqvWGNdwQAWgGNHHITTi/FcxBQIzqcxUyccDBT0Y3SlwLz6vasrQg8tg8Usi5iKvj/LT53nTchIWwrBPR1SQ8qbsFSWMj18FDLRjaIDrBKTUE0b7IeSxcBUpJL3R9onEEmOXN6G8GnIciUyR3JB2bYqb8y8j+av4cqbmjNDspdo+ElhfTwW82VDZw7TCSnS5hOVOJnua1Bybut4ng5xRJalff3pukg67nWZtnPo+YMAA7y9ldKXiZaCFaQ/E0Df3bb9Jf/1VAxJ7SW3ZU9uDY1Ljx4LOv67NIAZWQAru1Fmtsybjo7xGLqphvUnsjqYVXZ43pKhw3gOQu6Yac8PmTAgMBAAEwDQYJKoZIhvcNAQELBQADggEBAMMgVVP7Adyjii3kZti+QRw7EAd1P0m9MZYuAJ3sGANfyYr4VKjThrsiHI8Y3wcl5x/IxwWZRNGYJL2HFltCErIaOYjhqUOIuAfUELft3hOyWDeXfYLa9WvS4MW6Cd1AfZOHWKzgoLgBVqElqhC9QYsKPrT8rXM5q4Sf/I0y68RH+n/88UmH8UIpBwryHJJ4MR32nnQ2hI28Kpsk2U28Tx/LME4tuWh+bmCR8WW5tythZgCQcygqaHKpcGBHLgsk3qwImeQAFO5BR9Ogg7ye2yhCQpnpW5kPnJ24AsWBebKfsSbyyu8YQBbUAbpM6ga15C9IQYmfO0T4DHD6fCTbY0A=</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature>
+    <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true" WantAssertionsSigned="true">
+        <md:KeyDescriptor use="signing">
+            <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+                <ds:X509Data><ds:X509Certificate>MIIEbDCCA1SgAwIBAgIIqwTmpqlqYAAwDQYJKoZIhvcNAQELBQAwgfUxJjAkBgNVBAoMHUNvbXVuZSBkaSBNb250ZSBQb3J6aW8gQ2F0b25lMRUwEwYDVQRhDAxQQTpJVC1jX2Y1OTAxCzAJBgNVBAYTAklUMRwwGgYDVQQHDBNNb250ZSBQb3J6aW8gQ2F0b25lMRwwGgYDVQQDDBNNb250ZSBQb3J6aW8gQ2F0b25lMTQwMgYJKoZIhvcNAQkBFiVjb211bmUubW9udGVwb3J6aW9jYXRvbmVAbGVnYWxtYWlsLml0MTUwMwYDVQRTDCxodHRwczovL2xvZ2luLmNvbXVuZS5tb250ZXBvcnppb2NhdG9uZS5ybS5pdDAeFw0yNDAyMjgxMDIxMzZaFw0yNjAyMjcxMDIxMzZaMIH1MSYwJAYDVQQKDB1Db211bmUgZGkgTW9udGUgUG9yemlvIENhdG9uZTEVMBMGA1UEYQwMUEE6SVQtY19mNTkwMQswCQYDVQQGEwJJVDEcMBoGA1UEBwwTTW9udGUgUG9yemlvIENhdG9uZTEcMBoGA1UEAwwTTW9udGUgUG9yemlvIENhdG9uZTE0MDIGCSqGSIb3DQEJARYlY29tdW5lLm1vbnRlcG9yemlvY2F0b25lQGxlZ2FsbWFpbC5pdDE1MDMGA1UEUwwsaHR0cHM6Ly9sb2dpbi5jb211bmUubW9udGVwb3J6aW9jYXRvbmUucm0uaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDFqvWGNdwQAWgGNHHITTi/FcxBQIzqcxUyccDBT0Y3SlwLz6vasrQg8tg8Usi5iKvj/LT53nTchIWwrBPR1SQ8qbsFSWMj18FDLRjaIDrBKTUE0b7IeSxcBUpJL3R9onEEmOXN6G8GnIciUyR3JB2bYqb8y8j+av4cqbmjNDspdo+ElhfTwW82VDZw7TCSnS5hOVOJnua1Bybut4ng5xRJalff3pukg67nWZtnPo+YMAA7y9ldKXiZaCFaQ/E0Df3bb9Jf/1VAxJ7SW3ZU9uDY1Ljx4LOv67NIAZWQAru1Fmtsybjo7xGLqphvUnsjqYVXZ43pKhw3gOQu6Yac8PmTAgMBAAEwDQYJKoZIhvcNAQELBQADggEBAMMgVVP7Adyjii3kZti+QRw7EAd1P0m9MZYuAJ3sGANfyYr4VKjThrsiHI8Y3wcl5x/IxwWZRNGYJL2HFltCErIaOYjhqUOIuAfUELft3hOyWDeXfYLa9WvS4MW6Cd1AfZOHWKzgoLgBVqElqhC9QYsKPrT8rXM5q4Sf/I0y68RH+n/88UmH8UIpBwryHJJ4MR32nnQ2hI28Kpsk2U28Tx/LME4tuWh+bmCR8WW5tythZgCQcygqaHKpcGBHLgsk3qwImeQAFO5BR9Ogg7ye2yhCQpnpW5kPnJ24AsWBebKfsSbyyu8YQBbUAbpM6ga15C9IQYmfO0T4DHD6fCTbY0A=</ds:X509Certificate></ds:X509Data>
+            </ds:KeyInfo>
+        </md:KeyDescriptor>        <md:KeyDescriptor use="signing">
+            <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+                <ds:X509Data>
+                    <ds:X509Certificate>MIIEqzCCA5OgAwIBAgIUTCQN56Chh0oxZ7VOwtvQ9E+/ZecwDQYJKoZIhvcNAQELBQAwgdsxCzAJBgNVBAYTAml0MQ4wDAYDVQQIDAVJdGFseTEcMBoGA1UEBwwTTU9OVEUgUE9SWklPIENBVE9ORTEmMCQGA1UECgwdQ09NVU5FIERJIE1PTlRFIFBPUlpJTyBDQVRPTkUxJjAkBgNVBAsMHUNPTVVORSBESSBNT05URSBQT1JaSU8gQ0FUT05FMTcwNQYDVQQDDC5odHRwczovL3dlYmFwcC5jb211bmUubW9udGVwb3J6aW9jYXRvbmUucm0uaXQvMRUwEwYDVQQFEwxQQTpJVC1jLUY1OTAwHhcNMjQwMTEwMDgwODM5WhcNMzQwMTA3MDgwODM5WjCB2zELMAkGA1UEBhMCaXQxDjAMBgNVBAgMBUl0YWx5MRwwGgYDVQQHDBNNT05URSBQT1JaSU8gQ0FUT05FMSYwJAYDVQQKDB1DT01VTkUgREkgTU9OVEUgUE9SWklPIENBVE9ORTEmMCQGA1UECwwdQ09NVU5FIERJIE1PTlRFIFBPUlpJTyBDQVRPTkUxNzA1BgNVBAMMLmh0dHBzOi8vd2ViYXBwLmNvbXVuZS5tb250ZXBvcnppb2NhdG9uZS5ybS5pdC8xFTATBgNVBAUTDFBBOklULWMtRjU5MDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBANMkFJiO6t9StNkVno29J5vlMFJ+emVPRuxBKis9W7Vqx+zQtVsoRNQVmDEZQCF2nx+JspM859drDNi8oFMutClh6G14UYsqU+2mx3PMfHtd39oh4QwezT2PFvstE+KO+OPuA4JLJql9AyFfz3TsS+AU+fzHgBe06AOJOSaJ+Fumbw7ab+2xcoBQicolzre7FX2uXPBpWRD9b83l6+2MWxW7kV4WwZ1Q8nYYBLyf/+jWy0g55Zvo7aH/44KVaEFZYkH23k6uib/BYdC5oG1+J/XJEe9qmKZkifTMIf8clLTs2GPJ/mMrssOlQP2VggkiOBcBT3KNJww7IjpkdLCaTuUCAwEAAaNlMGMwHQYDVR0OBBYEFHNjh7PQwjO2rBP9qUL3n9tPsEbAMB8GA1UdIwQYMBaAFHNjh7PQwjO2rBP9qUL3n9tPsEbAMAwGA1UdEwQFMAMBAf8wEwYDVR0gBAwwCjAIBgYrTBAEAgEwDQYJKoZIhvcNAQELBQADggEBAC38WnekzK0VAW/THCoEzkaGWLy0qk5zKlqoeXGnNdj7xfxknqpALlsqmLK/4w2UmOndLui0OpuRoPdNpjhY0nIH8+2C7XNH+t1mohdUBh3VQ7DyqIeXdVcz+rTizphz6b8MIudnC/HoxgUVcNmHDf60NQJg2si5dCjiO4/Oi9oY61iX+52clFvB9nAf8HamlMwm3Ez2kdDQKYIAlIOPwAG9pSCqhDc7I0QU4YFuUzFPq3GF+t/hgfwzfZOO3zgkvHV/vx9SGm0q2iNbKGapBiELfzbvOuPpuu1knC/QWm6ukFE/bQS3kqHR96htzO/W9891MRR9HGc4USwGVL0y1xA=</ds:X509Certificate>
+                </ds:X509Data>
+            </ds:KeyInfo>
+        </md:KeyDescriptor>        <md:KeyDescriptor use="signing">
+            <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+                <ds:X509Data>
+                    <ds:X509Certificate>MIIEqzCCA5OgAwIBAgIUTCQN56Chh0oxZ7VOwtvQ9E+/ZecwDQYJKoZIhvcNAQELBQAwgdsxCzAJBgNVBAYTAml0MQ4wDAYDVQQIDAVJdGFseTEcMBoGA1UEBwwTTU9OVEUgUE9SWklPIENBVE9ORTEmMCQGA1UECgwdQ09NVU5FIERJIE1PTlRFIFBPUlpJTyBDQVRPTkUxJjAkBgNVBAsMHUNPTVVORSBESSBNT05URSBQT1JaSU8gQ0FUT05FMTcwNQYDVQQDDC5odHRwczovL3dlYmFwcC5jb211bmUubW9udGVwb3J6aW9jYXRvbmUucm0uaXQvMRUwEwYDVQQFEwxQQTpJVC1jLUY1OTAwHhcNMjQwMTEwMDgwODM5WhcNMzQwMTA3MDgwODM5WjCB2zELMAkGA1UEBhMCaXQxDjAMBgNVBAgMBUl0YWx5MRwwGgYDVQQHDBNNT05URSBQT1JaSU8gQ0FUT05FMSYwJAYDVQQKDB1DT01VTkUgREkgTU9OVEUgUE9SWklPIENBVE9ORTEmMCQGA1UECwwdQ09NVU5FIERJIE1PTlRFIFBPUlpJTyBDQVRPTkUxNzA1BgNVBAMMLmh0dHBzOi8vd2ViYXBwLmNvbXVuZS5tb250ZXBvcnppb2NhdG9uZS5ybS5pdC8xFTATBgNVBAUTDFBBOklULWMtRjU5MDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBANMkFJiO6t9StNkVno29J5vlMFJ+emVPRuxBKis9W7Vqx+zQtVsoRNQVmDEZQCF2nx+JspM859drDNi8oFMutClh6G14UYsqU+2mx3PMfHtd39oh4QwezT2PFvstE+KO+OPuA4JLJql9AyFfz3TsS+AU+fzHgBe06AOJOSaJ+Fumbw7ab+2xcoBQicolzre7FX2uXPBpWRD9b83l6+2MWxW7kV4WwZ1Q8nYYBLyf/+jWy0g55Zvo7aH/44KVaEFZYkH23k6uib/BYdC5oG1+J/XJEe9qmKZkifTMIf8clLTs2GPJ/mMrssOlQP2VggkiOBcBT3KNJww7IjpkdLCaTuUCAwEAAaNlMGMwHQYDVR0OBBYEFHNjh7PQwjO2rBP9qUL3n9tPsEbAMB8GA1UdIwQYMBaAFHNjh7PQwjO2rBP9qUL3n9tPsEbAMAwGA1UdEwQFMAMBAf8wEwYDVR0gBAwwCjAIBgYrTBAEAgEwDQYJKoZIhvcNAQELBQADggEBAC38WnekzK0VAW/THCoEzkaGWLy0qk5zKlqoeXGnNdj7xfxknqpALlsqmLK/4w2UmOndLui0OpuRoPdNpjhY0nIH8+2C7XNH+t1mohdUBh3VQ7DyqIeXdVcz+rTizphz6b8MIudnC/HoxgUVcNmHDf60NQJg2si5dCjiO4/Oi9oY61iX+52clFvB9nAf8HamlMwm3Ez2kdDQKYIAlIOPwAG9pSCqhDc7I0QU4YFuUzFPq3GF+t/hgfwzfZOO3zgkvHV/vx9SGm0q2iNbKGapBiELfzbvOuPpuu1knC/QWm6ukFE/bQS3kqHR96htzO/W9891MRR9HGc4USwGVL0y1xA=</ds:X509Certificate>
+                </ds:X509Data>
+            </ds:KeyInfo>
+        </md:KeyDescriptor>
+            <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://webapp.comune.monteporziocatone.rm.it/GolemLogin/SAML/SLOService.aspx"/>
+            <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://webapp.comune.monteporziocatone.rm.it/GolemLogin/SAML/SLOService.aspx"/>
+            <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://monteporziocatone.login.opencityitalia.it/slo"/>        
+        <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+        <md:AssertionConsumerService index="0" isDefault="true" Location="https://webapp.comune.monteporziocatone.rm.it/GolemLogin/SAML/AssertionConsumerService.aspx" Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST"/>
+        <md:AssertionConsumerService index="1" Location="https://webapp.comune.monteporziocatone.rm.it/GolemLogin/SAML/AssertionConsumerService.aspx" Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST"/>
+        <md:AssertionConsumerService index="2" Location="https://monteporziocatone.login.opencityitalia.it/acs" Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST"/>
+        <md:AttributeConsumingService index="0">
+            <md:ServiceName xml:lang="it">Set 0</md:ServiceName>       
+            <md:RequestedAttribute Name="gender"/>
+            <md:RequestedAttribute Name="fiscalNumber"/>
+            <md:RequestedAttribute Name="idCard"/>
+            <md:RequestedAttribute Name="spidCode"/>
+            <md:RequestedAttribute Name="name"/>
+            <md:RequestedAttribute Name="familyName"/>
+            <md:RequestedAttribute Name="placeOfBirth"/>
+            <md:RequestedAttribute Name="countyOfBirth"/>
+            <md:RequestedAttribute Name="dateOfBirth"/>
+            <md:RequestedAttribute Name="mobilePhone"/>
+            <md:RequestedAttribute Name="email"/>
+            <md:RequestedAttribute Name="address"/></md:AttributeConsumingService>
+        <md:AttributeConsumingService index="1">
+            <md:ServiceName xml:lang="it">Set 1</md:ServiceName>       
+            <md:RequestedAttribute Name="gender"/>
+            <md:RequestedAttribute Name="companyName"/>
+            <md:RequestedAttribute Name="registeredOffice"/>
+            <md:RequestedAttribute Name="fiscalNumber"/>
+            <md:RequestedAttribute Name="ivaCode"/>
+            <md:RequestedAttribute Name="idCard"/>
+            <md:RequestedAttribute Name="spidCode"/>
+            <md:RequestedAttribute Name="name"/>
+            <md:RequestedAttribute Name="familyName"/>
+            <md:RequestedAttribute Name="placeOfBirth"/>
+            <md:RequestedAttribute Name="countyOfBirth"/>
+            <md:RequestedAttribute Name="dateOfBirth"/>
+            <md:RequestedAttribute Name="mobilePhone"/>
+            <md:RequestedAttribute Name="email"/>
+            <md:RequestedAttribute Name="address"/>
+            <md:RequestedAttribute Name="expirationDate"/>
+            <md:RequestedAttribute Name="digitalAddress"/></md:AttributeConsumingService>
+        <md:AttributeConsumingService index="2">
+            <md:ServiceName xml:lang="it">Set 2</md:ServiceName>       
+            <md:RequestedAttribute Name="gender"/>
+            <md:RequestedAttribute Name="companyName"/>
+            <md:RequestedAttribute Name="registeredOffice"/>
+            <md:RequestedAttribute Name="fiscalNumber"/>
+            <md:RequestedAttribute Name="ivaCode"/>
+            <md:RequestedAttribute Name="idCard"/>
+            <md:RequestedAttribute Name="spidCode"/>
+            <md:RequestedAttribute Name="name"/>
+            <md:RequestedAttribute Name="familyName"/>
+            <md:RequestedAttribute Name="placeOfBirth"/>
+            <md:RequestedAttribute Name="countyOfBirth"/>
+            <md:RequestedAttribute Name="dateOfBirth"/>
+            <md:RequestedAttribute Name="mobilePhone"/>
+            <md:RequestedAttribute Name="email"/>
+            <md:RequestedAttribute Name="address"/>
+            <md:RequestedAttribute Name="expirationDate"/>
+            <md:RequestedAttribute Name="digitalAddress"/></md:AttributeConsumingService></md:SPSSODescriptor><md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Monte Porzio Catone</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Monte Porzio Catone</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://login.comune.monteporziocatone.rm.it</md:OrganizationURL>
+</md:Organization><md:ContactPerson contactType="other"><md:Extensions><spid:IPACode>c_f590</spid:IPACode><spid:Public/><spid:FiscalCode>84001810583</spid:FiscalCode></md:Extensions><md:EmailAddress>comune.monteporziocatone@legalmail.it</md:EmailAddress><md:TelephoneNumber>+3906942831</md:TelephoneNumber></md:ContactPerson></md:EntityDescriptor>

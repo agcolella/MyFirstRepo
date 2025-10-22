@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" entityID="https://identity.ordineingegneri.pistoia.it" ID="spid-php_915b1094c31520c3edbad49b6a1a7702edad1a0df2c502ff34f0a1ce24f7eb0a"><ds:Signature>
+  <ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+    <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+  <ds:Reference URI="#spid-php_915b1094c31520c3edbad49b6a1a7702edad1a0df2c502ff34f0a1ce24f7eb0a"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>QM0tF9rgzuwULWXOw0cxfAN9QSjACLjJbmGPOd5ELAo=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>TBPxC4TwKCG733uZHKhm07YtzwOiQFJNvFJ19XFwmUCVx8S3sFU3o6GL7r/IpujBpZ76Ev5yLivuQCP75EYUZ5QsBvXYRTjo3wBUkUDgv6lsXQL4Hdftl57zxjPt5pANX8XRAwwv1A08wpi4b4oy122rW8qPsTtrWD/v6p1chFU28xELKEoPNxfkWP1rVwxtWStSmiByg4fl/oPHFm96FadU1wZU8MDbNynAVwfPBu8MfkgUBGjDSKMw+ooC9AZvA7TOpxPtUEfAJ3levg9a0JAoei0xDkx17PbiSTXqnFnGgyakZH8N6usTN2k6Z7vKgGiAC8gnWhG3DRPgj68LPO87Z5cgKD9KyhideJ+tCyWt5puYoc+HBAJo7l+OySug9CSzdIo+pJk0B+ADaQRWaO9HQNG0i+Qbl1+G1HPtJ/6VW8QnYK9xQ8sxqSTUmMgsRHu6LWMseKhOnZwGdWovdYI5ezbORjVt0mkcRo+msQmt4aQ8ywvw/XvbnzV5NcH0</ds:SignatureValue>
+<ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIFkDCCA/igAwIBAgIJAPFbv18geYh7MA0GCSqGSIb3DQEBCwUAMIHNMTowOAYDVQQKDDFPcmRpbmUgZGVnbGkgSW5nZWduZXJpIGRlbGxhIFByb3ZpbmNpYSBkaSBQaXN0b2lhMSEwHwYDVQQDDBhPcmRpbmUgSW5nZWduZXJpIFBpc3RvaWExNDAyBgNVBFMMK2h0dHBzOi8vaWRlbnRpdHkub3JkaW5laW5nZWduZXJpLnBpc3RvaWEuaXQxFzAVBgNVBGEMDlBBOklULW9yaW5nX3B0MQswCQYDVQQGEwJJVDEQMA4GA1UEBwwHUGlzdG9pYTAeFw0yNDAyMjcxNjU0NTFaFw0yNjAyMjYxNjU0NTFaMIHNMTowOAYDVQQKDDFPcmRpbmUgZGVnbGkgSW5nZWduZXJpIGRlbGxhIFByb3ZpbmNpYSBkaSBQaXN0b2lhMSEwHwYDVQQDDBhPcmRpbmUgSW5nZWduZXJpIFBpc3RvaWExNDAyBgNVBFMMK2h0dHBzOi8vaWRlbnRpdHkub3JkaW5laW5nZWduZXJpLnBpc3RvaWEuaXQxFzAVBgNVBGEMDlBBOklULW9yaW5nX3B0MQswCQYDVQQGEwJJVDEQMA4GA1UEBwwHUGlzdG9pYTCCAaIwDQYJKoZIhvcNAQEBBQADggGPADCCAYoCggGBANhpEqeK0qy3qucWGm1uynAJd48h6aN3pAcy1aiMgy4G9iGbcH6+aUNKYis4Cwt56HKe4OJn1NVArPaN0iMfqnZBDPXaNTmU1Fc5RQlobBaEiO4H88vTuQqClh4mubLQFJiUNnh343q02j9LYaoGyIQTKXiAaKmcJSyVhWZl6qr9HyocZezYQZuAJkMJM+ff17BNaBcxNvNmGszS2d/yDIu+ZjhOfdNTRFXOPWc45GAE/Qu1n3SLMs6lxS6r0YhpDQKJZJAmm3a8PL902tgSeVtkq9pI8DKc1iGO39mu47jrhTKAKPNEP5J7AFsk57Qni2Zrstj+hIwb/6p1Rlzjz5CcNQ7r5IRsKI9O3qr2Pi6Eq0d6jnhlqK5SaM4F3Llvg1Y4KjuI573pguxLOO96H3Wf/ladC8wFj3+jdVJKLDpMY24C1btDLcSb5ViggTv3evkO/CQEsnKMILLRpkHz18xSJZQevFgSxC2MOpeUWJMMnte/lSzapdezooBfmGh2HQIDAQABo3EwbzAJBgNVHRMEAjAAMA4GA1UdDwEB/wQEAwIGwDBSBgNVHSAESzBJMCAGBCtMEAYwGDAWBggrBgEFBQcCAjAKGghhZ0lEY2VydDAlBgYrTBAEAgEwGzAZBggrBgEFBQcCAjANGgtjZXJ0X1NQX1B1YjANBgkqhkiG9w0BAQsFAAOCAYEAA62CvIy74k4oN9Rhf3E7p7LUJF1Z3W6KfKogTNPo81VNVAXPp5O6grw2sSsf4xKjrdDamVJ0XkzZUR0ExwMD6jcjAOENhdHA15oGtsPOfBro2aOxGugcv7cub+Fs1cjtSsyBtDeWitLmJ43SZcV0LGhWQAwnoUUX17NdGEE0Vj9bAK/ygRjsMSRJ6FusgU8Mz+nkMWg2EFdmF6Y1Z9PtW6QxzuUAZvcM7VVUsJ7aJlAOwBbDFMjHR0uYX6nqlTnOpiB9MDizn2PTFiBudEAucYjV4dyyMPVXAZXfEPGm0MAXvqGUiUWz+EpZBIpOuVatmAKxot5qEAVUr7yezNAqvBtELALIx8qrWvHFchmOvY41JL8Rr9OpEsvjVWysTRsaY4HRnyoTyaBa5d6IAkIpDiXckcNdU7xRlsegBoVpVMPmSqT5/v7CSjJ878UIKCwsqDhTTzVapvlNv7CPo0HfAZljGtX3WkZbtbcbM2bzlHczuxtICDKrnLUwqJ1ebp68</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature>
+  <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true" WantAssertionsSigned="true">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIFkDCCA/igAwIBAgIJAPFbv18geYh7MA0GCSqGSIb3DQEBCwUAMIHNMTowOAYDVQQKDDFPcmRpbmUgZGVnbGkgSW5nZWduZXJpIGRlbGxhIFByb3ZpbmNpYSBkaSBQaXN0b2lhMSEwHwYDVQQDDBhPcmRpbmUgSW5nZWduZXJpIFBpc3RvaWExNDAyBgNVBFMMK2h0dHBzOi8vaWRlbnRpdHkub3JkaW5laW5nZWduZXJpLnBpc3RvaWEuaXQxFzAVBgNVBGEMDlBBOklULW9yaW5nX3B0MQswCQYDVQQGEwJJVDEQMA4GA1UEBwwHUGlzdG9pYTAeFw0yNDAyMjcxNjU0NTFaFw0yNjAyMjYxNjU0NTFaMIHNMTowOAYDVQQKDDFPcmRpbmUgZGVnbGkgSW5nZWduZXJpIGRlbGxhIFByb3ZpbmNpYSBkaSBQaXN0b2lhMSEwHwYDVQQDDBhPcmRpbmUgSW5nZWduZXJpIFBpc3RvaWExNDAyBgNVBFMMK2h0dHBzOi8vaWRlbnRpdHkub3JkaW5laW5nZWduZXJpLnBpc3RvaWEuaXQxFzAVBgNVBGEMDlBBOklULW9yaW5nX3B0MQswCQYDVQQGEwJJVDEQMA4GA1UEBwwHUGlzdG9pYTCCAaIwDQYJKoZIhvcNAQEBBQADggGPADCCAYoCggGBANhpEqeK0qy3qucWGm1uynAJd48h6aN3pAcy1aiMgy4G9iGbcH6+aUNKYis4Cwt56HKe4OJn1NVArPaN0iMfqnZBDPXaNTmU1Fc5RQlobBaEiO4H88vTuQqClh4mubLQFJiUNnh343q02j9LYaoGyIQTKXiAaKmcJSyVhWZl6qr9HyocZezYQZuAJkMJM+ff17BNaBcxNvNmGszS2d/yDIu+ZjhOfdNTRFXOPWc45GAE/Qu1n3SLMs6lxS6r0YhpDQKJZJAmm3a8PL902tgSeVtkq9pI8DKc1iGO39mu47jrhTKAKPNEP5J7AFsk57Qni2Zrstj+hIwb/6p1Rlzjz5CcNQ7r5IRsKI9O3qr2Pi6Eq0d6jnhlqK5SaM4F3Llvg1Y4KjuI573pguxLOO96H3Wf/ladC8wFj3+jdVJKLDpMY24C1btDLcSb5ViggTv3evkO/CQEsnKMILLRpkHz18xSJZQevFgSxC2MOpeUWJMMnte/lSzapdezooBfmGh2HQIDAQABo3EwbzAJBgNVHRMEAjAAMA4GA1UdDwEB/wQEAwIGwDBSBgNVHSAESzBJMCAGBCtMEAYwGDAWBggrBgEFBQcCAjAKGghhZ0lEY2VydDAlBgYrTBAEAgEwGzAZBggrBgEFBQcCAjANGgtjZXJ0X1NQX1B1YjANBgkqhkiG9w0BAQsFAAOCAYEAA62CvIy74k4oN9Rhf3E7p7LUJF1Z3W6KfKogTNPo81VNVAXPp5O6grw2sSsf4xKjrdDamVJ0XkzZUR0ExwMD6jcjAOENhdHA15oGtsPOfBro2aOxGugcv7cub+Fs1cjtSsyBtDeWitLmJ43SZcV0LGhWQAwnoUUX17NdGEE0Vj9bAK/ygRjsMSRJ6FusgU8Mz+nkMWg2EFdmF6Y1Z9PtW6QxzuUAZvcM7VVUsJ7aJlAOwBbDFMjHR0uYX6nqlTnOpiB9MDizn2PTFiBudEAucYjV4dyyMPVXAZXfEPGm0MAXvqGUiUWz+EpZBIpOuVatmAKxot5qEAVUr7yezNAqvBtELALIx8qrWvHFchmOvY41JL8Rr9OpEsvjVWysTRsaY4HRnyoTyaBa5d6IAkIpDiXckcNdU7xRlsegBoVpVMPmSqT5/v7CSjJ878UIKCwsqDhTTzVapvlNv7CPo0HfAZljGtX3WkZbtbcbM2bzlHczuxtICDKrnLUwqJ1ebp68</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIFkDCCA/igAwIBAgIJAPFbv18geYh7MA0GCSqGSIb3DQEBCwUAMIHNMTowOAYDVQQKDDFPcmRpbmUgZGVnbGkgSW5nZWduZXJpIGRlbGxhIFByb3ZpbmNpYSBkaSBQaXN0b2lhMSEwHwYDVQQDDBhPcmRpbmUgSW5nZWduZXJpIFBpc3RvaWExNDAyBgNVBFMMK2h0dHBzOi8vaWRlbnRpdHkub3JkaW5laW5nZWduZXJpLnBpc3RvaWEuaXQxFzAVBgNVBGEMDlBBOklULW9yaW5nX3B0MQswCQYDVQQGEwJJVDEQMA4GA1UEBwwHUGlzdG9pYTAeFw0yNDAyMjcxNjU0NTFaFw0yNjAyMjYxNjU0NTFaMIHNMTowOAYDVQQKDDFPcmRpbmUgZGVnbGkgSW5nZWduZXJpIGRlbGxhIFByb3ZpbmNpYSBkaSBQaXN0b2lhMSEwHwYDVQQDDBhPcmRpbmUgSW5nZWduZXJpIFBpc3RvaWExNDAyBgNVBFMMK2h0dHBzOi8vaWRlbnRpdHkub3JkaW5laW5nZWduZXJpLnBpc3RvaWEuaXQxFzAVBgNVBGEMDlBBOklULW9yaW5nX3B0MQswCQYDVQQGEwJJVDEQMA4GA1UEBwwHUGlzdG9pYTCCAaIwDQYJKoZIhvcNAQEBBQADggGPADCCAYoCggGBANhpEqeK0qy3qucWGm1uynAJd48h6aN3pAcy1aiMgy4G9iGbcH6+aUNKYis4Cwt56HKe4OJn1NVArPaN0iMfqnZBDPXaNTmU1Fc5RQlobBaEiO4H88vTuQqClh4mubLQFJiUNnh343q02j9LYaoGyIQTKXiAaKmcJSyVhWZl6qr9HyocZezYQZuAJkMJM+ff17BNaBcxNvNmGszS2d/yDIu+ZjhOfdNTRFXOPWc45GAE/Qu1n3SLMs6lxS6r0YhpDQKJZJAmm3a8PL902tgSeVtkq9pI8DKc1iGO39mu47jrhTKAKPNEP5J7AFsk57Qni2Zrstj+hIwb/6p1Rlzjz5CcNQ7r5IRsKI9O3qr2Pi6Eq0d6jnhlqK5SaM4F3Llvg1Y4KjuI573pguxLOO96H3Wf/ladC8wFj3+jdVJKLDpMY24C1btDLcSb5ViggTv3evkO/CQEsnKMILLRpkHz18xSJZQevFgSxC2MOpeUWJMMnte/lSzapdezooBfmGh2HQIDAQABo3EwbzAJBgNVHRMEAjAAMA4GA1UdDwEB/wQEAwIGwDBSBgNVHSAESzBJMCAGBCtMEAYwGDAWBggrBgEFBQcCAjAKGghhZ0lEY2VydDAlBgYrTBAEAgEwGzAZBggrBgEFBQcCAjANGgtjZXJ0X1NQX1B1YjANBgkqhkiG9w0BAQsFAAOCAYEAA62CvIy74k4oN9Rhf3E7p7LUJF1Z3W6KfKogTNPo81VNVAXPp5O6grw2sSsf4xKjrdDamVJ0XkzZUR0ExwMD6jcjAOENhdHA15oGtsPOfBro2aOxGugcv7cub+Fs1cjtSsyBtDeWitLmJ43SZcV0LGhWQAwnoUUX17NdGEE0Vj9bAK/ygRjsMSRJ6FusgU8Mz+nkMWg2EFdmF6Y1Z9PtW6QxzuUAZvcM7VVUsJ7aJlAOwBbDFMjHR0uYX6nqlTnOpiB9MDizn2PTFiBudEAucYjV4dyyMPVXAZXfEPGm0MAXvqGUiUWz+EpZBIpOuVatmAKxot5qEAVUr7yezNAqvBtELALIx8qrWvHFchmOvY41JL8Rr9OpEsvjVWysTRsaY4HRnyoTyaBa5d6IAkIpDiXckcNdU7xRlsegBoVpVMPmSqT5/v7CSjJ878UIKCwsqDhTTzVapvlNv7CPo0HfAZljGtX3WkZbtbcbM2bzlHczuxtICDKrnLUwqJ1ebp68</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://identity.ordineingegneri.pistoia.it/ordineingegneripistoia/module.php/saml/sp/saml2-logout.php/spid"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://identity.ordineingegneri.pistoia.it/ordineingegneripistoia/module.php/saml/sp/saml2-acs.php/spid" index="0" isDefault="true"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">Ordine Ingegneri Pistoia SPID Service Provider</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Ordine Ingegneri Pistoia Accesso SPID-CIE</md:ServiceDescription>
+      <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="registeredOffice" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="idCard" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="expirationDate" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="digitalAddress" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Ordine degli Ingegneri della Provincia di Pistoia</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Ordine Ingegneri Pistoia</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">http://www.ordineingegneri.pistoia.it</md:OrganizationURL>
+  </md:Organization>
+  <md:ContactPerson contactType="other">
+    <md:Extensions>
+      <spid:IPACode xmlns:spid="https://spid.gov.it/saml-extensions">oring_pt</spid:IPACode>
+      <spid:Public xmlns:spid="https://spid.gov.it/saml-extensions"/>
+    </md:Extensions>
+    <md:Company>Ordine degli Ingegneri della Provincia di Pistoia</md:Company>
+    <md:EmailAddress>info@ordineingegneri.pistoia.it</md:EmailAddress>
+    <md:TelephoneNumber>+39057325931</md:TelephoneNumber>
+  </md:ContactPerson>
+</md:EntityDescriptor>

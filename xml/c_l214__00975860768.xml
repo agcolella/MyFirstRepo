@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<md:EntityDescriptor ID="_ccbb2534-d3b7-406e-9d97-4e902a56cdd0" entityID="https://spid.publisys.it/pub-ag-lite/torelladeilombardi" xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:spid="https://spid.gov.it/saml-extensions"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#_ccbb2534-d3b7-406e-9d97-4e902a56cdd0">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>2MZFCHNncImWAWSYgf8KhevDnDm39GHfSRN4044OLuM=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+QdE8+1sUZVZr0E/IOH3tuRQnyiPMf9/6E0rjMx3vlvboY2r92HqcqFRSUwtACpJnrdfNpM7o20Al
+gd+1a198HL0DERjRJP9XELsZTqEQiscBybJB0tMw8S0oBJSzV7RwGN6q+yvSwWqkcNT/c/hqeE5j
+h0aGSSzzlG5RoXaKuSVH+2PiQttvjY3kyi6RrSkFtCARB3CGhtuny5j7X9dZWvkpdvwyBclqXerS
+n5nRA47jEsCFY2nRfaxnQMEYo1Zo1B/+wvsHlTnxFpsAz6TRe6FcyjhjCKGL4r49a8aoMjb6GUVN
+SFeAorHCCF/+N3VMDiQ+5yr5FKfNVpxn8zYCfQ==
+</ds:SignatureValue>
+<ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIHLzCCBRegAwIBAgIIOnqDshEI4NswDQYJKoZIhvcNAQENBQAwgeUxCzAJBgNVBAYTAklUMQ0w
+CwYDVQQHDARSb21lMSYwJAYDVQQKDB1BZ2VuemlhIHBlciBsJ0l0YWxpYSBEaWdpdGFsZTEsMCoG
+A1UECwwjU2Vydml6aW8gQWNjcmVkaXRhbWVudG8gZSBWaWdpbGFuemExKjAoBgNVBAMMIVByb2dl
+dHRvIFNQSUQgLSBTb2dnZXR0aV9wdWJibGljaTEpMCcGCSqGSIb3DQEJARYacHJvdG9jb2xsb0Bw
+ZWMuYWdpZC5nb3YuaXQxGjAYBgNVBAUTEVZBVElULTk3NzM1MDIwNTg0MB4XDTIwMTEyMzAwMDAw
+MFoXDTMwMTEyMjIzNTk1OVowgb8xETAPBgNVBAoMCFB1Ymxpc3lzMRQwEgYDVQQDDAtwdWJsaXN5
+cy5pdDEaMBgGA1UEYQwRVkFUSVQtMDA5NzU4NjA3NjgxCzAJBgNVBAYTAklUMQ0wCwYDVQQHDARU
+aXRvMSQwIgYJKoZIhvcNAQkBFhVwdWJsaXN5c0BwZWMuYXJ1YmEuaXQxNjA0BgNVBFMMLWh0dHBz
+Oi8vc3BpZC5wdWJsaXN5cy5pdC9wdWItYWctbGl0ZS9jYWx2ZWxsbzCCASIwDQYJKoZIhvcNAQEB
+BQADggEPADCCAQoCggEBALzSADGHvljCD60cqW9oQr3BcCfH8vRBKyqrHzpvMMIz14VQM0POmEh8
+Xma/yE0YzbdQTFyx4zPrpWcHpd2cUJLg53te6e0uAL7+24O+1SxvzK0wG3INJMQ70MKFvPPAEg7k
+/xVgbMKYoifHMnUccrGIr6pX6mb0zELQ6Tj2XOBWPrsZZHHTrUOiEpr/OK/+au6endE5DUZO2/jb
+hXCo/3S/fKoInaXNmpKlT0e3u1F0oT5qaux6Q8FtMqip7hOqdA259idxBi79U8w7kk50zKqtKqrR
+W0t+t7ckZwVghO4Pg2yIDxMHYwGDK2gWgZAdb1MKoyN4K9ND4oida65h9CUCAwEAAaOCAgUwggIB
+MBIGA1UdEwEB/wQIMAYBAf8CAQAwHQYDVR0OBBYEFBlqeUPlV/i8uSlBJ8lu9Umv8LChMB8GA1Ud
+IwQYMBaAFDy7bese/Z1uy+5U5uo51YmgR9c0MA4GA1UdDwEB/wQEAwIBBjAWBgNVHRIEDzANggtz
+cGlkLmdvdi5pdDBCBgNVHR8EOzA5MDegNaAzhjFodHRwczovL2VpZGFzLmFnaWQuZ292Lml0L2Ny
+bC9jcmxfU1BJRF9QdWJfU0EuY3JsMDcGCCsGAQUFBwEBBCswKTAnBggrBgEFBQcwAYYbaHR0cHM6
+Ly9vY3NwX1NBLmFnaWQuZ292Lml0MIGYBgNVHSAEgZAwgY0wTAYDK0wQMEUwQwYIKwYBBQUHAgEW
+N2h0dHBzOi8vZWlkYXMuYWdpZC5nb3YuaXQvY3BzL0FnSURfZUlEQVNfcm9vdENBX2Nwcy5wZGYw
+PQYGK0wQBAIFMDMwMQYIKwYBBQUHAgIwJRojQ2VydGlmaWNhdGkgQWdncmVnYXRvcmkgU1AgcHVi
+YmxpY2kwEQYJYIZIAYb4QgEBBAQDAgAHMB4GCWCGSAGG+EIBDQQRFg94Y2EgY2VydGlmaWNhdGUw
+OAYDVR0RBDEwL4YtaHR0cHM6Ly9zcGlkLnB1Ymxpc3lzLml0L3B1Yi1hZy1saXRlL2NhbHZlbGxv
+MA0GCSqGSIb3DQEBDQUAA4ICAQBd9mXzQVkyca7xgVri0ZS3txYNbFsv8DgqDDFFJHeZj+dByGdU
+wvhx8+IwfB/rheo5zV1YAcWakWCUBR9e41h4LfnoyzoMLKIlgk8ZAm1xeI+mjzYK2oAKM606i803
+aWBKn8sPaSCYSil8PomXugBvcBWQj2BFvcejfszfmfohEIA/FlV0HM+ijtgh7t1bJDGzWan7VfAs
+l4Ig9qvE70eLC9lgdFZ5geeuh5Mq6roFBWXl5pI5nuaRQFeiipCfZHnxGvt5WiR9QEMzUP/SFMFt
+fb0LP20Sbck1pZhOA81e59C972KOFfgUtr/sgBYbjzbqrHvkKIJfHvL9vys9NHuivyYCvJHlkHIx
+Fx9245+I+kOzw3S5gTC2TVlT1JFp+ydQaRLMI8Vg9QgqOyaz7HVln6BnDmhqvnRL0ppnqJJgv7xb
+ltDcvt0cgA4m7kjvtabJf2jRNRDmWDJYDGRY1ChknDVyo2XZ2/XurvqS5XotbN9rTzp02erX/uhf
+TIbFXTGjj2zCzOG2JRq6xkmcKfj9jjhRQq2Taz07ts6H4F4y/4oNMBTCV6BLXOAM861FMQVjQ3fW
+2btk6dAShWRqsf0id+iAKuZkH0r/dQUHAQ7HfJydkQQu6EtK0BowR3GqSxfGrM7s5Wcaf97Z9MbY
+cMf9kbddfMy7aJuo+1fGBQCvsw==</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature><md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol"><md:KeyDescriptor use="signing"><ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#"><ds:X509Data><ds:X509Certificate>MIIF0DCCBDigAwIBAgIUVax70B3qMci6crhXjxseeBYikmQwDQYJKoZIhvcNAQEL
+BQAwgdcxJzAlBgNVBAMMHkNvbXVuZSBkaSBUb3JlbGxhIGRlaSBMb21iYXJkaTEL
+MAkGA1UEBhMCSVQxHTAbBgNVBAcMFFRvcmVsbGEgZGVpIExvbWJhcmRpMRUwEwYD
+VQRhDAxQQTpJVC1jX2wyMTQxJzAlBgNVBAoMHkNvbXVuZSBkaSBUb3JlbGxhIGRl
+aSBMb21iYXJkaTFAMD4GA1UEUww3aHR0cHM6Ly9zcGlkLnB1Ymxpc3lzLml0L3B1
+Yi1hZy1saXRlL3RvcmVsbGFkZWlsb21iYXJkaTAeFw0yNDAzMTgxMjAzMjJaFw0z
+NDAzMTYxMjAzMjJaMIHXMScwJQYDVQQDDB5Db211bmUgZGkgVG9yZWxsYSBkZWkg
+TG9tYmFyZGkxCzAJBgNVBAYTAklUMR0wGwYDVQQHDBRUb3JlbGxhIGRlaSBMb21i
+YXJkaTEVMBMGA1UEYQwMUEE6SVQtY19sMjE0MScwJQYDVQQKDB5Db211bmUgZGkg
+VG9yZWxsYSBkZWkgTG9tYmFyZGkxQDA+BgNVBFMMN2h0dHBzOi8vc3BpZC5wdWJs
+aXN5cy5pdC9wdWItYWctbGl0ZS90b3JlbGxhZGVpbG9tYmFyZGkwggGiMA0GCSqG
+SIb3DQEBAQUAA4IBjwAwggGKAoIBgQDHQ9lVWxgf4KpdH4ONIJWDDkUOQBf87wkR
+kP/2CrPHoblspx0MkVWpnyIUgQDjsBAgopC6ds5P8yWNIQbGprf3uutUcEW/Uvda
+72kchxYm7BlbHZsfykdcKXaK3hNc2KVFAyL0cY0G0xR+b2udD4rBQ8QRhtgm+xA9
+iLzcs9N2qgr5cbetFmX1rfdlowtY0aXJAIhfErXQR8O/63JfkV9aiHf3Ev6DQTsr
+fawDmOBRAeFjgIlFsZCf9ZCOzcOH5WQ/tFeGOxUgEKv/Pm1WRNjfMtNlA0P1X1yz
+W/SGbQCiR/L9KXHboAE5OB3KbWgVaOnlp8SjuVB2y2RxnNu/mDUOEMMR3ZbieNdR
+TvuR4AlvUJ+CdOmW7lBFVyKi6fAtJEFFL57wRA1DMj+OMMYjhzmFV6Tv80qXYE7J
+Dq03aPqhyLWaaLvHXMEbWgSWFqV2HvihKsaS0lqXO5jOXqWBU0O65NE6tC1au8XD
+A+3EpD3cYrylgZH2kqdBYsmzQpSaKnUCAwEAAaOBkTCBjjAJBgNVHRMEAjAAMA4G
+A1UdDwEB/wQEAwIGwDBSBgNVHSAESzBJMCAGBCtMEAYwGDAWBggrBgEFBQcCAjAK
+GghhZ0lEY2VydDAlBgYrTBAEAgEwGzAZBggrBgEFBQcCAjANGgtjZXJ0X1NQX1B1
+YjAdBgNVHQ4EFgQUs/h1+Gyd3+7MyZNnwet+b/Lno1cwDQYJKoZIhvcNAQELBQAD
+ggGBAMNi1A+SBh+UaJB+FuNRnq11VUhVDwZ9tXILBzycwUv4CjnSEeHYLA0rLsm8
+TDwqSXpQ/fpbsQSFbTwGdSXTZfh7IH3JpL7tPn3g+8pRZ1Fp6mr/JY75ey14xWp0
+Dl4+6R+ViUbOUMSPQNB6LgOKl+VAmHGAz+JEJZg1IlDIh4XESGdGrj63lDZa4PjT
+W6Hv/FWwfJsW4ecOetn4PmeD40PEPqCWrLRyD7CKPRIm2VHyqG9FmkPN2rN8382d
+zQL0q5hCY1ET1vcCgNSt2ZEhhbjTANx5QJJ8r1XjwYn2b8P/VHwgctGkBZ0bzIDb
+CXrBdVD6voMomZhB2/wT2rFyOOilQjnJ8KW3eIunnffPreUAXATBQsCBokSPYtJk
+5S5c1jdwmdOoxvuvAOOePdezO4nprv5A4TTNgRpsH31YUClCLuQdQUMbYRG7ZKuY
+W4Mq/iet+aosExMclzc78lKe4zoTxE/XGc5rbW2med72qebdLBTlxjmQMgmU0xI2
+05dwOg==</ds:X509Certificate></ds:X509Data></ds:KeyInfo></md:KeyDescriptor><md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://siopi.publisys.it/kauth-torelladeilombardi/sso/spid/logout"/><md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://siopi.publisys.it/kauth-torelladeilombardi/sso/spid/logout"/><md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat><md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://siopi.publisys.it/kauth-torelladeilombardi/sso/spid/acs" index="0" isDefault="true"/><md:AttributeConsumingService index="0"><md:ServiceName xml:lang="it">Servizi online del Comune di Torella dei Lombardi</md:ServiceName><md:RequestedAttribute Name="spidCode"/><md:RequestedAttribute Name="name"/><md:RequestedAttribute Name="familyName"/><md:RequestedAttribute Name="companyName"/><md:RequestedAttribute Name="fiscalNumber"/><md:RequestedAttribute Name="ivaCode"/><md:RequestedAttribute Name="email"/><md:RequestedAttribute Name="digitalAddress"/><md:RequestedAttribute Name="mobilePhone"/></md:AttributeConsumingService></md:SPSSODescriptor><md:Organization><md:OrganizationName xml:lang="it">Comune di Torella dei Lombardi</md:OrganizationName><md:OrganizationDisplayName xml:lang="it">Comune di Torella dei Lombardi</md:OrganizationDisplayName><md:OrganizationURL xml:lang="it">http://www.comune.torelladeilombardi.av.it/</md:OrganizationURL></md:Organization><md:ContactPerson contactType="other" spid:entityType="spid:aggregator"><md:Extensions><spid:VATNumber>IT00975860768</spid:VATNumber><spid:PublicServicesLightAggregator/></md:Extensions><md:Company>Publisys S.P.A.</md:Company><md:EmailAddress>publisys@pec.aruba.it</md:EmailAddress><md:TelephoneNumber>+390971476307</md:TelephoneNumber></md:ContactPerson><md:ContactPerson contactType="other" spid:entityType="spid:aggregated"><md:Extensions><spid:IPACode>c_l214</spid:IPACode><spid:Public/></md:Extensions><md:Company>Comune di Torella dei Lombardi</md:Company><md:EmailAddress>protocollo.torella@cert.irpinianet.eu</md:EmailAddress></md:ContactPerson></md:EntityDescriptor>

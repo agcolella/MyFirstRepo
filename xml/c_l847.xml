@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:spid="https://spid.gov.it/saml-extensions" entityID="https://login.comune.vicolungo.no.it" ID="https___login_comune_vicolungo_no_it"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+  <ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+    <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+  <ds:Reference URI="#https___login_comune_vicolungo_no_it"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>7GZhog5+w9gO7dTqmqtg0/H9GXD3WCSGqwl+AeY1YYk=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>hj2yZjJkQ3tEKMZNeHRF6esSve2Caoc69McWIViN7Vb21QBqJljP6Z2/Ch1ptmcSQd+9Izx61mmkK+zFsJmwezoF1lCZTRKFzttXtsf/NRCGQdRcO3mH6wGjHIe0WKmOIvJwmemW6LywvA+ise1sC1TO6KPVgAPMSha7o5s226T4qZxK88gv8jSpc7+ipdTaFQRm3UXToQgF9aENl1wPBTAN1mz2x9c1/AnxShcNzG2ucs7LxxrTUIET7FDz8PUl0VqIRxCxxVuh2Omen17dSZxiKYVZ0EnwKRtufC7lHPIxUCI3iFsGIVc3Tdi30LseHRYIN/CqjyDFOHOZU1fO2g==</ds:SignatureValue>
+<ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIECDCCAvCgAwIBAgIIJN8CJYJBUs4wDQYJKoZIhvcNAQELBQAwgcMxHDAaBgNVBAoME0NvbXVuZSBkaSBWaWNvbHVuZ28xFTATBgNVBGEMDFBBOklULWNfbDg0NzELMAkGA1UEBhMCSVQxEjAQBgNVBAcMCVZpY29sdW5nbzESMBAGA1UEAwwJVmljb2x1bmdvMSgwJgYJKoZIhvcNAQkBFhl2aWNvbHVuZ29AcGVjLmludGVyY29tLml0MS0wKwYDVQRTDCRodHRwczovL2xvZ2luLmNvbXVuZS52aWNvbHVuZ28ubm8uaXQwHhcNMjQwMzAxMTI0NTA4WhcNMjYwMzAxMTI0NTA4WjCBwzEcMBoGA1UECgwTQ29tdW5lIGRpIFZpY29sdW5nbzEVMBMGA1UEYQwMUEE6SVQtY19sODQ3MQswCQYDVQQGEwJJVDESMBAGA1UEBwwJVmljb2x1bmdvMRIwEAYDVQQDDAlWaWNvbHVuZ28xKDAmBgkqhkiG9w0BCQEWGXZpY29sdW5nb0BwZWMuaW50ZXJjb20uaXQxLTArBgNVBFMMJGh0dHBzOi8vbG9naW4uY29tdW5lLnZpY29sdW5nby5uby5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAOVlNsanC++Ve2Liw51bf7tuslj+YzrWbVbQhHL/I4Q+I7JP3akxIHDG/fZThdLu0fM4In7UFQjCHG3Hs6WtET04AwKczGk8vZzpevQ+4C1Co/BkAN/FhI441BC/wzKe1sfakfb9p4ponUrXxz0NleMsAk8HFGQwv4sKVh4a/GdZnsJtn8UzHxGWjdvuEPztdtil9bUD0Vvnjpv7Ngyxlylf0qH4Ynaq3WN0ghFWQN+zAC4FHSXG7gpAoUqMalK8Er/9OU4TFCGmf55opzxpXlTaIZ3y/gUFXMfBjkD9JCrcqAUHBOckzVV6C+TqDnlfwP00BQeOayXSrmHKsYOZDskCAwEAATANBgkqhkiG9w0BAQsFAAOCAQEAMQHMNmrqO+C/MmAy4jIlgPYYQTklMctBz8WwzWVvZuwa7I2rPGO1qWvQIzKHI6ZdjDh5B9h31/ArJzdA7cNy3/zKQOieYnoFyfByShiy++gFx/HY89oWJMK/+6oWiX40zaNejeNTMTfRNuHkR0b+qjwfAiT8tvEeuGneYt/+SR28ut3qJXhZTWJ9WayDsbz83I/RrjdEl4IUcTGKMWf2WV16Laqw/LjHMoGSdcI5DrhqHol19XEIHQTV0cZ1Im1Mcw8XjftApvUfordX3y54CWjBLRSt8I5yQ7IS79wYLuYTfEBdFNHxMotDIjPlPLRiQ2sGWgpVd0yMnzNqkdq/aA==</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature>
+    <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true" WantAssertionsSigned="true">
+        <md:KeyDescriptor use="signing">
+            <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+                <ds:X509Data><ds:X509Certificate>MIIECDCCAvCgAwIBAgIIJN8CJYJBUs4wDQYJKoZIhvcNAQELBQAwgcMxHDAaBgNVBAoME0NvbXVuZSBkaSBWaWNvbHVuZ28xFTATBgNVBGEMDFBBOklULWNfbDg0NzELMAkGA1UEBhMCSVQxEjAQBgNVBAcMCVZpY29sdW5nbzESMBAGA1UEAwwJVmljb2x1bmdvMSgwJgYJKoZIhvcNAQkBFhl2aWNvbHVuZ29AcGVjLmludGVyY29tLml0MS0wKwYDVQRTDCRodHRwczovL2xvZ2luLmNvbXVuZS52aWNvbHVuZ28ubm8uaXQwHhcNMjQwMzAxMTI0NTA4WhcNMjYwMzAxMTI0NTA4WjCBwzEcMBoGA1UECgwTQ29tdW5lIGRpIFZpY29sdW5nbzEVMBMGA1UEYQwMUEE6SVQtY19sODQ3MQswCQYDVQQGEwJJVDESMBAGA1UEBwwJVmljb2x1bmdvMRIwEAYDVQQDDAlWaWNvbHVuZ28xKDAmBgkqhkiG9w0BCQEWGXZpY29sdW5nb0BwZWMuaW50ZXJjb20uaXQxLTArBgNVBFMMJGh0dHBzOi8vbG9naW4uY29tdW5lLnZpY29sdW5nby5uby5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAOVlNsanC++Ve2Liw51bf7tuslj+YzrWbVbQhHL/I4Q+I7JP3akxIHDG/fZThdLu0fM4In7UFQjCHG3Hs6WtET04AwKczGk8vZzpevQ+4C1Co/BkAN/FhI441BC/wzKe1sfakfb9p4ponUrXxz0NleMsAk8HFGQwv4sKVh4a/GdZnsJtn8UzHxGWjdvuEPztdtil9bUD0Vvnjpv7Ngyxlylf0qH4Ynaq3WN0ghFWQN+zAC4FHSXG7gpAoUqMalK8Er/9OU4TFCGmf55opzxpXlTaIZ3y/gUFXMfBjkD9JCrcqAUHBOckzVV6C+TqDnlfwP00BQeOayXSrmHKsYOZDskCAwEAATANBgkqhkiG9w0BAQsFAAOCAQEAMQHMNmrqO+C/MmAy4jIlgPYYQTklMctBz8WwzWVvZuwa7I2rPGO1qWvQIzKHI6ZdjDh5B9h31/ArJzdA7cNy3/zKQOieYnoFyfByShiy++gFx/HY89oWJMK/+6oWiX40zaNejeNTMTfRNuHkR0b+qjwfAiT8tvEeuGneYt/+SR28ut3qJXhZTWJ9WayDsbz83I/RrjdEl4IUcTGKMWf2WV16Laqw/LjHMoGSdcI5DrhqHol19XEIHQTV0cZ1Im1Mcw8XjftApvUfordX3y54CWjBLRSt8I5yQ7IS79wYLuYTfEBdFNHxMotDIjPlPLRiQ2sGWgpVd0yMnzNqkdq/aA==</ds:X509Certificate></ds:X509Data>
+            </ds:KeyInfo>
+        </md:KeyDescriptor>
+            <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://vicolungo.login.opencityitalia.it/slo"/>        
+        <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+        <md:AssertionConsumerService index="0" isDefault="true" Location="https://vicolungo.login.opencityitalia.it/acs" Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST"/>
+        <md:AttributeConsumingService index="0">
+            <md:ServiceName xml:lang="it">Set 0</md:ServiceName>       
+            <md:RequestedAttribute Name="gender"/>
+            <md:RequestedAttribute Name="companyName"/>
+            <md:RequestedAttribute Name="registeredOffice"/>
+            <md:RequestedAttribute Name="fiscalNumber"/>
+            <md:RequestedAttribute Name="ivaCode"/>
+            <md:RequestedAttribute Name="idCard"/>
+            <md:RequestedAttribute Name="spidCode"/>
+            <md:RequestedAttribute Name="name"/>
+            <md:RequestedAttribute Name="familyName"/>
+            <md:RequestedAttribute Name="placeOfBirth"/>
+            <md:RequestedAttribute Name="countyOfBirth"/>
+            <md:RequestedAttribute Name="dateOfBirth"/>
+            <md:RequestedAttribute Name="mobilePhone"/>
+            <md:RequestedAttribute Name="email"/>
+            <md:RequestedAttribute Name="address"/>
+            <md:RequestedAttribute Name="expirationDate"/>
+            <md:RequestedAttribute Name="digitalAddress"/></md:AttributeConsumingService></md:SPSSODescriptor><md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Vicolungo</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Vicolungo</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://login.comune.vicolungo.no.it</md:OrganizationURL>
+</md:Organization><md:ContactPerson contactType="other"><md:Extensions><spid:IPACode>c_l847</spid:IPACode><spid:Public/><spid:FiscalCode>00437100035</spid:FiscalCode></md:Extensions><md:EmailAddress>vicolungo@pec.intercom.it</md:EmailAddress><md:TelephoneNumber>+390321835126</md:TelephoneNumber></md:ContactPerson></md:EntityDescriptor>

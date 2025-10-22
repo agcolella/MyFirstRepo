@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" ID="_a79a808ac46aa332dd610e14ee94f9c405aafa2946a02670d5d6e807e190023e" entityID="https://masate.halleyweb.it"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#_a79a808ac46aa332dd610e14ee94f9c405aafa2946a02670d5d6e807e190023e">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>+wCclnlBeeL+8vey5DXiol+mp7vRsy3vzUfwxIaPpak=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+R+edl4mx5VorwiCaTOIgCR8QW+xg4jeRBfMMo8aTI+zYBEtsAlvBPIpzpc4WXm6arWdrcADV6bNz
+n/PV5f1SrOGwNcWQfWW5peKBXs24jLqvbq6+2VhbbLAtnxHSC+b6doXylae3Wcoa2194atJ1Sf1N
+LSVobYm+J9i+yJwoOPKM/S7IZ3G+y2wU+vUsnkYhiO7p2X86x/HYPPdD5smPvVWsfAc5sG5dbSHe
+mgkgL6mcyXFC3aHyh16IjSqXy33qQqZJB1cMF/+yw/Kk4+zScNYj2xjVrP7zDXKjb3GxgXaIBFgb
+cgd254lK1zazc9Y85uPRHw7ZrtZ++ySgjupE0A==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+ncJWAgggsyyFwPOUXGj7v+cFmJDGBLQKXeeFI1VvM5qGRorE3/29FxWF2Eih7sllPV1sMWr+vKrj
+YvhawVmP6+LaYtbxc55YCadQKGAitXq0mx5mBr4lQAIeoIXTPrtOOlrmb3gTVIxdigy46OVl5e2l
+k6tB3pLVjM/7nz834nAAuThfSzm8jK1Wbnm4Jrmm4/G3joovYj4u6UesUWHvD/FksUAwYa1MwJbg
+o4aWyv0Tfuns118w8/grAA097BzgORPmPf4tgv9CqKcVMHiqYtNefvdsc+4A8H67qfvSD9cQRNrh
+71xRReU7m+ciFwX5NT6udeQlav+pka9qcVqLhQ==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDoTCCAomgAwIBAgIJAM7qrRi/C2VwMA0GCSqGSIb3DQEBCwUAMGcxCzAJBgNVBAYTAklUMQ4w
+DAYDVQQIDAVJdGFseTEPMA0GA1UEBwwGTWFzYXRlMRkwFwYDVQQKDBBDb211bmUgZGkgTWFzYXRl
+MRwwGgYDVQQDDBNtYXNhdGUuaGFsbGV5d2ViLml0MB4XDTI0MDMwNjA3NTY0MFoXDTM0MDMwNjA3
+NTY0MFowZzELMAkGA1UEBhMCSVQxDjAMBgNVBAgMBUl0YWx5MQ8wDQYDVQQHDAZNYXNhdGUxGTAX
+BgNVBAoMEENvbXVuZSBkaSBNYXNhdGUxHDAaBgNVBAMME21hc2F0ZS5oYWxsZXl3ZWIuaXQwggEi
+MA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCdwlYCCCCzLIXA85RcaPu/5wWYkMYEtApd54Uj
+VW8zmoZGisTf/b0XFYXYSKHuyWU9XWwxav68quNi+FrBWY/r4tpi1vFznlgJp1AoYCK1erSbHmYG
+viVAAh6ghdM+u046WuZveBNUjF2KDLjo5WXl7aWTq0HektWMz/ufPzficAC5OF9LObyMrVZuebgm
+uabj8beOii9iPi7pR6xRYe8P8WSxQDBhrUzAluCjhpbK/RN+6ezXXzDz+CsADT3sHOA5E+Y9/i2C
+/0KopxUweKpi015+92xz7gDwfrup+9IP1xBE2uHvXFFF5Tub5yIXBfk1Pq515CVq/6mRr2pxWouF
+AgMBAAGjUDBOMB0GA1UdDgQWBBT8Ro7VsxfgDMnJgkEVq2bMHrU5kzAfBgNVHSMEGDAWgBT8Ro7V
+sxfgDMnJgkEVq2bMHrU5kzAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQBdUH9WEf4g
+61n+9zO1E6wlAr/JeRtv+mIU6XMrd6wkcMqulnxrFSy9SfjGhgp58IfplS1P6iAYa4ylpJ7ztRw9
+NHNhtcaftcZS4+cyLJoMifFEyz6oV1aXAwSqUJQF+qu8lmKhWbKjZ2+TjA9Tdu7R4tbbTFTO21NC
+QFiQKr4VlsEuwqrknmZjhHkCA444mn9mNsTAfpUnfLjsgCrYTz4uQS9QUY7a+p1BVOYrbpHaaOI+
+vRliOpUIXmBfOkqAV5i345IOhulq3SwvKl7G4WlpxmOdzOab3emKRk/sJca2n8zN7S5nGIHWyfHV
+Uv5b0KQcOcuQpr9A4JlPyWr+3bWA
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDoTCCAomgAwIBAgIJAM7qrRi/C2VwMA0GCSqGSIb3DQEBCwUAMGcxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEPMA0GA1UEBwwGTWFzYXRlMRkwFwYDVQQKDBBDb211bmUgZGkgTWFzYXRlMRwwGgYDVQQDDBNtYXNhdGUuaGFsbGV5d2ViLml0MB4XDTI0MDMwNjA3NTY0MFoXDTM0MDMwNjA3NTY0MFowZzELMAkGA1UEBhMCSVQxDjAMBgNVBAgMBUl0YWx5MQ8wDQYDVQQHDAZNYXNhdGUxGTAXBgNVBAoMEENvbXVuZSBkaSBNYXNhdGUxHDAaBgNVBAMME21hc2F0ZS5oYWxsZXl3ZWIuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCdwlYCCCCzLIXA85RcaPu/5wWYkMYEtApd54UjVW8zmoZGisTf/b0XFYXYSKHuyWU9XWwxav68quNi+FrBWY/r4tpi1vFznlgJp1AoYCK1erSbHmYGviVAAh6ghdM+u046WuZveBNUjF2KDLjo5WXl7aWTq0HektWMz/ufPzficAC5OF9LObyMrVZuebgmuabj8beOii9iPi7pR6xRYe8P8WSxQDBhrUzAluCjhpbK/RN+6ezXXzDz+CsADT3sHOA5E+Y9/i2C/0KopxUweKpi015+92xz7gDwfrup+9IP1xBE2uHvXFFF5Tub5yIXBfk1Pq515CVq/6mRr2pxWouFAgMBAAGjUDBOMB0GA1UdDgQWBBT8Ro7VsxfgDMnJgkEVq2bMHrU5kzAfBgNVHSMEGDAWgBT8Ro7VsxfgDMnJgkEVq2bMHrU5kzAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQBdUH9WEf4g61n+9zO1E6wlAr/JeRtv+mIU6XMrd6wkcMqulnxrFSy9SfjGhgp58IfplS1P6iAYa4ylpJ7ztRw9NHNhtcaftcZS4+cyLJoMifFEyz6oV1aXAwSqUJQF+qu8lmKhWbKjZ2+TjA9Tdu7R4tbbTFTO21NCQFiQKr4VlsEuwqrknmZjhHkCA444mn9mNsTAfpUnfLjsgCrYTz4uQS9QUY7a+p1BVOYrbpHaaOI+vRliOpUIXmBfOkqAV5i345IOhulq3SwvKl7G4WlpxmOdzOab3emKRk/sJca2n8zN7S5nGIHWyfHVUv5b0KQcOcuQpr9A4JlPyWr+3bWA</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDoTCCAomgAwIBAgIJAM7qrRi/C2VwMA0GCSqGSIb3DQEBCwUAMGcxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEPMA0GA1UEBwwGTWFzYXRlMRkwFwYDVQQKDBBDb211bmUgZGkgTWFzYXRlMRwwGgYDVQQDDBNtYXNhdGUuaGFsbGV5d2ViLml0MB4XDTI0MDMwNjA3NTY0MFoXDTM0MDMwNjA3NTY0MFowZzELMAkGA1UEBhMCSVQxDjAMBgNVBAgMBUl0YWx5MQ8wDQYDVQQHDAZNYXNhdGUxGTAXBgNVBAoMEENvbXVuZSBkaSBNYXNhdGUxHDAaBgNVBAMME21hc2F0ZS5oYWxsZXl3ZWIuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCdwlYCCCCzLIXA85RcaPu/5wWYkMYEtApd54UjVW8zmoZGisTf/b0XFYXYSKHuyWU9XWwxav68quNi+FrBWY/r4tpi1vFznlgJp1AoYCK1erSbHmYGviVAAh6ghdM+u046WuZveBNUjF2KDLjo5WXl7aWTq0HektWMz/ufPzficAC5OF9LObyMrVZuebgmuabj8beOii9iPi7pR6xRYe8P8WSxQDBhrUzAluCjhpbK/RN+6ezXXzDz+CsADT3sHOA5E+Y9/i2C/0KopxUweKpi015+92xz7gDwfrup+9IP1xBE2uHvXFFF5Tub5yIXBfk1Pq515CVq/6mRr2pxWouFAgMBAAGjUDBOMB0GA1UdDgQWBBT8Ro7VsxfgDMnJgkEVq2bMHrU5kzAfBgNVHSMEGDAWgBT8Ro7VsxfgDMnJgkEVq2bMHrU5kzAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQBdUH9WEf4g61n+9zO1E6wlAr/JeRtv+mIU6XMrd6wkcMqulnxrFSy9SfjGhgp58IfplS1P6iAYa4ylpJ7ztRw9NHNhtcaftcZS4+cyLJoMifFEyz6oV1aXAwSqUJQF+qu8lmKhWbKjZ2+TjA9Tdu7R4tbbTFTO21NCQFiQKr4VlsEuwqrknmZjhHkCA444mn9mNsTAfpUnfLjsgCrYTz4uQS9QUY7a+p1BVOYrbpHaaOI+vRliOpUIXmBfOkqAV5i345IOhulq3SwvKl7G4WlpxmOdzOab3emKRk/sJca2n8zN7S5nGIHWyfHVUv5b0KQcOcuQpr9A4JlPyWr+3bWA</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://masate.halleyweb.it/spid/module.php/saml/sp/saml2-logout.php/spid"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://masate.halleyweb.it/spid/module.php/saml/sp/saml2-acs.php/spid" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://masate.halleyweb.it/spid/module.php/saml/sp/saml2-acs.php/spid" index="1"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">Servizi online</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Servizi online</md:ServiceDescription>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Codice identificativo SPID" Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Ragione o denominazione sociale" Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Masate</md:OrganizationName>
+    <md:OrganizationName xml:lang="en">Comune di Masate</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Masate</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Masate</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.unione.basianomasate.mi.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="en">https://www.unione.basianomasate.mi.it</md:OrganizationURL>
+  </md:Organization>
+  <md:ContactPerson contactType="other">
+    <md:Extensions>
+      <spid:IPACode>c_f003</spid:IPACode>
+      <spid:Public/>
+    </md:Extensions>
+    <md:Company>Comune di Masate</md:Company>
+    <md:EmailAddress>egov@halley.it</md:EmailAddress>
+  </md:ContactPerson>
+</md:EntityDescriptor>
