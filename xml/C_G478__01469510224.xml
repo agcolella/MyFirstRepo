@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" ID="_e301cb2ff03df2ecfe2be85d856933d1fb325eb4" entityID="https://spidanthesi.elixforms.it/serviziSPID/pub-ag-full/comuneperugia-ag"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#_e301cb2ff03df2ecfe2be85d856933d1fb325eb4">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>Y5yMAtskklND+Ey6RsHa0Eut312A5TF5WKmPZGaFVzY=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+uSg7MfhdCejA0SZxpGtKGW37eJNrcIDe97hHwR4Pfyeu+tLWqYAZRnjryuPxNE3+7PsL74H1tHK6
+G8sqO5FVQGZgKiQQWQDGIkie4k4YHq9wA4SZVIDm4zYI5qHTeOVTa/ZGm72ngjTTOZs2G5dv65EW
+piAbc4ZZFI0x9MQe3wL547GrNc+NNqXiZH54rDfxs+3IptvjZ9xPKH7IvHtvag2mQoVmQfiIRecr
+AmMFj5yqVomehg9nErh+r9N+UGY/GIdIB58ErCeCKbua0tzp8Q9KJ+XplvjEH0VNomiFnMQEKytn
+A04pQXYluLxnZQBdjwX1QW+IiGJgUcIBt+trW7n+A2rw8uoeqm4ffLtXACzajjwRETmriLrlRIzD
+Uy7IsPwvQU1xMl5Gt2kkdujmb0tvsP/JeBdR2QXJhvPpZ0clt3euhsarHHEKNExqarQhjJaGcuNj
+Dm8KdEwA9OkxBVk6LzjFlGE0yhz8PtvXUzoXeitETxPf67vHGj6wPcMO
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+wik2wyQzKm51sgD/z0rf+LlkqGScrKc520uYNmzLmOExkiuUvHc8bCq+APz/yLGHELBjIfTqafNk
+QeWEUExp3cubIWt23IuO+a0oy55dUKjdKqTXcUMWCKNJkO4As1ey+wwhe5ATb7DmKrK96cjXnQzw
+ghrWJjKHfHKpDqRlzivTUt+0AcES3C3u+snCt6yTmqyCwGPluXcMeT1lUXcXYej8nul83YIzLxvz
+laTN5wj0217cTt8kTo15arIVPCufyC8cYMxY4kbkJ2G1nAxdtC3OETvTLxyFOaey9WN2uUkZY5y+
+dI0NN9Nu3Y00XIGaFxXJsb7LsnBF5ic0dDRpZeWzpuJUsbyW1CcvSsYUpfeQuPCMjcEcE55zQWv8
+5DtISybIMHTvduYBo20CHciAsGTWykMAE1Iy6ruSqKpUsmRRJWsafJHH6OqjiHLF4pDaaNcztVw8
+smnbWY0JZTm0Q+aHsmGoKFBZZaqFrxWpV+803beLL0CtfiuqTrSIsqaZ
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIIoDCCBoigAwIBAgIIRp833PoWsEwwDQYJKoZIhvcNAQENBQAwgeUxCzAJBgNVBAYTAklUMQ0w
+CwYDVQQHDARSb21lMSYwJAYDVQQKDB1BZ2VuemlhIHBlciBsJ0l0YWxpYSBEaWdpdGFsZTEsMCoG
+A1UECwwjU2Vydml6aW8gQWNjcmVkaXRhbWVudG8gZSBWaWdpbGFuemExKjAoBgNVBAMMIVByb2dl
+dHRvIFNQSUQgLSBTb2dnZXR0aV9wdWJibGljaTEpMCcGCSqGSIb3DQEJARYacHJvdG9jb2xsb0Bw
+ZWMuYWdpZC5nb3YuaXQxGjAYBgNVBAUTEVZBVElULTk3NzM1MDIwNTg0MB4XDTIyMDkxNjAwMDAw
+MFoXDTM3MDkxNTIzNTk1OVowgeExITAfBgNVBAMMGHNwaWRhbnRoZXNpLmVsaXhmb3Jtcy5pdDEL
+MAkGA1UEBhMCSVQxGTAXBgNVBAgMEFZpYSBTZWdhbnRpbmkgMjMxDzANBgNVBAcMBlRyZW50bzEX
+MBUGA1UECgwOQW50aGVzaSBzLnIubC4xFzAVBgNVBAsMDkFudGhlc2kgcy5yLmwuMRowGAYDVQRh
+DBFWQVRJVC0wMTQ2OTUxMDIyNDE1MDMGA1UEUwwsaHR0cHM6Ly9zcGlkYW50aGVzaS5lbGl4Zm9y
+bXMuaXQvc2Vydml6aVNQSUQwggGiMA0GCSqGSIb3DQEBAQUAA4IBjwAwggGKAoIBgQDCKTbDJDMq
+bnWyAP/PSt/4uWSoZJyspznbS5g2bMuY4TGSK5S8dzxsKr4A/P/IsYcQsGMh9Opp82RB5YRQTGnd
+y5sha3bci475rSjLnl1QqN0qpNdxQxYIo0mQ7gCzV7L7DCF7kBNvsOYqsr3pyNedDPCCGtYmMod8
+cqkOpGXOK9NS37QBwRLcLe76ycK3rJOarILAY+W5dwx5PWVRdxdh6Pye6XzdgjMvG/OVpM3nCPTb
+XtxO3yROjXlqshU8K5/ILxxgzFjiRuQnYbWcDF20Lc4RO9MvHIU5p7L1Y3a5SRljnL50jQ03027d
+jTRcgZoXFcmxvsuycEXmJzR0NGll5bOm4lSxvJbUJy9KxhSl95C48IyNwRwTnnNBa/zkO0hLJsgw
+dO925gGjbQIdyICwZNbKQwATUjLqu5KoqlSyZFElaxp8kcfo6qOIcsXikNpo1zO1XDyyadtZjQll
+ObRD5oeyYagoUFllqoWvFalX7zTdt4svQK1+K6pOtIiyppkCAwEAAaOCAtQwggLQMAwGA1UdEwEB
+/wQCMAAwHQYDVR0OBBYEFCtfONDbTMWT00ye1skO2n2ZRGW6MB8GA1UdIwQYMBaAFDy7bese/Z1u
+y+5U5uo51YmgR9c0MA4GA1UdDwEB/wQEAwIGwDAWBgNVHRIEDzANggtzcGlkLmdvdi5pdDBCBgNV
+HR8EOzA5MDegNaAzhjFodHRwczovL2VpZGFzLmFnaWQuZ292Lml0L2NybC9jcmxfU1BJRF9QdWJf
+U0EuY3JsMDcGCCsGAQUFBwEBBCswKTAnBggrBgEFBQcwAYYbaHR0cHM6Ly9vY3NwX1NBLmFnaWQu
+Z292Lml0MIIB2QYDVR0gBIIB0DCCAcwwCQYHBACORgEGAjCBlQYEK0wQBjCBjDBEBggrBgEFBQcC
+AjA4GjZFbGVjdHJvbmljIGNlcnRpZmljYXRlIGNvbmZvcm1pbmcgd2l0aCBBR0lEIEd1aWRlbGlu
+ZXMwRAYIKwYBBQUHAgIwOBo2Q2VydGlmaWNhdG8gZWxldHRyb25pY28gY29uZm9ybWUgYWxsZSBM
+aW5lZSBndWlkYSBBZ0lEMH0GBitMEAQCAjBzMDoGCCsGAQUFBwICMC4aLFNQSUQ6IGFnZ3JlZ2F0
+b3JlICdmdWxsJyBkaSBzZXJ2aXppIHB1YmJsaWNpMDUGCCsGAQUFBwICMCkaJ1NQSUQ6IHB1Ymxp
+Yy1zZXJ2aWNlcyAnZnVsbCcgQWdncmVnYXRvcjAIBgYEAI96AQMwTQYEK0wQBDBFMEMGCCsGAQUF
+BwIBFjdodHRwczovL2VpZGFzLmFnaWQuZ292Lml0L2Nwcy9BZ0lEX2VJREFTX3Jvb3RDQV9jcHMu
+cGRmME8GBgQAjkYBBTBFMEMGCCsGAQUFBwIBFjdodHRwczovL2VpZGFzLmFnaWQuZ292Lml0L2Nw
+cy9BZ0lEX2VJREFTX3Jvb3RDQV9jcHMucGRmMA0GCSqGSIb3DQEBDQUAA4ICAQCCYDcCYEQIXcdM
+5gfxFwKsx/8mXXI/EfTogNp7leBnnl/M22OwfUwnjchoWuWlgCJC1KWfvkIxzvLfuH+Pw8oGyIlP
+GYrTaNBm5mkiBmfL4Ctym/eZxqKDMhKWil+u9NgVqilEbWle50RHuIX2fPqjXq9F5XEgj0GtMhQF
+U7G0EqyOtwnUmCHUyzWPz2kPXzv+1br/MLz1KgPl1OHJMJzTE5Zp4HsAl+DwilHZ+4J7RJh/ZaAP
+lV8N25a85STnwq9Ax40aAM+KTd2klVXbKPNyy+PlVRIIIDKpvjRnb5UTPJuafBaDCa95U1LxJhg0
+Z/DIm+QkoTofODl1ccOZJPOmTFPq2g/MpdMTEGXyhTmooU1o2QT1zke4jkYrJYb3olI27p0pkWf2
+nbRmxaTnZLTNT2+DAbnZkYSAVz/28NHgckgQfev1VJ8NwaA0eapFybTZOzTsmC50lUOhYicUjz7c
+vxtpKQdgmufvY1q3GmpReeQp5H3/XCN7ND4X6GTDXLmsPHFIVDv7QdZtf4+2MpX/KiHuFM9e4aIq
+3L5BnFksCWFKPk8qI48J5VzRp+qLZCGjLqP5Z23vNXE47NGjQ2y7QBkmrrjQ3gx2Wpr7vl+murSz
+y4HayKz/WbX5pWlK/bQRL4rsrrSs83wEa8r7/CNFOij4rLx7vMdatJi133sV8w==
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIIEazCCAtOgAwIBAgIJAOiWfWxIxGR1MA0GCSqGSIb3DQEBCwUAMCgxJjAkBgNV
+BAMTHWNvbXVuZXBlcnVnaWEtYWcuZWxpeGZvcm1zLml0MB4XDTI0MDUyMjA4MzEx
+NFoXDTM0MDUyMDA4MzExNFowKDEmMCQGA1UEAxMdY29tdW5lcGVydWdpYS1hZy5l
+bGl4Zm9ybXMuaXQwggGiMA0GCSqGSIb3DQEBAQUAA4IBjwAwggGKAoIBgQDO8l9A
+LGWd+4VV88xqrP4KvCxckBO8ziwpOH6dpKpTiOYB+Pjd7/qDCvHkWbd1ZZzhtFSx
+Nne/OxFV7+JNbGUjs5GqFO1mkoaF3xCpl1jQ1YRtl5etcSwxDaYb+jqRewckutg7
+9L2AdfFYHVvE0O0D+L3fPnMAhHnCwCqSi5/NXUGzzoXfAnssyil7v/6WM9VhZyhz
+5/AZPbLO7ofKi+UQYwH0aRDK1kbsJQH6CAmxhawzqIqB+Gp7QdeXKZ6+pwLK2Aiy
+vrK6DC+Mn3phnDI1BnjUXFZy6W5YcWq1jjgZnm6Baufzlc0oFm0GG1TjU2hf9gwM
+wPeZc4hG7zFtRNHYRghq6PWnQOPoLl5aUJhuGdBa8Q059vJ6hLai8YvN0rjZBHc1
+Hs1cXnjVCvfi7KVD2pUrV7ONve005sjzav06AP0WVwLWWOn5/AFJSVDrfUZ9gtri
+rznVNF3dGoFLLANIuVpm1yfVyCmTM3ry4V0IUV7guwITPcxd5HpJfpNuv+kCAwEA
+AaOBlzCBlDBzBgNVHREEbDBqgh1jb211bmVwZXJ1Z2lhLWFnLmVsaXhmb3Jtcy5p
+dIZJaHR0cHM6Ly9zcGlkYW50aGVzaS5lbGl4Zm9ybXMuaXQvc2Vydml6aVNQSUQv
+cHViLWFnLWZ1bGwvY29tdW5lcGVydWdpYS1hZzAdBgNVHQ4EFgQUL7qrua2yP9CC
+PZaJm2dWzHp4LJYwDQYJKoZIhvcNAQELBQADggGBAAtFm6cZOHYYeOs2ErBId/NW
+R2useXGICNWyIpINjqq1B+Te/45/J9JNhjZpK1/XaoDRs89VHQQ4HEoGpYc/fKYH
+Ey36P+hy7OXrRYPyvxbbB5CKEQC2Hf1HHpO0LrsubWlv7w9M5FhLOi1RyM7vRSVt
+7yuy09Y7cHUGESNOPHebebrLoRFuGl7Y4qF1gLYh3XJ7ZwkZEJNNb51lo8SqWjLc
+5kxCw9+EORqsir3KFED4mFFmO546NG0lbuqYDmMXPQa06DzeYVwEyRNLZtrIlqjf
+INRBpHZd3kEi5nIfXYYhIhRmYPesO30evymiZo0lKV7wSoSaW+LExvdAy4yui3zS
+FcFpEkpCCtA3lRz2E3cbsgiNg0MKeoeabIMdvcf4VPpFWhqIW2q/dvGegtLYbs/g
+qB2tX7aakZ+zqC0aP0UUCS7trzBeRy/Z++IAxZx/uJKjIk+A95kOVb6Zx3w8WXrx
+5+xq2aBjhpn8hvVM+3m/WHj5aYoQ3n87bMxCPp4qnA==
+</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+  
+	<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://comuneperugia-ag.elixforms.it/Shibboleth.sso/Logout"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://comuneperugia-ag.elixforms.it/Shibboleth.sso/SAML2/POST" index="0" isDefault="true"/>
+         <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">Set 1</md:ServiceName>
+      <md:RequestedAttribute Name="spidCode"/>
+          <md:RequestedAttribute Name="name"/>
+      <md:RequestedAttribute Name="familyName"/>
+      <md:RequestedAttribute Name="placeOfBirth"/>
+      <md:RequestedAttribute Name="countyOfBirth"/>
+          <md:RequestedAttribute Name="dateOfBirth"/>
+      <md:RequestedAttribute Name="gender"/>
+      <md:RequestedAttribute Name="companyName"/>
+      <md:RequestedAttribute Name="registeredOffice"/>
+          <md:RequestedAttribute Name="fiscalNumber"/>
+      <md:RequestedAttribute Name="ivaCode"/>
+      <md:RequestedAttribute Name="idCard"/>
+      <md:RequestedAttribute Name="mobilePhone"/>
+          <md:RequestedAttribute Name="email"/>
+      <md:RequestedAttribute Name="address"/>
+      <md:RequestedAttribute Name="expirationDate"/>
+      <md:RequestedAttribute Name="digitalAddress"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+
+ <md:Organization>
+                <md:OrganizationName xml:lang="it">Comune di Perugia</md:OrganizationName>
+                <md:OrganizationDisplayName xml:lang="it">Comune di Perugia</md:OrganizationDisplayName>
+                <md:OrganizationURL xml:lang="it">https://www.comune.perugia.it</md:OrganizationURL>
+        </md:Organization>
+
+        <md:ContactPerson contactType="other" spid:entityType="spid:aggregator">
+                <md:Extensions>
+                        <spid:VATNumber>IT00163570542</spid:VATNumber>
+                        <spid:FiscalCode>00163570542</spid:FiscalCode>
+                        <spid:PublicServicesFullAggregator/>
+                </md:Extensions>
+                <md:Company>Anthesi s.r.l.</md:Company>
+                <md:EmailAddress>spid@anthesi.it</md:EmailAddress>
+        <md:TelephoneNumber>+390464553300</md:TelephoneNumber>
+        </md:ContactPerson>
+
+        <md:ContactPerson contactType="other" spid:entityType="spid:aggregated">
+                <md:Extensions>
+                        <spid:IPACode>c_g478</spid:IPACode>
+                        <spid:Public/>
+                </md:Extensions>
+                <md:Company>Comune di Perugia</md:Company>
+        </md:ContactPerson>
+
+</md:EntityDescriptor>
