@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" ID="pfxf0f746e9-ffc5-9212-2050-394e9ad26c2d" entityID="https://www.comune.vo.pd.it">
+    <ds:Signature>
+        
+
+        <ds:SignedInfo>
+            
+
+            <ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+            
+
+            <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+            
+
+            <ds:Reference URI="#pfxf0f746e9-ffc5-9212-2050-394e9ad26c2d">
+                
+
+                <ds:Transforms>
+                    
+
+                    <ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+                    
+
+                    <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+                    
+
+                </ds:Transforms>
+                
+
+                <ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+                
+
+                <ds:DigestValue>
+                    Ftm0ooWUGQH6p6psh0WTmmivUHhlf3Rv/hyNBUOMt38=
+                </ds:DigestValue>
+                
+
+            </ds:Reference>
+            
+
+        </ds:SignedInfo>
+        
+
+        <ds:SignatureValue>
+            
+JwKpox3zHuDuhMUYXaGtegJ5uuaL9UlHHvN/tL7Sy2BllfuXB1OqgE9y3XnPDWnPtwU4BpF1Wk5N
+5CtDfAgpni/B6Uhrz8ndbNmhUjfLo2YpupDWkPeFfy/9qXaYaT/kXlnItPi/bRWBT7h4jhxEi9Ie
+3joTW2hW/ePf9+Ed92gEJAu3EAinp5rk8Qq3k97Vxx3xUTiklu4ZYXohE6MDl3xvwdczhR9CWGMc
+0pHAolQEqEMPooDRicKmSiBLIFUxtrDjpt0vg+jS6K1R39cJwRL6tSk+pFDr4A7OZyRGgUm8i6fE
+1ICREssfglcE91hTHsPUnjIE0NNZFGvPQ2/scw==
+
+        </ds:SignatureValue>
+        
+
+        <ds:KeyInfo>
+            
+
+            <ds:KeyValue>
+                
+
+                <ds:RSAKeyValue>
+                    
+
+                    <ds:Modulus>
+                        
+orCKew3JuGEYjCZzrLKWUQTUnYrEMxEdTDXucA3jzEoT/mZOL77GXH6nQFEY5LGi5f2f57HX73Es
+HEmUoo6ZBAzHkMS9Lndqtucsi7kV7Lcgw0DKeNb/+JZfWZ7uO9EAm2AZkN+m+tUsF2Epzw0TOHTg
+SQTnJ07bIlo8fv1dKr8Gl489rHaDwqyacjlZ+dpL2JjK2f++w7JfeAYyWDlBTF8lIg6zP7E7ZjT2
+xFtC4ez/0Jsd8jkm0wC+a8DZuGfEaUAjvKBTI0i+ouL6/PGA7WCTQxB+82OHo0tqrLN31ehggGgC
+oID6mIxzgkCbjceECjX+L2CdfY15SOAuGb/pMw==
+
+                    </ds:Modulus>
+                    
+
+                    <ds:Exponent>
+                        AQAB
+                    </ds:Exponent>
+                    
+
+                </ds:RSAKeyValue>
+                
+
+            </ds:KeyValue>
+            
+
+            <ds:X509Data>
+                
+
+                <ds:X509Certificate>
+                    
+MIIDpTCCAo2gAwIBAgIJAKlolDUonnk1MA0GCSqGSIb3DQEBCwUAMGkxCzAJBgNVBAYTAklUMQ4w
+DAYDVQQIDAVJdGFseTELMAkGA1UEBwwCVm8xFTATBgNVBAoMDENvbXVuZSBkaSBWbzEmMCQGA1UE
+Awwdc2Vydml6aW9ubGluZS5jb211bmUudm8ucGQuaXQwHhcNMTkwMzA0MTQzOTU5WhcNMjkwMzAz
+MTQzOTU5WjBpMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxCzAJBgNVBAcMAlZvMRUwEwYD
+VQQKDAxDb211bmUgZGkgVm8xJjAkBgNVBAMMHXNlcnZpemlvbmxpbmUuY29tdW5lLnZvLnBkLml0
+MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAorCKew3JuGEYjCZzrLKWUQTUnYrEMxEd
+TDXucA3jzEoT/mZOL77GXH6nQFEY5LGi5f2f57HX73EsHEmUoo6ZBAzHkMS9Lndqtucsi7kV7Lcg
+w0DKeNb/+JZfWZ7uO9EAm2AZkN+m+tUsF2Epzw0TOHTgSQTnJ07bIlo8fv1dKr8Gl489rHaDwqya
+cjlZ+dpL2JjK2f++w7JfeAYyWDlBTF8lIg6zP7E7ZjT2xFtC4ez/0Jsd8jkm0wC+a8DZuGfEaUAj
+vKBTI0i+ouL6/PGA7WCTQxB+82OHo0tqrLN31ehggGgCoID6mIxzgkCbjceECjX+L2CdfY15SOAu
+Gb/pMwIDAQABo1AwTjAdBgNVHQ4EFgQUbK0bCmtKej8lVy9yGdtHZcuAQGswHwYDVR0jBBgwFoAU
+bK0bCmtKej8lVy9yGdtHZcuAQGswDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAnIAZ
+R9JPoFyUE2hKlpJDRzdLvfaVBXIKFFTV9C2zpWVRj1UFRe/OItCbCgfuHSFUhT0abjXMSmROCO4h
+oItbc+tuyPTqHf2e2wST3QsBKiLrkHG1J4dxpPfCHNIFQzAR92SmRfx14zdcb8k9zGUnd7QA3AF/
+rg2JzVwDuTuVvU+xZwrNRSD7Pye/g9hhqsROF7s7lymghyZ8xskMnxZNfzhEm/y2gv6QJc8+BICN
+QzOky42PrL/fGJZw7LmehKJzuWKQXMJcEMAjs6mDMDw8O5VPeuz5TWa6uZ+joEjfX4l4qthPr/dD
+8j0m1fUIKewdfgigAOdXixbd4dkfxR0+3Q==
+
+                </ds:X509Certificate>
+                
+
+            </ds:X509Data>
+            
+
+        </ds:KeyInfo>
+        
+
+    </ds:Signature>
+    
+  
+    <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+        
+    
+        <md:KeyDescriptor use="signing">
+            
+      
+            <ds:KeyInfo>
+                
+        
+                <ds:X509Data>
+                    
+          
+                    <ds:X509Certificate>
+                        MIIDpTCCAo2gAwIBAgIJAKlolDUonnk1MA0GCSqGSIb3DQEBCwUAMGkxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTELMAkGA1UEBwwCVm8xFTATBgNVBAoMDENvbXVuZSBkaSBWbzEmMCQGA1UEAwwdc2Vydml6aW9ubGluZS5jb211bmUudm8ucGQuaXQwHhcNMTkwMzA0MTQzOTU5WhcNMjkwMzAzMTQzOTU5WjBpMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxCzAJBgNVBAcMAlZvMRUwEwYDVQQKDAxDb211bmUgZGkgVm8xJjAkBgNVBAMMHXNlcnZpemlvbmxpbmUuY29tdW5lLnZvLnBkLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAorCKew3JuGEYjCZzrLKWUQTUnYrEMxEdTDXucA3jzEoT/mZOL77GXH6nQFEY5LGi5f2f57HX73EsHEmUoo6ZBAzHkMS9Lndqtucsi7kV7Lcgw0DKeNb/+JZfWZ7uO9EAm2AZkN+m+tUsF2Epzw0TOHTgSQTnJ07bIlo8fv1dKr8Gl489rHaDwqyacjlZ+dpL2JjK2f++w7JfeAYyWDlBTF8lIg6zP7E7ZjT2xFtC4ez/0Jsd8jkm0wC+a8DZuGfEaUAjvKBTI0i+ouL6/PGA7WCTQxB+82OHo0tqrLN31ehggGgCoID6mIxzgkCbjceECjX+L2CdfY15SOAuGb/pMwIDAQABo1AwTjAdBgNVHQ4EFgQUbK0bCmtKej8lVy9yGdtHZcuAQGswHwYDVR0jBBgwFoAUbK0bCmtKej8lVy9yGdtHZcuAQGswDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAnIAZR9JPoFyUE2hKlpJDRzdLvfaVBXIKFFTV9C2zpWVRj1UFRe/OItCbCgfuHSFUhT0abjXMSmROCO4hoItbc+tuyPTqHf2e2wST3QsBKiLrkHG1J4dxpPfCHNIFQzAR92SmRfx14zdcb8k9zGUnd7QA3AF/rg2JzVwDuTuVvU+xZwrNRSD7Pye/g9hhqsROF7s7lymghyZ8xskMnxZNfzhEm/y2gv6QJc8+BICNQzOky42PrL/fGJZw7LmehKJzuWKQXMJcEMAjs6mDMDw8O5VPeuz5TWa6uZ+joEjfX4l4qthPr/dD8j0m1fUIKewdfgigAOdXixbd4dkfxR0+3Q==
+                    </ds:X509Certificate>
+                    
+        
+                </ds:X509Data>
+                
+      
+            </ds:KeyInfo>
+            
+    
+        </md:KeyDescriptor>
+        
+    
+        <md:KeyDescriptor use="encryption">
+            
+      
+            <ds:KeyInfo>
+                
+        
+                <ds:X509Data>
+                    
+          
+                    <ds:X509Certificate>
+                        MIIDpTCCAo2gAwIBAgIJAKlolDUonnk1MA0GCSqGSIb3DQEBCwUAMGkxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTELMAkGA1UEBwwCVm8xFTATBgNVBAoMDENvbXVuZSBkaSBWbzEmMCQGA1UEAwwdc2Vydml6aW9ubGluZS5jb211bmUudm8ucGQuaXQwHhcNMTkwMzA0MTQzOTU5WhcNMjkwMzAzMTQzOTU5WjBpMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxCzAJBgNVBAcMAlZvMRUwEwYDVQQKDAxDb211bmUgZGkgVm8xJjAkBgNVBAMMHXNlcnZpemlvbmxpbmUuY29tdW5lLnZvLnBkLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAorCKew3JuGEYjCZzrLKWUQTUnYrEMxEdTDXucA3jzEoT/mZOL77GXH6nQFEY5LGi5f2f57HX73EsHEmUoo6ZBAzHkMS9Lndqtucsi7kV7Lcgw0DKeNb/+JZfWZ7uO9EAm2AZkN+m+tUsF2Epzw0TOHTgSQTnJ07bIlo8fv1dKr8Gl489rHaDwqyacjlZ+dpL2JjK2f++w7JfeAYyWDlBTF8lIg6zP7E7ZjT2xFtC4ez/0Jsd8jkm0wC+a8DZuGfEaUAjvKBTI0i+ouL6/PGA7WCTQxB+82OHo0tqrLN31ehggGgCoID6mIxzgkCbjceECjX+L2CdfY15SOAuGb/pMwIDAQABo1AwTjAdBgNVHQ4EFgQUbK0bCmtKej8lVy9yGdtHZcuAQGswHwYDVR0jBBgwFoAUbK0bCmtKej8lVy9yGdtHZcuAQGswDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAnIAZR9JPoFyUE2hKlpJDRzdLvfaVBXIKFFTV9C2zpWVRj1UFRe/OItCbCgfuHSFUhT0abjXMSmROCO4hoItbc+tuyPTqHf2e2wST3QsBKiLrkHG1J4dxpPfCHNIFQzAR92SmRfx14zdcb8k9zGUnd7QA3AF/rg2JzVwDuTuVvU+xZwrNRSD7Pye/g9hhqsROF7s7lymghyZ8xskMnxZNfzhEm/y2gv6QJc8+BICNQzOky42PrL/fGJZw7LmehKJzuWKQXMJcEMAjs6mDMDw8O5VPeuz5TWa6uZ+joEjfX4l4qthPr/dD8j0m1fUIKewdfgigAOdXixbd4dkfxR0+3Q==
+                    </ds:X509Certificate>
+                    
+        
+                </ds:X509Data>
+                
+      
+            </ds:KeyInfo>
+            
+    
+        </md:KeyDescriptor>
+        
+    
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://www.comune.vo.pd.it/spid/module.php/saml/sp/saml2-logout.php/spid"/>
+        
+    
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.comune.vo.pd.it/spid/module.php/saml/sp/saml2-acs.php/spid" index="0" isDefault="true"/>
+        
+    
+        <md:AttributeConsumingService index="1">
+            
+      
+            <md:ServiceName xml:lang="it">
+                Servizi online
+            </md:ServiceName>
+            
+      
+            <md:ServiceDescription xml:lang="it">
+                Servizi online
+            </md:ServiceDescription>
+            
+      
+            <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute FriendlyName="Cognome" Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute FriendlyName="Nome" Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute FriendlyName="Codice identificativo SPID" Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute FriendlyName="Ragione o denominazione sociale" Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+    
+        </md:AttributeConsumingService>
+        
+  
+    </md:SPSSODescriptor>
+    
+  
+    <md:Organization>
+        
+    
+        <md:OrganizationName xml:lang="it">
+            Comune di Vo
+        </md:OrganizationName>
+        
+    
+        <md:OrganizationDisplayName xml:lang="it">
+            Comune di Vo
+        </md:OrganizationDisplayName>
+        
+    
+        <md:OrganizationURL xml:lang="it">
+            https://www.comune.vo.pd.it
+        </md:OrganizationURL>
+        
+  
+    </md:Organization>
+    
+  
+    <md:ContactPerson contactType="other">
+        
+    
+        <md:Extensions>
+            
+      
+            <spid:IPACode>
+                c_m103
+            </spid:IPACode>
+            
+      
+            <spid:Public/>
+            
+    
+        </md:Extensions>
+        
+    
+        <md:Company>
+            Comune di Vo
+        </md:Company>
+        
+    
+        <md:EmailAddress>
+            webmaster@comune.vo.pd.it
+        </md:EmailAddress>
+        
+  
+    </md:ContactPerson>
+    
+
+</md:EntityDescriptor>

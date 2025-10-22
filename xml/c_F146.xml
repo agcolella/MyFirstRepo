@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" entityID="https://www.comune.mergozzo.vb.it" ID="ep9ea9cbf3-2ee6-498d-98f6-573566d59147">
+    <ds:Signature>
+        <ds:SignedInfo>
+            <ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+            <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+            <ds:Reference URI="#ep9ea9cbf3-2ee6-498d-98f6-573566d59147">
+                <ds:Transforms>
+                    <ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+                    <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+                </ds:Transforms>
+                <ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+                <ds:DigestValue>
+                    dPaZWg1dYDOOs4TNyrMzem6zN6xy0uDRKby3NNTp/x8=
+                </ds:DigestValue>
+            </ds:Reference>
+        </ds:SignedInfo>
+        <ds:SignatureValue>
+            KbH3X1ov4JxW6xaYms+zGqKTaT1fD/uTH3hv/YCJV5nXA6umnsJthgEkkj7g7EHghc84agWbZkmCLWoV4DsDo5T51QjLLC468wAzASPQMcwCFzhAmRt8kLjfTML0JWP01MKbKJ5G2Bq0jbf+VE1lVhQsaoejHPc7udVvGB4Ru7by0yXVgmwLMfKD/E2Op64iGbycEr4yhTyCfB+ziP0c61Xoe2HeXV0qrGiECjmpBoiyiPf7sC/RMDechTFiCBA7uHbtL8r6KMnXMvfRac//kUhzVeho1VxgiRA0/5EwcLVGFOUK8G3E3hkPXZnKrjsaMJ30MDm0x/3xeiIDEP/G5NYHds28bD1iapo7ZUSuLvjubnCjrxrI4sgd4QkxUT33YF+UKhd6uNCmkncbN4kn6HT9X5DxAPRzwLBBfkBermHBJlfjzbjsH3encUtAcWO9orNwVEJDuXQE/tz53xHRiou0yGTfTI3BBYvtwSW95RM1uicJzApfch661QQOCcwWmcrLyVBV7Q9j1sLLZ8a8Rl25Le1mDRWkAkslcCVZDyRPiyghzAwuEpp+G1vc/aXXja4UKbl2qcyBbpSqsXpD2deLtBAbDZAwWJYOJcpNS2+SFi4e3lpdWlGzvpGrlwMYUwONVGzpZ4sbnbOySMuoMImYT7pHF6xvqqiPzX2ZaSQ=
+        </ds:SignatureValue>
+        <ds:KeyInfo>
+            <ds:KeyValue>
+                <ds:RSAKeyValue>
+                    <ds:Modulus>
+                        qw+6o9vPbsDafjFbh28GfYot6HTrQ5gaFTHadTN635BAB4400GEu6qCAWYaQwqRt6P7wJtUfovJBqwB6GNOsvGpNPRELXasuvLiNkqbG2OaSF9Tlldz37LlHdCytJBwa5lUyTKYWgAEHOZ5Mvwz42jGTFEs21KO2yuGvsmK2yl+GtwEAdOLPuVg9TbuMHYBTfqddSNxvToVfD5a78IIVak1hew66+cxjMjpD5eFcUz+8vsVZcCHXfRBoHPoHSX355Nbe9LZYV2w2rrioZYpYRikAIRzyv5AHIG2sW0ZNf1czgpsRdMJADcxzx0DUCPVclIStfQbMrZ7yr9hyXjGAqQHvaPdS5tgSIIqybE/i3asSpwdxGJd5AqGzXxjCC/B2MPxM+zlcf7PSORBeYBoF+ZHM3WdxlSzRucdtroCnUpC/IHkrSdq3zJYN9XxDIpum0DL2jgNHs6Gdv6M0eeUrbnwkJ8vsdJO7gct1nESkneM8Xen6dvBZugdXTTGD+yuh5V980zAWzOjfon7OyZOAToJ8ciL2DoEecDLdlJW6qxQYtZAJ1a5g1d8noon7EqveaxNLtZlfrgTMVPlpK1WIlxsvi1wPZYKLd8v9WV2bbzzRAJXyT2Fy4hI2BHAA+tJA/k9/Zl9bM8gjfLDYZai14tOzjWY/nnYk797joR7dB5k=
+                    </ds:Modulus>
+                    <ds:Exponent>
+                        AQAB
+                    </ds:Exponent>
+                </ds:RSAKeyValue>
+            </ds:KeyValue>
+            <ds:X509Data>
+                <ds:X509Certificate>
+                    MIIFrDCCA5QCCQDreVHO8/YZsTANBgkqhkiG9w0BAQsFADCBlzEiMCAGA1UEAwwZd3d3LmNvbXVuZS5tZXJnb3p6by52Yi5pdDEbMBkGA1UECgwSQ29tdW5lIGRpIE1lcmdvenpvMQswCQYDVQQGEwJJVDERMA8GA1UEBwwITWVyZ296em8xFTATBgNVBGEMDFBBOklULWNfRjE0NjEdMBsGAytMEAwUc3BpZC1wdWJsaWNzZWN0b3ItU1AwHhcNMjEwOTE3MTAyODIxWhcNNDkwMjAyMTAyODIxWjCBlzEiMCAGA1UEAwwZd3d3LmNvbXVuZS5tZXJnb3p6by52Yi5pdDEbMBkGA1UECgwSQ29tdW5lIGRpIE1lcmdvenpvMQswCQYDVQQGEwJJVDERMA8GA1UEBwwITWVyZ296em8xFTATBgNVBGEMDFBBOklULWNfRjE0NjEdMBsGAytMEAwUc3BpZC1wdWJsaWNzZWN0b3ItU1AwggIiMA0GCSqGSIb3DQEBAQUAA4ICDwAwggIKAoICAQCrD7qj289uwNp+MVuHbwZ9ii3odOtDmBoVMdp1M3rfkEAHjjTQYS7qoIBZhpDCpG3o/vAm1R+i8kGrAHoY06y8ak09EQtdqy68uI2SpsbY5pIX1OWV3PfsuUd0LK0kHBrmVTJMphaAAQc5nky/DPjaMZMUSzbUo7bK4a+yYrbKX4a3AQB04s+5WD1Nu4wdgFN+p11I3G9OhV8PlrvwghVqTWF7Drr5zGMyOkPl4VxTP7y+xVlwIdd9EGgc+gdJffnk1t70tlhXbDauuKhlilhGKQAhHPK/kAcgbaxbRk1/VzOCmxF0wkANzHPHQNQI9VyUhK19BsytnvKv2HJeMYCpAe9o91Lm2BIgirJsT+LdqxKnB3EYl3kCobNfGMIL8HYw/Ez7OVx/s9I5EF5gGgX5kczdZ3GVLNG5x22ugKdSkL8geStJ2rfMlg31fEMim6bQMvaOA0ezoZ2/ozR55StufCQny+x0k7uBy3WcRKSd4zxd6fp28Fm6B1dNMYP7K6HlX3zTMBbM6N+ifs7Jk4BOgnxyIvYOgR5wMt2UlbqrFBi1kAnVrmDV3yeiifsSq95rE0u1mV+uBMxU+WkrVYiXGy+LXA9lgot3y/1ZXZtvPNEAlfJPYXLiEjYEcAD60kD+T39mX1szyCN8sNhlqLXi07ONZj+ediTv3uOhHt0HmQIDAQABMA0GCSqGSIb3DQEBCwUAA4ICAQCgrZ/bW8e6BSQrVRrZuSdwPhYYClKP5HCacTvM0keAGSD9iB2Ui1jPA3t+nvA8I6sRF2D808st2BIbIcPQ+/sEjFvacq0L7ORRryVcd96cgULSK/y84Oj/78d8O3FxGFYP1MtIoVnBLP+7ojj+MhD7LLVWYSkRRIOZUEnaAFr8ESi+a083rWLqJwNhRZ/1HgRbq8BA0JfE7gtMCWC/C8gc3mApBDdhA4fHbTdnMha4NQ/TD+fQ3Lv7guSST2+DzjVnqMxgaw+lYPfL9408GWKPGyKZ4d8zY+2MbMj+FU0jUZ8Giej5gJhjdM9aLJZH4Dm6cZ0cjns+ELmdRythgdpsrPW4CleZXjVvXKi93/mbC+yPvIaPU/DQ5jeZplBWcSxVtA7qQyFBsO3shddJFYtq+uM+hjGYjb3h3Sut2AqSoPzqzV7PxOYicpABm9O0/DvAka3iPwYFazjkWtHa9uzK3/drbUxIt/fgtRpQl2Fa+WNyxkFXAvJmdsGHYEsmBIFVZXx8EIHeTg1wcF7kY23KjKKNq91xa5UjMEHbChUC7n5I6/r41PX90yq0/KUhydWbUtGy7GbmuwOg3ZZ50SZLwDXEvsk540ivy7dNbkA3mWgCWsq4zjhxE3bcfSYJWNzbI4vMqp+j0SQOJLXw33vsyRceBlJzNT0StKCnIt4lwQ==
+                </ds:X509Certificate>
+            </ds:X509Data>
+        </ds:KeyInfo>
+    </ds:Signature>
+    <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true" WantAssertionsSigned="true">
+        <md:KeyDescriptor use="signing">
+            <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+                <ds:X509Data>
+                    <ds:X509Certificate>
+                        MIIFrDCCA5QCCQDreVHO8/YZsTANBgkqhkiG9w0BAQsFADCBlzEiMCAGA1UEAwwZ
+d3d3LmNvbXVuZS5tZXJnb3p6by52Yi5pdDEbMBkGA1UECgwSQ29tdW5lIGRpIE1l
+cmdvenpvMQswCQYDVQQGEwJJVDERMA8GA1UEBwwITWVyZ296em8xFTATBgNVBGEM
+DFBBOklULWNfRjE0NjEdMBsGAytMEAwUc3BpZC1wdWJsaWNzZWN0b3ItU1AwHhcN
+MjEwOTE3MTAyODIxWhcNNDkwMjAyMTAyODIxWjCBlzEiMCAGA1UEAwwZd3d3LmNv
+bXVuZS5tZXJnb3p6by52Yi5pdDEbMBkGA1UECgwSQ29tdW5lIGRpIE1lcmdvenpv
+MQswCQYDVQQGEwJJVDERMA8GA1UEBwwITWVyZ296em8xFTATBgNVBGEMDFBBOklU
+LWNfRjE0NjEdMBsGAytMEAwUc3BpZC1wdWJsaWNzZWN0b3ItU1AwggIiMA0GCSqG
+SIb3DQEBAQUAA4ICDwAwggIKAoICAQCrD7qj289uwNp+MVuHbwZ9ii3odOtDmBoV
+Mdp1M3rfkEAHjjTQYS7qoIBZhpDCpG3o/vAm1R+i8kGrAHoY06y8ak09EQtdqy68
+uI2SpsbY5pIX1OWV3PfsuUd0LK0kHBrmVTJMphaAAQc5nky/DPjaMZMUSzbUo7bK
+4a+yYrbKX4a3AQB04s+5WD1Nu4wdgFN+p11I3G9OhV8PlrvwghVqTWF7Drr5zGMy
+OkPl4VxTP7y+xVlwIdd9EGgc+gdJffnk1t70tlhXbDauuKhlilhGKQAhHPK/kAcg
+baxbRk1/VzOCmxF0wkANzHPHQNQI9VyUhK19BsytnvKv2HJeMYCpAe9o91Lm2BIg
+irJsT+LdqxKnB3EYl3kCobNfGMIL8HYw/Ez7OVx/s9I5EF5gGgX5kczdZ3GVLNG5
+x22ugKdSkL8geStJ2rfMlg31fEMim6bQMvaOA0ezoZ2/ozR55StufCQny+x0k7uB
+y3WcRKSd4zxd6fp28Fm6B1dNMYP7K6HlX3zTMBbM6N+ifs7Jk4BOgnxyIvYOgR5w
+Mt2UlbqrFBi1kAnVrmDV3yeiifsSq95rE0u1mV+uBMxU+WkrVYiXGy+LXA9lgot3
+y/1ZXZtvPNEAlfJPYXLiEjYEcAD60kD+T39mX1szyCN8sNhlqLXi07ONZj+ediTv
+3uOhHt0HmQIDAQABMA0GCSqGSIb3DQEBCwUAA4ICAQCgrZ/bW8e6BSQrVRrZuSdw
+PhYYClKP5HCacTvM0keAGSD9iB2Ui1jPA3t+nvA8I6sRF2D808st2BIbIcPQ+/sE
+jFvacq0L7ORRryVcd96cgULSK/y84Oj/78d8O3FxGFYP1MtIoVnBLP+7ojj+MhD7
+LLVWYSkRRIOZUEnaAFr8ESi+a083rWLqJwNhRZ/1HgRbq8BA0JfE7gtMCWC/C8gc
+3mApBDdhA4fHbTdnMha4NQ/TD+fQ3Lv7guSST2+DzjVnqMxgaw+lYPfL9408GWKP
+GyKZ4d8zY+2MbMj+FU0jUZ8Giej5gJhjdM9aLJZH4Dm6cZ0cjns+ELmdRythgdps
+rPW4CleZXjVvXKi93/mbC+yPvIaPU/DQ5jeZplBWcSxVtA7qQyFBsO3shddJFYtq
++uM+hjGYjb3h3Sut2AqSoPzqzV7PxOYicpABm9O0/DvAka3iPwYFazjkWtHa9uzK
+3/drbUxIt/fgtRpQl2Fa+WNyxkFXAvJmdsGHYEsmBIFVZXx8EIHeTg1wcF7kY23K
+jKKNq91xa5UjMEHbChUC7n5I6/r41PX90yq0/KUhydWbUtGy7GbmuwOg3ZZ50SZL
+wDXEvsk540ivy7dNbkA3mWgCWsq4zjhxE3bcfSYJWNzbI4vMqp+j0SQOJLXw33vs
+yRceBlJzNT0StKCnIt4lwQ==
+                    </ds:X509Certificate>
+                </ds:X509Data>
+            </ds:KeyInfo>
+        </md:KeyDescriptor>
+        <md:KeyDescriptor use="encryption">
+            <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+                <ds:X509Data>
+                    <ds:X509Certificate>
+                        MIIFrDCCA5QCCQDreVHO8/YZsTANBgkqhkiG9w0BAQsFADCBlzEiMCAGA1UEAwwZ
+d3d3LmNvbXVuZS5tZXJnb3p6by52Yi5pdDEbMBkGA1UECgwSQ29tdW5lIGRpIE1l
+cmdvenpvMQswCQYDVQQGEwJJVDERMA8GA1UEBwwITWVyZ296em8xFTATBgNVBGEM
+DFBBOklULWNfRjE0NjEdMBsGAytMEAwUc3BpZC1wdWJsaWNzZWN0b3ItU1AwHhcN
+MjEwOTE3MTAyODIxWhcNNDkwMjAyMTAyODIxWjCBlzEiMCAGA1UEAwwZd3d3LmNv
+bXVuZS5tZXJnb3p6by52Yi5pdDEbMBkGA1UECgwSQ29tdW5lIGRpIE1lcmdvenpv
+MQswCQYDVQQGEwJJVDERMA8GA1UEBwwITWVyZ296em8xFTATBgNVBGEMDFBBOklU
+LWNfRjE0NjEdMBsGAytMEAwUc3BpZC1wdWJsaWNzZWN0b3ItU1AwggIiMA0GCSqG
+SIb3DQEBAQUAA4ICDwAwggIKAoICAQCrD7qj289uwNp+MVuHbwZ9ii3odOtDmBoV
+Mdp1M3rfkEAHjjTQYS7qoIBZhpDCpG3o/vAm1R+i8kGrAHoY06y8ak09EQtdqy68
+uI2SpsbY5pIX1OWV3PfsuUd0LK0kHBrmVTJMphaAAQc5nky/DPjaMZMUSzbUo7bK
+4a+yYrbKX4a3AQB04s+5WD1Nu4wdgFN+p11I3G9OhV8PlrvwghVqTWF7Drr5zGMy
+OkPl4VxTP7y+xVlwIdd9EGgc+gdJffnk1t70tlhXbDauuKhlilhGKQAhHPK/kAcg
+baxbRk1/VzOCmxF0wkANzHPHQNQI9VyUhK19BsytnvKv2HJeMYCpAe9o91Lm2BIg
+irJsT+LdqxKnB3EYl3kCobNfGMIL8HYw/Ez7OVx/s9I5EF5gGgX5kczdZ3GVLNG5
+x22ugKdSkL8geStJ2rfMlg31fEMim6bQMvaOA0ezoZ2/ozR55StufCQny+x0k7uB
+y3WcRKSd4zxd6fp28Fm6B1dNMYP7K6HlX3zTMBbM6N+ifs7Jk4BOgnxyIvYOgR5w
+Mt2UlbqrFBi1kAnVrmDV3yeiifsSq95rE0u1mV+uBMxU+WkrVYiXGy+LXA9lgot3
+y/1ZXZtvPNEAlfJPYXLiEjYEcAD60kD+T39mX1szyCN8sNhlqLXi07ONZj+ediTv
+3uOhHt0HmQIDAQABMA0GCSqGSIb3DQEBCwUAA4ICAQCgrZ/bW8e6BSQrVRrZuSdw
+PhYYClKP5HCacTvM0keAGSD9iB2Ui1jPA3t+nvA8I6sRF2D808st2BIbIcPQ+/sE
+jFvacq0L7ORRryVcd96cgULSK/y84Oj/78d8O3FxGFYP1MtIoVnBLP+7ojj+MhD7
+LLVWYSkRRIOZUEnaAFr8ESi+a083rWLqJwNhRZ/1HgRbq8BA0JfE7gtMCWC/C8gc
+3mApBDdhA4fHbTdnMha4NQ/TD+fQ3Lv7guSST2+DzjVnqMxgaw+lYPfL9408GWKP
+GyKZ4d8zY+2MbMj+FU0jUZ8Giej5gJhjdM9aLJZH4Dm6cZ0cjns+ELmdRythgdps
+rPW4CleZXjVvXKi93/mbC+yPvIaPU/DQ5jeZplBWcSxVtA7qQyFBsO3shddJFYtq
++uM+hjGYjb3h3Sut2AqSoPzqzV7PxOYicpABm9O0/DvAka3iPwYFazjkWtHa9uzK
+3/drbUxIt/fgtRpQl2Fa+WNyxkFXAvJmdsGHYEsmBIFVZXx8EIHeTg1wcF7kY23K
+jKKNq91xa5UjMEHbChUC7n5I6/r41PX90yq0/KUhydWbUtGy7GbmuwOg3ZZ50SZL
+wDXEvsk540ivy7dNbkA3mWgCWsq4zjhxE3bcfSYJWNzbI4vMqp+j0SQOJLXw33vs
+yRceBlJzNT0StKCnIt4lwQ==
+                    </ds:X509Certificate>
+                </ds:X509Data>
+            </ds:KeyInfo>
+        </md:KeyDescriptor>
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.comune.mergozzo.vb.it/it-it/spid/logoutresp"/>
+        <md:NameIDFormat>
+            urn:oasis:names:tc:SAML:2.0:nameid-format:transient
+        </md:NameIDFormat>
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.comune.mergozzo.vb.it/it-it/spid/loginresp" index="0" isDefault="true"/>
+        <md:AttributeConsumingService index="0">
+            <md:ServiceName xml:lang="it">
+                Servizi Online
+            </md:ServiceName>
+            <md:ServiceDescription xml:lang="it">
+                Accesso ai Servizi Online
+            </md:ServiceDescription>
+            <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+        </md:AttributeConsumingService>
+    </md:SPSSODescriptor>
+    <md:Organization>
+        <md:OrganizationName xml:lang="it">
+            Comune di Mergozzo
+        </md:OrganizationName>
+        <md:OrganizationDisplayName xml:lang="it">
+            Comune di Mergozzo
+        </md:OrganizationDisplayName>
+        <md:OrganizationURL xml:lang="it">
+            https://www.comune.mergozzo.vb.it
+        </md:OrganizationURL>
+    </md:Organization>
+    <md:ContactPerson contactType="other">
+        <md:Extensions>
+            <spid:IPACode>
+                c_F146
+            </spid:IPACode>
+            <spid:Public/>
+        </md:Extensions>
+        <md:EmailAddress>
+            protocollo@comune.mergozzo.vb.it
+        </md:EmailAddress>
+        <md:TelephoneNumber>
+            +39032380101
+        </md:TelephoneNumber>
+    </md:ContactPerson>
+</md:EntityDescriptor>

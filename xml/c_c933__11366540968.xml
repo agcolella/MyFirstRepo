@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:spid="https://spid.gov.it/saml-extensions" ID="_0j40cj0848d8e3jncjdjssasdfasfwtr2" cacheDuration="P1M" entityID="https://welfarex.it/spid/pub-ag-full/c_c933"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#_0j40cj0848d8e3jncjdjssasdfasfwtr2">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>tf4IFPxtaESA9srcp++GIIYeG7TmMVS5uYDqr6lejoE=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+Ute8zmGMBRI/hFU3xGfzkCn+oNGF2qeCJ05U6qNj3BoTZ0+KVKGoJSr1PemNubR4qdKq2ZE2KOwe
+J37KZpTa+j8uXzZYCui4/H4ubgAA/CJEUPw0RQt1TFr359CEPvXQLSfwMAJVc2QeSDPTgeZzUuvs
+EUMBYgX84OZJnr/KUo4qnvNl9ycFg6NFNNqO1uGjrOpTTbvr+zCBxXSKEM2LTwTxtBS7as7XK+th
+LY+TlOYCn/NvYZIVrDYAvl2y4wRIGK+v7HTDiD3IZPl9MmLsp/AASMT3SDtnruJCd2RQmArNaHFz
+siyFwSjiVEDyJa50zmpmL7Nv2m4alcitnEnk9FDBl6RClnzpjSvN2MFJH4QG6K3CxYvhguqrmwM6
+ZZBo5mdgT9Tk2rgSc+Ao4O9lg8f/a7swmNwAjxYxdk8AFxkfXg6eR9qeGiWXU3b1uMqUyf5o6WZk
+z/y4Ik8hznVPpgDaKblZ3B5XX3nNi0aRgY62YuSeVkSpRYPMJOebjwww
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+2nCWvKlI7pMky4xOgVmR3STwRWRjRmJNyHRneBqXJSEPkREAGiDKcdYZLDIlcrfDfU4kkJSULChy
+LaVHu0f76dWZQ8CBj6TeFlEiKnkvoMqnFGe92M5HSZIM0WrPetsIoVwt/x+e92UrS65J77C7Tf1o
+97/BDAIHSnEfON8d6tzG5PBw4Azqgc2i55FbtvvTst3eS09+15YEnyMb60HtW9/G2qoysYsGoOgu
+ZwRyf4mJeArkBTL2JTBPQbrX2uVjIBUPI2xJtUajNmF/lj2vs28rUlxN8uf9WPOppETzHfb39SQZ
+ADhng0d4Z9F2yD04Rc+MnpHw9W3tButTFaHt78g1pOzEg7CiS0IroVm4pUJleyqT9+T1HQeZ31Ss
+18lFiWqAbB3Aq0H8j/yQkuLprbUh4hvzPp0MfpWNi8+DGo1TK6KS4zaGLOO7Yxyzq2NgyJDJFHGv
+TPkHZiNRpH/n2hn50M5TuSseB8TPZVrWkHOPtYrlADEPv6c5l+q9f9jd
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIITTCCBjWgAwIBAgIILAolmGY0mYUwDQYJKoZIhvcNAQENBQAwgeUxCzAJBgNVBAYTAklUMQ0w
+CwYDVQQHDARSb21lMSYwJAYDVQQKDB1BZ2VuemlhIHBlciBsJ0l0YWxpYSBEaWdpdGFsZTEsMCoG
+A1UECwwjU2Vydml6aW8gQWNjcmVkaXRhbWVudG8gZSBWaWdpbGFuemExKjAoBgNVBAMMIVByb2dl
+dHRvIFNQSUQgLSBTb2dnZXR0aV9wdWJibGljaTEpMCcGCSqGSIb3DQEJARYacHJvdG9jb2xsb0Bw
+ZWMuYWdpZC5nb3YuaXQxGjAYBgNVBAUTEVZBVElULTk3NzM1MDIwNTg0MB4XDTIyMDExMjAwMDAw
+MFoXDTM3MDExMTIzNTk1OVowgY4xFTATBgNVBAoMDENHTW92aW5nIHNybDEcMBoGA1UEAwwTaHR0
+cHM6Ly93ZWxmYXJleC5pdDEdMBsGA1UEUwwUaHR0cHM6Ly93ZWxmYXJleC5pdC8xGjAYBgNVBGEM
+EVZBVElULTExMzY2NTQwOTY4MQswCQYDVQQGEwJJVDEPMA0GA1UEBwwGTWlsYW5vMIIBojANBgkq
+hkiG9w0BAQEFAAOCAY8AMIIBigKCAYEA2nCWvKlI7pMky4xOgVmR3STwRWRjRmJNyHRneBqXJSEP
+kREAGiDKcdYZLDIlcrfDfU4kkJSULChyLaVHu0f76dWZQ8CBj6TeFlEiKnkvoMqnFGe92M5HSZIM
+0WrPetsIoVwt/x+e92UrS65J77C7Tf1o97/BDAIHSnEfON8d6tzG5PBw4Azqgc2i55FbtvvTst3e
+S09+15YEnyMb60HtW9/G2qoysYsGoOguZwRyf4mJeArkBTL2JTBPQbrX2uVjIBUPI2xJtUajNmF/
+lj2vs28rUlxN8uf9WPOppETzHfb39SQZADhng0d4Z9F2yD04Rc+MnpHw9W3tButTFaHt78g1pOzE
+g7CiS0IroVm4pUJleyqT9+T1HQeZ31Ss18lFiWqAbB3Aq0H8j/yQkuLprbUh4hvzPp0MfpWNi8+D
+Go1TK6KS4zaGLOO7Yxyzq2NgyJDJFHGvTPkHZiNRpH/n2hn50M5TuSseB8TPZVrWkHOPtYrlADEP
+v6c5l+q9f9jdAgMBAAGjggLUMIIC0DAMBgNVHRMBAf8EAjAAMB0GA1UdDgQWBBT2ICWn1pidL8wB
+qHI6888DLB2X5zAfBgNVHSMEGDAWgBQ8u23rHv2dbsvuVObqOdWJoEfXNDAOBgNVHQ8BAf8EBAMC
+BsAwFgYDVR0SBA8wDYILc3BpZC5nb3YuaXQwQgYDVR0fBDswOTA3oDWgM4YxaHR0cHM6Ly9laWRh
+cy5hZ2lkLmdvdi5pdC9jcmwvY3JsX1NQSURfUHViX1NBLmNybDA3BggrBgEFBQcBAQQrMCkwJwYI
+KwYBBQUHMAGGG2h0dHBzOi8vb2NzcF9TQS5hZ2lkLmdvdi5pdDCCAdkGA1UdIASCAdAwggHMMAkG
+BwQAjkYBBgIwgZUGBCtMEAYwgYwwRAYIKwYBBQUHAgIwOBo2RWxlY3Ryb25pYyBjZXJ0aWZpY2F0
+ZSBjb25mb3JtaW5nIHdpdGggQUdJRCBHdWlkZWxpbmVzMEQGCCsGAQUFBwICMDgaNkNlcnRpZmlj
+YXRvIGVsZXR0cm9uaWNvIGNvbmZvcm1lIGFsbGUgTGluZWUgZ3VpZGEgQWdJRDB9BgYrTBAEAgIw
+czA6BggrBgEFBQcCAjAuGixTUElEOiBhZ2dyZWdhdG9yZSAnZnVsbCcgZGkgc2Vydml6aSBwdWJi
+bGljaTA1BggrBgEFBQcCAjApGidTUElEOiBwdWJsaWMtc2VydmljZXMgJ2Z1bGwnIEFnZ3JlZ2F0
+b3IwCAYGBACPegEDME0GBCtMEAQwRTBDBggrBgEFBQcCARY3aHR0cHM6Ly9laWRhcy5hZ2lkLmdv
+di5pdC9jcHMvQWdJRF9lSURBU19yb290Q0FfY3BzLnBkZjBPBgYEAI5GAQUwRTBDBggrBgEFBQcC
+ARY3aHR0cHM6Ly9laWRhcy5hZ2lkLmdvdi5pdC9jcHMvQWdJRF9lSURBU19yb290Q0FfY3BzLnBk
+ZjANBgkqhkiG9w0BAQ0FAAOCAgEAcjy71pqFc5VR7Pi12jVuANAEbjb2PWc86lgYrLePQEk/ISuC
+lSKwxJibSRUVBUorUboEpgSu+G66717ADSwI0cbkGUPEBZXzn+1WLm6KuqG3Z8BqmGIlLROHcuwk
+ehaetSzO/xFNeaZYsaC2zxO2gVrf84tnH4toGSKOyDt7PUQdsJaY3RHppRJSjVL4WzWNP6mtd77a
+bjW5Q6HzN+IxpHYUGo8d8hcc2sq6nT/8VDyw0sownv38byTtb8PjTJpJMrmOkycQBA9oKEpqlSA0
+QW5LJAu/Ra9CRGCDQDX6GzshexHxHJyVgUU6RGKvBA1GMABCBsqm2DAlkkNreWtw9cdWRjos178m
+LIX1fijPUWgaTZqe7C2D9nxQvJyNGHxfwoXY4bBF2GmD72k6CM0yr37+LUYWSh0h/5MeajAkIe0B
+qHvJuU3/vStTFskTgdyXrLoCOsia3k5Krm0czULpeB8c7r3BOJVUXwP8pXN9Q4+ltexzukJLqpaZ
+HarkArjKAn+Wz1oCF7K/ynBNYI8sc6vbZYxYgfcXy0f7qT0FW84z7lOkqcc6cKX1YYGYiXIcl8V7
+SjHMFKVDTPja8kfp2XhoHXgPXeBzfIC76dObhs3YstdJDlCE1aS3C5GAHizeW2s6hHPEfDSYWSbv
+x0P3bC07f8wMlRI4217CwVlyC+A=
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+    <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+        <md:KeyDescriptor use="signing">
+            <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+                <ds:X509Data><ds:X509Certificate>MIIITTCCBjWgAwIBAgIILAolmGY0mYUwDQYJKoZIhvcNAQENBQAwgeUxCzAJBgNV
+BAYTAklUMQ0wCwYDVQQHDARSb21lMSYwJAYDVQQKDB1BZ2VuemlhIHBlciBsJ0l0
+YWxpYSBEaWdpdGFsZTEsMCoGA1UECwwjU2Vydml6aW8gQWNjcmVkaXRhbWVudG8g
+ZSBWaWdpbGFuemExKjAoBgNVBAMMIVByb2dldHRvIFNQSUQgLSBTb2dnZXR0aV9w
+dWJibGljaTEpMCcGCSqGSIb3DQEJARYacHJvdG9jb2xsb0BwZWMuYWdpZC5nb3Yu
+aXQxGjAYBgNVBAUTEVZBVElULTk3NzM1MDIwNTg0MB4XDTIyMDExMjAwMDAwMFoX
+DTM3MDExMTIzNTk1OVowgY4xFTATBgNVBAoMDENHTW92aW5nIHNybDEcMBoGA1UE
+AwwTaHR0cHM6Ly93ZWxmYXJleC5pdDEdMBsGA1UEUwwUaHR0cHM6Ly93ZWxmYXJl
+eC5pdC8xGjAYBgNVBGEMEVZBVElULTExMzY2NTQwOTY4MQswCQYDVQQGEwJJVDEP
+MA0GA1UEBwwGTWlsYW5vMIIBojANBgkqhkiG9w0BAQEFAAOCAY8AMIIBigKCAYEA
+2nCWvKlI7pMky4xOgVmR3STwRWRjRmJNyHRneBqXJSEPkREAGiDKcdYZLDIlcrfD
+fU4kkJSULChyLaVHu0f76dWZQ8CBj6TeFlEiKnkvoMqnFGe92M5HSZIM0WrPetsI
+oVwt/x+e92UrS65J77C7Tf1o97/BDAIHSnEfON8d6tzG5PBw4Azqgc2i55FbtvvT
+st3eS09+15YEnyMb60HtW9/G2qoysYsGoOguZwRyf4mJeArkBTL2JTBPQbrX2uVj
+IBUPI2xJtUajNmF/lj2vs28rUlxN8uf9WPOppETzHfb39SQZADhng0d4Z9F2yD04
+Rc+MnpHw9W3tButTFaHt78g1pOzEg7CiS0IroVm4pUJleyqT9+T1HQeZ31Ss18lF
+iWqAbB3Aq0H8j/yQkuLprbUh4hvzPp0MfpWNi8+DGo1TK6KS4zaGLOO7Yxyzq2Ng
+yJDJFHGvTPkHZiNRpH/n2hn50M5TuSseB8TPZVrWkHOPtYrlADEPv6c5l+q9f9jd
+AgMBAAGjggLUMIIC0DAMBgNVHRMBAf8EAjAAMB0GA1UdDgQWBBT2ICWn1pidL8wB
+qHI6888DLB2X5zAfBgNVHSMEGDAWgBQ8u23rHv2dbsvuVObqOdWJoEfXNDAOBgNV
+HQ8BAf8EBAMCBsAwFgYDVR0SBA8wDYILc3BpZC5nb3YuaXQwQgYDVR0fBDswOTA3
+oDWgM4YxaHR0cHM6Ly9laWRhcy5hZ2lkLmdvdi5pdC9jcmwvY3JsX1NQSURfUHVi
+X1NBLmNybDA3BggrBgEFBQcBAQQrMCkwJwYIKwYBBQUHMAGGG2h0dHBzOi8vb2Nz
+cF9TQS5hZ2lkLmdvdi5pdDCCAdkGA1UdIASCAdAwggHMMAkGBwQAjkYBBgIwgZUG
+BCtMEAYwgYwwRAYIKwYBBQUHAgIwOBo2RWxlY3Ryb25pYyBjZXJ0aWZpY2F0ZSBj
+b25mb3JtaW5nIHdpdGggQUdJRCBHdWlkZWxpbmVzMEQGCCsGAQUFBwICMDgaNkNl
+cnRpZmljYXRvIGVsZXR0cm9uaWNvIGNvbmZvcm1lIGFsbGUgTGluZWUgZ3VpZGEg
+QWdJRDB9BgYrTBAEAgIwczA6BggrBgEFBQcCAjAuGixTUElEOiBhZ2dyZWdhdG9y
+ZSAnZnVsbCcgZGkgc2Vydml6aSBwdWJibGljaTA1BggrBgEFBQcCAjApGidTUElE
+OiBwdWJsaWMtc2VydmljZXMgJ2Z1bGwnIEFnZ3JlZ2F0b3IwCAYGBACPegEDME0G
+BCtMEAQwRTBDBggrBgEFBQcCARY3aHR0cHM6Ly9laWRhcy5hZ2lkLmdvdi5pdC9j
+cHMvQWdJRF9lSURBU19yb290Q0FfY3BzLnBkZjBPBgYEAI5GAQUwRTBDBggrBgEF
+BQcCARY3aHR0cHM6Ly9laWRhcy5hZ2lkLmdvdi5pdC9jcHMvQWdJRF9lSURBU19y
+b290Q0FfY3BzLnBkZjANBgkqhkiG9w0BAQ0FAAOCAgEAcjy71pqFc5VR7Pi12jVu
+ANAEbjb2PWc86lgYrLePQEk/ISuClSKwxJibSRUVBUorUboEpgSu+G66717ADSwI
+0cbkGUPEBZXzn+1WLm6KuqG3Z8BqmGIlLROHcuwkehaetSzO/xFNeaZYsaC2zxO2
+gVrf84tnH4toGSKOyDt7PUQdsJaY3RHppRJSjVL4WzWNP6mtd77abjW5Q6HzN+Ix
+pHYUGo8d8hcc2sq6nT/8VDyw0sownv38byTtb8PjTJpJMrmOkycQBA9oKEpqlSA0
+QW5LJAu/Ra9CRGCDQDX6GzshexHxHJyVgUU6RGKvBA1GMABCBsqm2DAlkkNreWtw
+9cdWRjos178mLIX1fijPUWgaTZqe7C2D9nxQvJyNGHxfwoXY4bBF2GmD72k6CM0y
+r37+LUYWSh0h/5MeajAkIe0BqHvJuU3/vStTFskTgdyXrLoCOsia3k5Krm0czULp
+eB8c7r3BOJVUXwP8pXN9Q4+ltexzukJLqpaZHarkArjKAn+Wz1oCF7K/ynBNYI8s
+c6vbZYxYgfcXy0f7qT0FW84z7lOkqcc6cKX1YYGYiXIcl8V7SjHMFKVDTPja8kfp
+2XhoHXgPXeBzfIC76dObhs3YstdJDlCE1aS3C5GAHizeW2s6hHPEfDSYWSbvx0P3
+bC07f8wMlRI4217CwVlyC+A=</ds:X509Certificate></ds:X509Data>
+            </ds:KeyInfo>
+        </md:KeyDescriptor>
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://welfarex.it/spid/logout"/>
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://welfarex.it/spid/logout"/>
+        <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://welfarex.it/spid/post" index="0" isDefault="true"/>
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://solidali.welfarex.it/spid/post" index="1"/>
+        <md:AttributeConsumingService index="22">
+            <md:ServiceName xml:lang="it">serviziAnag</md:ServiceName>
+            <md:RequestedAttribute Name="familyName"/>
+            <md:RequestedAttribute Name="name"/>
+            <md:RequestedAttribute Name="gender"/>
+            <md:RequestedAttribute Name="dateOfBirth"/>
+            <md:RequestedAttribute Name="fiscalNumber"/>
+            <md:RequestedAttribute Name="placeOfBirth"/>
+            <md:RequestedAttribute Name="idCard"/>
+            <md:RequestedAttribute Name="mobilePhone"/>
+            <md:RequestedAttribute Name="email"/>
+            <md:RequestedAttribute Name="address"/>
+            <md:RequestedAttribute Name="digitalAddress"/>
+            <md:RequestedAttribute Name="companyName"/>
+            <md:RequestedAttribute Name="registeredOffice"/>
+            <md:RequestedAttribute Name="ivaCode"/>
+            <md:RequestedAttribute Name="domicileStreetAddress"/>
+            <md:RequestedAttribute Name="domicilePostalCode"/>
+            <md:RequestedAttribute Name="domicileMunicipality"/>
+            <md:RequestedAttribute Name="domicileProvince"/>
+            <md:RequestedAttribute Name="domicileNation"/>
+        </md:AttributeConsumingService>
+        <md:AttributeConsumingService index="23">
+            <md:ServiceName xml:lang="it">serviziAnag Full Attribute Set</md:ServiceName>
+            <md:RequestedAttribute Name="spidCode"/>
+            <md:RequestedAttribute Name="name"/>
+            <md:RequestedAttribute Name="familyName"/>
+            <md:RequestedAttribute Name="dateOfBirth"/>
+            <md:RequestedAttribute Name="fiscalNumber"/>
+            <md:RequestedAttribute Name="placeOfBirth"/>
+            <md:RequestedAttribute Name="gender"/>
+            <md:RequestedAttribute Name="email"/>
+            <md:RequestedAttribute Name="mobilePhone"/>
+        </md:AttributeConsumingService>
+    </md:SPSSODescriptor>
+    <md:Organization>
+        <md:OrganizationName xml:lang="it">Comune di Como</md:OrganizationName>
+        <md:OrganizationDisplayName xml:lang="it">
+            Comune di Como
+        </md:OrganizationDisplayName>
+        <md:OrganizationURL xml:lang="it">
+            https://www.comune.como.it/
+        </md:OrganizationURL>
+    </md:Organization>
+    <md:ContactPerson contactType="other" spid:entityType="spid:aggregator">
+        <md:Extensions>
+            <spid:VATNumber>IT11366540968</spid:VATNumber>
+            <spid:PublicServicesFullAggregator/>
+        </md:Extensions>
+        <md:Company>CGMoving Srl</md:Company>
+        <md:EmailAddress>spid@cgmoving.it</md:EmailAddress>
+        <md:TelephoneNumber>+390302421286</md:TelephoneNumber>
+    </md:ContactPerson>
+    <md:ContactPerson contactType="other" spid:entityType="spid:aggregated">
+        <md:Extensions>
+            <spid:IPACode>c_c933</spid:IPACode>
+            <spid:Public/>
+        </md:Extensions>
+        <md:Company>
+            Comune di Como
+        </md:Company>
+    </md:ContactPerson>
+</md:EntityDescriptor>
