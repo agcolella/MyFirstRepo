@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" ID="_1616442596674848abe382977fbfc485" entityID="https://spid.ads.it/pub-ag-lite/c_d045"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#_1616442596674848abe382977fbfc485">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>qiJRwdZkyPeZOXRisoJD0CsKJ2gNkYqT1/cJlUPssjU=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+jQIt9xaCj1lKj1h0V+rEnhMvDSaV5kOJ3J8A72l23uuDKCVrYFXHB4TNHO02IGeC/duSbopO7N1L
+fWDzajDnr2aDF+15QTnLJ5SyR2nvL0ME31cMP/7/W6H1h53Td94m7aBXvMfhFbXxP/jOq3UHxiSm
+/rffeR83MHPmXAFpxoQ/rPiRi7JR/A8lZ8S5SVMNmwqaf1ixxLsbmsGhFdHn1Ae0UjYabXTcNXwE
+ut91IeC19Rbu5kxWKGRDNcJ7kJm0fncX7+nbZ4HskxHlMnl8aLngfpQm5X+SzI2J2yxUMwQ+PCa1
+TCq1vh+Xt9mpMtwpFHMiY9GYAkTICQnALIgKBhMvhtC+NgXQfPqcpQUzBPO3JECkPGbGWk+Mta3+
+YhEzrtlQpd0SWOtyHgOijpXaoZ/udBArOWjaQwurh2mtxCr0t55zyR7Y9tojAKpZu+WlnikLfmLh
+LbZ1ZIct03vUPbcT7+AA4VpoAi3YalNT8YT+OjkvJg7/pX56KEXstscW
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+uEOaESwzlAmCUL4CUtHg57Qxewn1z1ifwP3bOgsJZu5jFAKO6rGDJvV5Obe25uvJ/6G/7tzmvZyW
+xPIh8gFSa9UgocCoew+TizefVhkZPQnswcqTVdoqu/za0Jd41aCOLsk8NN4oJbFnERHgBLI8B6L2
+x92yKxLyOcdOcb5YZafMP6K9Sz44MukNZ/tBuPE6bU0wUVk0frpGQ30nJkMfD+ADAaTjJfABxn78
+Q/+94d9mNg9Ucc5VFNwvneX2uaMSFnu6C3p/a1CyW0E/aSew30t0UOmckQ5AH6E5ArE281ADs6aI
+xAlzxaXvExveu+FO+O+p8HiFXrqMgFayau6wRiR/kJmjLyXCZnniw7f9lGaSQVi7j33TFjiD4hTi
++8W2l3Lh8eWfnp8Fy/3RR5tUhf5H9F0ssKqAnGsstYR3pIREYg2Qjz8sPihv+QtSOI3DcAQwyvIj
+LwZrhT6tlL5uEQb75KgGU5ZnGvO0W0f7IlVBNQ8dmtr4fK8lr6sVDswV
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIEszCCA5ugAwIBAgIBPzANBgkqhkiG9w0BAQsFADCB3TELMAkGA1UEBhMCSVQxCzAJBgNVBAgM
+AkJPMRAwDgYDVQQHDAdCb2xvZ25hMSkwJwYDVQQKDCBBRFMgQXV0b21hdGVkIERhdGEgU3lzdGVt
+cyBTLnAuQTEpMCcGA1UEAwwgQURTIEF1dG9tYXRlZCBEYXRhIFN5c3RlbXMgUy5wLkExHzAdBgkq
+hkiG9w0BCQEWEHNwaWQudGVjaEBhZHMuaXQxGjAYBgNVBGEMEVZBVElULTAwODkwMzcwMzcyMRww
+GgYDVQRTDBNodHRwczovL3NwaWQuYWRzLml0MB4XDTI0MDUyMzA5MjEzMloXDTI3MDUyMzA5MjEz
+MlowgZ8xGjAYBgNVBAMMEUNvbXVuZSBkaSBDb3JzaWNvMQswCQYDVQQGEwJJVDEQMA4GA1UEBwwH
+Q29yc2ljbzEVMBMGA1UEYQwMUEE6SVQtY19kMDQ1MRowGAYDVQQKDBFDb211bmUgZGkgQ29yc2lj
+bzEvMC0GA1UEUwwmaHR0cHM6Ly9zcGlkLmFkcy5pdC9wdWItYWctbGl0ZS9jX2QwNDUwggGiMA0G
+CSqGSIb3DQEBAQUAA4IBjwAwggGKAoIBgQC4Q5oRLDOUCYJQvgJS0eDntDF7CfXPWJ/A/ds6Cwlm
+7mMUAo7qsYMm9Xk5t7bm68n/ob/u3Oa9nJbE8iHyAVJr1SChwKh7D5OLN59WGRk9CezBypNV2iq7
+/NrQl3jVoI4uyTw03iglsWcREeAEsjwHovbH3bIrEvI5x05xvlhlp8w/or1LPjgy6Q1n+0G48Tpt
+TTBRWTR+ukZDfScmQx8P4AMBpOMl8AHGfvxD/73h32Y2D1RxzlUU3C+d5fa5oxIWe7oLen9rULJb
+QT9pJ7DfS3RQ6ZyRDkAfoTkCsTbzUAOzpojECXPFpe8TG9674U7476nweIVeuoyAVrJq7rBGJH+Q
+maMvJcJmeeLDt/2UZpJBWLuPfdMWOIPiFOL7xbaXcuHx5Z+enwXL/dFHm1SF/kf0XSywqoCcayy1
+hHekhERiDZCPPyw+KG/5C1I4jcNwBDDK8iMvBmuFPq2Uvm4RBvvkqAZTlmca87RbR/siVUE1Dx2a
+2vh8ryWvqxUOzBUCAwEAAaM6MDgwCQYDVR0TBAIwADAOBgNVHQ8BAf8EBAMCBsAwGwYDVR0gBBQw
+EjAGBgQrTBAGMAgGBitMEAQCATANBgkqhkiG9w0BAQsFAAOCAQEAN5KmMdxEyYDticGD8+qYsTjm
+rHCMSfixeW6QFM7z1TVoQsVC/qekW65eIj2DYRa9Q8EmqPzM6hkAaSir0vPjHwpoVs2sCgWIGHZ6
+yZddyDYUBcz/VTHhlWJ8roO2ciAiC6fnoEmmihnvJ58lInT1u4gMsH+VIyLsAiQfkUH8SRllMCCM
+8q5ctda28JDi6UV6+5a4VR/+T0BbS9TCabEHvXrATOGOPnCsMKWxNBVXGf7AbGKpR0THZbeuoPa8
+xSkDMY9FQeH0+xeOmKWhHWH4REMTYEi0XeNY9S8W1M22f1bFQxoYYwdPTjT4DCV44brbG7jBPDeg
+gLGMElhvxyYKug==
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIIEszCCA5ugAwIBAgIBPzANBgkqhkiG9w0BAQsFADCB3TELMAkGA1UEBhMCSVQx
+CzAJBgNVBAgMAkJPMRAwDgYDVQQHDAdCb2xvZ25hMSkwJwYDVQQKDCBBRFMgQXV0
+b21hdGVkIERhdGEgU3lzdGVtcyBTLnAuQTEpMCcGA1UEAwwgQURTIEF1dG9tYXRl
+ZCBEYXRhIFN5c3RlbXMgUy5wLkExHzAdBgkqhkiG9w0BCQEWEHNwaWQudGVjaEBh
+ZHMuaXQxGjAYBgNVBGEMEVZBVElULTAwODkwMzcwMzcyMRwwGgYDVQRTDBNodHRw
+czovL3NwaWQuYWRzLml0MB4XDTI0MDUyMzA5MjEzMloXDTI3MDUyMzA5MjEzMlow
+gZ8xGjAYBgNVBAMMEUNvbXVuZSBkaSBDb3JzaWNvMQswCQYDVQQGEwJJVDEQMA4G
+A1UEBwwHQ29yc2ljbzEVMBMGA1UEYQwMUEE6SVQtY19kMDQ1MRowGAYDVQQKDBFD
+b211bmUgZGkgQ29yc2ljbzEvMC0GA1UEUwwmaHR0cHM6Ly9zcGlkLmFkcy5pdC9w
+dWItYWctbGl0ZS9jX2QwNDUwggGiMA0GCSqGSIb3DQEBAQUAA4IBjwAwggGKAoIB
+gQC4Q5oRLDOUCYJQvgJS0eDntDF7CfXPWJ/A/ds6Cwlm7mMUAo7qsYMm9Xk5t7bm
+68n/ob/u3Oa9nJbE8iHyAVJr1SChwKh7D5OLN59WGRk9CezBypNV2iq7/NrQl3jV
+oI4uyTw03iglsWcREeAEsjwHovbH3bIrEvI5x05xvlhlp8w/or1LPjgy6Q1n+0G4
+8TptTTBRWTR+ukZDfScmQx8P4AMBpOMl8AHGfvxD/73h32Y2D1RxzlUU3C+d5fa5
+oxIWe7oLen9rULJbQT9pJ7DfS3RQ6ZyRDkAfoTkCsTbzUAOzpojECXPFpe8TG967
+4U7476nweIVeuoyAVrJq7rBGJH+QmaMvJcJmeeLDt/2UZpJBWLuPfdMWOIPiFOL7
+xbaXcuHx5Z+enwXL/dFHm1SF/kf0XSywqoCcayy1hHekhERiDZCPPyw+KG/5C1I4
+jcNwBDDK8iMvBmuFPq2Uvm4RBvvkqAZTlmca87RbR/siVUE1Dx2a2vh8ryWvqxUO
+zBUCAwEAAaM6MDgwCQYDVR0TBAIwADAOBgNVHQ8BAf8EBAMCBsAwGwYDVR0gBBQw
+EjAGBgQrTBAGMAgGBitMEAQCATANBgkqhkiG9w0BAQsFAAOCAQEAN5KmMdxEyYDt
+icGD8+qYsTjmrHCMSfixeW6QFM7z1TVoQsVC/qekW65eIj2DYRa9Q8EmqPzM6hkA
+aSir0vPjHwpoVs2sCgWIGHZ6yZddyDYUBcz/VTHhlWJ8roO2ciAiC6fnoEmmihnv
+J58lInT1u4gMsH+VIyLsAiQfkUH8SRllMCCM8q5ctda28JDi6UV6+5a4VR/+T0Bb
+S9TCabEHvXrATOGOPnCsMKWxNBVXGf7AbGKpR0THZbeuoPa8xSkDMY9FQeH0+xeO
+mKWhHWH4REMTYEi0XeNY9S8W1M22f1bFQxoYYwdPTjT4DCV44brbG7jBPDeggLGM
+ElhvxyYKug==
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://corsico.e-pal.it/Shibboleth.sso/SLO/POST"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://corsico.e-pal.it/Shibboleth.sso/SAML2/POST" index="0" isDefault="true"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">Comune di Corsico</md:ServiceName>
+      <md:RequestedAttribute Name="spidCode"/>
+      <md:RequestedAttribute Name="name"/>
+      <md:RequestedAttribute Name="familyName"/>
+      <md:RequestedAttribute Name="fiscalNumber"/>
+      <md:RequestedAttribute Name="email"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="99">
+      <md:ServiceName xml:lang="it">eIDAS Natural Person Minimum Attribute Set</md:ServiceName>
+      <md:RequestedAttribute Name="dateOfBirth"/>
+      <md:RequestedAttribute Name="familyName"/>
+      <md:RequestedAttribute Name="name"/>
+      <md:RequestedAttribute Name="spidCode"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="100">
+      <md:ServiceName xml:lang="it">eIDAS Natural Person Full Attribute Set</md:ServiceName>
+      <md:RequestedAttribute Name="address"/>
+      <md:RequestedAttribute Name="dateOfBirth"/>
+      <md:RequestedAttribute Name="familyName"/>
+      <md:RequestedAttribute Name="gender"/>
+      <md:RequestedAttribute Name="name"/>
+      <md:RequestedAttribute Name="placeOfBirth"/>
+      <md:RequestedAttribute Name="spidCode"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Corsico</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Corsico</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">http://www.comune.corsico.mi.it</md:OrganizationURL>
+  </md:Organization>
+  <md:ContactPerson contactType="other" spid:entityType="spid:aggregator">
+    <md:Extensions>
+      <spid:VATNumber>IT00890370372</spid:VATNumber>
+      <spid:FiscalCode>00890370372</spid:FiscalCode>
+      <spid:PublicServicesLightAggregator/>
+    </md:Extensions>
+    <md:Company>ADS Automated Data Systems S.p.A</md:Company>
+    <md:EmailAddress>spid.tech@ads.it</md:EmailAddress>
+    <md:TelephoneNumber>+390516307411</md:TelephoneNumber>
+  </md:ContactPerson>
+  <md:ContactPerson contactType="other" spid:entityType="spid:aggregated">
+     <md:Extensions>
+        <spid:IPACode>c_d045</spid:IPACode>
+        <spid:Public/>
+     </md:Extensions>
+     <md:Company>Comune di Corsico</md:Company>
+  </md:ContactPerson>
+</md:EntityDescriptor>
