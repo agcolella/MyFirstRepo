@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" ID="a088bc6e-33c5-4ff2-b35b-d9c3ff9a2c9e" entityID="https://www.e-fil.it/pub-ag-full/c_h604"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#a088bc6e-33c5-4ff2-b35b-d9c3ff9a2c9e">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>uN44lbcFxr3dZCxgS9SWSqgA6weaKwK9LbmuYUBDT70=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+X9Ft09Raruf766IU4qQzhfE1NaReQhLlDkWZOdeajbzjugMxwo/+BqsloSkt+z0TtxR5kvkIcgwO
+i0fC2Kdo+xLyhgcU4GPhFHceQ8+uzOT6Mn/PRfHbLyYjv36pF5hBsbrt+jEg/Jz+fL9uGFlfq1LP
+BOYAo4dDxRYOYpiIpZN98fd5a9W+XjLEuFm3x3ss5etZKbAMXaVknXmB3E1f38cO19P7JZ7PL0Vi
+27RIZ20+iLIwZ93mfhXSwJuQ2Xbto6Xk335Fi9bE+akcbGf/85UqyHpv9PN7duURuw95XV/jItgN
+fGMHNTcf3lDsEF9givzdamqXphV66Q5am5+wRg==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+qY4H/GWTewBiu2WSlYEBgj8A43JfVxYrWgJD3qdxocfWPPSM5E7MWIKXzXCFl+zrjeCnfeO3vg+I
+IDgN76rUKxK75XW1gvU0BEzaf7qaKNxYrvKDxKlcrzT20ZRppJ7GaMq4b5ygiFXM91bhmPkeiYGS
+I3VNgl+ZDxpMqEQuvJY1wG+iECe9p7WKVKWebj9lU4cserbIVdTT45/x0lJD+00zeuKrTQ5FQD+7
+FKjg4PThQbPIojaXwekwtZxApbz329zJsY57zomJE6phJl1gJ7+b3dN3otHMUNoGoR2KcTWy74CY
+skWOZs/wD0hbCH4QstxhHSdXH+srFN6tBkJzQw==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIH4TCCBcmgAwIBAgIIbMDMGjctYe8wDQYJKoZIhvcNAQENBQAwgeUxCzAJBgNVBAYTAklUMQ0w
+CwYDVQQHDARSb21lMSYwJAYDVQQKDB1BZ2VuemlhIHBlciBsJ0l0YWxpYSBEaWdpdGFsZTEsMCoG
+A1UECwwjU2Vydml6aW8gQWNjcmVkaXRhbWVudG8gZSBWaWdpbGFuemExKjAoBgNVBAMMIVByb2dl
+dHRvIFNQSUQgLSBTb2dnZXR0aV9wdWJibGljaTEpMCcGCSqGSIb3DQEJARYacHJvdG9jb2xsb0Bw
+ZWMuYWdpZC5nb3YuaXQxGjAYBgNVBAUTEVZBVElULTk3NzM1MDIwNTg0MB4XDTIxMDkxNTAwMDAw
+MFoXDTM2MDkxNDIzNTk1OVowgaIxCzAJBgNVBAYTAklUMQswCQYDVQQIDAJSTTENMAsGA1UEBwwE
+Um9tYTEOMAwGA1UECgwFRS1GSUwxFTATBgNVBAsMDEUtRklMIFMuUi5MLjEVMBMGA1UEAwwMRS1G
+SUwgUy5SLkwuMRowGAYDVQRhDBFWQVRJVC0wMzc4OTc1MDEwMDEdMBsGA1UEUwwUaHR0cHM6Ly93
+d3cuZS1maWwuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCpjgf8ZZN7AGK7ZZKV
+gQGCPwDjcl9XFitaAkPep3Ghx9Y89IzkTsxYgpfNcIWX7OuN4Kd947e+D4ggOA3vqtQrErvldbWC
+9TQETNp/upoo3Fiu8oPEqVyvNPbRlGmknsZoyrhvnKCIVcz3VuGY+R6JgZIjdU2CX5kPGkyoRC68
+ljXAb6IQJ72ntYpUpZ5uP2VThyx6tshV1NPjn/HSUkP7TTN64qtNDkVAP7sUqODg9OFBs8iiNpfB
+6TC1nEClvPfb3MmxjnvOiYkTqmEmXWAnv5vd03ei0cxQ2gahHYpxNbLvgJiyRY5mz/APSFsIfhCy
+3GEdJ1cf6ysU3q0GQnNDAgMBAAGjggLUMIIC0DAMBgNVHRMBAf8EAjAAMB0GA1UdDgQWBBRKUCpu
+F1YOLaPUB3lqAjXk+HWScTAfBgNVHSMEGDAWgBQ8u23rHv2dbsvuVObqOdWJoEfXNDAOBgNVHQ8B
+Af8EBAMCBsAwFgYDVR0SBA8wDYILc3BpZC5nb3YuaXQwQgYDVR0fBDswOTA3oDWgM4YxaHR0cHM6
+Ly9laWRhcy5hZ2lkLmdvdi5pdC9jcmwvY3JsX1NQSURfUHViX1NBLmNybDA3BggrBgEFBQcBAQQr
+MCkwJwYIKwYBBQUHMAGGG2h0dHBzOi8vb2NzcF9TQS5hZ2lkLmdvdi5pdDCCAdkGA1UdIASCAdAw
+ggHMMAkGBwQAjkYBBgIwgZUGBCtMEAYwgYwwRAYIKwYBBQUHAgIwOBo2RWxlY3Ryb25pYyBjZXJ0
+aWZpY2F0ZSBjb25mb3JtaW5nIHdpdGggQUdJRCBHdWlkZWxpbmVzMEQGCCsGAQUFBwICMDgaNkNl
+cnRpZmljYXRvIGVsZXR0cm9uaWNvIGNvbmZvcm1lIGFsbGUgTGluZWUgZ3VpZGEgQWdJRDB9BgYr
+TBAEAgIwczA6BggrBgEFBQcCAjAuGixTUElEOiBhZ2dyZWdhdG9yZSAnZnVsbCcgZGkgc2Vydml6
+aSBwdWJibGljaTA1BggrBgEFBQcCAjApGidTUElEOiBwdWJsaWMtc2VydmljZXMgJ2Z1bGwnIEFn
+Z3JlZ2F0b3IwCAYGBACPegEDME0GBCtMEAQwRTBDBggrBgEFBQcCARY3aHR0cHM6Ly9laWRhcy5h
+Z2lkLmdvdi5pdC9jcHMvQWdJRF9lSURBU19yb290Q0FfY3BzLnBkZjBPBgYEAI5GAQUwRTBDBggr
+BgEFBQcCARY3aHR0cHM6Ly9laWRhcy5hZ2lkLmdvdi5pdC9jcHMvQWdJRF9lSURBU19yb290Q0Ff
+Y3BzLnBkZjANBgkqhkiG9w0BAQ0FAAOCAgEAO9XfbJaLZEb7P7U+yJyE7mIuNsYJGSf18XzG/7sn
+C4POvFLhYOP/IAw/nrKPkXU5z6KH1NCnoKwS/8SxJbpXxU4gn29U4NFlaDYYat9LYXu/a0g75Den
+AsOtNsYH6Qx/iiPk+Ksehly+tBjMOj6EWqQmr+0I8EI5DUgIMCLbiUD0U5yAGMt8lKFlUw6SClEe
+ppp615autplBNWyUNEOVTnu+z2t+uP5midU9JRWm0HRsUOoHATa6zKE7o74fzDCebvJRXJQtH1Cf
+SYprddOg8tcxqrsUY7a0m9FH/no98fmquUwgY9CWnM7byYHAMdKOhGTqLW/TGSuhBNgYnm7mS6RS
+sB/jhC2n5eh2JYYbBw5ku/Vxkwqqt70s5V0zDIYVb5pZ1IYhgUBVuE0WYmLK8SL7FhPEilp4ZRfo
++J3YCs4zd/ncloQhdma+VksA/C06wldIRcVplrcYfJAKTUphoVC0b7o3uh9UR68FzUrdID6qWu0Z
+sQcVuPp3yu++8KpNnYGEdntKS1Kay4VeZB4ZR3qVvz0YP89c+Ia1ht0Q5KnV49BzyXjbZOeGtmnA
+TXZGdKmZCB1UZi1n2q0wPCGCbo/iZxqzLgAbZyYTKxzLgbKnhllUw7yE24F8C9EW0Ad3WgTvQB2j
+inV2kz2IRS9ixUd/8XwEWKVPa6id/0Et5Y4=
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>
+                               MIIGLDCCBBSgAwIBAgIJAKY2N3gz+HnGMA0GCSqGSIb3DQEBCwUAMIGqMQswCQYD
+                               VQQGEwJJVDENMAsGA1UECAwEUm9tYTETMBEGA1UEBwwKUm92ZXJiZWxsYTETMBEG
+                               A1UECgwKUm92ZXJiZWxsYTENMAsGA1UECwwEU3BpZDEoMCYGA1UEAwwfcm92ZXJi
+                               ZWxsYS5jb211bmUucGx1Z2FuZHBheS5pdDEpMCcGCSqGSIb3DQEJARYacm92ZXJi
+                               ZWxsYS5tbkBsZWdhbG1haWwuaXQwHhcNMjIwMzA4MTAzNDE4WhcNMjUwMzA3MTAz
+                               NDE4WjCBqjELMAkGA1UEBhMCSVQxDTALBgNVBAgMBFJvbWExEzARBgNVBAcMClJv
+                               dmVyYmVsbGExEzARBgNVBAoMClJvdmVyYmVsbGExDTALBgNVBAsMBFNwaWQxKDAm
+                               BgNVBAMMH3JvdmVyYmVsbGEuY29tdW5lLnBsdWdhbmRwYXkuaXQxKTAnBgkqhkiG
+                               9w0BCQEWGnJvdmVyYmVsbGEubW5AbGVnYWxtYWlsLml0MIICIjANBgkqhkiG9w0B
+                               AQEFAAOCAg8AMIICCgKCAgEAzX3NSdFZHkXHU0my7/kWnwjmp42THOqlJWFY3cC9
+                               Zr5Jm0/qoZFq6S/v61qVBw3PR+38c1Raax5nOtWA9LU+cb/bclQKtU01sOpRqFdF
+                               3g8QYkFAKejBHTnk+8fscwDz4ibGo8k1mEcWMUmLXJrQa136bmm5RZvcVJBo2tlb
+                               0A+ccOKgnVCFZdx5znZu0mUzuIsJMtd9rvO/Efq5OCkPZO0x4gD1cXoyjRJO3iBY
+                               codkWJzY9lG+iBGaa/ahPvWkzti4OaVIPLphixNq9/KbxrMEIwhR/XbU+DcHqz4s
+                               jkWyQRrVOCnr9nRY8xmj3YYwMgJ7t/9L1nMKCBwv//YRjT0/ZOuXCYidH5HsixrM
+                               iIF6iBTdKcnyJpLgw0vWigL3P+WWWpdmu15AVtBsUmF3frDRReeYjDw0bSmMha10
+                               L1lv7X5sqaIeQkG6WZaYzUC5bP9lKRAt8FbsiOHLNDsEpJocVVPflnzg7TNGWcVe
+                               pBDHNdXgpCPzIIMNJyTI3hXzgcoiUUwf/fwan9Lg+lw57iZrz7O2xBcWJIzKZzD0
+                               02fJsWOhVdi8CEBhOvEP1JSoOO0BSIlTYib/+Rt6eMoR8WzjY0dxx4tegyJ9u88Y
+                               sidsD80I0l2+IgnA6GWpxI7uvPFWI8pgjhMRj1RIhmUpOFAyh+dJqqP6cpdlbZfW
+                               SpkCAwEAAaNTMFEwHQYDVR0OBBYEFLmLT1cZUBpIAvuMiDcg9KPLUXiCMB8GA1Ud
+                               IwQYMBaAFLmLT1cZUBpIAvuMiDcg9KPLUXiCMA8GA1UdEwEB/wQFMAMBAf8wDQYJ
+                               KoZIhvcNAQELBQADggIBAIz5IOgrdNChloHWwtFw00qy8QXTKeXRJlNfDr9wZ3J9
+                               QT6iyvHsq00Lb5PobJsjcJ0MTR4pPt7UlZo1qoatU/tSOidVK41KXx0zZYJRSh1Y
+                               CncXyAf0Xn2GMfFxJ+JzL9wWIS6i/ffQkIjFzCmlaGIdhHFraiRlamOMVGU0NLT4
+                               Iue0BWom/I4xwJ++lFQmnNuvZN5bpRGTxw137CgizJsdALnnumQWsXiZYmCJyDxL
+                               w4VGcFRZcIQEZvDehJCTPadP+pGkftTDUzEXGMwXC+qXABrK+Yeij2heQb82Vt26
+                               lKI2pCByHnJDXvKo+pis2iicGtDhLQVZc/v/baWBs5BRkxWMeW8bQoUtF6qFKjcQ
+                               yXL7mXAzPJnOJXo9KkrQ3zC+ta0590vB/W2XHXIbt6KVK3/R4T3k0ZEFcnqSbtqY
+                               CSs9qgXrZZ4s1W4eMQjGdatC25CYahGmH9V1ocJArx/0o9wuhqjCwCU3i7ndE3tB
+                               flz7Wka8K4jr5IaD2e+4apzAXXtuH0Onkjm1tX/1tyt6lFByp2wEtJwUVmFapoj4
+                               0OMtzAVB4CCx7aKBzBDJh3ubgM0SRiT+U3V3pf0MWRABsV4am+1114olH8o3uQEx
+                               1019nQyyM/VoVmejWm4MsU5ebAqeylT3xi/QkVYmkM27Vp2vmRpO1VyFVcDoLTfB
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://roverbella.comune.plugandpay.it/spidslo"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://roverbella.comune.plugandpay.it/spidacs" index="0" isDefault="true"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">Portale dei pagamenti del cittadino</md:ServiceName>
+      <md:RequestedAttribute Name="spidCode"/>
+	  <md:RequestedAttribute Name="familyName"/>
+	  <md:RequestedAttribute Name="name"/>
+	  <md:RequestedAttribute Name="companyName"/>
+	  <md:RequestedAttribute Name="fiscalNumber"/>
+	  <md:RequestedAttribute Name="ivaCode"/>
+	  <md:RequestedAttribute Name="email"/>
+	  <md:RequestedAttribute Name="gender"/>
+	  <md:RequestedAttribute Name="placeOfBirth"/>
+	  <md:RequestedAttribute Name="countyOfBirth"/>
+	  <md:RequestedAttribute Name="dateOfBirth"/>
+    </md:AttributeConsumingService>   
+  </md:SPSSODescriptor>
+  <md:Organization>
+  	<md:OrganizationName xml:lang="it">Comune di Roverbella</md:OrganizationName>
+  	<md:OrganizationDisplayName xml:lang="it">Comune di Roverbella</md:OrganizationDisplayName>
+  	<md:OrganizationURL xml:lang="it">http://www.comune.roverbella.mn.it/servizi/notizie/notizie_homepage.aspx</md:OrganizationURL>
+  </md:Organization>
+  <md:ContactPerson contactType="other" spid:entityType="spid:aggregator">
+  	<md:Extensions>
+  		<spid:VATNumber>IT03789750100</spid:VATNumber>
+  		<spid:FiscalCode>03789750100</spid:FiscalCode>
+  		<spid:PublicServicesFullAggregator/>
+  	</md:Extensions>
+  	<md:Company>E-fil srl</md:Company>
+  	<md:EmailAddress>segreteria@pec.e-fil.eu</md:EmailAddress>
+  	<md:TelephoneNumber>+390688805363</md:TelephoneNumber>
+  </md:ContactPerson>
+  <md:ContactPerson contactType="other" spid:entityType="spid:aggregated">
+  	<md:Extensions>
+  		<spid:IPACode>c_h604</spid:IPACode>
+		<spid:Public/>
+  	</md:Extensions>
+  	<md:Company>Comune di Roverbella</md:Company>
+   </md:ContactPerson>
+</md:EntityDescriptor>

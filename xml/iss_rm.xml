@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" ID="_32096e9e-ecb2-4594-aebb-f2a4f0b9d0ce" entityID="https://sts.iss.it/adfs/services/trust"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#_32096e9e-ecb2-4594-aebb-f2a4f0b9d0ce">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>n1S2oVgyubAwgOIEYx4lVjrCeNJjiN9Hcyc2hZAjNRM=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+TCONd3p7sfWpWC/OISCIE1cmm9M+eK0tOkhP7bgHfSTBG/OqieCVFYDTOVGoN0o2uLqEKeGkMYVp
+2HVe+iW/zYz/RAQZwc0ppcwcML9pVibgBbQkS13YLInd0se4t+T9rr1aME3PDpKu8HoMOy7rSI2P
+DS2wFFNKznu62U7N6Ugu3tz7qqjDLtm5VKzcEIPzKgJkN3+mPSkqvIl8PMNnsUEkazT80T31p5Gy
+piSiIPzH1z9tegHjP7X9PdpRlK+HaOrT+kVfwep1ARhwa3XINdicvjgfVeH8M4q2i4qKFlm08SCw
+/djzPd4R6uR8d3v+DXJlVoFNLmLNIBNRHen/8w==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+6PcEtueHiHbI1lTJBvcf7nBm4BFs0JNJxxfm+97Stz4A5HuZatfye0NF88fjweyVCysfHLZQqtY0
+UocbBam65KPZXqERvePQhAXGWQuXMRoeWl0XvIu+zKndRwq5pTfdFlNEkLXps6ePXlStJW7QeORF
+CLPbFb6qLL+tf1H1BPNE7hTDUNaP+ae9bo7TykHnMtOx+/ijdYSoo0Z3+x6Ht9y0i4RCf4Nh6ImE
+mfuHuatx9GCVBasYE0nQ2b8KgcBybclGruU3JQd2Sr6f2+gGJb+eG0MK3LlORhbgzCQ+chgtoQ0n
+FaKfkKfhGBcs3gQa3o06D/vzSEpNgmIxF8Yi4w==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIEuDCCA6CgAwIBAgIUaguj+M9jt3x97CtlqLBHmlPuuTQwDQYJKoZIhvcNAQELBQAwgcwxCzAJ
+BgNVBAYTAklUMQ0wCwYDVQQIDARSb21hMQ0wCwYDVQQHDARSb21hMS4wLAYDVQQKDCVJc3RpdHV0
+byBTdXBlcmlvcmUgZGkgU2FuaXTDg8KgIC0gSVNTMSgwJgYDVQQDDB9Jc3RpdHV0byBTdXBlcmlv
+cmUgZGkgU2FuaXTDg8KgMRUwEwYDVQRhDAxQQTpJVC1pc3Nfcm0xLjAsBgNVBFMMJWh0dHA6Ly9z
+dHMuaXNzLml0L2FkZnMvc2VydmljZXMvdHJ1c3QwHhcNMjEwMjE1MTAyMDI5WhcNNDEwMjEwMTAy
+MDI5WjCBzDELMAkGA1UEBhMCSVQxDTALBgNVBAgMBFJvbWExDTALBgNVBAcMBFJvbWExLjAsBgNV
+BAoMJUlzdGl0dXRvIFN1cGVyaW9yZSBkaSBTYW5pdMODwqAgLSBJU1MxKDAmBgNVBAMMH0lzdGl0
+dXRvIFN1cGVyaW9yZSBkaSBTYW5pdMODwqAxFTATBgNVBGEMDFBBOklULWlzc19ybTEuMCwGA1UE
+UwwlaHR0cDovL3N0cy5pc3MuaXQvYWRmcy9zZXJ2aWNlcy90cnVzdDCCASIwDQYJKoZIhvcNAQEB
+BQADggEPADCCAQoCggEBAOj3BLbnh4h2yNZUyQb3H+5wZuARbNCTSccX5vve0rc+AOR7mWrX8ntD
+RfPH48HslQsrHxy2UKrWNFKHGwWpuuSj2V6hEb3j0IQFxlkLlzEaHlpdF7yLvsyp3UcKuaU33RZT
+RJC16bOnj15UrSVu0HjkRQiz2xW+qiy/rX9R9QTzRO4Uw1DWj/mnvW6O08pB5zLTsfv4o3WEqKNG
+d/seh7fctIuEQn+DYeiJhJn7h7mrcfRglQWrGBNJ0Nm/CoHAcm3JRq7lNyUHdkq+n9voBiW/nhtD
+Cty5TkYW4MwkPnIYLaENJxWin5Cn4RgXLN4EGt6NOg/780hKTYJiMRfGIuMCAwEAAaOBjzCBjDAd
+BgNVHQ4EFgQUHrakR8TieD2wU62mFtHBCIN4QH8wHwYDVR0jBBgwFoAUHrakR8TieD2wU62mFtHB
+CIN4QH8wDwYDVR0TAQH/BAUwAwEB/zA5BgNVHSAEMjAwMC4GBitMEAQCATAkMCIGCCsGAQUFBwIC
+MBYaFHNwaWQtcHVibGljc2VjdG9yLVNQMA0GCSqGSIb3DQEBCwUAA4IBAQCZLEzuNCL3kXg21CsE
+Gdj79ZXqNmvZgQnY9iim3lFSOKjBdrK6Hbh7JVQL+wvJHcwhkOhSy6JJEjzUSxX5TXTs//8G8NOE
+WGBKBBnZiJMwQbBVUqoRNnd788YoXlteKBMuNqVAhP/BlJCgsidNdS/Rd3VEQ97MKAN3Bx2i3fBb
+GXRKUJSBuhjcu224MkBu3t5AhRKIIqqdNMsDG+2p/HGMw8rLM7FqlYZHY9yjvd4LrlhnMyoYC4dr
+TBabUIyX5w5wSyiD1RqIcpvyqQxqhTbVWC3i1MQIPhvsH7rAd69262XmsVIcpXV0GO/3zHZAwfdG
+CGniHj202ZWEdeWBhA8d
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+    <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+        <md:KeyDescriptor use="signing">
+            <ds:KeyInfo>
+                <ds:X509Data>
+                    <ds:X509Certificate>MIIEuDCCA6CgAwIBAgIUaguj+M9jt3x97CtlqLBHmlPuuTQwDQYJKoZIhvcNAQELBQAwgcwxCzAJBgNVBAYTAklUMQ0wCwYDVQQIDARSb21hMQ0wCwYDVQQHDARSb21hMS4wLAYDVQQKDCVJc3RpdHV0byBTdXBlcmlvcmUgZGkgU2FuaXTDg8KgIC0gSVNTMSgwJgYDVQQDDB9Jc3RpdHV0byBTdXBlcmlvcmUgZGkgU2FuaXTDg8KgMRUwEwYDVQRhDAxQQTpJVC1pc3Nfcm0xLjAsBgNVBFMMJWh0dHA6Ly9zdHMuaXNzLml0L2FkZnMvc2VydmljZXMvdHJ1c3QwHhcNMjEwMjE1MTAyMDI5WhcNNDEwMjEwMTAyMDI5WjCBzDELMAkGA1UEBhMCSVQxDTALBgNVBAgMBFJvbWExDTALBgNVBAcMBFJvbWExLjAsBgNVBAoMJUlzdGl0dXRvIFN1cGVyaW9yZSBkaSBTYW5pdMODwqAgLSBJU1MxKDAmBgNVBAMMH0lzdGl0dXRvIFN1cGVyaW9yZSBkaSBTYW5pdMODwqAxFTATBgNVBGEMDFBBOklULWlzc19ybTEuMCwGA1UEUwwlaHR0cDovL3N0cy5pc3MuaXQvYWRmcy9zZXJ2aWNlcy90cnVzdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAOj3BLbnh4h2yNZUyQb3H+5wZuARbNCTSccX5vve0rc+AOR7mWrX8ntDRfPH48HslQsrHxy2UKrWNFKHGwWpuuSj2V6hEb3j0IQFxlkLlzEaHlpdF7yLvsyp3UcKuaU33RZTRJC16bOnj15UrSVu0HjkRQiz2xW+qiy/rX9R9QTzRO4Uw1DWj/mnvW6O08pB5zLTsfv4o3WEqKNGd/seh7fctIuEQn+DYeiJhJn7h7mrcfRglQWrGBNJ0Nm/CoHAcm3JRq7lNyUHdkq+n9voBiW/nhtDCty5TkYW4MwkPnIYLaENJxWin5Cn4RgXLN4EGt6NOg/780hKTYJiMRfGIuMCAwEAAaOBjzCBjDAdBgNVHQ4EFgQUHrakR8TieD2wU62mFtHBCIN4QH8wHwYDVR0jBBgwFoAUHrakR8TieD2wU62mFtHBCIN4QH8wDwYDVR0TAQH/BAUwAwEB/zA5BgNVHSAEMjAwMC4GBitMEAQCATAkMCIGCCsGAQUFBwICMBYaFHNwaWQtcHVibGljc2VjdG9yLVNQMA0GCSqGSIb3DQEBCwUAA4IBAQCZLEzuNCL3kXg21CsEGdj79ZXqNmvZgQnY9iim3lFSOKjBdrK6Hbh7JVQL+wvJHcwhkOhSy6JJEjzUSxX5TXTs//8G8NOEWGBKBBnZiJMwQbBVUqoRNnd788YoXlteKBMuNqVAhP/BlJCgsidNdS/Rd3VEQ97MKAN3Bx2i3fBbGXRKUJSBuhjcu224MkBu3t5AhRKIIqqdNMsDG+2p/HGMw8rLM7FqlYZHY9yjvd4LrlhnMyoYC4drTBabUIyX5w5wSyiD1RqIcpvyqQxqhTbVWC3i1MQIPhvsH7rAd69262XmsVIcpXV0GO/3zHZAwfdGCGniHj202ZWEdeWBhA8d</ds:X509Certificate>
+                </ds:X509Data>
+            </ds:KeyInfo>
+        </md:KeyDescriptor>
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://sts.iss.it/adfs/ls/"/>
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sts.iss.it/adfs/ls/"/>
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.iss.it/proxy/assertionconsumer"/>
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.iss.it/proxy/logout"/>
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://spid.iss.it/proxy/logout"/>
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://issb2c.b2clogin.com/issb2c.onmicrosoft.com/B2C_1A_TrustFrameworkBase/samlp/sso/assertionconsumer"/>
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spidb2c.iss.it/proxy/assertionconsumer"/>
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spidb2c.iss.it/proxy/logout"/>
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://spidb2c.iss.it/proxy/logout"/>
+        <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sts.iss.it/adfs/ls/" index="0" isDefault="true"/>
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://sts.iss.it/adfs/ls/" index="2"/>
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.iss.it/proxy/assertionconsumer" index="3"/>
+		<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spidb2c.iss.it/proxy/assertionconsumer" index="4"/>
+		<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://issb2c.b2clogin.com/issb2c.onmicrosoft.com/B2C_1A_TrustFrameworkBase/samlp/sso/assertionconsumer" index="5"/>
+        <md:AttributeConsumingService index="0">
+            <md:ServiceName xml:lang="it">SetMinimum</md:ServiceName>
+            <md:ServiceDescription xml:lang="it">Attributi servizio minimi</md:ServiceDescription>
+            <md:RequestedAttribute Name="familyName"/>
+            <md:RequestedAttribute Name="name"/>
+            <md:RequestedAttribute Name="fiscalNumber"/>
+            <md:RequestedAttribute Name="gender"/>
+            <md:RequestedAttribute Name="email"/>
+            <md:RequestedAttribute Name="spidCode"/>
+        </md:AttributeConsumingService>
+        <md:AttributeConsumingService index="1">
+            <md:ServiceName xml:lang="it">SetMedium</md:ServiceName>
+            <md:ServiceDescription xml:lang="it">Attributi servizio medi</md:ServiceDescription>
+            <md:RequestedAttribute Name="familyName"/>
+            <md:RequestedAttribute Name="name"/>
+            <md:RequestedAttribute Name="fiscalNumber"/>
+            <md:RequestedAttribute Name="gender"/>
+            <md:RequestedAttribute Name="companyName"/>
+            <md:RequestedAttribute Name="registeredOffice"/>
+            <md:RequestedAttribute Name="ivaCode"/>
+            <md:RequestedAttribute Name="idCard"/>
+            <md:RequestedAttribute Name="email"/>
+            <md:RequestedAttribute Name="digitalAddress"/>
+            <md:RequestedAttribute Name="spidCode"/>
+        </md:AttributeConsumingService>
+        <md:AttributeConsumingService index="2">
+            <md:ServiceName xml:lang="it">SetFull</md:ServiceName>
+            <md:ServiceDescription xml:lang="it">Attributi servizio totali</md:ServiceDescription>
+            <md:RequestedAttribute Name="familyName"/>
+            <md:RequestedAttribute Name="name"/>
+            <md:RequestedAttribute Name="fiscalNumber"/>
+            <md:RequestedAttribute Name="gender"/>
+            <md:RequestedAttribute Name="dateOfBirth"/>
+            <md:RequestedAttribute Name="placeOfBirth"/>
+            <md:RequestedAttribute Name="countyOfBirth"/>
+            <md:RequestedAttribute Name="companyName"/>
+            <md:RequestedAttribute Name="registeredOffice"/>
+            <md:RequestedAttribute Name="ivaCode"/>
+            <md:RequestedAttribute Name="idCard"/>
+            <md:RequestedAttribute Name="mobilePhone"/>
+            <md:RequestedAttribute Name="email"/>
+            <md:RequestedAttribute Name="address"/>
+            <md:RequestedAttribute Name="expirationDate"/>
+            <md:RequestedAttribute Name="digitalAddress"/>
+            <md:RequestedAttribute Name="spidCode"/>
+        </md:AttributeConsumingService>
+    </md:SPSSODescriptor>
+    <md:Organization>
+        <md:OrganizationName xml:lang="it">Istituto Superiore di Sanità - ISS</md:OrganizationName>
+        <md:OrganizationDisplayName xml:lang="it">Istituto Superiore di Sanità</md:OrganizationDisplayName>
+        <md:OrganizationURL xml:lang="it">https://www.iss.it</md:OrganizationURL>
+    </md:Organization>
+    <md:ContactPerson contactType="other">
+        <md:Extensions>
+            <spid:IPACode>iss_rm</spid:IPACode>
+            <spid:Public/>
+        </md:Extensions>
+        <md:EmailAddress>assistenza.applicativi@iss.it</md:EmailAddress>
+    </md:ContactPerson>
+</md:EntityDescriptor>

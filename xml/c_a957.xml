@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" ID="pfxd52768ca-78b6-ac3e-c83a-2f1f47ad142e" entityID="https://www.comunebompensiere.it"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#pfxd52768ca-78b6-ac3e-c83a-2f1f47ad142e">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>RA6oNRBfZ39kzRSsafmmu90Q0vOL5ZgPknCOqX6RHQI=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+NCPxXhD2StBmhtq+6k+u8uQnWrEEj7U/9+rXqVMAqrQCF4xdEVrSp4qxXFWm7lPbjVfc9cML4zRL
+dtmdRFVABQFZFii/uWO1wlfrDSP4F0mfW2Z2l9nw09wASDJJOsDwynKdmBrTgPlaIPhAFGyvDvbC
+lUVx4dBZBrrFFdqPw2pEPklPe6t5VG9nuhN9u88iXRPxOTEdGb0XsRAO0wQCvqMpPZJoHYILZMZ/
+Ui8EfgllER+AAmm5Sfj8n6b1Php4ss1Z2WEi69RIrGoPgPYlgfqSy0IY5o8cY/zMDQ4exSpnodEj
+CZS3TPD2wdR9w1P74fsh+6lGSGoIo7x3YN4C1w==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+4cNpoy96nky6lee8S4OnE7X6HnTUaYP2zxrD7ioZ445xuRUG/D22RTyBFRSUl3uwmu9mzk63La8E
+Dyf8D3v8auvFxzJ2ZpZS/ZhE7SuHvL7grvGiudTsJgRuQVSQZICp0mUbbEaFGQWD2hAETM6EVezI
+sQriDF4cqRZPQ7Hk89Z0V8u009khRTPooqJ68sWIsNaUQN3legthhe+ssF1tMeJyrEo/eXJrdBIR
+nP6AZftvfSKB1864i4sZu+bH4z8sYuBvTrYjOLvPdfYIz3L5wkaUVJRS4yx0MtNQyf8FEfh5IRbx
+nFQ5bLQdfBxs6t6OGdYusmAG2+Ls6vGdeoHYiQ==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDvzCCAqegAwIBAgIJAMRHMsVdtkD3MA0GCSqGSIb3DQEBCwUAMHYxCzAJBgNVBAYTAklUMQ4w
+DAYDVQQIDAVJdGFseTEUMBIGA1UEBwwLQm9tcGVuc2llcmUxHjAcBgNVBAoMFUNvbXVuZSBkaSBC
+b21wZW5zaWVyZTEhMB8GA1UEAwwYd3d3LmNvbXVuZWJvbXBlbnNpZXJlLml0MB4XDTIyMDMwODA4
+MTMyNloXDTMyMDMwNzA4MTMyNlowdjELMAkGA1UEBhMCSVQxDjAMBgNVBAgMBUl0YWx5MRQwEgYD
+VQQHDAtCb21wZW5zaWVyZTEeMBwGA1UECgwVQ29tdW5lIGRpIEJvbXBlbnNpZXJlMSEwHwYDVQQD
+DBh3d3cuY29tdW5lYm9tcGVuc2llcmUuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIB
+AQDhw2mjL3qeTLqV57xLg6cTtfoedNRpg/bPGsPuKhnjjnG5FQb8PbZFPIEVFJSXe7Ca72bOTrct
+rwQPJ/wPe/xq68XHMnZmllL9mETtK4e8vuCu8aK51OwmBG5BVJBkgKnSZRtsRoUZBYPaEARMzoRV
+7MixCuIMXhypFk9DseTz1nRXy7TT2SFFM+iionryxYiw1pRA3eV6C2GF76ywXW0x4nKsSj95cmt0
+EhGc/oBl+299IoHXzriLixm75sfjPyxi4G9OtiM4u8919gjPcvnCRpRUlFLjLHQy01DJ/wUR+Hkh
+FvGcVDlstB18HGzq3o4Z1i6yYAbb4uzq8Z16gdiJAgMBAAGjUDBOMB0GA1UdDgQWBBS+Q88nOngu
+9YG1FvF51BGT1FnbzzAfBgNVHSMEGDAWgBS+Q88nOngu9YG1FvF51BGT1FnbzzAMBgNVHRMEBTAD
+AQH/MA0GCSqGSIb3DQEBCwUAA4IBAQAqIvYhDDsQA9PQufMsNK2yYd9ZTpzVOR85hbBqqUdn+lea
+lCCe/mIZHx4dxtHJyEJGks3G1yx/nyoKVDnm440Yfb4ahWjivVVd4XWUoytGtCTzJpcw2WF6alKa
+Ve5Uu7ml5EenPbHWH52e31ukdv4Cdo4UK/K86cNAlVaMtNrOhNF4oWjGTIghrm8cc/sm0ZdICEFz
+NvynNB47RDQjDUephRkdR4hvP1l82szlTymceNyWP48+zoClPmHTa4YxfPqt8HCjA53jIbbX8c5E
+A/r0SVTXqwUfAFFz0FVryu2ITKcUSNp9RPSS3KnflZAcVCYN5k6tKf4IO9jWHZNha23I
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDvzCCAqegAwIBAgIJAMRHMsVdtkD3MA0GCSqGSIb3DQEBCwUAMHYxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEUMBIGA1UEBwwLQm9tcGVuc2llcmUxHjAcBgNVBAoMFUNvbXVuZSBkaSBCb21wZW5zaWVyZTEhMB8GA1UEAwwYd3d3LmNvbXVuZWJvbXBlbnNpZXJlLml0MB4XDTIyMDMwODA4MTMyNloXDTMyMDMwNzA4MTMyNlowdjELMAkGA1UEBhMCSVQxDjAMBgNVBAgMBUl0YWx5MRQwEgYDVQQHDAtCb21wZW5zaWVyZTEeMBwGA1UECgwVQ29tdW5lIGRpIEJvbXBlbnNpZXJlMSEwHwYDVQQDDBh3d3cuY29tdW5lYm9tcGVuc2llcmUuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDhw2mjL3qeTLqV57xLg6cTtfoedNRpg/bPGsPuKhnjjnG5FQb8PbZFPIEVFJSXe7Ca72bOTrctrwQPJ/wPe/xq68XHMnZmllL9mETtK4e8vuCu8aK51OwmBG5BVJBkgKnSZRtsRoUZBYPaEARMzoRV7MixCuIMXhypFk9DseTz1nRXy7TT2SFFM+iionryxYiw1pRA3eV6C2GF76ywXW0x4nKsSj95cmt0EhGc/oBl+299IoHXzriLixm75sfjPyxi4G9OtiM4u8919gjPcvnCRpRUlFLjLHQy01DJ/wUR+HkhFvGcVDlstB18HGzq3o4Z1i6yYAbb4uzq8Z16gdiJAgMBAAGjUDBOMB0GA1UdDgQWBBS+Q88nOngu9YG1FvF51BGT1FnbzzAfBgNVHSMEGDAWgBS+Q88nOngu9YG1FvF51BGT1FnbzzAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQAqIvYhDDsQA9PQufMsNK2yYd9ZTpzVOR85hbBqqUdn+lealCCe/mIZHx4dxtHJyEJGks3G1yx/nyoKVDnm440Yfb4ahWjivVVd4XWUoytGtCTzJpcw2WF6alKaVe5Uu7ml5EenPbHWH52e31ukdv4Cdo4UK/K86cNAlVaMtNrOhNF4oWjGTIghrm8cc/sm0ZdICEFzNvynNB47RDQjDUephRkdR4hvP1l82szlTymceNyWP48+zoClPmHTa4YxfPqt8HCjA53jIbbX8c5EA/r0SVTXqwUfAFFz0FVryu2ITKcUSNp9RPSS3KnflZAcVCYN5k6tKf4IO9jWHZNha23I</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDvzCCAqegAwIBAgIJAMRHMsVdtkD3MA0GCSqGSIb3DQEBCwUAMHYxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEUMBIGA1UEBwwLQm9tcGVuc2llcmUxHjAcBgNVBAoMFUNvbXVuZSBkaSBCb21wZW5zaWVyZTEhMB8GA1UEAwwYd3d3LmNvbXVuZWJvbXBlbnNpZXJlLml0MB4XDTIyMDMwODA4MTMyNloXDTMyMDMwNzA4MTMyNlowdjELMAkGA1UEBhMCSVQxDjAMBgNVBAgMBUl0YWx5MRQwEgYDVQQHDAtCb21wZW5zaWVyZTEeMBwGA1UECgwVQ29tdW5lIGRpIEJvbXBlbnNpZXJlMSEwHwYDVQQDDBh3d3cuY29tdW5lYm9tcGVuc2llcmUuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDhw2mjL3qeTLqV57xLg6cTtfoedNRpg/bPGsPuKhnjjnG5FQb8PbZFPIEVFJSXe7Ca72bOTrctrwQPJ/wPe/xq68XHMnZmllL9mETtK4e8vuCu8aK51OwmBG5BVJBkgKnSZRtsRoUZBYPaEARMzoRV7MixCuIMXhypFk9DseTz1nRXy7TT2SFFM+iionryxYiw1pRA3eV6C2GF76ywXW0x4nKsSj95cmt0EhGc/oBl+299IoHXzriLixm75sfjPyxi4G9OtiM4u8919gjPcvnCRpRUlFLjLHQy01DJ/wUR+HkhFvGcVDlstB18HGzq3o4Z1i6yYAbb4uzq8Z16gdiJAgMBAAGjUDBOMB0GA1UdDgQWBBS+Q88nOngu9YG1FvF51BGT1FnbzzAfBgNVHSMEGDAWgBS+Q88nOngu9YG1FvF51BGT1FnbzzAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQAqIvYhDDsQA9PQufMsNK2yYd9ZTpzVOR85hbBqqUdn+lealCCe/mIZHx4dxtHJyEJGks3G1yx/nyoKVDnm440Yfb4ahWjivVVd4XWUoytGtCTzJpcw2WF6alKaVe5Uu7ml5EenPbHWH52e31ukdv4Cdo4UK/K86cNAlVaMtNrOhNF4oWjGTIghrm8cc/sm0ZdICEFzNvynNB47RDQjDUephRkdR4hvP1l82szlTymceNyWP48+zoClPmHTa4YxfPqt8HCjA53jIbbX8c5EA/r0SVTXqwUfAFFz0FVryu2ITKcUSNp9RPSS3KnflZAcVCYN5k6tKf4IO9jWHZNha23I</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://www.comunebompensiere.it/spid/module.php/saml/sp/saml2-logout.php/spid"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.comunebompensiere.it/spid/module.php/saml/sp/saml2-acs.php/spid" index="0" isDefault="true"/>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">Servizi online</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Servizi online</md:ServiceDescription>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Codice identificativo SPID" Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Ragione o denominazione sociale" Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Bompensiere</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Bompensiere</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.comunebompensiere.it</md:OrganizationURL>
+  </md:Organization>
+  <md:ContactPerson contactType="other">
+    <md:Extensions>
+      <spid:IPACode>c_a957</spid:IPACode>
+      <spid:Public/>
+    </md:Extensions>
+    <md:Company>Comune di Bompensiere</md:Company>
+    <md:EmailAddress>comunebompensiere@tiscali.it</md:EmailAddress>
+  </md:ContactPerson>
+</md:EntityDescriptor>
