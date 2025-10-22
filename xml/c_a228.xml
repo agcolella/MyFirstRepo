@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" ID="_0f6a883babfa34709769ffccf52009121ca35e3f756e0486caf512fa98c568fb" entityID="https://altavillairpina.halleyweb.it"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#_0f6a883babfa34709769ffccf52009121ca35e3f756e0486caf512fa98c568fb">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>lu7DjHi7qLn/5k4N/V2qXtjFHKEBF13eibiZ8vS9JVU=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+FnCpOgapRLyl/l5CzoUv6C76kapkLImzJ50T6PjvgaXjoWYIbxZGaOFU0c1sgwue1eGIBGYXINmF
+9HuDajwU2eUUY25iYvyD5F74Ype3ZsKVc6aScBpQKs6ochu5vbjDF13g/yUVFgqk8csSVTMoVge4
+ZQRFT6FokdU1bsyGlVJvOSWbcZM/N9t2QrY3kobeFtBJ6hGaRli/Q19Wl58Zm3wxG+90BXpFowWO
+5j1su9hmwTmdKqmj39Cdy+1WKx2iO52OPIPd5oKXhEt28qqrnmXioEOkIy5hldCPXKlHKJaoOJj0
+Yhj1UCb/iVieTAIa9manCAdAUsLp5NrSVAYv9g==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+0JVJKDtfL+cTbgyT30FVTv4l1tOYyto5GFQV7JZ+YAHOkKrWlYRQlMKWrCoIdP94SIyJQoLz4bFm
+eGIhluCXReLNF/uPHt+wQKLG3ALhpeahmOxOh2Uo3kGrsM/VgQzSyrsehVVDDrl0Y5THZhRKkgYg
+xg2wlu+ZZgpESQH/aGWeD0NZPxv1DINoxCYMmAj4BcrQuSzSWKQSNlZbbkrRIE7UVrEUwn67FHeQ
+fLfoW/1UFA6F4BOqvMpVovOwqHPQLVD0lncfJw6NIsUzNH88MeK5QkojFO0LvY6XiR2H4JOeDJUq
+KoJMUM3GfaRQreCZDOmc5mWJaQ0EwSKB8mIUDQ==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIID3TCCAsWgAwIBAgIJAKMDxjwKZSs8MA0GCSqGSIb3DQEBCwUAMIGEMQswCQYDVQQGEwJJVDEO
+MAwGA1UECAwFSXRhbHkxGTAXBgNVBAcMEEFsdGF2aWxsYSBJcnBpbmExIzAhBgNVBAoMGkNvbXVu
+ZSBkaSBBbHRhdmlsbGEgSXJwaW5hMSUwIwYDVQQDDBxhbHRhdmlsbGFpcnBpbmEuaGFsbGV5d2Vi
+Lml0MB4XDTI0MDcyNDA3NDY0OVoXDTM0MDcyNDA3NDY0OVowgYQxCzAJBgNVBAYTAklUMQ4wDAYD
+VQQIDAVJdGFseTEZMBcGA1UEBwwQQWx0YXZpbGxhIElycGluYTEjMCEGA1UECgwaQ29tdW5lIGRp
+IEFsdGF2aWxsYSBJcnBpbmExJTAjBgNVBAMMHGFsdGF2aWxsYWlycGluYS5oYWxsZXl3ZWIuaXQw
+ggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDQlUkoO18v5xNuDJPfQVVO/iXW05jK2jkY
+VBXsln5gAc6QqtaVhFCUwpasKgh0/3hIjIlCgvPhsWZ4YiGW4JdF4s0X+48e37BAosbcAuGl5qGY
+7E6HZSjeQauwz9WBDNLKux6FVUMOuXRjlMdmFEqSBiDGDbCW75lmCkRJAf9oZZ4PQ1k/G/UMg2jE
+JgyYCPgFytC5LNJYpBI2VltuStEgTtRWsRTCfrsUd5B8t+hb/VQUDoXgE6q8ylWi87Coc9AtUPSW
+dx8nDo0ixTM0fzwx4rlCSiMU7Qu9jpeJHYfgk54MlSoqgkxQzcZ9pFCt4JkM6ZzmZYlpDQTBIoHy
+YhQNAgMBAAGjUDBOMB0GA1UdDgQWBBQ29fsE+bnQAzl/o5F79B5V/cSQWTAfBgNVHSMEGDAWgBQ2
+9fsE+bnQAzl/o5F79B5V/cSQWTAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQB8KuBG
+4vkxaVoSw0Iy3xTcsvQPawdq8Og45a9XFadQJk2CWygb4RRqlbQW07YbheIv+m8HpwGocZNSz8J2
+XawuxeTBC2l4o7W9bdQmcb9PFYa01xO88TACvsibp/xmZgcoyuwmmpGC5TsKyG2sQ5iLzdySyEIM
+dgJsopXsrNOca2N+zWBOoMuuNanxZejvpzO8rJwGRXpk3OrC8M+O8P95uds/Lgiehp5ivRVrxUsE
+/N4x6Eu+u/0K1r6ensrKG2Csji6dn2qXXvaVlW3gEPLRUEl2vVwHcBGJQ/JmagBCgofSGFjQ1gZw
+b4m+OcjyWH02NMuEgpIKYDqDnHwv5tlW
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIID3TCCAsWgAwIBAgIJAKMDxjwKZSs8MA0GCSqGSIb3DQEBCwUAMIGEMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxGTAXBgNVBAcMEEFsdGF2aWxsYSBJcnBpbmExIzAhBgNVBAoMGkNvbXVuZSBkaSBBbHRhdmlsbGEgSXJwaW5hMSUwIwYDVQQDDBxhbHRhdmlsbGFpcnBpbmEuaGFsbGV5d2ViLml0MB4XDTI0MDcyNDA3NDY0OVoXDTM0MDcyNDA3NDY0OVowgYQxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEZMBcGA1UEBwwQQWx0YXZpbGxhIElycGluYTEjMCEGA1UECgwaQ29tdW5lIGRpIEFsdGF2aWxsYSBJcnBpbmExJTAjBgNVBAMMHGFsdGF2aWxsYWlycGluYS5oYWxsZXl3ZWIuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDQlUkoO18v5xNuDJPfQVVO/iXW05jK2jkYVBXsln5gAc6QqtaVhFCUwpasKgh0/3hIjIlCgvPhsWZ4YiGW4JdF4s0X+48e37BAosbcAuGl5qGY7E6HZSjeQauwz9WBDNLKux6FVUMOuXRjlMdmFEqSBiDGDbCW75lmCkRJAf9oZZ4PQ1k/G/UMg2jEJgyYCPgFytC5LNJYpBI2VltuStEgTtRWsRTCfrsUd5B8t+hb/VQUDoXgE6q8ylWi87Coc9AtUPSWdx8nDo0ixTM0fzwx4rlCSiMU7Qu9jpeJHYfgk54MlSoqgkxQzcZ9pFCt4JkM6ZzmZYlpDQTBIoHyYhQNAgMBAAGjUDBOMB0GA1UdDgQWBBQ29fsE+bnQAzl/o5F79B5V/cSQWTAfBgNVHSMEGDAWgBQ29fsE+bnQAzl/o5F79B5V/cSQWTAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQB8KuBG4vkxaVoSw0Iy3xTcsvQPawdq8Og45a9XFadQJk2CWygb4RRqlbQW07YbheIv+m8HpwGocZNSz8J2XawuxeTBC2l4o7W9bdQmcb9PFYa01xO88TACvsibp/xmZgcoyuwmmpGC5TsKyG2sQ5iLzdySyEIMdgJsopXsrNOca2N+zWBOoMuuNanxZejvpzO8rJwGRXpk3OrC8M+O8P95uds/Lgiehp5ivRVrxUsE/N4x6Eu+u/0K1r6ensrKG2Csji6dn2qXXvaVlW3gEPLRUEl2vVwHcBGJQ/JmagBCgofSGFjQ1gZwb4m+OcjyWH02NMuEgpIKYDqDnHwv5tlW</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIID3TCCAsWgAwIBAgIJAKMDxjwKZSs8MA0GCSqGSIb3DQEBCwUAMIGEMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxGTAXBgNVBAcMEEFsdGF2aWxsYSBJcnBpbmExIzAhBgNVBAoMGkNvbXVuZSBkaSBBbHRhdmlsbGEgSXJwaW5hMSUwIwYDVQQDDBxhbHRhdmlsbGFpcnBpbmEuaGFsbGV5d2ViLml0MB4XDTI0MDcyNDA3NDY0OVoXDTM0MDcyNDA3NDY0OVowgYQxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEZMBcGA1UEBwwQQWx0YXZpbGxhIElycGluYTEjMCEGA1UECgwaQ29tdW5lIGRpIEFsdGF2aWxsYSBJcnBpbmExJTAjBgNVBAMMHGFsdGF2aWxsYWlycGluYS5oYWxsZXl3ZWIuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDQlUkoO18v5xNuDJPfQVVO/iXW05jK2jkYVBXsln5gAc6QqtaVhFCUwpasKgh0/3hIjIlCgvPhsWZ4YiGW4JdF4s0X+48e37BAosbcAuGl5qGY7E6HZSjeQauwz9WBDNLKux6FVUMOuXRjlMdmFEqSBiDGDbCW75lmCkRJAf9oZZ4PQ1k/G/UMg2jEJgyYCPgFytC5LNJYpBI2VltuStEgTtRWsRTCfrsUd5B8t+hb/VQUDoXgE6q8ylWi87Coc9AtUPSWdx8nDo0ixTM0fzwx4rlCSiMU7Qu9jpeJHYfgk54MlSoqgkxQzcZ9pFCt4JkM6ZzmZYlpDQTBIoHyYhQNAgMBAAGjUDBOMB0GA1UdDgQWBBQ29fsE+bnQAzl/o5F79B5V/cSQWTAfBgNVHSMEGDAWgBQ29fsE+bnQAzl/o5F79B5V/cSQWTAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQB8KuBG4vkxaVoSw0Iy3xTcsvQPawdq8Og45a9XFadQJk2CWygb4RRqlbQW07YbheIv+m8HpwGocZNSz8J2XawuxeTBC2l4o7W9bdQmcb9PFYa01xO88TACvsibp/xmZgcoyuwmmpGC5TsKyG2sQ5iLzdySyEIMdgJsopXsrNOca2N+zWBOoMuuNanxZejvpzO8rJwGRXpk3OrC8M+O8P95uds/Lgiehp5ivRVrxUsE/N4x6Eu+u/0K1r6ensrKG2Csji6dn2qXXvaVlW3gEPLRUEl2vVwHcBGJQ/JmagBCgofSGFjQ1gZwb4m+OcjyWH02NMuEgpIKYDqDnHwv5tlW</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://altavillairpina.halleyweb.it/spid/module.php/saml/sp/saml2-logout.php/spid"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://altavillairpina.halleyweb.it/spid/module.php/saml/sp/saml2-acs.php/spid" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://altavillairpina.halleyweb.it/spid/module.php/saml/sp/saml2-acs.php/spid" index="1"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">Servizi online</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Servizi online</md:ServiceDescription>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Codice identificativo SPID" Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Ragione o denominazione sociale" Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Altavilla Irpina</md:OrganizationName>
+    <md:OrganizationName xml:lang="en">Comune di Altavilla Irpina</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Altavilla Irpina</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Altavilla Irpina</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.comune.altavillairpina.av.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="en">https://www.comune.altavillairpina.av.it</md:OrganizationURL>
+  </md:Organization>
+  <md:ContactPerson contactType="other">
+    <md:Extensions>
+      <spid:IPACode>c_a228</spid:IPACode>
+      <spid:Public/>
+    </md:Extensions>
+    <md:Company>Comune di Altavilla Irpina</md:Company>
+    <md:EmailAddress>municipio@comune.altavillairpina.av.it</md:EmailAddress>
+  </md:ContactPerson>
+</md:EntityDescriptor>

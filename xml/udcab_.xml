@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" ID="_72a9cc2f9c85264d4a74ac9c48eb789bd1a012009fa1b2242a6b34fb763f653f" entityID="https://www.unioneanglona.it"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#_72a9cc2f9c85264d4a74ac9c48eb789bd1a012009fa1b2242a6b34fb763f653f">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>WK5PhYkTLWJ83NLF74t/7ZMrxrbBSX+TwAtR/gynRrY=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+Hr+/fqJ9rVzXrzvFlFX5frEM/rv+uowamQ3lEGR1M331B4BD/Y4017d91lSkrgPQ2oNDRlHIVDQG
+7McMWawqgX2ou982h2rHxvpNXWctNRTDqq1jnkY22gyg+XnDJNsUygeNBb6Jv42tDfxXOa2n4TSO
+IiJYWsO3QRjW4kfQYaCGGzFn55K5a2x4CXns1aiNzeyydYd+8ugR2kpnHPXmidYrxrtWA1ADogWJ
+LG2KOjYF2SN5cr7A33QQNZ2yqQ4ds/b3tq+DFVJxnLf5nfkVANOlK51XX6U4PwwzHH9w6ya3hkVt
++lQlGliDnSNqYSxwy6DXTjISqChEWAy5heGvdA==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+vb7LTXKd1diDIRjlRs5k+msEBJnP+JHVGrVNkz2ODYYeyOF4BDmQfZ15BREsCn18KIaHM2kdzSPJ
+z9yy+yiaxsidZdiYV8Jqb5WunNA2b3ci62p1hkMAPFvbFjt5hqXgD8GWS58FC3Ly3AZd4g1bwZHX
+Db/r/HqArH3/KSzlp4QkX9UkiOYKfJFAULXjX8TpanNwCSO44G2tODQYoShZi5Pk1BbfRQSHV3gq
+i0bOoRYg+b14lRx4QDvjvzpTpgr598BCI9WbrALrNJRU6EwgTenFTUggqQZ/FgI4j4021PkFOkxx
+r8PXNzqhxvj/n7b/34Oh3WohDnibysVd/mc9gQ==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIID8TCCAtmgAwIBAgIJAPVnxO4d8ROfMA0GCSqGSIb3DQEBCwUAMIGOMQswCQYDVQQGEwJJVDEO
+MAwGA1UECAwFSXRhbHkxETAPBgNVBAcMCFBlcmZ1Z2FzMT0wOwYDVQQKDDRVbmlvbmUgRGVpIENv
+bXVuaSBBbmdsb25hIGUgQmFzc2EgVmFsbGUgZGVsIENvZ2hpbmFzMR0wGwYDVQQDDBR3d3cudW5p
+b25lYW5nbG9uYS5pdDAeFw0yNDA4MDIxMDU2MjVaFw0zNDA4MDIxMDU2MjVaMIGOMQswCQYDVQQG
+EwJJVDEOMAwGA1UECAwFSXRhbHkxETAPBgNVBAcMCFBlcmZ1Z2FzMT0wOwYDVQQKDDRVbmlvbmUg
+RGVpIENvbXVuaSBBbmdsb25hIGUgQmFzc2EgVmFsbGUgZGVsIENvZ2hpbmFzMR0wGwYDVQQDDBR3
+d3cudW5pb25lYW5nbG9uYS5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAL2+y01y
+ndXYgyEY5UbOZPprBASZz/iR1Rq1TZM9jg2GHsjheAQ5kH2deQURLAp9fCiGhzNpHc0jyc/csvso
+msbInWXYmFfCam+VrpzQNm93IutqdYZDADxb2xY7eYal4A/BlkufBQty8twGXeINW8GR1w2/6/x6
+gKx9/yks5aeEJF/VJIjmCnyRQFC141/E6WpzcAkjuOBtrTg0GKEoWYuT5NQW30UEh1d4KotGzqEW
+IPm9eJUceEA74786U6YK+ffAQiPVm6wC6zSUVOhMIE3pxU1IIKkGfxYCOI+NNtT5BTpMca/D1zc6
+ocb4/5+2/9+Dod1qIQ54m8rFXf5nPYECAwEAAaNQME4wHQYDVR0OBBYEFHkRMRIILQWGKvCUs04W
+1X7MT0kIMB8GA1UdIwQYMBaAFHkRMRIILQWGKvCUs04W1X7MT0kIMAwGA1UdEwQFMAMBAf8wDQYJ
+KoZIhvcNAQELBQADggEBAKvNz6AxIeO7ZLl/4+TdQ3XD5mXItmE9UytQMRmNr5LSwq8S9VFftVUr
+szJ3XdhtlyUXoj6rS3m2jMW6Z9wbpPy97nRDIWFsyLisM9jjQf/t1l9QUQenx3TdI7G7Y3cwW0RF
+8idToVd6qqugJsPb/F1aMatuxvRO9ieMElroZdnKPOHKw0KX4AJjSfMAnnblvWllGTc6Fol4CyR2
+W1vhBuq0X9IcYzjFkb4jyn+Ty6am0qRUIeC/bZDFAiYedh+PESK7BhwO/cMtaBFIJQ2bce//bWdJ
+N3zflAhpVRTD1SABQxAq71h2vsmELQS3CW/txr11AhskpKswxtJA/Bb/z8g=
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIID8TCCAtmgAwIBAgIJAPVnxO4d8ROfMA0GCSqGSIb3DQEBCwUAMIGOMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxETAPBgNVBAcMCFBlcmZ1Z2FzMT0wOwYDVQQKDDRVbmlvbmUgRGVpIENvbXVuaSBBbmdsb25hIGUgQmFzc2EgVmFsbGUgZGVsIENvZ2hpbmFzMR0wGwYDVQQDDBR3d3cudW5pb25lYW5nbG9uYS5pdDAeFw0yNDA4MDIxMDU2MjVaFw0zNDA4MDIxMDU2MjVaMIGOMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxETAPBgNVBAcMCFBlcmZ1Z2FzMT0wOwYDVQQKDDRVbmlvbmUgRGVpIENvbXVuaSBBbmdsb25hIGUgQmFzc2EgVmFsbGUgZGVsIENvZ2hpbmFzMR0wGwYDVQQDDBR3d3cudW5pb25lYW5nbG9uYS5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAL2+y01yndXYgyEY5UbOZPprBASZz/iR1Rq1TZM9jg2GHsjheAQ5kH2deQURLAp9fCiGhzNpHc0jyc/csvsomsbInWXYmFfCam+VrpzQNm93IutqdYZDADxb2xY7eYal4A/BlkufBQty8twGXeINW8GR1w2/6/x6gKx9/yks5aeEJF/VJIjmCnyRQFC141/E6WpzcAkjuOBtrTg0GKEoWYuT5NQW30UEh1d4KotGzqEWIPm9eJUceEA74786U6YK+ffAQiPVm6wC6zSUVOhMIE3pxU1IIKkGfxYCOI+NNtT5BTpMca/D1zc6ocb4/5+2/9+Dod1qIQ54m8rFXf5nPYECAwEAAaNQME4wHQYDVR0OBBYEFHkRMRIILQWGKvCUs04W1X7MT0kIMB8GA1UdIwQYMBaAFHkRMRIILQWGKvCUs04W1X7MT0kIMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAKvNz6AxIeO7ZLl/4+TdQ3XD5mXItmE9UytQMRmNr5LSwq8S9VFftVUrszJ3XdhtlyUXoj6rS3m2jMW6Z9wbpPy97nRDIWFsyLisM9jjQf/t1l9QUQenx3TdI7G7Y3cwW0RF8idToVd6qqugJsPb/F1aMatuxvRO9ieMElroZdnKPOHKw0KX4AJjSfMAnnblvWllGTc6Fol4CyR2W1vhBuq0X9IcYzjFkb4jyn+Ty6am0qRUIeC/bZDFAiYedh+PESK7BhwO/cMtaBFIJQ2bce//bWdJN3zflAhpVRTD1SABQxAq71h2vsmELQS3CW/txr11AhskpKswxtJA/Bb/z8g=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIID8TCCAtmgAwIBAgIJAPVnxO4d8ROfMA0GCSqGSIb3DQEBCwUAMIGOMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxETAPBgNVBAcMCFBlcmZ1Z2FzMT0wOwYDVQQKDDRVbmlvbmUgRGVpIENvbXVuaSBBbmdsb25hIGUgQmFzc2EgVmFsbGUgZGVsIENvZ2hpbmFzMR0wGwYDVQQDDBR3d3cudW5pb25lYW5nbG9uYS5pdDAeFw0yNDA4MDIxMDU2MjVaFw0zNDA4MDIxMDU2MjVaMIGOMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxETAPBgNVBAcMCFBlcmZ1Z2FzMT0wOwYDVQQKDDRVbmlvbmUgRGVpIENvbXVuaSBBbmdsb25hIGUgQmFzc2EgVmFsbGUgZGVsIENvZ2hpbmFzMR0wGwYDVQQDDBR3d3cudW5pb25lYW5nbG9uYS5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAL2+y01yndXYgyEY5UbOZPprBASZz/iR1Rq1TZM9jg2GHsjheAQ5kH2deQURLAp9fCiGhzNpHc0jyc/csvsomsbInWXYmFfCam+VrpzQNm93IutqdYZDADxb2xY7eYal4A/BlkufBQty8twGXeINW8GR1w2/6/x6gKx9/yks5aeEJF/VJIjmCnyRQFC141/E6WpzcAkjuOBtrTg0GKEoWYuT5NQW30UEh1d4KotGzqEWIPm9eJUceEA74786U6YK+ffAQiPVm6wC6zSUVOhMIE3pxU1IIKkGfxYCOI+NNtT5BTpMca/D1zc6ocb4/5+2/9+Dod1qIQ54m8rFXf5nPYECAwEAAaNQME4wHQYDVR0OBBYEFHkRMRIILQWGKvCUs04W1X7MT0kIMB8GA1UdIwQYMBaAFHkRMRIILQWGKvCUs04W1X7MT0kIMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAKvNz6AxIeO7ZLl/4+TdQ3XD5mXItmE9UytQMRmNr5LSwq8S9VFftVUrszJ3XdhtlyUXoj6rS3m2jMW6Z9wbpPy97nRDIWFsyLisM9jjQf/t1l9QUQenx3TdI7G7Y3cwW0RF8idToVd6qqugJsPb/F1aMatuxvRO9ieMElroZdnKPOHKw0KX4AJjSfMAnnblvWllGTc6Fol4CyR2W1vhBuq0X9IcYzjFkb4jyn+Ty6am0qRUIeC/bZDFAiYedh+PESK7BhwO/cMtaBFIJQ2bce//bWdJN3zflAhpVRTD1SABQxAq71h2vsmELQS3CW/txr11AhskpKswxtJA/Bb/z8g=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://www.unioneanglona.it/spid/module.php/saml/sp/saml2-logout.php/spid"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.unioneanglona.it/spid/module.php/saml/sp/saml2-acs.php/spid" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://www.unioneanglona.it/spid/module.php/saml/sp/saml2-acs.php/spid" index="1"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">Servizi online</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Servizi online</md:ServiceDescription>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Codice identificativo SPID" Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Ragione o denominazione sociale" Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Unione Dei Comuni Anglona e Bassa Valle del Coghinas</md:OrganizationName>
+    <md:OrganizationName xml:lang="en">Unione Dei Comuni Anglona e Bassa Valle del Coghinas</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Unione Dei Comuni Anglona e Bassa Valle del Coghinas</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="en">Unione Dei Comuni Anglona e Bassa Valle del Coghinas</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.unioneanglona.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="en">https://www.unioneanglona.it</md:OrganizationURL>
+  </md:Organization>
+  <md:ContactPerson contactType="other">
+    <md:Extensions>
+      <spid:IPACode>udcab_</spid:IPACode>
+      <spid:Public/>
+    </md:Extensions>
+    <md:Company>Unione Dei Comuni Anglona e Bassa Valle del Coghinas</md:Company>
+    <md:EmailAddress>amministrativo@unioneanglona.it</md:EmailAddress>
+  </md:ContactPerson>
+</md:EntityDescriptor>

@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:spid="https://spid.gov.it/saml-extensions" entityID="https://login.comune.rogliano.cs.it" ID="https___login_comune_rogliano_cs_it"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+  <ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+    <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+  <ds:Reference URI="#https___login_comune_rogliano_cs_it"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>H9ct13KasvpULvdPpvdU3W9Jn7VwBOfcL75lcytqj38=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>sgtM/8gSs0pXunW5Om3zs+EF7jQVo4wPZbzyKU0HbgyfmdmFmHVZcRkZYwmRtRYnm3LWoLtQwZpN5FQ9JcqA6aAmQgdn673ZM4HR3AwRLFpet9QPzEIqc6YGq75o7Pfqc8VwvoT4u46d0ZmwE7H8iBjNwz+v6/KPhVa/pECBopH+yxW4oVxd5+evClGQtpFRTr/sX3LKgke8i5hnO10mAm3VTEFSvFtuBK6X5iLkkiXgRvbJA5vN/HcOkVJB1H78n4tvXD9BLuTRL3chH405OVhqlK+FrAlW6sBw7Pm2lSuqLn4kxIMxhxBWHOVH2PSX1S6PLR5MghGcGjP37nWHRg==</ds:SignatureValue>
+<ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIECjCCAvKgAwIBAgIIj7BQVtgo2AAwDQYJKoZIhvcNAQELBQAwgcQxGzAZBgNVBAoMEkNvbXVuZSBkaSBSb2dsaWFubzEVMBMGA1UEYQwMUEE6SVQtY19oNDkwMQswCQYDVQQGEwJJVDERMA8GA1UEBwwIUm9nbGlhbm8xETAPBgNVBAMMCFJvZ2xpYW5vMS0wKwYJKoZIhvcNAQkBFh5wcm90b2NvbGxvLnJvZ2xpYW5vQGFzbWVwZWMuaXQxLDAqBgNVBFMMI2h0dHBzOi8vbG9naW4uY29tdW5lLnJvZ2xpYW5vLmNzLml0MB4XDTI0MDcxNTEyNTMyMloXDTI2MDcxNTEyNTMyMlowgcQxGzAZBgNVBAoMEkNvbXVuZSBkaSBSb2dsaWFubzEVMBMGA1UEYQwMUEE6SVQtY19oNDkwMQswCQYDVQQGEwJJVDERMA8GA1UEBwwIUm9nbGlhbm8xETAPBgNVBAMMCFJvZ2xpYW5vMS0wKwYJKoZIhvcNAQkBFh5wcm90b2NvbGxvLnJvZ2xpYW5vQGFzbWVwZWMuaXQxLDAqBgNVBFMMI2h0dHBzOi8vbG9naW4uY29tdW5lLnJvZ2xpYW5vLmNzLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAttDJczVyakH7A8JibwrkF3S4TkIcQnrNL5Y9xy2ENR0ykppYXCG9nwIwX9ivysC7nRpDUJbF7XIzsnFp9RK9yOK719hdCZ+LVkHinn7rg8efHi9VVjBZ7hGpZB1ANkp1KnPZ2VBUE0qMNNL2NedbSk2XGpdMuG2wMgG81Pd2pETsBvIHCXbgdRwd8juCyOfFviz5V3didi9cfVWGdBPx+X/9aFvzZykKGrVsSSGRG06wO2LNfOEBAHL48dbofBL3WY9p4T7E7mQZd62hapwaqAZvtKe2uf3VUNMUK6z3v7SjCHz0Fy8d4AXBcBURxWCa/cSEkxSKOXrmN+SXOGRNewIDAQABMA0GCSqGSIb3DQEBCwUAA4IBAQCTu0+t7dq7NWd/Wy5AFX1thO/pwirSYHqiOG9XncHoPI+RJhqPXR7gJKwlu8GTlPlvxvm0pWjQSOMGrfpn0PzhUECGX99dcMJ7N24L3yLpjGLjGDsATaS1K9R5fAJ77iouQutIkhgO3dStr0QP1ijFkKZE58lA9ddYLYu6B4MYogwIYgZJbXIipIoyy8S1ybmv03mFVmO5dH6B7QzXwzulek1kyihPx8A9Zc8SncmeGmLdgXLx05fmYPNdOEVNZwsJxa5ZOOJCSkioJTfI7opYGCGpKXd/Vjdrl2Cudz/MgY4Z0xgk0mvfcwpy1VbHlPmHK24tIn+UsQwM1ydTkXrM</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature>
+    <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true" WantAssertionsSigned="true">
+        <md:KeyDescriptor use="signing">
+            <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+                <ds:X509Data><ds:X509Certificate>MIIECjCCAvKgAwIBAgIIj7BQVtgo2AAwDQYJKoZIhvcNAQELBQAwgcQxGzAZBgNVBAoMEkNvbXVuZSBkaSBSb2dsaWFubzEVMBMGA1UEYQwMUEE6SVQtY19oNDkwMQswCQYDVQQGEwJJVDERMA8GA1UEBwwIUm9nbGlhbm8xETAPBgNVBAMMCFJvZ2xpYW5vMS0wKwYJKoZIhvcNAQkBFh5wcm90b2NvbGxvLnJvZ2xpYW5vQGFzbWVwZWMuaXQxLDAqBgNVBFMMI2h0dHBzOi8vbG9naW4uY29tdW5lLnJvZ2xpYW5vLmNzLml0MB4XDTI0MDcxNTEyNTMyMloXDTI2MDcxNTEyNTMyMlowgcQxGzAZBgNVBAoMEkNvbXVuZSBkaSBSb2dsaWFubzEVMBMGA1UEYQwMUEE6SVQtY19oNDkwMQswCQYDVQQGEwJJVDERMA8GA1UEBwwIUm9nbGlhbm8xETAPBgNVBAMMCFJvZ2xpYW5vMS0wKwYJKoZIhvcNAQkBFh5wcm90b2NvbGxvLnJvZ2xpYW5vQGFzbWVwZWMuaXQxLDAqBgNVBFMMI2h0dHBzOi8vbG9naW4uY29tdW5lLnJvZ2xpYW5vLmNzLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAttDJczVyakH7A8JibwrkF3S4TkIcQnrNL5Y9xy2ENR0ykppYXCG9nwIwX9ivysC7nRpDUJbF7XIzsnFp9RK9yOK719hdCZ+LVkHinn7rg8efHi9VVjBZ7hGpZB1ANkp1KnPZ2VBUE0qMNNL2NedbSk2XGpdMuG2wMgG81Pd2pETsBvIHCXbgdRwd8juCyOfFviz5V3didi9cfVWGdBPx+X/9aFvzZykKGrVsSSGRG06wO2LNfOEBAHL48dbofBL3WY9p4T7E7mQZd62hapwaqAZvtKe2uf3VUNMUK6z3v7SjCHz0Fy8d4AXBcBURxWCa/cSEkxSKOXrmN+SXOGRNewIDAQABMA0GCSqGSIb3DQEBCwUAA4IBAQCTu0+t7dq7NWd/Wy5AFX1thO/pwirSYHqiOG9XncHoPI+RJhqPXR7gJKwlu8GTlPlvxvm0pWjQSOMGrfpn0PzhUECGX99dcMJ7N24L3yLpjGLjGDsATaS1K9R5fAJ77iouQutIkhgO3dStr0QP1ijFkKZE58lA9ddYLYu6B4MYogwIYgZJbXIipIoyy8S1ybmv03mFVmO5dH6B7QzXwzulek1kyihPx8A9Zc8SncmeGmLdgXLx05fmYPNdOEVNZwsJxa5ZOOJCSkioJTfI7opYGCGpKXd/Vjdrl2Cudz/MgY4Z0xgk0mvfcwpy1VbHlPmHK24tIn+UsQwM1ydTkXrM</ds:X509Certificate></ds:X509Data>
+            </ds:KeyInfo>
+        </md:KeyDescriptor>
+            <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://rogliano.login.opencityitalia.it/slo"/>        
+        <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+        <md:AssertionConsumerService index="0" isDefault="true" Location="https://rogliano.login.opencityitalia.it/acs" Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST"/>
+        <md:AttributeConsumingService index="0">
+            <md:ServiceName xml:lang="it">Set 0</md:ServiceName>       
+            <md:RequestedAttribute Name="gender"/>
+            <md:RequestedAttribute Name="companyName"/>
+            <md:RequestedAttribute Name="registeredOffice"/>
+            <md:RequestedAttribute Name="fiscalNumber"/>
+            <md:RequestedAttribute Name="ivaCode"/>
+            <md:RequestedAttribute Name="idCard"/>
+            <md:RequestedAttribute Name="spidCode"/>
+            <md:RequestedAttribute Name="name"/>
+            <md:RequestedAttribute Name="familyName"/>
+            <md:RequestedAttribute Name="placeOfBirth"/>
+            <md:RequestedAttribute Name="countyOfBirth"/>
+            <md:RequestedAttribute Name="dateOfBirth"/>
+            <md:RequestedAttribute Name="mobilePhone"/>
+            <md:RequestedAttribute Name="email"/>
+            <md:RequestedAttribute Name="address"/>
+            <md:RequestedAttribute Name="expirationDate"/>
+            <md:RequestedAttribute Name="digitalAddress"/></md:AttributeConsumingService></md:SPSSODescriptor><md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Rogliano</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Rogliano</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://login.comune.rogliano.cs.it</md:OrganizationURL>
+</md:Organization><md:ContactPerson contactType="other"><md:Extensions><spid:IPACode>c_h490</spid:IPACode><spid:Public/><spid:FiscalCode>80002530782</spid:FiscalCode></md:Extensions><md:EmailAddress>protocollo.rogliano@asmepec.it</md:EmailAddress><md:TelephoneNumber>+390984961001</md:TelephoneNumber></md:ContactPerson></md:EntityDescriptor>

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" ID="pfx52d43298-eb86-def1-a019-6a6e464048b1" entityID="https://villadogna.halleyweb.it"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#pfx52d43298-eb86-def1-a019-6a6e464048b1">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>NBlGxMzXvIddIbW1O2XtdO3ZZ7LjsYYt4I38BkFF92M=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+LioMJfxkVQDJvGdqHR29JjuJmaNKSlitWjkDXyZGj7FcqTakjq5tWVtp3+3Bi/OpvEAy0UHgFyII
+toPIGQRp7uMV6Ort7omVoiar2MkQJAvIkQe84gTwuO1FIRhx6qVOes90dNwr3aEwz9ZpM0RCBo/U
+lelxOpALPid/J7FdJ9MYJ5ZFm9DaEmYkxzrfrReF8nsCWAy+ivSHCrmWwC9KBJcmA3LNESdmXUy5
+PmRYD6dxZruosDwkqOHG4kCGdvaQU8YSOUJSkgtBnJ12TxNdES/k2bljN3rKRFhOQznhxGJBWbPm
+bn/YEOE9eg1J0hg63GoTYU0kpx2M6ys33SJhqg==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+xsF8fg/F79l9RnUdlBRpRAZC/PbvGg9/6tGOWvhlsEWVAiz1/i/7wioBCcr/M/ZUk+iR//PEU4V4
+4EUUYYhTs5DBnpaVO4SyacSznsGT841H/1kNpyURn5GACpmI9AuuUjNmPRiO+26g0IjcXsTwtURJ
+mMfBsKxAe99z7cebGPAfrVoafMkcYaHdtt57hJAWVu3troiUUBtcnZutfPxNoOZKgcWALO2fgTlG
+uQTbtwtrgFhdh7yHtJAji+gx6Popad75R9AlYNErhgT2lxRq4yto2TMTZ965J1J5MFkFKX8sDNjp
+p25/oM+U2+NGdyeL+C6HvoR2vKAq7JDoSNxaMw==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDxTCCAq2gAwIBAgIJAI+9BtKoSAcOMA0GCSqGSIb3DQEBCwUAMHkxCzAJBgNVBAYTAklUMQ4w
+DAYDVQQIDAVJdGFseTEWMBQGA1UEBwwNVmlsbGEgRFwnT2duYTEgMB4GA1UECgwXQ29tdW5lIGRp
+IFZpbGxhIERcJ09nbmExIDAeBgNVBAMMF3ZpbGxhZG9nbmEuaGFsbGV5d2ViLml0MB4XDTIxMDMz
+MDEyMDE1OFoXDTMxMDMzMDEyMDE1OFoweTELMAkGA1UEBhMCSVQxDjAMBgNVBAgMBUl0YWx5MRYw
+FAYDVQQHDA1WaWxsYSBEXCdPZ25hMSAwHgYDVQQKDBdDb211bmUgZGkgVmlsbGEgRFwnT2duYTEg
+MB4GA1UEAwwXdmlsbGFkb2duYS5oYWxsZXl3ZWIuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAw
+ggEKAoIBAQDGwXx+D8Xv2X1GdR2UFGlEBkL89u8aD3/q0Y5a+GWwRZUCLPX+L/vCKgEJyv8z9lST
+6JH/88RThXjgRRRhiFOzkMGelpU7hLJpxLOewZPzjUf/WQ2nJRGfkYAKmYj0C65SM2Y9GI77bqDQ
+iNxexPC1REmYx8GwrEB733Ptx5sY8B+tWhp8yRxhod223nuEkBZW7e2uiJRQG1ydm618/E2g5kqB
+xYAs7Z+BOUa5BNu3C2uAWF2HvIe0kCOL6DHo+ilp3vlH0CVg0SuGBPaXFGrjK2jZMxNn3rknUnkw
+WQUpfywM2Omnbn+gz5Tb40Z3J4v4Loe+hHa8oCrskOhI3FozAgMBAAGjUDBOMB0GA1UdDgQWBBRM
+0FJusoMz6DBRJM2kJNVjlUoAcTAfBgNVHSMEGDAWgBRM0FJusoMz6DBRJM2kJNVjlUoAcTAMBgNV
+HRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQAngQjBbUezvb0UgwXKjC/2jgG0BVxldoZ8TfF+
+wpV3T5gYwVdLr3uqiCH8S3n+33Uw3LnCiOb9CKxFzx1cgvq2VUxEBMUQdXmLWi5l48r/4yOplpos
+5IBcM4XpsV6tff7+lMwqF3lfNYMz+HuAXHHPJsTmJcC/NZbtkTqhgwXgB3hUmrNJxmR6Dt+nhPt4
+42AK5llgVYusv5NoJa0XlaqESGvpS71ORo7QcWHhLDKRCEKGrkvr0yordj9sp05xE1C6TtwJAWYJ
+yNVKzlnV9/WzxRZKhmVcduVQhO6ZIDVlFL7muJNI3qKGGKGTuJJxNW4BNb0ycEJw8IKPy691i09B
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+   		<ds:KeyInfo>
+   			<ds:X509Data>
+    			<ds:X509Certificate>MIIDxTCCAq2gAwIBAgIJAI+9BtKoSAcOMA0GCSqGSIb3DQEBCwUAMHkxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEWMBQGA1UEBwwNVmlsbGEgRFwnT2duYTEgMB4GA1UECgwXQ29tdW5lIGRpIFZpbGxhIERcJ09nbmExIDAeBgNVBAMMF3ZpbGxhZG9nbmEuaGFsbGV5d2ViLml0MB4XDTIxMDMzMDEyMDE1OFoXDTMxMDMzMDEyMDE1OFoweTELMAkGA1UEBhMCSVQxDjAMBgNVBAgMBUl0YWx5MRYwFAYDVQQHDA1WaWxsYSBEXCdPZ25hMSAwHgYDVQQKDBdDb211bmUgZGkgVmlsbGEgRFwnT2duYTEgMB4GA1UEAwwXdmlsbGFkb2duYS5oYWxsZXl3ZWIuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDGwXx+D8Xv2X1GdR2UFGlEBkL89u8aD3/q0Y5a+GWwRZUCLPX+L/vCKgEJyv8z9lST6JH/88RThXjgRRRhiFOzkMGelpU7hLJpxLOewZPzjUf/WQ2nJRGfkYAKmYj0C65SM2Y9GI77bqDQiNxexPC1REmYx8GwrEB733Ptx5sY8B+tWhp8yRxhod223nuEkBZW7e2uiJRQG1ydm618/E2g5kqBxYAs7Z+BOUa5BNu3C2uAWF2HvIe0kCOL6DHo+ilp3vlH0CVg0SuGBPaXFGrjK2jZMxNn3rknUnkwWQUpfywM2Omnbn+gz5Tb40Z3J4v4Loe+hHa8oCrskOhI3FozAgMBAAGjUDBOMB0GA1UdDgQWBBRM0FJusoMz6DBRJM2kJNVjlUoAcTAfBgNVHSMEGDAWgBRM0FJusoMz6DBRJM2kJNVjlUoAcTAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQAngQjBbUezvb0UgwXKjC/2jgG0BVxldoZ8TfF+wpV3T5gYwVdLr3uqiCH8S3n+33Uw3LnCiOb9CKxFzx1cgvq2VUxEBMUQdXmLWi5l48r/4yOplpos5IBcM4XpsV6tff7+lMwqF3lfNYMz+HuAXHHPJsTmJcC/NZbtkTqhgwXgB3hUmrNJxmR6Dt+nhPt442AK5llgVYusv5NoJa0XlaqESGvpS71ORo7QcWHhLDKRCEKGrkvr0yordj9sp05xE1C6TtwJAWYJyNVKzlnV9/WzxRZKhmVcduVQhO6ZIDVlFL7muJNI3qKGGKGTuJJxNW4BNb0ycEJw8IKPy691i09B</ds:X509Certificate>
+    		</ds:X509Data>
+    	</ds:KeyInfo>
+   	</md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+   		<ds:KeyInfo>
+   			<ds:X509Data>
+    			<ds:X509Certificate>MIIDxTCCAq2gAwIBAgIJAI+9BtKoSAcOMA0GCSqGSIb3DQEBCwUAMHkxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEWMBQGA1UEBwwNVmlsbGEgRFwnT2duYTEgMB4GA1UECgwXQ29tdW5lIGRpIFZpbGxhIERcJ09nbmExIDAeBgNVBAMMF3ZpbGxhZG9nbmEuaGFsbGV5d2ViLml0MB4XDTIxMDMzMDEyMDE1OFoXDTMxMDMzMDEyMDE1OFoweTELMAkGA1UEBhMCSVQxDjAMBgNVBAgMBUl0YWx5MRYwFAYDVQQHDA1WaWxsYSBEXCdPZ25hMSAwHgYDVQQKDBdDb211bmUgZGkgVmlsbGEgRFwnT2duYTEgMB4GA1UEAwwXdmlsbGFkb2duYS5oYWxsZXl3ZWIuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDGwXx+D8Xv2X1GdR2UFGlEBkL89u8aD3/q0Y5a+GWwRZUCLPX+L/vCKgEJyv8z9lST6JH/88RThXjgRRRhiFOzkMGelpU7hLJpxLOewZPzjUf/WQ2nJRGfkYAKmYj0C65SM2Y9GI77bqDQiNxexPC1REmYx8GwrEB733Ptx5sY8B+tWhp8yRxhod223nuEkBZW7e2uiJRQG1ydm618/E2g5kqBxYAs7Z+BOUa5BNu3C2uAWF2HvIe0kCOL6DHo+ilp3vlH0CVg0SuGBPaXFGrjK2jZMxNn3rknUnkwWQUpfywM2Omnbn+gz5Tb40Z3J4v4Loe+hHa8oCrskOhI3FozAgMBAAGjUDBOMB0GA1UdDgQWBBRM0FJusoMz6DBRJM2kJNVjlUoAcTAfBgNVHSMEGDAWgBRM0FJusoMz6DBRJM2kJNVjlUoAcTAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQAngQjBbUezvb0UgwXKjC/2jgG0BVxldoZ8TfF+wpV3T5gYwVdLr3uqiCH8S3n+33Uw3LnCiOb9CKxFzx1cgvq2VUxEBMUQdXmLWi5l48r/4yOplpos5IBcM4XpsV6tff7+lMwqF3lfNYMz+HuAXHHPJsTmJcC/NZbtkTqhgwXgB3hUmrNJxmR6Dt+nhPt442AK5llgVYusv5NoJa0XlaqESGvpS71ORo7QcWHhLDKRCEKGrkvr0yordj9sp05xE1C6TtwJAWYJyNVKzlnV9/WzxRZKhmVcduVQhO6ZIDVlFL7muJNI3qKGGKGTuJJxNW4BNb0ycEJw8IKPy691i09B</ds:X509Certificate>
+    		</ds:X509Data>
+    	</ds:KeyInfo>
+   	</md:KeyDescriptor>
+    <md:KeyDescriptor use="signing">
+   		<ds:KeyInfo>
+   			<ds:X509Data>
+    			<ds:X509Certificate>MIIDnTCCAoWgAwIBAgIJAJiOmQxJt1ykMA0GCSqGSIb3DQEBCwUAMGUxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEVMBMGA1UEBwwMVmlsbGEgRCdPZ25hMR8wHQYDVQQKDBZDb211bmUgZGkgVmlsbGEgRCdPZ25hMQ4wDAYDVQQDDAVodHRwOjAeFw0yNDA4MDgwODQyMDZaFw0zNDA4MDgwODQyMDZaMGUxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEVMBMGA1UEBwwMVmlsbGEgRCdPZ25hMR8wHQYDVQQKDBZDb211bmUgZGkgVmlsbGEgRCdPZ25hMQ4wDAYDVQQDDAVodHRwOjCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALKR5qUlM3LSX8bn5yxH+BBDp7K+R5N9IqjLMX7es3gohWCGj0CrCzdNdJChWR8OINiP7PQkGmGEilwaDeqrVKP1KLKTS4RAgxnHS0hL0UY4NE1+ivuMy3f4HNjfrxZbbPhfhF8F54mcBQ8iSQYaAb3mAd+IvEdWRwJ79n68M4oA/nJuR0FjR5/eSu9xiwS9oWBKnknVcnvopYCQHOvl0v0J+HbrJb+KlbJvN1yDoBl9UoWIY/v9UdXvJ4F7pJdMmIxI2s6TQ2T1j2M5r+M6kr2HXaTKXdFBQe55rB+F/fjVpXbT1Y5mQw7SKX0jxScuwktx2ri+NecxxIIXmsFgxpECAwEAAaNQME4wHQYDVR0OBBYEFK1Jz+Oaz+jgTjeroPFpXq6j1n6PMB8GA1UdIwQYMBaAFK1Jz+Oaz+jgTjeroPFpXq6j1n6PMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAIP6WdUi+Afwp4rr6c7xprRXbLn4Ns717rwO2v1r/wLdgyrOeSwbG7jEnk6RMNweqkmtUWks0rpsn6j4uuerUtkfHPu+EiY90EUvk3SmJMp0Z1CjH22B1h93vT6a+Sb3O32ruPStxJjdl9t1CsQVDRHitCh48J4mDD/hrkOOs00f4rKHBNtGHAaLdJ4z3XRXRvyaUqZI7NpnEhsi0FtCwbFtZQ0ufxU43Hj2cRyMmErfHoOKVXH/2bjtvRzwMsY+24OB2XibXKUgg1TAqxCDMwhnc0KBlhjts/3uhXEu+nysSAGoeaxMhesq7NUdc2sC8Z1NhQjrX4WZIru1SyqR3C4=</ds:X509Certificate>
+    		</ds:X509Data>
+    	</ds:KeyInfo>
+   	</md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+   		<ds:KeyInfo>
+   			<ds:X509Data>
+    			<ds:X509Certificate>MIIDnTCCAoWgAwIBAgIJAJiOmQxJt1ykMA0GCSqGSIb3DQEBCwUAMGUxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEVMBMGA1UEBwwMVmlsbGEgRCdPZ25hMR8wHQYDVQQKDBZDb211bmUgZGkgVmlsbGEgRCdPZ25hMQ4wDAYDVQQDDAVodHRwOjAeFw0yNDA4MDgwODQyMDZaFw0zNDA4MDgwODQyMDZaMGUxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEVMBMGA1UEBwwMVmlsbGEgRCdPZ25hMR8wHQYDVQQKDBZDb211bmUgZGkgVmlsbGEgRCdPZ25hMQ4wDAYDVQQDDAVodHRwOjCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALKR5qUlM3LSX8bn5yxH+BBDp7K+R5N9IqjLMX7es3gohWCGj0CrCzdNdJChWR8OINiP7PQkGmGEilwaDeqrVKP1KLKTS4RAgxnHS0hL0UY4NE1+ivuMy3f4HNjfrxZbbPhfhF8F54mcBQ8iSQYaAb3mAd+IvEdWRwJ79n68M4oA/nJuR0FjR5/eSu9xiwS9oWBKnknVcnvopYCQHOvl0v0J+HbrJb+KlbJvN1yDoBl9UoWIY/v9UdXvJ4F7pJdMmIxI2s6TQ2T1j2M5r+M6kr2HXaTKXdFBQe55rB+F/fjVpXbT1Y5mQw7SKX0jxScuwktx2ri+NecxxIIXmsFgxpECAwEAAaNQME4wHQYDVR0OBBYEFK1Jz+Oaz+jgTjeroPFpXq6j1n6PMB8GA1UdIwQYMBaAFK1Jz+Oaz+jgTjeroPFpXq6j1n6PMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAIP6WdUi+Afwp4rr6c7xprRXbLn4Ns717rwO2v1r/wLdgyrOeSwbG7jEnk6RMNweqkmtUWks0rpsn6j4uuerUtkfHPu+EiY90EUvk3SmJMp0Z1CjH22B1h93vT6a+Sb3O32ruPStxJjdl9t1CsQVDRHitCh48J4mDD/hrkOOs00f4rKHBNtGHAaLdJ4z3XRXRvyaUqZI7NpnEhsi0FtCwbFtZQ0ufxU43Hj2cRyMmErfHoOKVXH/2bjtvRzwMsY+24OB2XibXKUgg1TAqxCDMwhnc0KBlhjts/3uhXEu+nysSAGoeaxMhesq7NUdc2sC8Z1NhQjrX4WZIru1SyqR3C4=</ds:X509Certificate>
+    		</ds:X509Data>
+    	</ds:KeyInfo>
+   	</md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://villadogna.halleyweb.it/spid/module.php/saml/sp/saml2-logout.php/spid"/>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://www.comune.villadogna.bg.it/e1099/HH0/WSR_HHSAML.HBL"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://villadogna.halleyweb.it/spid/module.php/saml/sp/saml2-acs.php/spid" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.comune.villadogna.bg.it/e1099/HH0/WSR_HHSAML.HBL" index="1"/>
+    <md:AttributeConsumingService index="1">
+   		<md:ServiceName xml:lang="it">Servizi online</md:ServiceName>
+<md:ServiceDescription xml:lang="it">Servizi online</md:ServiceDescription>
+   	<md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+   	<md:RequestedAttribute FriendlyName="Cognome" Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+   	<md:RequestedAttribute FriendlyName="Nome" Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+   	<md:RequestedAttribute FriendlyName="Codice identificativo SPID" Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+   	<md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+   	<md:RequestedAttribute FriendlyName="Ragione o denominazione sociale" Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+   	</md:AttributeConsumingService>
+    <md:AttributeConsumingService index="2">
+   		<md:ServiceName xml:lang="it">Servizi online Halley</md:ServiceName>
+   	<md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+   	<md:RequestedAttribute FriendlyName="Nome" Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+   	<md:RequestedAttribute FriendlyName="Cognome" Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+   	<md:RequestedAttribute FriendlyName="Data di nascita" Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+   	<md:RequestedAttribute FriendlyName="Codice identificativo SPID" Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+   	<md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+   	<md:RequestedAttribute FriendlyName="Provincia di nascita" Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+   	<md:RequestedAttribute FriendlyName="Sesso" Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+   	<md:RequestedAttribute FriendlyName="Ragione o denominazione sociale" Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+   	<md:RequestedAttribute FriendlyName="Sede legale" Name="registeredOffice" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+   	<md:RequestedAttribute FriendlyName="Codice fiscale Persona Giuridica" Name="companyFiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+   	<md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+   	<md:RequestedAttribute FriendlyName="Numero di telefono mobile" Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+   	<md:RequestedAttribute FriendlyName="Indirizzo di posta elettronica" Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+   	<md:RequestedAttribute FriendlyName="Domicilio digitale" Name="digitalAddress" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+   	<md:RequestedAttribute FriendlyName="Data di scadenza identità" Name="expirationDate" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+   	<md:RequestedAttribute FriendlyName="Indirizzo domicilio fisico" Name="domicileStreetAddress" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+   	<md:RequestedAttribute FriendlyName="CAP domicilio fisico" Name="domicilePostalCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+   	<md:RequestedAttribute FriendlyName="Comune domicilio fisico" Name="domicileMunicipality" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+   	<md:RequestedAttribute FriendlyName="Provincia domicilio fisico" Name="domicileProvince" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+   	<md:RequestedAttribute FriendlyName="Nazione domicilio fisico" Name="domicileNation" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+   	</md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Villa D\\'Ogna</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Villa D\\'Ogna</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.comune.villadogna.bg.it</md:OrganizationURL>
+  </md:Organization>
+  <md:ContactPerson contactType="other">
+    <md:Extensions>
+      <spid:IPACode>c_l938</spid:IPACode>
+      <spid:Public/>
+    </md:Extensions>
+    <md:Company>Comune di Villa D\\'Ogna</md:Company>
+    <md:EmailAddress>protocollo.villadogna@pec.it</md:EmailAddress>
+  </md:ContactPerson>
+</md:EntityDescriptor>
