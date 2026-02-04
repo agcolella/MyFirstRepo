@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" ID="_6b2919ea967c5f636531fb752ef3e6851194398b77d93b0063a03ddb05f2f6f7" entityID="https://acciano.halleyweb.it"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#_6b2919ea967c5f636531fb752ef3e6851194398b77d93b0063a03ddb05f2f6f7">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>NmbeGj3d1qVZQC0JX2JEP8YgWqm9nbghVoFYoaq/Dd8=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+B9RvVHECjFu35KbqG28v+hYWNbTLPfW3LXCI908yNLkprgiV14fVb4/O3776yogjT6VvvO1X7EpL
+c83Y/mG92pqkoRvX8utgWiguBLqcyLropEdsvEj+wN3JFbWTXarXw63Cq18KtWCGvn9vX6U0IxWz
+eFAfEGbXmzt68CHxg/hImtVUj2JQbxikFGiRKrR7IAPM6mWgNZOJxg0iaTbspl/NH7XdraZ2DH8Q
+0BfBpS8dP2vz+K8odxslAP5wyZAUiMonXUovweJChXhfZxv9IoDH3V/pVwBz+dZTaN51MbQ0gljY
+3YxpDyY1a6L5tUWhLR0CBuibfVGtveCx+mr4hg==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+p0j5fWxMjpk8FIuW3pHrLzYODolmUYhMPO8wSOdZ1/QH6TStmj+EBPICz73Fpvl7Kz/OZ7fYnsDy
+fCr0Ln3hMD28Y3HorBjS61sxJEff/5orTphSSd9asKGz9QTWGoZZ2MlqwuQlKd6hADSRzwpRdkYR
+Q1g559Mwa7aMfHaNAyFC+p84K1W/ehn/dONXrJNbkmiNm7cw0ooIT98bItjOBtV5fYBeQtLoCUct
+Iid4NM2Mo7JHI0xyluNDifBcb4pKMbh/0M0+4RBKlL+emK1KWWiOHQDMSjcX2DCfOD0FVipQ8VuV
+6+kVPiHp0dagCv2efhjLu69fI5Q7jT6hqfq1tw==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDpzCCAo+gAwIBAgIJALNdbVXGv5yCMA0GCSqGSIb3DQEBCwUAMGoxCzAJBgNVBAYTAklUMQ4w
+DAYDVQQIDAVJdGFseTEQMA4GA1UEBwwHQWNjaWFubzEaMBgGA1UECgwRQ29tdW5lIGRpIEFjY2lh
+bm8xHTAbBgNVBAMMFGFjY2lhbm8uaGFsbGV5d2ViLml0MB4XDTI0MDUyMjA5MTA0N1oXDTM0MDUy
+MjA5MTA0N1owajELMAkGA1UEBhMCSVQxDjAMBgNVBAgMBUl0YWx5MRAwDgYDVQQHDAdBY2NpYW5v
+MRowGAYDVQQKDBFDb211bmUgZGkgQWNjaWFubzEdMBsGA1UEAwwUYWNjaWFuby5oYWxsZXl3ZWIu
+aXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCnSPl9bEyOmTwUi5bekesvNg4OiWZR
+iEw87zBI51nX9AfpNK2aP4QE8gLPvcWm+XsrP85nt9iewPJ8KvQufeEwPbxjceisGNLrWzEkR9//
+mitOmFJJ31qwobP1BNYahlnYyWrC5CUp3qEANJHPClF2RhFDWDnn0zBrtox8do0DIUL6nzgrVb96
+Gf9041esk1uSaI2btzDSighP3xsi2M4G1Xl9gF5C0ugJRy0iJ3g0zYyjskcjTHKW40OJ8Fxvikox
+uH/QzT7hEEqUv56YrUpZaI4dAMxKNxfYMJ84PQVWKlDxW5Xr6RU+IenR1qAK/Z5+GMu7r18jlDuN
+PqGp+rW3AgMBAAGjUDBOMB0GA1UdDgQWBBSFNfXtVc+WCgBqYnyNeidPfj401DAfBgNVHSMEGDAW
+gBSFNfXtVc+WCgBqYnyNeidPfj401DAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQCc
+Cdg4p10C5ydH4Kcl+Lk+3UVoJdBGNmwuou/eHkUsqN7ffBRK5czq+TbUTGjXKAaoB/X71wD54ghK
+bO7uyKgk4qhyU4Y7q65dWJm/wTpwdQz65BL9eccbullrqpvAGmS55uUZxhqK572hswdJEBc7OF1B
++VBXfI3RVpQN+OCTehTgBDzIjp8JL1XpdrOkOrPyNO2jcB+scEbuD7E3pEa/+gdalz4Op23wWZoY
+l4kRjEj6XDCcMHLf6Jmcqq//zRW30C3oHb69Zaq021tdQAJMqAYVYodozNnhFEiXa+zwR7IxmV20
+xR+oQuoMxzPyhWms+BmOC1R60hTkBtK73aPZ
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDpzCCAo+gAwIBAgIJALNdbVXGv5yCMA0GCSqGSIb3DQEBCwUAMGoxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEQMA4GA1UEBwwHQWNjaWFubzEaMBgGA1UECgwRQ29tdW5lIGRpIEFjY2lhbm8xHTAbBgNVBAMMFGFjY2lhbm8uaGFsbGV5d2ViLml0MB4XDTI0MDUyMjA5MTA0N1oXDTM0MDUyMjA5MTA0N1owajELMAkGA1UEBhMCSVQxDjAMBgNVBAgMBUl0YWx5MRAwDgYDVQQHDAdBY2NpYW5vMRowGAYDVQQKDBFDb211bmUgZGkgQWNjaWFubzEdMBsGA1UEAwwUYWNjaWFuby5oYWxsZXl3ZWIuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCnSPl9bEyOmTwUi5bekesvNg4OiWZRiEw87zBI51nX9AfpNK2aP4QE8gLPvcWm+XsrP85nt9iewPJ8KvQufeEwPbxjceisGNLrWzEkR9//mitOmFJJ31qwobP1BNYahlnYyWrC5CUp3qEANJHPClF2RhFDWDnn0zBrtox8do0DIUL6nzgrVb96Gf9041esk1uSaI2btzDSighP3xsi2M4G1Xl9gF5C0ugJRy0iJ3g0zYyjskcjTHKW40OJ8FxvikoxuH/QzT7hEEqUv56YrUpZaI4dAMxKNxfYMJ84PQVWKlDxW5Xr6RU+IenR1qAK/Z5+GMu7r18jlDuNPqGp+rW3AgMBAAGjUDBOMB0GA1UdDgQWBBSFNfXtVc+WCgBqYnyNeidPfj401DAfBgNVHSMEGDAWgBSFNfXtVc+WCgBqYnyNeidPfj401DAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQCcCdg4p10C5ydH4Kcl+Lk+3UVoJdBGNmwuou/eHkUsqN7ffBRK5czq+TbUTGjXKAaoB/X71wD54ghKbO7uyKgk4qhyU4Y7q65dWJm/wTpwdQz65BL9eccbullrqpvAGmS55uUZxhqK572hswdJEBc7OF1B+VBXfI3RVpQN+OCTehTgBDzIjp8JL1XpdrOkOrPyNO2jcB+scEbuD7E3pEa/+gdalz4Op23wWZoYl4kRjEj6XDCcMHLf6Jmcqq//zRW30C3oHb69Zaq021tdQAJMqAYVYodozNnhFEiXa+zwR7IxmV20xR+oQuoMxzPyhWms+BmOC1R60hTkBtK73aPZ</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDpzCCAo+gAwIBAgIJALNdbVXGv5yCMA0GCSqGSIb3DQEBCwUAMGoxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEQMA4GA1UEBwwHQWNjaWFubzEaMBgGA1UECgwRQ29tdW5lIGRpIEFjY2lhbm8xHTAbBgNVBAMMFGFjY2lhbm8uaGFsbGV5d2ViLml0MB4XDTI0MDUyMjA5MTA0N1oXDTM0MDUyMjA5MTA0N1owajELMAkGA1UEBhMCSVQxDjAMBgNVBAgMBUl0YWx5MRAwDgYDVQQHDAdBY2NpYW5vMRowGAYDVQQKDBFDb211bmUgZGkgQWNjaWFubzEdMBsGA1UEAwwUYWNjaWFuby5oYWxsZXl3ZWIuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCnSPl9bEyOmTwUi5bekesvNg4OiWZRiEw87zBI51nX9AfpNK2aP4QE8gLPvcWm+XsrP85nt9iewPJ8KvQufeEwPbxjceisGNLrWzEkR9//mitOmFJJ31qwobP1BNYahlnYyWrC5CUp3qEANJHPClF2RhFDWDnn0zBrtox8do0DIUL6nzgrVb96Gf9041esk1uSaI2btzDSighP3xsi2M4G1Xl9gF5C0ugJRy0iJ3g0zYyjskcjTHKW40OJ8FxvikoxuH/QzT7hEEqUv56YrUpZaI4dAMxKNxfYMJ84PQVWKlDxW5Xr6RU+IenR1qAK/Z5+GMu7r18jlDuNPqGp+rW3AgMBAAGjUDBOMB0GA1UdDgQWBBSFNfXtVc+WCgBqYnyNeidPfj401DAfBgNVHSMEGDAWgBSFNfXtVc+WCgBqYnyNeidPfj401DAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQCcCdg4p10C5ydH4Kcl+Lk+3UVoJdBGNmwuou/eHkUsqN7ffBRK5czq+TbUTGjXKAaoB/X71wD54ghKbO7uyKgk4qhyU4Y7q65dWJm/wTpwdQz65BL9eccbullrqpvAGmS55uUZxhqK572hswdJEBc7OF1B+VBXfI3RVpQN+OCTehTgBDzIjp8JL1XpdrOkOrPyNO2jcB+scEbuD7E3pEa/+gdalz4Op23wWZoYl4kRjEj6XDCcMHLf6Jmcqq//zRW30C3oHb69Zaq021tdQAJMqAYVYodozNnhFEiXa+zwR7IxmV20xR+oQuoMxzPyhWms+BmOC1R60hTkBtK73aPZ</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://acciano.halleyweb.it/spid/module.php/saml/sp/saml2-logout.php/spid"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://acciano.halleyweb.it/spid/module.php/saml/sp/saml2-acs.php/spid" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://acciano.halleyweb.it/spid/module.php/saml/sp/saml2-acs.php/spid" index="1"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">Servizi online</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Servizi online</md:ServiceDescription>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Codice identificativo SPID" Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Ragione o denominazione sociale" Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Acciano</md:OrganizationName>
+    <md:OrganizationName xml:lang="en">Comune di Acciano</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Acciano</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Acciano</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.comune.acciano.aq.it/</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="en">https://www.comune.acciano.aq.it/</md:OrganizationURL>
+  </md:Organization>
+  <md:ContactPerson contactType="other">
+    <md:Extensions>
+      <spid:IPACode>c_a018</spid:IPACode>
+      <spid:Public/>
+    </md:Extensions>
+    <md:Company>Comune di Acciano</md:Company>
+    <md:EmailAddress>egov@halley.it</md:EmailAddress>
+  </md:ContactPerson>
+</md:EntityDescriptor>
