@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" ID="_0ff4a7a3c2be4ca489363df5cb0423d2" entityID="https://spid.ads.it/pub-ag-lite/c_b249"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#_0ff4a7a3c2be4ca489363df5cb0423d2">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>WJiv6mnm2xraAj3CONduC2fIyJ/M7641anxe97Ln428=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+CF1uX9nyXi14Gpi1uVab9MG0QgLMBbpKjRkVvhdH01a5ofX0DIWYU6HMCht9tPMdgsUHKsips4Nq
+X0H1Kn8cWxnOjcE6XkheZPc+UBMeNh7dDegfot4RrItGD/uQ2VMTBJr5rY/eLldKFfiSKolM2HVQ
+wfSQFFTodFIpomja95Hhs9P4kDpOp+x+hMV/psPg3CIxKk5PZRjHVBNFV25tAuFAncrvZeZ9NJEk
+DErTxn28/uMvuUt07CbhS2k8ZMvuKHpD8yIV7ktKnlZr4EkJ3sg9rIK1hDdhwHxjs6Brv3uXz61u
+9PbtjR/1inV533H2OQ0PLusmhZ/UhtEw44+ca0pp4ShFcqXHko8PHML6SBXubQqCoq4qtSNNr8Np
+ehzxho9bXMjCIiAZj+ALZul3rwFcHO6J929C+opUWZRh0TsxJPXLOw1RHRA9BmeODxb5zWtKFBPl
+1gBVUBlIZjz3ohBqg3BQgIUz/XwN1NNRNJndGGk0/7Si89JW1x1kRTuS
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+s4tU1rF4tjVmRlf5Jxz+d4/eqdKTyc+fGyF6l2wh2aAMPpOwYiWAZl6ujPfnUAXQbfi9QgsbqHNC
+vN4SKhoBnz3qjlxviAvvCvL3a1LXjfNr3LxbvjnKdgGN5du5wnXG1bNl8L40EOX+cZuHvBHOUr0+
+zHwqD3rtLZz+dyprv0O1+5crXeOOGy70owVJ6bdYTpDAVjFWVD6Ne47v8Si65+Isn4Au82GfFbsI
+WAEi0rcp0k86ldwXe4ewuIbjsQ4tJuKRFQD1Vmt/yzprRyp6RQcnIIKatno2rUKA1ejx8BYKRMDX
+5ChndI1dglLe8yLwKGi+dSfwJyvMZ0bmRA54D0Sr2j5qvKQk6gy5ma64Jzdgns0nmJ+Y6uJhVNOr
+9cjMc69NtxlY3pBHxfBbrsx+XfX5iZwbqXNlgXAA2UluYv4j9Ns8bDpfPql5wy68oTWplylNKUv8
+LgMju5WFlqy028NsWNQW0ZWv/7gCHe0uTD6BhB+PRtH8s4qBkt+FchAP
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIEsDCCA5igAwIBAgIBPTANBgkqhkiG9w0BAQsFADCB3TELMAkGA1UEBhMCSVQxCzAJBgNVBAgM
+AkJPMRAwDgYDVQQHDAdCb2xvZ25hMSkwJwYDVQQKDCBBRFMgQXV0b21hdGVkIERhdGEgU3lzdGVt
+cyBTLnAuQTEpMCcGA1UEAwwgQURTIEF1dG9tYXRlZCBEYXRhIFN5c3RlbXMgUy5wLkExHzAdBgkq
+hkiG9w0BCQEWEHNwaWQudGVjaEBhZHMuaXQxGjAYBgNVBGEMEVZBVElULTAwODkwMzcwMzcyMRww
+GgYDVQRTDBNodHRwczovL3NwaWQuYWRzLml0MB4XDTI0MDUyMTA5MjgyOVoXDTI3MDUyMTA5Mjgy
+OVowgZwxGTAXBgNVBAMMEENvbXVuZSBkaSBCdWRyaW8xCzAJBgNVBAYTAklUMQ8wDQYDVQQHDAZC
+dWRyaW8xFTATBgNVBGEMDFBBOklULWNfYjI0OTEZMBcGA1UECgwQQ29tdW5lIGRpIEJ1ZHJpbzEv
+MC0GA1UEUwwmaHR0cHM6Ly9zcGlkLmFkcy5pdC9wdWItYWctbGl0ZS9jX2IyNDkwggGiMA0GCSqG
+SIb3DQEBAQUAA4IBjwAwggGKAoIBgQCzi1TWsXi2NWZGV/knHP53j96p0pPJz58bIXqXbCHZoAw+
+k7BiJYBmXq6M9+dQBdBt+L1CCxuoc0K83hIqGgGfPeqOXG+IC+8K8vdrUteN82vcvFu+Ocp2AY3l
+27nCdcbVs2XwvjQQ5f5xm4e8Ec5SvT7MfCoPeu0tnP53Kmu/Q7X7lytd444bLvSjBUnpt1hOkMBW
+MVZUPo17ju/xKLrn4iyfgC7zYZ8VuwhYASLStynSTzqV3Bd7h7C4huOxDi0m4pEVAPVWa3/LOmtH
+KnpFBycggpq2ejatQoDV6PHwFgpEwNfkKGd0jV2CUt7zIvAoaL51J/AnK8xnRuZEDngPRKvaPmq8
+pCTqDLmZrrgnN2CezSeYn5jq4mFU06v1yMxzr023GVjekEfF8FuuzH5d9fmJnBupc2WBcADZSW5i
+/iP02zxsOl8+qXnDLryhNamXKU0pS/wuAyO7lYWWrLTbw2xY1BbRla//uAId7S5MPoGEH49G0fyz
+ioGS34VyEA8CAwEAAaM6MDgwCQYDVR0TBAIwADAOBgNVHQ8BAf8EBAMCBsAwGwYDVR0gBBQwEjAG
+BgQrTBAGMAgGBitMEAQCATANBgkqhkiG9w0BAQsFAAOCAQEAFCdcUG1lddPFBMTbOnuQ7ep9yBod
+5EQHLe4njns0AOmTAVE6RaQtLsM84LwWBKxnVXH5parkoVIxu3P3Ri4gOmUyS9v6K6NrTGxuVyLB
+i7HwaOXXgR6ePrBbPXhnkwRWAK0+0pBq3cIp2J9sI9KcPynL2qjSliLL6SriPKrUzH7MAyel8feX
+pAGqY44Deo9oyr5ockLYMegHzZmzblv+Kj0oF1N+ZPThfwmiMsd/T0Y/Gaz07T5K9+gN9Cdf/fS4
+UieMabe+5r6zN7Dmong8HPw3n+nl4sjTAWGSgdzlbafJmT4k9xzDAFa4Q6zoVILa9MlPP4G8Q9YI
+7YBTYvFJsw==
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIIEsDCCA5igAwIBAgIBPTANBgkqhkiG9w0BAQsFADCB3TELMAkGA1UEBhMCSVQx
+CzAJBgNVBAgMAkJPMRAwDgYDVQQHDAdCb2xvZ25hMSkwJwYDVQQKDCBBRFMgQXV0
+b21hdGVkIERhdGEgU3lzdGVtcyBTLnAuQTEpMCcGA1UEAwwgQURTIEF1dG9tYXRl
+ZCBEYXRhIFN5c3RlbXMgUy5wLkExHzAdBgkqhkiG9w0BCQEWEHNwaWQudGVjaEBh
+ZHMuaXQxGjAYBgNVBGEMEVZBVElULTAwODkwMzcwMzcyMRwwGgYDVQRTDBNodHRw
+czovL3NwaWQuYWRzLml0MB4XDTI0MDUyMTA5MjgyOVoXDTI3MDUyMTA5MjgyOVow
+gZwxGTAXBgNVBAMMEENvbXVuZSBkaSBCdWRyaW8xCzAJBgNVBAYTAklUMQ8wDQYD
+VQQHDAZCdWRyaW8xFTATBgNVBGEMDFBBOklULWNfYjI0OTEZMBcGA1UECgwQQ29t
+dW5lIGRpIEJ1ZHJpbzEvMC0GA1UEUwwmaHR0cHM6Ly9zcGlkLmFkcy5pdC9wdWIt
+YWctbGl0ZS9jX2IyNDkwggGiMA0GCSqGSIb3DQEBAQUAA4IBjwAwggGKAoIBgQCz
+i1TWsXi2NWZGV/knHP53j96p0pPJz58bIXqXbCHZoAw+k7BiJYBmXq6M9+dQBdBt
++L1CCxuoc0K83hIqGgGfPeqOXG+IC+8K8vdrUteN82vcvFu+Ocp2AY3l27nCdcbV
+s2XwvjQQ5f5xm4e8Ec5SvT7MfCoPeu0tnP53Kmu/Q7X7lytd444bLvSjBUnpt1hO
+kMBWMVZUPo17ju/xKLrn4iyfgC7zYZ8VuwhYASLStynSTzqV3Bd7h7C4huOxDi0m
+4pEVAPVWa3/LOmtHKnpFBycggpq2ejatQoDV6PHwFgpEwNfkKGd0jV2CUt7zIvAo
+aL51J/AnK8xnRuZEDngPRKvaPmq8pCTqDLmZrrgnN2CezSeYn5jq4mFU06v1yMxz
+r023GVjekEfF8FuuzH5d9fmJnBupc2WBcADZSW5i/iP02zxsOl8+qXnDLryhNamX
+KU0pS/wuAyO7lYWWrLTbw2xY1BbRla//uAId7S5MPoGEH49G0fyzioGS34VyEA8C
+AwEAAaM6MDgwCQYDVR0TBAIwADAOBgNVHQ8BAf8EBAMCBsAwGwYDVR0gBBQwEjAG
+BgQrTBAGMAgGBitMEAQCATANBgkqhkiG9w0BAQsFAAOCAQEAFCdcUG1lddPFBMTb
+OnuQ7ep9yBod5EQHLe4njns0AOmTAVE6RaQtLsM84LwWBKxnVXH5parkoVIxu3P3
+Ri4gOmUyS9v6K6NrTGxuVyLBi7HwaOXXgR6ePrBbPXhnkwRWAK0+0pBq3cIp2J9s
+I9KcPynL2qjSliLL6SriPKrUzH7MAyel8feXpAGqY44Deo9oyr5ockLYMegHzZmz
+blv+Kj0oF1N+ZPThfwmiMsd/T0Y/Gaz07T5K9+gN9Cdf/fS4UieMabe+5r6zN7Dm
+ong8HPw3n+nl4sjTAWGSgdzlbafJmT4k9xzDAFa4Q6zoVILa9MlPP4G8Q9YI7YBT
+YvFJsw==
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://servizi.comune.budrio.bo.it/Shibboleth.sso/SLO/POST"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://servizi.comune.budrio.bo.it/Shibboleth.sso/SAML2/POST" index="0" isDefault="true"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">Comune di Budrio</md:ServiceName>
+      <md:RequestedAttribute Name="spidCode"/>
+      <md:RequestedAttribute Name="name"/>
+      <md:RequestedAttribute Name="familyName"/>
+      <md:RequestedAttribute Name="fiscalNumber"/>
+      <md:RequestedAttribute Name="email"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="99">
+      <md:ServiceName xml:lang="it">eIDAS Natural Person Minimum Attribute Set</md:ServiceName>
+      <md:RequestedAttribute Name="dateOfBirth"/>
+      <md:RequestedAttribute Name="familyName"/>
+      <md:RequestedAttribute Name="name"/>
+      <md:RequestedAttribute Name="spidCode"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="100">
+      <md:ServiceName xml:lang="it">eIDAS Natural Person Full Attribute Set</md:ServiceName>
+      <md:RequestedAttribute Name="address"/>
+      <md:RequestedAttribute Name="dateOfBirth"/>
+      <md:RequestedAttribute Name="familyName"/>
+      <md:RequestedAttribute Name="gender"/>
+      <md:RequestedAttribute Name="name"/>
+      <md:RequestedAttribute Name="placeOfBirth"/>
+      <md:RequestedAttribute Name="spidCode"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Budrio</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Budrio</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.comune.budrio.bo.it</md:OrganizationURL>
+  </md:Organization>
+  <md:ContactPerson contactType="other" spid:entityType="spid:aggregator">
+    <md:Extensions>
+      <spid:VATNumber>IT00890370372</spid:VATNumber>
+      <spid:FiscalCode>00890370372</spid:FiscalCode>
+      <spid:PublicServicesLightAggregator/>
+    </md:Extensions>
+    <md:Company>ADS Automated Data Systems S.p.A</md:Company>
+    <md:EmailAddress>spid.tech@ads.it</md:EmailAddress>
+    <md:TelephoneNumber>+390516307411</md:TelephoneNumber>
+  </md:ContactPerson>
+  <md:ContactPerson contactType="other" spid:entityType="spid:aggregated">
+     <md:Extensions>
+        <spid:IPACode>c_b249</spid:IPACode>
+        <spid:Public/>
+     </md:Extensions>
+     <md:Company>Comune di Budrio</md:Company>
+  </md:ContactPerson>
+</md:EntityDescriptor>
