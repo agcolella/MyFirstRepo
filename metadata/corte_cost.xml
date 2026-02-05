@@ -1,0 +1,76 @@
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" ID="pfxe87a7549-0b90-2376-2917-8492fa579009" entityID="https://ecost.cortecostituzionale.it">
+<ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#pfxe87a7549-0b90-2376-2917-8492fa579009">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>C188p6/fj4BW+uCGUDwWasMf9LmwDgDsEHm4sN3hmpc=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue> ZUbzyzXiJMfc/v0NnlCSTFPprlr8k0NhksoEHoYGBDH8NWJLPH7k/UD0XgGWPWet3hMW9lUzkXMU nSjHXtOuDn32DMR9EnmrkbgH0Dco5b34Pt5Vee8PdqLTdJhCOwHa9N0aPHOANrC+IC3YO9dpPip4 y4WsYG0wfq5FNIsJxDTYamqA6PNd5wZNgq22pHQKZGyfLFl+YS/u47fwKaD00H59fJAIeCup4Y0Q HITlmOrbJEVQqmCNTU5ZZBxgnURbrWh+1NGaU5iZZp1iHopPftgfJIdC7TDYU4OuIspZ7iQ1hihW Lbu9JvAorV8HGWAUtvL310/OACUZ3J6398/bzkFYH57Tw6ghRHhawz+cO01a5x9A52fUhADMcC96 WqeRsBs6ehXjXHE6pBM0MmHJ61PfovpZpcRVr9kyEFYuwx51aXJ/OFwbjpDe3TRVRplhfkEW5zlC 4l4mEc5gleBnla2zNqCPcmKEDZmmodGYuD7gu589zzdRd2AHh9nH/UF+ZfyIEswsUTSlawnaWlIr XuMYf/uDqOfZP6j6XYOo5zx4WI78tclKPhFxmMhDs7C280BIMJF1H0xZ1NbeGbG8n6FSYgGcjvN7 V5J/6xzIxatu+hPTlLyEdOLXNK4X6BL7tk/FxblyE3jJcwFu6q41YGNHDjrBY0W6QkcDznJIn8Q= </ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus> 3srKtPlfHvNRVoWsNk0fAcZB2E+Wo3nGMBgHZXOWXgBZGrv5aKtUYAGeUqW0OsTQ++YzHkwZ4orn L2Vni/SqEHEp1CeiqU6V0dSfcE9kvQN5cEzw/yp4oii9VQVBavYujaVExnO8G/O9hra+9NC8beCD 2O5eHdm9xXZ6Yr0dgcbOHz94m0ERQoFWMiYVANPibCgRg23Wd590VDZ6mtzb+MUX3lqtgsIXbwdk H1aT/0sfycjPgeNlKWMa+q426Ie1cDbd4WjLlN3n9tathazLCYXiZgfOUbFpRmOmfr+P9NO4wNa7 m6JIm1VfAOPCQoMzSOoiFucKhLGnZwCxp9D4WO/dp8pFE4xHmCx6JtipFhoZyU5bJHjq+IQoPWzl 3C0JXd9Niiq5Tj6Ei5KTK8wsU/YEfmNnfjYjWS9mrRLTh1V5lcWlu9CTZnzreOPVw58kRaWjTLP9 RVoDgalYitcg5E0Vi7//KKVfoF0O9CSqOD64eQV+JiMGq3sw/68KiJOcp0KamaSGzTpvIyU6nOhl uZx+UEPXrYLy+IgtTx+o5tG7+uPWWVRl62bK+yVd4cHmKhsIMRApaRx3zbrJ5iNk5BQC7IuDUeFk GRvraVaiLk3ZkDxUQztlbriF1tR9GlhFN0awS9vZOEQZUlRKaEVq2nDSceqjgn3URdJ0facM9v8= </ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate> MIIGLzCCBBegAwIBAgIUNv3JRdrtuUT2SmgYWYFcVbkd/5gwDQYJKoZIhvcNAQELBQAwgaYxCzAJ BgNVBAYTAklUMQ0wCwYDVQQIDARSb21hMQ0wCwYDVQQHDARSb21hMR0wGwYDVQQKDBRDb3J0ZSBj b3N0aXR1emlvbmFsZTENMAsGA1UECwwEU3BpZDEfMB0GA1UEAwwWY29ydGVjb3N0aXR1emlvbmFs ZS5pdDEqMCgGCSqGSIb3DQEJARYbc3BpZEBjb3J0ZWNvc3RpdHV6aW9uYWxlLml0MB4XDTI0MTAw MzE1MTcxNFoXDTM0MTAwMTE1MTcxNFowgaYxCzAJBgNVBAYTAklUMQ0wCwYDVQQIDARSb21hMQ0w CwYDVQQHDARSb21hMR0wGwYDVQQKDBRDb3J0ZSBjb3N0aXR1emlvbmFsZTENMAsGA1UECwwEU3Bp ZDEfMB0GA1UEAwwWY29ydGVjb3N0aXR1emlvbmFsZS5pdDEqMCgGCSqGSIb3DQEJARYbc3BpZEBj b3J0ZWNvc3RpdHV6aW9uYWxlLml0MIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEA3srK tPlfHvNRVoWsNk0fAcZB2E+Wo3nGMBgHZXOWXgBZGrv5aKtUYAGeUqW0OsTQ++YzHkwZ4ornL2Vn i/SqEHEp1CeiqU6V0dSfcE9kvQN5cEzw/yp4oii9VQVBavYujaVExnO8G/O9hra+9NC8beCD2O5e Hdm9xXZ6Yr0dgcbOHz94m0ERQoFWMiYVANPibCgRg23Wd590VDZ6mtzb+MUX3lqtgsIXbwdkH1aT /0sfycjPgeNlKWMa+q426Ie1cDbd4WjLlN3n9tathazLCYXiZgfOUbFpRmOmfr+P9NO4wNa7m6JI m1VfAOPCQoMzSOoiFucKhLGnZwCxp9D4WO/dp8pFE4xHmCx6JtipFhoZyU5bJHjq+IQoPWzl3C0J Xd9Niiq5Tj6Ei5KTK8wsU/YEfmNnfjYjWS9mrRLTh1V5lcWlu9CTZnzreOPVw58kRaWjTLP9RVoD galYitcg5E0Vi7//KKVfoF0O9CSqOD64eQV+JiMGq3sw/68KiJOcp0KamaSGzTpvIyU6nOhluZx+ UEPXrYLy+IgtTx+o5tG7+uPWWVRl62bK+yVd4cHmKhsIMRApaRx3zbrJ5iNk5BQC7IuDUeFkGRvr aVaiLk3ZkDxUQztlbriF1tR9GlhFN0awS9vZOEQZUlRKaEVq2nDSceqjgn3URdJ0facM9v8CAwEA AaNTMFEwHQYDVR0OBBYEFK48mLc2EPtSVejfF3XBK0sdKtkYMB8GA1UdIwQYMBaAFK48mLc2EPtS VejfF3XBK0sdKtkYMA8GA1UdEwEB/wQFMAMBAf8wDQYJKoZIhvcNAQELBQADggIBAI4e3VEvy5ny IbBv4yEeu2ah46q4J3ZqAeJtI/+2zc+jWn5MAA4JsBXgnj57fslnosLbEMRLsjLUarVeIiY2vYBE pzzcHXAW9FspI2s2hvJTY126okr/OcESEERxKaiiGeKBh+5jwE8Ao20nZNy7MFHOXKJWW7qNngpm imDqg9ekSsE5ZxAH3Tj18w3eCYOoetdEHU8CvbPysZIFJmJqeybbrV6QRWyffvZFfg5A6nCq8/B2 ByD185jgvolatyLU9WZpyJK1HNq8VlYYaYq1OJFMIbqi+z4jzdTZ1KV7k8YfrZn8h8zdLQoxHLA4 42NHCQDnKEBewknkzEnvbioGfqUj2BdwjA4hkgtkYYxqinNo2sdBlaenTkmx4YdCXk9J6XP9Oa4h U0bDSHw10O/+bUUnxY5PqdR+5+1N9OGPdn0FvpVqYRo191UWg2NR4kxDfIX9lo0GAyZe/VGKo3nZ 0WW0wfFibToCbSAMhfrbyy2dkN0YVuCN4x6mwJz828AukestG/dIO4cJtPL3PU6WL+9OmeCyl06e 5E19sxsYKQK2izUF5GjfnzmzrbCnsOeJedP1YRB/YxQ2uUo1xG20SbzRf+EK5DOZvduXWi20dPE2 Cvjb+qbl9nGkpq7BnnHHwB6WhbrzQQ2uRVgVn+p17LA2L9deDdQIgBpFEFGZ1P2t </ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+<md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+<md:KeyDescriptor use="signing">
+<ds:KeyInfo>
+<ds:X509Data>
+<ds:X509Certificate>MIIDsTCCApmgAwIBAgIEBGSdYzANBgkqhkiG9w0BAQsFADCBiDELMAkGA1UEBhMC SVQxDTALBgNVBAgTBFJvbWExDTALBgNVBAcTBFJvbWExHTAbBgNVBAoTFENvcnRl IGNvc3RpdHV6aW9uYWxlMR0wGwYDVQQLExRDb3J0ZSBjb3N0aXR1emlvbmFsZTEd MBsGA1UEAxMUQ29ydGUgY29zdGl0dXppb25hbGUwHhcNMjEwOTE1MTUzOTEzWhcN MjExMjE0MTUzOTEzWjCBiDELMAkGA1UEBhMCSVQxDTALBgNVBAgTBFJvbWExDTAL BgNVBAcTBFJvbWExHTAbBgNVBAoTFENvcnRlIGNvc3RpdHV6aW9uYWxlMR0wGwYD VQQLExRDb3J0ZSBjb3N0aXR1emlvbmFsZTEdMBsGA1UEAxMUQ29ydGUgY29zdGl0 dXppb25hbGUwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCYD/be39Nh 9AfRO+nr4oQiwXxC/UsFs2rqU7g8mbYv0HgKFJwROqekKnso1rH/Bslyyl/UFfEB gbb9ysBFjISnklTLgHsUekPN0fv+MHXcYbRYz+Xt3s6hA/IXlSdMmK6esvdi25G4 Kze2ZwVMEVSve9WY6kOUywO6eqvkA2IujgFQ0Vs2GkmkVc7d9xer7SaxLAj1T9wS XmQ84fP71Y0tk4GnZxLOu21aq19u0foudD4FsYXciZcmXMqaF3ILtxZMs5Wghg0N fPMFwKn0oprO1R1SBkAUST5Z3MvMTmc5SDPW2GXmHF9Rin4ONOaS53aJIrN+EYBw b2E2cANBIi2FAgMBAAGjITAfMB0GA1UdDgQWBBSB6ME+yY49F1I2l5p0P1qzyERn hzANBgkqhkiG9w0BAQsFAAOCAQEAN7aIDWi6u2ADSnCkiqSejFagYZ4lJUNOdRa7 qHGTJbg0uBcaFd1BE4dFWh+teMbtYq4hlfXv7RBD9MkoflRS09WAtvHucsi+XZNG uwDWn2VYcF6MD8ZUk6TKdCyJe4k1VMBy/AL6Sy4PjDigRVn402QLcSZ0jENJ2uWl YHNg1Z36BQM7ROjMUhbozRWviwFVV9Gvt+NesFgbeCQK9lGK5f+qe7DS2UI2L8aV EP2rwAXI0URSA+tNIqttYxSTxqktbOhd7XUA0mps9j56M0y1Hi/llY6XKEJzVTsv OQW4kQP9AERj7upv4ueSh4UmpKaW+vBgUJLwYEqArV2WdwEGYA==</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</md:KeyDescriptor>
+<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://ecost.cortecostituzionale.it/spidLogoutService" ResponseLocation="https://ecost.cortecostituzionale.it/spidLogoutService"/>
+<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://ecost.cortecostituzionale.it/spidLogoutService" ResponseLocation="https://ecost.cortecostituzionale.it/spidLogoutService"/>
+<md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://ecost.cortecostituzionale.it/spidAuthService" index="1"/>
+<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://ecost.cortecostituzionale.it/spidAuthService" index="0" isDefault="true"/>
+<md:AttributeConsumingService index="0">
+<md:ServiceName xml:lang="it">cortecostituzionale.it</md:ServiceName>
+<md:ServiceDescription xml:lang="it">cortecostituzionale.it</md:ServiceDescription>
+<md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+<md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+<md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+<md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+<md:RequestedAttribute Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+<md:RequestedAttribute Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+<md:RequestedAttribute Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+<md:RequestedAttribute Name="address" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+<md:RequestedAttribute Name="expirationDate" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+<md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+<md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+<md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+<md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+<md:RequestedAttribute Name="idCard" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+<md:RequestedAttribute Name="registeredOffice" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+<md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+<md:RequestedAttribute Name="digitalAddress" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+</md:AttributeConsumingService>
+</md:SPSSODescriptor>
+<md:Organization>
+<md:OrganizationName xml:lang="it">Corte costituzionale</md:OrganizationName>
+<md:OrganizationDisplayName xml:lang="it">Corte costituzionale</md:OrganizationDisplayName>
+<md:OrganizationURL xml:lang="it">https://www.cortecostituzionale.it</md:OrganizationURL>
+</md:Organization>
+<md:ContactPerson contactType="other">
+<md:Extensions>
+<spid:IPACode>corte_cost</spid:IPACode>
+<spid:Public/>
+</md:Extensions>
+<md:EmailAddress>spid@cortecostituzionale.it</md:EmailAddress>
+<md:TelephoneNumber>+393357428918</md:TelephoneNumber>
+</md:ContactPerson>
+</md:EntityDescriptor>
