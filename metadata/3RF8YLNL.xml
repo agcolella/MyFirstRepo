@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:spid="https://spid.gov.it/saml-extensions" entityID="https://www.enit.it" ID="pfx6f40c8d8-539f-f012-d85c-2a092214d15b"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+  <ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+    <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+  <ds:Reference URI="#pfx6f40c8d8-539f-f012-d85c-2a092214d15b"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>+if2Ld7LSG4gAkI5wm5XRBmIKYo5ut369xXy6Ma7pbI=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>ijmxSBsn8AShha6VUBDo0d5UZNWXoJW7Hu9P60aTThtrQzhLLBYpXGEq67Pq5xcsqqzNxIXQK+daSnxQhkiZFrDiF00nhZmsgqLvdWhXX8xfNwGg9gcsrOTwuRZKNDz0ELyrutP7slOSov07ZCU1Z6x5uRWYuyY2QNr7XKOp5UCCMrVdnpoBMXqLHodlJE91ApSR4GDtifqSM2sAp/mRCs1JCUmDytimxyOj6kBoZz9qWi8O+1dhP7BDiF1OZL4LQcaNgvoi/9xcRZbSKdF+elIQHELPF3s/U4IZUxkZJYSLcay3hpgPIRU+wJMZyaZnwb7wgeAffJaBCSloyXXDRTz9WsUwdBv/G6oDOem4ukiwZaYAiIVvnhgF/AYQlVjnfoT8xvFuzvvvpH9hyqlhvGBGJ4tsVfl23160Lko8VuF4N1Z9jCc/fT3KOj3O8SNdCBLILm3QEMjJEQmG9WyrQI+o+CkKPOgbG9v5uhDA1tdzTgCFKqbtL2u8xvaNkshD</ds:SignatureValue>
+<ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIFEzCCA3ugAwIBAgIUVkr/gQjLWouBW7rvyDxJ/CyklVEwDQYJKoZIhvcNAQENBQAwgYkxFDASBgNVBAMMC0VOSVQgUy5QLkEuMQswCQYDVQQGEwJJVDENMAsGA1UEBwwEUm9tYTEXMBUGA1UEYQwOUEE6SVQtM1JGOFlMTkwxFDASBgNVBAoMC0VOSVQgUy5QLkEuMSYwJAYDVQRTDB1odHRwczovL2VuaXQuaXQvc3BpZC9tZXRhZGF0YTAeFw0yNjAxMjIxNzQ2MTFaFw0yODAxMjIxNzQ2MTFaMIGJMRQwEgYDVQQDDAtFTklUIFMuUC5BLjELMAkGA1UEBhMCSVQxDTALBgNVBAcMBFJvbWExFzAVBgNVBGEMDlBBOklULTNSRjhZTE5MMRQwEgYDVQQKDAtFTklUIFMuUC5BLjEmMCQGA1UEUwwdaHR0cHM6Ly9lbml0Lml0L3NwaWQvbWV0YWRhdGEwggGiMA0GCSqGSIb3DQEBAQUAA4IBjwAwggGKAoIBgQDNGLjQgHlaMQJJ6DuLTRV+0rN4R/XdP2ZeU1oi1IsrjO++PAlCFegzRDAu/CMNPp4bkHk8j8H94B5oet79Wuy4meQn+/7d7L3a7sJxRHqrLQN2t4wpLdsZ/HArzORm49JAijRhbxPpucgpIS/7dby2bwYqI6Yf1O/TinxQbJXfyjn4oLGE2iiHoOsGSOiYb/9LX2QAhd7B4EpPqGWcBHS9CRFA3ModJJN1y2Ue+gpiOw/vWDJNuMz9SPkfvxLJDCmtLlteDEi44g7+aHw5Oz3I90XfBMZOIpsNy28kfYQqn2Feyy1WL7lWX8364QoagYXQ8jkwq5r7wL62BZkLAje/Ns/+PKNRHXcNLm8DcS9AO9Acoex+G81Vsth5fnTQIvuI2oBnY16MsnfM2TrKgIdJwU8caLGZxk4EeTPvZ7DYqxto/2fuqJ9y2pVS2GBjWuDLdv2cXiw6mtj9SGpCg79BvZV3DLzTNgVaJeIoQyrrVUwfuLfvr1w7NA1vIV7iwT8CAwEAAaNxMG8wCQYDVR0TBAIwADAOBgNVHQ8BAf8EBAMCBsAwUgYDVR0gBEswSTAgBgQrTBAGMBgwFgYIKwYBBQUHAgIwChoIYWdJRGNlcnQwJQYGK0wQBAIBMBswGQYIKwYBBQUHAgIwDRoLY2VydF9TUF9QdWIwDQYJKoZIhvcNAQENBQADggGBAKRIe6jcfeUTJySPv/u2KabR5dLaNXuJzqiS3ABb71Eiblw0FjpwMTR4iUQikYI4OFLwy6CWtwTbelDJ73/pU0SPk7BIK3srBREIzIuf2a6qsrRcQ2hyEwLL2wgSEqlj+I5VCVEtydAe6kXTpb/j2byquFn+4zyw98Nbub6j3pKcWQAV0gOCcT/lERSbTkuxG5//I8iF2sTB/lX6duyiULgv5rY9GQfAcHPy1oxaVTn5meM+fLoP0siIlUCkLL8L9CMrnCkDYkiZ8zI3spCvr4BymVLAJzuXGZXtq0SLovNsM0cpXSLB796AowDEDYczjs6FwKIUXPq34NDLI/dXiZs4MWxaTkAD0OIhajpHwhyVNiTmu+SrxUXOzzdF9jGJGX2RQ+91HKOHLVTc5Rd8NF1TuZ/eJipHpsFmy5dgzusIW1J21QXe3mis4q9otZh/xa61GU0CSiRiWuPpU5qfNIRcsbbJ8TOhGosIjDaRpTzlvxEsUR63kDXgYbw31BNNMQ==</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIFEzCCA3ugAwIBAgIUVkr/gQjLWouBW7rvyDxJ/CyklVEwDQYJKoZIhvcNAQENBQAwgYkxFDASBgNVBAMMC0VOSVQgUy5QLkEuMQswCQYDVQQGEwJJVDENMAsGA1UEBwwEUm9tYTEXMBUGA1UEYQwOUEE6SVQtM1JGOFlMTkwxFDASBgNVBAoMC0VOSVQgUy5QLkEuMSYwJAYDVQRTDB1odHRwczovL2VuaXQuaXQvc3BpZC9tZXRhZGF0YTAeFw0yNjAxMjIxNzQ2MTFaFw0yODAxMjIxNzQ2MTFaMIGJMRQwEgYDVQQDDAtFTklUIFMuUC5BLjELMAkGA1UEBhMCSVQxDTALBgNVBAcMBFJvbWExFzAVBgNVBGEMDlBBOklULTNSRjhZTE5MMRQwEgYDVQQKDAtFTklUIFMuUC5BLjEmMCQGA1UEUwwdaHR0cHM6Ly9lbml0Lml0L3NwaWQvbWV0YWRhdGEwggGiMA0GCSqGSIb3DQEBAQUAA4IBjwAwggGKAoIBgQDNGLjQgHlaMQJJ6DuLTRV+0rN4R/XdP2ZeU1oi1IsrjO++PAlCFegzRDAu/CMNPp4bkHk8j8H94B5oet79Wuy4meQn+/7d7L3a7sJxRHqrLQN2t4wpLdsZ/HArzORm49JAijRhbxPpucgpIS/7dby2bwYqI6Yf1O/TinxQbJXfyjn4oLGE2iiHoOsGSOiYb/9LX2QAhd7B4EpPqGWcBHS9CRFA3ModJJN1y2Ue+gpiOw/vWDJNuMz9SPkfvxLJDCmtLlteDEi44g7+aHw5Oz3I90XfBMZOIpsNy28kfYQqn2Feyy1WL7lWX8364QoagYXQ8jkwq5r7wL62BZkLAje/Ns/+PKNRHXcNLm8DcS9AO9Acoex+G81Vsth5fnTQIvuI2oBnY16MsnfM2TrKgIdJwU8caLGZxk4EeTPvZ7DYqxto/2fuqJ9y2pVS2GBjWuDLdv2cXiw6mtj9SGpCg79BvZV3DLzTNgVaJeIoQyrrVUwfuLfvr1w7NA1vIV7iwT8CAwEAAaNxMG8wCQYDVR0TBAIwADAOBgNVHQ8BAf8EBAMCBsAwUgYDVR0gBEswSTAgBgQrTBAGMBgwFgYIKwYBBQUHAgIwChoIYWdJRGNlcnQwJQYGK0wQBAIBMBswGQYIKwYBBQUHAgIwDRoLY2VydF9TUF9QdWIwDQYJKoZIhvcNAQENBQADggGBAKRIe6jcfeUTJySPv/u2KabR5dLaNXuJzqiS3ABb71Eiblw0FjpwMTR4iUQikYI4OFLwy6CWtwTbelDJ73/pU0SPk7BIK3srBREIzIuf2a6qsrRcQ2hyEwLL2wgSEqlj+I5VCVEtydAe6kXTpb/j2byquFn+4zyw98Nbub6j3pKcWQAV0gOCcT/lERSbTkuxG5//I8iF2sTB/lX6duyiULgv5rY9GQfAcHPy1oxaVTn5meM+fLoP0siIlUCkLL8L9CMrnCkDYkiZ8zI3spCvr4BymVLAJzuXGZXtq0SLovNsM0cpXSLB796AowDEDYczjs6FwKIUXPq34NDLI/dXiZs4MWxaTkAD0OIhajpHwhyVNiTmu+SrxUXOzzdF9jGJGX2RQ+91HKOHLVTc5Rd8NF1TuZ/eJipHpsFmy5dgzusIW1J21QXe3mis4q9otZh/xa61GU0CSiRiWuPpU5qfNIRcsbbJ8TOhGosIjDaRpTzlvxEsUR63kDXgYbw31BNNMQ==</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://www.enit.it/spid/logout"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.enit.it/spid/acs" isDefault="true" index="0"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="en">Enit SPID service name</md:ServiceName>
+      <md:RequestedAttribute Name="name"/>
+      <md:RequestedAttribute Name="familyName"/>
+      <md:RequestedAttribute Name="fiscalNumber"/>
+      <md:RequestedAttribute Name="companyName"/>
+      <md:RequestedAttribute Name="registeredOffice"/>
+      <md:RequestedAttribute Name="ivaCode"/>
+      <md:RequestedAttribute Name="mobilePhone"/>
+      <md:RequestedAttribute Name="email"/>
+      <md:RequestedAttribute Name="address"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="en">ENIT S.P.A.</md:OrganizationName>
+    <md:OrganizationName xml:lang="it">ENIT S.P.A.</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="en">ENIT S.P.A.</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="it">ENIT S.P.A.</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="en">https://www.enit.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="it">https://www.enit.it</md:OrganizationURL>
+  </md:Organization>
+<md:ContactPerson contactType="other"><md:Extensions><spid:Public/><spid:IPACode>3RF8YLNL</spid:IPACode></md:Extensions><md:EmailAddress>marco.lattanzi@enit.it</md:EmailAddress></md:ContactPerson></md:EntityDescriptor>
