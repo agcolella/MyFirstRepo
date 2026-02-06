@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" ID="ef5831c8a1b1a41aeb49690385835b14b" entityID="https://www.comune.pomezia.rm.it/serviziSPID"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#ef5831c8a1b1a41aeb49690385835b14b">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>OgBEB40t5mq5GM7BI4tgsCZ1Tjo6FMXEBSnGjC07HPI=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+O1dDynUL/uuAubqbf3w7xTvrP2ab//g3fl/bBYJIolSf/SD+RnxH1FgDBEfJ5tTgpw5lgj0Mduit
+pPZxevjzgRENu3AV55nRwGzua9e5UeiBjFGmvYfgSWgcUHnqy+Wu1RQOKT6ZXspl+5crRgjn9/4y
+jzuCxxAhT2A+CdXrXTF4rLWBGhem1beqxXY+MwiSiwZsEIBRXpEQLG1VD3DRUnj+ramsQkaDtMjl
+FYcGNbVnio3K4hZVcGROCmfdiYrvuBaEvnAm3DKy09EwN4I2WDBL0XcoQQnlLNh3SF2XSUg9ZX8j
+EpskwBCXYITFJSFezVcljyDGgbST+nK8sO+ulg==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+1mtMCXdnDrQ6ghBFM/dz6HkhAHsyaHlYEDcMw8UsewXZ9i82iYuN9vrbt07lTv5Rl5lMWcWBdXH5
+G+v+ZMSpzzL3EYd0rkY58b+Hvjk1oF/k4iDeH5NR2CqFAcZ3e+aCRek4Z0aiT690JLNflIVWjmqq
+UKpAP0okCOmZKq7QTnMlOcCT0M8s+XoAHZgf9d9selv2E0YKLXZLxrbTg/euZg80179hHXzgYQRC
+CSIUUTC0iodlISqunhlzHDj0dtQPyau4O4Qs1lFg43XbFGgGmuZ1szWVBPHPoQ4uiplzsjot8rld
+OSOImpvx1EwY7GRyR6hHiz9MYyrIprdW3wsv3w==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDrDCCApSgAwIBAgIJAOTudGDTMKusMA0GCSqGSIb3DQEBCwUAMH0xITAfBgNVBAMMGHd3dy5j
+b211bmUucG9tZXppYS5ybS5pdDEaMBgGA1UECgwRQ29tdW5lIGRpIFBvbWV6aWExEzARBgNVBAQM
+ClBBOklULW51bGwxCzAJBgNVBAYTAklUMRowGAYDVQQHDBFDb211bmUgZGkgUG9tZXppYTAeFw0y
+MDEwMTUxMjA3MjJaFw0zMDEwMTMxMjA3MjJaMH0xITAfBgNVBAMMGHd3dy5jb211bmUucG9tZXpp
+YS5ybS5pdDEaMBgGA1UECgwRQ29tdW5lIGRpIFBvbWV6aWExEzARBgNVBAQMClBBOklULW51bGwx
+CzAJBgNVBAYTAklUMRowGAYDVQQHDBFDb211bmUgZGkgUG9tZXppYTCCASIwDQYJKoZIhvcNAQEB
+BQADggEPADCCAQoCggEBANZrTAl3Zw60OoIQRTP3c+h5IQB7Mmh5WBA3DMPFLHsF2fYvNomLjfb6
+27dO5U7+UZeZTFnFgXVx+Rvr/mTEqc8y9xGHdK5GOfG/h745NaBf5OIg3h+TUdgqhQHGd3vmgkXp
+OGdGok+vdCSzX5SFVo5qqlCqQD9KJAjpmSqu0E5zJTnAk9DPLPl6AB2YH/XfbHpb9hNGCi12S8a2
+04P3rmYPNNe/YR184GEEQgkiFFEwtIqHZSEqrp4Zcxw49HbUD8mruDuELNZRYON12xRoBprmdbM1
+lQTxz6EOLoqZc7I6LfK5XTkjiJqb8dRMGOxkckeoR4s/TGMqyKa3Vt8LL98CAwEAAaMvMC0wCQYD
+VR0TBAIwADALBgNVHQ8EBAMCBeAwEwYDVR0gBAwwCjAIBgYrTBAEAgEwDQYJKoZIhvcNAQELBQAD
+ggEBAJzFnn9buhTY/HjjHLaJyebiCldXb2RFyyYNDcYSj2FtD4UaruQlZ+xBHoNyQTI8Om716RLq
+FkTWnavmag8ZGTWB2DzsWqsmYIS9buLWn27Nrm6FvpLVqboK4TK473JTdhPvaCp+nzrARpQg7mn6
+8kCY1ui2qwWAdJ/R0lhBqJ5+rvgM9QZw69ZcokrddP5bBdgsW0/KjFeuBmI6onm+q2MM682vx/6y
+vgpDrcWNAI4VF5KF7lIOKM/gZ3KNc55l+rsTjWDnyhM1Rh4fsIr125PWb/zermLj7VY+NLEvbzNh
+Fqqml5D3P1/k962SDpe5j9gU9ozTVSk+u66ux/VWgBg=
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDrDCCApSgAwIBAgIJAOTudGDTMKusMA0GCSqGSIb3DQEBCwUAMH0xITAfBgNVBAMMGHd3dy5jb211bmUucG9tZXppYS5ybS5pdDEaMBgGA1UECgwRQ29tdW5lIGRpIFBvbWV6aWExEzARBgNVBAQMClBBOklULW51bGwxCzAJBgNVBAYTAklUMRowGAYDVQQHDBFDb211bmUgZGkgUG9tZXppYTAeFw0yMDEwMTUxMjA3MjJaFw0zMDEwMTMxMjA3MjJaMH0xITAfBgNVBAMMGHd3dy5jb211bmUucG9tZXppYS5ybS5pdDEaMBgGA1UECgwRQ29tdW5lIGRpIFBvbWV6aWExEzARBgNVBAQMClBBOklULW51bGwxCzAJBgNVBAYTAklUMRowGAYDVQQHDBFDb211bmUgZGkgUG9tZXppYTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBANZrTAl3Zw60OoIQRTP3c+h5IQB7Mmh5WBA3DMPFLHsF2fYvNomLjfb627dO5U7+UZeZTFnFgXVx+Rvr/mTEqc8y9xGHdK5GOfG/h745NaBf5OIg3h+TUdgqhQHGd3vmgkXpOGdGok+vdCSzX5SFVo5qqlCqQD9KJAjpmSqu0E5zJTnAk9DPLPl6AB2YH/XfbHpb9hNGCi12S8a204P3rmYPNNe/YR184GEEQgkiFFEwtIqHZSEqrp4Zcxw49HbUD8mruDuELNZRYON12xRoBprmdbM1lQTxz6EOLoqZc7I6LfK5XTkjiJqb8dRMGOxkckeoR4s/TGMqyKa3Vt8LL98CAwEAAaMvMC0wCQYDVR0TBAIwADALBgNVHQ8EBAMCBeAwEwYDVR0gBAwwCjAIBgYrTBAEAgEwDQYJKoZIhvcNAQELBQADggEBAJzFnn9buhTY/HjjHLaJyebiCldXb2RFyyYNDcYSj2FtD4UaruQlZ+xBHoNyQTI8Om716RLqFkTWnavmag8ZGTWB2DzsWqsmYIS9buLWn27Nrm6FvpLVqboK4TK473JTdhPvaCp+nzrARpQg7mn68kCY1ui2qwWAdJ/R0lhBqJ5+rvgM9QZw69ZcokrddP5bBdgsW0/KjFeuBmI6onm+q2MM682vx/6yvgpDrcWNAI4VF5KF7lIOKM/gZ3KNc55l+rsTjWDnyhM1Rh4fsIr125PWb/zermLj7VY+NLEvbzNhFqqml5D3P1/k962SDpe5j9gU9ozTVSk+u66ux/VWgBg=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDrDCCApSgAwIBAgIJAOTudGDTMKusMA0GCSqGSIb3DQEBCwUAMH0xITAfBgNVBAMMGHd3dy5jb211bmUucG9tZXppYS5ybS5pdDEaMBgGA1UECgwRQ29tdW5lIGRpIFBvbWV6aWExEzARBgNVBAQMClBBOklULW51bGwxCzAJBgNVBAYTAklUMRowGAYDVQQHDBFDb211bmUgZGkgUG9tZXppYTAeFw0yMDEwMTUxMjA3MjJaFw0zMDEwMTMxMjA3MjJaMH0xITAfBgNVBAMMGHd3dy5jb211bmUucG9tZXppYS5ybS5pdDEaMBgGA1UECgwRQ29tdW5lIGRpIFBvbWV6aWExEzARBgNVBAQMClBBOklULW51bGwxCzAJBgNVBAYTAklUMRowGAYDVQQHDBFDb211bmUgZGkgUG9tZXppYTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBANZrTAl3Zw60OoIQRTP3c+h5IQB7Mmh5WBA3DMPFLHsF2fYvNomLjfb627dO5U7+UZeZTFnFgXVx+Rvr/mTEqc8y9xGHdK5GOfG/h745NaBf5OIg3h+TUdgqhQHGd3vmgkXpOGdGok+vdCSzX5SFVo5qqlCqQD9KJAjpmSqu0E5zJTnAk9DPLPl6AB2YH/XfbHpb9hNGCi12S8a204P3rmYPNNe/YR184GEEQgkiFFEwtIqHZSEqrp4Zcxw49HbUD8mruDuELNZRYON12xRoBprmdbM1lQTxz6EOLoqZc7I6LfK5XTkjiJqb8dRMGOxkckeoR4s/TGMqyKa3Vt8LL98CAwEAAaMvMC0wCQYDVR0TBAIwADALBgNVHQ8EBAMCBeAwEwYDVR0gBAwwCjAIBgYrTBAEAgEwDQYJKoZIhvcNAQELBQADggEBAJzFnn9buhTY/HjjHLaJyebiCldXb2RFyyYNDcYSj2FtD4UaruQlZ+xBHoNyQTI8Om716RLqFkTWnavmag8ZGTWB2DzsWqsmYIS9buLWn27Nrm6FvpLVqboK4TK473JTdhPvaCp+nzrARpQg7mn68kCY1ui2qwWAdJ/R0lhBqJ5+rvgM9QZw69ZcokrddP5bBdgsW0/KjFeuBmI6onm+q2MM682vx/6yvgpDrcWNAI4VF5KF7lIOKM/gZ3KNc55l+rsTjWDnyhM1Rh4fsIr125PWb/zermLj7VY+NLEvbzNhFqqml5D3P1/k962SDpe5j9gU9ozTVSk+u66ux/VWgBg=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIIECjCCAvKgAwIBAgIUd1zv6GVXwMRauhDf5FFUu62IsTQwDQYJKoZIhvcNAQELBQAwgYkxNTAzBgNVBAMMLGh0dHBzOi8vd3d3LmNvbXVuZS5wb21lemlhLnJtLml0L3NlcnZpemlTUElEMRowGAYDVQQKDBFDb211bmUgZGkgUG9tZXppYTEVMBMGA1UEBAwMUEE6SVQtY19nODExMQswCQYDVQQGEwJJVDEQMA4GA1UEBwwHUG9tZXppYTAeFw0yMDEwMTMxNDU1MTZaFw0zMDEwMTExNDU1MTZaMIGJMTUwMwYDVQQDDCxodHRwczovL3d3dy5jb211bmUucG9tZXppYS5ybS5pdC9zZXJ2aXppU1BJRDEaMBgGA1UECgwRQ29tdW5lIGRpIFBvbWV6aWExFTATBgNVBAQMDFBBOklULWNfZzgxMTELMAkGA1UEBhMCSVQxEDAOBgNVBAcMB1BvbWV6aWEwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCvv+Mb/CCfyj1XiVs/KPsjhvBPoR796DN/qvgDwnqJ1uA5xv1CLYJWOs95VBHi8IiqNqzL9i5ru/juR3f49eNLO5zCwKRFRMdRagdV9QWJhHoc4q7KzWqmUSRywLwC2SKcqVIR4+TC75D1Vzg3rPQGaR+CL/wOuiifZHYJ4eascAysaSirdI5DCOIMLWYA9c/EKBdDLwp4ScDWLfp5XYN1PdXvLQHOrNGKhJGjvDPGkixww5YMWF5ymR4ibIHMWjDyCxz2ARJVL/nISfv6JVKHaqQntpDLxRzttF2JdFIFmE7jSjhNoLqRCe1TmFeMVRcY1DKBADF7gLVIJNHMZ36jAgMBAAGjaDBmMB0GA1UdDgQWBBREPdecFyH7OL/xsPXQhyXK5ZlbZTAfBgNVHSMEGDAWgBREPdecFyH7OL/xsPXQhyXK5ZlbZTAPBgNVHRMBAf8EBTADAQH/MBMGA1UdIAQMMAowCAYGK0wQBAIBMA0GCSqGSIb3DQEBCwUAA4IBAQBi/PDkUgA0zuB/MvrE/uJz8wbriH0NrTO4DcknhcCQDLGVJZL9qZQq0OgsQrMR7pwkEEEnKm6v9vGfu+M/wDSQyZeMvw2AbpBaM48JLaccNQxgHk/SOsw5vqhOq+CbDrjGuxO9hWpFVjp8zyTobCxUf3rukMN5ZE6JI9USeGg+FMJCIK6fSu/V50DbjR8UaGED0xRuJtwjtkIi7aVxQ59PTJby7vXj6sVaQc2CRsYCbzSe39z0WURbxFvDpYQbNAlec+pVJCXsoPs39VrRLPhTGxO+rW8nfmZq/duorsP6ejLQ7wMU6+Mmi/9FhVdE52MkTZHqHFiHFlPj7nRq2g9v</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIIECjCCAvKgAwIBAgIUd1zv6GVXwMRauhDf5FFUu62IsTQwDQYJKoZIhvcNAQELBQAwgYkxNTAzBgNVBAMMLGh0dHBzOi8vd3d3LmNvbXVuZS5wb21lemlhLnJtLml0L3NlcnZpemlTUElEMRowGAYDVQQKDBFDb211bmUgZGkgUG9tZXppYTEVMBMGA1UEBAwMUEE6SVQtY19nODExMQswCQYDVQQGEwJJVDEQMA4GA1UEBwwHUG9tZXppYTAeFw0yMDEwMTMxNDU1MTZaFw0zMDEwMTExNDU1MTZaMIGJMTUwMwYDVQQDDCxodHRwczovL3d3dy5jb211bmUucG9tZXppYS5ybS5pdC9zZXJ2aXppU1BJRDEaMBgGA1UECgwRQ29tdW5lIGRpIFBvbWV6aWExFTATBgNVBAQMDFBBOklULWNfZzgxMTELMAkGA1UEBhMCSVQxEDAOBgNVBAcMB1BvbWV6aWEwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCvv+Mb/CCfyj1XiVs/KPsjhvBPoR796DN/qvgDwnqJ1uA5xv1CLYJWOs95VBHi8IiqNqzL9i5ru/juR3f49eNLO5zCwKRFRMdRagdV9QWJhHoc4q7KzWqmUSRywLwC2SKcqVIR4+TC75D1Vzg3rPQGaR+CL/wOuiifZHYJ4eascAysaSirdI5DCOIMLWYA9c/EKBdDLwp4ScDWLfp5XYN1PdXvLQHOrNGKhJGjvDPGkixww5YMWF5ymR4ibIHMWjDyCxz2ARJVL/nISfv6JVKHaqQntpDLxRzttF2JdFIFmE7jSjhNoLqRCe1TmFeMVRcY1DKBADF7gLVIJNHMZ36jAgMBAAGjaDBmMB0GA1UdDgQWBBREPdecFyH7OL/xsPXQhyXK5ZlbZTAfBgNVHSMEGDAWgBREPdecFyH7OL/xsPXQhyXK5ZlbZTAPBgNVHRMBAf8EBTADAQH/MBMGA1UdIAQMMAowCAYGK0wQBAIBMA0GCSqGSIb3DQEBCwUAA4IBAQBi/PDkUgA0zuB/MvrE/uJz8wbriH0NrTO4DcknhcCQDLGVJZL9qZQq0OgsQrMR7pwkEEEnKm6v9vGfu+M/wDSQyZeMvw2AbpBaM48JLaccNQxgHk/SOsw5vqhOq+CbDrjGuxO9hWpFVjp8zyTobCxUf3rukMN5ZE6JI9USeGg+FMJCIK6fSu/V50DbjR8UaGED0xRuJtwjtkIi7aVxQ59PTJby7vXj6sVaQc2CRsYCbzSe39z0WURbxFvDpYQbNAlec+pVJCXsoPs39VrRLPhTGxO+rW8nfmZq/duorsP6ejLQ7wMU6+Mmi/9FhVdE52MkTZHqHFiHFlPj7nRq2g9v</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SingleLogout/alias/pomezia"/>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://eservices.car-tech.com:5080/HomeAuth/LogOut?type=spid"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/pomezia" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/pomezia" index="1" isDefault="false"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/pomezia" index="2" isDefault="false"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://eservices.car-tech.com:5080/?type=spid&amp;code=spid" index="3" isDefault="false"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">ServiziSTD</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">ServiziBase</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="2">
+      <md:ServiceName xml:lang="it">ServiziAvanzati</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Azienda" Name="companyName"/>
+      <md:RequestedAttribute FriendlyName="Sede legale" Name="registeredOffice"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode"/>
+      <md:RequestedAttribute FriendlyName="Carta Identita" Name="idCard"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      <md:RequestedAttribute FriendlyName="Indirizzo" Name="address"/>
+      <md:RequestedAttribute FriendlyName="Valido fino" Name="expirationDate"/>
+      <md:RequestedAttribute FriendlyName="Domicilio Digitale" Name="digitalAddress"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="3">
+      <md:ServiceName xml:lang="it">ESERVICES</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Autenticatore ESERVICES</md:ServiceDescription>
+      <md:RequestedAttribute FriendlyName="Codice identificativo" Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Documento d'identità" Name="idCard" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Indirizzo di posta elettronica" Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Pomezia</md:OrganizationName>
+    <md:OrganizationName xml:lang="en">Comune di Pomezia</md:OrganizationName>
+    <md:OrganizationName xml:lang="fr">Comune di Pomezia</md:OrganizationName>
+    <md:OrganizationName xml:lang="de">Comune di Pomezia</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Pomezia</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Pomezia</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="fr">Comune di Pomezia</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="de">Comune di Pomezia</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.comune.pomezia.rm.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="en">https://www.comune.pomezia.rm.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="fr">https://www.comune.pomezia.rm.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="de">https://www.comune.pomezia.rm.it</md:OrganizationURL>
+  </md:Organization>
+  <md:ContactPerson contactType="other">
+    <md:Extensions>
+      <spid:IPACode>c_g811</spid:IPACode>
+      <spid:FiscalCode>02298490588</spid:FiscalCode>
+      <spid:Public/>
+    </md:Extensions>
+    <md:EmailAddress>ced.foti@comune.pomezia.rm.it</md:EmailAddress>
+    <md:TelephoneNumber>3802440258</md:TelephoneNumber>
+  </md:ContactPerson>
+</md:EntityDescriptor>
