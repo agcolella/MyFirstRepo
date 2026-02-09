@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" ID="_f9773df53536b15b2aa9ff70ca6b194a377db71ea0595dbc283ece72e20723c8" entityID="https://montemarano.halleyweb.it"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#_f9773df53536b15b2aa9ff70ca6b194a377db71ea0595dbc283ece72e20723c8">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>UCqR77hot/Z8ntl0QFuoPIgBnzFQq8TbV5mDjGd1fr0=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+cF4rM5evstvSGbP9nLBBplarFnevM8gvC4CNan6ldJO/kpV3Unijv0spNCdHYGHZaHihAiUaQYBU
+G9vbGQW2ToO9cFMbAHbDYjzNUsu9B5NxnkDuSOCJCuKEQf5omX3+2cDE4oJOBmCXic+I+cYU32ML
+uq9/DRN0B/9/auNnH+VgEQTJGx2cGdpX9mCK1/ovOi2zkklThLsXZKhCZxbRIW1ZmjfwnkestvOY
+vKuqAJ1kV/sZ5HhTnIpQLzPTxQkVF1tipO7ckFe5Mn1MiBMiNEat5rSj4ND+OEeNtFh8X4ZEs8h0
+r1uvOJM+898AuwosahXRRByEkyTqx0z+92JgKg==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+7+3xzGpy+jlifcRzsDq4xau5OzxgctW9RsMpu5r7b7ki4950YDO+77K3GCSuOye0BZ4D7Q+ZRzCK
+jbL4S5yIefxKgAg8s3oIMS+x5C2pvToKUZHtzzPJ7Tn/zJWGWRDMIIWXPRcOJa4oNBYJQZ6FPwq5
+rUon4XO6MF+MVJANRHAk3ssdKJKCGDK8KN1zZairpPpr50DXkk0Vl9tz2yldqQeJWCQx2OTKMauw
+tiwkkdY2isLC8bbdi4ElKKuC0F6C1CUZySuSQALnhHVd2o7vm1gLTHRc0xAH8Tc/z4Ewl7jMjhf5
+MVhM95UTHlRmYNxcEFPm7GJJMoouBuI4W0o6bQ==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDvzCCAqegAwIBAgIJANtQrxDjsdsUMA0GCSqGSIb3DQEBCwUAMHYxCzAJBgNVBAYTAklUMQ4w
+DAYDVQQIDAVJdGFseTEUMBIGA1UEBwwLTW9udGVtYXJhbm8xHjAcBgNVBAoMFUNvbXVuZSBkaSBN
+b250ZW1hcmFubzEhMB8GA1UEAwwYbW9udGVtYXJhbm8uaGFsbGV5d2ViLml0MB4XDTI0MDUyMDEx
+MDMzMFoXDTM0MDUyMDExMDMzMFowdjELMAkGA1UEBhMCSVQxDjAMBgNVBAgMBUl0YWx5MRQwEgYD
+VQQHDAtNb250ZW1hcmFubzEeMBwGA1UECgwVQ29tdW5lIGRpIE1vbnRlbWFyYW5vMSEwHwYDVQQD
+DBhtb250ZW1hcmFuby5oYWxsZXl3ZWIuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIB
+AQDv7fHManL6OWJ9xHOwOrjFq7k7PGBy1b1Gwym7mvtvuSLj3nRgM77vsrcYJK47J7QFngPtD5lH
+MIqNsvhLnIh5/EqACDyzeggxL7HkLam9OgpRke3PM8ntOf/MlYZZEMwghZc9Fw4lrig0FglBnoU/
+CrmtSifhc7owX4xUkA1EcCTeyx0okoIYMrwo3XNlqKuk+mvnQNeSTRWX23PbKV2pB4lYJDHY5Mox
+q7C2LCSR1jaKwsLxtt2LgSUoq4LQXoLUJRnJK5JAAueEdV3aju+bWAtMdFzTEAfxNz/PgTCXuMyO
+F/kxWEz3lRMeVGZg3FwQU+bsYkkyii4G4jhbSjptAgMBAAGjUDBOMB0GA1UdDgQWBBRev2zJg+SS
+yT8sl5AmQvo0H8afIDAfBgNVHSMEGDAWgBRev2zJg+SSyT8sl5AmQvo0H8afIDAMBgNVHRMEBTAD
+AQH/MA0GCSqGSIb3DQEBCwUAA4IBAQA6nBq90NGSNhSujxXV06bmaNCR/wnT3w304Aoue2MyPne9
+Xe6HZrX7Xjac+pT8L5/yr7+XJHfvtoetZ892XOtnbBdLQRIO2eOSqwTILG9uwTDYVzcHxPtJ/GTp
+ar1O1tB/VVaQzpTjXTDWRtUO3Xj8s/YBkvgd7ZvSMxcYfT2rMrlzhkLFqRCjv69NWfvTJg+N7D6i
+Xb7rdXkP+ffXZ6XQmxOt6utCKyBQxuD4aDdopC8Ub8hJOjpC5Q06LQ4fV6zVue/2gW1rvoQ+Ribc
+55p5Nk4KOlAl24R6axKg+bUAkL3dLWnNJbtYDd4Fr7UCZwAXUYChf/5BwtIwB03kpDu8
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDvzCCAqegAwIBAgIJANtQrxDjsdsUMA0GCSqGSIb3DQEBCwUAMHYxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEUMBIGA1UEBwwLTW9udGVtYXJhbm8xHjAcBgNVBAoMFUNvbXVuZSBkaSBNb250ZW1hcmFubzEhMB8GA1UEAwwYbW9udGVtYXJhbm8uaGFsbGV5d2ViLml0MB4XDTI0MDUyMDExMDMzMFoXDTM0MDUyMDExMDMzMFowdjELMAkGA1UEBhMCSVQxDjAMBgNVBAgMBUl0YWx5MRQwEgYDVQQHDAtNb250ZW1hcmFubzEeMBwGA1UECgwVQ29tdW5lIGRpIE1vbnRlbWFyYW5vMSEwHwYDVQQDDBhtb250ZW1hcmFuby5oYWxsZXl3ZWIuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDv7fHManL6OWJ9xHOwOrjFq7k7PGBy1b1Gwym7mvtvuSLj3nRgM77vsrcYJK47J7QFngPtD5lHMIqNsvhLnIh5/EqACDyzeggxL7HkLam9OgpRke3PM8ntOf/MlYZZEMwghZc9Fw4lrig0FglBnoU/CrmtSifhc7owX4xUkA1EcCTeyx0okoIYMrwo3XNlqKuk+mvnQNeSTRWX23PbKV2pB4lYJDHY5Moxq7C2LCSR1jaKwsLxtt2LgSUoq4LQXoLUJRnJK5JAAueEdV3aju+bWAtMdFzTEAfxNz/PgTCXuMyOF/kxWEz3lRMeVGZg3FwQU+bsYkkyii4G4jhbSjptAgMBAAGjUDBOMB0GA1UdDgQWBBRev2zJg+SSyT8sl5AmQvo0H8afIDAfBgNVHSMEGDAWgBRev2zJg+SSyT8sl5AmQvo0H8afIDAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQA6nBq90NGSNhSujxXV06bmaNCR/wnT3w304Aoue2MyPne9Xe6HZrX7Xjac+pT8L5/yr7+XJHfvtoetZ892XOtnbBdLQRIO2eOSqwTILG9uwTDYVzcHxPtJ/GTpar1O1tB/VVaQzpTjXTDWRtUO3Xj8s/YBkvgd7ZvSMxcYfT2rMrlzhkLFqRCjv69NWfvTJg+N7D6iXb7rdXkP+ffXZ6XQmxOt6utCKyBQxuD4aDdopC8Ub8hJOjpC5Q06LQ4fV6zVue/2gW1rvoQ+Ribc55p5Nk4KOlAl24R6axKg+bUAkL3dLWnNJbtYDd4Fr7UCZwAXUYChf/5BwtIwB03kpDu8</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDvzCCAqegAwIBAgIJANtQrxDjsdsUMA0GCSqGSIb3DQEBCwUAMHYxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEUMBIGA1UEBwwLTW9udGVtYXJhbm8xHjAcBgNVBAoMFUNvbXVuZSBkaSBNb250ZW1hcmFubzEhMB8GA1UEAwwYbW9udGVtYXJhbm8uaGFsbGV5d2ViLml0MB4XDTI0MDUyMDExMDMzMFoXDTM0MDUyMDExMDMzMFowdjELMAkGA1UEBhMCSVQxDjAMBgNVBAgMBUl0YWx5MRQwEgYDVQQHDAtNb250ZW1hcmFubzEeMBwGA1UECgwVQ29tdW5lIGRpIE1vbnRlbWFyYW5vMSEwHwYDVQQDDBhtb250ZW1hcmFuby5oYWxsZXl3ZWIuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDv7fHManL6OWJ9xHOwOrjFq7k7PGBy1b1Gwym7mvtvuSLj3nRgM77vsrcYJK47J7QFngPtD5lHMIqNsvhLnIh5/EqACDyzeggxL7HkLam9OgpRke3PM8ntOf/MlYZZEMwghZc9Fw4lrig0FglBnoU/CrmtSifhc7owX4xUkA1EcCTeyx0okoIYMrwo3XNlqKuk+mvnQNeSTRWX23PbKV2pB4lYJDHY5Moxq7C2LCSR1jaKwsLxtt2LgSUoq4LQXoLUJRnJK5JAAueEdV3aju+bWAtMdFzTEAfxNz/PgTCXuMyOF/kxWEz3lRMeVGZg3FwQU+bsYkkyii4G4jhbSjptAgMBAAGjUDBOMB0GA1UdDgQWBBRev2zJg+SSyT8sl5AmQvo0H8afIDAfBgNVHSMEGDAWgBRev2zJg+SSyT8sl5AmQvo0H8afIDAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQA6nBq90NGSNhSujxXV06bmaNCR/wnT3w304Aoue2MyPne9Xe6HZrX7Xjac+pT8L5/yr7+XJHfvtoetZ892XOtnbBdLQRIO2eOSqwTILG9uwTDYVzcHxPtJ/GTpar1O1tB/VVaQzpTjXTDWRtUO3Xj8s/YBkvgd7ZvSMxcYfT2rMrlzhkLFqRCjv69NWfvTJg+N7D6iXb7rdXkP+ffXZ6XQmxOt6utCKyBQxuD4aDdopC8Ub8hJOjpC5Q06LQ4fV6zVue/2gW1rvoQ+Ribc55p5Nk4KOlAl24R6axKg+bUAkL3dLWnNJbtYDd4Fr7UCZwAXUYChf/5BwtIwB03kpDu8</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://montemarano.halleyweb.it/spid/module.php/saml/sp/saml2-logout.php/spid"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://montemarano.halleyweb.it/spid/module.php/saml/sp/saml2-acs.php/spid" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://montemarano.halleyweb.it/spid/module.php/saml/sp/saml2-acs.php/spid" index="1"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">Servizi online</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Servizi online</md:ServiceDescription>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Codice identificativo SPID" Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Ragione o denominazione sociale" Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Montemarano</md:OrganizationName>
+    <md:OrganizationName xml:lang="en">Comune di Montemarano</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Montemarano</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Montemarano</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">http://www.comune.montemarano.av.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="en">http://www.comune.montemarano.av.it</md:OrganizationURL>
+  </md:Organization>
+  <md:ContactPerson contactType="other">
+    <md:Extensions>
+      <spid:IPACode>c_f559</spid:IPACode>
+      <spid:Public/>
+    </md:Extensions>
+    <md:Company>Comune di Montemarano</md:Company>
+    <md:EmailAddress>egov@halley.it</md:EmailAddress>
+  </md:ContactPerson>
+</md:EntityDescriptor>
