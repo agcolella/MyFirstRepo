@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" ID="_87549f879ced64b03d76da1e6da35c1de3a2b0af8ccc69bb11ea1d7e800c90aa" entityID="https://senerchia.halleyweb.it"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#_87549f879ced64b03d76da1e6da35c1de3a2b0af8ccc69bb11ea1d7e800c90aa">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>fVNRBzr5Y7y1jA3Fd1C1UsmmatIHydSzprN8DUoJ8U0=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+oAo6VQu7RhlX+Orr9H+omTp/MVzTd/sJExfVzgwpY9NGeb0ssSvEJcoIaXJcUc4fdShxrGnsgbRU
+/mdYOd7xa71hMmpq404yB/ez93yzJQsVfJkS5ziTm4w77qaNsqWmAlMC6zKpPcNTaRiUAkIgR4Ac
+h9HIxLL2xuvWxl8Vj6NHrzIGDmHbaEJjGG0BMkJX2qUZCd4bp0e8lAhrMWCATlUkyNxC0Ybbgk2f
+zvKTnn0UHmxquDAY/llF+geNKFoEA7nXg8k9rTSrQNDD+dDtoRKy5ShjG1mMBTqzXdc6HdcJwKRe
+3MDClRvr2f1CHF3ju0fo8nWOu7aErxmRlsTEdA==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+reAlfUU2UvUMl4Inc6bc88gknXd4KCcHV6y/PRJSI8vI8d1UXLXO8uNm+Pz2hhizRBbpKS1ayOOC
+PH5D6Q9r/+lHEEjeHyO3u2r6aXhZas5XZZVcorthOndW6ABUuoysxw8grwKppkP/n/Ov8wtcsJgS
+r/8W/hxc+KPCUNyVCBSx2z1qEdP2ruOYJYDW/X1xhbkCo6YeUwH7VCJq8ToaKHicJA4cmgQh5UHZ
+bPG4mMNNXuvwdSPyQEl09xmgBbfKkoMEWayiJywwZe2bVTsZB/E55b102KFAkvYnungrPH/cOQ+2
+mltyR15FxkbNYMR5BWP7iYMNwNv+QhFiXTcYrQ==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDszCCApugAwIBAgIJAL9lDQzcCQlzMA0GCSqGSIb3DQEBCwUAMHAxCzAJBgNVBAYTAklUMQ4w
+DAYDVQQIDAVJdGFseTESMBAGA1UEBwwJU2VuZXJjaGlhMRwwGgYDVQQKDBNDb211bmUgZGkgU2Vu
+ZXJjaGlhMR8wHQYDVQQDDBZzZW5lcmNoaWEuaGFsbGV5d2ViLml0MB4XDTI0MDUxMzA4MDYxOVoX
+DTM0MDUxMzA4MDYxOVowcDELMAkGA1UEBhMCSVQxDjAMBgNVBAgMBUl0YWx5MRIwEAYDVQQHDAlT
+ZW5lcmNoaWExHDAaBgNVBAoME0NvbXVuZSBkaSBTZW5lcmNoaWExHzAdBgNVBAMMFnNlbmVyY2hp
+YS5oYWxsZXl3ZWIuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCt4CV9RTZS9QyX
+gidzptzzyCSdd3goJwdXrL89ElIjy8jx3VRctc7y42b4/PaGGLNEFukpLVrI44I8fkPpD2v/6UcQ
+SN4fI7e7avppeFlqzldllVyiu2E6d1boAFS6jKzHDyCvAqmmQ/+f86/zC1ywmBKv/xb+HFz4o8JQ
+3JUIFLHbPWoR0/au45glgNb9fXGFuQKjph5TAftUImrxOhooeJwkDhyaBCHlQdls8biYw01e6/B1
+I/JASXT3GaAFt8qSgwRZrKInLDBl7ZtVOxkH8TnlvXTYoUCS9ie6eCs8f9w5D7aaW3JHXkXGRs1g
+xHkFY/uJgw3A2/5CEWJdNxitAgMBAAGjUDBOMB0GA1UdDgQWBBQariCHqeCjDFRqox6cqdD0Lo3M
+uzAfBgNVHSMEGDAWgBQariCHqeCjDFRqox6cqdD0Lo3MuzAMBgNVHRMEBTADAQH/MA0GCSqGSIb3
+DQEBCwUAA4IBAQCeQayT0Z5GEkpvBk+NfyOx4cq9uOqm1mUzn7xxQn9yyT01OB+TfEsWselcMxbd
+Tcb08LjHGHwi758bngV8jqoqPf8qSMmzMAUhOHztuPF2fRQ6v28aUB9pXX/YDG+uDgnsux9iWdi4
+qWIFz7SrOvnxBs03hdYaJ01N27ZY4NqT1NeJIyVDfT4i0qiSDU0O2frsda8LSKNo+CG39VUkXtCC
+uqK0SFG2YkFhg2qcf1VKSZQhF8ZHgqnjXqF4ZMaT/XK6Pf6IhhYLcEJlH7NbuQQtNjbN5gxEhfty
+/1ud9fgJ9rezOdQfIHLMwSWtxovuiiKYyIlke/GTs8w3blQTTNQO
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDszCCApugAwIBAgIJAL9lDQzcCQlzMA0GCSqGSIb3DQEBCwUAMHAxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTESMBAGA1UEBwwJU2VuZXJjaGlhMRwwGgYDVQQKDBNDb211bmUgZGkgU2VuZXJjaGlhMR8wHQYDVQQDDBZzZW5lcmNoaWEuaGFsbGV5d2ViLml0MB4XDTI0MDUxMzA4MDYxOVoXDTM0MDUxMzA4MDYxOVowcDELMAkGA1UEBhMCSVQxDjAMBgNVBAgMBUl0YWx5MRIwEAYDVQQHDAlTZW5lcmNoaWExHDAaBgNVBAoME0NvbXVuZSBkaSBTZW5lcmNoaWExHzAdBgNVBAMMFnNlbmVyY2hpYS5oYWxsZXl3ZWIuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCt4CV9RTZS9QyXgidzptzzyCSdd3goJwdXrL89ElIjy8jx3VRctc7y42b4/PaGGLNEFukpLVrI44I8fkPpD2v/6UcQSN4fI7e7avppeFlqzldllVyiu2E6d1boAFS6jKzHDyCvAqmmQ/+f86/zC1ywmBKv/xb+HFz4o8JQ3JUIFLHbPWoR0/au45glgNb9fXGFuQKjph5TAftUImrxOhooeJwkDhyaBCHlQdls8biYw01e6/B1I/JASXT3GaAFt8qSgwRZrKInLDBl7ZtVOxkH8TnlvXTYoUCS9ie6eCs8f9w5D7aaW3JHXkXGRs1gxHkFY/uJgw3A2/5CEWJdNxitAgMBAAGjUDBOMB0GA1UdDgQWBBQariCHqeCjDFRqox6cqdD0Lo3MuzAfBgNVHSMEGDAWgBQariCHqeCjDFRqox6cqdD0Lo3MuzAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQCeQayT0Z5GEkpvBk+NfyOx4cq9uOqm1mUzn7xxQn9yyT01OB+TfEsWselcMxbdTcb08LjHGHwi758bngV8jqoqPf8qSMmzMAUhOHztuPF2fRQ6v28aUB9pXX/YDG+uDgnsux9iWdi4qWIFz7SrOvnxBs03hdYaJ01N27ZY4NqT1NeJIyVDfT4i0qiSDU0O2frsda8LSKNo+CG39VUkXtCCuqK0SFG2YkFhg2qcf1VKSZQhF8ZHgqnjXqF4ZMaT/XK6Pf6IhhYLcEJlH7NbuQQtNjbN5gxEhfty/1ud9fgJ9rezOdQfIHLMwSWtxovuiiKYyIlke/GTs8w3blQTTNQO</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDszCCApugAwIBAgIJAL9lDQzcCQlzMA0GCSqGSIb3DQEBCwUAMHAxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTESMBAGA1UEBwwJU2VuZXJjaGlhMRwwGgYDVQQKDBNDb211bmUgZGkgU2VuZXJjaGlhMR8wHQYDVQQDDBZzZW5lcmNoaWEuaGFsbGV5d2ViLml0MB4XDTI0MDUxMzA4MDYxOVoXDTM0MDUxMzA4MDYxOVowcDELMAkGA1UEBhMCSVQxDjAMBgNVBAgMBUl0YWx5MRIwEAYDVQQHDAlTZW5lcmNoaWExHDAaBgNVBAoME0NvbXVuZSBkaSBTZW5lcmNoaWExHzAdBgNVBAMMFnNlbmVyY2hpYS5oYWxsZXl3ZWIuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCt4CV9RTZS9QyXgidzptzzyCSdd3goJwdXrL89ElIjy8jx3VRctc7y42b4/PaGGLNEFukpLVrI44I8fkPpD2v/6UcQSN4fI7e7avppeFlqzldllVyiu2E6d1boAFS6jKzHDyCvAqmmQ/+f86/zC1ywmBKv/xb+HFz4o8JQ3JUIFLHbPWoR0/au45glgNb9fXGFuQKjph5TAftUImrxOhooeJwkDhyaBCHlQdls8biYw01e6/B1I/JASXT3GaAFt8qSgwRZrKInLDBl7ZtVOxkH8TnlvXTYoUCS9ie6eCs8f9w5D7aaW3JHXkXGRs1gxHkFY/uJgw3A2/5CEWJdNxitAgMBAAGjUDBOMB0GA1UdDgQWBBQariCHqeCjDFRqox6cqdD0Lo3MuzAfBgNVHSMEGDAWgBQariCHqeCjDFRqox6cqdD0Lo3MuzAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQCeQayT0Z5GEkpvBk+NfyOx4cq9uOqm1mUzn7xxQn9yyT01OB+TfEsWselcMxbdTcb08LjHGHwi758bngV8jqoqPf8qSMmzMAUhOHztuPF2fRQ6v28aUB9pXX/YDG+uDgnsux9iWdi4qWIFz7SrOvnxBs03hdYaJ01N27ZY4NqT1NeJIyVDfT4i0qiSDU0O2frsda8LSKNo+CG39VUkXtCCuqK0SFG2YkFhg2qcf1VKSZQhF8ZHgqnjXqF4ZMaT/XK6Pf6IhhYLcEJlH7NbuQQtNjbN5gxEhfty/1ud9fgJ9rezOdQfIHLMwSWtxovuiiKYyIlke/GTs8w3blQTTNQO</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://senerchia.halleyweb.it/spid/module.php/saml/sp/saml2-logout.php/spid"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://senerchia.halleyweb.it/spid/module.php/saml/sp/saml2-acs.php/spid" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://senerchia.halleyweb.it/spid/module.php/saml/sp/saml2-acs.php/spid" index="1"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">Servizi online</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Servizi online</md:ServiceDescription>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Codice identificativo SPID" Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Ragione o denominazione sociale" Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Senerchia</md:OrganizationName>
+    <md:OrganizationName xml:lang="en">Comune di Senerchia</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Senerchia</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Senerchia</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.comune.senerchia.av.it/</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="en">https://www.comune.senerchia.av.it/</md:OrganizationURL>
+  </md:Organization>
+  <md:ContactPerson contactType="other">
+    <md:Extensions>
+      <spid:IPACode>C_I606</spid:IPACode>
+      <spid:Public/>
+    </md:Extensions>
+    <md:Company>Comune di Senerchia</md:Company>
+    <md:EmailAddress>egov@halley.it</md:EmailAddress>
+  </md:ContactPerson>
+</md:EntityDescriptor>
