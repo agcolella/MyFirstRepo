@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" ID="_f8347ecff1768e833d9d97134fcff4fac828be6a46688f109ce64edb7384dd07" entityID="https://santangeloromano.halleyweb.it"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#_f8347ecff1768e833d9d97134fcff4fac828be6a46688f109ce64edb7384dd07">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>HccaIJtB6Lb8DJkhJuhq9ISgnUmWg+wJ/MICyQKgWPA=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+moFILZIsg0sgGMbwi1T6LwSWWdckXE30fnyZIRQnA7eNgI9GeWXHbF8dhltzOe/xULabqzcZhFMv
+O6+xcfNXPGbTpcK+QsYKAlOBcgOt11bJ/Xr81YJIzV1j3Fd2UKEq3KHbiLl23GVa5pzMsMKGzMBS
+Go+mhZ1rNbwq4WHgrkeBUWmrgxi6mFaF1TnWe4GRhK2MlaO2PZO7eLb6zVEik4U1BDvcbDEAILRW
+0DjpaiXYdxJas7Q/5nhOza20dh5nd6LvVbrsORdVFBkX4O9+Y/U3zcfnW8GLxweuL9dQWoZwiKKe
+x4aMORr89FdCWihEiGB8RTe5jClvpAP1DrQAGg==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+4S0/mlDK1tgRG/aTYW5DGILcFgRTaNM4qlM6ylQB6daOvCqo9aJhOwjR893rsci+QbgbJuhkUZU7
+0jo5Bq227B1yWtzkNqdpJCdvAiOLll/82+0adANSdQNtWeB3m1Z34j/aeZypWQVIH7rL2VsOjiPZ
+EUqzP4jqlTHA0OftpksaAmgrFJ80vcUIBmQ8umXdXZarhfvbxF35FouWk8tm23fI2SgaMLJ6BLG+
+WlLanFt0dggTsdSs6X/R+MZKPVgCj7ni7Z7qjgCbazPT0uXaY9rqu0q3FdcUkupNggg/5rJ2Wt0Z
+OUU1djeZ4kNpJX21hgpjGU+lB6ZnZ/NDjHEp9w==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIID5zCCAs+gAwIBAgIJAOA0Bw4Til8RMA0GCSqGSIb3DQEBCwUAMIGJMQswCQYDVQQGEwJJVDEO
+MAwGA1UECAwFSXRhbHkxGzAZBgNVBAcMElNhbnQnQW5nZWxvIFJvbWFubzElMCMGA1UECgwcQ29t
+dW5lIGRpIFNhbnQnQW5nZWxvIFJvbWFubzEmMCQGA1UEAwwdc2FudGFuZ2Vsb3JvbWFuby5oYWxs
+ZXl3ZWIuaXQwHhcNMjQwNTIwMTAyMDQ2WhcNMzQwNTIwMTAyMDQ2WjCBiTELMAkGA1UEBhMCSVQx
+DjAMBgNVBAgMBUl0YWx5MRswGQYDVQQHDBJTYW50J0FuZ2VsbyBSb21hbm8xJTAjBgNVBAoMHENv
+bXVuZSBkaSBTYW50J0FuZ2VsbyBSb21hbm8xJjAkBgNVBAMMHXNhbnRhbmdlbG9yb21hbm8uaGFs
+bGV5d2ViLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA4S0/mlDK1tgRG/aTYW5D
+GILcFgRTaNM4qlM6ylQB6daOvCqo9aJhOwjR893rsci+QbgbJuhkUZU70jo5Bq227B1yWtzkNqdp
+JCdvAiOLll/82+0adANSdQNtWeB3m1Z34j/aeZypWQVIH7rL2VsOjiPZEUqzP4jqlTHA0Oftpksa
+AmgrFJ80vcUIBmQ8umXdXZarhfvbxF35FouWk8tm23fI2SgaMLJ6BLG+WlLanFt0dggTsdSs6X/R
++MZKPVgCj7ni7Z7qjgCbazPT0uXaY9rqu0q3FdcUkupNggg/5rJ2Wt0ZOUU1djeZ4kNpJX21hgpj
+GU+lB6ZnZ/NDjHEp9wIDAQABo1AwTjAdBgNVHQ4EFgQUeuOUDZWOz97tZ+7F+XXDbHdcFkcwHwYD
+VR0jBBgwFoAUeuOUDZWOz97tZ+7F+XXDbHdcFkcwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsF
+AAOCAQEAQkQ4/moFODnKlAoRBWv0Akldla1vOOqpVJR8n10AcW2tSRV8/FOIduVYbyg02SmD4j2B
+iI0RzITNU56gxDnPyEqg/sljE1zmaBX/g9mhxt2LQuqDprCnFADmK1Dj9/HJscQijukq8aOkF7PO
+PeglGyvCdAbsRFWjm84vPtObHZvNEDSkDxwcfWf5FFOt2avKrThVYIzcebCWr6zUBtazDl4TrD5+
+mLC8Ea3P2eRMAdakoWUrpftQnl49j3STYav+g+98t1mjiXqo5LFjXLxsA4kIneN6E4y3nenM6rDU
+BNdvv3I2HzpQVXKyJF42sSsBO+JDRhWUvMuDSH9GkNYI1g==
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIID5zCCAs+gAwIBAgIJAOA0Bw4Til8RMA0GCSqGSIb3DQEBCwUAMIGJMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxGzAZBgNVBAcMElNhbnQnQW5nZWxvIFJvbWFubzElMCMGA1UECgwcQ29tdW5lIGRpIFNhbnQnQW5nZWxvIFJvbWFubzEmMCQGA1UEAwwdc2FudGFuZ2Vsb3JvbWFuby5oYWxsZXl3ZWIuaXQwHhcNMjQwNTIwMTAyMDQ2WhcNMzQwNTIwMTAyMDQ2WjCBiTELMAkGA1UEBhMCSVQxDjAMBgNVBAgMBUl0YWx5MRswGQYDVQQHDBJTYW50J0FuZ2VsbyBSb21hbm8xJTAjBgNVBAoMHENvbXVuZSBkaSBTYW50J0FuZ2VsbyBSb21hbm8xJjAkBgNVBAMMHXNhbnRhbmdlbG9yb21hbm8uaGFsbGV5d2ViLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA4S0/mlDK1tgRG/aTYW5DGILcFgRTaNM4qlM6ylQB6daOvCqo9aJhOwjR893rsci+QbgbJuhkUZU70jo5Bq227B1yWtzkNqdpJCdvAiOLll/82+0adANSdQNtWeB3m1Z34j/aeZypWQVIH7rL2VsOjiPZEUqzP4jqlTHA0OftpksaAmgrFJ80vcUIBmQ8umXdXZarhfvbxF35FouWk8tm23fI2SgaMLJ6BLG+WlLanFt0dggTsdSs6X/R+MZKPVgCj7ni7Z7qjgCbazPT0uXaY9rqu0q3FdcUkupNggg/5rJ2Wt0ZOUU1djeZ4kNpJX21hgpjGU+lB6ZnZ/NDjHEp9wIDAQABo1AwTjAdBgNVHQ4EFgQUeuOUDZWOz97tZ+7F+XXDbHdcFkcwHwYDVR0jBBgwFoAUeuOUDZWOz97tZ+7F+XXDbHdcFkcwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAQkQ4/moFODnKlAoRBWv0Akldla1vOOqpVJR8n10AcW2tSRV8/FOIduVYbyg02SmD4j2BiI0RzITNU56gxDnPyEqg/sljE1zmaBX/g9mhxt2LQuqDprCnFADmK1Dj9/HJscQijukq8aOkF7POPeglGyvCdAbsRFWjm84vPtObHZvNEDSkDxwcfWf5FFOt2avKrThVYIzcebCWr6zUBtazDl4TrD5+mLC8Ea3P2eRMAdakoWUrpftQnl49j3STYav+g+98t1mjiXqo5LFjXLxsA4kIneN6E4y3nenM6rDUBNdvv3I2HzpQVXKyJF42sSsBO+JDRhWUvMuDSH9GkNYI1g==</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIID5zCCAs+gAwIBAgIJAOA0Bw4Til8RMA0GCSqGSIb3DQEBCwUAMIGJMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxGzAZBgNVBAcMElNhbnQnQW5nZWxvIFJvbWFubzElMCMGA1UECgwcQ29tdW5lIGRpIFNhbnQnQW5nZWxvIFJvbWFubzEmMCQGA1UEAwwdc2FudGFuZ2Vsb3JvbWFuby5oYWxsZXl3ZWIuaXQwHhcNMjQwNTIwMTAyMDQ2WhcNMzQwNTIwMTAyMDQ2WjCBiTELMAkGA1UEBhMCSVQxDjAMBgNVBAgMBUl0YWx5MRswGQYDVQQHDBJTYW50J0FuZ2VsbyBSb21hbm8xJTAjBgNVBAoMHENvbXVuZSBkaSBTYW50J0FuZ2VsbyBSb21hbm8xJjAkBgNVBAMMHXNhbnRhbmdlbG9yb21hbm8uaGFsbGV5d2ViLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA4S0/mlDK1tgRG/aTYW5DGILcFgRTaNM4qlM6ylQB6daOvCqo9aJhOwjR893rsci+QbgbJuhkUZU70jo5Bq227B1yWtzkNqdpJCdvAiOLll/82+0adANSdQNtWeB3m1Z34j/aeZypWQVIH7rL2VsOjiPZEUqzP4jqlTHA0OftpksaAmgrFJ80vcUIBmQ8umXdXZarhfvbxF35FouWk8tm23fI2SgaMLJ6BLG+WlLanFt0dggTsdSs6X/R+MZKPVgCj7ni7Z7qjgCbazPT0uXaY9rqu0q3FdcUkupNggg/5rJ2Wt0ZOUU1djeZ4kNpJX21hgpjGU+lB6ZnZ/NDjHEp9wIDAQABo1AwTjAdBgNVHQ4EFgQUeuOUDZWOz97tZ+7F+XXDbHdcFkcwHwYDVR0jBBgwFoAUeuOUDZWOz97tZ+7F+XXDbHdcFkcwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAQkQ4/moFODnKlAoRBWv0Akldla1vOOqpVJR8n10AcW2tSRV8/FOIduVYbyg02SmD4j2BiI0RzITNU56gxDnPyEqg/sljE1zmaBX/g9mhxt2LQuqDprCnFADmK1Dj9/HJscQijukq8aOkF7POPeglGyvCdAbsRFWjm84vPtObHZvNEDSkDxwcfWf5FFOt2avKrThVYIzcebCWr6zUBtazDl4TrD5+mLC8Ea3P2eRMAdakoWUrpftQnl49j3STYav+g+98t1mjiXqo5LFjXLxsA4kIneN6E4y3nenM6rDUBNdvv3I2HzpQVXKyJF42sSsBO+JDRhWUvMuDSH9GkNYI1g==</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://santangeloromano.halleyweb.it/spid/module.php/saml/sp/saml2-logout.php/spid"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://santangeloromano.halleyweb.it/spid/module.php/saml/sp/saml2-acs.php/spid" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://santangeloromano.halleyweb.it/spid/module.php/saml/sp/saml2-acs.php/spid" index="1"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">Servizi online</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Servizi online</md:ServiceDescription>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Codice identificativo SPID" Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Ragione o denominazione sociale" Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Sant'Angelo Romano</md:OrganizationName>
+    <md:OrganizationName xml:lang="en">Comune di Sant'Angelo Romano</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Sant'Angelo Romano</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Sant'Angelo Romano</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">http://www.comune.santangeloromano.rm.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="en">http://www.comune.santangeloromano.rm.it</md:OrganizationURL>
+  </md:Organization>
+  <md:ContactPerson contactType="other">
+    <md:Extensions>
+      <spid:IPACode>c_i284a</spid:IPACode>
+      <spid:Public/>
+    </md:Extensions>
+    <md:Company>Comune di Sant'Angelo Romano</md:Company>
+    <md:EmailAddress>egov@halley.it</md:EmailAddress>
+  </md:ContactPerson>
+</md:EntityDescriptor>
