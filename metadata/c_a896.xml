@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" ID="_5aed65d89cba353485dcf0c262be625127b5e52aca53131878048108a21bbe47" entityID="https://www.comune.bivona.ag.it"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#_5aed65d89cba353485dcf0c262be625127b5e52aca53131878048108a21bbe47">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>rujvQ1FefMZol2MGUzDg+75G/XA0iw67uGdkR+Te5ls=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+Qbm9CeUCA46wI4qgaDDl6dTqobpVCAUvAuPQTAxgZmwqfywzbxMF8JYyLHqQS4mRXm2skrJMPT6X
+X9I6jp1FhQ6odqwuCqLlGzaORzLUAlN6Ct0eVaPZtrQeI8rz9wPSbCnIMKzPHt3o6VA0tXDltrF1
+VNK0yFwD0CBMAJsFDo+Of7e5qs9E7e3zpzBeNGpJhhqXaG5ZEIf2NnefHqbqv7H2KYy1MqhLPfra
+UAr2Ky2hSDJWxZaNAI3+8FwcwD8mSQDZdRPjml7qbZueC8IVo8rLefRI7WqS24gnYvbTdDHMxXmC
+HRVJW2UiPTQ+ZMj6ZNJjAk1Fatx6cGRShedowQ==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+4p6dxezkVoJAdup2+p7/qkxvdQjZES9BqDky1iNZv8HfRy3/yGlCy7Ay91vyXFZTHZQakP/Ldy3J
+yKNH8ByLRGP0+aIvDoeKeJXnZcT9tQPGLN+9IbXs9jnmnQb35GDA4HW57ujsDaGJ5fjyj6fNz4+Y
+Wsc9Kz0pKZr+hl3d12f+mFX0T1/rKIpXFpwdGB7gEAZMzArWOQi+ugrCJ85MBvFVLIUeKuqaLoGd
+B5U+j9C2PCqLpZJAIzmkZ86ALP5blY0gsQJ+SYlYH/xX0h36pJqAdqfT7sg2Io58btixWF2Q94kl
+HNC3DLo0zEqHgrzioWQ8SBqteWR68gYY9IPF0w==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDqTCCApGgAwIBAgIJAOuxzlarK0MTMA0GCSqGSIb3DQEBCwUAMGsxCzAJBgNVBAYTAklUMQ4w
+DAYDVQQIDAVJdGFseTEPMA0GA1UEBwwGQml2b25hMRkwFwYDVQQKDBBDb211bmUgZGkgQml2b25h
+MSAwHgYDVQQDDBd3d3cuY29tdW5lLmJpdm9uYS5hZy5pdDAeFw0yMzA0MDMxNTEwMjZaFw0zMzA0
+MDIxNTEwMjZaMGsxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEPMA0GA1UEBwwGQml2b25h
+MRkwFwYDVQQKDBBDb211bmUgZGkgQml2b25hMSAwHgYDVQQDDBd3d3cuY29tdW5lLmJpdm9uYS5h
+Zy5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAOKencXs5FaCQHbqdvqe/6pMb3UI
+2REvQag5MtYjWb/B30ct/8hpQsuwMvdb8lxWUx2UGpD/y3ctycijR/Aci0Rj9PmiLw6HiniV52XE
+/bUDxizfvSG17PY55p0G9+RgwOB1ue7o7A2hieX48o+nzc+PmFrHPSs9KSma/oZd3ddn/phV9E9f
+6yiKVxacHRge4BAGTMwK1jkIvroKwifOTAbxVSyFHirqmi6BnQeVPo/Qtjwqi6WSQCM5pGfOgCz+
+W5WNILECfkmJWB/8V9Id+qSagHan0+7INiKOfG7YsVhdkPeJJRzQtwy6NMxKh4K84qFkPEgarXlk
+evIGGPSDxdMCAwEAAaNQME4wHQYDVR0OBBYEFNjjaEp9/buyeXrgbLyNlM0Kcd2hMB8GA1UdIwQY
+MBaAFNjjaEp9/buyeXrgbLyNlM0Kcd2hMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEB
+AAv+Fe1dGgSf+MmW/hkfJ0/tCHe4rblMI3CjMWXKZ+luxHem32mYuhXePr2qu6erBTVUSE+H8Ah/
+uHqXPVBpu8ee+V7j7HWBMdy7+bmC6dMYGN7wqqtBoqzBuBmzPsE2HL7a0w5Iqz875kQvdqzS6BII
+dK2ratA1oJwg3QLQN4U6C0QA6weuIHTuNExdeqBvJeto4cLoyYGDus5aGNxr/7Cd5NlIjYfBACNT
+xpyCmTGJXplSWlfxyhaeSbjEz8DQUXE0e5+hMINkZao70xGfmy3bFwk/iyXMBxL8E3ju+tzvi54S
+SpxGRVhmrTmdJZugHN9se8k8kYDkZNFEZsJxPSA=
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDqTCCApGgAwIBAgIJAOuxzlarK0MTMA0GCSqGSIb3DQEBCwUAMGsxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEPMA0GA1UEBwwGQml2b25hMRkwFwYDVQQKDBBDb211bmUgZGkgQml2b25hMSAwHgYDVQQDDBd3d3cuY29tdW5lLmJpdm9uYS5hZy5pdDAeFw0yMzA0MDMxNTEwMjZaFw0zMzA0MDIxNTEwMjZaMGsxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEPMA0GA1UEBwwGQml2b25hMRkwFwYDVQQKDBBDb211bmUgZGkgQml2b25hMSAwHgYDVQQDDBd3d3cuY29tdW5lLmJpdm9uYS5hZy5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAOKencXs5FaCQHbqdvqe/6pMb3UI2REvQag5MtYjWb/B30ct/8hpQsuwMvdb8lxWUx2UGpD/y3ctycijR/Aci0Rj9PmiLw6HiniV52XE/bUDxizfvSG17PY55p0G9+RgwOB1ue7o7A2hieX48o+nzc+PmFrHPSs9KSma/oZd3ddn/phV9E9f6yiKVxacHRge4BAGTMwK1jkIvroKwifOTAbxVSyFHirqmi6BnQeVPo/Qtjwqi6WSQCM5pGfOgCz+W5WNILECfkmJWB/8V9Id+qSagHan0+7INiKOfG7YsVhdkPeJJRzQtwy6NMxKh4K84qFkPEgarXlkevIGGPSDxdMCAwEAAaNQME4wHQYDVR0OBBYEFNjjaEp9/buyeXrgbLyNlM0Kcd2hMB8GA1UdIwQYMBaAFNjjaEp9/buyeXrgbLyNlM0Kcd2hMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAAv+Fe1dGgSf+MmW/hkfJ0/tCHe4rblMI3CjMWXKZ+luxHem32mYuhXePr2qu6erBTVUSE+H8Ah/uHqXPVBpu8ee+V7j7HWBMdy7+bmC6dMYGN7wqqtBoqzBuBmzPsE2HL7a0w5Iqz875kQvdqzS6BIIdK2ratA1oJwg3QLQN4U6C0QA6weuIHTuNExdeqBvJeto4cLoyYGDus5aGNxr/7Cd5NlIjYfBACNTxpyCmTGJXplSWlfxyhaeSbjEz8DQUXE0e5+hMINkZao70xGfmy3bFwk/iyXMBxL8E3ju+tzvi54SSpxGRVhmrTmdJZugHN9se8k8kYDkZNFEZsJxPSA=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDqTCCApGgAwIBAgIJAOuxzlarK0MTMA0GCSqGSIb3DQEBCwUAMGsxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEPMA0GA1UEBwwGQml2b25hMRkwFwYDVQQKDBBDb211bmUgZGkgQml2b25hMSAwHgYDVQQDDBd3d3cuY29tdW5lLmJpdm9uYS5hZy5pdDAeFw0yMzA0MDMxNTEwMjZaFw0zMzA0MDIxNTEwMjZaMGsxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEPMA0GA1UEBwwGQml2b25hMRkwFwYDVQQKDBBDb211bmUgZGkgQml2b25hMSAwHgYDVQQDDBd3d3cuY29tdW5lLmJpdm9uYS5hZy5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAOKencXs5FaCQHbqdvqe/6pMb3UI2REvQag5MtYjWb/B30ct/8hpQsuwMvdb8lxWUx2UGpD/y3ctycijR/Aci0Rj9PmiLw6HiniV52XE/bUDxizfvSG17PY55p0G9+RgwOB1ue7o7A2hieX48o+nzc+PmFrHPSs9KSma/oZd3ddn/phV9E9f6yiKVxacHRge4BAGTMwK1jkIvroKwifOTAbxVSyFHirqmi6BnQeVPo/Qtjwqi6WSQCM5pGfOgCz+W5WNILECfkmJWB/8V9Id+qSagHan0+7INiKOfG7YsVhdkPeJJRzQtwy6NMxKh4K84qFkPEgarXlkevIGGPSDxdMCAwEAAaNQME4wHQYDVR0OBBYEFNjjaEp9/buyeXrgbLyNlM0Kcd2hMB8GA1UdIwQYMBaAFNjjaEp9/buyeXrgbLyNlM0Kcd2hMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAAv+Fe1dGgSf+MmW/hkfJ0/tCHe4rblMI3CjMWXKZ+luxHem32mYuhXePr2qu6erBTVUSE+H8Ah/uHqXPVBpu8ee+V7j7HWBMdy7+bmC6dMYGN7wqqtBoqzBuBmzPsE2HL7a0w5Iqz875kQvdqzS6BIIdK2ratA1oJwg3QLQN4U6C0QA6weuIHTuNExdeqBvJeto4cLoyYGDus5aGNxr/7Cd5NlIjYfBACNTxpyCmTGJXplSWlfxyhaeSbjEz8DQUXE0e5+hMINkZao70xGfmy3bFwk/iyXMBxL8E3ju+tzvi54SSpxGRVhmrTmdJZugHN9se8k8kYDkZNFEZsJxPSA=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://www.comune.bivona.ag.it/spid/module.php/saml/sp/saml2-logout.php/spid"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.comune.bivona.ag.it/spid/module.php/saml/sp/saml2-acs.php/spid" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://www.comune.bivona.ag.it/spid/module.php/saml/sp/saml2-acs.php/spid" index="1"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">Servizi online</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Servizi online</md:ServiceDescription>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Codice identificativo SPID" Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Ragione o denominazione sociale" Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Bivona</md:OrganizationName>
+    <md:OrganizationName xml:lang="en">Comune di Bivona</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Bivona</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Bivona</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.comune.bivona.ag.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="en">https://www.comune.bivona.ag.it</md:OrganizationURL>
+  </md:Organization>
+  <md:ContactPerson contactType="other">
+    <md:Extensions>
+      <spid:IPACode>c_a896</spid:IPACode>
+      <spid:Public/>
+    </md:Extensions>
+    <md:Company>Comune di Bivona</md:Company>
+    <md:EmailAddress>g.marretta@comune.bivona.ag.it</md:EmailAddress>
+  </md:ContactPerson>
+</md:EntityDescriptor>
