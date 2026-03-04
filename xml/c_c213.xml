@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" ID="_563fef5545045746192d77e831f370e619713abbed03f2810119f85ec8199bb4" entityID="https://castelnovetto.halleyweb.it"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#_563fef5545045746192d77e831f370e619713abbed03f2810119f85ec8199bb4">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>3z7M1lwwj0gbxFUN6WXtIrwcmPxcKnYbjQxNktcUKeQ=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+tr4miBueon3LjMbK/50+HjwslZF7TypSBd3zhW2P2Occ+tN9whWR+hdOjsx1XI7/K7nVo/J9QRWP
+L8TK7vJPvkidCBP0ll6PPrjelnQ71kTzeFp4qGVHQkuZJvPfYcOYpNntc2hyPV9kkrHK1jaizZcm
+QxZpSu+hUVaSQk9A5SDGT1K2ILCoe9KB2ijJbWyc9HUMVhuxMNYmfwyxD4UMhaMahJSVPKgpAZJE
+99QQN9STVJIV64scUoepxRNzHVNUT28hLAw3GcOr2ot342pfleKSaWCK1kB2b/fvwm11uWjYteXN
+ffC7mVJq3VmIPFRdzO4D0kECFPIrJShkHbclmw==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+t2XzNRM1/h8brq5DxzLwtmYgwnNTCsrXSFcF3iAqipWUrzE+ji9Z1K/Vp6efl4RIPbAKTP2rowdP
+vXnkHNf4uRLbXtgtvmZYUL/U8/Fa16eMIeqglfuZ0pT6aSoPpGByTiE7AwHw+04JAQO9lcOF9NZk
+HtaOC3Wkf8rqHNN1YWcXBIAJF+sMUj9EN3EyhUFi/ze9VvVyMdJ/OoozEm+RESfqhrfv8lATmIO7
+CrEfsfm81mxNDs/z5DIMPctvMLq3ymBljLQHuo0MAeEOn9IIf+6KfERztsWaqfsmQShWHzVg/2xF
+z4Xsu6XmAr/fxkiygBQPiOFekWSTkLSeMbmN/Q==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDyzCCArOgAwIBAgIJAP8ajdx0Jxd2MA0GCSqGSIb3DQEBCwUAMHwxCzAJBgNVBAYTAklUMQ4w
+DAYDVQQIDAVJdGFseTEWMBQGA1UEBwwNQ2FzdGVsbm92ZXR0bzEgMB4GA1UECgwXQ29tdW5lIGRp
+IENhc3RlbG5vdmV0dG8xIzAhBgNVBAMMGmNhc3RlbG5vdmV0dG8uaGFsbGV5d2ViLml0MB4XDTI0
+MDExNjE0Mzg1MFoXDTM0MDExNTE0Mzg1MFowfDELMAkGA1UEBhMCSVQxDjAMBgNVBAgMBUl0YWx5
+MRYwFAYDVQQHDA1DYXN0ZWxub3ZldHRvMSAwHgYDVQQKDBdDb211bmUgZGkgQ2FzdGVsbm92ZXR0
+bzEjMCEGA1UEAwwaY2FzdGVsbm92ZXR0by5oYWxsZXl3ZWIuaXQwggEiMA0GCSqGSIb3DQEBAQUA
+A4IBDwAwggEKAoIBAQC3ZfM1EzX+HxuurkPHMvC2ZiDCc1MKytdIVwXeICqKlZSvMT6OL1nUr9Wn
+p5+XhEg9sApM/aujB0+9eeQc1/i5Ette2C2+ZlhQv9Tz8VrXp4wh6qCV+5nSlPppKg+kYHJOITsD
+AfD7TgkBA72Vw4X01mQe1o4LdaR/yuoc03VhZxcEgAkX6wxSP0Q3cTKFQWL/N71W9XIx0n86ijMS
+b5ERJ+qGt+/yUBOYg7sKsR+x+bzWbE0Oz/PkMgw9y28wurfKYGWMtAe6jQwB4Q6f0gh/7op8RHO2
+xZqp+yZBKFYfNWD/bEXPhey7peYCv9/GSLKAFA+I4V6RZJOQtJ4xuY39AgMBAAGjUDBOMB0GA1Ud
+DgQWBBTXJ61daYuzngMqTrL0EGOhziiJ3DAfBgNVHSMEGDAWgBTXJ61daYuzngMqTrL0EGOhziiJ
+3DAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQBzLAN4qDBdSDz2CmNBjKtKnbGDb+pR
+VMhvWIqDHazCxiDbaNZaP1R2iWQjjSrd9zsPMhlp0KdkBNj04R/gXqB/jIFGD5RIOoLB+uKLtzJb
++P8U19KRZGcBpfQv6xylVgL9odiz7jjJ4H5kdtHkLSr7F9PGbyTr00gWPdPrBSLNq+E4Y6biTQSq
+31WxvPO6hEtEif4uKXCp5J/Hnh4OLWFopfCOm9xCeLTDmWuBldzC4R9tvJbA9VZ1mVo6lbGPvO2f
+pK/q3SKjI0PZAKtRyhbMUw4YZdJpzQ/uWCdivUNLlsR2iYZvPZBStNlBjrqC0NGh5hM96PMNTGUa
+Kszp01OG
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDyzCCArOgAwIBAgIJAP8ajdx0Jxd2MA0GCSqGSIb3DQEBCwUAMHwxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEWMBQGA1UEBwwNQ2FzdGVsbm92ZXR0bzEgMB4GA1UECgwXQ29tdW5lIGRpIENhc3RlbG5vdmV0dG8xIzAhBgNVBAMMGmNhc3RlbG5vdmV0dG8uaGFsbGV5d2ViLml0MB4XDTI0MDExNjE0Mzg1MFoXDTM0MDExNTE0Mzg1MFowfDELMAkGA1UEBhMCSVQxDjAMBgNVBAgMBUl0YWx5MRYwFAYDVQQHDA1DYXN0ZWxub3ZldHRvMSAwHgYDVQQKDBdDb211bmUgZGkgQ2FzdGVsbm92ZXR0bzEjMCEGA1UEAwwaY2FzdGVsbm92ZXR0by5oYWxsZXl3ZWIuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC3ZfM1EzX+HxuurkPHMvC2ZiDCc1MKytdIVwXeICqKlZSvMT6OL1nUr9Wnp5+XhEg9sApM/aujB0+9eeQc1/i5Ette2C2+ZlhQv9Tz8VrXp4wh6qCV+5nSlPppKg+kYHJOITsDAfD7TgkBA72Vw4X01mQe1o4LdaR/yuoc03VhZxcEgAkX6wxSP0Q3cTKFQWL/N71W9XIx0n86ijMSb5ERJ+qGt+/yUBOYg7sKsR+x+bzWbE0Oz/PkMgw9y28wurfKYGWMtAe6jQwB4Q6f0gh/7op8RHO2xZqp+yZBKFYfNWD/bEXPhey7peYCv9/GSLKAFA+I4V6RZJOQtJ4xuY39AgMBAAGjUDBOMB0GA1UdDgQWBBTXJ61daYuzngMqTrL0EGOhziiJ3DAfBgNVHSMEGDAWgBTXJ61daYuzngMqTrL0EGOhziiJ3DAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQBzLAN4qDBdSDz2CmNBjKtKnbGDb+pRVMhvWIqDHazCxiDbaNZaP1R2iWQjjSrd9zsPMhlp0KdkBNj04R/gXqB/jIFGD5RIOoLB+uKLtzJb+P8U19KRZGcBpfQv6xylVgL9odiz7jjJ4H5kdtHkLSr7F9PGbyTr00gWPdPrBSLNq+E4Y6biTQSq31WxvPO6hEtEif4uKXCp5J/Hnh4OLWFopfCOm9xCeLTDmWuBldzC4R9tvJbA9VZ1mVo6lbGPvO2fpK/q3SKjI0PZAKtRyhbMUw4YZdJpzQ/uWCdivUNLlsR2iYZvPZBStNlBjrqC0NGh5hM96PMNTGUaKszp01OG</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDyzCCArOgAwIBAgIJAP8ajdx0Jxd2MA0GCSqGSIb3DQEBCwUAMHwxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEWMBQGA1UEBwwNQ2FzdGVsbm92ZXR0bzEgMB4GA1UECgwXQ29tdW5lIGRpIENhc3RlbG5vdmV0dG8xIzAhBgNVBAMMGmNhc3RlbG5vdmV0dG8uaGFsbGV5d2ViLml0MB4XDTI0MDExNjE0Mzg1MFoXDTM0MDExNTE0Mzg1MFowfDELMAkGA1UEBhMCSVQxDjAMBgNVBAgMBUl0YWx5MRYwFAYDVQQHDA1DYXN0ZWxub3ZldHRvMSAwHgYDVQQKDBdDb211bmUgZGkgQ2FzdGVsbm92ZXR0bzEjMCEGA1UEAwwaY2FzdGVsbm92ZXR0by5oYWxsZXl3ZWIuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC3ZfM1EzX+HxuurkPHMvC2ZiDCc1MKytdIVwXeICqKlZSvMT6OL1nUr9Wnp5+XhEg9sApM/aujB0+9eeQc1/i5Ette2C2+ZlhQv9Tz8VrXp4wh6qCV+5nSlPppKg+kYHJOITsDAfD7TgkBA72Vw4X01mQe1o4LdaR/yuoc03VhZxcEgAkX6wxSP0Q3cTKFQWL/N71W9XIx0n86ijMSb5ERJ+qGt+/yUBOYg7sKsR+x+bzWbE0Oz/PkMgw9y28wurfKYGWMtAe6jQwB4Q6f0gh/7op8RHO2xZqp+yZBKFYfNWD/bEXPhey7peYCv9/GSLKAFA+I4V6RZJOQtJ4xuY39AgMBAAGjUDBOMB0GA1UdDgQWBBTXJ61daYuzngMqTrL0EGOhziiJ3DAfBgNVHSMEGDAWgBTXJ61daYuzngMqTrL0EGOhziiJ3DAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQBzLAN4qDBdSDz2CmNBjKtKnbGDb+pRVMhvWIqDHazCxiDbaNZaP1R2iWQjjSrd9zsPMhlp0KdkBNj04R/gXqB/jIFGD5RIOoLB+uKLtzJb+P8U19KRZGcBpfQv6xylVgL9odiz7jjJ4H5kdtHkLSr7F9PGbyTr00gWPdPrBSLNq+E4Y6biTQSq31WxvPO6hEtEif4uKXCp5J/Hnh4OLWFopfCOm9xCeLTDmWuBldzC4R9tvJbA9VZ1mVo6lbGPvO2fpK/q3SKjI0PZAKtRyhbMUw4YZdJpzQ/uWCdivUNLlsR2iYZvPZBStNlBjrqC0NGh5hM96PMNTGUaKszp01OG</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://castelnovetto.halleyweb.it/spid/module.php/saml/sp/saml2-logout.php/spid"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://castelnovetto.halleyweb.it/spid/module.php/saml/sp/saml2-acs.php/spid" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://castelnovetto.halleyweb.it/spid/module.php/saml/sp/saml2-acs.php/spid" index="1"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">Servizi online</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Servizi online</md:ServiceDescription>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Codice identificativo SPID" Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Ragione o denominazione sociale" Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Castelnovetto</md:OrganizationName>
+    <md:OrganizationName xml:lang="en">Comune di Castelnovetto</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Castelnovetto</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Castelnovetto</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.comune.castelnovetto.pv.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="en">https://www.comune.castelnovetto.pv.it</md:OrganizationURL>
+  </md:Organization>
+  <md:ContactPerson contactType="other">
+    <md:Extensions>
+      <spid:IPACode>c_c213</spid:IPACode>
+      <spid:Public/>
+    </md:Extensions>
+    <md:Company>Comune di Castelnovetto</md:Company>
+    <md:EmailAddress>egov@halley.it</md:EmailAddress>
+  </md:ContactPerson>
+</md:EntityDescriptor>

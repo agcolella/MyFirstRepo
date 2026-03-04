@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" ID="a088bc6e-33c5-4ff2-b35b-d9c3ff9a2c9e" entityID="https://www.e-fil.it/pub-ag-full/LBQ2CU6I"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#a088bc6e-33c5-4ff2-b35b-d9c3ff9a2c9e">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>4JySurAH2GJNFRtn0fGU0+VZfC2IQRNKABjE/fCFACA=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+juYV0+7gxKPuYo75kEGy6BqUX3q7d6OJTM1fChpBNm0unYMSvdnmrVI/TLEf+u8dvjQxK9rDb6Xo
+SQCyY9eWTQUPWAsPj1ljKiEElKf+729iuOxkbm0M7MELzNIZyLYSVKTpRVZPTGi4mA+RNE441kP3
+fSQjuHfU5Ena6i7qKkZO46LBbxFs5B5Cy2AFDdwFLo3x0FCsCWyl7tXLjtY4DxSsVllRooNi6Tw/
+zjtfS+3S7JXHTVgnyaBP+Vz+fNai2Gkb04HLJtcK+p0tduvfq15qmvOXlz8NPPo3Z2AhaDjkHlw4
+Q2tZDn/O98rWucz6eXtGe4GxVjsVg6LlnyCh0A==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+qY4H/GWTewBiu2WSlYEBgj8A43JfVxYrWgJD3qdxocfWPPSM5E7MWIKXzXCFl+zrjeCnfeO3vg+I
+IDgN76rUKxK75XW1gvU0BEzaf7qaKNxYrvKDxKlcrzT20ZRppJ7GaMq4b5ygiFXM91bhmPkeiYGS
+I3VNgl+ZDxpMqEQuvJY1wG+iECe9p7WKVKWebj9lU4cserbIVdTT45/x0lJD+00zeuKrTQ5FQD+7
+FKjg4PThQbPIojaXwekwtZxApbz329zJsY57zomJE6phJl1gJ7+b3dN3otHMUNoGoR2KcTWy74CY
+skWOZs/wD0hbCH4QstxhHSdXH+srFN6tBkJzQw==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIH4TCCBcmgAwIBAgIIbMDMGjctYe8wDQYJKoZIhvcNAQENBQAwgeUxCzAJBgNVBAYTAklUMQ0w
+CwYDVQQHDARSb21lMSYwJAYDVQQKDB1BZ2VuemlhIHBlciBsJ0l0YWxpYSBEaWdpdGFsZTEsMCoG
+A1UECwwjU2Vydml6aW8gQWNjcmVkaXRhbWVudG8gZSBWaWdpbGFuemExKjAoBgNVBAMMIVByb2dl
+dHRvIFNQSUQgLSBTb2dnZXR0aV9wdWJibGljaTEpMCcGCSqGSIb3DQEJARYacHJvdG9jb2xsb0Bw
+ZWMuYWdpZC5nb3YuaXQxGjAYBgNVBAUTEVZBVElULTk3NzM1MDIwNTg0MB4XDTIxMDkxNTAwMDAw
+MFoXDTM2MDkxNDIzNTk1OVowgaIxCzAJBgNVBAYTAklUMQswCQYDVQQIDAJSTTENMAsGA1UEBwwE
+Um9tYTEOMAwGA1UECgwFRS1GSUwxFTATBgNVBAsMDEUtRklMIFMuUi5MLjEVMBMGA1UEAwwMRS1G
+SUwgUy5SLkwuMRowGAYDVQRhDBFWQVRJVC0wMzc4OTc1MDEwMDEdMBsGA1UEUwwUaHR0cHM6Ly93
+d3cuZS1maWwuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCpjgf8ZZN7AGK7ZZKV
+gQGCPwDjcl9XFitaAkPep3Ghx9Y89IzkTsxYgpfNcIWX7OuN4Kd947e+D4ggOA3vqtQrErvldbWC
+9TQETNp/upoo3Fiu8oPEqVyvNPbRlGmknsZoyrhvnKCIVcz3VuGY+R6JgZIjdU2CX5kPGkyoRC68
+ljXAb6IQJ72ntYpUpZ5uP2VThyx6tshV1NPjn/HSUkP7TTN64qtNDkVAP7sUqODg9OFBs8iiNpfB
+6TC1nEClvPfb3MmxjnvOiYkTqmEmXWAnv5vd03ei0cxQ2gahHYpxNbLvgJiyRY5mz/APSFsIfhCy
+3GEdJ1cf6ysU3q0GQnNDAgMBAAGjggLUMIIC0DAMBgNVHRMBAf8EAjAAMB0GA1UdDgQWBBRKUCpu
+F1YOLaPUB3lqAjXk+HWScTAfBgNVHSMEGDAWgBQ8u23rHv2dbsvuVObqOdWJoEfXNDAOBgNVHQ8B
+Af8EBAMCBsAwFgYDVR0SBA8wDYILc3BpZC5nb3YuaXQwQgYDVR0fBDswOTA3oDWgM4YxaHR0cHM6
+Ly9laWRhcy5hZ2lkLmdvdi5pdC9jcmwvY3JsX1NQSURfUHViX1NBLmNybDA3BggrBgEFBQcBAQQr
+MCkwJwYIKwYBBQUHMAGGG2h0dHBzOi8vb2NzcF9TQS5hZ2lkLmdvdi5pdDCCAdkGA1UdIASCAdAw
+ggHMMAkGBwQAjkYBBgIwgZUGBCtMEAYwgYwwRAYIKwYBBQUHAgIwOBo2RWxlY3Ryb25pYyBjZXJ0
+aWZpY2F0ZSBjb25mb3JtaW5nIHdpdGggQUdJRCBHdWlkZWxpbmVzMEQGCCsGAQUFBwICMDgaNkNl
+cnRpZmljYXRvIGVsZXR0cm9uaWNvIGNvbmZvcm1lIGFsbGUgTGluZWUgZ3VpZGEgQWdJRDB9BgYr
+TBAEAgIwczA6BggrBgEFBQcCAjAuGixTUElEOiBhZ2dyZWdhdG9yZSAnZnVsbCcgZGkgc2Vydml6
+aSBwdWJibGljaTA1BggrBgEFBQcCAjApGidTUElEOiBwdWJsaWMtc2VydmljZXMgJ2Z1bGwnIEFn
+Z3JlZ2F0b3IwCAYGBACPegEDME0GBCtMEAQwRTBDBggrBgEFBQcCARY3aHR0cHM6Ly9laWRhcy5h
+Z2lkLmdvdi5pdC9jcHMvQWdJRF9lSURBU19yb290Q0FfY3BzLnBkZjBPBgYEAI5GAQUwRTBDBggr
+BgEFBQcCARY3aHR0cHM6Ly9laWRhcy5hZ2lkLmdvdi5pdC9jcHMvQWdJRF9lSURBU19yb290Q0Ff
+Y3BzLnBkZjANBgkqhkiG9w0BAQ0FAAOCAgEAO9XfbJaLZEb7P7U+yJyE7mIuNsYJGSf18XzG/7sn
+C4POvFLhYOP/IAw/nrKPkXU5z6KH1NCnoKwS/8SxJbpXxU4gn29U4NFlaDYYat9LYXu/a0g75Den
+AsOtNsYH6Qx/iiPk+Ksehly+tBjMOj6EWqQmr+0I8EI5DUgIMCLbiUD0U5yAGMt8lKFlUw6SClEe
+ppp615autplBNWyUNEOVTnu+z2t+uP5midU9JRWm0HRsUOoHATa6zKE7o74fzDCebvJRXJQtH1Cf
+SYprddOg8tcxqrsUY7a0m9FH/no98fmquUwgY9CWnM7byYHAMdKOhGTqLW/TGSuhBNgYnm7mS6RS
+sB/jhC2n5eh2JYYbBw5ku/Vxkwqqt70s5V0zDIYVb5pZ1IYhgUBVuE0WYmLK8SL7FhPEilp4ZRfo
++J3YCs4zd/ncloQhdma+VksA/C06wldIRcVplrcYfJAKTUphoVC0b7o3uh9UR68FzUrdID6qWu0Z
+sQcVuPp3yu++8KpNnYGEdntKS1Kay4VeZB4ZR3qVvz0YP89c+Ia1ht0Q5KnV49BzyXjbZOeGtmnA
+TXZGdKmZCB1UZi1n2q0wPCGCbo/iZxqzLgAbZyYTKxzLgbKnhllUw7yE24F8C9EW0Ad3WgTvQB2j
+inV2kz2IRS9ixUd/8XwEWKVPa6id/0Et5Y4=
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>
+					MIIGDDCCA/SgAwIBAgIJAKbdGOprrACOMA0GCSqGSIb3DQEBCwUAMIGaMQswCQYD
+					VQQGEwJJVDENMAsGA1UECAwEUm9tYTEQMA4GA1UEBwwHQVJFQVNSTDEQMA4GA1UE
+					CgwHQVJFQVNSTDENMAsGA1UECwwEU3BpZDEfMB0GA1UEAwwWd3d3LmFyZWFyaXNj
+					b3NzaW9uaS5pdDEoMCYGCSqGSIb3DQEJARYZQVJFQVJJU0NPU1NJT05JU1JMQFBF
+					Qy5JVDAeFw0yMzEyMTIwODUwMjRaFw0yNjEyMTEwODUwMjRaMIGaMQswCQYDVQQG
+					EwJJVDENMAsGA1UECAwEUm9tYTEQMA4GA1UEBwwHQVJFQVNSTDEQMA4GA1UECgwH
+					QVJFQVNSTDENMAsGA1UECwwEU3BpZDEfMB0GA1UEAwwWd3d3LmFyZWFyaXNjb3Nz
+					aW9uaS5pdDEoMCYGCSqGSIb3DQEJARYZQVJFQVJJU0NPU1NJT05JU1JMQFBFQy5J
+					VDCCAiIwDQYJKoZIhvcNAQEBBQADggIPADCCAgoCggIBAM0U1iUrXFGfvabmgXP4
+					HEnneC+U9fCxGQJGmEEeDZAa5/BgYOK0zJrtMlkdUnqYr4XDVZ4/oO4tMzphoeki
+					NnOMc+Chmp+iVxpi6a5dPinOL8Nf1VaBuywrUho8yaSWcx55Isj2vho97F0LZv3+
+					hKtZMyH0tegQLcmSzQHt5v2JnZ0uh9e2L3qKuVRGerHbSk8DJt0R+4pFgQSQP/z2
+					EgG+261KMq5XaICH+CeuZCm4eiH0rW4AgV6ues7M32q56MObCRiGD9u8NIeeqlTY
+					SGvVvQwc9GpYyIiL9YfgyVEMNHF+ZC8lf+ycM1moYk7Fk0bXsldmLR4/GoLN7ORp
+					+By1WMt5wCRP/9GDAWQfbI0heU9WoJsZIzwjDU0ttkvb3lDBN59beQTHI1xp277x
+					izoAduNfBLKThSAop4bPGis7hlx942QYyH3s5k0QC96j3eunyvzwyM4EtNDEzcQa
+					Z0WF+LVhrc4QrcpYIWtuNffKUnksWrwTnizEyN/LQzbiuVf+cQjMEiFJaVn5JAYQ
+					OlZHpIdt6Lz0DP6u8tq/sJ4JDs2kORL5fQZ5XaNLCeq5SiPoqsgpWvnKUC7QzqR3
+					clzrwt0EU+kYaRT1fR0gfhlvGZ4R/uijtcC7ZcArlBAyLLk8j25BHoOtxMRnMKql
+					5uCyUjYtyUoxIiwq/WFY6eFzAgMBAAGjUzBRMB0GA1UdDgQWBBTMXO9LOQ8Otd0b
+					XdzaqDJeO0cuLjAfBgNVHSMEGDAWgBTMXO9LOQ8Otd0bXdzaqDJeO0cuLjAPBgNV
+					HRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4ICAQCV+P6PY3OXvYFJWhdqxVWQ
+					VILrTAZBeOeQ1XXMRcHVxfCS6pk85NooAZENzNhDl2/dpCS6+KtaK6BWcfDpLvoV
+					hNRhPI7fka1x76wlyAoN4SzL3NxXs8Ljpw59PNTAU2KcveZ3DPt6yh79I70/ka5M
+					SR5MO0MScmPo/sSjegwa5hXWdDPKaDTDbDMYIwB0QjJI2b2WqCOXXYEdAUow3UtU
+					51BBZxYCfjcro4VFU5FTzuP+wnqfmJ7p3SJYSPfx1+rNI4VZORdUsgcFg8k1VrKY
+					sXz8h+1qZ9ttxnosIvUImpaGOO3lwVwd+HmDV/yzz03F6EMcMLoAsVTGCVCN0r1z
+					DyvQYI1N0OJt0ekhFD4qwt1twUeRym6/adgnrKFZMoqCRcmOP95+GVBmKXbYaUiM
+					9zl26dMPxNrg96XTs9WZFGKgPV/xLEIMJkGBe3hVi7o+9fiOuvujq4Gn3a7ad5Sv
+					OqcjWdp12EGLkrUulq7sOQ4qnX0ZGzEJji7CeTAMYDJXiyOuxGCnD+rNLiF2QfdC
+					k/5mWNxnBzWLk7h0p2Mf5D12zs/KJIBr47tpSoQPhc7tkyOp/Gjdg8uXj5Bi+etb
+					BqKMucQuG8Q+kcaKvJTkZ0MvL1BF/fDHFdX72n7lhy7aL5Txp0p4sjJ//4B9unjo
+					g39tFlPSA3KZmat23sOnnA==
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://idppaproxy.plugandpay.it/spidslo/a70077d6-b43a-464b-bf7f-3200925aa7d5/LBQ2CU6I"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://idppaproxy.plugandpay.it/spidacs/a70077d6-b43a-464b-bf7f-3200925aa7d5/LBQ2CU6I" index="0" isDefault="true"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">AREA S.R.L.</md:ServiceName>
+      <md:RequestedAttribute Name="spidCode"/>
+	  <md:RequestedAttribute Name="familyName"/>
+	  <md:RequestedAttribute Name="name"/>
+	  <md:RequestedAttribute Name="companyName"/>
+	  <md:RequestedAttribute Name="fiscalNumber"/>
+	  <md:RequestedAttribute Name="ivaCode"/>
+	  <md:RequestedAttribute Name="email"/>
+	  <md:RequestedAttribute Name="gender"/>
+	  <md:RequestedAttribute Name="placeOfBirth"/>
+	  <md:RequestedAttribute Name="countyOfBirth"/>
+	  <md:RequestedAttribute Name="dateOfBirth"/>
+    </md:AttributeConsumingService>   
+  </md:SPSSODescriptor>
+  <md:Organization>
+  	<md:OrganizationName xml:lang="it">AREA S.R.L.</md:OrganizationName>
+  	<md:OrganizationDisplayName xml:lang="it">AREA S.R.L.</md:OrganizationDisplayName>
+  	<md:OrganizationURL xml:lang="it">https://www.areariscossioni.it</md:OrganizationURL>
+  </md:Organization>
+  <md:ContactPerson contactType="other" spid:entityType="spid:aggregator">
+  	<md:Extensions>
+  		<spid:VATNumber>IT03789750100</spid:VATNumber>
+  		<spid:FiscalCode>03789750100</spid:FiscalCode>
+  		<spid:PublicServicesFullAggregator/>
+  	</md:Extensions>
+  	<md:Company>E-fil srl</md:Company>
+  	<md:EmailAddress>segreteria@pec.e-fil.eu</md:EmailAddress>
+  	<md:TelephoneNumber>+390688805363</md:TelephoneNumber>
+  </md:ContactPerson>
+  <md:ContactPerson contactType="other" spid:entityType="spid:aggregated">
+  	<md:Extensions>
+  		<spid:IPACode>LBQ2CU6I</spid:IPACode>
+		<spid:Public/>
+  	</md:Extensions>
+  	<md:Company>AREA S.R.L.</md:Company>
+   </md:ContactPerson>
+</md:EntityDescriptor>

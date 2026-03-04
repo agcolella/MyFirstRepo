@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:spid="https://spid.gov.it/saml-extensions" ID="_4ec356d6-103c-4cc1-ba66-12bac9e9dd3b" entityID="https://webapp.comunediselvino.it"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#_4ec356d6-103c-4cc1-ba66-12bac9e9dd3b">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>0MqLtxClBDrjMTRiCTZQHaFSqwNgHcvFjUKQ1mKSeoU=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+WdekYHnNz5Y2MeSi+LSelH88ijPVeiq591MSUWdT3tp3cIVxqcwAf5boYtQBHG6yeHVGUS+UiaOl
+5Np0IkGE2TaTTmZ6A87ukkk0LNKx3l1X/exuGd3sHVPgn3pI/g83uOp3NrAuuDvQecEyWfNrnl+G
+0+cnF5wus2r8bKPGqxHBvqplsE7Qqa5+UvtUrMZn/OmSJeJzLypZcnxYmyvHbVuZKfBuef4WZVJp
+fEt0B+bWdeWTbrXMfva4QqRPD6sbA3oQQGt0bwYyzuDW96ajAnOw1bRoeoc9mUhPiJqEdsgNQV1N
+2/qkBnvXRGy7lHvHy8tWz2gKOs1XsBVIkXzwIg==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+y2Rzfy/eHeM9VqD4x12ar6N1Yl2O5RpzdFuMt3Rwjj4zMJN71IrKt+47JTHpih9/aO3tU5a1fqGA
+nKnsnvm7pp4go1fIwCEF/Q5wqP32YMVd6yYH2C0Gl2fumpZ+tUePUK7EQrM9vQAyElNHi8I72mhu
+kv5wSnce2csZ0PrTw49aBZKC2oM7VqYB4LCyPDbUxDxGOSM3luWjhscAv6hSGnlLNRfpNYepdGq8
+Nggb7JhgHn+E2r617IsIEakTbw7Ozp1uU5KgUXEnPVXuBbIYrVkiewn9FpY7OfP5HhWtIqjR/dPo
+2eP5mYq08CzHo1keSwnMw0eacMYrjZuHVta3WQ==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIESDCCAzCgAwIBAgIHBlqngv12pzANBgkqhkiG9w0BAQsFADCBqjELMAkGA1UEBhMCSVQxEDAO
+BgNVBAcMB1NlbHZpbm8xGjAYBgNVBAoMEUNvbXVuZSBkaSBTZWx2aW5vMRowGAYDVQQDDBFDb211
+bmUgZGkgU2VsdmlubzE6MDgGA1UEUwwxaHR0cHM6Ly93d3cuY29tdW5lZGlzZWx2aW5vLml0L21p
+Y3Jvc3BpZF9tZXRhZGF0YTEVMBMGA1UEYQwMUEE6SVQtY19pNTk3MB4XDTI0MDExOTEzMjUwM1oX
+DTQ0MDExODEzMjUwM1owgaoxCzAJBgNVBAYTAklUMRAwDgYDVQQHDAdTZWx2aW5vMRowGAYDVQQK
+DBFDb211bmUgZGkgU2VsdmlubzEaMBgGA1UEAwwRQ29tdW5lIGRpIFNlbHZpbm8xOjA4BgNVBFMM
+MWh0dHBzOi8vd3d3LmNvbXVuZWRpc2Vsdmluby5pdC9taWNyb3NwaWRfbWV0YWRhdGExFTATBgNV
+BGEMDFBBOklULWNfaTU5NzCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMtkc38v3h3j
+PVag+Mddmq+jdWJdjuUac3RbjLd0cI4+MzCTe9SKyrfuOyUx6Yoff2jt7VOWtX6hgJyp7J75u6ae
+IKNXyMAhBf0OcKj99mDFXesmB9gtBpdn7pqWfrVHj1CuxEKzPb0AMhJTR4vCO9pobpL+cEp3HtnL
+GdD608OPWgWSgtqDO1amAeCwsjw21MQ8RjkjN5blo4bHAL+oUhp5SzUX6TWHqXRqvDYIG+yYYB5/
+hNq+teyLCBGpE28Ozs6dblOSoFFxJz1V7gWyGK1ZInsJ/RaWOznz+R4VrSKo0f3T6Nnj+ZmKtPAs
+x6NZHksJzMNHmnDGK42bh1bWt1kCAwEAAaNxMG8wCQYDVR0TBAIwADAOBgNVHQ8BAf8EBAMCBsAw
+UgYDVR0gBEswSTAgBgQrTBAGMBgwFgYIKwYBBQUHAgIwChoIYWdJRGNlcnQwJQYGK0wQBAIBMBsw
+GQYIKwYBBQUHAgIwDRoLY2VydF9TUF9QdWIwDQYJKoZIhvcNAQELBQADggEBADvDzztSBN2AuYv5
+yHmD2JTMWQ2uDe0UaQU0YBoCQDj4rK7eu0O5/Gm7tvaBqYkeD7I92HYQZ3R5WekLLBXmDfKObjTI
+gXvfiN+MQ24ae68cZZhzxuP4Wz9NjX8LDe/CG95uDrlByDj5ITzguwZ6gF+eueXy1KHSSya7NKV5
+jkDdvcjLqudCXrkO6sFi0e4atfUJALkLZIk4UBc5U/VgFHjS+Ua/P6aQLMjDnD/Ia5ojJGd9JaaW
+a+5cdvvlVIKV+AtpGvSPOzrVi2ib+q8fNMpcL7yeJQYfodTP/MM5a9uyC2h6hBgMe+r19aAnVi9C
+C/fi/cARHbEDyMyIHVPTZaU=
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+		<md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+			<md:KeyDescriptor use="signing">
+				<KeyInfo xmlns="http://www.w3.org/2000/09/xmldsig#">
+					<X509Data>
+						<X509Certificate>MIIESzCCAzOgAwIBAgIUYpyGoj9lNkFGt3bYWUOakrLgV+AwDQYJKoZIhvcNAQELBQAwgasxCzAJBgNVBAYTAml0MQ4wDAYDVQQIDAVJdGFseTEQMA4GA1UEBwwHU0VMVklOTzEaMBgGA1UECgwRQ09NVU5FIERJIFNFTFZJTk8xGjAYBgNVBAsMEUNPTVVORSBESSBTRUxWSU5PMSswKQYDVQQDDCJodHRwczovL3dlYmFwcC5jb211bmVkaXNlbHZpbm8uaXQvMRUwEwYDVQQFEwxQQTpJVC1jLWk1OTcwHhcNMjMwMjI4MDg0NjUwWhcNMjQwMzE1MDg0NjUxWjCBqzELMAkGA1UEBhMCaXQxDjAMBgNVBAgMBUl0YWx5MRAwDgYDVQQHDAdTRUxWSU5PMRowGAYDVQQKDBFDT01VTkUgREkgU0VMVklOTzEaMBgGA1UECwwRQ09NVU5FIERJIFNFTFZJTk8xKzApBgNVBAMMImh0dHBzOi8vd2ViYXBwLmNvbXVuZWRpc2Vsdmluby5pdC8xFTATBgNVBAUTDFBBOklULWMtaTU5NzCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALzvYHJyHeos9KHTPHBHcxNDuj9NztU6EfpPIgE5geVwATLVCxxQtNUWJTyOLcHA7Bss/fx/BJpdCBcUP2EAYbiqGOaHL3q/aBzAK8BJlsaVz9KTPmUX9NcM/M+jztgjDMUAfj2ekUrIYjC1QgrF3SL6Hk52zUf0HFzsm1/jWnJdOlGOs9NGKC5TjeEPe0FP2XTvEJ4lrOGCGVKu2mVq4/OBBSPWoQrymCMt+2OFA72EC+PpUTPyOtyMK94BvF4ibAontGdEXnNsiCItQoUQ2fS81fbaN2EP/t7/uL4irysb5PYyxpHpDS853UFTLOil7ydZKw2hmY+xHys5i6PUjvsCAwEAAaNlMGMwHQYDVR0OBBYEFOao1GS1mF8FgD8a73f37Rpbc1NsMB8GA1UdIwQYMBaAFOao1GS1mF8FgD8a73f37Rpbc1NsMAwGA1UdEwQFMAMBAf8wEwYDVR0gBAwwCjAIBgYrTBAEAgEwDQYJKoZIhvcNAQELBQADggEBAF6g0PhlrqF2E9rM3QKEgx2m4ed84H7BPCVugi8aPGINcl3WcpWSW32IEp4jCWXOgoay5I8NmmQqI8iIvrz8/0mgyUp7UGcJY0yjHRTpFOP/KXeJffelvLEQS0te13c/YuTp+0wfhv6a/oAJcAMH5a38Rhc8dpsuFq9jVldO0/+b45Ed7URBLru1ucqPda4zoFjwVYpNADvAnZS8FfAFLVIvGXZFwP0XD2+mhh/DMvNXI4ta6NAutwFvljVQL6kbQvonEJ/8rkGld+SZITi6Ka2ZzcbxsQWy2hKTVLQc+r9Xi90tWmgOMtShX8Wlh04P1oHECpoVHHS969f/QC98VF0=</X509Certificate>
+					</X509Data>
+				</KeyInfo>
+			</md:KeyDescriptor>
+		  <md:KeyDescriptor use="signing"> 
+            <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#"> 
+                <ds:X509Data> 
+                    <ds:X509Certificate>MIIESDCCAzCgAwIBAgIHBlqngv12pzANBgkqhkiG9w0BAQsFADCBqjELMAkGA1UEBhMCSVQxEDAOBgNVBAcMB1NlbHZpbm8xGjAYBgNVBAoMEUNvbXVuZSBkaSBTZWx2aW5vMRowGAYDVQQDDBFDb211bmUgZGkgU2VsdmlubzE6MDgGA1UEUwwxaHR0cHM6Ly93d3cuY29tdW5lZGlzZWx2aW5vLml0L21pY3Jvc3BpZF9tZXRhZGF0YTEVMBMGA1UEYQwMUEE6SVQtY19pNTk3MB4XDTI0MDExOTEzMjUwM1oXDTQ0MDExODEzMjUwM1owgaoxCzAJBgNVBAYTAklUMRAwDgYDVQQHDAdTZWx2aW5vMRowGAYDVQQKDBFDb211bmUgZGkgU2VsdmlubzEaMBgGA1UEAwwRQ29tdW5lIGRpIFNlbHZpbm8xOjA4BgNVBFMMMWh0dHBzOi8vd3d3LmNvbXVuZWRpc2Vsdmluby5pdC9taWNyb3NwaWRfbWV0YWRhdGExFTATBgNVBGEMDFBBOklULWNfaTU5NzCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMtkc38v3h3jPVag+Mddmq+jdWJdjuUac3RbjLd0cI4+MzCTe9SKyrfuOyUx6Yoff2jt7VOWtX6hgJyp7J75u6aeIKNXyMAhBf0OcKj99mDFXesmB9gtBpdn7pqWfrVHj1CuxEKzPb0AMhJTR4vCO9pobpL+cEp3HtnLGdD608OPWgWSgtqDO1amAeCwsjw21MQ8RjkjN5blo4bHAL+oUhp5SzUX6TWHqXRqvDYIG+yYYB5/hNq+teyLCBGpE28Ozs6dblOSoFFxJz1V7gWyGK1ZInsJ/RaWOznz+R4VrSKo0f3T6Nnj+ZmKtPAsx6NZHksJzMNHmnDGK42bh1bWt1kCAwEAAaNxMG8wCQYDVR0TBAIwADAOBgNVHQ8BAf8EBAMCBsAwUgYDVR0gBEswSTAgBgQrTBAGMBgwFgYIKwYBBQUHAgIwChoIYWdJRGNlcnQwJQYGK0wQBAIBMBswGQYIKwYBBQUHAgIwDRoLY2VydF9TUF9QdWIwDQYJKoZIhvcNAQELBQADggEBADvDzztSBN2AuYv5yHmD2JTMWQ2uDe0UaQU0YBoCQDj4rK7eu0O5/Gm7tvaBqYkeD7I92HYQZ3R5WekLLBXmDfKObjTIgXvfiN+MQ24ae68cZZhzxuP4Wz9NjX8LDe/CG95uDrlByDj5ITzguwZ6gF+eueXy1KHSSya7NKV5jkDdvcjLqudCXrkO6sFi0e4atfUJALkLZIk4UBc5U/VgFHjS+Ua/P6aQLMjDnD/Ia5ojJGd9JaaWa+5cdvvlVIKV+AtpGvSPOzrVi2ib+q8fNMpcL7yeJQYfodTP/MM5a9uyC2h6hBgMe+r19aAnVi9CC/fi/cARHbEDyMyIHVPTZaU=</ds:X509Certificate> 
+                </ds:X509Data> 
+            </ds:KeyInfo> 
+			</md:KeyDescriptor> 
+			<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://webapp.comunediselvino.it/GolemLogin/SAML/SLOService.aspx"/>
+			  <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.comunediselvino.it/microspid_logout"/> 
+			<md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+			<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://webapp.comunediselvino.it/GolemLogin/SAML/AssertionConsumerService.aspx" index="0" isDefault="true"/>
+			<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.comunediselvino.it/microspid_acs" index="2"/> 
+			
+			<md:AttributeConsumingService index="0">
+				<md:ServiceName xml:lang="it">Classe1</md:ServiceName>
+				<md:RequestedAttribute Name="spidCode"/>
+				<md:RequestedAttribute Name="familyName"/>
+				<md:RequestedAttribute Name="name"/>
+				<md:RequestedAttribute Name="fiscalNumber"/>
+				<md:RequestedAttribute Name="gender"/>
+				<md:RequestedAttribute Name="dateOfBirth"/>
+				<md:RequestedAttribute Name="placeOfBirth"/>
+				<md:RequestedAttribute Name="countyOfBirth"/>
+				<md:RequestedAttribute Name="mobilePhone"/>
+				<md:RequestedAttribute Name="idCard"/>
+				<md:RequestedAttribute Name="email"/>
+				<md:RequestedAttribute Name="address"/>
+			</md:AttributeConsumingService>
+			<md:AttributeConsumingService index="1">
+				<md:ServiceName xml:lang="it">Classe2</md:ServiceName>
+				<md:RequestedAttribute Name="spidCode"/>
+				<md:RequestedAttribute Name="name"/>
+				<md:RequestedAttribute Name="familyName"/>
+				<md:RequestedAttribute Name="fiscalNumber"/>
+				<md:RequestedAttribute Name="email"/>
+				<md:RequestedAttribute Name="placeOfBirth"/>
+				<md:RequestedAttribute Name="countyOfBirth"/>
+				<md:RequestedAttribute Name="dateOfBirth"/>
+				<md:RequestedAttribute Name="gender"/>
+				<md:RequestedAttribute Name="companyName"/>
+				<md:RequestedAttribute Name="registeredOffice"/>
+				<md:RequestedAttribute Name="ivaCode"/>
+				<md:RequestedAttribute Name="idCard"/>
+				<md:RequestedAttribute Name="mobilePhone"/>
+				<md:RequestedAttribute Name="address"/>
+				<md:RequestedAttribute Name="expirationDate"/>
+				<md:RequestedAttribute Name="digitalAddress"/>
+			</md:AttributeConsumingService>
+		 <md:AttributeConsumingService index="2"> 
+            <md:ServiceName xml:lang="it">AccessoPortaleIst</md:ServiceName> 
+            <md:ServiceDescription xml:lang="it">Accesso all'area riservata del portale</md:ServiceDescription> 
+            <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+            <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+            <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+            <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+            <md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+            <md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+            <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="domicileStreetAddress" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="domicilePostalCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="domicileMunicipality" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="domicileProvince" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="domicileNation" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+        </md:AttributeConsumingService> 
+		<md:AttributeConsumingService index="99">
+            <md:ServiceName xml:lang="it">eIDAS Natural Person Minimum Attribute Set</md:ServiceName>
+            <md:RequestedAttribute Name="spidCode"/>
+            <md:RequestedAttribute Name="name"/>
+            <md:RequestedAttribute Name="familyName"/>
+            <md:RequestedAttribute Name="dateOfBirth"/>
+        </md:AttributeConsumingService>
+        <md:AttributeConsumingService index="100">
+            <md:ServiceName xml:lang="it">eIDAS Natural Person Full Attribute Set</md:ServiceName>
+            <md:RequestedAttribute Name="spidCode"/>
+            <md:RequestedAttribute Name="name"/>
+            <md:RequestedAttribute Name="familyName"/>
+            <md:RequestedAttribute Name="dateOfBirth"/>
+            <md:RequestedAttribute Name="placeOfBirth"/>
+            <md:RequestedAttribute Name="address"/>
+            <md:RequestedAttribute Name="gender"/>
+        </md:AttributeConsumingService> 
+		</md:SPSSODescriptor>
+		<md:Organization>
+			<md:OrganizationName xml:lang="it">Comune di Selvino</md:OrganizationName>
+			<md:OrganizationDisplayName xml:lang="it">Selvino</md:OrganizationDisplayName>
+			<md:OrganizationURL xml:lang="it">https://webapp.comunediselvino.it/ServiziOnLine/Account/Login.aspx?Comune=SELVINO&amp;Cod=2</md:OrganizationURL>
+		</md:Organization>
+		<md:ContactPerson contactType="other">
+			<md:Extensions>
+				<spid:IPACode>c_i597</spid:IPACode>
+				<spid:FiscalCode>00631310166</spid:FiscalCode>
+				<spid:Public/>
+			</md:Extensions>
+			<md:Company>Comune di Selvino</md:Company>
+			<md:EmailAddress>protocollo@comunediselvino.it</md:EmailAddress>
+			<md:TelephoneNumber>+39035764250</md:TelephoneNumber>
+		</md:ContactPerson>
+	</md:EntityDescriptor>
