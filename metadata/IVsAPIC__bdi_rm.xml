@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" ID="acf93e2d-d234-53b8-9bba-228e50bf4cb2" entityID="https://auth.bancaditalia.it/pub-ag-full/Ivass"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#acf93e2d-d234-53b8-9bba-228e50bf4cb2">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>QnnIQnB2cwLfGJSKBuL+xCe2xJk4AKzknlCRSh6iMpQ=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+MSvP6YeSu0FR29HokrLpFFj940CHk51YPr1I6BqsLtfAxAcg/qOrP6wSXtFSlqXFdLZHp5WApEY5
+jVBJNesXWqZIDiykYPg/NTBr08T/dwMBK53EsoEdlhgH5HqwxdtMEBlwbYKATD/N6o50r4klIugj
+ZLEPN5qDj4jJwit2zrpm5wmqu1SWQV72AQSLIQwITRVgaqWkQmxLuWakXbuS5E92Bnv6tEcEwasX
+EEAwrqJskrKytxArxjh/9ySzkT/cOabFvxYYiAyAiEOsvSEwgez7DlA+L4zfvoNUx6CytWXpSImS
+8i9g/jAIHAkUW93E+B9iPs+1Eqbtb0Sww/cCyQ==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+hXslP9ynJ06tzKJvxDQcx0GhMWLGWOfPOp04B0hNIju1Jq+7Z3Yq3mDRfocMyCBVJnGqnrRIdYLS
+iNXWnCd3LKnFWtaT4fYgNKN4+GW+H+mOVB8vT8Sp01+iJaei1ponbg4QOPYJo58hRwGPuj2NFuJn
+SzC+r2YJQ3cGbk2uJcj0F9RlA+00br96iowPVfZ5eGKl5YI1aGNKgHXH5e826Y2+U7uDevfCHhQk
+jhYje18Xs25apfD2PilsKgRIeJAo7EquNvn+Mi3+sLkUv34hkkE75S+xpAhfueQPYqza/vhsMw3l
+fxgG49DcgRY5kREfbdA9w7IsYtIj8zfGaa52gQ==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIIaDCCBlCgAwIBAgIINFhmyixmLicwDQYJKoZIhvcNAQENBQAwgeUxCzAJBgNVBAYTAklUMQ0w
+CwYDVQQHDARSb21lMSYwJAYDVQQKDB1BZ2VuemlhIHBlciBsJ0l0YWxpYSBEaWdpdGFsZTEsMCoG
+A1UECwwjU2Vydml6aW8gQWNjcmVkaXRhbWVudG8gZSBWaWdpbGFuemExKjAoBgNVBAMMIVByb2dl
+dHRvIFNQSUQgLSBTb2dnZXR0aV9wdWJibGljaTEpMCcGCSqGSIb3DQEJARYacHJvdG9jb2xsb0Bw
+ZWMuYWdpZC5nb3YuaXQxGjAYBgNVBAUTEVZBVElULTk3NzM1MDIwNTg0MB4XDTIzMTExNjAwMDAw
+MFoXDTM4MTExNTIzNTk1OVowgYwxCzAJBgNVBAYTAklUMQ0wCwYDVQQHDARSb21hMRcwFQYDVQQK
+DA5CYW5jYSBkJ0l0YWxpYTEXMBUGA1UEAwwOQmFuY2EgZCdJdGFsaWExFTATBgNVBGEMDFBBOklU
+LWJkaV9ybTElMCMGA1UEUwwcaHR0cHM6Ly9hdXRoLmJhbmNhZGl0YWxpYS5pdDCCASIwDQYJKoZI
+hvcNAQEBBQADggEPADCCAQoCggEBAIV7JT/cpydOrcyib8Q0HMdBoTFixljnzzqdOAdITSI7tSav
+u2d2Kt5g0X6HDMggVSZxqp60SHWC0ojV1pwndyypxVrWk+H2IDSjePhlvh/pjlQfL0/EqdNfoiWn
+otaaJ24OEDj2CaOfIUcBj7o9jRbiZ0swvq9mCUN3Bm5NriXI9BfUZQPtNG6/eoqMD1X2eXhipeWC
+NWhjSoB1x+XvNumNvlO7g3r3wh4UJI4WI3tfF7NuWqXw9j4pbCoESHiQKOxKrjb5/jIt/rC5FL9+
+IZJBO+UvsaQIX7nkD2Ks2v74bDMN5X8YBuPQ3IEWOZERH23QPcOyLGLSI/M3xmmudoECAwEAAaOC
+A3EwggNtMAwGA1UdEwEB/wQCMAAwHQYDVR0OBBYEFMzDln0YCse3jxljFmugD3jUo4iQMB8GA1Ud
+IwQYMBaAFDy7bese/Z1uy+5U5uo51YmgR9c0MA4GA1UdDwEB/wQEAwIGwDAWBgNVHRIEDzANggtz
+cGlkLmdvdi5pdDBCBgNVHR8EOzA5MDegNaAzhjFodHRwczovL2VpZGFzLmFnaWQuZ292Lml0L2Ny
+bC9jcmxfU1BJRF9QdWJfU0EuY3JsMDcGCCsGAQUFBwEBBCswKTAnBggrBgEFBQcwAYYbaHR0cHM6
+Ly9vY3NwX1NBLmFnaWQuZ292Lml0MIICVgYDVR0gBIICTTCCAkkwCQYHBACORgEGAjCBlQYEK0wQ
+BjCBjDBEBggrBgEFBQcCAjA4GjZFbGVjdHJvbmljIGNlcnRpZmljYXRlIGNvbmZvcm1pbmcgd2l0
+aCBBR0lEIEd1aWRlbGluZXMwRAYIKwYBBQUHAgIwOBo2Q2VydGlmaWNhdG8gZWxldHRyb25pY28g
+Y29uZm9ybWUgYWxsZSBMaW5lZSBndWlkYSBBZ0lEMH0GBitMEAQCAjBzMDoGCCsGAQUFBwICMC4a
+LFNQSUQ6IGFnZ3JlZ2F0b3JlICdmdWxsJyBkaSBzZXJ2aXppIHB1YmJsaWNpMDUGCCsGAQUFBwIC
+MCkaJ1NQSUQ6IHB1YmxpYy1zZXJ2aWNlcyAnZnVsbCcgQWdncmVnYXRvcjB7BgYrTBAEAgEwcTA2
+BggrBgEFBQcCAjAqGihTUElEOiBmb3JuaXRvcmUgZGkgc2Vydml6aSAoU1ApIHB1YmJsaWNvMDcG
+CCsGAQUFBwICMCsaKVNQSUQ6IHB1YmxpYy1zZWN0b3IgU2VydmljZSBQcm92aWRlciAoU1ApMAgG
+BgQAj3oBAzBNBgQrTBAEMEUwQwYIKwYBBQUHAgEWN2h0dHBzOi8vZWlkYXMuYWdpZC5nb3YuaXQv
+Y3BzL0FnSURfZUlEQVNfcm9vdENBX2Nwcy5wZGYwTwYGBACORgEFMEUwQwYIKwYBBQUHAgEWN2h0
+dHBzOi8vZWlkYXMuYWdpZC5nb3YuaXQvY3BzL0FnSURfZUlEQVNfcm9vdENBX2Nwcy5wZGYwHgYJ
+YIZIAYb4QgENBBEWD3hjYSBjZXJ0aWZpY2F0ZTANBgkqhkiG9w0BAQ0FAAOCAgEAr2L9pUAwbDVz
+nlsoexw5aRpVfDzKi1H1u+dtUKAOkpU6RaBVQDVFjqRRU5jNsmMv01ZnAQr2aDJyuInXNbvK1KX8
+BG7AqLfXwPAEhp/Zqf4Lbs3FP3Xtx6l9DhkjsWWSdJP3Oud2dfPzO35e0LRhKHCUB25LGpI292jF
+8UI3OHXJMaBGTyp8H3iLMhSwJvM1szxmvtdzEUPm2+wXYLCJ1tiqnA2CmTM2LOygPoLjbhF2viuE
+H5uwgn7Wu4+cC5ZkQrb9VkFtt/afQ9LTByUeb/RmMqq5O91m9hd1RgJt3zc+ukgHHmvGwf4KJiZl
+ROGHNcqxKFh93CBspbsrxqFRchLoNiJOYUuarQHJYijdd5OpUEOtboGMjwVHGpytQJLQIX257+B6
+lM2oYt63PVvzHAKOCHi5Go911+UCAKmRwj1MxkeO0yqFWSbBJH1eTjOgg9MaSzl3zW0XlX6K9cCw
+TmjsUg4w6KUzcUQ9PEHhacCvC+s0C9C8GvMOJOBgA65a6HMeSLA4yokac0ik1deF76Y6n5xqD7F8
++F7D55mGMeDpn13uSr23vVAUGtfcvfW8egqpGwJZir5DPfOdiLsZ8SgPbvNhzvJruu6p5FppEYEa
+uyZ3uhVt9WJsHD/vehZCHeUA1gU2OteBIJF3ipyeHFAZWFb6ZNUuW3NZDkgm7MM=
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+
+    <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+        <md:KeyDescriptor use="signing">
+            <ds:KeyInfo>
+                <ds:X509Data>
+                    <ds:X509Certificate>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</ds:X509Certificate>
+                </ds:X509Data>
+            </ds:KeyInfo>
+        </md:KeyDescriptor>
+		
+		<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://auth.bancaditalia.it/oamfed/sp/samlv20"/>
+		<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://certauth.bancaditalia.it/oamfed/sp/samlv20"/>
+		<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://collauth.bancaditalia.it/oamfed/sp/samlv20"/>
+		<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://svilauth.bancaditalia.it/oamfed/sp/samlv20"/>
+		
+		<md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+		
+		<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://auth.bancaditalia.it/oam/server/fed/sp/sso?a=Ivass" index="0" isDefault="true"/><md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://certauth.bancaditalia.it/oam/server/fed/sp/sso?a=Ivass" index="1"/>
+		<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://collauth.bancaditalia.it/oam/server/fed/sp/sso?a=Ivass" index="2"/>
+		<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://svilauth.bancaditalia.it/oam/server/fed/sp/sso?a=Ivass" index="3"/>
+		
+		<md:AttributeConsumingService index="0">
+			<md:ServiceName xml:lang="it">Set Attributi 0</md:ServiceName>
+			<md:RequestedAttribute Name="spidCode"/>
+			<md:RequestedAttribute Name="name"/>
+			<md:RequestedAttribute Name="familyName"/>
+			<md:RequestedAttribute Name="fiscalNumber"/>
+			<md:RequestedAttribute Name="mobilePhone"/>
+			<md:RequestedAttribute Name="email"/>
+		</md:AttributeConsumingService>
+
+		<md:AttributeConsumingService index="1">
+			<md:ServiceName xml:lang="it">Set Attributi 1</md:ServiceName>
+			<md:RequestedAttribute Name="spidCode"/>
+			<md:RequestedAttribute Name="name"/>
+			<md:RequestedAttribute Name="familyName"/>
+			<md:RequestedAttribute Name="placeOfBirth"/>
+			<md:RequestedAttribute Name="countyOfBirth"/>
+			<md:RequestedAttribute Name="dateOfBirth"/>
+			<md:RequestedAttribute Name="gender"/>
+			<md:RequestedAttribute Name="companyName"/>
+			<md:RequestedAttribute Name="registeredOffice"/>
+			<md:RequestedAttribute Name="fiscalNumber"/>
+			<md:RequestedAttribute Name="ivaCode"/>
+			<md:RequestedAttribute Name="idCard"/>
+			<md:RequestedAttribute Name="mobilePhone"/>
+			<md:RequestedAttribute Name="email"/>
+			<md:RequestedAttribute Name="address"/>
+			<md:RequestedAttribute Name="expirationDate"/>
+			<md:RequestedAttribute Name="digitalAddress"/>
+		</md:AttributeConsumingService>
+
+		<md:AttributeConsumingService index="2">
+			<md:ServiceName xml:lang="it">Set Attributi 2</md:ServiceName>
+			<md:RequestedAttribute Name="spidCode"/>
+			<md:RequestedAttribute Name="name"/>
+			<md:RequestedAttribute Name="familyName"/>
+			<md:RequestedAttribute Name="placeOfBirth"/>
+			<md:RequestedAttribute Name="countyOfBirth"/>
+			<md:RequestedAttribute Name="dateOfBirth"/>
+			<md:RequestedAttribute Name="fiscalNumber"/>
+		</md:AttributeConsumingService>
+
+		<md:AttributeConsumingService index="3">
+			<md:ServiceName xml:lang="it">Set Attributi 3</md:ServiceName>
+			<md:RequestedAttribute Name="spidCode"/>
+			<md:RequestedAttribute Name="name"/>
+			<md:RequestedAttribute Name="familyName"/>
+			<md:RequestedAttribute Name="fiscalNumber"/>
+		</md:AttributeConsumingService>
+
+		<md:AttributeConsumingService index="4">
+				<md:ServiceName xml:lang="it">Set Attributi 4</md:ServiceName>
+				<md:RequestedAttribute Name="spidCode"/>
+				<md:RequestedAttribute Name="name"/>
+				<md:RequestedAttribute Name="familyName"/>
+				<md:RequestedAttribute Name="placeOfBirth"/>
+				<md:RequestedAttribute Name="countyOfBirth"/>
+				<md:RequestedAttribute Name="dateOfBirth"/>
+				<md:RequestedAttribute Name="fiscalNumber"/>
+				<md:RequestedAttribute Name="mobilePhone"/>
+				<md:RequestedAttribute Name="email"/>
+		</md:AttributeConsumingService>
+
+		<md:AttributeConsumingService index="5">
+			<md:ServiceName xml:lang="it">Set Attributi 5</md:ServiceName>
+			<md:RequestedAttribute Name="spidCode"/>
+			<md:RequestedAttribute Name="name"/>
+			<md:RequestedAttribute Name="familyName"/>
+			<md:RequestedAttribute Name="placeOfBirth"/>
+			<md:RequestedAttribute Name="countyOfBirth"/>
+			<md:RequestedAttribute Name="dateOfBirth"/>
+			<md:RequestedAttribute Name="gender"/>
+			<md:RequestedAttribute Name="fiscalNumber"/>
+		</md:AttributeConsumingService>
+	  
+    </md:SPSSODescriptor>
+
+    <md:Organization>
+		<md:OrganizationName xml:lang="it">Istituto per la Vigilanza sulle Assicurazioni</md:OrganizationName>
+		<md:OrganizationDisplayName xml:lang="it">Istituto per la Vigilanza sulle Assicurazioni</md:OrganizationDisplayName>
+		<md:OrganizationURL xml:lang="it">https://www.ivass.it/</md:OrganizationURL>
+	</md:Organization>	
+	
+    <md:ContactPerson contactType="other" spid:entityType="spid:aggregator">
+		<md:Extensions>
+			<spid:IPACode>bdi_rm</spid:IPACode>
+			<spid:VATNumber>IT00950501007</spid:VATNumber>
+			<spid:PublicServicesFullAggregator/>
+		</md:Extensions>
+		<md:Company>Banca d'Italia</md:Company> 
+		<md:EmailAddress>servizio.svi.direzione@bancaditalia.it</md:EmailAddress>
+	</md:ContactPerson>
+
+    <md:ContactPerson contactType="other" spid:entityType="spid:aggregated">
+        <md:Extensions>
+            <spid:IPACode>IVsAPIC</spid:IPACode>
+            <spid:Public/>
+        </md:Extensions>
+        <md:Company>Istituto per la Vigilanza sulle Assicurazioni</md:Company>
+		<md:EmailAddress>gestione.risorse@pec.ivass.it</md:EmailAddress>
+    </md:ContactPerson>
+</md:EntityDescriptor>
