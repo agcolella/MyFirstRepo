@@ -1,0 +1,82 @@
+<?xml version="1.0"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:spid="https://spid.gov.it/saml-extensions" xmlns:fpa="https://spid.gov.it/invoicing-extensions" validUntil="2030-06-01T14:25:08Z" cacheDuration="PT604800S" entityID="https://www.ghcspa.com/clinicasanfrancesco" ID="pfx8cbe7f49-0e70-84a4-0905-77423e358669">
+	<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+		<ds:SignedInfo>
+			<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+			<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+			<ds:Reference URI="#pfx8cbe7f49-0e70-84a4-0905-77423e358669">
+				<ds:Transforms>
+					<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+					<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+				</ds:Transforms>
+				<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+				<ds:DigestValue>OMDqGcZlVectMM6ExhAvgu1q86M+Y/7CKIvX1K6I23g=</ds:DigestValue>
+			</ds:Reference>
+		</ds:SignedInfo>
+		<ds:SignatureValue>M/Jt8/xhMi1Cdjmfzkdq/b11a5BqNtxJYaYaRIenoneyRnz9nteS8WrRHxrspvd1yC4lbrJJhpoJMdUqkgtKAPQM+r5go+jv7DMo5UqCAEd73htK0YdJGK1WPuvE6lHIcV3gV40rtw2mZY+XQcPt0vRSYtBEj36Mb6G/vr4q4kylShFCvMOvXtucXDPSEbw0ZObmYz/HMiv6btI/+Emdz7a0X55n8wtXLAeFoBHXtukCcqMbF+HsgnrMAKHe9g3mvAsiVYS4RglTEwtoS62chD5tasQkD0dP594/ew5OT9Yjzbp6dtQxNHHTFzSBAqOJ8AkPlZVhMWU/j7zTF9/WFfVU6NBJs2qb5x8rzX2d47JMfUylDm1UY4RO9frd2AHUyoPKHtqpQzc77Z1o0m+/I5jSYFTMTJvI/JKPT9Nm9CCg/w5au7SJzszkRs7/izlcKfZyUlDvWSSno3ncqELiH5UpH/pyX/3EXf/ehw0Ml/+8U4ym+8UxhUT8Slq0xmodN/18ibBk8F4JMgAKGFiH2NzYioa9t6RYBNR51bIbepgb9jS20f2h9SbyqkzC5O/CzebRwLLWmaVwy/Pyld2cGz5VeQasQ6pKOnelaKb7dEdu5zR5NUMmtEkLNjG7BGRjp+e3Cl1SvibrT1yK5HrxXLUDB9ohND3A6k7rCWvU3bo=</ds:SignatureValue>
+		<ds:KeyInfo>
+			<ds:X509Data>
+				<ds:X509Certificate>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</ds:X509Certificate>
+			</ds:X509Data>
+		</ds:KeyInfo>
+	</ds:Signature>
+	<md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+		<md:KeyDescriptor use="signing">
+			<ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+				<ds:X509Data>
+					<ds:X509Certificate>MIIJ3TCCB8WgAwIBAgIIa8Kp7vKlhSEwDQYJKoZIhvcNAQENBQAwgegxCzAJBgNVBAYTAklUMQ0wCwYDVQQHDARSb21lMSYwJAYDVQQKDB1BZ2VuemlhIHBlciBsJ0l0YWxpYSBEaWdpdGFsZTEwMC4GA1UECwwnU2Vydml6aW8gQWNjcmVkaXRhbWVudG8gZSBwcm9nZXR0byBTUElEMSkwJwYDVQQDDCBQcm9nZXR0byBTUElEIC0gU29nZ2V0dGkgcHJpdmF0aTEpMCcGCSqGSIb3DQEJARYacHJvdG9jb2xsb0BwZWMuYWdpZC5nb3YuaXQxGjAYBgNVBAUTEVZBVElULTk3NzM1MDIwNTg0MB4XDTI1MDcyODAwMDAwMFoXDTM5MTIwODIzNTk1OVowggFoMQswCQYDVQQGEwJJVDELMAkGA1UECAwCVlIxDzANBgNVBAcMBlZFUk9OQTE+MDwGA1UECgw1Q2xpbmljYSBTYW4gRnJhbmNlc2NvIFMuci5sLiDigJMgQ2FzYSBkaSBDdXJhIFByaXZhdGExPjA8BgNVBAsMNUNsaW5pY2EgU2FuIEZyYW5jZXNjbyBTLnIubC4g4oCTIENhc2EgZGkgQ3VyYSBQcml2YXRhMRowGAYDVQRhDBFWQVRJVC0wMzgzMTE1MDM2NjE+MDwGA1UEAww1Q2xpbmljYSBTYW4gRnJhbmNlc2NvIFMuci5sLiDigJMgQ2FzYSBkaSBDdXJhIFByaXZhdGExKjAoBgkqhkiG9w0BCQEWG2luZm9AY2xpbmljYXNhbmZyYW5jZXNjby5pdDEzMDEGA1UEUwwqaHR0cHM6Ly93d3cuZ2hjc3BhLmNvbS9jbGluaWNhc2FuZnJhbmNlc2NvMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAwe6NTHxFeosdCFyJHpaCp5lWdsBCWYGET5X/9WPrm7GgGXeLol8zmEu7Ge/xbaBLsN1cke4/KFd8w2abg40FkhGCoQ5exITPhjNmT5DoGSj5iQSq782dHHZKDqioIpq9DnmvqLFVD2tWmb9o87zQW01+4VV000gSps6PKlhrIeu4U/TfSQCkIZubpZ7FlWqy7n/uaxubTqVLv+a9/NNILwCTvJuMOJu9Nqts/5PHhUWrwwV/Yah3aNmPOWg9rNCBtvQUo0vGCYhNcYkuVcyN0t7WF5tDTpwiYWnICAwu/uVM8ONqD3rLblfOQcgJaSQmEnELJFQlKX34eo1TV1+kZYbR1leoUR5rKrXYgSHpgMrlVPCVMBW4W97EU4DQ7ZbDPt/FdrO4R4p61mNFvbsAicSPF3L7wzEBqXHOZLZjAM8BzXFbLcKkT94qnDC+35suVbpL0t1w8QNDcgsG64baX0lOeQRXu/SflQSlSzgofOu9zVaPXxrE2oM4HT/Wxt4AtJ08p/W5c3amYt7CIPuFFNKukR2cWC0ZpE6NCwK00soZbXuTPoH7xUpV36e3pC2O3fp3oeGxLbMb01HwCjUf4r3NoE0wRCQ/WAZ9Y/oMFrGDJRlxBc0iAbTbTLLbuXco5ooOqCiBQ8io5OpECSIRQTsQHoXYXMRoKM8kM/RloT8CAwEAAaOCAwYwggMCMAwGA1UdEwEB/wQCMAAwHQYDVR0OBBYEFF5pQsMmggoLpbgvRCpJk5aM49fxMB8GA1UdIwQYMBaAFJxFMMRND6D6Jg+p1vwg1gdszmRWMA4GA1UdDwEB/wQEAwIGwDAWBgNVHRIEDzANggtzcGlkLmdvdi5pdDBDBgNVHR8EPDA6MDigNqA0hjJodHRwczovL2VpZGFzLmFnaWQuZ292Lml0L2NybC9jcmxfU1BJRF9wcml2X1NBLmNybDA3BggrBgEFBQcBAQQrMCkwJwYIKwYBBQUHMAGGG2h0dHBzOi8vb2NzcF9TQS5hZ2lkLmdvdi5pdDCCAdcGA1UdIASCAc4wggHKMAkGBwQAjkYBBgIwgZUGBCtMEAYwgYwwRAYIKwYBBQUHAgIwOBo2RWxlY3Ryb25pYyBjZXJ0aWZpY2F0ZSBjb25mb3JtaW5nIHdpdGggQUdJRCBHdWlkZWxpbmVzMEQGCCsGAQUFBwICMDgaNkNlcnRpZmljYXRvIGVsZXR0cm9uaWNvIGNvbmZvcm1lIGFsbGUgTGluZWUgZ3VpZGEgQWdJRDB7BgYrTBAEAwEwcTA1BggrBgEFBQcCAjApGidTUElEOiBmb3JuaXRvcmUgZGkgc2Vydml6aSAoU1ApIHByaXZhdG8wOAYIKwYBBQUHAgIwLBoqU1BJRDogcHJpdmF0ZS1zZWN0b3IgU2VydmljZSBQcm92aWRlciAoU1ApMAgGBgQAj3oBAzBNBgQrTBAEMEUwQwYIKwYBBQUHAgEWN2h0dHBzOi8vZWlkYXMuYWdpZC5nb3YuaXQvY3BzL0FnSURfZUlEQVNfcm9vdENBX2Nwcy5wZGYwTwYGBACORgEFMEUwQwYIKwYBBQUHAgEWN2h0dHBzOi8vZWlkYXMuYWdpZC5nb3YuaXQvY3BzL0FnSURfZUlEQVNfcm9vdENBX2Nwcy5wZGYwEQYJYIZIAYb4QgEBBAQDAgAHMB4GCWCGSAGG+EIBDQQRFg94Y2EgY2VydGlmaWNhdGUwDQYJKoZIhvcNAQENBQADggIBAH3Yl8RqFwHJivePy/C6uy5wFAKyDN10LdWs5U375Ds3tigVjS7UAX47L8OW2AZ3/b1lolf57IAjh5nFyDMm4KGXQ5ALwc2wx54yheZOfvZe3uxcRPrACMjCosLmSLcZ/4MDSZp89QWzvnNpfbdGtVBFH2hhFrNAiTGdAjkPUzhei+eMV+XN0CKOtN+l7KkZ4mDObRz/r+CIsc7MR1BSx2Ra4/PrqvPLTX8ztNbxFPuBn41neMgpEr865i5PCf4vGtwXwRuZqNEePu7cgYarRZ9l0zrnv7t04pw+RKjwBT2jc38c9wsK79SsMICwtfd0vv0wmGXy3VKU2vcCVkKl6yB0fcLJleCeQ/55F3xbOD1RViuKr4FvifwH1KyAGF7c2GlcbzbS6F9AR95Pbc+wtsLaS2OKJlStPk+yqkN46Cv6vObKeUipguzFXi7/I99igtncXTjo/6GLDLBNsu10VGBSrtGBPVRvD4KJizQNAwkuQEu9Wm2jOXfkFKZ6OVe5Ll3dJN/8SpfaS1wXQwlA21VtiCVYcWGSxcHmBp+ASqG0ObXCUDEh2znnLrKOdleA6veMYEpFf4BWepfQsqhQ1NIfLdaK5tAcrQAwdconMH+5Mu83rufF9ZO/aBkJXJiLEmPQLcq62XBFcZfHdluUT3ZgpjTS213KLpsHamydrVV2</ds:X509Certificate>
+				</ds:X509Data>
+			</ds:KeyInfo>
+		</md:KeyDescriptor>
+		<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://app.tuotempo.com/client.php?service=spid&amp;fn=logout&amp;dbName=tt_afea_san_francesco"/>
+		<md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+		<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://app.tuotempo.com/guest.php?service=spid&amp;fn=login&amp;dbName=tt_afea_san_francesco" index="0" isDefault="true"/>
+		<md:AttributeConsumingService index="0">
+			<md:ServiceName xml:lang="en">Signup and Login</md:ServiceName>
+			<md:RequestedAttribute Name="spidCode"/>
+			<md:RequestedAttribute Name="name"/>
+			<md:RequestedAttribute Name="familyName"/>
+			<md:RequestedAttribute Name="fiscalNumber"/>
+			<md:RequestedAttribute Name="gender"/>
+			<md:RequestedAttribute Name="dateOfBirth"/>
+			<md:RequestedAttribute Name="placeOfBirth"/>
+		</md:AttributeConsumingService>
+	</md:SPSSODescriptor>
+	<md:Organization>
+		<md:OrganizationName xml:lang="it">Clinica San Francesco S.r.l. &#x2013; Casa di Cura Privata</md:OrganizationName>
+		<md:OrganizationDisplayName xml:lang="it">Clinica San Francesco S.r.l. &#x2013; Casa di Cura Privata</md:OrganizationDisplayName>
+		<md:OrganizationURL xml:lang="it">https://www.ghcspa.com/clinicasanfrancesco</md:OrganizationURL>
+	</md:Organization>
+	<md:ContactPerson contactType="other">
+		<md:Extensions xmlns:spid="https://spid.gov.it/saml-extensions">
+			<spid:VATNumber xmlns:spid="https://spid.gov.it/saml-extensions">IT03831150366</spid:VATNumber>
+			<spid:FiscalCode xmlns:spid="https://spid.gov.it/saml-extensions">00420560237</spid:FiscalCode>
+			<spid:Private xmlns:spid="https://spid.gov.it/saml-extensions"/>
+		</md:Extensions>
+		<md:EmailAddress>info@clinicasanfrancesco.it</md:EmailAddress>
+	</md:ContactPerson>
+	<md:ContactPerson contactType="billing">
+		<md:Extensions xmlns:fpa="https://spid.gov.it/invoicing-extensions">
+			<fpa:CessionarioCommittente xmlns:fpa="https://spid.gov.it/invoicing-extensions">
+				<fpa:DatiAnagrafici>
+					<fpa:IdFiscaleIVA>
+						<fpa:IdPaese>IT</fpa:IdPaese>
+						<fpa:IdCodice>00420560237</fpa:IdCodice>
+					</fpa:IdFiscaleIVA>
+					<fpa:Anagrafica>
+						<fpa:Denominazione>Clinica San Francesco S.r.l. &#x2013; Casa di Cura Privata</fpa:Denominazione>
+					</fpa:Anagrafica>
+				</fpa:DatiAnagrafici>
+				<fpa:Sede>
+					<fpa:Indirizzo>via Monte Ortigara</fpa:Indirizzo>
+					<fpa:NumeroCivico>21/B</fpa:NumeroCivico>
+					<fpa:CAP>37127</fpa:CAP>
+					<fpa:Comune>VERONA</fpa:Comune>
+					<fpa:Provincia>VR</fpa:Provincia>
+					<fpa:Nazione>IT</fpa:Nazione>
+				</fpa:Sede>
+			</fpa:CessionarioCommittente>
+		</md:Extensions>
+		<md:EmailAddress>amministrazione@clinicasanfrancesco.it</md:EmailAddress>
+	</md:ContactPerson>
+</md:EntityDescriptor>
