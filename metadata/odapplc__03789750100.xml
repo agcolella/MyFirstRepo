@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" ID="a088bc6e-33c5-4ff2-b35b-d9c3ff9a2c9e" entityID="https://www.e-fil.it/pub-ag-full/odapplc"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#a088bc6e-33c5-4ff2-b35b-d9c3ff9a2c9e">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>bpGzx/Inzdl0vlNFlCHJOUTkHpYA5e9ng39m+2ACfTA=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+khCcBZ5YhGNnUyEKDX2U624k+H9KCb3Zs+G2Zcv9azatlJ8se0qiiFXCQe98TSLQ9GoUkao3ZIfY
+aoRCfet6NVi9MfDhyVlMS7Hr9yVBTWDs1q9pvhpAEswzdgwrqPMvFpT4+Uz78KjKYeX4dAr3hFqt
+2WLkWbfjToA1fO5JzBDyzD6Fs8pCaWeKpYeE6lW0E+uoQhhmjOowbP/5qHW6zg1NAzrys81/6Shc
+7tdoridZQ/3URgwdIbv/rLdTkksIRPWapBbu4zd5mL+rJBH1qn8+E9ypGJ9rv3zmzM3e2QtJTvCm
+Xyb2nZ5xhKFvv9Lss1mRnRicSVrbPyqNLjlnvQ==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+qY4H/GWTewBiu2WSlYEBgj8A43JfVxYrWgJD3qdxocfWPPSM5E7MWIKXzXCFl+zrjeCnfeO3vg+I
+IDgN76rUKxK75XW1gvU0BEzaf7qaKNxYrvKDxKlcrzT20ZRppJ7GaMq4b5ygiFXM91bhmPkeiYGS
+I3VNgl+ZDxpMqEQuvJY1wG+iECe9p7WKVKWebj9lU4cserbIVdTT45/x0lJD+00zeuKrTQ5FQD+7
+FKjg4PThQbPIojaXwekwtZxApbz329zJsY57zomJE6phJl1gJ7+b3dN3otHMUNoGoR2KcTWy74CY
+skWOZs/wD0hbCH4QstxhHSdXH+srFN6tBkJzQw==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIH4TCCBcmgAwIBAgIIbMDMGjctYe8wDQYJKoZIhvcNAQENBQAwgeUxCzAJBgNVBAYTAklUMQ0w
+CwYDVQQHDARSb21lMSYwJAYDVQQKDB1BZ2VuemlhIHBlciBsJ0l0YWxpYSBEaWdpdGFsZTEsMCoG
+A1UECwwjU2Vydml6aW8gQWNjcmVkaXRhbWVudG8gZSBWaWdpbGFuemExKjAoBgNVBAMMIVByb2dl
+dHRvIFNQSUQgLSBTb2dnZXR0aV9wdWJibGljaTEpMCcGCSqGSIb3DQEJARYacHJvdG9jb2xsb0Bw
+ZWMuYWdpZC5nb3YuaXQxGjAYBgNVBAUTEVZBVElULTk3NzM1MDIwNTg0MB4XDTIxMDkxNTAwMDAw
+MFoXDTM2MDkxNDIzNTk1OVowgaIxCzAJBgNVBAYTAklUMQswCQYDVQQIDAJSTTENMAsGA1UEBwwE
+Um9tYTEOMAwGA1UECgwFRS1GSUwxFTATBgNVBAsMDEUtRklMIFMuUi5MLjEVMBMGA1UEAwwMRS1G
+SUwgUy5SLkwuMRowGAYDVQRhDBFWQVRJVC0wMzc4OTc1MDEwMDEdMBsGA1UEUwwUaHR0cHM6Ly93
+d3cuZS1maWwuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCpjgf8ZZN7AGK7ZZKV
+gQGCPwDjcl9XFitaAkPep3Ghx9Y89IzkTsxYgpfNcIWX7OuN4Kd947e+D4ggOA3vqtQrErvldbWC
+9TQETNp/upoo3Fiu8oPEqVyvNPbRlGmknsZoyrhvnKCIVcz3VuGY+R6JgZIjdU2CX5kPGkyoRC68
+ljXAb6IQJ72ntYpUpZ5uP2VThyx6tshV1NPjn/HSUkP7TTN64qtNDkVAP7sUqODg9OFBs8iiNpfB
+6TC1nEClvPfb3MmxjnvOiYkTqmEmXWAnv5vd03ei0cxQ2gahHYpxNbLvgJiyRY5mz/APSFsIfhCy
+3GEdJ1cf6ysU3q0GQnNDAgMBAAGjggLUMIIC0DAMBgNVHRMBAf8EAjAAMB0GA1UdDgQWBBRKUCpu
+F1YOLaPUB3lqAjXk+HWScTAfBgNVHSMEGDAWgBQ8u23rHv2dbsvuVObqOdWJoEfXNDAOBgNVHQ8B
+Af8EBAMCBsAwFgYDVR0SBA8wDYILc3BpZC5nb3YuaXQwQgYDVR0fBDswOTA3oDWgM4YxaHR0cHM6
+Ly9laWRhcy5hZ2lkLmdvdi5pdC9jcmwvY3JsX1NQSURfUHViX1NBLmNybDA3BggrBgEFBQcBAQQr
+MCkwJwYIKwYBBQUHMAGGG2h0dHBzOi8vb2NzcF9TQS5hZ2lkLmdvdi5pdDCCAdkGA1UdIASCAdAw
+ggHMMAkGBwQAjkYBBgIwgZUGBCtMEAYwgYwwRAYIKwYBBQUHAgIwOBo2RWxlY3Ryb25pYyBjZXJ0
+aWZpY2F0ZSBjb25mb3JtaW5nIHdpdGggQUdJRCBHdWlkZWxpbmVzMEQGCCsGAQUFBwICMDgaNkNl
+cnRpZmljYXRvIGVsZXR0cm9uaWNvIGNvbmZvcm1lIGFsbGUgTGluZWUgZ3VpZGEgQWdJRDB9BgYr
+TBAEAgIwczA6BggrBgEFBQcCAjAuGixTUElEOiBhZ2dyZWdhdG9yZSAnZnVsbCcgZGkgc2Vydml6
+aSBwdWJibGljaTA1BggrBgEFBQcCAjApGidTUElEOiBwdWJsaWMtc2VydmljZXMgJ2Z1bGwnIEFn
+Z3JlZ2F0b3IwCAYGBACPegEDME0GBCtMEAQwRTBDBggrBgEFBQcCARY3aHR0cHM6Ly9laWRhcy5h
+Z2lkLmdvdi5pdC9jcHMvQWdJRF9lSURBU19yb290Q0FfY3BzLnBkZjBPBgYEAI5GAQUwRTBDBggr
+BgEFBQcCARY3aHR0cHM6Ly9laWRhcy5hZ2lkLmdvdi5pdC9jcHMvQWdJRF9lSURBU19yb290Q0Ff
+Y3BzLnBkZjANBgkqhkiG9w0BAQ0FAAOCAgEAO9XfbJaLZEb7P7U+yJyE7mIuNsYJGSf18XzG/7sn
+C4POvFLhYOP/IAw/nrKPkXU5z6KH1NCnoKwS/8SxJbpXxU4gn29U4NFlaDYYat9LYXu/a0g75Den
+AsOtNsYH6Qx/iiPk+Ksehly+tBjMOj6EWqQmr+0I8EI5DUgIMCLbiUD0U5yAGMt8lKFlUw6SClEe
+ppp615autplBNWyUNEOVTnu+z2t+uP5midU9JRWm0HRsUOoHATa6zKE7o74fzDCebvJRXJQtH1Cf
+SYprddOg8tcxqrsUY7a0m9FH/no98fmquUwgY9CWnM7byYHAMdKOhGTqLW/TGSuhBNgYnm7mS6RS
+sB/jhC2n5eh2JYYbBw5ku/Vxkwqqt70s5V0zDIYVb5pZ1IYhgUBVuE0WYmLK8SL7FhPEilp4ZRfo
++J3YCs4zd/ncloQhdma+VksA/C06wldIRcVplrcYfJAKTUphoVC0b7o3uh9UR68FzUrdID6qWu0Z
+sQcVuPp3yu++8KpNnYGEdntKS1Kay4VeZB4ZR3qVvz0YP89c+Ia1ht0Q5KnV49BzyXjbZOeGtmnA
+TXZGdKmZCB1UZi1n2q0wPCGCbo/iZxqzLgAbZyYTKxzLgbKnhllUw7yE24F8C9EW0Ad3WgTvQB2j
+inV2kz2IRS9ixUd/8XwEWKVPa6id/0Et5Y4=
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>
+					MIIGPDCCBCSgAwIBAgIJAL/U8MUydRMbMA0GCSqGSIb3DQEBCwUAMIGyMQswCQYD
+					VQQGEwJJVDENMAsGA1UECAwEUm9tYTEYMBYGA1UEBwwPQXJjaGl0ZXR0aUxlY2Nv
+					MRgwFgYDVQQKDA9BcmNoaXRldHRpTGVjY28xEDAOBgNVBAsMB0RpZ2l0SUQxJTAj
+					BgNVBAMMHHd3dy5vcmRpbmVhcmNoaXRldHRpbGVjY28uaXQxJzAlBgkqhkiG9w0B
+					CQEWGG9hcHBjLmxlY2NvQHBlYy5hcnViYS5pdDAeFw0yNDA0MDgxMDExMDVaFw0y
+					NzA0MDgxMDExMDVaMIGyMQswCQYDVQQGEwJJVDENMAsGA1UECAwEUm9tYTEYMBYG
+					A1UEBwwPQXJjaGl0ZXR0aUxlY2NvMRgwFgYDVQQKDA9BcmNoaXRldHRpTGVjY28x
+					EDAOBgNVBAsMB0RpZ2l0SUQxJTAjBgNVBAMMHHd3dy5vcmRpbmVhcmNoaXRldHRp
+					bGVjY28uaXQxJzAlBgkqhkiG9w0BCQEWGG9hcHBjLmxlY2NvQHBlYy5hcnViYS5p
+					dDCCAiIwDQYJKoZIhvcNAQEBBQADggIPADCCAgoCggIBAKr7BG9lPvHtoJbXTRQX
+					+fP5DCdRvSOepSovScN4kBoBUVesjHmovCRppH9FaoIxCck1T7Kvsp+JKQH7zhA1
+					8YY7R7B2zv4KicYb13C537hvlUAXjqOGn6XwsQSr3yTHBUZK2VMMOC1MxepYG/LU
+					3JgkP1QJTYtqk3t+tbs9rz3nH1HR1YjBkZDA1DAgkc8WYQvvxSGRGm2nAaQIbbkA
+					6TdsgaF3EuqpeNGL6hZr4AhyID9EK6dP/6IAD6975xesotSoAmQBBcG4/8yMYAtB
+					gx94KBtJrQwBHsD1sNSK/0zNUqDCoF0M8yncFef7NxMq4oUPCK2UfqsGepdnbmze
+					W1RxPVUHgRoRjND91P+MMt+PsSwt8T1lrIEAlAjS2IeeN+sM1swbD/nNki+OvZb1
+					d//TYIJpXZnH1shC62UU4efh1yXcCX10u4nw93CtcykkOb2WmEdvrL/RzcFdWJ4F
+					/7ijwi3RZ6nCU3+jpo/VIMLydE2u7avyps69wJz62vP7dVMONLx74wYAzVQ6vBkC
+					8AWk4qzOgWVA6pZdIj8kPavvuccOwDpc7FzCd34rhccGa3NmRuS6v2uz11C29l40
+					h9Ybbbem8780Js03KrpDzlnCw0R5KiOwhfIk9ux1IAiPrKxOOFPwabCA1snYqNzP
+					3mWJIJFs+TfhcwnveTBe9HfdAgMBAAGjUzBRMB0GA1UdDgQWBBQw3/HkzFa/rwIJ
+					phdVJRZsL9Y0/zAfBgNVHSMEGDAWgBQw3/HkzFa/rwIJphdVJRZsL9Y0/zAPBgNV
+					HRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4ICAQBHcX/Gm/RgPdiwmjwO4KJN
+					xO2dgNFYQdaWXVmOHonJ34BdNWLRX2N3b+LytaxqLhBOjK+rW+b6U6MwHJ6wGgRZ
+					xdZHcPCApI827HVFUhTeXlvUkDMG8X89dJqiCXW4B5EfoBk0if6TIwfTHcuFtAAN
+					cahKm4nyt37U+VHFw8uiOV69j/yoGUIIvvd0gaks0AXTbp97iLE3NtBCHIQhzdc+
+					hLljs18g5QfTxedUvlFh61XT5wyOLexZvmxbQIftafyeX0JgyCV26HbU8RX8uied
+					U4n4qsOY0XbvENLaqtkayiKEnGHXANmlkWcirkDQtMmTTlE9ZXPdovx+ILSDcqHS
+					0VfFjIFiaG/72bzZlhmJBieDr7fRAtxWFcLig/JHNQ2bOorw8POtHFgVtx5/UNjY
+					NEyE0B56EACfE2zV4K+sg6ooRFq7Pcuc0fHzUIlCFVmYwDCP9hvgbdxoy5EFEadJ
+					GlJ154tvnSKQhKAIjjnQZbotmoYdNhFhOEShXsufS+oAfc7kYZ7WdkGep/7TI1Zq
+					u5RWLRQMR/mrSY1gaMx13fWQWWIcB8jBUNUxLURyqP24NGwUb2xUJoVloY8hDDaa
+					WHLic/W02rGJfuEl7jt/su9OKJ+kNnEr6iGdESOPhsvytlZMXCaxXy4hDdd/8DtQ
+					nPcNWI0iYzqHASsnvTwahA==
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://idppaproxy.plugandpay.it/spidslo/0795a15d-2449-400b-9e41-45ae127f2914/odapplc"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://idppaproxy.plugandpay.it/spidacs/0795a15d-2449-400b-9e41-45ae127f2914/odapplc" index="0" isDefault="true"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">Ordine Degli Architetti P.P.C. della Provincia di Lecco</md:ServiceName>
+      <md:RequestedAttribute Name="spidCode"/>
+	  <md:RequestedAttribute Name="familyName"/>
+	  <md:RequestedAttribute Name="name"/>
+	  <md:RequestedAttribute Name="companyName"/>
+	  <md:RequestedAttribute Name="fiscalNumber"/>
+	  <md:RequestedAttribute Name="ivaCode"/>
+	  <md:RequestedAttribute Name="email"/>
+	  <md:RequestedAttribute Name="gender"/>
+	  <md:RequestedAttribute Name="placeOfBirth"/>
+	  <md:RequestedAttribute Name="countyOfBirth"/>
+	  <md:RequestedAttribute Name="dateOfBirth"/>
+    </md:AttributeConsumingService>   
+  </md:SPSSODescriptor>
+  <md:Organization>
+  	<md:OrganizationName xml:lang="it">Ordine Degli Architetti P.P.C. della Provincia di Lecco</md:OrganizationName>
+  	<md:OrganizationDisplayName xml:lang="it">Ordine Degli Architetti P.P.C. della Provincia di Lecco</md:OrganizationDisplayName>
+  	<md:OrganizationURL xml:lang="it">https://www.ordinearchitettilecco.it</md:OrganizationURL>
+  </md:Organization>
+  <md:ContactPerson contactType="other" spid:entityType="spid:aggregator">
+  	<md:Extensions>
+  		<spid:VATNumber>IT03789750100</spid:VATNumber>
+  		<spid:FiscalCode>03789750100</spid:FiscalCode>
+  		<spid:PublicServicesFullAggregator/>
+  	</md:Extensions>
+  	<md:Company>E-fil srl</md:Company>
+  	<md:EmailAddress>segreteria@pec.e-fil.eu</md:EmailAddress>
+  	<md:TelephoneNumber>+390688805363</md:TelephoneNumber>
+  </md:ContactPerson>
+  <md:ContactPerson contactType="other" spid:entityType="spid:aggregated">
+  	<md:Extensions>
+  		<spid:IPACode>odapplc</spid:IPACode>
+		<spid:Public/>
+  	</md:Extensions>
+  	<md:Company>Ordine Degli Architetti P.P.C. della Provincia di Lecco</md:Company>
+   </md:ContactPerson>
+</md:EntityDescriptor>
