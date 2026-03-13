@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" ID="_445f4bd87b5649379530431de44d279b" entityID="https://spid.ads.it/pub-ag-lite/coaltava"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#_445f4bd87b5649379530431de44d279b">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>5VwDIz43J9UJ/WkNl+zX8mrExKiEOJJ0Gk8nRdN5Q7k=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+s/BG6B/GBKKpa4k1fXeOyS9HGXSBN5X3gKub0HTyruRYS6dyQeQpH1VpPChERnVkz16opY6pkrht
+ChOU1KKkVeNCfhHTtQPClXAgCY0cBS34BWErNrvbC/7ZarInRA04pJBtQdxCcScGXXCQESQAHwDN
+Sq8m+fw9ZUc2zX3y5+5a+WPovLLypvJS34Jn1/qMZOu+RFXJUTdKfjOTq8fTcPxbQ656aC8hSNsO
+drQH/Ke8Rzb55EGM65RjlN0T9EirImMF/bJq9ygXcprdu977BBCZQ0+bD+r4PuhXKUcQ/aMHZyaa
++tTOlaefY+cnPg6TFup9M69Lsx0Vj6ZXZNINqcDnR+MdTaasR/GgCatzmCJlNt1dhTB/jw7H/SS9
+RvLITxo5Y/kjx5ey5H+F0NbYDuSO20FXJtYS0aKIP05ck/SYulQSlJ6ofbTyrTMtiizg5w3/4JVG
+rksIsNKiVJJPUu89DAr7xic4WTDEo1Bjk+251MSh/Uh2mruPc+v5DUSM
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+v8Emb2ZjoM7jxJb47x4JZHyVg2kXJFo5bVy6lx1Uu+7ynSQf+z4T9vKMnVfNhJF1pASdn4/Wz81X
+GlmPg0CHmK0XrnCOKgLvrSldA9E+5Wz4WgE2KUH8YSgrZW5o84DP1ytwRjEMtsG/dyf5c+Yqq19O
+QWT/P+fayasfxs7XVZ5ZO6hEyxqfIqUzGk/AVVDYe++/yNZXX7cdcBVm5Nllts79MiX5lYPdung0
+2S7c179gCi9/q8+1mLSDkJI7KP0uu6fvVx4yAUB+kZB4HOFLLiYrUdAbIkX5dQIOUgBPfUQ5yCSp
+oH/BsBHaWWywBNRnmRKSTnfV23Tl1W4Mqz2+nq/hx6AyLHOMW2FW+Xy1WgBrMFQZsq1GDjmlGHXN
+gM085l9U1eh7BjWeKhvrB93gIcCGe8KeNjwdpb51EvpD7S20qmMEONKXfcQNRV2mnHwkZx31ul8F
+BJJnscx47OTttj+ybsNAPxCiRN/neCXocRoGeRT0dLlwdTN5nbklIpcH
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIEszCCA5ugAwIBAgIBSDANBgkqhkiG9w0BAQsFADCB3TELMAkGA1UEBhMCSVQxCzAJBgNVBAgM
+AkJPMRAwDgYDVQQHDAdCb2xvZ25hMSkwJwYDVQQKDCBBRFMgQXV0b21hdGVkIERhdGEgU3lzdGVt
+cyBTLnAuQTEpMCcGA1UEAwwgQURTIEF1dG9tYXRlZCBEYXRhIFN5c3RlbXMgUy5wLkExHzAdBgkq
+hkiG9w0BCQEWEHNwaWQudGVjaEBhZHMuaXQxGjAYBgNVBGEMEVZBVElULTAwODkwMzcwMzcyMRww
+GgYDVQRTDBNodHRwczovL3NwaWQuYWRzLml0MB4XDTI0MDcxOTEzMTkwOVoXDTI3MDcxOTEzMTkw
+OVowgZ8xFzAVBgNVBAMMDlVuaW9uZSBWYWxkZXJhMQswCQYDVQQGEwJJVDESMBAGA1UEBwwJUG9u
+dGVkZXJhMRcwFQYDVQRhDA5QQTpJVC1jb2FsdGF2YTEXMBUGA1UECgwOVW5pb25lIFZhbGRlcmEx
+MTAvBgNVBFMMKGh0dHBzOi8vc3BpZC5hZHMuaXQvcHViLWFnLWxpdGUvY29hbHRhdmEwggGiMA0G
+CSqGSIb3DQEBAQUAA4IBjwAwggGKAoIBgQC/wSZvZmOgzuPElvjvHglkfJWDaRckWjltXLqXHVS7
+7vKdJB/7PhP28oydV82EkXWkBJ2fj9bPzVcaWY+DQIeYrReucI4qAu+tKV0D0T7lbPhaATYpQfxh
+KCtlbmjzgM/XK3BGMQy2wb93J/lz5iqrX05BZP8/59rJqx/GztdVnlk7qETLGp8ipTMaT8BVUNh7
+77/I1ldftx1wFWbk2WW2zv0yJfmVg926eDTZLtzXv2AKL3+rz7WYtIOQkjso/S67p+9XHjIBQH6R
+kHgc4UsuJitR0BsiRfl1Ag5SAE99RDnIJKmgf8GwEdpZbLAE1GeZEpJOd9XbdOXVbgyrPb6er+HH
+oDIsc4xbYVb5fLVaAGswVBmyrUYOOaUYdc2AzTzmX1TV6HsGNZ4qG+sH3eAhwIZ7wp42PB2lvnUS
++kPtLbSqYwQ40pd9xA1FXaacfCRnHfW6XwUEkmexzHjs5O22P7Juw0A/EKJE3+d4JehxGgZ5FPR0
+uXB1M3mduSUilwcCAwEAAaM6MDgwCQYDVR0TBAIwADAOBgNVHQ8BAf8EBAMCBsAwGwYDVR0gBBQw
+EjAGBgQrTBAGMAgGBitMEAQCATANBgkqhkiG9w0BAQsFAAOCAQEAquITqTrxF7XQ9ZY7BcqCTJlK
+q3PtX4m+KbLzNq1iU2P+kdRpvMy2g1/A1jHRCZ4OxBT4GzjFLAlUMAbkaYk8z1pAsnZ+8FA/JnYh
+uUWcsTYVlpnRmNUqbrRrNCPcn8kvL0oqWKh0J0PSIaeP3FiZnlztqhxwyyH+sQyA2wo/0gLFrtoH
+IsKeMyBiBO55TnNTIp67sOBYCWzumkCx3+5I/bSmTUCk0PZIiwXWNKzvr+G+r5TYFNyLEII1JDI+
+JW1K580UrdPsoAtEOarM9XEKDihCmGc+kqMhlsPHiNZaZhITFGwcSZg341BTEilplNSXysJeL6YJ
+nJajPz8y6ohl7Q==
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIIEszCCA5ugAwIBAgIBSDANBgkqhkiG9w0BAQsFADCB3TELMAkGA1UEBhMCSVQx
+CzAJBgNVBAgMAkJPMRAwDgYDVQQHDAdCb2xvZ25hMSkwJwYDVQQKDCBBRFMgQXV0
+b21hdGVkIERhdGEgU3lzdGVtcyBTLnAuQTEpMCcGA1UEAwwgQURTIEF1dG9tYXRl
+ZCBEYXRhIFN5c3RlbXMgUy5wLkExHzAdBgkqhkiG9w0BCQEWEHNwaWQudGVjaEBh
+ZHMuaXQxGjAYBgNVBGEMEVZBVElULTAwODkwMzcwMzcyMRwwGgYDVQRTDBNodHRw
+czovL3NwaWQuYWRzLml0MB4XDTI0MDcxOTEzMTkwOVoXDTI3MDcxOTEzMTkwOVow
+gZ8xFzAVBgNVBAMMDlVuaW9uZSBWYWxkZXJhMQswCQYDVQQGEwJJVDESMBAGA1UE
+BwwJUG9udGVkZXJhMRcwFQYDVQRhDA5QQTpJVC1jb2FsdGF2YTEXMBUGA1UECgwO
+VW5pb25lIFZhbGRlcmExMTAvBgNVBFMMKGh0dHBzOi8vc3BpZC5hZHMuaXQvcHVi
+LWFnLWxpdGUvY29hbHRhdmEwggGiMA0GCSqGSIb3DQEBAQUAA4IBjwAwggGKAoIB
+gQC/wSZvZmOgzuPElvjvHglkfJWDaRckWjltXLqXHVS77vKdJB/7PhP28oydV82E
+kXWkBJ2fj9bPzVcaWY+DQIeYrReucI4qAu+tKV0D0T7lbPhaATYpQfxhKCtlbmjz
+gM/XK3BGMQy2wb93J/lz5iqrX05BZP8/59rJqx/GztdVnlk7qETLGp8ipTMaT8BV
+UNh777/I1ldftx1wFWbk2WW2zv0yJfmVg926eDTZLtzXv2AKL3+rz7WYtIOQkjso
+/S67p+9XHjIBQH6RkHgc4UsuJitR0BsiRfl1Ag5SAE99RDnIJKmgf8GwEdpZbLAE
+1GeZEpJOd9XbdOXVbgyrPb6er+HHoDIsc4xbYVb5fLVaAGswVBmyrUYOOaUYdc2A
+zTzmX1TV6HsGNZ4qG+sH3eAhwIZ7wp42PB2lvnUS+kPtLbSqYwQ40pd9xA1FXaac
+fCRnHfW6XwUEkmexzHjs5O22P7Juw0A/EKJE3+d4JehxGgZ5FPR0uXB1M3mduSUi
+lwcCAwEAAaM6MDgwCQYDVR0TBAIwADAOBgNVHQ8BAf8EBAMCBsAwGwYDVR0gBBQw
+EjAGBgQrTBAGMAgGBitMEAQCATANBgkqhkiG9w0BAQsFAAOCAQEAquITqTrxF7XQ
+9ZY7BcqCTJlKq3PtX4m+KbLzNq1iU2P+kdRpvMy2g1/A1jHRCZ4OxBT4GzjFLAlU
+MAbkaYk8z1pAsnZ+8FA/JnYhuUWcsTYVlpnRmNUqbrRrNCPcn8kvL0oqWKh0J0PS
+IaeP3FiZnlztqhxwyyH+sQyA2wo/0gLFrtoHIsKeMyBiBO55TnNTIp67sOBYCWzu
+mkCx3+5I/bSmTUCk0PZIiwXWNKzvr+G+r5TYFNyLEII1JDI+JW1K580UrdPsoAtE
+OarM9XEKDihCmGc+kqMhlsPHiNZaZhITFGwcSZg341BTEilplNSXysJeL6YJnJaj
+Pz8y6ohl7Q==
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://unionevaldera-portal.e-pal.it/Shibboleth.sso/SLO/POST"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://unionevaldera-portal.e-pal.it/Shibboleth.sso/SAML2/POST" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://servizi-unionevaldera.e-pal.it/Shibboleth.sso/SAML2/POST" index="1"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">Unione Valdera</md:ServiceName>
+      <md:RequestedAttribute Name="spidCode"/>
+      <md:RequestedAttribute Name="name"/>
+      <md:RequestedAttribute Name="familyName"/>
+      <md:RequestedAttribute Name="fiscalNumber"/>
+      <md:RequestedAttribute Name="email"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="99">
+      <md:ServiceName xml:lang="it">eIDAS Natural Person Minimum Attribute Set</md:ServiceName>
+      <md:RequestedAttribute Name="dateOfBirth"/>
+      <md:RequestedAttribute Name="familyName"/>
+      <md:RequestedAttribute Name="name"/>
+      <md:RequestedAttribute Name="spidCode"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="100">
+      <md:ServiceName xml:lang="it">eIDAS Natural Person Full Attribute Set</md:ServiceName>
+      <md:RequestedAttribute Name="address"/>
+      <md:RequestedAttribute Name="dateOfBirth"/>
+      <md:RequestedAttribute Name="familyName"/>
+      <md:RequestedAttribute Name="gender"/>
+      <md:RequestedAttribute Name="name"/>
+      <md:RequestedAttribute Name="placeOfBirth"/>
+      <md:RequestedAttribute Name="spidCode"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Unione Valdera</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Unione Valdera</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.unione.valdera.pi.it</md:OrganizationURL>
+  </md:Organization>
+  <md:ContactPerson contactType="other" spid:entityType="spid:aggregator">
+    <md:Extensions>
+      <spid:VATNumber>IT00890370372</spid:VATNumber>
+      <spid:FiscalCode>00890370372</spid:FiscalCode>
+      <spid:PublicServicesLightAggregator/>
+    </md:Extensions>
+    <md:Company>ADS Automated Data Systems S.p.A</md:Company>
+    <md:EmailAddress>spid.tech@ads.it</md:EmailAddress>
+    <md:TelephoneNumber>+390516307411</md:TelephoneNumber>
+  </md:ContactPerson>
+  <md:ContactPerson contactType="other" spid:entityType="spid:aggregated">
+     <md:Extensions>
+        <spid:IPACode>coaltava</spid:IPACode>
+        <spid:Public/>
+     </md:Extensions>
+     <md:Company>Unione Valdera</md:Company>
+  </md:ContactPerson>
+</md:EntityDescriptor>
