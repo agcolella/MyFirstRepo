@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" ID="pfx02bd9531-f775-481b-afa7-7c9ed14d0249-03904120247" entityID="https://teracomsrl.it/pri-ag-full/03904120247"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#pfx02bd9531-f775-481b-afa7-7c9ed14d0249-03904120247">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>CJXrNpokHyZ3KrWg58+YG0Io/n32ixHk/PBddaeFLQY=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+so4z2HNGxldMjDfXtkq3Ii+Bs0aeqtB82WcF+Yce0M2dU6XiwSEVETN0A9t7Fke1jyRQc2A7Gwsl
+EOSWloaOdUE8s+ytNco38zCQd89sRxOmGRjfkyMiOUmS3w2hPxtWw1umnB5Chr6ISdWD99ZXI3bi
+XN46iGYsGJXJKPE9r4dhElZPF+DwWRRdSYnaPGcq6IpRKA+LGQbrEjIGlSeHlKxD09ehGpzO7FVR
+zLJq6TQD47hCHKclr79FAITJZactp9F9r4ZLztdSMIZjIdWH/syAj1RzI4+8YSMQuons+W4RHm0f
+jQnSNemWin99tUCzazwW3Rer67Y5IpUHeBqWLw==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+1RPSBO2QaL9JV0cUXCn3Jg0lcv5VwiQDai0xyrsMVweGcLAs8FqIzFHrf3ncXOjd2OAEWwGN2SA2
+It5ZbObvsMUxFWCuvDx5iB2wu5KaKksxnIu/LIioHwW3jN+RA6q1/RxpfAxaptpWTPAIETxkIGS1
+xCnaklgK5R1fAoCbO/LQBwNQ5TEthU8sVkzbjQMssJ1QGBduxpdVvWioVwfWJ+fl1L3bVAmsRu8E
+/MabBtNERfuAuziRKYbuuJxYjGAvgcmdKVn5mKfJy5x2yvpE1okK3GQ2/BhwSdKgFA5FK+9q8Wng
+ImBwW6q25JsZ3Wm8MNv8TraOzXsShtPO3y/1PQ==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIH0zCCBbugAwIBAgIIdLFznBXuHdIwDQYJKoZIhvcNAQENBQAwgegxCzAJBgNVBAYTAklUMQ0w
+CwYDVQQHDARSb21lMSYwJAYDVQQKDB1BZ2VuemlhIHBlciBsJ0l0YWxpYSBEaWdpdGFsZTEwMC4G
+A1UECwwnU2Vydml6aW8gQWNjcmVkaXRhbWVudG8gZSBwcm9nZXR0byBTUElEMSkwJwYDVQQDDCBQ
+cm9nZXR0byBTUElEIC0gU29nZ2V0dGkgcHJpdmF0aTEpMCcGCSqGSIb3DQEJARYacHJvdG9jb2xs
+b0BwZWMuYWdpZC5nb3YuaXQxGjAYBgNVBAUTEVZBVElULTk3NzM1MDIwNTg0MB4XDTIyMDcxMzAw
+MDAwMFoXDTM3MDcxMjIzNTk1OVowgZMxEDAOBgNVBAMMB1RlcmFjb20xFjAUBgNVBAoMDVRlcmFj
+b20gUy5yLmwxGjAYBgNVBGEMEVZBVElULTAxNDIzOTIwODk5MR4wHAYDVQRTDBVodHRwczovL3Rl
+cmFjb21zcmwuaXQxETAPBgNVBAcMCFNpcmFjdXNhMQswCQYDVQQIDAJTUjELMAkGA1UEBhMCSVQw
+ggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDVE9IE7ZBov0lXRxRcKfcmDSVy/lXCJANq
+LTHKuwxXB4ZwsCzwWojMUet/edxc6N3Y4ARbAY3ZIDYi3lls5u+wxTEVYK68PHmIHbC7kpoqSzGc
+i78siKgfBbeM35EDqrX9HGl8DFqm2lZM8AgRPGQgZLXEKdqSWArlHV8CgJs78tAHA1DlMS2FTyxW
+TNuNAyywnVAYF27Gl1W9aKhXB9Yn5+XUvdtUCaxG7wT8xpsG00RF+4C7OJEphu64nFiMYC+ByZ0p
+WfmYp8nLnHbK+kTWiQrcZDb8GHBJ0qAUDkUr72rxaeAiYHBbqrbkmxndabww2/xOto7NexKG087f
+L/U9AgMBAAGjggLSMIICzjAMBgNVHRMBAf8EAjAAMB0GA1UdDgQWBBTRyLjCWqlEe4nbHLL0nsJB
+2q/K4zAfBgNVHSMEGDAWgBScRTDETQ+g+iYPqdb8INYHbM5kVjAOBgNVHQ8BAf8EBAMCBsAwEwYD
+VR0lBAwwCgYIKwYBBQUHAwEwQwYDVR0fBDwwOjA4oDagNIYyaHR0cHM6Ly9laWRhcy5hZ2lkLmdv
+di5pdC9jcmwvY3JsX1NQSURfcHJpdl9TQS5jcmwwNwYIKwYBBQUHAQEEKzApMCcGCCsGAQUFBzAB
+hhtodHRwczovL29jc3BfU0EuYWdpZC5nb3YuaXQwggHZBgNVHSAEggHQMIIBzDAJBgcEAI5GAQYC
+MIGVBgQrTBAGMIGMMEQGCCsGAQUFBwICMDgaNkVsZWN0cm9uaWMgY2VydGlmaWNhdGUgY29uZm9y
+bWluZyB3aXRoIEFHSUQgR3VpZGVsaW5lczBEBggrBgEFBQcCAjA4GjZDZXJ0aWZpY2F0byBlbGV0
+dHJvbmljbyBjb25mb3JtZSBhbGxlIExpbmVlIGd1aWRhIEFnSUQwfQYGK0wQBAMCMHMwOQYIKwYB
+BQUHAgIwLRorU1BJRDogYWdncmVnYXRvcmUgJ2Z1bGwnIGRpIHNlcnZpemkgcHJpdmF0aTA2Bggr
+BgEFBQcCAjAqGihTUElEOiBwcml2YXRlLXNlcnZpY2VzICdmdWxsJyBBZ2dyZWdhdG9yMAgGBgQA
+j3oBAzBNBgQrTBAEMEUwQwYIKwYBBQUHAgEWN2h0dHBzOi8vZWlkYXMuYWdpZC5nb3YuaXQvY3Bz
+L0FnSURfZUlEQVNfcm9vdENBX2Nwcy5wZGYwTwYGBACORgEFMEUwQwYIKwYBBQUHAgEWN2h0dHBz
+Oi8vZWlkYXMuYWdpZC5nb3YuaXQvY3BzL0FnSURfZUlEQVNfcm9vdENBX2Nwcy5wZGYwDQYJKoZI
+hvcNAQENBQADggIBABZPRQa8dTpCK/AyHcWkuzoS56f53whuOtkX7kg2msMy1UGNLn8w/L9H/9Wc
+upFGjWaxnf8WuSg2EVaLyWRmgbbAYuMl8yRzbDAAHvPQjRT5Xxb1C/kdkR2nIniF1LtS66Ys8Ug6
+5u3c1zVFflTzdQ8F+1UsmZ7jh0tJ8kAgK+g2zR0IMS+We87VfOeWN51OYdYfjgktpgiU8k3ILSHn
+DrF3ePhqJ1vDj3nQZCCE9WqRPLDvD42K4m0J42u3KkEnaDHhm36y5dTBxRFQBLJ5HjmE0WwbZatX
+kGT4cpHJ/kEqyu9b8PK0/Tqz/nhCx3Wj6HuEseXM3xC8d+feyhqlSj5PuItXHOxSg2jAXJxkaNsy
+L+A8ClCU2AsWLrcAh1ciyq8+BW4fswqVGNenn403G8tPpTceQXhKZ8qx5RxxonbYr98+uEg1lXL1
+zy21dEIsEjwqRA06eMpQ1OJycokapRo63rhS8AnsSD+1ZSOok9mPR1SOHlNaAuu+2O1Hhv88P7bF
+ufesnSss3DhLBRWkNgRH0UosyAEAHfN6JmxB3Er5W5BtQFTSrQgMaw4obqQgz57EL6kBbbS+Dxpm
+IJpa450mkrluhbnYVm16kIfhlUHWidNMY2rAMPKT+AHIClEWOMnPISmzRIgjprbcIIsoD8aEMvE1
+8Q7XTKjOUAaP5MZp
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+   <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+      <md:KeyDescriptor use="signing">
+         <ds:KeyInfo>
+            <ds:X509Data>
+               <ds:X509Certificate>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</ds:X509Certificate>
+            </ds:X509Data>
+         </ds:KeyInfo>
+      </md:KeyDescriptor>
+      <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://pri.fastid.it/it03904120247/spid.sso/SLO/POST"/>
+	  
+      <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+      
+	  <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://pri.fastid.it/it03904120247/spid.sso/SAML2/POST" index="0" isDefault="true"/>
+	  
+      <md:AttributeConsumingService index="0">
+         <md:ServiceName xml:lang="it">AutenticazioneSPID-min</md:ServiceName>
+         <md:ServiceDescription xml:lang="it">AutenticazioneSPID-min</md:ServiceDescription>
+         <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>         
+         <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>         
+         <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>         
+         <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>         
+         <md:RequestedAttribute Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>         
+      </md:AttributeConsumingService>
+	  
+      <md:AttributeConsumingService index="1">
+         <md:ServiceName xml:lang="it">AutenticazioneSPID-std</md:ServiceName>
+         <md:ServiceDescription xml:lang="it">AutenticazioneSPID-std</md:ServiceDescription>
+         <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>         
+         <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>         
+         <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>         
+         <md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>         
+         <md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>         
+         <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>         
+         <md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>         
+         <md:RequestedAttribute Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>         
+         <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>         
+         <md:RequestedAttribute Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>         
+      </md:AttributeConsumingService>
+	  
+      <md:AttributeConsumingService index="2">
+         <md:ServiceName xml:lang="it">AutenticazioneSPID-full</md:ServiceName>
+         <md:ServiceDescription xml:lang="it">AutenticazioneSPID-full</md:ServiceDescription>
+         <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>         
+         <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>         
+         <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>         
+         <md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>         
+         <md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>         
+         <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>         
+         <md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>         
+         <md:RequestedAttribute Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>         
+         <md:RequestedAttribute Name="registeredOffice" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>         
+         <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>         
+         <md:RequestedAttribute Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>                  
+         <md:RequestedAttribute Name="idCard" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>                  
+         <md:RequestedAttribute Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>                  
+         <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>                  
+         <md:RequestedAttribute Name="address" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>                  
+         <md:RequestedAttribute Name="domicileStreetAddress" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>                  
+         <md:RequestedAttribute Name="domicilePostalCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>                  
+         <md:RequestedAttribute Name="domicileMunicipality" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>                  
+         <md:RequestedAttribute Name="domicileProvince" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>                  
+         <md:RequestedAttribute Name="domicileNation" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>                  
+         <md:RequestedAttribute Name="expirationDate" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>                  
+         <md:RequestedAttribute Name="digitalAddress" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>                  
+      </md:AttributeConsumingService>
+	  
+	  <md:AttributeConsumingService index="99">
+         <md:ServiceName xml:lang="it">eIDAS Natural Person Minimum Attribute Set</md:ServiceName>
+         <md:RequestedAttribute Name="name"/>
+         <md:RequestedAttribute Name="familyName"/>
+         <md:RequestedAttribute Name="dateOfBirth"/>
+         <md:RequestedAttribute Name="spidCode"/>
+      </md:AttributeConsumingService>
+      <md:AttributeConsumingService index="100">
+         <md:ServiceName xml:lang="it">eIDAS Natural Person Full Attribute Set</md:ServiceName>
+         <md:RequestedAttribute Name="name"/>
+         <md:RequestedAttribute Name="familyName"/>
+         <md:RequestedAttribute Name="dateOfBirth"/>
+         <md:RequestedAttribute Name="spidCode"/>
+         <md:RequestedAttribute Name="placeOfBirth"/>
+         <md:RequestedAttribute Name="address"/>
+         <md:RequestedAttribute Name="gender"/>
+      </md:AttributeConsumingService>
+	  	  
+   </md:SPSSODescriptor>
+   
+   <md:Organization>
+      <md:OrganizationName xml:lang="it">Kopjra S.r.l.</md:OrganizationName>
+	  <md:OrganizationDisplayName xml:lang="it">Kopjra S.r.l.</md:OrganizationDisplayName>
+	  <md:OrganizationURL xml:lang="it">https://www.kopjra.com</md:OrganizationURL>
+   </md:Organization>
+     <md:ContactPerson contactType="other" spid:entityType="spid:aggregator">
+      <md:Extensions>
+         <spid:VATNumber>IT01423920899</spid:VATNumber>
+         <spid:FiscalCode>01423920899</spid:FiscalCode>
+         <spid:PrivateServicesFullAggregator/>
+      </md:Extensions>
+      <md:Company>Datanetwork S.r.l.</md:Company>
+      <md:EmailAddress>info@datanetwork.it</md:EmailAddress>
+      <md:TelephoneNumber>+390931491276</md:TelephoneNumber>
+   </md:ContactPerson>
+   <md:ContactPerson contactType="other" spid:entityType="spid:aggregated">
+		<md:Extensions>
+			<spid:VATNumber>IT03904120247</spid:VATNumber>
+			<spid:FiscalCode>03904120247</spid:FiscalCode>
+			<spid:Private/>
+		</md:Extensions>
+		<md:Company>Kopjra S.r.l.</md:Company>
+	</md:ContactPerson>
+	<md:ContactPerson contactType="billing">
+        <md:Extensions xmlns:fpa="https://spid.gov.it/invoicing-extensions">
+            <fpa:CessionarioCommittente>
+                <fpa:DatiAnagrafici>
+                    <fpa:IdFiscaleIVA>
+                        <fpa:IdPaese>IT</fpa:IdPaese>
+                        <fpa:IdCodice>01423920899</fpa:IdCodice>
+                    </fpa:IdFiscaleIVA>
+                    <fpa:Anagrafica>
+			           <fpa:Denominazione>Datanetwork S.r.l.</fpa:Denominazione> 
+                    </fpa:Anagrafica>
+                </fpa:DatiAnagrafici>
+                <fpa:Sede>
+		             <fpa:Indirizzo>Contrada Targia</fpa:Indirizzo>
+		             <fpa:NumeroCivico>58</fpa:NumeroCivico>
+		             <fpa:CAP>96100</fpa:CAP>
+		             <fpa:Comune>Siracusa</fpa:Comune>
+		             <fpa:Provincia>SR</fpa:Provincia>
+                    <fpa:Nazione>IT</fpa:Nazione>
+                </fpa:Sede>
+            </fpa:CessionarioCommittente>
+        </md:Extensions>
+        <md:Company>Datanetwork S.r.l.</md:Company>
+        <md:EmailAddress>info@datanetwork.it</md:EmailAddress>
+        <md:TelephoneNumber>+390931491276</md:TelephoneNumber>
+    </md:ContactPerson>
+   
+</md:EntityDescriptor>
