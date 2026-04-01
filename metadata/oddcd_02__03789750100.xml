@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" ID="a088bc6e-33c5-4ff2-b35b-d9c3ff9a2c9e" entityID="https://www.e-fil.it/pub-ag-full/oddcd_02"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#a088bc6e-33c5-4ff2-b35b-d9c3ff9a2c9e">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>NlWVc1fQWdBzt+Xh+pQCacCK4GtcV7QkylKpCm6ZvEQ=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+cuVddyCERMhoy37J5SL+EK+ltsP/6JByYbYWdMpdJCIruI7fJxbI3KiPnauQ6yBx6ozNPog1+7LF
+gtHtXYKAhxf11rMNEB4xksHlZIdpAQT17kubE46zsKfMG7fR/cnyo0Oc3ekU3WM3YP5olQir7lca
+j2iB3LIVNI6rE5EPdXyUcEfhkpJl3nfTppKtZGQNl5gIFZvsJdqDnu0TA0KGPy4XoIDl91VmDoo8
+tLmeifWdiso+k6r5Kx36wxvZzfY1Vz/5QKYu8PZ5f3q5aPJnJCvHzJCNX1ZUKCFoVxtRZwNXS3uN
+4jyl/v7pfQQIpzWAi9mo4mRqerZuUZopxrk+NA==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+qY4H/GWTewBiu2WSlYEBgj8A43JfVxYrWgJD3qdxocfWPPSM5E7MWIKXzXCFl+zrjeCnfeO3vg+I
+IDgN76rUKxK75XW1gvU0BEzaf7qaKNxYrvKDxKlcrzT20ZRppJ7GaMq4b5ygiFXM91bhmPkeiYGS
+I3VNgl+ZDxpMqEQuvJY1wG+iECe9p7WKVKWebj9lU4cserbIVdTT45/x0lJD+00zeuKrTQ5FQD+7
+FKjg4PThQbPIojaXwekwtZxApbz329zJsY57zomJE6phJl1gJ7+b3dN3otHMUNoGoR2KcTWy74CY
+skWOZs/wD0hbCH4QstxhHSdXH+srFN6tBkJzQw==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIH4TCCBcmgAwIBAgIIbMDMGjctYe8wDQYJKoZIhvcNAQENBQAwgeUxCzAJBgNVBAYTAklUMQ0w
+CwYDVQQHDARSb21lMSYwJAYDVQQKDB1BZ2VuemlhIHBlciBsJ0l0YWxpYSBEaWdpdGFsZTEsMCoG
+A1UECwwjU2Vydml6aW8gQWNjcmVkaXRhbWVudG8gZSBWaWdpbGFuemExKjAoBgNVBAMMIVByb2dl
+dHRvIFNQSUQgLSBTb2dnZXR0aV9wdWJibGljaTEpMCcGCSqGSIb3DQEJARYacHJvdG9jb2xsb0Bw
+ZWMuYWdpZC5nb3YuaXQxGjAYBgNVBAUTEVZBVElULTk3NzM1MDIwNTg0MB4XDTIxMDkxNTAwMDAw
+MFoXDTM2MDkxNDIzNTk1OVowgaIxCzAJBgNVBAYTAklUMQswCQYDVQQIDAJSTTENMAsGA1UEBwwE
+Um9tYTEOMAwGA1UECgwFRS1GSUwxFTATBgNVBAsMDEUtRklMIFMuUi5MLjEVMBMGA1UEAwwMRS1G
+SUwgUy5SLkwuMRowGAYDVQRhDBFWQVRJVC0wMzc4OTc1MDEwMDEdMBsGA1UEUwwUaHR0cHM6Ly93
+d3cuZS1maWwuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCpjgf8ZZN7AGK7ZZKV
+gQGCPwDjcl9XFitaAkPep3Ghx9Y89IzkTsxYgpfNcIWX7OuN4Kd947e+D4ggOA3vqtQrErvldbWC
+9TQETNp/upoo3Fiu8oPEqVyvNPbRlGmknsZoyrhvnKCIVcz3VuGY+R6JgZIjdU2CX5kPGkyoRC68
+ljXAb6IQJ72ntYpUpZ5uP2VThyx6tshV1NPjn/HSUkP7TTN64qtNDkVAP7sUqODg9OFBs8iiNpfB
+6TC1nEClvPfb3MmxjnvOiYkTqmEmXWAnv5vd03ei0cxQ2gahHYpxNbLvgJiyRY5mz/APSFsIfhCy
+3GEdJ1cf6ysU3q0GQnNDAgMBAAGjggLUMIIC0DAMBgNVHRMBAf8EAjAAMB0GA1UdDgQWBBRKUCpu
+F1YOLaPUB3lqAjXk+HWScTAfBgNVHSMEGDAWgBQ8u23rHv2dbsvuVObqOdWJoEfXNDAOBgNVHQ8B
+Af8EBAMCBsAwFgYDVR0SBA8wDYILc3BpZC5nb3YuaXQwQgYDVR0fBDswOTA3oDWgM4YxaHR0cHM6
+Ly9laWRhcy5hZ2lkLmdvdi5pdC9jcmwvY3JsX1NQSURfUHViX1NBLmNybDA3BggrBgEFBQcBAQQr
+MCkwJwYIKwYBBQUHMAGGG2h0dHBzOi8vb2NzcF9TQS5hZ2lkLmdvdi5pdDCCAdkGA1UdIASCAdAw
+ggHMMAkGBwQAjkYBBgIwgZUGBCtMEAYwgYwwRAYIKwYBBQUHAgIwOBo2RWxlY3Ryb25pYyBjZXJ0
+aWZpY2F0ZSBjb25mb3JtaW5nIHdpdGggQUdJRCBHdWlkZWxpbmVzMEQGCCsGAQUFBwICMDgaNkNl
+cnRpZmljYXRvIGVsZXR0cm9uaWNvIGNvbmZvcm1lIGFsbGUgTGluZWUgZ3VpZGEgQWdJRDB9BgYr
+TBAEAgIwczA6BggrBgEFBQcCAjAuGixTUElEOiBhZ2dyZWdhdG9yZSAnZnVsbCcgZGkgc2Vydml6
+aSBwdWJibGljaTA1BggrBgEFBQcCAjApGidTUElEOiBwdWJsaWMtc2VydmljZXMgJ2Z1bGwnIEFn
+Z3JlZ2F0b3IwCAYGBACPegEDME0GBCtMEAQwRTBDBggrBgEFBQcCARY3aHR0cHM6Ly9laWRhcy5h
+Z2lkLmdvdi5pdC9jcHMvQWdJRF9lSURBU19yb290Q0FfY3BzLnBkZjBPBgYEAI5GAQUwRTBDBggr
+BgEFBQcCARY3aHR0cHM6Ly9laWRhcy5hZ2lkLmdvdi5pdC9jcHMvQWdJRF9lSURBU19yb290Q0Ff
+Y3BzLnBkZjANBgkqhkiG9w0BAQ0FAAOCAgEAO9XfbJaLZEb7P7U+yJyE7mIuNsYJGSf18XzG/7sn
+C4POvFLhYOP/IAw/nrKPkXU5z6KH1NCnoKwS/8SxJbpXxU4gn29U4NFlaDYYat9LYXu/a0g75Den
+AsOtNsYH6Qx/iiPk+Ksehly+tBjMOj6EWqQmr+0I8EI5DUgIMCLbiUD0U5yAGMt8lKFlUw6SClEe
+ppp615autplBNWyUNEOVTnu+z2t+uP5midU9JRWm0HRsUOoHATa6zKE7o74fzDCebvJRXJQtH1Cf
+SYprddOg8tcxqrsUY7a0m9FH/no98fmquUwgY9CWnM7byYHAMdKOhGTqLW/TGSuhBNgYnm7mS6RS
+sB/jhC2n5eh2JYYbBw5ku/Vxkwqqt70s5V0zDIYVb5pZ1IYhgUBVuE0WYmLK8SL7FhPEilp4ZRfo
++J3YCs4zd/ncloQhdma+VksA/C06wldIRcVplrcYfJAKTUphoVC0b7o3uh9UR68FzUrdID6qWu0Z
+sQcVuPp3yu++8KpNnYGEdntKS1Kay4VeZB4ZR3qVvz0YP89c+Ia1ht0Q5KnV49BzyXjbZOeGtmnA
+TXZGdKmZCB1UZi1n2q0wPCGCbo/iZxqzLgAbZyYTKxzLgbKnhllUw7yE24F8C9EW0Ad3WgTvQB2j
+inV2kz2IRS9ixUd/8XwEWKVPa6id/0Et5Y4=
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIIGGDCCBACgAwIBAgIJAIIvZf14J0sDMA0GCSqGSIb3DQEBCwUAMIGgMQswCQYD
+							  VQQGEwJJVDENMAsGA1UECAwEUm9tYTEVMBMGA1UEBwwMT2RjZWNCZWxsdW5vMRUw
+							  EwYDVQQKDAxPZGNlY0JlbGx1bm8xEDAOBgNVBAsMB0RpZ2l0SUQxGDAWBgNVBAMM
+							  D3d3dy5vZGNlYy5ibC5pdDEoMCYGCSqGSIb3DQEJARYZaW5mb0BvZGNlY2JsLmxl
+							  Z2FsbWFpbC5pdDAeFw0yNjAzMzAwOTMzNTVaFw0yOTAzMjkwOTMzNTVaMIGgMQsw
+							  CQYDVQQGEwJJVDENMAsGA1UECAwEUm9tYTEVMBMGA1UEBwwMT2RjZWNCZWxsdW5v
+							  MRUwEwYDVQQKDAxPZGNlY0JlbGx1bm8xEDAOBgNVBAsMB0RpZ2l0SUQxGDAWBgNV
+							  BAMMD3d3dy5vZGNlYy5ibC5pdDEoMCYGCSqGSIb3DQEJARYZaW5mb0BvZGNlY2Js
+							  LmxlZ2FsbWFpbC5pdDCCAiIwDQYJKoZIhvcNAQEBBQADggIPADCCAgoCggIBAMXV
+							  Tv/0ZBQXz41NG1QnbVVj64IaAToN20GR4AjmY7XKkl1W1OXGSYWfc2BUKnpH6hBF
+							  IElQRUV92spoXay3RRV7MW3lZQgA/Psh6I3dYnXUhKo2rQbURmn38tJmDfdAcI0P
+							  ArMuGd6UZeDpPCiIoSSOmTN5Oh32FgQobrKV7PuZDzTBS9KSS5cbtBFdRied69FE
+							  CbONDX5Z9d/FTDlYXnz8Qich45ijm078Z61hdsOLgkaIXXt7OQ43msNli82nzIgB
+							  upHoXoMEqnGosoSHRnV4MmlsR6IL+UEIMF1OuDxQgLGixD+R992PLDJH7WKoyatu
+							  OhYpZYpv7hGKXBhd5pZcze+HVBRoNf5M/LoCzNiOBZWGUIhXMrhpmfa0i8TK+UV6
+							  BHPCbrphB71Y4WARbULVAgQihFUTE1KTQrL5W5W34GgSPCthoTtJC3TFcB9LW/sr
+							  31V9LU+vya9D5QWZaAa4goTxlUrfpH6uLc1rvyT2f0/20h/HdpGKEoIEfznLoYI6
+							  lqYttvqZS5eVKdE6NcCXgdAZoxf4bVGLRQ/lNeSs85tEjSSnNmi9j1sHqHFlj8eN
+							  0qQUH3XF+dU8fcyE0Zlkjc9pD48awW/bfe2kDYF563mPVEqt2z0ZH3Vxd15cxCnX
+							  eIqThPuHCzuy9mnwvamOwHSGn4K7rprqUmYjU1SnAgMBAAGjUzBRMB0GA1UdDgQW
+							  BBThO7ESCzbqszYzm5qVqD+jsbFtCTAfBgNVHSMEGDAWgBThO7ESCzbqszYzm5qV
+							  qD+jsbFtCTAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4ICAQAbAI1C
+							  MmxkHjS92kAymeXoyff3VdUBBMXeKbMSz8sfve/yB6Gztd3bhhfbZkHCgr61gzAp
+							  s/KGcR/LNi7+tObKAxz33QlnIbUxHn5aXI5JQXVmtvdfwymSpv6RWgzFh24vTR/3
+							  6C6LMowrheScRuTX/PDo6auycIaymEjP4Sude9wrqd1bQ0ZntvaN+X/aXEwryb6k
+							  6F4NsXu5r+rGFqJAmkdu1BZgLHCWWkL14rhM3PULum8C2r7yk3deyJBgS/GBAZwb
+							  Mf6tPnzf4twUogc+PSLJ9mrdZFM2LpxSD6QWekc+kLCzakr1Y6OIrU/C/3GNN7J7
+							  um7zjhJYTLJfC9pwJ4wHi0Xqjgm3lPBJamQJSidCT4UvHm9e1YzCJbetqUY4zqLW
+							  tg1ovBmhBsJoS8Fc3sp0RT5jT3g6H3xDUVb1/1Sbero8bnwu7c9AF9ju+42PLfY/
+							  xO1Rv1B+LSGAmZiCgH3sHAmrZCceA97LJn3YC0I17hqb4KnSu4o8L61RhLubCe9g
+							  oXNfQNkuY+3ATrxRpyVZSMvzKtWJRoAy+A5L2TKhlvhLqlTXBN3+7eKNRfahhBig
+							  QQ+UlGmgJpI4yheiV9oElNv7CmesmVfmSdZYjP+kKgLwlP/8ZKbXXSbiwHCRFZA1
+							  aQ8mDMwXvl6E1GADp+kNuecBDHZrVXZDyQi7kw==
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://belluno.odcec.plugandpay.it/spidslo"/>
+	<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://idppaproxy.plugandpay.it/spidslo/cd72b4d6-649e-41d2-ab92-b12853e16b63/oddcd_02"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://belluno.odcec.plugandpay.it/spidacs" index="0" isDefault="true"/>
+	<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://idppaproxy.plugandpay.it/spidacs/cd72b4d6-649e-41d2-ab92-b12853e16b63/oddcd_02" index="1" isDefault="false"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">Portale dei pagamenti del cittadino</md:ServiceName>
+      <md:RequestedAttribute Name="spidCode"/>
+	  <md:RequestedAttribute Name="familyName"/>
+	  <md:RequestedAttribute Name="name"/>
+	  <md:RequestedAttribute Name="companyName"/>
+	  <md:RequestedAttribute Name="fiscalNumber"/>
+	  <md:RequestedAttribute Name="ivaCode"/>
+	  <md:RequestedAttribute Name="email"/>
+	  <md:RequestedAttribute Name="gender"/>
+	  <md:RequestedAttribute Name="placeOfBirth"/>
+	  <md:RequestedAttribute Name="countyOfBirth"/>
+	  <md:RequestedAttribute Name="dateOfBirth"/>
+    </md:AttributeConsumingService>
+<md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">Ordine Dei Dottori Commercialisti e Degli Esperti Contabili della Provincia di Belluno</md:ServiceName>
+      <md:RequestedAttribute Name="spidCode"/>
+	  <md:RequestedAttribute Name="familyName"/>
+	  <md:RequestedAttribute Name="name"/>
+	  <md:RequestedAttribute Name="companyName"/>
+	  <md:RequestedAttribute Name="fiscalNumber"/>
+	  <md:RequestedAttribute Name="ivaCode"/>
+	  <md:RequestedAttribute Name="email"/>
+	  <md:RequestedAttribute Name="gender"/>
+	  <md:RequestedAttribute Name="placeOfBirth"/>
+	  <md:RequestedAttribute Name="countyOfBirth"/>
+	  <md:RequestedAttribute Name="dateOfBirth"/>
+    </md:AttributeConsumingService>	
+  </md:SPSSODescriptor>
+  <md:Organization>
+  	<md:OrganizationName xml:lang="it">Ordine Dei Dottori Commercialisti e Degli Esperti Contabili della Provincia di Belluno</md:OrganizationName>
+  	<md:OrganizationDisplayName xml:lang="it">Ordine Dei Dottori Commercialisti e Degli Esperti Contabili della Provincia di Belluno</md:OrganizationDisplayName>
+  	<md:OrganizationURL xml:lang="it">https://www.odcec.bl.it</md:OrganizationURL>
+  </md:Organization>
+  <md:ContactPerson contactType="other" spid:entityType="spid:aggregator">
+  	<md:Extensions>
+  		<spid:VATNumber>IT03789750100</spid:VATNumber>
+  		<spid:FiscalCode>03789750100</spid:FiscalCode>
+  		<spid:PublicServicesFullAggregator/>
+  	</md:Extensions>
+  	<md:Company>E-fil srl</md:Company>
+  	<md:EmailAddress>segreteria@pec.e-fil.eu</md:EmailAddress>
+  	<md:TelephoneNumber>+390688805363</md:TelephoneNumber>
+  </md:ContactPerson>
+  <md:ContactPerson contactType="other" spid:entityType="spid:aggregated">
+  	<md:Extensions>
+  		<spid:IPACode>oddcd_02</spid:IPACode>
+		<spid:Public/>
+  	</md:Extensions>
+  	<md:Company>Ordine Dei Dottori Commercialisti e Degli Esperti Contabili della Provincia di Belluno</md:Company>
+   </md:ContactPerson>
+</md:EntityDescriptor>
