@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" ID="_e46f2df5942122c12b109f54bb406b7bd71eb48443fa85c2e7d8e6f321057cd9" entityID="https://ortadiatella.halleyweb.it"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#_e46f2df5942122c12b109f54bb406b7bd71eb48443fa85c2e7d8e6f321057cd9">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>shQykkiUcfPfbKTQvfy3x3JyDjqPEUt6Bzw/FIKO3Zw=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+e4W8Rsay9Sm5859bRr3NFuHyFCKAsw9jXEK1oSQTMEPDhIiSMSG7CfEVnxr14PD7yqSzYwmpUuHq
+JfP8fD8DZhVl2KUG2vjbg1fBZBas83wb24oU/KM3n1TI0661W1X3RMhyxEqdFS+55xsTeIPdbRN7
+wrzd+7ctSAUqpRmHuGCSm9J17rKGvU9CMEoTFdvuWNo5G704/UB07K+eil7dC6JQrp+mZrIFeQl4
+JYvHnnOVdbLPI44sSY73X12PbwevlZV1Og0fCnmtQR0CQA2XBohCSffRKK7Ozw/BEYO/mkqgKISR
+RidMMvO1NXXGZkROPi1Vtn8B0Mh3kC8gNJWq4A==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+sHDIlI30ec3K3lzw/smJyJN99yS0Vrjb1uGB1bEvKNqVjvCkCIlvff95mRhsfwwoUL2ReOZXxJbI
+F4dyLbjU1cTC8nYJysb7/phuJquBSAzmfIl0HHRXhje1+5FIzi9cR8fjnntJ9d24Pal6NijDvk/O
+x0VpypwbWvdmADUGNc6w7MRZVKSHgT5zzTxVd2j4yd6qbcNNTgWsyexNre30W8lYI9GHxP75nWR4
+/epEqI0x4BAq5YcZIzMC62uZlkzyv1AgUrCqK1jKzUwv60NZMrEPBrMyXX4GhP064n9fmWG+/1Xm
+JjDFeb/PgQQZOmtinDNLe1s3DSYwNEq1fOiAsQ==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDzTCCArWgAwIBAgIJAMJcrbaY7VEdMA0GCSqGSIb3DQEBCwUAMH0xCzAJBgNVBAYTAklUMQ4w
+DAYDVQQIDAVJdGFseTEXMBUGA1UEBwwOT3J0YSBkaSBBdGVsbGExITAfBgNVBAoMGENvbXVuZSBk
+aSBPcnRhIGRpIEF0ZWxsYTEiMCAGA1UEAwwZb3J0YWRpYXRlbGxhLmhhbGxleXdlYi5pdDAeFw0y
+NDAxMTYxMTEwMDdaFw0zNDAxMTUxMTEwMDdaMH0xCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFs
+eTEXMBUGA1UEBwwOT3J0YSBkaSBBdGVsbGExITAfBgNVBAoMGENvbXVuZSBkaSBPcnRhIGRpIEF0
+ZWxsYTEiMCAGA1UEAwwZb3J0YWRpYXRlbGxhLmhhbGxleXdlYi5pdDCCASIwDQYJKoZIhvcNAQEB
+BQADggEPADCCAQoCggEBALBwyJSN9HnNyt5c8P7JiciTffcktFa429bhgdWxLyjalY7wpAiJb33/
+eZkYbH8MKFC9kXjmV8SWyBeHci241NXEwvJ2CcrG+/6YbiargUgM5nyJdBx0V4Y3tfuRSM4vXEfH
+4557SfXduD2pejYow75PzsdFacqcG1r3ZgA1BjXOsOzEWVSkh4E+c808VXdo+Mneqm3DTU4FrMns
+Ta3t9FvJWCPRh8T++Z1keP3qRKiNMeAQKuWHGSMzAutrmZZM8r9QIFKwqitYys1ML+tDWTKxDwaz
+Ml1+BoT9OuJ/X5lhvv9V5iYwxXm/z4EEGTprYpwzS3tbNw0mMDRKtXzogLECAwEAAaNQME4wHQYD
+VR0OBBYEFKfGe7ce5aVifFTJgomSZAJGxDW2MB8GA1UdIwQYMBaAFKfGe7ce5aVifFTJgomSZAJG
+xDW2MAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAHnC8GQlmJ2L+l2TESlPZAu8Zm1z
+7qo2+PvuLzwVqH6+U/h3cu2n0jPtk5e1Fln7qx9el+XMefNtgR0psSqDmnuZd7FGaJCEnQlQem3d
+u6Ez4ofYxiVWhoC718ZJdyRqWt1LJvu7r/yYPeoTVbfl1l5MjUGg7AK/ml3I+k/op0GSKf0dM1St
+zDF+9rfCR5MW3BkXsGlQWDGTyCyy+NpDQuFl/g49YHkvVYdgJeFuTETNEE0hVgJoUVPtal6Lnknc
+e5lnsg0OY+MIR0amlrirbC+tdU9sQO+qeujMFCLqvdTR5hd7DJR+QVWzk+GFyr4WnYXGpBzSGzoM
+ONfn/gewxZE=
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDzTCCArWgAwIBAgIJAMJcrbaY7VEdMA0GCSqGSIb3DQEBCwUAMH0xCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEXMBUGA1UEBwwOT3J0YSBkaSBBdGVsbGExITAfBgNVBAoMGENvbXVuZSBkaSBPcnRhIGRpIEF0ZWxsYTEiMCAGA1UEAwwZb3J0YWRpYXRlbGxhLmhhbGxleXdlYi5pdDAeFw0yNDAxMTYxMTEwMDdaFw0zNDAxMTUxMTEwMDdaMH0xCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEXMBUGA1UEBwwOT3J0YSBkaSBBdGVsbGExITAfBgNVBAoMGENvbXVuZSBkaSBPcnRhIGRpIEF0ZWxsYTEiMCAGA1UEAwwZb3J0YWRpYXRlbGxhLmhhbGxleXdlYi5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALBwyJSN9HnNyt5c8P7JiciTffcktFa429bhgdWxLyjalY7wpAiJb33/eZkYbH8MKFC9kXjmV8SWyBeHci241NXEwvJ2CcrG+/6YbiargUgM5nyJdBx0V4Y3tfuRSM4vXEfH4557SfXduD2pejYow75PzsdFacqcG1r3ZgA1BjXOsOzEWVSkh4E+c808VXdo+Mneqm3DTU4FrMnsTa3t9FvJWCPRh8T++Z1keP3qRKiNMeAQKuWHGSMzAutrmZZM8r9QIFKwqitYys1ML+tDWTKxDwazMl1+BoT9OuJ/X5lhvv9V5iYwxXm/z4EEGTprYpwzS3tbNw0mMDRKtXzogLECAwEAAaNQME4wHQYDVR0OBBYEFKfGe7ce5aVifFTJgomSZAJGxDW2MB8GA1UdIwQYMBaAFKfGe7ce5aVifFTJgomSZAJGxDW2MAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAHnC8GQlmJ2L+l2TESlPZAu8Zm1z7qo2+PvuLzwVqH6+U/h3cu2n0jPtk5e1Fln7qx9el+XMefNtgR0psSqDmnuZd7FGaJCEnQlQem3du6Ez4ofYxiVWhoC718ZJdyRqWt1LJvu7r/yYPeoTVbfl1l5MjUGg7AK/ml3I+k/op0GSKf0dM1StzDF+9rfCR5MW3BkXsGlQWDGTyCyy+NpDQuFl/g49YHkvVYdgJeFuTETNEE0hVgJoUVPtal6Lnknce5lnsg0OY+MIR0amlrirbC+tdU9sQO+qeujMFCLqvdTR5hd7DJR+QVWzk+GFyr4WnYXGpBzSGzoMONfn/gewxZE=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDzTCCArWgAwIBAgIJAMJcrbaY7VEdMA0GCSqGSIb3DQEBCwUAMH0xCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEXMBUGA1UEBwwOT3J0YSBkaSBBdGVsbGExITAfBgNVBAoMGENvbXVuZSBkaSBPcnRhIGRpIEF0ZWxsYTEiMCAGA1UEAwwZb3J0YWRpYXRlbGxhLmhhbGxleXdlYi5pdDAeFw0yNDAxMTYxMTEwMDdaFw0zNDAxMTUxMTEwMDdaMH0xCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEXMBUGA1UEBwwOT3J0YSBkaSBBdGVsbGExITAfBgNVBAoMGENvbXVuZSBkaSBPcnRhIGRpIEF0ZWxsYTEiMCAGA1UEAwwZb3J0YWRpYXRlbGxhLmhhbGxleXdlYi5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALBwyJSN9HnNyt5c8P7JiciTffcktFa429bhgdWxLyjalY7wpAiJb33/eZkYbH8MKFC9kXjmV8SWyBeHci241NXEwvJ2CcrG+/6YbiargUgM5nyJdBx0V4Y3tfuRSM4vXEfH4557SfXduD2pejYow75PzsdFacqcG1r3ZgA1BjXOsOzEWVSkh4E+c808VXdo+Mneqm3DTU4FrMnsTa3t9FvJWCPRh8T++Z1keP3qRKiNMeAQKuWHGSMzAutrmZZM8r9QIFKwqitYys1ML+tDWTKxDwazMl1+BoT9OuJ/X5lhvv9V5iYwxXm/z4EEGTprYpwzS3tbNw0mMDRKtXzogLECAwEAAaNQME4wHQYDVR0OBBYEFKfGe7ce5aVifFTJgomSZAJGxDW2MB8GA1UdIwQYMBaAFKfGe7ce5aVifFTJgomSZAJGxDW2MAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAHnC8GQlmJ2L+l2TESlPZAu8Zm1z7qo2+PvuLzwVqH6+U/h3cu2n0jPtk5e1Fln7qx9el+XMefNtgR0psSqDmnuZd7FGaJCEnQlQem3du6Ez4ofYxiVWhoC718ZJdyRqWt1LJvu7r/yYPeoTVbfl1l5MjUGg7AK/ml3I+k/op0GSKf0dM1StzDF+9rfCR5MW3BkXsGlQWDGTyCyy+NpDQuFl/g49YHkvVYdgJeFuTETNEE0hVgJoUVPtal6Lnknce5lnsg0OY+MIR0amlrirbC+tdU9sQO+qeujMFCLqvdTR5hd7DJR+QVWzk+GFyr4WnYXGpBzSGzoMONfn/gewxZE=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://ortadiatella.halleyweb.it/spid/module.php/saml/sp/saml2-logout.php/spid"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://ortadiatella.halleyweb.it/spid/module.php/saml/sp/saml2-acs.php/spid" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://ortadiatella.halleyweb.it/spid/module.php/saml/sp/saml2-acs.php/spid" index="1"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">Servizi online</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Servizi online</md:ServiceDescription>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Codice identificativo SPID" Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Ragione o denominazione sociale" Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Orta di Atella</md:OrganizationName>
+    <md:OrganizationName xml:lang="en">Comune di Orta di Atella</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Orta di Atella</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Orta di Atella</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.comune.ortadiatella.ce.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="en">https://www.comune.ortadiatella.ce.it</md:OrganizationURL>
+  </md:Organization>
+  <md:ContactPerson contactType="other">
+    <md:Extensions>
+      <spid:IPACode>c_g130</spid:IPACode>
+      <spid:Public/>
+    </md:Extensions>
+    <md:Company>Comune di Orta di Atella</md:Company>
+    <md:EmailAddress>protocollo.ortadiatella@asmepec.it</md:EmailAddress>
+  </md:ContactPerson>
+</md:EntityDescriptor>

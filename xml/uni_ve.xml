@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" xmlns:xsi="http://www.w3.org/2001/XMLSchemainstance" ID="_9f570f221176977c8aaf62ce7cee1f40c745c72f" entityID="https://idp.iuav.it/sp/shibboleth"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>FdzUb01v+QYkv2FvpSDEeZ4H/UIgjTX8TsaKT4+/0YA=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+SEKzQs4FGcnOBMqkAOCxEcWMI2hY/0UweRwtfP5m5RrM/YPV/NKdkoakB9WH5UWXyO28Dh5EI4xJ
+Qhn0z40cix8x2kXycDl5ErvddYRzt9nBvUlc7GgQc/5gXUG7Vubh8sR+dQWC9f5HbEX1FOlaifKn
+ONOkCAGjznQNbkWXIzlT/eEf3LBAVqd4uKJfqy5czHHgYhF3OLMhDQGGXe8Gv49vKFCwpV8g0ymm
+tu92EYucZeAxqUPhPrIeLDVmN0sjyjTC6EkBGzvcz7ekJwZScPlghkFTJNZ9lJvQVmya2IzRASoA
+OwJ90VLZqJ5yqCdYytM7MGbNEcGHAW9XbAWIyA==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+2m+eo3tgoloUfcjagrSIT4bUVvkNASftN1a5blT9zr2ose1QfsOznaDaJcLggBjWthPHe6dsQqaq
+FNlbaQtpGb5tvkD7/o4JJV3V4KagfmcqnSqszKmV+QkUGDcoFGOKPjkCvZjm9f9knc+V485CLer+
+RDjki+zRTvX31y9wbKbQs60932iq3APxej+088e4S/n4npslU0QFFUMb8vMl21BX6fFMAo5CyHJC
+U9Ru98RqAhBC5tjvQ6DQ+r0mByypdOCtknq3N1lfWCYZClmd4NiYGP/+5+wmb0ZPF85b1CMJ5Vsm
+AcCw5f1fqTXo3hT3KmRsi3UBm3bWwruNAj+tDw==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDqDCCApCgAwIBAgIJAIoQB2PIwGLWMA0GCSqGSIb3DQEBCwUAMIGGMQswCQYDVQQGEwJJVDEQ
+MA4GA1UEBwwHQm9sb2duYTEPMA0GA1UECgwGQ0lORUNBMQ8wDQYDVQQDDAZDSU5FQ0ExEjAQBgNV
+BGEMCVBBOklULWNjaTEvMC0GA1UEUwwmaHR0cHM6Ly9pZHAtcHJvZC5lbmVhLml0L3NwL3NoaWJi
+b2xldGgwHhcNMjEwMzI0MTYyNzE2WhcNNDEwMzIzMTYyNzE2WjCBhjELMAkGA1UEBhMCSVQxEDAO
+BgNVBAcMB0JvbG9nbmExDzANBgNVBAoMBkNJTkVDQTEPMA0GA1UEAwwGQ0lORUNBMRIwEAYDVQRh
+DAlQQTpJVC1jY2kxLzAtBgNVBFMMJmh0dHBzOi8vaWRwLXByb2QuZW5lYS5pdC9zcC9zaGliYm9s
+ZXRoMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA2m+eo3tgoloUfcjagrSIT4bUVvkN
+ASftN1a5blT9zr2ose1QfsOznaDaJcLggBjWthPHe6dsQqaqFNlbaQtpGb5tvkD7/o4JJV3V4Kag
+fmcqnSqszKmV+QkUGDcoFGOKPjkCvZjm9f9knc+V485CLer+RDjki+zRTvX31y9wbKbQs60932iq
+3APxej+088e4S/n4npslU0QFFUMb8vMl21BX6fFMAo5CyHJCU9Ru98RqAhBC5tjvQ6DQ+r0mByyp
+dOCtknq3N1lfWCYZClmd4NiYGP/+5+wmb0ZPF85b1CMJ5VsmAcCw5f1fqTXo3hT3KmRsi3UBm3bW
+wruNAj+tDwIDAQABoxcwFTATBgNVHSAEDDAKMAgGBitMEAQCATANBgkqhkiG9w0BAQsFAAOCAQEA
+uAxpSPvGYEBUJ2lDN0UTV+uTRRGCyoiTUYKatCn9c1zXIxlzRtgQe6NB5ntZvsv6rMuD6l/RlO1i
+uAQt5JDdDbOeAovp0J4Cm8mRqXljbph6oCdv+u8GcnnQDlFXNQrYmrQdbR50uwDB7k+FBrxVbjDW
+d5g+thU265IuKBzal3QHBOZIZVWPtKEg+YrNOQe1R69K8KEvk/A1U0GGUKwJT7ci4YJodUTqQqYz
+BClkhnUYkJ325vTkEMECFDCRbrdT+tpNgLdYNeGllOCi3W4lpGh8CC0LipC4ukjRnw9OBsZqy8Rc
+RKES8BaYNf2CVyuCC5MSpXlLoAPz/r63GLv+kA==
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+
+        <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+
+                <md:KeyDescriptor use="signing">
+                        <ds:KeyInfo>
+                                <ds:KeyName>idp.iuav.it-oldkey</ds:KeyName>
+                                <ds:X509Data>
+                                        <ds:X509Certificate>
+MIIDCTCCAfGgAwIBAgIJAKNZvvWNSXo1MA0GCSqGSIb3DQEBCwUAMBsxGTAXBgNV
+BAMMEHNwaWRHVy1pdWF2LXByb2QwHhcNMTgwNTE0MTAxODQzWhcNMzgwNTEzMTAx
+ODQzWjAbMRkwFwYDVQQDDBBzcGlkR1ctaXVhdi1wcm9kMIIBIjANBgkqhkiG9w0B
+AQEFAAOCAQ8AMIIBCgKCAQEAstEUe7UYmtX0QUv4fsJmgJ6cFPpge8MmPzNbURvD
+3ryIxdrN8Ndmoe54frV1fXGrOAPSA/gxYrJsMuyKY1L33myLeXp3EKJrk3B6Q6y6
+SB0bdwajLSzQeqgB/Di6+r1zgTZd+IfHwXpbKCQ/tJeBPbedP5IPisvoJlRFkTpp
+VsfNpMKXMbOBKG+jCt/GoTf3SIvMf3D3AXyhItDnlIA2Lfy+m07EX9ifMPqBJhAr
+J33HQgOJxUXRpaly7ULlyf45WYq0Bjn/oKX2melxUoEJ7pTznca1G3mf4ZSfr07D
+JmjrQ9nq9E8onybbVaVgXVyy5LelFaLTGJHslFQ3DQnVrQIDAQABo1AwTjAdBgNV
+HQ4EFgQUuaW9Yi3LzBRCwq/cy3a25LNCch4wHwYDVR0jBBgwFoAUuaW9Yi3LzBRC
+wq/cy3a25LNCch4wDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAZDDH
+GoaRT2Hv6f7rNXkieqcByXqFc4mlRT1Ey9vqxKv7mDKjVMmyEIguX81UpEspBzVK
+MbTPNxZd4d9Jb5F0PiFbkIVmjTkgp+edKg46qFGm3YG/BtVTH5ult4Vc7aEuL8R6
+vV5BaJICWCFDTNGpzGMFaLm7bLUXWZRxy47Gef4Gacx3NBpn76E+kyx/SBUj8H+s
+5nMklChL97Rk/ZRMJgTAeXbQ/MOB9gPKe5utulTzAjeAXFztgYkDG4jTRtZYTJJP
+Kh5sKnrTT080v7BEtgLD+EPNiZtFT0neAf42Dduy7rO2blC4clOdAacjJELkAF0q
+Wpzdb0Hmw0L1hG0vTA==
+                                        </ds:X509Certificate>
+                                </ds:X509Data>
+                        </ds:KeyInfo>
+                </md:KeyDescriptor>
+
+                <md:KeyDescriptor use="signing">
+                        <ds:KeyInfo>
+                                <ds:KeyName>idp.iuav.it</ds:KeyName>
+                                <ds:X509Data>
+                                        <ds:X509Certificate>
+MIID2TCCAsGgAwIBAgIUS8/NqiM2h9dyk0+ymfu8ky22RiIwDQYJKoZIhvcNAQEL
+BQAwgZkxCzAJBgNVBAYTAklUMRAwDgYDVQQHDAdWZW5lemlhMSYwJAYDVQQKDB1V
+bml2ZXJzaXTDg8KgIElVQVYgZGkgVmVuZXppYTENMAsGA1UEAwwESVVBVjEVMBMG
+A1UEYQwMUEE6SVQtdW5pX3ZlMSowKAYDVQRTDCFodHRwczovL2lkcC5pdWF2Lml0
+L3NwL3NoaWJib2xldGgwHhcNMjMxMjE2MDEyODUyWhcNNDMxMjE1MDEyODUyWjCB
+mTELMAkGA1UEBhMCSVQxEDAOBgNVBAcMB1ZlbmV6aWExJjAkBgNVBAoMHVVuaXZl
+cnNpdMODwqAgSVVBViBkaSBWZW5lemlhMQ0wCwYDVQQDDARJVUFWMRUwEwYDVQRh
+DAxQQTpJVC11bmlfdmUxKjAoBgNVBFMMIWh0dHBzOi8vaWRwLml1YXYuaXQvc3Av
+c2hpYmJvbGV0aDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAOhe4srD
+WHrLCfbvjBVjcR9VYqdvWBUWgjRI78/DGUNAHAwrJ6H39PdXNHRmhLia/ml8Gi9d
+uiKL0mXtm3ko56BVjxpYhdKmc4B/fDYjqrXBzrjR5O/b0wORcX6as5e8MMBkzjz3
+QtiaWZECzCXocYWFdpAXgd4owBzVXU+l73AFNNu+qsklVz5oFCwS69K66GKwnIqa
+hs5DfiFNJoMVML9BGbQcOkoMWpyzwSXGAlnHZxUpRApBwmGz95JYhrgCJBNpTgGz
+O7UBKBgsluWa+eYPX+yyyz5fVV9gu3wTRpEoMnY/2MkEKB47E727QEIH43K5Nqvy
+q3cHdKa58ycJDtECAwEAAaMXMBUwEwYDVR0gBAwwCjAIBgYrTBAEAgEwDQYJKoZI
+hvcNAQELBQADggEBAH5QX3evt8v+l4cLQSQ8h0PwZMZLmCl3cgLOHzY46ft03HC2
+BPaD0/kt7kCM9BsS1E1UCIcwkJAlZIbTHsGcmzEeCJCaWozWpG5TPCH0VTBLVFQC
+BygPW+XHEHt5s0KkrdXLa6gxLGUZeIgVhFy5gSDgbQC84RT1zxJiC0oTOJgrq/sZ
+XP5MjBUcHf8sBemrje95t/QBRe3AuaAC1zkzVgc5JFLZ10N8ezNQz5yYcLOvPHu3
+JtrcDW8+W5Xagn0/zZzr3udY10y14niLAK6SBcPmG3YXuOTCM9207HiMWy7eATsG
+eESnKlp6+JD5K2EZE+sgJMyHiEel0vAkjcD7IYo=
+                                        </ds:X509Certificate>
+                                </ds:X509Data>
+                        </ds:KeyInfo>
+                </md:KeyDescriptor>
+
+                <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://idptest.iuav.it/Shibboleth.sso/SLO/POST"/>
+                <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://idptest.iuav.it/Shibboleth.sso/SLO/Redirect"/>
+
+                <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://idp.iuav.it/Shibboleth.sso/SLO/POST"/>
+                <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://idp.iuav.it/Shibboleth.sso/SLO/Redirect"/>
+    
+                <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+  
+                <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://idp.iuav.it/Shibboleth.sso/SAML2/POST" index="0" isDefault="true"/>
+                <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://idptest.iuav.it/Shibboleth.sso/SAML2/POST" index="1"/>
+
+
+                <md:AttributeConsumingService index="1">
+                        <md:ServiceName xml:lang="it">IUAV SPID - Login</md:ServiceName>
+                        <md:RequestedAttribute Name="name"/>
+                        <md:RequestedAttribute Name="familyName"/>
+                        <md:RequestedAttribute Name="fiscalNumber"/>
+                        <md:RequestedAttribute Name="spidCode"/>
+                </md:AttributeConsumingService>
+
+                <md:AttributeConsumingService index="2">
+                        <md:ServiceName xml:lang="it">IUAV SPID - Intermediate set</md:ServiceName>
+                        <md:RequestedAttribute Name="name"/>
+                        <md:RequestedAttribute Name="familyName"/>
+                        <md:RequestedAttribute Name="fiscalNumber"/>
+                        <md:RequestedAttribute Name="spidCode"/>
+                        <md:RequestedAttribute Name="email"/>
+                </md:AttributeConsumingService>
+
+                <md:AttributeConsumingService index="3">
+                        <md:ServiceName xml:lang="it">IUAV SPID - Registrazione</md:ServiceName>
+                        <md:RequestedAttribute Name="name"/>
+                        <md:RequestedAttribute Name="familyName"/>
+                        <md:RequestedAttribute Name="fiscalNumber"/>
+                        <md:RequestedAttribute Name="spidCode"/>
+                        <md:RequestedAttribute Name="placeOfBirth"/>
+                        <md:RequestedAttribute Name="dateOfBirth"/>				
+                        <md:RequestedAttribute Name="gender"/>
+                        <md:RequestedAttribute Name="idCard"/>
+                        <md:RequestedAttribute Name="mobilePhone"/>
+                        <md:RequestedAttribute Name="email"/>
+                        <md:RequestedAttribute Name="address"/>
+                </md:AttributeConsumingService>
+
+                <md:AttributeConsumingService index="99">
+                        <md:ServiceName xml:lang="it">eIDAS Natural Person Minimum Attribute Set</md:ServiceName>
+                        <md:RequestedAttribute Name="spidCode"/>
+                        <md:RequestedAttribute Name="name"/>
+                        <md:RequestedAttribute Name="familyName"/>
+                        <md:RequestedAttribute Name="dateOfBirth"/>
+                </md:AttributeConsumingService>
+ 
+                <md:AttributeConsumingService index="100">
+                        <md:ServiceName xml:lang="it">eIDAS Natural Person Full Attribute Set</md:ServiceName>
+                        <md:RequestedAttribute Name="spidCode"/>
+                        <md:RequestedAttribute Name="name"/>
+                        <md:RequestedAttribute Name="familyName"/>
+                        <md:RequestedAttribute Name="dateOfBirth"/>
+                        <md:RequestedAttribute Name="placeOfBirth"/>
+                        <md:RequestedAttribute Name="address"/>
+                        <md:RequestedAttribute Name="gender"/>
+                </md:AttributeConsumingService>
+
+        </md:SPSSODescriptor>
+  
+        <md:Organization>
+                <md:OrganizationName xml:lang="it">Università IUAV di Venezia</md:OrganizationName>
+                <md:OrganizationDisplayName xml:lang="it">IUAV</md:OrganizationDisplayName>
+                <md:OrganizationURL xml:lang="it">www.iuav.it</md:OrganizationURL>
+        </md:Organization>
+
+        <md:ContactPerson contactType="other"> 
+                <md:Extensions> 
+                        <spid:IPACode>uni_ve</spid:IPACode> 
+                        <spid:Public/> 
+                </md:Extensions> 
+                <md:EmailAddress>helpdesk@iuav.it</md:EmailAddress> 
+                <md:TelephoneNumber>+390412571200</md:TelephoneNumber> 
+        </md:ContactPerson> 
+
+</md:EntityDescriptor>
