@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:spid="https://spid.gov.it/saml-extensions" ID="_c0io45c1j6ulfn34teba4vzrw0ju8ui1xrpnuiznwbd" cacheDuration="PT604800S" entityID="https://www.comune.gallicchio.pz.it"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#_c0io45c1j6ulfn34teba4vzrw0ju8ui1xrpnuiznwbd">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>EbpflH9LGVoyKPLjiAspPvCn9WHkeKw3yXQ+Krwounk=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+Xafa/lmKJtVEtWeeTEcz2Ip/MId1kGtuZ4WqXUz4M0295xma/LJR3htDkpaf+654PwuvdFatrlfq
+wr6WJMrrEPItYcasui3bDRObmtYjjiU6bn1OyD3oHtxSjDXaX9uXgwqInio9F6pppNmN8XwKJL68
+hpwY0zL6SFqfTInCeO3ICtCvGRnJKTmZvIWkf3K+S3HccacpMLJt5b3M6SyJEDkpTmCsxVz1+mqd
+7tnZlSQjoaX8jQNNCbI8vBwipt8t+iyVBNjbkAD+s88QeiarxrO6wIGTzmL8kvxg7VxRI9t07jBA
+zZjOIMgWWyJlqxQExVtRWtRixR8lMi40d4TmuIUUstSVZlfkQA5wU9FK/4K3pdEjeyOEaauRpRzE
+4lA+026q2SWG8/rGZt2hK9FggFK+0eO4470UyzfDd4WUr7l+w1sFi5Hybvo46tzzT2AjUmQQPQKk
+PqctNGTJKsRU3cj5PekTiMZIUHJtieiFPZOmJ+Qy+8Hd9QXLYpuKxqxxLT/sx1+BoeI0NewvpL7B
+Mo1eQU7KFXPhY/1QZ4MJWhJbkoDqoLGJWuzkvUbrMBR9TLSGxnV6CDwr1Yv+a8dwRddSRmxYrkjp
+kgGVFghnD8jqd7qUjORlnm0iUSyZriuCNGiIUkDhYaVdiOZoiyy7LEKq8Yyjot4AYUgz5bD17ck=
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+3K0GFeQeBTxpOWE+tWejbR11djLYoI540tHIIxYSdvF5yctQakQh1YPGRFVzHGiafs5LLq/ezojE
+f+swGZ2ZZJBhcjdOg1njYDzp6kHNJohizUptaI6WIEDc0rmEmb0IKzl1I/kPaxdZKX9rW1K6dF8d
+QJ9DMNs9wNP3RaKUBRMqh62voHrlDe/09iK2EyFdY+ylDmJXXURvaudtp9SNKOk7oP6phv6czQIH
+NGaqDxT1WYKJYruDpej+MRxHBcT5syqasWRzDRRQp8lnT2m4KtRXpV+j01IeFrQcqzRovZ3yHp1i
+t4t3+LD/V2njQNREoy8iWd3nVPCZLBZ3DAuyCVFZchufuvCnQq2JiIYd3eY0EvFL2tPiZ1yomNOM
+cU0z122PqM87lR/WqbX5C2CCT+v+KeMQPr1v/Yfh2n/E1lv9nebyx0KdOc06WeTjkEEvr+8Zwhuv
+fbW1uL4k4J9G1GMjUdN/o2TtD8c04r9z/1DLQmo9prxSuTrusCwryPTcnGyDdw9R9JcvCfktBlx+
+cwVOtt+PuyXBQ9+eztR+tp58Ub+0THMcTjaw2P6USj8IkmCRMgvLY3yt4EbOdR83xPvdnwId7azL
+lz6RlIcnKhqir+Xjem17VpX8dpDer9E1Fp1STC5dZYwTKJC/ak33uYPjmfaTiNrA9Fn4lPRoug0=
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIGODCCBCCgAwIBAgIJAJWR9xkd7gY7MA0GCSqGSIb3DQEBCwUAMIGwMQswCQYDVQQGEwJJVDEQ
+MA4GA1UECAwHUG90ZW56YTETMBEGA1UEBwwKR2FsbGljY2hpbzEdMBsGA1UECgwUQ29tdW5lIGRp
+IEdhbGxpY2NoaW8xDTALBgNVBAsMBFNwaWQxGDAWBgNVBAMMD3NwaWQtZ2FsbGljY2hpbzEyMDAG
+CSqGSIb3DQEJARYjY29tdW5lZ2FsbGljY2hpb0ByZXRlLmJhc2lsaWNhdGEuaXQwHhcNMjQwMjA4
+MTcyMzQ0WhcNMzQwMjA1MTcyMzQ0WjCBsDELMAkGA1UEBhMCSVQxEDAOBgNVBAgMB1BvdGVuemEx
+EzARBgNVBAcMCkdhbGxpY2NoaW8xHTAbBgNVBAoMFENvbXVuZSBkaSBHYWxsaWNjaGlvMQ0wCwYD
+VQQLDARTcGlkMRgwFgYDVQQDDA9zcGlkLWdhbGxpY2NoaW8xMjAwBgkqhkiG9w0BCQEWI2NvbXVu
+ZWdhbGxpY2NoaW9AcmV0ZS5iYXNpbGljYXRhLml0MIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIIC
+CgKCAgEA3K0GFeQeBTxpOWE+tWejbR11djLYoI540tHIIxYSdvF5yctQakQh1YPGRFVzHGiafs5L
+Lq/ezojEf+swGZ2ZZJBhcjdOg1njYDzp6kHNJohizUptaI6WIEDc0rmEmb0IKzl1I/kPaxdZKX9r
+W1K6dF8dQJ9DMNs9wNP3RaKUBRMqh62voHrlDe/09iK2EyFdY+ylDmJXXURvaudtp9SNKOk7oP6p
+hv6czQIHNGaqDxT1WYKJYruDpej+MRxHBcT5syqasWRzDRRQp8lnT2m4KtRXpV+j01IeFrQcqzRo
+vZ3yHp1it4t3+LD/V2njQNREoy8iWd3nVPCZLBZ3DAuyCVFZchufuvCnQq2JiIYd3eY0EvFL2tPi
+Z1yomNOMcU0z122PqM87lR/WqbX5C2CCT+v+KeMQPr1v/Yfh2n/E1lv9nebyx0KdOc06WeTjkEEv
+r+8ZwhuvfbW1uL4k4J9G1GMjUdN/o2TtD8c04r9z/1DLQmo9prxSuTrusCwryPTcnGyDdw9R9Jcv
+CfktBlx+cwVOtt+PuyXBQ9+eztR+tp58Ub+0THMcTjaw2P6USj8IkmCRMgvLY3yt4EbOdR83xPvd
+nwId7azLlz6RlIcnKhqir+Xjem17VpX8dpDer9E1Fp1STC5dZYwTKJC/ak33uYPjmfaTiNrA9Fn4
+lPRoug0CAwEAAaNTMFEwHQYDVR0OBBYEFBUaTGMupIpM6j9TiWlBf2a0fMrkMB8GA1UdIwQYMBaA
+FBUaTGMupIpM6j9TiWlBf2a0fMrkMA8GA1UdEwEB/wQFMAMBAf8wDQYJKoZIhvcNAQELBQADggIB
+ANOprL/cFhlwxEtwHXH/yaoVpK8vD5HORoMs0PImR9oDqQDCXxzttAd+6t6R/JPaCNw/XugITHYc
+mt407yLRabUn0dYbHhdntNQbtP+T1A0Kd4egKljSm6+vRaPWSB4DSiEsHFNm7jpMusa+Rh8GizWU
+aiiRxWSgOt8oS47PAEZIJ6xW2VFXovRhwdUlBAGKAGarPFV/RVIVpPILqgfxJ1HkRPjjCrtUcbkM
+FkA5u5LOzI8dRExz9zI+1AwTHbXJDIBLfpL80wV1xpenIFS+PA9mRd/kwsXCrAGETXw/wZliyaU0
+H/7ZmCBfH7X57yIIHKhOyPyocCewPwiQiCaRwF0gy4v5NlopPuDxkNOOYtdLJoZkEpZYSMwpkQO1
+ZtCZBZ0Q2ifANQve8AKlJQDfwxFlEUgxZ/PCQ9Wni+F9JGs94fnRpzRCRCMHib7HqrYb0SOcIfeT
+dAzJXjzNI9CWx/oleAzJBKjAsG0LLU85C/vnomJrBc2rHIyqOA085UTysyU9ctkoauUri6REyGRk
+ThqSpr7galXPkLZZwLxIepLp0j04wBQKGub4GAhmAAhCb4BEILokv8inwAqDUyYdQXHEoMqUFPKZ
+THV6zZ0FyvLVKE/E6+lcKkymCGVyF8j5iK5fI59NW6qF8nwGgQi6Q8fYYGtCh2F1Cfo9mk6Tbkrt
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIGODCCBCCgAwIBAgIJAJWR9xkd7gY7MA0GCSqGSIb3DQEBCwUAMIGwMQswCQYD
+VQQGEwJJVDEQMA4GA1UECAwHUG90ZW56YTETMBEGA1UEBwwKR2FsbGljY2hpbzEd
+MBsGA1UECgwUQ29tdW5lIGRpIEdhbGxpY2NoaW8xDTALBgNVBAsMBFNwaWQxGDAW
+BgNVBAMMD3NwaWQtZ2FsbGljY2hpbzEyMDAGCSqGSIb3DQEJARYjY29tdW5lZ2Fs
+bGljY2hpb0ByZXRlLmJhc2lsaWNhdGEuaXQwHhcNMjQwMjA4MTcyMzQ0WhcNMzQw
+MjA1MTcyMzQ0WjCBsDELMAkGA1UEBhMCSVQxEDAOBgNVBAgMB1BvdGVuemExEzAR
+BgNVBAcMCkdhbGxpY2NoaW8xHTAbBgNVBAoMFENvbXVuZSBkaSBHYWxsaWNjaGlv
+MQ0wCwYDVQQLDARTcGlkMRgwFgYDVQQDDA9zcGlkLWdhbGxpY2NoaW8xMjAwBgkq
+hkiG9w0BCQEWI2NvbXVuZWdhbGxpY2NoaW9AcmV0ZS5iYXNpbGljYXRhLml0MIIC
+IjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEA3K0GFeQeBTxpOWE+tWejbR11
+djLYoI540tHIIxYSdvF5yctQakQh1YPGRFVzHGiafs5LLq/ezojEf+swGZ2ZZJBh
+cjdOg1njYDzp6kHNJohizUptaI6WIEDc0rmEmb0IKzl1I/kPaxdZKX9rW1K6dF8d
+QJ9DMNs9wNP3RaKUBRMqh62voHrlDe/09iK2EyFdY+ylDmJXXURvaudtp9SNKOk7
+oP6phv6czQIHNGaqDxT1WYKJYruDpej+MRxHBcT5syqasWRzDRRQp8lnT2m4KtRX
+pV+j01IeFrQcqzRovZ3yHp1it4t3+LD/V2njQNREoy8iWd3nVPCZLBZ3DAuyCVFZ
+chufuvCnQq2JiIYd3eY0EvFL2tPiZ1yomNOMcU0z122PqM87lR/WqbX5C2CCT+v+
+KeMQPr1v/Yfh2n/E1lv9nebyx0KdOc06WeTjkEEvr+8ZwhuvfbW1uL4k4J9G1GMj
+UdN/o2TtD8c04r9z/1DLQmo9prxSuTrusCwryPTcnGyDdw9R9JcvCfktBlx+cwVO
+tt+PuyXBQ9+eztR+tp58Ub+0THMcTjaw2P6USj8IkmCRMgvLY3yt4EbOdR83xPvd
+nwId7azLlz6RlIcnKhqir+Xjem17VpX8dpDer9E1Fp1STC5dZYwTKJC/ak33uYPj
+mfaTiNrA9Fn4lPRoug0CAwEAAaNTMFEwHQYDVR0OBBYEFBUaTGMupIpM6j9TiWlB
+f2a0fMrkMB8GA1UdIwQYMBaAFBUaTGMupIpM6j9TiWlBf2a0fMrkMA8GA1UdEwEB
+/wQFMAMBAf8wDQYJKoZIhvcNAQELBQADggIBANOprL/cFhlwxEtwHXH/yaoVpK8v
+D5HORoMs0PImR9oDqQDCXxzttAd+6t6R/JPaCNw/XugITHYcmt407yLRabUn0dYb
+HhdntNQbtP+T1A0Kd4egKljSm6+vRaPWSB4DSiEsHFNm7jpMusa+Rh8GizWUaiiR
+xWSgOt8oS47PAEZIJ6xW2VFXovRhwdUlBAGKAGarPFV/RVIVpPILqgfxJ1HkRPjj
+CrtUcbkMFkA5u5LOzI8dRExz9zI+1AwTHbXJDIBLfpL80wV1xpenIFS+PA9mRd/k
+wsXCrAGETXw/wZliyaU0H/7ZmCBfH7X57yIIHKhOyPyocCewPwiQiCaRwF0gy4v5
+NlopPuDxkNOOYtdLJoZkEpZYSMwpkQO1ZtCZBZ0Q2ifANQve8AKlJQDfwxFlEUgx
+Z/PCQ9Wni+F9JGs94fnRpzRCRCMHib7HqrYb0SOcIfeTdAzJXjzNI9CWx/oleAzJ
+BKjAsG0LLU85C/vnomJrBc2rHIyqOA085UTysyU9ctkoauUri6REyGRkThqSpr7g
+alXPkLZZwLxIepLp0j04wBQKGub4GAhmAAhCb4BEILokv8inwAqDUyYdQXHEoMqU
+FPKZTHV6zZ0FyvLVKE/E6+lcKkymCGVyF8j5iK5fI59NW6qF8nwGgQi6Q8fYYGtC
+h2F1Cfo9mk6Tbkrt</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIGODCCBCCgAwIBAgIJAJWR9xkd7gY7MA0GCSqGSIb3DQEBCwUAMIGwMQswCQYD
+VQQGEwJJVDEQMA4GA1UECAwHUG90ZW56YTETMBEGA1UEBwwKR2FsbGljY2hpbzEd
+MBsGA1UECgwUQ29tdW5lIGRpIEdhbGxpY2NoaW8xDTALBgNVBAsMBFNwaWQxGDAW
+BgNVBAMMD3NwaWQtZ2FsbGljY2hpbzEyMDAGCSqGSIb3DQEJARYjY29tdW5lZ2Fs
+bGljY2hpb0ByZXRlLmJhc2lsaWNhdGEuaXQwHhcNMjQwMjA4MTcyMzQ0WhcNMzQw
+MjA1MTcyMzQ0WjCBsDELMAkGA1UEBhMCSVQxEDAOBgNVBAgMB1BvdGVuemExEzAR
+BgNVBAcMCkdhbGxpY2NoaW8xHTAbBgNVBAoMFENvbXVuZSBkaSBHYWxsaWNjaGlv
+MQ0wCwYDVQQLDARTcGlkMRgwFgYDVQQDDA9zcGlkLWdhbGxpY2NoaW8xMjAwBgkq
+hkiG9w0BCQEWI2NvbXVuZWdhbGxpY2NoaW9AcmV0ZS5iYXNpbGljYXRhLml0MIIC
+IjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEA3K0GFeQeBTxpOWE+tWejbR11
+djLYoI540tHIIxYSdvF5yctQakQh1YPGRFVzHGiafs5LLq/ezojEf+swGZ2ZZJBh
+cjdOg1njYDzp6kHNJohizUptaI6WIEDc0rmEmb0IKzl1I/kPaxdZKX9rW1K6dF8d
+QJ9DMNs9wNP3RaKUBRMqh62voHrlDe/09iK2EyFdY+ylDmJXXURvaudtp9SNKOk7
+oP6phv6czQIHNGaqDxT1WYKJYruDpej+MRxHBcT5syqasWRzDRRQp8lnT2m4KtRX
+pV+j01IeFrQcqzRovZ3yHp1it4t3+LD/V2njQNREoy8iWd3nVPCZLBZ3DAuyCVFZ
+chufuvCnQq2JiIYd3eY0EvFL2tPiZ1yomNOMcU0z122PqM87lR/WqbX5C2CCT+v+
+KeMQPr1v/Yfh2n/E1lv9nebyx0KdOc06WeTjkEEvr+8ZwhuvfbW1uL4k4J9G1GMj
+UdN/o2TtD8c04r9z/1DLQmo9prxSuTrusCwryPTcnGyDdw9R9JcvCfktBlx+cwVO
+tt+PuyXBQ9+eztR+tp58Ub+0THMcTjaw2P6USj8IkmCRMgvLY3yt4EbOdR83xPvd
+nwId7azLlz6RlIcnKhqir+Xjem17VpX8dpDer9E1Fp1STC5dZYwTKJC/ak33uYPj
+mfaTiNrA9Fn4lPRoug0CAwEAAaNTMFEwHQYDVR0OBBYEFBUaTGMupIpM6j9TiWlB
+f2a0fMrkMB8GA1UdIwQYMBaAFBUaTGMupIpM6j9TiWlBf2a0fMrkMA8GA1UdEwEB
+/wQFMAMBAf8wDQYJKoZIhvcNAQELBQADggIBANOprL/cFhlwxEtwHXH/yaoVpK8v
+D5HORoMs0PImR9oDqQDCXxzttAd+6t6R/JPaCNw/XugITHYcmt407yLRabUn0dYb
+HhdntNQbtP+T1A0Kd4egKljSm6+vRaPWSB4DSiEsHFNm7jpMusa+Rh8GizWUaiiR
+xWSgOt8oS47PAEZIJ6xW2VFXovRhwdUlBAGKAGarPFV/RVIVpPILqgfxJ1HkRPjj
+CrtUcbkMFkA5u5LOzI8dRExz9zI+1AwTHbXJDIBLfpL80wV1xpenIFS+PA9mRd/k
+wsXCrAGETXw/wZliyaU0H/7ZmCBfH7X57yIIHKhOyPyocCewPwiQiCaRwF0gy4v5
+NlopPuDxkNOOYtdLJoZkEpZYSMwpkQO1ZtCZBZ0Q2ifANQve8AKlJQDfwxFlEUgx
+Z/PCQ9Wni+F9JGs94fnRpzRCRCMHib7HqrYb0SOcIfeTdAzJXjzNI9CWx/oleAzJ
+BKjAsG0LLU85C/vnomJrBc2rHIyqOA085UTysyU9ctkoauUri6REyGRkThqSpr7g
+alXPkLZZwLxIepLp0j04wBQKGub4GAhmAAhCb4BEILokv8inwAqDUyYdQXHEoMqU
+FPKZTHV6zZ0FyvLVKE/E6+lcKkymCGVyF8j5iK5fI59NW6qF8nwGgQi6Q8fYYGtC
+h2F1Cfo9mk6Tbkrt</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.comune.gallicchio.pz.it/api/logout"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.comune.gallicchio.pz.it/api/acs" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://servizi.comune.gallicchio.pz.it/api/acs" index="1"/>
+	    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://gallicchio.wemapp.eu/api/acs" index="2"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sudegallicchio.paesit.it/api/acs" index="3"/>
+            <md:AttributeConsumingService index="0"> 
+                <md:ServiceName xml:lang="it">Comune di Gallicchio</md:ServiceName> 
+                <md:ServiceDescription xml:lang="it">Servizio SPID di Wemapp</md:ServiceDescription> 
+                <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="address" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="expirationDate" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="idCard" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="registeredOffice" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="digitalAddress" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+        </md:AttributeConsumingService> 
+            <md:AttributeConsumingService index="1"> 
+                <md:ServiceName xml:lang="it">Comune di Gallicchio</md:ServiceName> 
+                <md:ServiceDescription xml:lang="it">Servizio SPID di Wemapp</md:ServiceDescription> 
+                <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="address" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="expirationDate" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="idCard" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="registeredOffice" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="digitalAddress" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+        </md:AttributeConsumingService>
+		            <md:AttributeConsumingService index="2"> 
+                <md:ServiceName xml:lang="it">Comune di Gallicchio</md:ServiceName> 
+                <md:ServiceDescription xml:lang="it">Servizio SPID di Wemapp</md:ServiceDescription> 
+                <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="address" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="expirationDate" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="idCard" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="registeredOffice" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="digitalAddress" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+        </md:AttributeConsumingService>
+                    <md:AttributeConsumingService index="3"> 
+	                <md:ServiceName xml:lang="it">Sportello unico per l'edilizia</md:ServiceName> 
+	                <md:ServiceDescription xml:lang="it">Servizio SPID di Paesit</md:ServiceDescription> 
+	                <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+	                <md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+	                <md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+	                <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+	                <md:RequestedAttribute Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+	                <md:RequestedAttribute Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+	                <md:RequestedAttribute Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+	                <md:RequestedAttribute Name="address" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+	                <md:RequestedAttribute Name="expirationDate" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+	                <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+	                <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+	                <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+	                <md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+	                <md:RequestedAttribute Name="idCard" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+	                <md:RequestedAttribute Name="registeredOffice" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+	                <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+	                <md:RequestedAttribute Name="digitalAddress" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+        </md:AttributeConsumingService> 
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Gallicchio</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Gallicchio</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.comune.gallicchio.pz.it</md:OrganizationURL>
+  </md:Organization>
+  
+<md:ContactPerson contactType="other"> 
+<md:Extensions> 
+<spid:IPACode>c_d876</spid:IPACode> 
+<spid:Public/>  
+</md:Extensions> 
+<md:Company>Comune di Gallicchio</md:Company> 
+<md:EmailAddress>protocollocomunegallicchio@pec.it</md:EmailAddress> 
+<md:TelephoneNumber>+390971752388</md:TelephoneNumber> 
+</md:ContactPerson> 
+</md:EntityDescriptor>
