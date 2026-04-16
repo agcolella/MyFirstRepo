@@ -1,0 +1,532 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" ID="_cef5cf954909ddb717f2f698f48c32158012c2060a525536da5c69c4acf73c2f" entityID="https://sportellotelematico.comune.bottanuco.bg.it/">
+    <ds:Signature>
+        
+
+        <ds:SignedInfo>
+            
+
+            <ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+            
+
+            <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+            
+
+            <ds:Reference URI="#_cef5cf954909ddb717f2f698f48c32158012c2060a525536da5c69c4acf73c2f">
+                
+
+                <ds:Transforms>
+                    
+
+                    <ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+                    
+
+                    <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+                    
+
+                </ds:Transforms>
+                
+
+                <ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+                
+
+                <ds:DigestValue>
+                    EYCIdQ4oVmf9g6mJvtOIzc4BWCzx9qAfaa9y5yXn2FM=
+                </ds:DigestValue>
+                
+
+            </ds:Reference>
+            
+
+        </ds:SignedInfo>
+        
+
+        <ds:SignatureValue>
+            
+e0D/V5Z9+6J7NYC7Ufi1zsSLVquEZtU3Zp5Uutc3NpEFkJ0HtR2MBxPBNaTg6RStjzz0NDgNGOD+
+Ze+wTX73sdbbHK4sJNHtNV3qE+DCFRlKIiF1oBhVheSUZZQyJTjZxRba5MJKXQ9D/sDGqVMuDbze
+WpsVkCbn7VXNfwxRvLQqew1rGVI5OLauLPO2kAmdiowSy1K6XPSP0E31aiLJABVR1OT5Hhnz7XZv
+rXvCD20dHyMET+5lI6zvjWz2QwcEAduvmfLHqFElLBCD/Pt9BLfQvl0j1EpYkFRB4Pe3w7p34T3I
+3o/VkDgmpqgQ/CdkW6zbFfQnp63tRrGcZN2gTA==
+
+        </ds:SignatureValue>
+        
+
+        <ds:KeyInfo>
+            
+
+            <ds:KeyValue>
+                
+
+                <ds:RSAKeyValue>
+                    
+
+                    <ds:Modulus>
+                        
+3e9mzTDv5rIx8c9UHOgflAMPVFTaZDpAYCsti7X0+dqteWXYvYn2E8t0hO2+s/YbCwY7suBN+buG
+4ad6Ms757MGrM4aCYZWU0FYVyPLjyDnwifpGCTG7HvewHDpf+Kpekm6l6kuriu5ubrTkSQ3VxIRz
+W9AdnkgIP4SimRBgZIQla1YTy9zsvitdKGy5pSEDxqZwDFSy4IXdrnSwq5kvgDEWuvsduoquMQ2/
+Rc6adQfiPr7r81BtJaBBOo0u/z1OGEQOkppEjZ/YkZZ1Z0xnY9YBI4vQjeCKdt0ab6APE7vp8xxn
+FpE5UVMXEVG3U/S/nlzYHNG9WFBQkVvC5NxRjw==
+
+                    </ds:Modulus>
+                    
+
+                    <ds:Exponent>
+                        AQAB
+                    </ds:Exponent>
+                    
+
+                </ds:RSAKeyValue>
+                
+
+            </ds:KeyValue>
+            
+
+            <ds:X509Data>
+                
+
+                <ds:X509Certificate>
+                    
+MIIDszCCApugAwIBAgIJAKSO8xN0ExaPMA0GCSqGSIb3DQEBCwUAMHAxCzAJBgNVBAYTAklUMQ4w
+DAYDVQQIDAVJdGFseTESMBAGA1UEBwwJQm90dGFudWNvMRwwGgYDVQQKDBNDb211bmUgZGkgQm90
+dGFudWNvMR8wHQYDVQQDDBZib3R0YW51Y28uaGFsbGV5d2ViLml0MB4XDTIxMTExNzE4MjI1M1oX
+DTMxMTExNzE4MjI1M1owcDELMAkGA1UEBhMCSVQxDjAMBgNVBAgMBUl0YWx5MRIwEAYDVQQHDAlC
+b3R0YW51Y28xHDAaBgNVBAoME0NvbXVuZSBkaSBCb3R0YW51Y28xHzAdBgNVBAMMFmJvdHRhbnVj
+by5oYWxsZXl3ZWIuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDd72bNMO/msjHx
+z1Qc6B+UAw9UVNpkOkBgKy2LtfT52q15Zdi9ifYTy3SE7b6z9hsLBjuy4E35u4bhp3oyzvnswasz
+hoJhlZTQVhXI8uPIOfCJ+kYJMbse97AcOl/4ql6SbqXqS6uK7m5utORJDdXEhHNb0B2eSAg/hKKZ
+EGBkhCVrVhPL3Oy+K10obLmlIQPGpnAMVLLghd2udLCrmS+AMRa6+x26iq4xDb9Fzpp1B+I+vuvz
+UG0loEE6jS7/PU4YRA6SmkSNn9iRlnVnTGdj1gEji9CN4Ip23RpvoA8Tu+nzHGcWkTlRUxcRUbdT
+9L+eXNgc0b1YUFCRW8Lk3FGPAgMBAAGjUDBOMB0GA1UdDgQWBBTE89T6Ik8IMawyL3LyX65dguUq
+IzAfBgNVHSMEGDAWgBTE89T6Ik8IMawyL3LyX65dguUqIzAMBgNVHRMEBTADAQH/MA0GCSqGSIb3
+DQEBCwUAA4IBAQDAUGqGX8OuHUyEnluJIqmoYjZtA2S9LfOSjutOQsCkeeIGFZJxcSz7ptYu3dT2
+oHxodhEBB/E471WiiUciYRUhiYNsoMiTkemFe+SBoow4j6f2CXwnIFK/qSQR25CIO0yjPv7p2rkx
+hO+4hvpEF8dPiBaF6/9WadRwRLUfePp1XefZ1Fpf5Fvuu3ovqzmzdNtCPYQusTd4NYV5fWSdhemX
+laMoTTmouG9C1pqwyGHSxxHTuFZL7itDE9+SiPGy17hxi7qEwNDg02So8gjh3Jcsin+q2Ckwexu2
+4/SQFjFW6+Q8f5PQ3m1W/wuF2QQFNCHa/XE+t2mjVRO7Y+Dx7V12
+
+                </ds:X509Certificate>
+                
+
+            </ds:X509Data>
+            
+
+        </ds:KeyInfo>
+        
+
+    </ds:Signature>
+    
+  
+    <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+        
+    
+        <md:KeyDescriptor use="signing">
+            
+   		
+            <ds:KeyInfo>
+                
+   			
+                <ds:X509Data>
+                    
+    			
+                    <ds:X509Certificate>
+                        MIIEIjCCAwqgAwIBAgIJAN3aiHlMiGd2MA0GCSqGSIb3DQEBCwUAMIGlMQswCQYDVQQGEwJJVDEQMA4GA1UECAwHQmVyZ2FtbzESMBAGA1UEBwwJQm90dGFudWNvMRwwGgYDVQQKDBNDb211bmUgZGkgQm90dGFudWNvMR0wGwYDVQQLDBRTcG9ydGVsbG8gVGVsZW1hdGljbzEzMDEGA1UEAwwqc3BvcnRlbGxvdGVsZW1hdGljby5jb211bmUuYm90dGFudWNvLmJnLml0MB4XDTIwMDEyMTExNDEwMloXDTMwMDExODExNDEwMlowgaUxCzAJBgNVBAYTAklUMRAwDgYDVQQIDAdCZXJnYW1vMRIwEAYDVQQHDAlCb3R0YW51Y28xHDAaBgNVBAoME0NvbXVuZSBkaSBCb3R0YW51Y28xHTAbBgNVBAsMFFNwb3J0ZWxsbyBUZWxlbWF0aWNvMTMwMQYDVQQDDCpzcG9ydGVsbG90ZWxlbWF0aWNvLmNvbXVuZS5ib3R0YW51Y28uYmcuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDXZDi/lnxBW7o5NDJPZK7yMH+JXEPsq7uSKQsnT/5A8AZAYLFvYglLKhdZ64zdlj3gNVLdo/Pj2tJy5KMBO0ClATgzij/bF5eguBc34d6I/lr8Uoo7Wp+QYUlbScr+YulZA4wBhWB5rRcldKsYfWobUybSCVc/6aj37KDsCHPa0TUHuZy5rmg7r+cQAYDHrWls9XS87hBEesljJxpwrOAqWvI73APXEEBKWBKwI2VtaMrZOwPxUX63uLw/iSzaL51VMXLs1lBtqAYuJCyEAq5CTRKG8fOk+tuYjY4lbvYM7wbCRY2qTpAwS8z8C2KTboZjsuWo0n1LzS/q3USl/OGjAgMBAAGjUzBRMB0GA1UdDgQWBBShYXlRwK04YO9Jc7uOj6xH3l+DIzAfBgNVHSMEGDAWgBShYXlRwK04YO9Jc7uOj6xH3l+DIzAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQA0UQM3tBf5xxYvyLEWNAL6TTUzJjr8d0pcdnZzSQR7mf/TU+UvS052Fb/KQRJdQIhCTrfUeKQ9IUlXxHd3qNd9J63ufQeHNH5EJMheZPNEbiEwtLPImkCpuZwPH71toMu+Bj2twjI9VaxDHm/F1XGHgk9XH+kwEUGzsgHwhmH9+sbmrvLdxlTyhzhsA8hXkoLPUTxGH3WWtfPXKcE1BAGSbRn5PS1Z975LkDO2pILTAZBFpMJw90t5X3z+o06XJHVA3AGoH2G/Y27ka31uEXy7L5RvSjh2kW2sOaSAlwoP93+Q7tVJMV3duNpvonaCtZSsxbLKmn3tKU3FcVwrR93m
+                    </ds:X509Certificate>
+                    
+    		
+                </ds:X509Data>
+                
+    	
+            </ds:KeyInfo>
+            
+   	
+        </md:KeyDescriptor>
+        
+    
+        <md:KeyDescriptor use="encryption">
+            
+   		
+            <ds:KeyInfo>
+                
+   			
+                <ds:X509Data>
+                    
+    			
+                    <ds:X509Certificate>
+                        MIIEIjCCAwqgAwIBAgIJAN3aiHlMiGd2MA0GCSqGSIb3DQEBCwUAMIGlMQswCQYDVQQGEwJJVDEQMA4GA1UECAwHQmVyZ2FtbzESMBAGA1UEBwwJQm90dGFudWNvMRwwGgYDVQQKDBNDb211bmUgZGkgQm90dGFudWNvMR0wGwYDVQQLDBRTcG9ydGVsbG8gVGVsZW1hdGljbzEzMDEGA1UEAwwqc3BvcnRlbGxvdGVsZW1hdGljby5jb211bmUuYm90dGFudWNvLmJnLml0MB4XDTIwMDEyMTExNDEwMloXDTMwMDExODExNDEwMlowgaUxCzAJBgNVBAYTAklUMRAwDgYDVQQIDAdCZXJnYW1vMRIwEAYDVQQHDAlCb3R0YW51Y28xHDAaBgNVBAoME0NvbXVuZSBkaSBCb3R0YW51Y28xHTAbBgNVBAsMFFNwb3J0ZWxsbyBUZWxlbWF0aWNvMTMwMQYDVQQDDCpzcG9ydGVsbG90ZWxlbWF0aWNvLmNvbXVuZS5ib3R0YW51Y28uYmcuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDXZDi/lnxBW7o5NDJPZK7yMH+JXEPsq7uSKQsnT/5A8AZAYLFvYglLKhdZ64zdlj3gNVLdo/Pj2tJy5KMBO0ClATgzij/bF5eguBc34d6I/lr8Uoo7Wp+QYUlbScr+YulZA4wBhWB5rRcldKsYfWobUybSCVc/6aj37KDsCHPa0TUHuZy5rmg7r+cQAYDHrWls9XS87hBEesljJxpwrOAqWvI73APXEEBKWBKwI2VtaMrZOwPxUX63uLw/iSzaL51VMXLs1lBtqAYuJCyEAq5CTRKG8fOk+tuYjY4lbvYM7wbCRY2qTpAwS8z8C2KTboZjsuWo0n1LzS/q3USl/OGjAgMBAAGjUzBRMB0GA1UdDgQWBBShYXlRwK04YO9Jc7uOj6xH3l+DIzAfBgNVHSMEGDAWgBShYXlRwK04YO9Jc7uOj6xH3l+DIzAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQA0UQM3tBf5xxYvyLEWNAL6TTUzJjr8d0pcdnZzSQR7mf/TU+UvS052Fb/KQRJdQIhCTrfUeKQ9IUlXxHd3qNd9J63ufQeHNH5EJMheZPNEbiEwtLPImkCpuZwPH71toMu+Bj2twjI9VaxDHm/F1XGHgk9XH+kwEUGzsgHwhmH9+sbmrvLdxlTyhzhsA8hXkoLPUTxGH3WWtfPXKcE1BAGSbRn5PS1Z975LkDO2pILTAZBFpMJw90t5X3z+o06XJHVA3AGoH2G/Y27ka31uEXy7L5RvSjh2kW2sOaSAlwoP93+Q7tVJMV3duNpvonaCtZSsxbLKmn3tKU3FcVwrR93m
+                    </ds:X509Certificate>
+                    
+    		
+                </ds:X509Data>
+                
+    	
+            </ds:KeyInfo>
+            
+   	
+        </md:KeyDescriptor>
+        
+    
+        <md:KeyDescriptor use="signing">
+            
+   		
+            <ds:KeyInfo>
+                
+   			
+                <ds:X509Data>
+                    
+    			
+                    <ds:X509Certificate>
+                        MIIEVjCCAz6gAwIBAgIHBgM9fNu7PTANBgkqhkiG9w0BAQsFADCBwDELMAkGA1UEBhMCSVQxEDAOBgNVBAgMB0JlcmdhbW8xEjAQBgNVBAcMCUJvdHRhbnVjbzEcMBoGA1UECgwTQ29tdW5lIGRpIEJvdHRhbnVjbzESMBAGA1UECwwJQ29tdW5lIFBhMSMwIQYDVQQDDBp3d3cuY29tdW5lLmJvdHRhbnVjby5iZy5pdDE0MDIGCSqGSIb3DQEJARYlcHJvdG9jb2xsb0BwZWMuY29tdW5lLmJvdHRhbnVjby5iZy5pdDAeFw0yMTAyMjIxNjExNTdaFw00MTAyMjExNjExNTdaMIHAMQswCQYDVQQGEwJJVDEQMA4GA1UECAwHQmVyZ2FtbzESMBAGA1UEBwwJQm90dGFudWNvMRwwGgYDVQQKDBNDb211bmUgZGkgQm90dGFudWNvMRIwEAYDVQQLDAlDb211bmUgUGExIzAhBgNVBAMMGnd3dy5jb211bmUuYm90dGFudWNvLmJnLml0MTQwMgYJKoZIhvcNAQkBFiVwcm90b2NvbGxvQHBlYy5jb211bmUuYm90dGFudWNvLmJnLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA0x5NBuujjrC6rknDr1XilA306xeFpipB7EyquDp5nzTvAjcKmh3v5/lDYiOaj2xIHFdX5JPFIl/1ijxi2QNcdWsxhEK8WxrhqHHLdxp3FeeLvyD+r/7fNis1gNI7+9ctx7PEg6vo4aVOw2gq4vhBiLApNqSEEaO0Z7MV1gLi0iL8xT9wKcQPjuoBhOJZqzw/WKJtn3YvV3Y18hyhxUieQ0FDZALykZaEPHvX6Ju/az/7WzG3OS8jxkwHEsssvXr3X5RNecCI+dNeRpEOQrWdJyszbW6g9CS0vuo3cO9BnIW3HVE08kLaqFE5wxIl40hkLuweyI6sxXPaF0GYN6+leQIDAQABo1MwUTAdBgNVHQ4EFgQUW1tZmesvZ8/sQnkgdLq/Cni+0+QwHwYDVR0jBBgwFoAUW1tZmesvZ8/sQnkgdLq/Cni+0+QwDwYDVR0TAQH/BAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAmHTldSKpLUJkAy12B4AHHW9uNlhBokw7wGZTGyzM8keJkHuA/pa1XhNMm8gx7WAyg/B2m+jqNHr/7utaou2lTtRgXvfiSE7csUk45Hmp3xsELwF4ocUuvwvzXBNZkKl3MCVNuxDwJ+NB60mm2h1rXB7LoDrI5qVOCkY2OTSyiQp11oLkBsMJ+XGmoEP+SxGoa/MtTrD63rC5wwaZIPsqTr9ZYqu2+iGzSbiaoSmTpj4EZ13JFP4xw1IPbrRDpyyANynH1c+g9qc42VgkqDbbfLzvZolsD2lirV3tkpTCBckOmPj7/GpRE0z/IzgxaB1Bq11yhZDjKgurKH6A4GmGwg==
+                    </ds:X509Certificate>
+                    
+    		
+                </ds:X509Data>
+                
+    	
+            </ds:KeyInfo>
+            
+   	
+        </md:KeyDescriptor>
+        
+    
+        <md:KeyDescriptor use="signing">
+            
+   		
+            <ds:KeyInfo>
+                
+   			
+                <ds:X509Data>
+                    
+    			
+                    <ds:X509Certificate>
+                        MIIDszCCApugAwIBAgIJAKSO8xN0ExaPMA0GCSqGSIb3DQEBCwUAMHAxCzAJBgNVBAYTAklUMQ4w DAYDVQQIDAVJdGFseTESMBAGA1UEBwwJQm90dGFudWNvMRwwGgYDVQQKDBNDb211bmUgZGkgQm90 dGFudWNvMR8wHQYDVQQDDBZib3R0YW51Y28uaGFsbGV5d2ViLml0MB4XDTIxMTExNzE4MjI1M1oX DTMxMTExNzE4MjI1M1owcDELMAkGA1UEBhMCSVQxDjAMBgNVBAgMBUl0YWx5MRIwEAYDVQQHDAlC b3R0YW51Y28xHDAaBgNVBAoME0NvbXVuZSBkaSBCb3R0YW51Y28xHzAdBgNVBAMMFmJvdHRhbnVj by5oYWxsZXl3ZWIuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDd72bNMO/msjHx z1Qc6B+UAw9UVNpkOkBgKy2LtfT52q15Zdi9ifYTy3SE7b6z9hsLBjuy4E35u4bhp3oyzvnswasz hoJhlZTQVhXI8uPIOfCJ+kYJMbse97AcOl/4ql6SbqXqS6uK7m5utORJDdXEhHNb0B2eSAg/hKKZ EGBkhCVrVhPL3Oy+K10obLmlIQPGpnAMVLLghd2udLCrmS+AMRa6+x26iq4xDb9Fzpp1B+I+vuvz UG0loEE6jS7/PU4YRA6SmkSNn9iRlnVnTGdj1gEji9CN4Ip23RpvoA8Tu+nzHGcWkTlRUxcRUbdT 9L+eXNgc0b1YUFCRW8Lk3FGPAgMBAAGjUDBOMB0GA1UdDgQWBBTE89T6Ik8IMawyL3LyX65dguUq IzAfBgNVHSMEGDAWgBTE89T6Ik8IMawyL3LyX65dguUqIzAMBgNVHRMEBTADAQH/MA0GCSqGSIb3 DQEBCwUAA4IBAQDAUGqGX8OuHUyEnluJIqmoYjZtA2S9LfOSjutOQsCkeeIGFZJxcSz7ptYu3dT2 oHxodhEBB/E471WiiUciYRUhiYNsoMiTkemFe+SBoow4j6f2CXwnIFK/qSQR25CIO0yjPv7p2rkx hO+4hvpEF8dPiBaF6/9WadRwRLUfePp1XefZ1Fpf5Fvuu3ovqzmzdNtCPYQusTd4NYV5fWSdhemX laMoTTmouG9C1pqwyGHSxxHTuFZL7itDE9+SiPGy17hxi7qEwNDg02So8gjh3Jcsin+q2Ckwexu2 4/SQFjFW6+Q8f5PQ3m1W/wuF2QQFNCHa/XE+t2mjVRO7Y+Dx7V12
+                    </ds:X509Certificate>
+                    
+    		
+                </ds:X509Data>
+                
+    	
+            </ds:KeyInfo>
+            
+   	
+        </md:KeyDescriptor>
+        
+    
+        <md:KeyDescriptor use="encryption">
+            
+   		
+            <ds:KeyInfo>
+                
+   			
+                <ds:X509Data>
+                    
+    			
+                    <ds:X509Certificate>
+                        MIIDszCCApugAwIBAgIJAKSO8xN0ExaPMA0GCSqGSIb3DQEBCwUAMHAxCzAJBgNVBAYTAklUMQ4w DAYDVQQIDAVJdGFseTESMBAGA1UEBwwJQm90dGFudWNvMRwwGgYDVQQKDBNDb211bmUgZGkgQm90 dGFudWNvMR8wHQYDVQQDDBZib3R0YW51Y28uaGFsbGV5d2ViLml0MB4XDTIxMTExNzE4MjI1M1oX DTMxMTExNzE4MjI1M1owcDELMAkGA1UEBhMCSVQxDjAMBgNVBAgMBUl0YWx5MRIwEAYDVQQHDAlC b3R0YW51Y28xHDAaBgNVBAoME0NvbXVuZSBkaSBCb3R0YW51Y28xHzAdBgNVBAMMFmJvdHRhbnVj by5oYWxsZXl3ZWIuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDd72bNMO/msjHx z1Qc6B+UAw9UVNpkOkBgKy2LtfT52q15Zdi9ifYTy3SE7b6z9hsLBjuy4E35u4bhp3oyzvnswasz hoJhlZTQVhXI8uPIOfCJ+kYJMbse97AcOl/4ql6SbqXqS6uK7m5utORJDdXEhHNb0B2eSAg/hKKZ EGBkhCVrVhPL3Oy+K10obLmlIQPGpnAMVLLghd2udLCrmS+AMRa6+x26iq4xDb9Fzpp1B+I+vuvz UG0loEE6jS7/PU4YRA6SmkSNn9iRlnVnTGdj1gEji9CN4Ip23RpvoA8Tu+nzHGcWkTlRUxcRUbdT 9L+eXNgc0b1YUFCRW8Lk3FGPAgMBAAGjUDBOMB0GA1UdDgQWBBTE89T6Ik8IMawyL3LyX65dguUq IzAfBgNVHSMEGDAWgBTE89T6Ik8IMawyL3LyX65dguUqIzAMBgNVHRMEBTADAQH/MA0GCSqGSIb3 DQEBCwUAA4IBAQDAUGqGX8OuHUyEnluJIqmoYjZtA2S9LfOSjutOQsCkeeIGFZJxcSz7ptYu3dT2 oHxodhEBB/E471WiiUciYRUhiYNsoMiTkemFe+SBoow4j6f2CXwnIFK/qSQR25CIO0yjPv7p2rkx hO+4hvpEF8dPiBaF6/9WadRwRLUfePp1XefZ1Fpf5Fvuu3ovqzmzdNtCPYQusTd4NYV5fWSdhemX laMoTTmouG9C1pqwyGHSxxHTuFZL7itDE9+SiPGy17hxi7qEwNDg02So8gjh3Jcsin+q2Ckwexu2 4/SQFjFW6+Q8f5PQ3m1W/wuF2QQFNCHa/XE+t2mjVRO7Y+Dx7V12
+                    </ds:X509Certificate>
+                    
+    		
+                </ds:X509Data>
+                
+    	
+            </ds:KeyInfo>
+            
+   	
+        </md:KeyDescriptor>
+        
+    
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sportellotelematico.comune.bottanuco.bg.it/simplesaml/module.php/saml/sp/saml2-logout.php/spid"/>
+        
+    
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.comune.bottanuco.bg.it/microspid_logout"/>
+        
+    
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://bottanuco.halleyweb.it/spid/module.php/saml/sp/saml2-logout.php/spid"/>
+        
+    
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sportellotelematico.comune.bottanuco.bg.it/simplesaml/module.php/saml/sp/saml2-acs.php/spid" index="0" isDefault="true"/>
+        
+    
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.comune.bottanuco.bg.it/microspid_acs" index="1"/>
+        
+    
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://bottanuco.halleyweb.it/spid/module.php/saml/sp/saml2-acs.php/spid" index="2"/>
+        
+    
+        <md:AttributeConsumingService index="0">
+            
+   		
+            <md:ServiceName xml:lang="it">
+                stu
+            </md:ServiceName>
+            
+
+            <md:ServiceDescription xml:lang="it">
+                Sportello Telematico Unificato
+            </md:ServiceDescription>
+            
+   	
+            <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+   	
+            <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+   	
+            <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+   	
+            <md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+   	
+            <md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+   	
+            <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+   	
+            <md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+   	
+            <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+   	
+            <md:RequestedAttribute Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+   	
+            <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+   	
+            <md:RequestedAttribute Name="address" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+   	
+            <md:RequestedAttribute Name="digitalAddress" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+   	
+        </md:AttributeConsumingService>
+        
+    
+        <md:AttributeConsumingService index="1">
+            
+   		
+            <md:ServiceName xml:lang="it">
+                Servizio_1
+            </md:ServiceName>
+            
+
+            <md:ServiceDescription xml:lang="it">
+                Accesso all'area riservata del portale
+            </md:ServiceDescription>
+            
+   	
+            <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+   	
+            <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+   	
+            <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+   	
+            <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+   	
+            <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+   	
+            <md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+   	
+            <md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+   	
+            <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+   	
+        </md:AttributeConsumingService>
+        
+    
+        <md:AttributeConsumingService index="99">
+            
+   		
+            <md:ServiceName xml:lang="it">
+                eIDAS Natural Person Minimum Attribute Set
+            </md:ServiceName>
+            
+   	
+            <md:RequestedAttribute Name="spidCode"/>
+            
+   	
+            <md:RequestedAttribute Name="name"/>
+            
+   	
+            <md:RequestedAttribute Name="familyName"/>
+            
+   	
+            <md:RequestedAttribute Name="placeOfBirth"/>
+            
+   	
+        </md:AttributeConsumingService>
+        
+    
+        <md:AttributeConsumingService index="100">
+            
+   		
+            <md:ServiceName xml:lang="it">
+                eIDAS Natural Person Full Attribute Set
+            </md:ServiceName>
+            
+   	
+            <md:RequestedAttribute Name="spidCode"/>
+            
+   	
+            <md:RequestedAttribute Name="name"/>
+            
+   	
+            <md:RequestedAttribute Name="familyName"/>
+            
+   	
+            <md:RequestedAttribute Name="dateOfBirth"/>
+            
+   	
+            <md:RequestedAttribute Name="placeOfBirth"/>
+            
+   	
+            <md:RequestedAttribute Name="address"/>
+            
+   	
+            <md:RequestedAttribute Name="gender"/>
+            
+   	
+        </md:AttributeConsumingService>
+        
+    
+        <md:AttributeConsumingService index="101">
+            
+   		
+            <md:ServiceName xml:lang="it">
+                Servizi online
+            </md:ServiceName>
+            
+
+            <md:ServiceDescription xml:lang="it">
+                Servizi online
+            </md:ServiceDescription>
+            
+   	
+            <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+   	
+            <md:RequestedAttribute FriendlyName="Cognome" Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+   	
+            <md:RequestedAttribute FriendlyName="Nome" Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+   	
+            <md:RequestedAttribute FriendlyName="Codice identificativo SPID" Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+   	
+            <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+   	
+            <md:RequestedAttribute FriendlyName="Ragione o denominazione sociale" Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+   	
+        </md:AttributeConsumingService>
+        
+  
+    </md:SPSSODescriptor>
+    
+  
+    <md:Organization>
+        
+    
+        <md:OrganizationName xml:lang="en">
+            Comune di Bottanuco
+        </md:OrganizationName>
+        
+    
+        <md:OrganizationName xml:lang="it">
+            Comune di Bottanuco
+        </md:OrganizationName>
+        
+    
+        <md:OrganizationName xml:lang="fr">
+            Comune di Bottanuco
+        </md:OrganizationName>
+        
+    
+        <md:OrganizationName xml:lang="de">
+            Comune di Bottanuco
+        </md:OrganizationName>
+        
+    
+        <md:OrganizationDisplayName xml:lang="en">
+            Comune di Bottanuco
+        </md:OrganizationDisplayName>
+        
+    
+        <md:OrganizationDisplayName xml:lang="it">
+            Comune di Bottanuco
+        </md:OrganizationDisplayName>
+        
+    
+        <md:OrganizationDisplayName xml:lang="fr">
+            Comune di Bottanuco
+        </md:OrganizationDisplayName>
+        
+    
+        <md:OrganizationDisplayName xml:lang="de">
+            Comune di Bottanuco
+        </md:OrganizationDisplayName>
+        
+    
+        <md:OrganizationURL xml:lang="en">
+            https://sportellotelematico.comune.bottanuco.bg.it
+        </md:OrganizationURL>
+        
+    
+        <md:OrganizationURL xml:lang="it">
+            https://sportellotelematico.comune.bottanuco.bg.it
+        </md:OrganizationURL>
+        
+    
+        <md:OrganizationURL xml:lang="fr">
+            https://sportellotelematico.comune.bottanuco.bg.it
+        </md:OrganizationURL>
+        
+    
+        <md:OrganizationURL xml:lang="de">
+            https://sportellotelematico.comune.bottanuco.bg.it
+        </md:OrganizationURL>
+        
+  
+    </md:Organization>
+    
+  
+    <md:ContactPerson contactType="other">
+        
+    
+        <md:Extensions>
+            
+      
+            <spid:IPACode>
+                c_b088
+            </spid:IPACode>
+            
+      
+            <spid:Public/>
+            
+    
+        </md:Extensions>
+        
+    
+        <md:EmailAddress>
+            protocollo@pec.comune.bottanuco.bg.it
+        </md:EmailAddress>
+        
+  
+    </md:ContactPerson>
+    
+
+</md:EntityDescriptor>
