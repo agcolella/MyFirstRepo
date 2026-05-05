@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:spid="https://spid.gov.it/saml-extensions" ID="_7fb2ee691bdf5f23ac155e8e5f393cb991d4b53b" entityID="https://spid.servizilocalispa.it/pub-ag-full/APT0"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#_7fb2ee691bdf5f23ac155e8e5f393cb991d4b53b">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>TO2Db7SvQ9pha7opjUCAgMkKwYEMkMS0KDmRQEfnnWU=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+KvD4BgkPfpzw8xrtamuU3wD3eZIZxnI2qxjAhX0ZDEZa0IiTcQsodUxyDQDEPG/aAfz5+30iskAm
+/pYG/OaD0v/G/BcL+tG/7+HZlfm3hKceDBGt94tPuPO2s8d4UG0ZSthqFKCN0WAC35m5N3vjrLhV
+6paBufzcm+qx651h8iPUXX9e9OMv++juruP1FjFM0dHvfn1g6JMYVRf8uHvl03nuSwLWitQ3quBY
+JKONMk2y0g6vyWi24ylnRNn221Hgwptz1md8U3d1wgG29bvyyMtd2RxhTZIwDi//vCqmJ3XEMZAV
+koncHeMoBqwuww+TSX2t7TPFObag55uft8GSYw==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+oSr+CvkpCLEVL6qL8e3YAX8Wz/xucbp59k5omAKos+X0FKTGsOD7WKk4PTs+ySZbn+AMu7wHZ0QW
+D+USafghZ1meiURuYp7WW5A5ExT+8mPrTsy6Rm9xXFtSLJxP53aTJJdLkgXANzlqlcqR/J6nBpyq
+XW5wrHlRI4B+RtKEU7edjv2kRXBOREHK+EvcT4lPz+8BF6LKOXB6OdVX+1HKfq++yJdCLhhmu5fM
+H70Uvb+0fUsYBB0V80NAedwBAzFYyxkXLi8KGxHYhWavpaRGTbR2+9A/PKIf9bPuJQf9/JAYHSxD
+VqK7rKRogFizXFuviduDozlOJNkcBw87PpdG3Q==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIInDCCBoSgAwIBAgIIfA3j+Gp4sAowDQYJKoZIhvcNAQENBQAwgeUxCzAJBgNVBAYTAklUMQ0w
+CwYDVQQHDARSb21lMSYwJAYDVQQKDB1BZ2VuemlhIHBlciBsJ0l0YWxpYSBEaWdpdGFsZTEsMCoG
+A1UECwwjU2Vydml6aW8gQWNjcmVkaXRhbWVudG8gZSBWaWdpbGFuemExKjAoBgNVBAMMIVByb2dl
+dHRvIFNQSUQgLSBTb2dnZXR0aV9wdWJibGljaTEpMCcGCSqGSIb3DQEJARYacHJvdG9jb2xsb0Bw
+ZWMuYWdpZC5nb3YuaXQxGjAYBgNVBAUTEVZBVElULTk3NzM1MDIwNTg0MB4XDTIwMTIxNjAwMDAw
+MFoXDTM1MTIxNTIzNTk1OVowgc4xCzAJBgNVBAYTAklUMQ8wDQYDVQQIDAZNaWxhbm8xDzANBgNV
+BAcMBk1pbGFubzEeMBwGA1UECgwVU2Vydml6aSBMb2NhbGkgUy5wLkEuMR4wHAYDVQQLDBVTZXJ2
+aXppIExvY2FsaSBTLnAuQS4xHjAcBgNVBAMMFVNlcnZpemkgTG9jYWxpIFMucC5BLjEhMB8GA1UE
+UwwYc3BpZC5zZXJ2aXppbG9jYWxpc3BhLml0MRowGAYDVQRhDBFWQVRJVC0wMzE3MDU4MDc1MTCC
+ASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAKEq/gr5KQixFS+qi/Ht2AF/Fs/8bnG6efZO
+aJgCqLPl9BSkxrDg+1ipOD07PskmW5/gDLu8B2dEFg/lEmn4IWdZnolEbmKe1luQORMU/vJj607M
+ukZvcVxbUiycT+d2kySXS5IFwDc5apXKkfyepwacql1ucKx5USOAfkbShFO3nY79pEVwTkRByvhL
+3E+JT8/vAReiyjlwejnVV/tRyn6vvsiXQi4YZruXzB+9FL2/tH1LGAQdFfNDQHncAQMxWMsZFy4v
+ChsR2IVmr6WkRk20dvvQPzyiH/Wz7iUH/fyQGB0sQ1aiu6ykaIBYs1xbr4nbg6M5TiTZHAcPOz6X
+Rt0CAwEAAaOCA2MwggNfMAwGA1UdEwEB/wQCMAAwHQYDVR0OBBYEFDqL6IK7O5PXjq2+KmCbIiEt
+beexMB8GA1UdIwQYMBaAFDy7bese/Z1uy+5U5uo51YmgR9c0MA4GA1UdDwEB/wQEAwIGwDAWBgNV
+HRIEDzANggtzcGlkLmdvdi5pdDBCBgNVHR8EOzA5MDegNaAzhjFodHRwczovL2VpZGFzLmFnaWQu
+Z292Lml0L2NybC9jcmxfU1BJRF9QdWJfU0EuY3JsMDcGCCsGAQUFBwEBBCswKTAnBggrBgEFBQcw
+AYYbaHR0cHM6Ly9vY3NwX1NBLmFnaWQuZ292Lml0MIIB2QYDVR0gBIIB0DCCAcwwCQYHBACORgEG
+AjCBlQYEK0wQBjCBjDBEBggrBgEFBQcCAjA4GjZFbGVjdHJvbmljIGNlcnRpZmljYXRlIGNvbmZv
+cm1pbmcgd2l0aCBBR0lEIEd1aWRlbGluZXMwRAYIKwYBBQUHAgIwOBo2Q2VydGlmaWNhdG8gZWxl
+dHRyb25pY28gY29uZm9ybWUgYWxsZSBMaW5lZSBndWlkYSBBZ0lEMH0GBitMEAQCAjBzMDoGCCsG
+AQUFBwICMC4aLFNQSUQ6IGFnZ3JlZ2F0b3JlICdmdWxsJyBkaSBzZXJ2aXppIHB1YmJsaWNpMDUG
+CCsGAQUFBwICMCkaJ1NQSUQ6IHB1YmxpYy1zZXJ2aWNlcyAnZnVsbCcgQWdncmVnYXRvcjAIBgYE
+AI96AQMwTQYEK0wQBDBFMEMGCCsGAQUFBwIBFjdodHRwczovL2VpZGFzLmFnaWQuZ292Lml0L2Nw
+cy9BZ0lEX2VJREFTX3Jvb3RDQV9jcHMucGRmME8GBgQAjkYBBTBFMEMGCCsGAQUFBwIBFjdodHRw
+czovL2VpZGFzLmFnaWQuZ292Lml0L2Nwcy9BZ0lEX2VJREFTX3Jvb3RDQV9jcHMucGRmMBMGA1Ud
+JQQMMAoGCCsGAQUFBwMBMHgGCSqGSIb3DQEJDwRrMGkwDgYIKoZIhvcNAwICAgCAMA4GCCqGSIb3
+DQMEAgIAgDALBglghkgBZQMEASowCwYJYIZIAWUDBAEtMAsGCWCGSAFlAwQBAjALBglghkgBZQME
+AQUwBwYFKw4DAgcwCgYIKoZIhvcNAwcwDQYJKoZIhvcNAQENBQADggIBAJjx4BK4Y/ynb5v5r5jw
+XMDplRJDbYp/CIOzaCW2RKcy/5YXCTFvl3aXQp6tWkH3zlvklOzDXulFy42BG7u1K2Q+XQ9dIGEX
+aCgYOTGRIybSOu+1RPya+NmIYSrxnYYGpoIOo5NSL30kDpQ8G9mk2g+sDJSQezFcM8rmVtVIo9BJ
+Q15BhdHVhn3wqV1Tkx2LNp0+In26QAmnd8+1P8x4YScagPbTMUJq7EGi0IwEJ/ECp/9mdXi/QDa2
+b540JIrQUtowazV2gB38MiZzYFe8ljq97sqyAP/HcJoSmYaYfvyvMRoSD+lbV1hI46qtRb1FOzXo
+iDnMo9SVcyEEsdLTvJqazoSencmRwjxMoLe4vn6EJOEVpLXd0mC7VOYGLSrmxC4htnX7HXbmQSee
+82wP6EQxhzbAvL/8XRo8cB5dEH6RQvg4e9nLUzZc4YciYczKVcV+TwvEuaNXHiITwsWSeMftxi0R
+nYKcLk9w+83kfZPwIP7hcS5yofZaX9ZgzuzTIhRderuoyoR8ng/A0hy/sz+9vtaS0pS3vKBy10rE
+ELaS9VghdKHZ1wGwhwqTd/pPhbzqn6MrNApFtr5/h0ERO+LEXooEH6Ze1f2ukCo1xtXKNSNx2Na/
+n6Y6fOnMle5/5cFLjUBk2Gpcq1XtaKC9oXLrqTCRK8V7ZTHsvUBEQkWX
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:KeyName>spid.servizilocalispa.it</ds:KeyName>
+        <ds:X509Data>
+          <ds:X509SubjectName>serialNumber=VATIT-03170580751,CN=spid.servizilocalispa.it,OU=Servizi Locali S.p.A.,O=Servizi Locali S.p.A.,L=Milano,ST=Milano,C=IT</ds:X509SubjectName>
+          <ds:X509Certificate>MIIHIjCCBQqgAwIBAgIIchaZkk6ifZgwDQYJKoZIhvcNAQENBQAwgeUxCzAJBgNV
+BAYTAklUMQ0wCwYDVQQHDARSb21lMSYwJAYDVQQKDB1BZ2VuemlhIHBlciBsJ0l0
+YWxpYSBEaWdpdGFsZTEsMCoGA1UECwwjU2Vydml6aW8gQWNjcmVkaXRhbWVudG8g
+ZSBWaWdpbGFuemExKjAoBgNVBAMMIVByb2dldHRvIFNQSUQgLSBTb2dnZXR0aV9w
+dWJibGljaTEpMCcGCSqGSIb3DQEJARYacHJvdG9jb2xsb0BwZWMuYWdpZC5nb3Yu
+aXQxGjAYBgNVBAUTEVZBVElULTk3NzM1MDIwNTg0MB4XDTIwMDUyMDAwMDAwMFoX
+DTM1MDUxOTIzNTk1OVowga4xCzAJBgNVBAYTAklUMQ8wDQYDVQQIDAZNaWxhbm8x
+DzANBgNVBAcMBk1pbGFubzEeMBwGA1UECgwVU2Vydml6aSBMb2NhbGkgUy5wLkEu
+MR4wHAYDVQQLDBVTZXJ2aXppIExvY2FsaSBTLnAuQS4xITAfBgNVBAMMGHNwaWQu
+c2Vydml6aWxvY2FsaXNwYS5pdDEaMBgGA1UEBRMRVkFUSVQtMDMxNzA1ODA3NTEw
+ggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQChKv4K+SkIsRUvqovx7dgB
+fxbP/G5xunn2TmiYAqiz5fQUpMaw4PtYqTg9Oz7JJluf4Ay7vAdnRBYP5RJp+CFn
+WZ6JRG5intZbkDkTFP7yY+tOzLpGb3FcW1IsnE/ndpMkl0uSBcA3OWqVypH8nqcG
+nKpdbnCseVEjgH5G0oRTt52O/aRFcE5EQcr4S9xPiU/P7wEXoso5cHo51Vf7Ucp+
+r77Il0IuGGa7l8wfvRS9v7R9SxgEHRXzQ0B53AEDMVjLGRcuLwobEdiFZq+lpEZN
+tHb70D88oh/1s+4lB/38kBgdLENWoruspGiAWLNcW6+J24OjOU4k2RwHDzs+l0bd
+AgMBAAGjggIJMIICBTAMBgNVHRMBAf8EAjAAMB0GA1UdDgQWBBQ6i+iCuzuT146t
+vipgmyIhLW3nsTAfBgNVHSMEGDAWgBQ8u23rHv2dbsvuVObqOdWJoEfXNDAOBgNV
+HQ8BAf8EBAMCBsAwEwYDVR0lBAwwCgYIKwYBBQUHAwEwQgYDVR0fBDswOTA3oDWg
+M4YxaHR0cHM6Ly9laWRhcy5hZ2lkLmdvdi5pdC9jcmwvY3JsX1NQSURfUHViX1NB
+LmNybDA3BggrBgEFBQcBAQQrMCkwJwYIKwYBBQUHMAGGG2h0dHBzOi8vb2NzcF9T
+QS5hZ2lkLmdvdi5pdDCBmAYDVR0gBIGQMIGNMEwGAytMEDBFMEMGCCsGAQUFBwIB
+FjdodHRwczovL2VpZGFzLmFnaWQuZ292Lml0L2Nwcy9BZ0lEX2VJREFTX3Jvb3RD
+QV9jcHMucGRmMD0GBitMEAQCAjAzMDEGCCsGAQUFBwICMCUaI0NlcnRpZmljYXRp
+IEFnZ3JlZ2F0b3JpIFNQIHB1YmJsaWNpMHgGCSqGSIb3DQEJDwRrMGkwDgYIKoZI
+hvcNAwICAgCAMA4GCCqGSIb3DQMEAgIAgDALBglghkgBZQMEASowCwYJYIZIAWUD
+BAEtMAsGCWCGSAFlAwQBAjALBglghkgBZQMEAQUwBwYFKw4DAgcwCgYIKoZIhvcN
+AwcwDQYJKoZIhvcNAQENBQADggIBAGqx0sYw4gkQr7MX6VFYPgKRrcRocn03iRkf
+ccAqPyxbLCQDAeKQsaPUgAdxr44FKv9LANVHVjnHMkjcepG/H/99Re+2C9w7M0nG
+cOes28wMlTtNiOLlX91dmQHTtohd+7W0qjCS1cQXF5ndo8exRa6I2fxBP/hR/aAo
+mQeetqghYqygrokG4yZffVrMXB+/zyKR1FqicbcOmCpbTd3pS6mG7WtM6fhm0WJv
+IGGjqDiO9Mnf2mfnfawERAdHkM78752M0mCZeOr7eWUwygHzaJxJRoYqGs6jJrPv
+wE9O741zOMX+hAh3RE2cjmkFfp3TwgEsgVFKNwEShxwiK+95sNW3lDGTwnMQOEfM
+eORBxrFhRKlA+0i0XZJPGlYHi/LxQoWNWxDcL1NFtC6ZXd0S46FK4AYOLU3OUHpQ
+B8q8s2lA+EJzrx6TXk/4PCc5FRmuf69nLxprqS3B/tarFmi+AWGCCjDPg4gQXG9u
+HH7V3+b+yYg80plezT8A3RZonynB3iz4JV+QeKhIKpPF8DAx+d7FwILOYecZMMcH
+9735SpyQruqD4uPXtD/o7mCjNEgyIKJSEXYjJAYMBBcQolpBjbZ2be6ko7nO4cyd
+XNBxYxXTpD76dw6INgI03x/YSKJT9m4e+a+XWsTSMK4gIcYhUEZCQIdVzcYsss5A
+KqzB1ekr
+</ds:X509Certificate>
+          <ds:X509Certificate>MIIHZjCCBU6gAwIBAgIIXcg5oNQ4TCMwDQYJKoZIhvcNAQENBQAwgcwxCzAJBgNV
+BAYTAklUMQ0wCwYDVQQHDARSb21lMSYwJAYDVQQKDB1BZ2VuemlhIHBlciBsJ0l0
+YWxpYSBEaWdpdGFsZTEwMC4GA1UECwwnU2Vydml6aW8gQWNjcmVkaXRhbWVudG8g
+ZSBwcm9nZXR0byBTUElEMQ0wCwYDVQQDDARBZ0lEMSkwJwYJKoZIhvcNAQkBFhpw
+cm90b2NvbGxvQHBlYy5hZ2lkLmdvdi5pdDEaMBgGA1UEBRMRVkFUSVQtOTc3MzUw
+MjA1ODQwHhcNMjAwMjI4MDAwMDAwWhcNNDAwMjI3MjM1OTU5WjCB5TELMAkGA1UE
+BhMCSVQxDTALBgNVBAcMBFJvbWUxJjAkBgNVBAoMHUFnZW56aWEgcGVyIGwnSXRh
+bGlhIERpZ2l0YWxlMSwwKgYDVQQLDCNTZXJ2aXppbyBBY2NyZWRpdGFtZW50byBl
+IFZpZ2lsYW56YTEqMCgGA1UEAwwhUHJvZ2V0dG8gU1BJRCAtIFNvZ2dldHRpX3B1
+YmJsaWNpMSkwJwYJKoZIhvcNAQkBFhpwcm90b2NvbGxvQHBlYy5hZ2lkLmdvdi5p
+dDEaMBgGA1UEBRMRVkFUSVQtOTc3MzUwMjA1ODQwggIiMA0GCSqGSIb3DQEBAQUA
+A4ICDwAwggIKAoICAQDV9Ppc/aIvCRKEqR9KoIiwb4j89dctEJNz6b2TtR1oHzYC
+jQMm1dULt1EZwCcofF0abiIdLXhnJ9yeKNysxvAZiSSzqBZcubFImb/j4QCdejba
+pn+C3tEcf8Eg2EAEicYiAXRQQkxx4qXnKtHCF2QHVFpTnbKiAuwPd+DcKa1ftVAI
+sQu8xG8ismOp9N6UP3ZMzs8R9kLdkg2q7bVyyQjnTNFOFCjm4qkfKYQXkOXw8Khk
+avErxQAOsMEF6lqXDLqIF8wXBgBNNhNnwohpra3Ev3uwKeOHAnxpsqf6zc3n6GbO
+pS90LlsxOeXPKitNOgW3SyApXjRnUDbbgiMix3xrofH0GMc4g3jtPm7R4cpPAX5V
+9cqlUhokSqI/uCMM1loNyndP61bUgqbwHsldDD/ilHT/RtVBCOd/BN0SHV3o+MsT
+91FQ3Md5t4omXokoCBW36Zt6o9/CFHeNWOTSIkzyhObHCGkcVg3P/0Q/uDWNpW8F
+KItOPnrvAa/YK8hFbOJp5wBMzwM/SNSugeLQf8Efj3HIB8cdhh6ixQgPzu0w4JAk
+JGfcSIawOmWmzgrxm/cf49wyEygaDoyj0AHYXEu4h9zQ3tx/PIkohZhHcXpuvp1p
+ueoTPD5Aw/F6/MnX99o1A7qm+F6A8SaplWyBjUojVQn9AufWI9nk+j3zAVLE7wID
+AQABo4IBLzCCASswDwYDVR0TAQH/BAUwAwEB/zAdBgNVHQ4EFgQUPLtt6x79nW7L
+7lTm6jnViaBH1zQwHwYDVR0jBBgwFoAUn8dbbCWmp5uDXqb7wf6jeTvNj5EwDgYD
+VR0PAQH/BAQDAgEGMD8GA1UdHwQ4MDYwNKAyoDCGLmh0dHBzOi8vZWlkYXMuYWdp
+ZC5nb3YuaXQvY3JsL2NybF9zdWJDQV9TQS5jcmwwgYYGA1UdIAR/MH0wTQYDK0wQ
+MEYwRAYIKwYBBQUHAgEWOGh0dHBzOi8vZWlkYXMuYWdpZC5nb3YuaXQvY3BzL0Fn
+SURfZUlEQVNfcm9vdENBX2Nwcy5wZGY7MCwGBStMEAQCMCMwIQYIKwYBBQUHAgIw
+FRoTU3ViQ0EgU1BJRCBwdWJibGljaTANBgkqhkiG9w0BAQ0FAAOCAgEAifcSVXut
+bbBBxMOgQs6/YnOZWzSJ9rGuXbVmvd8xg8I+rooAliILP1f6QBWNLZxT2d4dsiRW
+UxxRDdus66rF7B244mdB0DPk13Cv0/s5/ScK8NW6W2RigBkSkfznJZkPVkjUPDXr
+8R/n8hu+jwgEhKyi28WM44YBE9B1K+JiNPIIKR2pkq84kaNCrDCdqVLMWKH+OoNz
+MiUqZaMSc0oJTa8leajfcwshZsOfry4tAUfddrn7RrPoLqOcV2+mvtDRSV0NGu8e
+IckNXSB//wFUtM1rZpFYgnBXDEXU9Q3vf2HjqdTZFfrwxAu82LRrZaQVAXjUe8g/
+qAiJiI6VGCn1flqXy2OemobBWfuxQ9IcEzR3ovVUNR0yyzE5hl8iFNLjwfw0h3V7
+K134BR2vXlE4RVrilrIM2AH+HPLiikS8t4rWb74bqqGLp3OPgy6kQww1kTuMFNS9
+JBcibnjgyBvWjz0RQU5ECM5JX/hVieWwueNfUpDAuy/pTzayyfApVPasujO4gLop
+oNKOIA/DZSnSX+3piVdTEh775gQ82JXd98tN/SzA2iTwMEG4COKdZiL/LeBFpJ8d
+DcYT8bFwJG9Vkf8BBt/r2Y83GfMTOs6QeVrsWbP4CgckQGsABuh1TP0wlaFtl9t9
+1hDNnEQOTOMM1POe2Fn3zN3pV4AFIVwttfI=
+</ds:X509Certificate>
+          <ds:X509Certificate>MIIGuTCCBKGgAwIBAgIIHovtqml57AEwDQYJKoZIhvcNAQENBQAwgcwxCzAJBgNV
+BAYTAklUMQ0wCwYDVQQHDARSb21lMSYwJAYDVQQKDB1BZ2VuemlhIHBlciBsJ0l0
+YWxpYSBEaWdpdGFsZTEwMC4GA1UECwwnU2Vydml6aW8gQWNjcmVkaXRhbWVudG8g
+ZSBwcm9nZXR0byBTUElEMQ0wCwYDVQQDDARBZ0lEMSkwJwYJKoZIhvcNAQkBFhpw
+cm90b2NvbGxvQHBlYy5hZ2lkLmdvdi5pdDEaMBgGA1UEBRMRVkFUSVQtOTc3MzUw
+MjA1ODQwHhcNMTkxMTE4MDAwMDAwWhcNNDkxMTE3MjM1OTU5WjCBzDELMAkGA1UE
+BhMCSVQxDTALBgNVBAcMBFJvbWUxJjAkBgNVBAoMHUFnZW56aWEgcGVyIGwnSXRh
+bGlhIERpZ2l0YWxlMTAwLgYDVQQLDCdTZXJ2aXppbyBBY2NyZWRpdGFtZW50byBl
+IHByb2dldHRvIFNQSUQxDTALBgNVBAMMBEFnSUQxKTAnBgkqhkiG9w0BCQEWGnBy
+b3RvY29sbG9AcGVjLmFnaWQuZ292Lml0MRowGAYDVQQFExFWQVRJVC05NzczNTAy
+MDU4NDCCAiIwDQYJKoZIhvcNAQEBBQADggIPADCCAgoCggIBAMbvbRd/Mc89PB3P
+T7tyPKWac3ALp6FZjMaRoAm2jfamAI6VKCCozi8B24Uxie6kO3oMtA3z6PCulGZl
+sNP3IgiLMPVyEGmUqrKpfeT0qjyNpa7expfR5LxKO2mRX4sz2yuwDI3aL7GrgoMw
+PJQNjck1fGPs+c27NzSMF6dGYu7jGKEZVZWazwJ0D/x+g51ChvoLok0MT1Huc/pR
+xpbUuWaBb5x3pDo+99s+Ip3QCcyPiRsuiM31eBUefPaVvp69frbUEiLT49lCGI9e
+NnhJbZlA99BpQp1yH67Fe1CWXFXqFd3tW9IgsovmdyvtpiXniCoQ6gLId8tdKFuy
+8UsohEF5J6JrooCWs/IX0Cj11pnIoFbW0MbpuUHmh5cxnXwTW31JqwyxVkw7ExGq
+yPRAOmTCj078RWnquymU8oSgAi/+ujj1ZKLJdXslrXN1y1Lz8VRugRhuuYCx3nAl
+Qa6oga305lWQY3mA7tPPjgM3mj15Oi79Pur3c6TzX9sW04qZ76hfy68WDo7/XXSo
+1M29CwvxwxG6A8sOUUBg2UAjG8Ff1kEsOd5m05bcq2+A4lxqctQjwalhqchyglbW
+3RPDTFDmtWE2zRsmgSF0jxnARA34JxmArkAyAcjEg/u+bQy992cek0+fZYRl2b06
+1E3XtArjlNkBD/FAuwZw7URZwM+1AgMBAAGjgZwwgZkwDwYDVR0TAQH/BAUwAwEB
+/zAdBgNVHQ4EFgQUn8dbbCWmp5uDXqb7wf6jeTvNj5EwDgYDVR0PAQH/BAQDAgEG
+MFcGA1UdIARQME4wTAYDK0wQMEUwQwYIKwYBBQUHAgEWN2h0dHA6Ly9laWRhcy5h
+Z2lkLmdvdi5pdC9jcHMvQWdJRF9lSURBU19yb290Q0FfY3BzLnBkZjswDQYJKoZI
+hvcNAQENBQADggIBAHCMbQDUX53Rxw0Hm4nxkOoG87T+0NKFvOAHVS2QkWOQRwIv
+W2yUYzkAxcn9GS8GGmQ5MvqW/NeI5iiF//4U8HG1/agwhPRN2tzij160bB04BjwJ
+k13lD/rFvMqqptjj6zD3eU5FGVuocNHh0UAnooT7Wlt43IFVjgqbfY+oErA4v3Bv
+uDbAmic4YJzofVUQX894c3qNbi1S7arN7TxHjGB6MgGuAoblnZZ/yuvik047vIcL
+cxdzGQW+dxuy5/RinRdjcmxMRZi02uVKhQ4Nf+o66X8XFj/Cbomh1Du5Jpzd+nob
+RH8NI2qBzyTu7AhIMmlgm/zAKv0ZryN1rcN0LcCa+oOznqhqhCZBIs6eDrRzLjm7
+u999Sk/czVnU3SWA08b0XcaLoS7ZMyd3SB1qyDKh6BH2pfDcAPlLST/Hwu8W092G
+yTjY50nM2vbYk64jwBy3w/r9m2AIviKQ1IUCss5A0MLqHcw1ndjzEZyOpw9CTMex
+6I2NBrPF/L/RTvSbFPQuUvrw5bL3xPvgqe4wH2AmwI0wiu/ksvP/6fheMfXEXvFb
++JHjcPbIw0FziAhrQ1Ip6PEn1d69Oz/+fOe+uyAboRDRlXrm1i6jfYbHeY8CSu/L
+2HrsaEU+YHJB1A2jehOL0Sy6OU+Vo2cUi99OLsHAfu1oycHS4maC2LhEFDpz
+</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+	<md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:KeyName>Servizi Locali S.p.A.</ds:KeyName>
+        <ds:X509Data>
+          <ds:X509SubjectName>organizationIdentifier=VATIT-03170580751,2.5.4.83=#0C18737069642E73657276697A696C6F63616C697370612E6974,CN=Servizi Locali S.p.A.,OU=Servizi Locali S.p.A.,O=Servizi Locali S.p.A.,L=Milano,ST=Milano,C=IT</ds:X509SubjectName>
+          <ds:X509Certificate>MIIInDCCBoSgAwIBAgIIfA3j+Gp4sAowDQYJKoZIhvcNAQENBQAwgeUxCzAJBgNV
+BAYTAklUMQ0wCwYDVQQHDARSb21lMSYwJAYDVQQKDB1BZ2VuemlhIHBlciBsJ0l0
+YWxpYSBEaWdpdGFsZTEsMCoGA1UECwwjU2Vydml6aW8gQWNjcmVkaXRhbWVudG8g
+ZSBWaWdpbGFuemExKjAoBgNVBAMMIVByb2dldHRvIFNQSUQgLSBTb2dnZXR0aV9w
+dWJibGljaTEpMCcGCSqGSIb3DQEJARYacHJvdG9jb2xsb0BwZWMuYWdpZC5nb3Yu
+aXQxGjAYBgNVBAUTEVZBVElULTk3NzM1MDIwNTg0MB4XDTIwMTIxNjAwMDAwMFoX
+DTM1MTIxNTIzNTk1OVowgc4xCzAJBgNVBAYTAklUMQ8wDQYDVQQIDAZNaWxhbm8x
+DzANBgNVBAcMBk1pbGFubzEeMBwGA1UECgwVU2Vydml6aSBMb2NhbGkgUy5wLkEu
+MR4wHAYDVQQLDBVTZXJ2aXppIExvY2FsaSBTLnAuQS4xHjAcBgNVBAMMFVNlcnZp
+emkgTG9jYWxpIFMucC5BLjEhMB8GA1UEUwwYc3BpZC5zZXJ2aXppbG9jYWxpc3Bh
+Lml0MRowGAYDVQRhDBFWQVRJVC0wMzE3MDU4MDc1MTCCASIwDQYJKoZIhvcNAQEB
+BQADggEPADCCAQoCggEBAKEq/gr5KQixFS+qi/Ht2AF/Fs/8bnG6efZOaJgCqLPl
+9BSkxrDg+1ipOD07PskmW5/gDLu8B2dEFg/lEmn4IWdZnolEbmKe1luQORMU/vJj
+607MukZvcVxbUiycT+d2kySXS5IFwDc5apXKkfyepwacql1ucKx5USOAfkbShFO3
+nY79pEVwTkRByvhL3E+JT8/vAReiyjlwejnVV/tRyn6vvsiXQi4YZruXzB+9FL2/
+tH1LGAQdFfNDQHncAQMxWMsZFy4vChsR2IVmr6WkRk20dvvQPzyiH/Wz7iUH/fyQ
+GB0sQ1aiu6ykaIBYs1xbr4nbg6M5TiTZHAcPOz6XRt0CAwEAAaOCA2MwggNfMAwG
+A1UdEwEB/wQCMAAwHQYDVR0OBBYEFDqL6IK7O5PXjq2+KmCbIiEtbeexMB8GA1Ud
+IwQYMBaAFDy7bese/Z1uy+5U5uo51YmgR9c0MA4GA1UdDwEB/wQEAwIGwDAWBgNV
+HRIEDzANggtzcGlkLmdvdi5pdDBCBgNVHR8EOzA5MDegNaAzhjFodHRwczovL2Vp
+ZGFzLmFnaWQuZ292Lml0L2NybC9jcmxfU1BJRF9QdWJfU0EuY3JsMDcGCCsGAQUF
+BwEBBCswKTAnBggrBgEFBQcwAYYbaHR0cHM6Ly9vY3NwX1NBLmFnaWQuZ292Lml0
+MIIB2QYDVR0gBIIB0DCCAcwwCQYHBACORgEGAjCBlQYEK0wQBjCBjDBEBggrBgEF
+BQcCAjA4GjZFbGVjdHJvbmljIGNlcnRpZmljYXRlIGNvbmZvcm1pbmcgd2l0aCBB
+R0lEIEd1aWRlbGluZXMwRAYIKwYBBQUHAgIwOBo2Q2VydGlmaWNhdG8gZWxldHRy
+b25pY28gY29uZm9ybWUgYWxsZSBMaW5lZSBndWlkYSBBZ0lEMH0GBitMEAQCAjBz
+MDoGCCsGAQUFBwICMC4aLFNQSUQ6IGFnZ3JlZ2F0b3JlICdmdWxsJyBkaSBzZXJ2
+aXppIHB1YmJsaWNpMDUGCCsGAQUFBwICMCkaJ1NQSUQ6IHB1YmxpYy1zZXJ2aWNl
+cyAnZnVsbCcgQWdncmVnYXRvcjAIBgYEAI96AQMwTQYEK0wQBDBFMEMGCCsGAQUF
+BwIBFjdodHRwczovL2VpZGFzLmFnaWQuZ292Lml0L2Nwcy9BZ0lEX2VJREFTX3Jv
+b3RDQV9jcHMucGRmME8GBgQAjkYBBTBFMEMGCCsGAQUFBwIBFjdodHRwczovL2Vp
+ZGFzLmFnaWQuZ292Lml0L2Nwcy9BZ0lEX2VJREFTX3Jvb3RDQV9jcHMucGRmMBMG
+A1UdJQQMMAoGCCsGAQUFBwMBMHgGCSqGSIb3DQEJDwRrMGkwDgYIKoZIhvcNAwIC
+AgCAMA4GCCqGSIb3DQMEAgIAgDALBglghkgBZQMEASowCwYJYIZIAWUDBAEtMAsG
+CWCGSAFlAwQBAjALBglghkgBZQMEAQUwBwYFKw4DAgcwCgYIKoZIhvcNAwcwDQYJ
+KoZIhvcNAQENBQADggIBAJjx4BK4Y/ynb5v5r5jwXMDplRJDbYp/CIOzaCW2RKcy
+/5YXCTFvl3aXQp6tWkH3zlvklOzDXulFy42BG7u1K2Q+XQ9dIGEXaCgYOTGRIybS
+Ou+1RPya+NmIYSrxnYYGpoIOo5NSL30kDpQ8G9mk2g+sDJSQezFcM8rmVtVIo9BJ
+Q15BhdHVhn3wqV1Tkx2LNp0+In26QAmnd8+1P8x4YScagPbTMUJq7EGi0IwEJ/EC
+p/9mdXi/QDa2b540JIrQUtowazV2gB38MiZzYFe8ljq97sqyAP/HcJoSmYaYfvyv
+MRoSD+lbV1hI46qtRb1FOzXoiDnMo9SVcyEEsdLTvJqazoSencmRwjxMoLe4vn6E
+JOEVpLXd0mC7VOYGLSrmxC4htnX7HXbmQSee82wP6EQxhzbAvL/8XRo8cB5dEH6R
+Qvg4e9nLUzZc4YciYczKVcV+TwvEuaNXHiITwsWSeMftxi0RnYKcLk9w+83kfZPw
+IP7hcS5yofZaX9ZgzuzTIhRderuoyoR8ng/A0hy/sz+9vtaS0pS3vKBy10rEELaS
+9VghdKHZ1wGwhwqTd/pPhbzqn6MrNApFtr5/h0ERO+LEXooEH6Ze1f2ukCo1xtXK
+NSNx2Na/n6Y6fOnMle5/5cFLjUBk2Gpcq1XtaKC9oXLrqTCRK8V7ZTHsvUBEQkWX
+</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://portoditaranto.servizilocalispa.it/Shibboleth.sso/SLO/POST"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://portoditaranto.servizilocalispa.it/Shibboleth.sso/SAML2/POST" index="0" isDefault="true"/>
+    <md:AttributeConsumingService index="0">
+					<md:ServiceName xml:lang="it">set SL spid</md:ServiceName>
+					<md:RequestedAttribute FriendlyName="spidCode" Name="spidCode"/>
+					<md:RequestedAttribute FriendlyName="name" Name="name"/>
+					<md:RequestedAttribute FriendlyName="familyName" Name="familyName"/>
+					<md:RequestedAttribute FriendlyName="fiscalNumber" Name="fiscalNumber"/>
+					<md:RequestedAttribute FriendlyName="email" Name="email"/>
+					</md:AttributeConsumingService></md:SPSSODescriptor>
+<md:Organization>
+					<md:OrganizationName xml:lang="it">Autorità di Sistema Portuale del Mar Ionio</md:OrganizationName>
+					<md:OrganizationDisplayName xml:lang="it">Autorità di Sistema Portuale del Mar Ionio</md:OrganizationDisplayName>
+					<md:OrganizationURL xml:lang="it">https://www.port.taranto.it/index.php/it</md:OrganizationURL>
+					</md:Organization>
+	<md:ContactPerson contactType="other" spid:entityType="spid:aggregator">
+		<md:Company>Servizi Locali S.p.A.</md:Company>
+		<md:EmailAddress>support.spid@servizilocalispa.it</md:EmailAddress> 
+		<md:TelephoneNumber>+390832493096</md:TelephoneNumber>
+		<md:Extensions>			
+			<spid:VATNumber>IT03170580751</spid:VATNumber>
+			<spid:FiscalCode>03170580751</spid:FiscalCode>
+			<spid:PublicServicesFullAggregator/>
+		</md:Extensions>
+	</md:ContactPerson>
+	<md:ContactPerson contactType="other" spid:entityType="spid:aggregated">
+		<md:Company>Autorità di Sistema Portuale del Mar Ionio</md:Company>
+		<md:Extensions>			
+			<spid:IPACode>apt</spid:IPACode>
+			<spid:Public/>
+		</md:Extensions>
+	</md:ContactPerson>
+</md:EntityDescriptor>
