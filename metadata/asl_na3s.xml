@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" ID="_ryj8y9jooewxlo1mn54j0xia7r1f5pehfgzzy4b0fai" entityID="https://www.aslnapoli3sud.it/spid"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/>
+<ds:Reference URI="#_ryj8y9jooewxlo1mn54j0xia7r1f5pehfgzzy4b0fai">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/>
+<ds:DigestValue>0thLmk/CwhA48SdwnkN8GULOrtfLZ3U4xSc/DN2qu9xfJdoNUQBcRAv47hysartWKMr6Ib/LernL
+NPhPNzxepw==</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+fDV+67LW1Nyye9pk60IoB/cx3fzChCRRUrHHN7uTtPuVU7HKxGb6iZ2zgPw1kjiJgymSnAEA+lfi
+PR7+GS5EYkSpo0fIMS2aG9aejyW5kiD1GbfLA98M8BF1PJ8ZSQ4HtFU66J085n1vpk9zPINard5V
+rPD1jkp1hifckt36oHpbmcaRzs70sPKWJPBAZIVVCQsSvrNBFZo4svqW1GyJZYDHCl4QJucfQcI7
+jLD+xwZLmkuo8WTKgxuF/0GFoa+6ttPZPr2pgieZMKsFh6uWatzEIevHQOC03sfzUnajfhwA9LqW
+2kFHzzV7FikDrU0FAazTNpxKk8lNjqf6zSSygw9uIef2UTsKSzW7AcMGxHqOSx/U8iW09pYn72A2
+2PpenSKB/fLZUeaohkmkTvmN19S4DPiKBlwqx8Acgui9qVMPsUS18thvIKU5LmZpkF6EfaHxzfaT
+rBFXDbUHFg5NlLgGrW0E7fNBYoFh9HkCf2jPx6PQ9qJwL4cDnWTgETqi
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+tA5cnhGGJC+JmlwR9JZl7PmS36lYY/BrfGGh3526Fdh3mFM8dOaJJ1ByHP9IyY8b6B1fRKjSPPPR
+6P1MRjoF0EY+rqS3ZPCwp71uZpbtXw6NpH1H1og2X3UrWRTZO1fVuvmG1W4FaK6ETcJ2WvbPh2WW
+l1PxaT+M7+cMDXm/BA/MjQ8YFIx9yiOR2m5Kji5TjDf59uK8vUPgW80vQjbyjQi4Da6TadaGzCQf
+QaylP1wRqkXXoOXoCmeabfgUC2PVoQI3I0rR4e9umA9jdv6yEEOSooPgeBtkAIbaZEiyQQsKdaQY
+JnHZOMUizD84BgVnkq5YoV3PRpC3p/ropb/WT/z/PW5OHN8fEiT+AckH2YjNmnvghhQfd+fPZw1e
+3i7ENJ1kYM4R5lafhkRs82C4FYzBRbbihLDbu9M3yRRlQAUekezRhulVQ+9ZhQfNL1bNnH5wXPjW
+XEvXCOFPvuGGVzmgrbuiV3WeUr9cUwamBfRjbFGzmI+9Ew/E9SWdPoWj
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIEPDCCAqSgAwIBAgIJAKLgGqck94ucMA0GCSqGSIb3DQEBCwUAMDIxMDAuBgNVBAMTJ0FzbE5h
+cG9saTNTdWQgLSBTQU1MIE1ldGFkYXRhIFNpZ25hdHVyZTAeFw0yMDEwMDMxNzMzMDJaFw0zMDEw
+MDExNzMzMDJaMDIxMDAuBgNVBAMTJ0FzbE5hcG9saTNTdWQgLSBTQU1MIE1ldGFkYXRhIFNpZ25h
+dHVyZTCCAaIwDQYJKoZIhvcNAQEBBQADggGPADCCAYoCggGBALQOXJ4RhiQviZpcEfSWZez5kt+p
+WGPwa3xhod+duhXYd5hTPHTmiSdQchz/SMmPG+gdX0So0jzz0ej9TEY6BdBGPq6kt2TwsKe9bmaW
+7V8OjaR9R9aINl91K1kU2TtX1br5htVuBWiuhE3Cdlr2z4dllpdT8Wk/jO/nDA15vwQPzI0PGBSM
+fcojkdpuSo4uU4w3+fbivL1D4FvNL0I28o0IuA2uk2nWhswkH0GspT9cEapF16Dl6Apnmm34FAtj
+1aECNyNK0eHvbpgPY3b+shBDkqKD4HgbZACG2mRIskELCnWkGCZx2TjFIsw/OAYFZ5KuWKFdz0aQ
+t6f66KW/1k/8/z1uThzfHxIk/gHJB9mIzZp74IYUH3fnz2cNXt4uxDSdZGDOEeZWn4ZEbPNguBWM
+wUW24oSw27vTN8kUZUAFHpHs0YbpVUPvWYUHzS9WzZx+cFz41lxL1wjhT77hhlc5oK27old1nlK/
+XFMGpgX0Y2xRs5iPvRMPxPUlnT6FowIDAQABo1UwUzAyBgNVHREEKzApgidBc2xOYXBvbGkzU3Vk
+IC0gU0FNTCBNZXRhZGF0YSBTaWduYXR1cmUwHQYDVR0OBBYEFPXsFU/f7HBUBU3GFYbKf3I20Noj
+MA0GCSqGSIb3DQEBCwUAA4IBgQBbkcdiRy07VMM9FWjslFmuwg9Yz39PcFeFitMhmW6P7MJMIM26
+GOsRyRuuTdS8QN9U+lTpmgaXpOT828IfO4mczQ7c2MUf9j44sOa0RMSNaSbGxMXNTP6UBS+ModJG
+B/qepbJgf43EHY/ARUzW79fRY6Gwu2VSSVvU5ufjVrRYK39mA6vo5lttRWzAWT4g59V/cax2twJY
+AmvKnIvt7TnEarPOqF/SJDF0mxslPNEry/8sQHrbr8hUxf3TbieTMVtogZAWxaJygtyc0thBh5yw
+Ut+cowoempMGYCq2ohThA3nbCoHVtH6e7wtltxJcvdE/G/pIZO0HvuH5GmczxL9VLFx2a33K2uDE
+gjcAqlOHAwp1qQ6C8bkfGEUlakGDoEKeFVPROch1POe7xOW2aWlWdAHDSm3cSgrGn22tL+s3a+CA
+PSVc2Eh+JKzRyt10L2CotdyWlvQyel75TwqSoU9rMSCY1jxrtPvDMnB/6uzqMKJjyo7zLT4xGjg2
+C0bDfq0=
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>
+MIIEITCCAomgAwIBAgIJALHN1Lcg6k1wMA0GCSqGSIb3DQEBCwUAMCkxJzAlBgNV
+BAMTHkFzbE5hcG9saTNTdWQgLSBTQU1MIFNpZ25hdHVyZTAeFw0yMDEwMDMxNzMz
+MDJaFw0zMDEwMDExNzMzMDJaMCkxJzAlBgNVBAMTHkFzbE5hcG9saTNTdWQgLSBT
+QU1MIFNpZ25hdHVyZTCCAaIwDQYJKoZIhvcNAQEBBQADggGPADCCAYoCggGBALZ1
+TK3GhcGgKc4p60xGTMbRQagUlKYgt8leY8s6CPpwro930pibEUnp1TEZ+NFgq23J
+aaHKPq8hKbLanqu8Nm5qIchnnuaemuIXgoNdEl2icffxToCwFhKtCSk9TzJ6KrFp
+uAZIlsqX6nP/KWsCN2dGsxqBMXEER8agNGs2CDXctxjXgBbaB8zSvY5QA2eKaKTI
+TzPovAU+96R1CdSjs51Z9IYmXEKLZNuuzTzsdxRMn6/Fxan/zEVD/Shwh2heoPbO
+P3u42/mufd/6eOPmYgalM2MMG0XGgn7uFTYbjCKgPKF2zhc168oKC3m8wI7C84eO
+GRr4ndqwUycRPnCnP+cn8Z4aLDH+OnHoIe4uAhelp9+Vi2SiFLY0gzwMkYFF/Kmv
+EQ/nuQPdiDeEdhXubOR6OvROyemb5TquC1dEevN0Py3zDkNizw19brNviod78y4I
+j9+Owudv31g9LKlosCmHsdZvebsEgSM5w2Jc6DKwlAt4888nxWYGJbhCcKO6YQID
+AQABo0wwSjApBgNVHREEIjAggh5Bc2xOYXBvbGkzU3VkIC0gU0FNTCBTaWduYXR1
+cmUwHQYDVR0OBBYEFEUNOQ5Q8wMFkL/WG9hIJhDxTB35MA0GCSqGSIb3DQEBCwUA
+A4IBgQBGHfUpa6LhC5YMoFN0ysQB5FU84SNyL0JRjL7IFRiBr89V3KCMbXfE5sTj
+5By8nP/O7iD+Fxua3HALEYvAIR5E78GY5dus79aYMM4xvxPr/HTIqcQXOyS/pSdI
+e3LmtTR5E2fvOwj9AozHoDkxBiZXkx5+sZ65qYX5y/IhAsn1PYlTF6ChvSq/LUrS
+zB1O7fJ8Hyo+qmedOmRKEx+8XnmSxkuqCywpUMOVBUJUiHvIDJQv1AJkA4lu27Lz
+7uEy+3aAAnyWWbJ7HB1lI6Cl9FSPAHA/rvDEo0Jnml2tEZ5tPiT0w9ScBjLu4RrM
+p2yOZJEQq8sL3VFM/BmFxSWkOoaR3hNWuY32WtXkMO3aSo9r8zkrILuLiBAJ3UVD
+kurRvDuzZak1L53w6TcwM372qATkHsywyy9UDqyeZh9J2rUoJB3/zsPVqAPpoc07
+9SnAA2yt5/6kClVC9pWKvqc1bLgyQ8OHI/ZlRwwtFwKVLp90HxE+zFTzqztKGK57
+P/Pr7Tk=
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://auth.aslnapoli3sud.it/iam/SLO/Redirect"/>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://auth.aslnapoli3sud.it/iam/SLO/POST"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://auth.aslnapoli3sud.it/iam/SAML2/POST" index="0" isDefault="true"/>
+<md:AttributeConsumingService index="1"> <md:ServiceName xml:lang="it">auth</md:ServiceName> <md:RequestedAttribute Name="fiscalNumber"/> <md:RequestedAttribute Name="spidCode"/> <md:RequestedAttribute Name="name"/> <md:RequestedAttribute Name="familyName"/> <md:RequestedAttribute Name="mobilePhone"/> <md:RequestedAttribute Name="email"/> </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Azienda Sanitaria Locale Napoli 3 Sud</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">aslnapoli3sud</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.aslnapoli3sud.it/spid</md:OrganizationURL>
+  </md:Organization>
+<md:ContactPerson contactType="other">
+	<md:Extensions>
+		<spid:VATNumber>IT06322711216</spid:VATNumber>
+		<spid:Private/>
+	</md:Extensions>
+	<md:EmailAddress>relazionipubbliche@aslnapoli3sud.it</md:EmailAddress>
+</md:ContactPerson>
+</md:EntityDescriptor>

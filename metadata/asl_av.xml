@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" entityID="https://www.aslavellino.it/spid/module.php/saml/sp/metadata.php/default-sp" ID="pfx8b803aa0-53a9-d5d5-ed66-29598b472935"><ds:Signature>
+  <ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+    <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+  <ds:Reference URI="#pfx8b803aa0-53a9-d5d5-ed66-29598b472935"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>rMZdaZu3Mvgfif3S6xW0tXTAbebnFyRXArPXWrwxLSg=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>bFvrMHVQM/90u4AG0fkT/FGzC2bh7bRgFxAQeHNiCVKoKP+NlKR1oLaFkCnsaNXyQ05Yut03Rz2KQdUqVLpNKLbLr3WlxdPFFjwsZsdRUxin/PSxiCvHixstzHzTXLfq4ci5iLKAylFmGw+3I0shos4Nhkaj086VYV19yZ4fa+N6XsIFBGgzLUlXpyPOWQu0i7OeX2pSfMFy51WyEaOSOZqOJ+Vo91nVmvu3E+zKaJpUmQ5ZFUBBAZ+MgfttUetuVcwWXTzKowP0E3LPhpPhDl8xR06Hp9xGXGrRSLIDpeV0QPhB+Zw+8FwpIwqZMCfi3DL1mINkQv7DVRiPxqilrw==</ds:SignatureValue>
+<ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIELzCCAxegAwIBAgIIf0ZABOosWLAwDQYJKoZIhvcNAQELBQAwgawxCzAJBgNVBAYTAklUMREwDwYDVQQIDAhBdmVsbGlubzERMA8GA1UEBwwIQXZlbGxpbm8xFTATBgNVBAoMDEFzbCBBdmVsbGlubzEVMBMGA1UECwwMQXNsIEF2ZWxsaW5vMRswGQYDVQQDDBJ3d3cuYXNsYXZlbGxpbm8uaXQxLDAqBgkqhkiG9w0BCQEWHXByb3RvY29sbG9AcGVjLmFzbGF2ZWxsaW5vLml0MB4XDTIwMDkxNjE0NDIwMloXDTQwMDkxNTE0NDIwMlowgawxCzAJBgNVBAYTAklUMREwDwYDVQQIDAhBdmVsbGlubzERMA8GA1UEBwwIQXZlbGxpbm8xFTATBgNVBAoMDEFzbCBBdmVsbGlubzEVMBMGA1UECwwMQXNsIEF2ZWxsaW5vMRswGQYDVQQDDBJ3d3cuYXNsYXZlbGxpbm8uaXQxLDAqBgkqhkiG9w0BCQEWHXByb3RvY29sbG9AcGVjLmFzbGF2ZWxsaW5vLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAya1pDVnShQ5c56Ble097DluoiJTuKLfztop9lRfkjH7pblgENprokiuZ+UEawye3ET0R6+92Z6oFG/Syz9IwFtKhNMSZckDXg1LIJ8FIbxD/5BSHpv7V94KFTKMHThGPQzSVrxN393fhxZDDihMFZl5pTf+nztks1sgKTHRACgoiqoy7p8yUaNrW4kqCOhcpGy8TM0xT3y1dLUm0Uma0bOC0PshU2AzF60PCsmZKibpULeG2UDaBXPSLkJiIMpcKMelvpTqKwsqM9OYuTvF07Xw4VE2jCfJj8H5AoULIG5Bdm5sR1xX0d9IOWPEVRm4uzEbwi86i/q7YDyt5JM2UYwIDAQABo1MwUTAdBgNVHQ4EFgQUU0jCphGhK2ofUm3marUODujmTe0wHwYDVR0jBBgwFoAUU0jCphGhK2ofUm3marUODujmTe0wDwYDVR0TAQH/BAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAKilS63CnL501vmwiDFPv7tvMxbSfPgfmYQAtodcnbij/SIa2J2yh/MB3LM1Z9fuqkiABsYKBCXXvjwHEbGPCNxst53n669UKx9yli80Y4zmuKaIMNKkPxwx/oEmOnJLUXeP5Nb/KIzmMMaOCaw5x6VOyQK9qs4cYHA3GXAEvpYDE/zUBRaIE6sSQju+mWgNlQoyCyILrYIwfFtkUPPTRPHptWfJkr6TaP2+My072vnqFAB7wbdUtuHwhbVuGYOm+W9Shy+pA/vEiZzgg/C4BDU49pSaVfmw07ShIQ3cWt37K80rGCyi8EzbmJ4wtd8DcTPosFi3HLcOijgPxW+Q9zw==</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature>
+  <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true" WantAssertionsSigned="true">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIELzCCAxegAwIBAgIIf0ZABOosWLAwDQYJKoZIhvcNAQELBQAwgawxCzAJBgNVBAYTAklUMREwDwYDVQQIDAhBdmVsbGlubzERMA8GA1UEBwwIQXZlbGxpbm8xFTATBgNVBAoMDEFzbCBBdmVsbGlubzEVMBMGA1UECwwMQXNsIEF2ZWxsaW5vMRswGQYDVQQDDBJ3d3cuYXNsYXZlbGxpbm8uaXQxLDAqBgkqhkiG9w0BCQEWHXByb3RvY29sbG9AcGVjLmFzbGF2ZWxsaW5vLml0MB4XDTIwMDkxNjE0NDIwMloXDTQwMDkxNTE0NDIwMlowgawxCzAJBgNVBAYTAklUMREwDwYDVQQIDAhBdmVsbGlubzERMA8GA1UEBwwIQXZlbGxpbm8xFTATBgNVBAoMDEFzbCBBdmVsbGlubzEVMBMGA1UECwwMQXNsIEF2ZWxsaW5vMRswGQYDVQQDDBJ3d3cuYXNsYXZlbGxpbm8uaXQxLDAqBgkqhkiG9w0BCQEWHXByb3RvY29sbG9AcGVjLmFzbGF2ZWxsaW5vLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAya1pDVnShQ5c56Ble097DluoiJTuKLfztop9lRfkjH7pblgENprokiuZ+UEawye3ET0R6+92Z6oFG/Syz9IwFtKhNMSZckDXg1LIJ8FIbxD/5BSHpv7V94KFTKMHThGPQzSVrxN393fhxZDDihMFZl5pTf+nztks1sgKTHRACgoiqoy7p8yUaNrW4kqCOhcpGy8TM0xT3y1dLUm0Uma0bOC0PshU2AzF60PCsmZKibpULeG2UDaBXPSLkJiIMpcKMelvpTqKwsqM9OYuTvF07Xw4VE2jCfJj8H5AoULIG5Bdm5sR1xX0d9IOWPEVRm4uzEbwi86i/q7YDyt5JM2UYwIDAQABo1MwUTAdBgNVHQ4EFgQUU0jCphGhK2ofUm3marUODujmTe0wHwYDVR0jBBgwFoAUU0jCphGhK2ofUm3marUODujmTe0wDwYDVR0TAQH/BAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAKilS63CnL501vmwiDFPv7tvMxbSfPgfmYQAtodcnbij/SIa2J2yh/MB3LM1Z9fuqkiABsYKBCXXvjwHEbGPCNxst53n669UKx9yli80Y4zmuKaIMNKkPxwx/oEmOnJLUXeP5Nb/KIzmMMaOCaw5x6VOyQK9qs4cYHA3GXAEvpYDE/zUBRaIE6sSQju+mWgNlQoyCyILrYIwfFtkUPPTRPHptWfJkr6TaP2+My072vnqFAB7wbdUtuHwhbVuGYOm+W9Shy+pA/vEiZzgg/C4BDU49pSaVfmw07ShIQ3cWt37K80rGCyi8EzbmJ4wtd8DcTPosFi3HLcOijgPxW+Q9zw==</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIELzCCAxegAwIBAgIIf0ZABOosWLAwDQYJKoZIhvcNAQELBQAwgawxCzAJBgNVBAYTAklUMREwDwYDVQQIDAhBdmVsbGlubzERMA8GA1UEBwwIQXZlbGxpbm8xFTATBgNVBAoMDEFzbCBBdmVsbGlubzEVMBMGA1UECwwMQXNsIEF2ZWxsaW5vMRswGQYDVQQDDBJ3d3cuYXNsYXZlbGxpbm8uaXQxLDAqBgkqhkiG9w0BCQEWHXByb3RvY29sbG9AcGVjLmFzbGF2ZWxsaW5vLml0MB4XDTIwMDkxNjE0NDIwMloXDTQwMDkxNTE0NDIwMlowgawxCzAJBgNVBAYTAklUMREwDwYDVQQIDAhBdmVsbGlubzERMA8GA1UEBwwIQXZlbGxpbm8xFTATBgNVBAoMDEFzbCBBdmVsbGlubzEVMBMGA1UECwwMQXNsIEF2ZWxsaW5vMRswGQYDVQQDDBJ3d3cuYXNsYXZlbGxpbm8uaXQxLDAqBgkqhkiG9w0BCQEWHXByb3RvY29sbG9AcGVjLmFzbGF2ZWxsaW5vLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAya1pDVnShQ5c56Ble097DluoiJTuKLfztop9lRfkjH7pblgENprokiuZ+UEawye3ET0R6+92Z6oFG/Syz9IwFtKhNMSZckDXg1LIJ8FIbxD/5BSHpv7V94KFTKMHThGPQzSVrxN393fhxZDDihMFZl5pTf+nztks1sgKTHRACgoiqoy7p8yUaNrW4kqCOhcpGy8TM0xT3y1dLUm0Uma0bOC0PshU2AzF60PCsmZKibpULeG2UDaBXPSLkJiIMpcKMelvpTqKwsqM9OYuTvF07Xw4VE2jCfJj8H5AoULIG5Bdm5sR1xX0d9IOWPEVRm4uzEbwi86i/q7YDyt5JM2UYwIDAQABo1MwUTAdBgNVHQ4EFgQUU0jCphGhK2ofUm3marUODujmTe0wHwYDVR0jBBgwFoAUU0jCphGhK2ofUm3marUODujmTe0wDwYDVR0TAQH/BAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAKilS63CnL501vmwiDFPv7tvMxbSfPgfmYQAtodcnbij/SIa2J2yh/MB3LM1Z9fuqkiABsYKBCXXvjwHEbGPCNxst53n669UKx9yli80Y4zmuKaIMNKkPxwx/oEmOnJLUXeP5Nb/KIzmMMaOCaw5x6VOyQK9qs4cYHA3GXAEvpYDE/zUBRaIE6sSQju+mWgNlQoyCyILrYIwfFtkUPPTRPHptWfJkr6TaP2+My072vnqFAB7wbdUtuHwhbVuGYOm+W9Shy+pA/vEiZzgg/C4BDU49pSaVfmw07ShIQ3cWt37K80rGCyi8EzbmJ4wtd8DcTPosFi3HLcOijgPxW+Q9zw==</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.aslavellino.it/spid/module.php/saml/sp/saml2-logout.php/default-sp"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.aslavellino.it/spid/module.php/saml/sp/saml2-acs.php/default-sp" index="0" isDefault="true"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">aslavellino</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Asl Avellino / Avellino (Avellino)</md:ServiceDescription>
+      <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Asl Avellino / Avellino</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Asl Avellino / Avellino</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.aslavellino.it</md:OrganizationURL>
+  </md:Organization>
+  <md:ContactPerson contactType="other">
+    <md:Extensions><spid:IPACode xmlns:spid="https://spid.gov.it/saml-extensions">asl_av</spid:IPACode><spid:Public xmlns:spid="https://spid.gov.it/saml-extensions"/></md:Extensions><md:EmailAddress>info@aslavellino.it</md:EmailAddress>
+  </md:ContactPerson>
+</md:EntityDescriptor>
