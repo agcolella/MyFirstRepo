@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" ID="_86017d1cedef1ceeaf49a65a1863e1a79efbafb90d433bf7722c39144f681910" entityID="https://www.comune.arenzano.ge.it"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#_86017d1cedef1ceeaf49a65a1863e1a79efbafb90d433bf7722c39144f681910">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>FR02LoCs8dXEONZTQQYY6Bebj3E0Dd0kYPVV9ySe0F0=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+dHTSoqJ9O9wgn3mUk8Ngv70ni6/kh/toE/ItMFYXcKr0icdqNiTp20/p/Q+b8WKsyxJSVUKaGxiw
+ddxmPBj3Tlh0SNoKwVjtoRSq/R7reKburkcHig2+lW6roY/1kj2qU0UmLoE9q5Xv+AkoseBscgDD
+qUcDxCo3qdA9rJH50Q8bVPlCWghieEUZdWIOseNoHOsUxzA/4WdhAKVMsX5P0EwAQ1brpr4xEQ3D
+wqfFYNPnFuSbHVQaZc9JrnTtDYo9RHJjBzS90e8+v1gn4t0UsVvyO7waMTgvDbGFrl+Wi6JFD0SW
+1z60sXpw/YMKwWaFCr85H0wgZiCbYgu01GDgmg==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+zBEZaCLEnpAlMbk7d/z6Qkv8Wzk/pP7/mVJWlkyyTJ+gJNhGwf6ax5OEfZWjz65Z72T99NtyUoX/
+KgrhZ+muRCul3B8FJwAf/bOpXiqyrJD1hJ+Q64TJL41PtaQs9pKytUpsKuwDp3aZO3SolMFAtvtY
+0qOd0LlUJXIw/8QBSK1WeC2AjA7Y6hhg4V9QfTvGgncvWED11Rzyyx+3A6TOJABY/lYhHs/HY+Rk
+Eoc9rBsCwEipozVhRhHS/QvQdZlHazmYo+emMwCSHknnAtkvy1Lw0naN86HmbrgIci+X8GNxmHbF
+sOXXL/mvtLVEXcdd1zpaueSD4hY7p6ssc+bGZw==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDtTCCAp2gAwIBAgIJAK87+8N5cHjfMA0GCSqGSIb3DQEBCwUAMHExCzAJBgNVBAYTAklUMQ4w
+DAYDVQQIDAVJdGFseTERMA8GA1UEBwwIQXJlbnphbm8xGzAZBgNVBAoMEkNvbXVuZSBkaSBBcmVu
+emFubzEiMCAGA1UEAwwZd3d3LmNvbXVuZS5hcmVuemFuby5nZS5pdDAeFw0yNDAyMTkwOTI3MDFa
+Fw0zNDAyMTgwOTI3MDFaMHExCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTERMA8GA1UEBwwI
+QXJlbnphbm8xGzAZBgNVBAoMEkNvbXVuZSBkaSBBcmVuemFubzEiMCAGA1UEAwwZd3d3LmNvbXVu
+ZS5hcmVuemFuby5nZS5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMwRGWgixJ6Q
+JTG5O3f8+kJL/Fs5P6T+/5lSVpZMskyfoCTYRsH+mseThH2Vo8+uWe9k/fTbclKF/yoK4WfprkQr
+pdwfBScAH/2zqV4qsqyQ9YSfkOuEyS+NT7WkLPaSsrVKbCrsA6d2mTt0qJTBQLb7WNKjndC5VCVy
+MP/EAUitVngtgIwO2OoYYOFfUH07xoJ3L1hA9dUc8ssftwOkziQAWP5WIR7Px2PkZBKHPawbAsBI
+qaM1YUYR0v0L0HWZR2s5mKPnpjMAkh5J5wLZL8tS8NJ2jfOh5m64CHIvl/BjcZh2xbDl1y/5r7S1
+RF3HXdc6Wrnkg+IWO6erLHPmxmcCAwEAAaNQME4wHQYDVR0OBBYEFGq+i5Je1nYsMPPkLWPXk/yn
+ZDmfMB8GA1UdIwQYMBaAFGq+i5Je1nYsMPPkLWPXk/ynZDmfMAwGA1UdEwQFMAMBAf8wDQYJKoZI
+hvcNAQELBQADggEBABxXBkJi5Hci0jbwsAMkAaE0Rug7BhZPIEEwrrO3rd0+L2z1K2hz3UZjFCJ4
+VmUR9cEV+UYiGMdgbXSoelDZWEVCYTnmEzLW7nupa4tm3Vj1+okCPMVfZYehPsytB9hEbqNR6Fgd
+RhIty+YNlruZfIUAC13ar656Pn1yug6BU7n6wFhXG7M8flEjEufF+n+p8BmA/2tDbcRpk3rlXTnd
+Ijgx+tTFbGV0OoKvD0scaSYP79ACl1sSwdzmAIIdnrzZ+IwIsYEugRXhBEG1r4BDJBXxjeFQBvVX
+VLwNb9ZKID5ACkxpGIZQaqhHO5ThyDmuY+XQi99/rTAAxmlXRRtVCtE=
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDtTCCAp2gAwIBAgIJAK87+8N5cHjfMA0GCSqGSIb3DQEBCwUAMHExCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTERMA8GA1UEBwwIQXJlbnphbm8xGzAZBgNVBAoMEkNvbXVuZSBkaSBBcmVuemFubzEiMCAGA1UEAwwZd3d3LmNvbXVuZS5hcmVuemFuby5nZS5pdDAeFw0yNDAyMTkwOTI3MDFaFw0zNDAyMTgwOTI3MDFaMHExCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTERMA8GA1UEBwwIQXJlbnphbm8xGzAZBgNVBAoMEkNvbXVuZSBkaSBBcmVuemFubzEiMCAGA1UEAwwZd3d3LmNvbXVuZS5hcmVuemFuby5nZS5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMwRGWgixJ6QJTG5O3f8+kJL/Fs5P6T+/5lSVpZMskyfoCTYRsH+mseThH2Vo8+uWe9k/fTbclKF/yoK4WfprkQrpdwfBScAH/2zqV4qsqyQ9YSfkOuEyS+NT7WkLPaSsrVKbCrsA6d2mTt0qJTBQLb7WNKjndC5VCVyMP/EAUitVngtgIwO2OoYYOFfUH07xoJ3L1hA9dUc8ssftwOkziQAWP5WIR7Px2PkZBKHPawbAsBIqaM1YUYR0v0L0HWZR2s5mKPnpjMAkh5J5wLZL8tS8NJ2jfOh5m64CHIvl/BjcZh2xbDl1y/5r7S1RF3HXdc6Wrnkg+IWO6erLHPmxmcCAwEAAaNQME4wHQYDVR0OBBYEFGq+i5Je1nYsMPPkLWPXk/ynZDmfMB8GA1UdIwQYMBaAFGq+i5Je1nYsMPPkLWPXk/ynZDmfMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBABxXBkJi5Hci0jbwsAMkAaE0Rug7BhZPIEEwrrO3rd0+L2z1K2hz3UZjFCJ4VmUR9cEV+UYiGMdgbXSoelDZWEVCYTnmEzLW7nupa4tm3Vj1+okCPMVfZYehPsytB9hEbqNR6FgdRhIty+YNlruZfIUAC13ar656Pn1yug6BU7n6wFhXG7M8flEjEufF+n+p8BmA/2tDbcRpk3rlXTndIjgx+tTFbGV0OoKvD0scaSYP79ACl1sSwdzmAIIdnrzZ+IwIsYEugRXhBEG1r4BDJBXxjeFQBvVXVLwNb9ZKID5ACkxpGIZQaqhHO5ThyDmuY+XQi99/rTAAxmlXRRtVCtE=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDtTCCAp2gAwIBAgIJAK87+8N5cHjfMA0GCSqGSIb3DQEBCwUAMHExCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTERMA8GA1UEBwwIQXJlbnphbm8xGzAZBgNVBAoMEkNvbXVuZSBkaSBBcmVuemFubzEiMCAGA1UEAwwZd3d3LmNvbXVuZS5hcmVuemFuby5nZS5pdDAeFw0yNDAyMTkwOTI3MDFaFw0zNDAyMTgwOTI3MDFaMHExCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTERMA8GA1UEBwwIQXJlbnphbm8xGzAZBgNVBAoMEkNvbXVuZSBkaSBBcmVuemFubzEiMCAGA1UEAwwZd3d3LmNvbXVuZS5hcmVuemFuby5nZS5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMwRGWgixJ6QJTG5O3f8+kJL/Fs5P6T+/5lSVpZMskyfoCTYRsH+mseThH2Vo8+uWe9k/fTbclKF/yoK4WfprkQrpdwfBScAH/2zqV4qsqyQ9YSfkOuEyS+NT7WkLPaSsrVKbCrsA6d2mTt0qJTBQLb7WNKjndC5VCVyMP/EAUitVngtgIwO2OoYYOFfUH07xoJ3L1hA9dUc8ssftwOkziQAWP5WIR7Px2PkZBKHPawbAsBIqaM1YUYR0v0L0HWZR2s5mKPnpjMAkh5J5wLZL8tS8NJ2jfOh5m64CHIvl/BjcZh2xbDl1y/5r7S1RF3HXdc6Wrnkg+IWO6erLHPmxmcCAwEAAaNQME4wHQYDVR0OBBYEFGq+i5Je1nYsMPPkLWPXk/ynZDmfMB8GA1UdIwQYMBaAFGq+i5Je1nYsMPPkLWPXk/ynZDmfMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBABxXBkJi5Hci0jbwsAMkAaE0Rug7BhZPIEEwrrO3rd0+L2z1K2hz3UZjFCJ4VmUR9cEV+UYiGMdgbXSoelDZWEVCYTnmEzLW7nupa4tm3Vj1+okCPMVfZYehPsytB9hEbqNR6FgdRhIty+YNlruZfIUAC13ar656Pn1yug6BU7n6wFhXG7M8flEjEufF+n+p8BmA/2tDbcRpk3rlXTndIjgx+tTFbGV0OoKvD0scaSYP79ACl1sSwdzmAIIdnrzZ+IwIsYEugRXhBEG1r4BDJBXxjeFQBvVXVLwNb9ZKID5ACkxpGIZQaqhHO5ThyDmuY+XQi99/rTAAxmlXRRtVCtE=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://www.comune.arenzano.ge.it/spid/module.php/saml/sp/saml2-logout.php/spid"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.comune.arenzano.ge.it/spid/module.php/saml/sp/saml2-acs.php/spid" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://www.comune.arenzano.ge.it/spid/module.php/saml/sp/saml2-acs.php/spid" index="1"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">Servizi online</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Servizi online</md:ServiceDescription>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Codice identificativo SPID" Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Ragione o denominazione sociale" Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Arenzano</md:OrganizationName>
+    <md:OrganizationName xml:lang="en">Comune di Arenzano</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Arenzano</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Arenzano</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.comune.arenzano.ge.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="en">https://www.comune.arenzano.ge.it</md:OrganizationURL>
+  </md:Organization>
+  <md:ContactPerson contactType="other">
+    <md:Extensions>
+      <spid:IPACode>c_a388</spid:IPACode>
+      <spid:Public/>
+    </md:Extensions>
+    <md:Company>Comune di Arenzano</md:Company>
+    <md:EmailAddress>egov@halley.it</md:EmailAddress>
+  </md:ContactPerson>
+</md:EntityDescriptor>
