@@ -21,19 +21,27 @@ jobs:
           mkdir -p registro_files/
           mkdir -p temp_stage/
 
-          # 1. Copia i file XML sfusi
+          # 1. Copia i file XML sfusi caricati in uploads/
           find uploads/ -maxdepth 1 -name "*.xml" -exec cp {} temp_stage/ \;
 
-          # 2. Gestione ZIP
-          if ls uploads/*.zip 1> /dev/null 2>&1; then
-            unzip -o uploads/*.zip -d temp_zip/
-            find temp_zip/ -name "*.xml" -exec cp {} temp_stage/ \;
+          # 2. Gestione ZIP: Ciclo for per estrarre ogni archivio trovato
+          # Usiamo '|| true' per evitare che il workflow si blocchi se non ci sono zip
+          for f in uploads/*.zip; do
+            [ -e "$f" ] || continue
+            echo "Estrazione di $f..."
+            unzip -o "$f" -d temp_zip_extract/
+            find temp_zip_extract/ -name "*.xml" -exec cp {} temp_stage/ \;
+            rm -rf temp_zip_extract/
+          done
+
+          # 3. Consolidamento finale (solo se sono stati trovati file XML)
+          if [ -n "$(ls -A temp_stage/*.xml 2>/dev/null)" ]; then
+            cp -r temp_stage/*.xml registro_files/
+          else
+            echo "Attenzione: Nessun file XML trovato tra sfusi e ZIP."
           fi
 
-          # 3. Consolidamento nel registro
-          cp -r temp_stage/*.xml registro_files/
-
-          # 4. Pulizia
+          # 4. Pulizia totale della cartella uploads
           rm -rf uploads/*
           touch uploads/.gitkeep
 
