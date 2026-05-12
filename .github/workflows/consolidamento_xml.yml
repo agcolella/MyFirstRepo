@@ -3,9 +3,9 @@ name: Consolidamento Registro XML
 on:
   push:
     paths:
-      - 'uploads/**'
+      - 'uploads/**' # Si attiva al caricamento di file in uploads/
 
-# Impostiamo la variabile a livello di job per forzare Node.js 24
+# Forza l'uso di Node.js 24 per tutte le Action (standard maggio 2026)
 env:
   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
@@ -14,46 +14,59 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout del codice
-        uses: actions/checkout@v5 # Passiamo alla v5 (o successiva disponibile nel 2026)
+        uses: actions/checkout@v5 # Versione aggiornata per Node 24
+
+      # Genera la data corretta da usare nel titolo della PR
+      - name: Genera data attuale
+        id: date
+        run: echo "today=$(date +'%d/%m/%Y')" >> $GITHUB_OUTPUT
 
       - name: Estrazione e Filtro
         run: |
           mkdir -p registro_files/
           mkdir -p temp_stage/
 
-          # 1. Copia i file XML sfusi caricati in uploads/
+          # 1. Copia i file XML già sfusi presenti in uploads/
           find uploads/ -maxdepth 1 -name "*.xml" -exec cp {} temp_stage/ \;
 
-          # 2. Gestione ZIP: Ciclo for per estrarre ogni archivio trovato
-          # Usiamo '|| true' per evitare che il workflow si blocchi se non ci sono zip
+          # 2. Gestione sicura degli ZIP (evita exit code 11)
+          # Il ciclo for gestisce ogni archivio singolarmente
           for f in uploads/*.zip; do
             [ -e "$f" ] || continue
-            echo "Estrazione di $f..."
+            echo "Elaborazione di $f..."
             unzip -o "$f" -d temp_zip_extract/
+            # Preleva solo gli XML dall'archivio, ignorando i JSON
             find temp_zip_extract/ -name "*.xml" -exec cp {} temp_stage/ \;
             rm -rf temp_zip_extract/
           done
 
-          # 3. Consolidamento finale (solo se sono stati trovati file XML)
+          # 3. Sposta i file consolidati nel registro finale
           if [ -n "$(ls -A temp_stage/*.xml 2>/dev/null)" ]; then
             cp -r temp_stage/*.xml registro_files/
           else
-            echo "Attenzione: Nessun file XML trovato tra sfusi e ZIP."
+            echo "Nessun file XML trovato."
           fi
 
-          # 4. Pulizia totale della cartella uploads
+          # 4. Pulizia automatica della cartella uploads
           rm -rf uploads/*
           touch uploads/.gitkeep
 
       - name: Crea Pull Request per Utente A
-        uses: peter-evans/create-pull-request@v7 # Aggiornato alla v7 per Node 24
+        uses: peter-evans/create-pull-request@v7 # Versione aggiornata per Node 24
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          commit-message: "Aggiornamento automatico registro XML (Node 24)"
+          commit-message: "Aggiornamento automatico registro XML"
           branch: revisione-dati-giornalieri
           delete-branch: true
-          title: "📂 Revisione Dati XML - $(date +'%d/%m/%Y')"
+          # Titolo dinamico con la data calcolata nello step precedente
+          title: "📂 Revisione Dati XML - ${{ steps.date.outputs.today }}"
           body: |
-            Aggiornamento consolidato (compatibile con Node.js 24).
-            - XML estratti e consolidati.
-            - JSON scartati.
+            L'automazione ha consolidato i dati ricevuti oggi (${{ steps.date.outputs.today }}):
+            - XML estratti dagli archivi ZIP.
+            - XML caricati come file sfusi inclusi.
+            - File JSON e altri formati scartati automaticamente.
+            - Cartella `uploads/` ripulita per il prossimo invio.
+            
+            **Istruzioni per il Rollback:**
+            Se i dati non sono corretti, chiudi questa Pull Request senza fare il Merge. 
+            Se hai già fatto il Merge, usa il tasto "Revert" nella scheda della PR.
