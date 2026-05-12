@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:spid="https://spid.gov.it/saml-extensions" ID="r_umbria__02915750547" cacheDuration="P1M" entityID="https://login.regione.umbria.it/gw/spid-meta/pub-ag-full/r_umbria" xmlns:xml="http://www.w3.org/XML/1998/namespace">
+	<Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#WithComments"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><DigestValue>J4dKrPsvNOC2lDJTmhlNbIcytaA29LaUsNxNPURqA7k=</DigestValue></Reference></SignedInfo><SignatureValue>d9J25rqVxGQ4UOl6dhZ95fdfJVrcilQBxORyjhq3TF0vDduyf4huCb1tKfPxpyu/uizSb5XyPqO/
+CxzN6QpMrJa9LPgXGv+Y7za66zVdfKeObMW380qA5o/Jf+kK19ZwJTjEDKrPyou7Muy+C1sq5Ns+
+8Ycj9SkXEmAmpqJVjvKnVBvemhD5XvRWNLHuhJJCat80fm/lwo/+W226XlKfwrt/qbwOuzhJFGHu
+x6SQrw1d6QnRirgAI8rdifaGsOryDiu/JqmUgfYdl6lU6kSIPQaWrhA3VWhCTOTML9yAjTyyMCe/
+NjRAuYXpzBEl0oevAxL0gbTerPdLcx/rIqF1Ig==</SignatureValue><KeyInfo><X509Data><X509Certificate>MIIDljCCAn6gAwIBAgIEV9+HqjANBgkqhkiG9w0BAQsFADCBizELMAkGA1UEBhMCSVQxDjAMBgNV
+BAgTBUl0YWx5MRAwDgYDVQQHEwdQZXJ1Z2lhMRcwFQYDVQQKEw5SZWdpb25lIFVtYnJpYTEfMB0G
+A1UECxMWU2Vydml6aW8gUG9saXRpY2hlIElDVDEgMB4GA1UEAxMXbG9naW4ucmVnaW9uZS51bWJy
+aWEuaXQwIBcNMTYwOTE5MDYzNzMwWhgPMjA2NjA5MDcwNjM3MzBaMIGLMQswCQYDVQQGEwJJVDEO
+MAwGA1UECBMFSXRhbHkxEDAOBgNVBAcTB1BlcnVnaWExFzAVBgNVBAoTDlJlZ2lvbmUgVW1icmlh
+MR8wHQYDVQQLExZTZXJ2aXppbyBQb2xpdGljaGUgSUNUMSAwHgYDVQQDExdsb2dpbi5yZWdpb25l
+LnVtYnJpYS5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAJrZobAphlxACvG/i/1I
+l97WiASaOgSQAd4TnUpsSkT8fR+8YqQDCK2XkXGkOvocPvK65j5UG8t3EpAyz+b5ZlLISfvVx678
+7t5NZ0hf+z99xBDzt/IiQFIxYmm29NicItd2f/dYJJzYHLqpb0zJTVKZNt5kA3zaWJ0YYCoLbKR9
+FxQjq0lWgCNdEKRliBQwcYG47OQjeAjd/dx3OhcKytjvX/aOJ0QSbdiPBgvs8UhcwS1igIeebdOl
+i3yG31IgcRhiHe+oZ6Cz827VlKQJdVBkanK81Qa/0qC+Ay5z6WObjmvdYYZN1WaJyL/oJ9oHCfxn
+EwQpzp8z9fd4nwpTxDcCAwEAATANBgkqhkiG9w0BAQsFAAOCAQEAVjGyDLpmOl7MHyBOFt8eaI75
+GTalQ9D50bXx0X5xaGgEUKA9YbEY/O5MWJJpVKGh2BVW0Lw3dzZskMdL/Eey6/AWkv2fDHI8eiGm
+soD98Q8L/ZW0mg5v7nYKjcle1m5/wGj6sFoE4MRvqdL/99yuUAUSo2P63jqycuTC14bYEG7dgsl6
+/0qf3tIBjgO8Fu1VKrfyOYrZB1zJ+fpKEHUb0sLGPbyJt+ZvXVjB+HhilZhepVRLP5z3Pd3YjOFB
+rxoY0J6uX7y2iG6A2stcHZSSW9s+c40Is3I5jLpXo8GyZ172ZAzQSUH9tYx44q/k7VS0ka7yj4l7
+9msXCjCQ4vyV/Q==</X509Certificate></X509Data></KeyInfo></Signature><md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+		<md:KeyDescriptor use="signing">
+			<ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+				<ds:X509Data>
+					<ds:X509Certificate>MIIIBDCCBeygAwIBAgIIQ9414cSCJfkwDQYJKoZIhvcNAQENBQAwgeUxCzAJBgNV
+BAYTAklUMQ0wCwYDVQQHDARSb21lMSYwJAYDVQQKDB1BZ2VuemlhIHBlciBsJ0l0
+YWxpYSBEaWdpdGFsZTEsMCoGA1UECwwjU2Vydml6aW8gQWNjcmVkaXRhbWVudG8g
+ZSBWaWdpbGFuemExKjAoBgNVBAMMIVByb2dldHRvIFNQSUQgLSBTb2dnZXR0aV9w
+dWJibGljaTEpMCcGCSqGSIb3DQEJARYacHJvdG9jb2xsb0BwZWMuYWdpZC5nb3Yu
+aXQxGjAYBgNVBAUTEVZBVElULTk3NzM1MDIwNTg0MB4XDTIyMDkyMTAwMDAwMFoX
+DTM3MDkyMDIzNTk1OVowgcUxCzAJBgNVBAYTAklUMRAwDgYDVQQIDAdQZXJ1Z2lh
+MRAwDgYDVQQHDAdQZXJ1Z2lhMR0wGwYDVQQKDBRQdW50b1plcm8gUy5jLmEgci5s
+LjEgMB4GA1UEAwwXbG9naW4ucmVnaW9uZS51bWJyaWEuaXQxGjAYBgNVBGEMEVZB
+VElULTAyOTE1NzUwNTQ3MTUwMwYDVQRTDCxodHRwczovL2xvZ2luLnJlZ2lvbmUu
+dW1icmlhLml0L2d3L3NwaWQtbWV0YTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCC
+AQoCggEBAKPqTD3PvEQZetlULGf6rUnzjm68DeNbuneF6WgWDrcgu36Hs0qIkSbS
+uNss7t9rHZBYlgS6QyuOB8LKCiQvuozz49/sO3GxUd+LS/Bi5OYY/YrDPDWJXy9Y
+eJRWQeQyzJQi2k1SN8Dq1TxI1kbRbUzGqx0Mea9cbZZIth+6CNcXYZZBCN9XmIPL
++Gskez6hcJ/5f1zBS06e+0nilXM2X5sNiTvwdM6i2VHARlaiqliVA6xZhCXXaGFr
+Sio81CCNQWbQf0rmkv0FG8+UdLebKRt+eYEIPF4pRL7tmVpPsHtxwPpTWA+vnun9
+ihF9q1kpLf5pVqk05R0HTim6v7DYYIcCAwEAAaOCAtQwggLQMAwGA1UdEwEB/wQC
+MAAwHQYDVR0OBBYEFMqgz6r4UQ5gVigiCyk0322A1A1xMB8GA1UdIwQYMBaAFDy7
+bese/Z1uy+5U5uo51YmgR9c0MA4GA1UdDwEB/wQEAwIGwDAWBgNVHRIEDzANggtz
+cGlkLmdvdi5pdDBCBgNVHR8EOzA5MDegNaAzhjFodHRwczovL2VpZGFzLmFnaWQu
+Z292Lml0L2NybC9jcmxfU1BJRF9QdWJfU0EuY3JsMDcGCCsGAQUFBwEBBCswKTAn
+BggrBgEFBQcwAYYbaHR0cHM6Ly9vY3NwX1NBLmFnaWQuZ292Lml0MIIB2QYDVR0g
+BIIB0DCCAcwwCQYHBACORgEGAjCBlQYEK0wQBjCBjDBEBggrBgEFBQcCAjA4GjZF
+bGVjdHJvbmljIGNlcnRpZmljYXRlIGNvbmZvcm1pbmcgd2l0aCBBR0lEIEd1aWRl
+bGluZXMwRAYIKwYBBQUHAgIwOBo2Q2VydGlmaWNhdG8gZWxldHRyb25pY28gY29u
+Zm9ybWUgYWxsZSBMaW5lZSBndWlkYSBBZ0lEMH0GBitMEAQCAjBzMDoGCCsGAQUF
+BwICMC4aLFNQSUQ6IGFnZ3JlZ2F0b3JlICdmdWxsJyBkaSBzZXJ2aXppIHB1YmJs
+aWNpMDUGCCsGAQUFBwICMCkaJ1NQSUQ6IHB1YmxpYy1zZXJ2aWNlcyAnZnVsbCcg
+QWdncmVnYXRvcjAIBgYEAI96AQMwTQYEK0wQBDBFMEMGCCsGAQUFBwIBFjdodHRw
+czovL2VpZGFzLmFnaWQuZ292Lml0L2Nwcy9BZ0lEX2VJREFTX3Jvb3RDQV9jcHMu
+cGRmME8GBgQAjkYBBTBFMEMGCCsGAQUFBwIBFjdodHRwczovL2VpZGFzLmFnaWQu
+Z292Lml0L2Nwcy9BZ0lEX2VJREFTX3Jvb3RDQV9jcHMucGRmMA0GCSqGSIb3DQEB
+DQUAA4ICAQB3pMLB8uWXpHLkXVQMoFGTGECpc4WI2y5c+WSEz6HP2GZGjb40+i1K
+cfvdSQtxbNvCzMJWbKL4ES+YoCcc35V431qNMsZNqsHYBACrGzYdcHiJ4poK4pjg
+huCsOMJSBxb3aDgzo1IMN3RND7HSXqSSlaiv/pRImLPVr9XU4oavzchE6QIcHQMZ
+bAyFu9Wua8CTJyknmVBvMhE+U9j4tpKKhdKR4RLOfRkc6zDubWuF+UdDz2B13mxv
+OAL8pXcNf+QJKusA182i6OavsxAxTKAY/P6q2rCKgGZotXnx9bNf+aL/HG/Mqsja
+9N0kFoR60jqY/f00SmxM8g5ziKueIZQff2BtItYrtvDTrYCwhXYHj5r/6QIQnDUX
+IZXty5W7KFMiIp5mnngj0vNDo+WpW3gYQ/zonLVNacBf8GELvXAOhiITS8s8JmJQ
+2pMqTqCUEJ7vbqVytyQbuvR6y0NsS2B/+vycWL4kH9f2Oj5o7ZnmGbt/FCN12ZvD
+cRaTSLooUtsuLVByUka09XdKakRe+J/cME3A6ZtVzbYaf9wKi3acAIfXKK9HVTvJ
+JFtnX51xsUvCHOhz7irwho/Xfc4wX8MKNnGyFgyAaF+HRJU7v63ixREQK87cnaiZ
+qSBAlXVfh9alZ0jMcZkhoLqwJFFQz5V7nk77uqwx0/7NMeESK8BTuA==
+</ds:X509Certificate>
+				</ds:X509Data>
+			</ds:KeyInfo>
+		</md:KeyDescriptor>
+		<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://login.regione.umbria.it/gw/SingleLogoutProxy/SP" ResponseLocation="https://login.regione.umbria.it/gw/SingleLogoutProxy/SP/Response"/>
+		<md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>	
+		<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://login.regione.umbria.it/gw/AssertionConsumerProxy/SAML2" index="0" isDefault="true"/>
+				<md:AttributeConsumingService index="1">
+			<md:ServiceName xml:lang="it">SINPOL</md:ServiceName>
+			<md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="digitalAddress" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+		</md:AttributeConsumingService>
+		<md:AttributeConsumingService index="2">
+			<md:ServiceName xml:lang="it">Gestione caccia</md:ServiceName>
+			<md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="expirationDate" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+		</md:AttributeConsumingService>
+		<md:AttributeConsumingService index="3">
+			<md:ServiceName xml:lang="it">App Regione Umbria</md:ServiceName>
+			<md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+		</md:AttributeConsumingService>
+
+		
+		<md:AttributeConsumingService index="99">
+            <md:ServiceName xml:lang="it">eIDAS Natural Person Minimum Attribute Set</md:ServiceName>
+            <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+        </md:AttributeConsumingService>
+        <md:AttributeConsumingService index="100">
+            <md:ServiceName xml:lang="it">eIDAS Natural Person Full Attribute Set</md:ServiceName>
+            <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="address" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+        </md:AttributeConsumingService>
+	</md:SPSSODescriptor>
+	 
+	<md:Organization>
+		<md:OrganizationName xml:lang="it">Regione Umbria</md:OrganizationName>
+		<md:OrganizationName xml:lang="en">Regione Umbria</md:OrganizationName>
+		<md:OrganizationDisplayName xml:lang="it">Regione Umbria</md:OrganizationDisplayName>
+		<md:OrganizationDisplayName xml:lang="en">Regione Umbria</md:OrganizationDisplayName>
+		<md:OrganizationURL xml:lang="it">https://www.regione.umbria.it/</md:OrganizationURL>
+		<md:OrganizationURL xml:lang="en">https://www.regione.umbria.it/</md:OrganizationURL>
+	</md:Organization>
+	<md:ContactPerson contactType="other" spid:entityType="spid:aggregator">
+		<md:Extensions>
+			<spid:VATNumber>IT02915750547</spid:VATNumber>
+			<spid:PublicServicesFullAggregator/>
+		</md:Extensions>
+		<md:Company>PuntoZero S.c.a r.l.</md:Company>
+		<md:EmailAddress>helpdesk@puntozeroscarl.it</md:EmailAddress>
+	</md:ContactPerson>
+	<md:ContactPerson contactType="other" spid:entityType="spid:aggregated">
+		<md:Extensions>
+			<spid:IPACode>r_umbria</spid:IPACode>
+			<spid:Public/>
+		</md:Extensions>
+		<md:Company>Regione Umbria</md:Company>
+	</md:ContactPerson>
+	
+</md:EntityDescriptor>
