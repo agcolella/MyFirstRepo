@@ -3,9 +3,9 @@ name: Consolidamento Registro XML
 on:
   push:
     paths:
-      - 'uploads/**' # Si attiva ogni volta che carichi file in questa cartella
+      - 'uploads/**' # Si attiva al caricamento di file in uploads/
 
-# Forza l'uso del runtime Node.js 24 per tutte le Action (Standard 2026)
+# Forza l'uso di Node.js 24 (Standard per maggio 2026)
 env:
   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
@@ -16,41 +16,40 @@ jobs:
       - name: Checkout del codice
         uses: actions/checkout@v5
 
-      # Genera data e ora per rendere unica ogni operazione e ogni PR
+      # 1. Genera i riferimenti temporali per Tag, Branch e Titoli
       - name: Genera Timestamp
         id: date
         run: |
-          echo "today=$(date +'%d/%m/%Y')" >> $GITHUB_OUTPUT
+          echo "today=$(date +'%d-%m-%Y')" >> $GITHUB_OUTPUT
           echo "time=$(date +'%H:%M:%S')" >> $GITHUB_OUTPUT
           echo "branch_id=$(date +'%Y%m%d-%H%M%S')" >> $GITHUB_OUTPUT
 
+      # 2. Elaborazione: Consolidamento XML e Scarto JSON
       - name: Estrazione e Filtro
         id: filter
         run: |
-          # 1. Crea le directory di lavoro temporanee
           mkdir -p registro_files/
           mkdir -p temp_stage/
 
-          # 2. Copia i file XML già sfusi presenti in uploads/
+          # Copia XML sfusi da uploads/
           find uploads/ -maxdepth 1 -name "*.xml" -exec cp {} temp_stage/ \;
 
-          # 3. Gestione archivi ZIP
+          # Estrazione ciclica degli ZIP
           for f in uploads/*.zip; do
             [ -e "$f" ] || continue
-            echo "Elaborazione archivio: $f"
+            echo "Processando archivio: $f"
             mkdir -p temp_zip_extract/
             unzip -o "$f" -d temp_zip_extract/
+            # Preleva solo XML dallo ZIP, ignorando i JSON
             find temp_zip_extract/ -name "*.xml" -exec cp {} temp_stage/ \;
             rm -rf temp_zip_extract/
           done
 
-          # 4. Generazione statistiche per il body della PR
-          # Conta i file trovati
+          # Generazione statistiche per la PR
           COUNT=$(ls -1 temp_stage/*.xml 2>/dev/null | wc -l)
-          # Crea una lista testuale dei nomi dei file (senza il percorso)
           FILE_LIST=$(ls -1 temp_stage/*.xml 2>/dev/null | xargs -n 1 basename | sed 's/^/- /')
           
-          # Salva i dati negli output dello step per usarli nella PR
+          # Esportazione variabili per i prossimi step
           {
             echo "file_count=$COUNT"
             echo "file_names<<EOF"
@@ -58,33 +57,41 @@ jobs:
             echo "EOF"
           } >> $GITHUB_OUTPUT
 
-          # 5. Sposta i file nel registro finale
+          # Spostamento nel registro finale se ci sono file
           if [ $COUNT -gt 0 ]; then
             cp -r temp_stage/*.xml registro_files/
           fi
 
-          # 6. Puliziauploads/
+          # Pulizia area di upload
           rm -rf uploads/*
           touch uploads/.gitkeep
 
+      # 3. Creazione Pull Request con Label per Auto-Tagging
       - name: Crea Pull Request per Utente A
         uses: peter-evans/create-pull-request@v7
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          commit-message: "Aggiornamento automatico registro XML - ${{ steps.date.outputs.branch_id }}"
+          commit-message: "Aggiornamento Registro XML - ${{ steps.date.outputs.branch_id }}"
+          # Branch unico per consentire caricamenti multipli nello stesso giorno
           branch: revisione-xml-${{ steps.date.outputs.branch_id }}
           delete-branch: true
           title: "📂 Revisione XML: ${{ steps.date.outputs.today }} (Ore ${{ steps.date.outputs.time }})"
+          # Label necessarie per attivare il workflow di Auto-Tagging dopo il merge
+          labels: |
+            auto-tag
+            registro-xml
           body: |
             ### 🤖 Report Consolidamento Automatico
             - **Data operazione:** ${{ steps.date.outputs.today }}
             - **Orario:** ${{ steps.date.outputs.time }}
-            - **Totale file XML processati:** `${{ steps.filter.outputs.file_count }}`
+            - **Totale file XML identificati:** `${{ steps.filter.outputs.file_count }}`
             
             #### 📄 Elenco file inclusi:
             ${{ steps.filter.outputs.file_names }}
             
             ---
-            **Note:**
-            - I file JSON e altri formati sono stati scartati.
-            - Se l'elenco non corrisponde alle aspettative, chiudi questa PR.
+            **💡 ISTRUZIONI ROLLBACK RAPIDO:**
+            Se in futuro dovrai ripristinare uno di questi file singolarmente, usa il tag che verrà creato al merge:
+            `git checkout v-${{ steps.date.outputs.branch_id }} -- registro_files/nome_file.xml`
+            
+            *Controlla i file sopra elencati e clicca su **Merge** per confermare.*
