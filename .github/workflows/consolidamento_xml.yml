@@ -3,9 +3,9 @@ name: Consolidamento Registro XML
 on:
   push:
     paths:
-      - 'uploads/**' # Si attiva al caricamento di file in uploads/
+      - 'uploads/**' # Si attiva ogni volta che carichi file in questa cartella
 
-# Forza l'uso di Node.js 24 per tutte le Action (standard maggio 2026)
+# Forza l'uso del runtime Node.js 24 per tutte le Action (Standard 2026)
 env:
   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
@@ -14,59 +14,64 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout del codice
-        uses: actions/checkout@v5 # Versione aggiornata per Node 24
+        uses: actions/checkout@v5
 
-      # Genera la data corretta da usare nel titolo della PR
-      - name: Genera data attuale
+      # Genera data e ora per rendere unica ogni operazione e ogni PR
+      - name: Genera Timestamp
         id: date
-        run: echo "today=$(date +'%d/%m/%Y')" >> $GITHUB_OUTPUT
+        run: |
+          echo "today=$(date +'%d/%m/%Y')" >> $GITHUB_OUTPUT
+          echo "time=$(date +'%H:%M:%S')" >> $GITHUB_OUTPUT
+          echo "branch_id=$(date +'%Y%m%d-%H%M%S')" >> $GITHUB_OUTPUT
 
       - name: Estrazione e Filtro
         run: |
+          # 1. Crea le directory di lavoro temporanee
           mkdir -p registro_files/
           mkdir -p temp_stage/
 
-          # 1. Copia i file XML già sfusi presenti in uploads/
+          # 2. Copia i file XML già sfusi presenti in uploads/
           find uploads/ -maxdepth 1 -name "*.xml" -exec cp {} temp_stage/ \;
 
-          # 2. Gestione sicura degli ZIP (evita exit code 11)
-          # Il ciclo for gestisce ogni archivio singolarmente
+          # 3. Gestione sicura degli archivi ZIP (Ciclo for per evitare errori su file multipli)
           for f in uploads/*.zip; do
             [ -e "$f" ] || continue
-            echo "Elaborazione di $f..."
+            echo "Elaborazione archivio: $f"
+            mkdir -p temp_zip_extract/
             unzip -o "$f" -d temp_zip_extract/
-            # Preleva solo gli XML dall'archivio, ignorando i JSON
+            # Preleva solo gli XML, scartando JSON o altro contenuto dello ZIP
             find temp_zip_extract/ -name "*.xml" -exec cp {} temp_stage/ \;
             rm -rf temp_zip_extract/
           done
 
-          # 3. Sposta i file consolidati nel registro finale
+          # 4. Sposta i file consolidati nella cartella di destinazione
           if [ -n "$(ls -A temp_stage/*.xml 2>/dev/null)" ]; then
             cp -r temp_stage/*.xml registro_files/
           else
-            echo "Nessun file XML trovato."
+            echo "Attenzione: nessun file XML valido trovato in questo caricamento."
           fi
 
-          # 4. Pulizia automatica della cartella uploads
+          # 5. Pulizia automatica della cartella uploads/ (fondamentale per il prossimo upload)
           rm -rf uploads/*
           touch uploads/.gitkeep
 
       - name: Crea Pull Request per Utente A
-        uses: peter-evans/create-pull-request@v7 # Versione aggiornata per Node 24
+        uses: peter-evans/create-pull-request@v7
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          commit-message: "Aggiornamento automatico registro XML"
-          branch: revisione-dati-giornalieri
+          commit-message: "Aggiornamento automatico registro XML - ${{ steps.date.outputs.branch_id }}"
+          # Branch univoco basato sulla data e ora esatta (risolve il problema del doppio upload)
+          branch: revisione-xml-${{ steps.date.outputs.branch_id }}
           delete-branch: true
-          # Titolo dinamico con la data calcolata nello step precedente
-          title: "📂 Revisione Dati XML - ${{ steps.date.outputs.today }}"
+          title: "📂 Revisione XML: ${{ steps.date.outputs.today }} (Ore ${{ steps.date.outputs.time }})"
           body: |
-            L'automazione ha consolidato i dati ricevuti oggi (${{ steps.date.outputs.today }}):
-            - XML estratti dagli archivi ZIP.
-            - XML caricati come file sfusi inclusi.
-            - File JSON e altri formati scartati automaticamente.
-            - Cartella `uploads/` ripulita per il prossimo invio.
+            ### 🤖 Report Consolidamento Automatico
+            - **Data operazione:** ${{ steps.date.outputs.today }}
+            - **Orario:** ${{ steps.date.outputs.time }}
             
-            **Istruzioni per il Rollback:**
-            Se i dati non sono corretti, chiudi questa Pull Request senza fare il Merge. 
-            Se hai già fatto il Merge, usa il tasto "Revert" nella scheda della PR.
+            **Dettagli:**
+            - Tutti i file XML (sfusi e nello ZIP) sono stati consolidati in `registro_files/`.
+            - I file JSON e altri formati non pertinenti sono stati scartati.
+            - La cartella `uploads/` è stata ripulita correttamente.
+            
+            *Controlla i cambiamenti e clicca su **Merge** per ufficializzare l'aggiornamento.*
