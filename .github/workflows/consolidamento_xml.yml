@@ -1,0 +1,50 @@
+name: Consolidamento Registro XML
+
+on:
+  push:
+    paths:
+      - 'uploads/**' # Si attiva solo se carichi file in questa cartella
+
+jobs:
+  process-data:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout del codice
+        uses: actions/checkout@v4
+
+      - name: Estrazione e Filtro
+        run: |
+          mkdir -p registro_files/
+          mkdir -p temp_stage/
+
+          # 1. Copia i file XML sfusi caricati in uploads/
+          find uploads/ -maxdepth 1 -name "*.xml" -exec cp {} temp_stage/ \;
+
+          # 2. Se c'è uno ZIP, lo estrae e ne preleva solo gli XML
+          if ls uploads/*.zip 1> /dev/null 2>&1; then
+            unzip -o uploads/*.zip -d temp_zip/
+            find temp_zip/ -name "*.xml" -exec cp {} temp_stage/ \;
+          fi
+
+          # 3. Sposta tutto nella cartella finale (sovrascrivendo i vecchi)
+          cp -r temp_stage/*.xml registro_files/
+
+          # 4. Svuota la cartella uploads/ per il prossimo caricamento
+          rm -rf uploads/*
+          touch uploads/.gitkeep
+
+      - name: Crea Pull Request per Utente A
+        uses: peter-evans/create-pull-request@v6
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: "Aggiornamento automatico registro XML"
+          branch: revisione-dati-giornalieri
+          delete-branch: true
+          title: "📂 Revisione Dati XML - $(date +'%d/%m/%Y')"
+          body: |
+            L'automazione ha consolidato i file ricevuti:
+            - Estratti XML dallo ZIP.
+            - Inclusi XML sfusi.
+            - Esclusi file JSON.
+            
+            Verifica le differenze nei file prima di confermare il merge.
