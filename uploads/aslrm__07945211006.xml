@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:spid="https://spid.gov.it/saml-extensions" ID="_c4a0d9eef7b84c15b305a914d9eb1d99" cacheDuration="P0Y0M30DT0H0M0.000S" entityID="https://eid-gateway.infocert.it/pub-ag-full/285970-aslroma">
+  <ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#_c4a0d9eef7b84c15b305a914d9eb1d99">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315#WithComments"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>vxlFxQshYCLJbvbb6j4IJcw7ACS0EM26+KF0tZr3xQg=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+D8iBHOlCC9gVRqdmwc/8yypivtvMvpabfQ3aJcWY3Uv/MwFFV4aWWLBYrxNiyoKdogsShhhSDg36&#13;
+9xTFXyoxYyHu6eCvAJ89cFG6R8EAzAXCtJ4KO/wY9u9hn9Xo23IbB9KW5yCuyixRrwv+DBn2FpL+&#13;
+/QkZ+1E+HlsTVrE+EgQ+dp6eiKIGsaBUfs4ILeQ0IIFNGnBLikXVNUJ0vWq1HjAcbMIoA8z7ro6a&#13;
+UFQfHlSMK0/WsYjjl8DsN15adXTyayiG6Z41jCizTTn8tce0Phl/lB9tm1LQvEFJ5GHxuL9zgjx8&#13;
+pnDS6Uo5XZ33jdkjdDhsvf9P8LgC9kM/NbjxfA==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIIGzCCBgOgAwIBAgIIONNAIytIVtgwDQYJKoZIhvcNAQENBQAwgeUxCzAJBgNVBAYTAklUMQ0w&#13;
+CwYDVQQHDARSb21lMSYwJAYDVQQKDB1BZ2VuemlhIHBlciBsJ0l0YWxpYSBEaWdpdGFsZTEsMCoG&#13;
+A1UECwwjU2Vydml6aW8gQWNjcmVkaXRhbWVudG8gZSBWaWdpbGFuemExKjAoBgNVBAMMIVByb2dl&#13;
+dHRvIFNQSUQgLSBTb2dnZXR0aV9wdWJibGljaTEpMCcGCSqGSIb3DQEJARYacHJvdG9jb2xsb0Bw&#13;
+ZWMuYWdpZC5nb3YuaXQxGjAYBgNVBAUTEVZBVElULTk3NzM1MDIwNTg0MB4XDTIyMTExMDAwMDAw&#13;
+MFoXDTM3MTEwOTIzNTk1OVowgdwxKDAmBgNVBAMMH2h0dHBzOi8vZWlkLWdhdGV3YXkuaW5mb2Nl&#13;
+cnQuaXQxGDAWBgNVBAoMD0luZm9DZXJ0IFMucC5BLjEaMBgGA1UEYQwRVkFUSVQtMDc5NDUyMTEw&#13;
+MDYxKDAmBgNVBFMMH2h0dHBzOi8vZWlkLWdhdGV3YXkuaW5mb2NlcnQuaXQxDTALBgNVBAcMBFJv&#13;
+bWExCzAJBgNVBAYTAklUMQswCQYDVQQIDAJSTTEnMCUGCSqGSIb3DQEJARYYdHNwaW5mb2NlcnRA&#13;
+bGVnYWxtYWlsLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA3LtW1AMSBh3CF0ZC&#13;
+rXyIpLTWFVhST5fQPoqkOqRMfDfd2k8ZwKvnKlMUiGWBN042VjafJBuV4KN41apAOO7NlFpExr0l&#13;
+NL2LJmEPcVna75huKiUS43HzXnkBPZVfv3xbemvLKs5xlwES3G211b35oIPVGKzcG41QuQQQjJWY&#13;
+kiiB4IL5jrfbn1OckMHLeJeGrpZTQ7QCxdz9s++V43g3hIw+V7zYo9KTNWSVz+DCaRQPR5dAN9WF&#13;
+RCcg/25xQZ++UJ54Equ9UF5I2nSnBqNMJm0gHxB4mXc+UVkeYt6xfXm1AajS7h2YYf8sZoagKFnZ&#13;
+2li8N884/iy8YdIKt112fwIDAQABo4IC1DCCAtAwDAYDVR0TAQH/BAIwADAdBgNVHQ4EFgQUBBCb&#13;
+4GyhxF5tnWuvD18v0ybxoQowHwYDVR0jBBgwFoAUPLtt6x79nW7L7lTm6jnViaBH1zQwDgYDVR0P&#13;
+AQH/BAQDAgbAMBYGA1UdEgQPMA2CC3NwaWQuZ292Lml0MEIGA1UdHwQ7MDkwN6A1oDOGMWh0dHBz&#13;
+Oi8vZWlkYXMuYWdpZC5nb3YuaXQvY3JsL2NybF9TUElEX1B1Yl9TQS5jcmwwNwYIKwYBBQUHAQEE&#13;
+KzApMCcGCCsGAQUFBzABhhtodHRwczovL29jc3BfU0EuYWdpZC5nb3YuaXQwggHZBgNVHSAEggHQ&#13;
+MIIBzDAJBgcEAI5GAQYCMIGVBgQrTBAGMIGMMEQGCCsGAQUFBwICMDgaNkVsZWN0cm9uaWMgY2Vy&#13;
+dGlmaWNhdGUgY29uZm9ybWluZyB3aXRoIEFHSUQgR3VpZGVsaW5lczBEBggrBgEFBQcCAjA4GjZD&#13;
+ZXJ0aWZpY2F0byBlbGV0dHJvbmljbyBjb25mb3JtZSBhbGxlIExpbmVlIGd1aWRhIEFnSUQwfQYG&#13;
+K0wQBAICMHMwOgYIKwYBBQUHAgIwLhosU1BJRDogYWdncmVnYXRvcmUgJ2Z1bGwnIGRpIHNlcnZp&#13;
+emkgcHViYmxpY2kwNQYIKwYBBQUHAgIwKRonU1BJRDogcHVibGljLXNlcnZpY2VzICdmdWxsJyBB&#13;
+Z2dyZWdhdG9yMAgGBgQAj3oBAzBNBgQrTBAEMEUwQwYIKwYBBQUHAgEWN2h0dHBzOi8vZWlkYXMu&#13;
+YWdpZC5nb3YuaXQvY3BzL0FnSURfZUlEQVNfcm9vdENBX2Nwcy5wZGYwTwYGBACORgEFMEUwQwYI&#13;
+KwYBBQUHAgEWN2h0dHBzOi8vZWlkYXMuYWdpZC5nb3YuaXQvY3BzL0FnSURfZUlEQVNfcm9vdENB&#13;
+X2Nwcy5wZGYwDQYJKoZIhvcNAQENBQADggIBAFbW2Nv62/KRCDSQAc0BXAMZD/SrTEZL9du+c8RB&#13;
+Vup37UQB9qBQLTz+X5OQNgBVuGywc6GGmwO/bSCifSTMZRAhxme4LjQT7NtrrmpOEK4Q+8rv2dKM&#13;
+r77ahKNx8VY5BYgBBwLL1PH67qvDrGBjW/cAzBvriEhLsSv/uSxxrq9LY9rhfpcQTv8wt6cUFKUH&#13;
+DZtjKVUw+PN/bLwWMpYLRiABZNytahef6RMHVAKWRxRjAnAH/clS/MCqgrtPb8Dabl7309S88R/m&#13;
+RtdYPAZ3VY3R0BrCIhg1t/uKJbVYHB9f7MnNGuPDMYv+4kuGlkY3JM5Dn9DPqTI3FZuDL8phOlpe&#13;
+7gL6cnvP23kkmfRObeWJ1vz/tk20I3nPK/mb45hCy71JTOMpMTlvEb5bA42Dc4A0yzaKHiAneqYo&#13;
+dvSsbNxuRt3zIOF+F+m3kpF0lNdr+aOnWT7xSrrpdzLn7HwokEZmzzTjkUdrShgWoWZNRR12h3X/&#13;
+2JyrQOD1SBT0d9hgCGFuIK96nyui5XXQRqJly/OwIkN7BeK49XAOU+4i8rnsvszxOi2uR8MdAgCk&#13;
+tRVEh9q4FGVYkd/LLBfO7mWZJ4Id0lxWQdkDqxblDT/3MGJCbXO3dy3VpV8j83UDod36nvGZibI9&#13;
+qs4Qeg3XvXghHLV+RTtKsp+5QDTlA09XpsKt
+</ds:X509Certificate>
+</ds:X509Data>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>3LtW1AMSBh3CF0ZCrXyIpLTWFVhST5fQPoqkOqRMfDfd2k8ZwKvnKlMUiGWBN042VjafJBuV4KN4&#13;
+1apAOO7NlFpExr0lNL2LJmEPcVna75huKiUS43HzXnkBPZVfv3xbemvLKs5xlwES3G211b35oIPV&#13;
+GKzcG41QuQQQjJWYkiiB4IL5jrfbn1OckMHLeJeGrpZTQ7QCxdz9s++V43g3hIw+V7zYo9KTNWSV&#13;
+z+DCaRQPR5dAN9WFRCcg/25xQZ++UJ54Equ9UF5I2nSnBqNMJm0gHxB4mXc+UVkeYt6xfXm1AajS&#13;
+7h2YYf8sZoagKFnZ2li8N884/iy8YdIKt112fw==</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+</ds:KeyInfo>
+</ds:Signature><md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIIGzCCBgOgAwIBAgIIONNAIytIVtgwDQYJKoZIhvcNAQENBQAwgeUxCzAJBgNV
+BAYTAklUMQ0wCwYDVQQHDARSb21lMSYwJAYDVQQKDB1BZ2VuemlhIHBlciBsJ0l0
+YWxpYSBEaWdpdGFsZTEsMCoGA1UECwwjU2Vydml6aW8gQWNjcmVkaXRhbWVudG8g
+ZSBWaWdpbGFuemExKjAoBgNVBAMMIVByb2dldHRvIFNQSUQgLSBTb2dnZXR0aV9w
+dWJibGljaTEpMCcGCSqGSIb3DQEJARYacHJvdG9jb2xsb0BwZWMuYWdpZC5nb3Yu
+aXQxGjAYBgNVBAUTEVZBVElULTk3NzM1MDIwNTg0MB4XDTIyMTExMDAwMDAwMFoX
+DTM3MTEwOTIzNTk1OVowgdwxKDAmBgNVBAMMH2h0dHBzOi8vZWlkLWdhdGV3YXku
+aW5mb2NlcnQuaXQxGDAWBgNVBAoMD0luZm9DZXJ0IFMucC5BLjEaMBgGA1UEYQwR
+VkFUSVQtMDc5NDUyMTEwMDYxKDAmBgNVBFMMH2h0dHBzOi8vZWlkLWdhdGV3YXku
+aW5mb2NlcnQuaXQxDTALBgNVBAcMBFJvbWExCzAJBgNVBAYTAklUMQswCQYDVQQI
+DAJSTTEnMCUGCSqGSIb3DQEJARYYdHNwaW5mb2NlcnRAbGVnYWxtYWlsLml0MIIB
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA3LtW1AMSBh3CF0ZCrXyIpLTW
+FVhST5fQPoqkOqRMfDfd2k8ZwKvnKlMUiGWBN042VjafJBuV4KN41apAOO7NlFpE
+xr0lNL2LJmEPcVna75huKiUS43HzXnkBPZVfv3xbemvLKs5xlwES3G211b35oIPV
+GKzcG41QuQQQjJWYkiiB4IL5jrfbn1OckMHLeJeGrpZTQ7QCxdz9s++V43g3hIw+
+V7zYo9KTNWSVz+DCaRQPR5dAN9WFRCcg/25xQZ++UJ54Equ9UF5I2nSnBqNMJm0g
+HxB4mXc+UVkeYt6xfXm1AajS7h2YYf8sZoagKFnZ2li8N884/iy8YdIKt112fwID
+AQABo4IC1DCCAtAwDAYDVR0TAQH/BAIwADAdBgNVHQ4EFgQUBBCb4GyhxF5tnWuv
+D18v0ybxoQowHwYDVR0jBBgwFoAUPLtt6x79nW7L7lTm6jnViaBH1zQwDgYDVR0P
+AQH/BAQDAgbAMBYGA1UdEgQPMA2CC3NwaWQuZ292Lml0MEIGA1UdHwQ7MDkwN6A1
+oDOGMWh0dHBzOi8vZWlkYXMuYWdpZC5nb3YuaXQvY3JsL2NybF9TUElEX1B1Yl9T
+QS5jcmwwNwYIKwYBBQUHAQEEKzApMCcGCCsGAQUFBzABhhtodHRwczovL29jc3Bf
+U0EuYWdpZC5nb3YuaXQwggHZBgNVHSAEggHQMIIBzDAJBgcEAI5GAQYCMIGVBgQr
+TBAGMIGMMEQGCCsGAQUFBwICMDgaNkVsZWN0cm9uaWMgY2VydGlmaWNhdGUgY29u
+Zm9ybWluZyB3aXRoIEFHSUQgR3VpZGVsaW5lczBEBggrBgEFBQcCAjA4GjZDZXJ0
+aWZpY2F0byBlbGV0dHJvbmljbyBjb25mb3JtZSBhbGxlIExpbmVlIGd1aWRhIEFn
+SUQwfQYGK0wQBAICMHMwOgYIKwYBBQUHAgIwLhosU1BJRDogYWdncmVnYXRvcmUg
+J2Z1bGwnIGRpIHNlcnZpemkgcHViYmxpY2kwNQYIKwYBBQUHAgIwKRonU1BJRDog
+cHVibGljLXNlcnZpY2VzICdmdWxsJyBBZ2dyZWdhdG9yMAgGBgQAj3oBAzBNBgQr
+TBAEMEUwQwYIKwYBBQUHAgEWN2h0dHBzOi8vZWlkYXMuYWdpZC5nb3YuaXQvY3Bz
+L0FnSURfZUlEQVNfcm9vdENBX2Nwcy5wZGYwTwYGBACORgEFMEUwQwYIKwYBBQUH
+AgEWN2h0dHBzOi8vZWlkYXMuYWdpZC5nb3YuaXQvY3BzL0FnSURfZUlEQVNfcm9v
+dENBX2Nwcy5wZGYwDQYJKoZIhvcNAQENBQADggIBAFbW2Nv62/KRCDSQAc0BXAMZ
+D/SrTEZL9du+c8RBVup37UQB9qBQLTz+X5OQNgBVuGywc6GGmwO/bSCifSTMZRAh
+xme4LjQT7NtrrmpOEK4Q+8rv2dKMr77ahKNx8VY5BYgBBwLL1PH67qvDrGBjW/cA
+zBvriEhLsSv/uSxxrq9LY9rhfpcQTv8wt6cUFKUHDZtjKVUw+PN/bLwWMpYLRiAB
+ZNytahef6RMHVAKWRxRjAnAH/clS/MCqgrtPb8Dabl7309S88R/mRtdYPAZ3VY3R
+0BrCIhg1t/uKJbVYHB9f7MnNGuPDMYv+4kuGlkY3JM5Dn9DPqTI3FZuDL8phOlpe
+7gL6cnvP23kkmfRObeWJ1vz/tk20I3nPK/mb45hCy71JTOMpMTlvEb5bA42Dc4A0
+yzaKHiAneqYodvSsbNxuRt3zIOF+F+m3kpF0lNdr+aOnWT7xSrrpdzLn7HwokEZm
+zzTjkUdrShgWoWZNRR12h3X/2JyrQOD1SBT0d9hgCGFuIK96nyui5XXQRqJly/Ow
+IkN7BeK49XAOU+4i8rnsvszxOi2uR8MdAgCktRVEh9q4FGVYkd/LLBfO7mWZJ4Id
+0lxWQdkDqxblDT/3MGJCbXO3dy3VpV8j83UDod36nvGZibI9qs4Qeg3XvXghHLV+
+RTtKsp+5QDTlA09XpsKt
+</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://eid-gateway.infocert.it/spid/logout"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://eid-gateway.infocert.it/spid/response" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://eid-gateway.infocert.it/v2/realms/285970-aslroma/broker/spid_infocert/endpoint" index="4" isDefault="false"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://eid-gateway.infocert.it/v2/realms/285970-aslroma/broker/spid_aruba/endpoint" index="5" isDefault="false"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://eid-gateway.infocert.it/v2/realms/285970-aslroma/broker/spid_eht/endpoint" index="6" isDefault="false"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://eid-gateway.infocert.it/v2/realms/285970-aslroma/broker/spid_infocamere/endpoint" index="7" isDefault="false"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://eid-gateway.infocert.it/v2/realms/285970-aslroma/broker/spid_lepida/endpoint" index="8" isDefault="false"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://eid-gateway.infocert.it/v2/realms/285970-aslroma/broker/spid_namirial/endpoint" index="9" isDefault="false"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://eid-gateway.infocert.it/v2/realms/285970-aslroma/broker/spid_poste/endpoint" index="10" isDefault="false"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://eid-gateway.infocert.it/v2/realms/285970-aslroma/broker/spid_sielte/endpoint" index="11" isDefault="false"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://eid-gateway.infocert.it/v2/realms/285970-aslroma/broker/spid_register/endpoint" index="12" isDefault="false"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://eid-gateway.infocert.it/v2/realms/285970-aslroma/broker/spid_teamsystem/endpoint" index="13" isDefault="false"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://eid-gateway.infocert.it/v2/realms/285970-aslroma/broker/spid_tim/endpoint" index="14" isDefault="false"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://eid-gateway.infocert.it/v2/realms/285970-aslroma/broker/spid_intesi/endpoint" index="15" isDefault="false"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://eid-gateway.infocert.it/v3/realms/285970-aslroma/broker/spid_infocert/endpoint" index="26" isDefault="false"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://eid-gateway.infocert.it/v3/realms/285970-aslroma/broker/spid_aruba/endpoint" index="27" isDefault="false"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://eid-gateway.infocert.it/v3/realms/285970-aslroma/broker/spid_eht/endpoint" index="28" isDefault="false"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://eid-gateway.infocert.it/v3/realms/285970-aslroma/broker/spid_infocamere/endpoint" index="29" isDefault="false"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://eid-gateway.infocert.it/v3/realms/285970-aslroma/broker/spid_lepida/endpoint" index="30" isDefault="false"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://eid-gateway.infocert.it/v3/realms/285970-aslroma/broker/spid_namirial/endpoint" index="31" isDefault="false"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://eid-gateway.infocert.it/v3/realms/285970-aslroma/broker/spid_poste/endpoint" index="32" isDefault="false"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://eid-gateway.infocert.it/v3/realms/285970-aslroma/broker/spid_sielte/endpoint" index="33" isDefault="false"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://eid-gateway.infocert.it/v3/realms/285970-aslroma/broker/spid_register/endpoint" index="34" isDefault="false"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://eid-gateway.infocert.it/v3/realms/285970-aslroma/broker/spid_teamsystem/endpoint" index="35" isDefault="false"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://eid-gateway.infocert.it/v3/realms/285970-aslroma/broker/spid_tim/endpoint" index="36" isDefault="false"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://eid-gateway.infocert.it/v3/realms/285970-aslroma/broker/spid_intesi/endpoint" index="37" isDefault="false"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://eid-gateway.infocert.it/k/realms/285970-aslroma/broker/spid_infocert/endpoint" index="48" isDefault="false"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://eid-gateway.infocert.it/k/realms/285970-aslroma/broker/spid_aruba/endpoint" index="49" isDefault="false"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://eid-gateway.infocert.it/k/realms/285970-aslroma/broker/spid_eht/endpoint" index="50" isDefault="false"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://eid-gateway.infocert.it/k/realms/285970-aslroma/broker/spid_infocamere/endpoint" index="51" isDefault="false"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://eid-gateway.infocert.it/k/realms/285970-aslroma/broker/spid_lepida/endpoint" index="52" isDefault="false"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://eid-gateway.infocert.it/k/realms/285970-aslroma/broker/spid_namirial/endpoint" index="53" isDefault="false"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://eid-gateway.infocert.it/k/realms/285970-aslroma/broker/spid_poste/endpoint" index="54" isDefault="false"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://eid-gateway.infocert.it/k/realms/285970-aslroma/broker/spid_sielte/endpoint" index="55" isDefault="false"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://eid-gateway.infocert.it/k/realms/285970-aslroma/broker/spid_register/endpoint" index="56" isDefault="false"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://eid-gateway.infocert.it/k/realms/285970-aslroma/broker/spid_teamsystem/endpoint" index="57" isDefault="false"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://eid-gateway.infocert.it/k/realms/285970-aslroma/broker/spid_tim/endpoint" index="58" isDefault="false"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://eid-gateway.infocert.it/k/realms/285970-aslroma/broker/spid_intesi/endpoint" index="59" isDefault="false"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">Set 0</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice identificativo SPID" Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale persona fisica" Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Documento d'identità" Name="idCard" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Numero di telefono mobile" Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Indirizzo di posta elettronica" Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Domicilio digitale" Name="digitalAddress" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Indirizzo domicilio fisico" Name="domicileStreetAddress" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="CAP domicilio fisico" Name="domicilePostalCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Comune domicilio fisico" Name="domicileMunicipality" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Provincia domicilio fisico" Name="domicileProvince" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Nazione domicilio fisico" Name="domicileNation" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Azienda Sanitaria Locale Roma 1</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">ASL Roma 1</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://aslroma1.it</md:OrganizationURL>
+  </md:Organization>
+  <md:ContactPerson contactType="other" spid:entityType="spid:aggregator">
+    <md:Extensions>
+      <spid:VATNumber>IT07945211006</spid:VATNumber>
+      <spid:FiscalCode>07945211006</spid:FiscalCode>
+      <spid:PublicServicesFullAggregator/>
+    </md:Extensions>
+    <md:Company>INFOCERT SPA</md:Company>
+    <md:EmailAddress>infocert@legalmail.it</md:EmailAddress>
+    <md:TelephoneNumber>+390683669211</md:TelephoneNumber>
+  </md:ContactPerson>
+  <md:ContactPerson contactType="other" spid:entityType="spid:aggregated">
+    <md:Extensions>
+      <spid:IPACode>aslrm</spid:IPACode>
+      <spid:Public/>
+    </md:Extensions>
+    <md:Company>Azienda Sanitaria Locale Roma 1</md:Company>
+  </md:ContactPerson>
+</md:EntityDescriptor>
