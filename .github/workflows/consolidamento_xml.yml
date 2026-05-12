@@ -3,48 +3,49 @@ name: Consolidamento Registro XML
 on:
   push:
     paths:
-      - 'uploads/**' # Si attiva solo se carichi file in questa cartella
+      - 'uploads/**'
+
+# Impostiamo la variabile a livello di job per forzare Node.js 24
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
 jobs:
   process-data:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout del codice
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5 # Passiamo alla v5 (o successiva disponibile nel 2026)
 
       - name: Estrazione e Filtro
         run: |
           mkdir -p registro_files/
           mkdir -p temp_stage/
 
-          # 1. Copia i file XML sfusi caricati in uploads/
+          # 1. Copia i file XML sfusi
           find uploads/ -maxdepth 1 -name "*.xml" -exec cp {} temp_stage/ \;
 
-          # 2. Se c'è uno ZIP, lo estrae e ne preleva solo gli XML
+          # 2. Gestione ZIP
           if ls uploads/*.zip 1> /dev/null 2>&1; then
             unzip -o uploads/*.zip -d temp_zip/
             find temp_zip/ -name "*.xml" -exec cp {} temp_stage/ \;
           fi
 
-          # 3. Sposta tutto nella cartella finale (sovrascrivendo i vecchi)
+          # 3. Consolidamento nel registro
           cp -r temp_stage/*.xml registro_files/
 
-          # 4. Svuota la cartella uploads/ per il prossimo caricamento
+          # 4. Pulizia
           rm -rf uploads/*
           touch uploads/.gitkeep
 
       - name: Crea Pull Request per Utente A
-        uses: peter-evans/create-pull-request@v6
+        uses: peter-evans/create-pull-request@v7 # Aggiornato alla v7 per Node 24
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          commit-message: "Aggiornamento automatico registro XML"
+          commit-message: "Aggiornamento automatico registro XML (Node 24)"
           branch: revisione-dati-giornalieri
           delete-branch: true
           title: "📂 Revisione Dati XML - $(date +'%d/%m/%Y')"
           body: |
-            L'automazione ha consolidato i file ricevuti:
-            - Estratti XML dallo ZIP.
-            - Inclusi XML sfusi.
-            - Esclusi file JSON.
-            
-            Verifica le differenze nei file prima di confermare il merge.
+            Aggiornamento consolidato (compatibile con Node.js 24).
+            - XML estratti e consolidati.
+            - JSON scartati.
