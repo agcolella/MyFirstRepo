@@ -1,4 +1,6 @@
 name: Auto-Tag on Merge
+# Estraiamo l'ID dal nome del branch per il titolo dell'esecuzione
+run-name: "🏷️ [ID-${{ github.event.pull_request.head.ref }}] Creazione Tag"
 
 on:
   pull_request:
@@ -8,13 +10,9 @@ on:
 
 jobs:
   tag-after-merge:
-    # IL FILTRO: Verifica che la PR sia stata chiusa con merge, 
-    # che il branch di origine inizi con 'revisione-xml-'
-    # e che abbia la label 'auto-tag'
     if: |
       github.event.pull_request.merged == true && 
-      startsWith(github.event.pull_request.head.ref, 'revisione-xml-') &&
-      contains(github.event.pull_request.labels.*.name, 'auto-tag')
+      startsWith(github.event.pull_request.head.ref, 'revisione-xml-')
     
     runs-on: ubuntu-latest
     steps:
@@ -25,14 +23,13 @@ jobs:
 
       - name: Crea Tag Immutabile
         run: |
-          # Recuperiamo l'ID dal nome del branch per mantenere coerenza nei tag
-          # Il branch è: revisione-xml-YYYYMMDD-HHMMSS
-          BRANCH_NAME="${{ github.event.pull_request.head.ref }}"
-          ID_PART=$(echo $BRANCH_NAME | sed 's/revisione-xml-//')
+          # Il branch si chiama revisione-xml-YYYYMMDD-HHMM
+          # Estraiamo la parte finale (l'ID comune)
+          ID_COMUNE=$(echo "${{ github.event.pull_request.head.ref }}" | sed 's/revisione-xml-//')
           
-          TAG_NAME="v-$ID_PART"
+          TAG_NAME="v-$ID_COMUNE"
           
           git config user.name "GitHub Action Bot"
           git config user.email "actions@github.com"
-          git tag -a "$TAG_NAME" -m "Snapshot registro PR #${{ github.event.pull_request.number }}"
+          git tag -a "$TAG_NAME" -m "Snapshot ID-$ID_COMUNE"
           git push origin "$TAG_NAME"
