@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Console Registro XML</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .copy-badge { cursor: pointer; transition: all 0.2s; }
+        .copy-badge:active { transform: scale(0.95); }
+    </script>
+</head>
+<body class="bg-gray-50 text-gray-900 font-sans">
+
+    <!-- Header -->
+    <header class="bg-blue-600 text-white shadow-lg p-6">
+        <div class="max-w-5xl mx-auto flex justify-between items-center">
+            <h1 class="text-2xl font-bold">📂 Dashboard Registro XML</h1>
+            <a href="https://github.com/IL_TUO_UTENTE/IL_TUO_REPO/upload/main/uploads" target="_blank" 
+               class="bg-white text-blue-600 px-4 py-2 rounded-lg font-semibold hover:bg-blue-50 transition">
+                ➕ Carica Nuovi File
+            </a>
+        </div>
+    </header>
+
+    <main class="max-w-5xl mx-auto p-6">
+        
+        <!-- Sezione Ricerca e Rollback -->
+        <section class="bg-white rounded-xl shadow-md p-6 mb-8">
+            <h2 class="text-xl font-semibold mb-4 text-gray-700">🔍 Ricerca e Ripristino Rapido</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
+                <input type="text" id="fileSearch" placeholder="Cerca file XML (es. prezzi...)" 
+                       class="border border-gray-300 p-3 rounded-lg w-full focus:ring-2 focus:ring-blue-500 outline-none">
+                
+                <select id="tagSelect" class="border border-gray-300 p-3 rounded-lg w-full outline-none">
+                    <option value="">Caricamento tag...</option>
+                </select>
+            </div>
+
+            <!-- Tabella Risultati -->
+            <div class="overflow-x-auto">
+                <table class="w-full text-left border-collapse">
+                    <thead>
+                        <tr class="border-b-2 border-gray-100 text-gray-500 uppercase text-xs">
+                            <th class="py-3 px-2">Nome File</th>
+                            <th class="py-3 px-2 text-right">Azione Rollback</th>
+                        </tr>
+                    </thead>
+                    <tbody id="fileTableBody">
+                        <!-- Riempito via JS -->
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <!-- Istruzioni per il team -->
+        <section class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div class="bg-blue-50 border-l-4 border-blue-500 p-4 rounded">
+                <h3 class="font-bold text-blue-800 mb-2">💡 Come funziona?</h3>
+                <p class="text-sm text-blue-700">
+                    Cerca un file, seleziona un <b>Tag</b> (punto di ripristino) e clicca sul comando generato. Incollalo nel tuo terminale per sovrascrivere il file errato con la versione storica.
+                </p>
+            </div>
+            <div class="bg-amber-50 border-l-4 border-amber-500 p-4 rounded">
+                <h3 class="font-bold text-amber-800 mb-2">⚠️ Attenzione</h3>
+                <p class="text-sm text-amber-700">
+                    Il rollback via terminale richiede Git installato. Se non hai il terminale, usa la funzione "History" direttamente su GitHub.
+                </p>
+            </div>
+        </section>
+    </main>
+
+    <script>
+        const CONFIG = {
+            user: 'IL_TUO_UTENTE',
+            repo: 'IL_TUO_REPO',
+            folder: 'registro_files'
+        };
+
+        let allFiles = [];
+        let allTags = [];
+
+        async function init() {
+            try {
+                // Carica File
+                const resFiles = await fetch(`https://api.github.com/repos/${CONFIG.user}/${CONFIG.repo}/contents/${CONFIG.folder}`);
+                allFiles = await resFiles.json();
+
+                // Carica Tag
+                const resTags = await fetch(`https://api.github.com/repos/${CONFIG.user}/${CONFIG.repo}/tags`);
+                allTags = await resTags.json();
+
+                populateTags();
+                renderFiles();
+            } catch (e) {
+                console.error("Errore API:", e);
+                document.getElementById('fileTableBody').innerHTML = '<tr><td colspan="2" class="p-4 text-red-500">Errore nel caricamento dati. Verifica i permessi del repo.</td></tr>';
+            }
+        }
+
+        function populateTags() {
+            const select = document.getElementById('tagSelect');
+            select.innerHTML = allTags.map(t => `<option value="${t.name}">${t.name}</option>`).join('');
+        }
+
+        function renderFiles(filter = '') {
+            const tbody = document.getElementById('fileTableBody');
+            const selectedTag = document.getElementById('tagSelect').value || 'NOME_TAG';
+            
+            const filtered = allFiles.filter(f => f.name.toLowerCase().includes(filter.toLowerCase()) && f.name.endsWith('.xml'));
+
+            tbody.innerHTML = filtered.map(f => `
+                <tr class="border-b border-gray-50 hover:bg-gray-50 transition">
+                    <td class="py-4 px-2 font-medium">${f.name}</td>
+                    <td class="py-4 px-2 text-right">
+                        <code onclick="copyToClipboard(this)" class="copy-badge bg-gray-800 text-gray-200 text-xs p-2 rounded block md:inline-block">
+                            git checkout ${selectedTag} -- ${CONFIG.folder}/${f.name}
+                        </code>
+                    </td>
+                </tr>
+            `).join('');
+        }
+
+        function copyToClipboard(el) {
+            navigator.clipboard.writeText(el.innerText);
+            const originalText = el.innerText;
+            el.innerText = "✅ COPIATO!";
+            el.classList.replace('bg-gray-800', 'bg-green-600');
+            setTimeout(() => {
+                el.innerText = originalText;
+                el.classList.replace('bg-green-600', 'bg-gray-800');
+            }, 1000);
+        }
+
+        document.getElementById('fileSearch').addEventListener('input', (e) => renderFiles(e.target.value));
+        document.getElementById('tagSelect').addEventListener('change', () => renderFiles(document.getElementById('fileSearch').value));
+
+        init();
+    </script>
+</body>
+</html>
