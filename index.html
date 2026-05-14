@@ -1,191 +1,69 @@
 <!DOCTYPE html>
-<html lang="it">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Console Registro XML</title>
-    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Sblocco Dashboard</title>
     <style>
-        .copy-badge { cursor: pointer; transition: all 0.2s; }
-        .copy-badge:active { transform: scale(0.95); }
-    </script>
+        body { font-family: sans-serif; background: #1a202c; color: white; padding: 40px; }
+        .box { background: #2d3748; padding: 20px; border-radius: 8px; border: 1px solid #4a5568; }
+        .step { margin-bottom: 10px; padding-left: 20px; border-left: 3px solid #4a5568; }
+        .error { color: #fc8181; border-color: #fc8181; }
+        .success { color: #68d391; border-color: #68d391; }
+    </style>
 </head>
-<body class="bg-gray-50 text-gray-900 font-sans">
-
-    <!-- Header -->
-    <header class="bg-blue-600 text-white shadow-lg p-6">
-        <div class="max-w-5xl mx-auto flex justify-between items-center">
-            <h1 class="text-2xl font-bold">📂 Dashboard Registro XML</h1>
-            <a href="https://github.com/agcolella/MyFirstRepo/upload/main/uploads" target="_blank" 
-               class="bg-white text-blue-600 px-4 py-2 rounded-lg font-semibold hover:bg-blue-50 transition">
-                ➕ Carica Nuovi File
-            </a>
+<body>
+    <div class="box">
+        <h1>🛠 Test di Connessione al Registro</h1>
+        <div id="steps">
+            <div class="step">Attendere... lo script sta partendo.</div>
         </div>
-    </header>
+    </div>
 
-    <main class="max-w-5xl mx-auto p-6">
-        
-        <!-- Sezione Ricerca e Rollback -->
-        <section class="bg-white rounded-xl shadow-md p-6 mb-8">
-            <h2 class="text-xl font-semibold mb-4 text-gray-700">🔍 Ricerca e Ripristino Rapido</h2>
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
-                <input type="text" id="fileSearch" placeholder="Cerca file XML (es. prezzi...)" 
-                       class="border border-gray-300 p-3 rounded-lg w-full focus:ring-2 focus:ring-blue-500 outline-none">
-                
-                <select id="tagSelect" class="border border-gray-300 p-3 rounded-lg w-full outline-none">
-                    <option value="">Caricamento tag...</option>
-                </select>
-            </div>
-
-            <!-- Tabella Risultati -->
-            <div class="overflow-x-auto">
-                <table class="w-full text-left border-collapse">
-                    <thead>
-                        <tr class="border-b-2 border-gray-100 text-gray-500 uppercase text-xs">
-                            <th class="py-3 px-2">Nome File</th>
-                            <th class="py-3 px-2 text-right">Azione Rollback</th>
-                        </tr>
-                    </thead>
-                    <tbody id="fileTableBody">
-                        <!-- Riempito via JS -->
-                    </tbody>
-                </table>
-            </div>
-        </section>
-
-        <!-- Istruzioni per il team -->
-        <section class="grid grid-cols-1 md:grid-cols-2 gap-6">
-            <div class="bg-blue-50 border-l-4 border-blue-500 p-4 rounded">
-                <h3 class="font-bold text-blue-800 mb-2">💡 Come funziona?</h3>
-                <p class="text-sm text-blue-700">
-                    Cerca un file, seleziona un <b>Tag</b> (punto di ripristino) e clicca sul comando generato. Incollalo nel tuo terminale per sovrascrivere il file errato con la versione storica.
-                </p>
-            </div>
-            <div class="bg-amber-50 border-l-4 border-amber-500 p-4 rounded">
-                <h3 class="font-bold text-amber-800 mb-2">⚠️ Attenzione</h3>
-                <p class="text-sm text-amber-700">
-                    Il rollback via terminale richiede Git installato. Se non hai il terminale, usa la funzione "History" direttamente su GitHub.
-                </p>
-            </div>
-        </section>
-    </main>
-
-<script>
+    <script>
         const CONFIG = {
             user: 'agcolella',
             repo: 'MyFirstRepo',
             folder: 'registro_files'
         };
 
-        let allFiles = [];
-        let allTags = [];
+        const container = document.getElementById('steps');
 
-        async function init() {
-            const tbody = document.getElementById('fileTableBody');
-            tbody.innerHTML = '<tr><td colspan="2" class="p-4 animate-pulse text-blue-600">⏳ Connessione a GitHub in corso...</td></tr>';
+        function log(text, isError = false) {
+            const div = document.createElement('div');
+            div.className = 'step ' + (isError ? 'error' : 'success');
+            div.innerText = (isError ? '❌ ' : '✅ ') + text;
+            container.appendChild(div);
+        }
 
+        async function runTest() {
             try {
-                // 1. Diagnostica File
-                console.log("Tentativo recupero file...");
-                const resFiles = await fetch(`https://api.github.com/repos/${CONFIG.user}/${CONFIG.repo}/contents/${CONFIG.folder}`);
+                log("Controllo URL: " + `https://github.com/${CONFIG.user}/${CONFIG.repo}`);
                 
-                if (!resFiles.ok) {
-                    if (resFiles.status === 404) throw new Error(`Cartella "${CONFIG.folder}" non trovata. Controlla che il nome sia esatto.`);
-                    if (resFiles.status === 403) throw new Error("Accesso negato o Limite API raggiunto. Il repository è PRIVATO?");
-                    throw new Error(`Errore GitHub: ${resFiles.status} ${resFiles.statusText}`);
+                // Aggiungiamo ?t=... per evitare che il browser usi versioni vecchie della pagina
+                const cacheBuster = `?t=${new Date().getTime()}`;
+                
+                log("Chiamata API per i file...");
+                const res = await fetch(`https://api.github.com/repos/${CONFIG.user}/${CONFIG.repo}/contents/${CONFIG.folder}${cacheBuster}`);
+                
+                if (!res.ok) {
+                    throw new Error(`GitHub risponde con errore ${res.status}. Assicurati che la cartella '${CONFIG.folder}' esista nel branch main.`);
                 }
 
-                allFiles = await resFiles.json();
-                console.log("File caricati:", allFiles);
+                const data = await res.json();
+                log(`Connessione riuscita! Trovati ${data.length} elementi.`);
 
-                // 2. Diagnostica Tag
-                console.log("Tentativo recupero tag...");
-                const resTags = await fetch(`https://api.github.com/repos/${CONFIG.user}/${CONFIG.repo}/tags`);
-                
-                if (!resTags.ok) throw new Error("Impossibile recuperare i Tag.");
-                
-                allTags = await resTags.json();
-                console.log("Tag caricati:", allTags);
-
-                if (allTags.length === 0) {
-                    document.getElementById('tagSelect').innerHTML = '<option value="">⚠️ Nessun Tag trovato</option>';
+                if (data.length === 0) {
+                    log("ATTENZIONE: La cartella esiste ma è VUOTA. Carica un file in 'uploads' e fai il merge della PR!");
                 } else {
-                    populateTags();
+                    data.forEach(f => log(`File rilevato: ${f.name}`));
                 }
 
-                renderFiles();
-
-            } catch (e) {
-                console.error("Dettaglio Errore:", e);
-                tbody.innerHTML = `
-                    <tr>
-                        <td colspan="2" class="p-6 bg-red-50 border border-red-200 text-red-700">
-                            <p class="font-bold text-lg mb-2">❌ Errore di Configurazione</p>
-                            <p class="text-sm">${e.message}</p>
-                            <ul class="text-xs mt-4 list-disc list-inside opacity-75">
-                                <li>Il repo è pubblico? (Se è privato, le API non funzioneranno qui)</li>
-                                <li>Il nome della cartella "${CONFIG.folder}" è corretto?</li>
-                                <li>Hai fatto troppi refresh? (GitHub blocca temporaneamente)</li>
-                            </ul>
-                        </td>
-                    </tr>`;
+            } catch (err) {
+                log(err.message, true);
             }
         }
 
-        function populateTags() {
-            const select = document.getElementById('tagSelect');
-            select.innerHTML = allTags.map(t => `<option value="${t.name}">${t.name}</option>`).join('');
-        }
-
-        function renderFiles(filter = '') {
-            const tbody = document.getElementById('fileTableBody');
-            const selectedTag = document.getElementById('tagSelect').value || 'NOME_TAG';
-            
-            // Filtriamo solo i file .xml
-            const filtered = allFiles.filter(f => 
-                f.name.toLowerCase().includes(filter.toLowerCase()) && 
-                f.name.toLowerCase().endsWith('.xml')
-            );
-
-            if (filtered.length === 0) {
-                tbody.innerHTML = '<tr><td colspan="2" class="p-4 text-gray-400 italic">Nessun file trovato.</td></tr>';
-                return;
-            }
-
-            tbody.innerHTML = filtered.map(f => `
-                <tr class="border-b border-gray-50 hover:bg-gray-50 transition">
-                    <td class="py-4 px-2 font-medium">${f.name}</td>
-                    <td class="py-4 px-2 text-right">
-                        <code onclick="copyToClipboard(this)" class="copy-badge bg-gray-800 text-gray-200 text-xs p-2 rounded block md:inline-block border border-gray-600 hover:border-blue-400">
-                            git checkout ${selectedTag} -- ${CONFIG.folder}/${f.name}
-                        </code>
-                    </td>
-                </tr>
-            `).join('');
-        }
-
-        function copyToClipboard(el) {
-            const textToCopy = el.innerText.trim();
-            navigator.clipboard.writeText(textToCopy).then(() => {
-                const originalText = el.innerText;
-                el.innerText = "✅ COPIATO!";
-                el.classList.add('bg-green-600');
-                el.classList.remove('bg-gray-800');
-                setTimeout(() => {
-                    el.innerText = originalText;
-                    el.classList.remove('bg-green-600');
-                    el.classList.add('bg-gray-800');
-                }, 1000);
-            }).catch(err => {
-                alert("Errore nella copia: usa CTRL+C");
-            });
-        }
-
-        document.getElementById('fileSearch').addEventListener('input', (e) => renderFiles(e.target.value));
-        document.getElementById('tagSelect').addEventListener('change', () => renderFiles(document.getElementById('fileSearch').value));
-
-        // Avvio
-        init();
+        // Avvio immediato
+        runTest();
     </script>
 </body>
 </html>
