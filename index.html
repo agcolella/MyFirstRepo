@@ -70,7 +70,7 @@
         </section>
     </main>
 
-    <script>
+<script>
         const CONFIG = {
             user: 'agcolella',
             repo: 'MyFirstRepo',
@@ -81,20 +81,54 @@
         let allTags = [];
 
         async function init() {
+            const tbody = document.getElementById('fileTableBody');
+            tbody.innerHTML = '<tr><td colspan="2" class="p-4 animate-pulse text-blue-600">⏳ Connessione a GitHub in corso...</td></tr>';
+
             try {
-                // Carica File
+                // 1. Diagnostica File
+                console.log("Tentativo recupero file...");
                 const resFiles = await fetch(`https://api.github.com/repos/${CONFIG.user}/${CONFIG.repo}/contents/${CONFIG.folder}`);
+                
+                if (!resFiles.ok) {
+                    if (resFiles.status === 404) throw new Error(`Cartella "${CONFIG.folder}" non trovata. Controlla che il nome sia esatto.`);
+                    if (resFiles.status === 403) throw new Error("Accesso negato o Limite API raggiunto. Il repository è PRIVATO?");
+                    throw new Error(`Errore GitHub: ${resFiles.status} ${resFiles.statusText}`);
+                }
+
                 allFiles = await resFiles.json();
+                console.log("File caricati:", allFiles);
 
-                // Carica Tag
+                // 2. Diagnostica Tag
+                console.log("Tentativo recupero tag...");
                 const resTags = await fetch(`https://api.github.com/repos/${CONFIG.user}/${CONFIG.repo}/tags`);
+                
+                if (!resTags.ok) throw new Error("Impossibile recuperare i Tag.");
+                
                 allTags = await resTags.json();
+                console.log("Tag caricati:", allTags);
 
-                populateTags();
+                if (allTags.length === 0) {
+                    document.getElementById('tagSelect').innerHTML = '<option value="">⚠️ Nessun Tag trovato</option>';
+                } else {
+                    populateTags();
+                }
+
                 renderFiles();
+
             } catch (e) {
-                console.error("Errore API:", e);
-                document.getElementById('fileTableBody').innerHTML = '<tr><td colspan="2" class="p-4 text-red-500">Errore nel caricamento dati. Verifica i permessi del repo.</td></tr>';
+                console.error("Dettaglio Errore:", e);
+                tbody.innerHTML = `
+                    <tr>
+                        <td colspan="2" class="p-6 bg-red-50 border border-red-200 text-red-700">
+                            <p class="font-bold text-lg mb-2">❌ Errore di Configurazione</p>
+                            <p class="text-sm">${e.message}</p>
+                            <ul class="text-xs mt-4 list-disc list-inside opacity-75">
+                                <li>Il repo è pubblico? (Se è privato, le API non funzioneranno qui)</li>
+                                <li>Il nome della cartella "${CONFIG.folder}" è corretto?</li>
+                                <li>Hai fatto troppi refresh? (GitHub blocca temporaneamente)</li>
+                            </ul>
+                        </td>
+                    </tr>`;
             }
         }
 
@@ -107,13 +141,22 @@
             const tbody = document.getElementById('fileTableBody');
             const selectedTag = document.getElementById('tagSelect').value || 'NOME_TAG';
             
-            const filtered = allFiles.filter(f => f.name.toLowerCase().includes(filter.toLowerCase()) && f.name.endsWith('.xml'));
+            // Filtriamo solo i file .xml
+            const filtered = allFiles.filter(f => 
+                f.name.toLowerCase().includes(filter.toLowerCase()) && 
+                f.name.toLowerCase().endsWith('.xml')
+            );
+
+            if (filtered.length === 0) {
+                tbody.innerHTML = '<tr><td colspan="2" class="p-4 text-gray-400 italic">Nessun file trovato.</td></tr>';
+                return;
+            }
 
             tbody.innerHTML = filtered.map(f => `
                 <tr class="border-b border-gray-50 hover:bg-gray-50 transition">
                     <td class="py-4 px-2 font-medium">${f.name}</td>
                     <td class="py-4 px-2 text-right">
-                        <code onclick="copyToClipboard(this)" class="copy-badge bg-gray-800 text-gray-200 text-xs p-2 rounded block md:inline-block">
+                        <code onclick="copyToClipboard(this)" class="copy-badge bg-gray-800 text-gray-200 text-xs p-2 rounded block md:inline-block border border-gray-600 hover:border-blue-400">
                             git checkout ${selectedTag} -- ${CONFIG.folder}/${f.name}
                         </code>
                     </td>
@@ -122,19 +165,26 @@
         }
 
         function copyToClipboard(el) {
-            navigator.clipboard.writeText(el.innerText);
-            const originalText = el.innerText;
-            el.innerText = "✅ COPIATO!";
-            el.classList.replace('bg-gray-800', 'bg-green-600');
-            setTimeout(() => {
-                el.innerText = originalText;
-                el.classList.replace('bg-green-600', 'bg-gray-800');
-            }, 1000);
+            const textToCopy = el.innerText.trim();
+            navigator.clipboard.writeText(textToCopy).then(() => {
+                const originalText = el.innerText;
+                el.innerText = "✅ COPIATO!";
+                el.classList.add('bg-green-600');
+                el.classList.remove('bg-gray-800');
+                setTimeout(() => {
+                    el.innerText = originalText;
+                    el.classList.remove('bg-green-600');
+                    el.classList.add('bg-gray-800');
+                }, 1000);
+            }).catch(err => {
+                alert("Errore nella copia: usa CTRL+C");
+            });
         }
 
         document.getElementById('fileSearch').addEventListener('input', (e) => renderFiles(e.target.value));
         document.getElementById('tagSelect').addEventListener('change', () => renderFiles(document.getElementById('fileSearch').value));
 
+        // Avvio
         init();
     </script>
 </body>
