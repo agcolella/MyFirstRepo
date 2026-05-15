@@ -2,138 +2,103 @@
 <html lang="it">
 <head>
     <meta charset="UTF-8">
-    <title>Time Machine Registro XML</title>
+    <title>Registry Explorer Pro</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
         .modal { display: none; position: fixed; z-index: 50; left: 0; top: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.8); }
-        .modal-content { background: #1e293b; margin: 5% auto; padding: 20px; width: 80%; max-height: 80vh; overflow-y: auto; border-radius: 12px; border: 1px solid #334155; }
-        pre { white-space: pre-wrap; word-wrap: break-word; color: #94a3b8; font-size: 0.85rem; }
+        .modal-content { background: #1e293b; margin: 5% auto; padding: 20px; width: 85%; max-height: 85vh; overflow-y: auto; border-radius: 12px; border: 1px solid #334155; }
+        pre { white-space: pre-wrap; word-wrap: break-word; color: #94a3b8; font-size: 0.8rem; background: #0f172a; padding: 15px; border-radius: 8px; }
         input[type="date"]::-webkit-calendar-picker-indicator { filter: invert(1); }
     </style>
 </head>
-<body class="bg-slate-900 text-slate-200 p-5 font-sans">
+<body class="bg-slate-900 text-slate-200 p-4 md:p-8 font-sans">
 
-    <div class="max-w-5xl mx-auto">
-        <header class="mb-8">
-            <h1 class="text-3xl font-bold text-blue-400">🕒 Registro XML Time Machine</h1>
-            <p class="text-slate-400 text-sm">Esplora lo stato del registro in una data specifica o visualizza i file attuali.</p>
+    <div class="max-w-6xl mx-auto">
+        <!-- Header con Statistiche -->
+        <header class="flex flex-col md:flex-row justify-between items-start md:items-end mb-8 gap-4">
+            <div>
+                <h1 class="text-3xl font-bold text-blue-400">🕒 Registry Explorer</h1>
+                <p class="text-slate-400 text-sm">Ricerca avanzata e navigazione temporale metadata.</p>
+            </div>
+            <div id="statsCounter" class="bg-blue-600/20 text-blue-400 px-4 py-2 rounded-full border border-blue-600/30 text-sm font-bold">
+                Caricamento...
+            </div>
         </header>
         
+        <!-- Area Filtri -->
         <div class="bg-slate-800 p-6 rounded-xl border border-slate-700 shadow-2xl mb-6">
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-6">
-                <!-- Selettore Data -->
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-4 mb-6">
                 <div>
-                    <label class="block text-xs font-bold text-slate-500 uppercase mb-1">1. Scegli Data</label>
-                    <input type="date" id="datePicker" 
-                           class="bg-slate-900 p-3 rounded-lg w-full border border-slate-700 focus:ring-2 focus:ring-blue-500 outline-none">
+                    <label class="block text-xs font-bold text-slate-500 uppercase mb-1">Data</label>
+                    <input type="date" id="datePicker" class="bg-slate-900 p-3 rounded-lg w-full border border-slate-700 outline-none">
                 </div>
-
-                <!-- Selettore Tag filtrato -->
                 <div>
-                    <label class="block text-xs font-bold text-slate-500 uppercase mb-1">2. Seleziona Versione (Tag)</label>
-                    <select id="tagSelect" class="bg-slate-900 p-3 rounded-lg w-full border border-slate-700 outline-none disabled:opacity-50">
-                        <option value="main">📂 Stato Attuale (Tutti i file)</option>
-                    </select>
+                    <label class="block text-xs font-bold text-slate-500 uppercase mb-1">Versione</label>
+                    <select id="tagSelect" class="bg-slate-900 p-3 rounded-lg w-full border border-slate-700 outline-none"></select>
                 </div>
-
-                <!-- Ricerca -->
-                <div>
-                    <label class="block text-xs font-bold text-slate-500 uppercase mb-1">3. Filtra Risultati</label>
-                    <input type="text" id="fileSearch" placeholder="Cerca nel contenuto..." 
-                           class="bg-slate-900 p-3 rounded-lg w-full border border-slate-700 outline-none">
+                <div class="md:col-span-2">
+                    <label class="block text-xs font-bold text-slate-500 uppercase mb-1">Cerca (Ente, URL o Nome File)</label>
+                    <input type="text" id="fileSearch" placeholder="Es: Comune di Milano..." class="bg-slate-900 p-3 rounded-lg w-full border border-slate-700 outline-none focus:ring-2 focus:ring-blue-500">
                 </div>
             </div>
 
-            <div class="overflow-x-auto text-sm">
-                <table class="w-full border-collapse">
+            <!-- Tabella Risultati -->
+            <div class="overflow-x-auto min-h-[400px]">
+                <table class="w-full text-sm">
                     <thead>
                         <tr class="text-left text-slate-500 border-b border-slate-700">
-                            <th class="p-4">Organizzazione / File</th>
-                            <th class="p-4 text-right">Azione</th>
+                            <th class="p-4">Organizzazione / Metadato</th>
+                            <th class="p-4 text-right">Comando</th>
                         </tr>
                     </thead>
-                    <tbody id="fileTableBody">
-                        <tr><td colspan="2" class="p-10 text-center animate-pulse">Inizializzazione...</td></tr>
-                    </tbody>
+                    <tbody id="fileTableBody"></tbody>
                 </table>
+            </div>
+
+            <!-- Paginazione -->
+            <div id="pagination" class="mt-6 flex justify-between items-center border-t border-slate-700 pt-6">
+                <span id="pageInfo" class="text-slate-400 text-xs italic"></span>
+                <div class="flex gap-2">
+                    <button id="prevPage" class="bg-slate-700 hover:bg-slate-600 px-4 py-2 rounded-lg disabled:opacity-30 transition">Precedente</button>
+                    <button id="nextPage" class="bg-slate-700 hover:bg-slate-600 px-4 py-2 rounded-lg disabled:opacity-30 transition">Successiva</button>
+                </div>
             </div>
         </div>
     </div>
 
-    <!-- Popup XML -->
+    <!-- Modal Popup -->
     <div id="xmlModal" class="modal">
         <div class="modal-content">
-            <div class="flex justify-between items-center mb-4 border-b border-slate-700 pb-2">
+            <div class="flex justify-between items-center mb-4">
                 <h3 id="modalTitle" class="font-bold text-blue-400"></h3>
-                <button onclick="closeModal()" class="text-slate-400 hover:text-white text-2xl">&times;</button>
+                <button onclick="closeModal()" class="text-slate-400 hover:text-white text-3xl">&times;</button>
             </div>
             <pre id="xmlContent"></pre>
         </div>
     </div>
 
     <script>
-        const CONFIG = {
-            user: 'agcolella',
-            repo: 'MyFirstRepo',
-            folder: 'registro_files'
-        };
-
+        const CONFIG = { user: 'agcolella', repo: 'MyFirstRepo', folder: 'registro_files' };
         let allTags = []; 
-        let currentFilesData = [];
+        let filteredFiles = [];
+        let rawData = [];
+        let currentPage = 1;
+        const itemsPerPage = 10;
 
         async function init() {
-            try {
-                // Carica tutti i tag all'inizio
-                const tRes = await fetch(`https://api.github.com/repos/${CONFIG.user}/${CONFIG.repo}/tags`);
-                allTags = await tRes.json();
-                
-                // Imposta la vista iniziale su "main" (Tutti i file)
-                loadDataForRef('main');
-            } catch (e) {
-                console.error(e);
-            }
+            const tRes = await fetch(`https://api.github.com/repos/${CONFIG.user}/${CONFIG.repo}/tags`);
+            allTags = await tRes.json();
+            loadDataForRef('main');
         }
 
-        // Gestione del DatePicker
-        document.getElementById('datePicker').addEventListener('change', function(e) {
-            const selectedDate = e.target.value.replace(/-/g, ''); // trasforma 2026-05-12 in 20260512
-            const tagSelect = document.getElementById('tagSelect');
-            
-            // Filtra i tag che iniziano con v-YYYYMMDD
-            const filteredTags = allTags.filter(t => t.name.startsWith(`v-${selectedDate}`));
-            
-            tagSelect.innerHTML = '<option value="main">📂 Stato Attuale (Tutti i file)</option>';
-            filteredTags.forEach(t => {
-                const time = t.name.split('-')[2] || ""; // Estrae HHMMSS
-                tagSelect.innerHTML += `<option value="${t.name}">🏷️ Tag delle ore ${time.substring(0,2)}:${time.substring(2,4)} (${t.name})</option>`;
-            });
-
-            if (filteredTags.length > 0) {
-                tagSelect.value = filteredTags[0].name;
-                loadDataForRef(filteredTags[0].name);
-            } else if (e.target.value !== "") {
-                alert("Nessun tag trovato per questa data.");
-                tagSelect.value = "main";
-                loadDataForRef("main");
-            }
-        });
-
-        // Caricamento dati basato su Tag o Branch
         async function loadDataForRef(ref) {
-            const tbody = document.getElementById('fileTableBody');
-            tbody.innerHTML = '<tr><td colspan="2" class="p-10 text-center animate-pulse text-blue-400">Recupero file per la versione selezionata...</td></tr>';
-
+            document.getElementById('fileTableBody').innerHTML = '<tr><td colspan="2" class="p-10 text-center animate-pulse">Analisi file in corso...</td></tr>';
             try {
-                // Fetch contenuto cartella filtrato per riferimento (sha o branch name)
-                const url = `https://api.github.com/repos/${CONFIG.user}/${CONFIG.repo}/contents/${CONFIG.folder}?ref=${ref}`;
-                const res = await fetch(url);
-                if (!res.ok) throw new Error("Cartella non trovata in questa versione.");
-                
+                const res = await fetch(`https://api.github.com/repos/${CONFIG.user}/${CONFIG.repo}/contents/${CONFIG.folder}?ref=${ref}`);
                 const files = await res.json();
                 const xmlFiles = files.filter(f => f.name.endsWith('.xml'));
 
-                // Scarica i contenuti per indicizzare md:Organization
-                currentFilesData = await Promise.all(xmlFiles.map(async (file) => {
+                rawData = await Promise.all(xmlFiles.map(async (file) => {
                     const contentRes = await fetch(file.download_url);
                     const text = await contentRes.text();
                     const orgMatch = text.match(/<md:Organization>([\s\S]*?)<\/md:Organization>/);
@@ -141,56 +106,91 @@
                     return { name: file.name, content: text, orgData: orgContent, ref: ref };
                 }));
 
-                render();
+                applyFilterAndRender();
             } catch (e) {
-                tbody.innerHTML = `<tr><td colspan="2" class="p-10 text-red-500">Nessun file presente in questa versione.</td></tr>`;
+                document.getElementById('fileTableBody').innerHTML = `<tr><td colspan="2" class="p-10 text-red-400">Errore: ${e.message}</td></tr>`;
             }
         }
 
-        function render(filter = '') {
-            const tbody = document.getElementById('fileTableBody');
-            const fLower = filter.toLowerCase();
-            const filtered = currentFilesData.filter(f => f.name.toLowerCase().includes(fLower) || f.orgData.toLowerCase().includes(fLower));
+        function applyFilterAndRender() {
+            const searchTerm = document.getElementById('fileSearch').value.toLowerCase();
+            filteredFiles = rawData.filter(f => 
+                f.name.toLowerCase().includes(searchTerm) || 
+                f.orgData.toLowerCase().includes(searchTerm)
+            );
+            
+            currentPage = 1;
+            renderTable();
+        }
 
-            if (filtered.length === 0) {
-                tbody.innerHTML = '<tr><td colspan="2" class="p-10 text-center text-slate-500">Nessun file XML trovato.</td></tr>';
+        function renderTable() {
+            const tbody = document.getElementById('fileTableBody');
+            const total = filteredFiles.length;
+            const start = (currentPage - 1) * itemsPerPage;
+            const end = start + itemsPerPage;
+            const paginatedItems = filteredFiles.slice(start, end);
+
+            // Aggiorna contatore
+            document.getElementById('statsCounter').innerText = `${total} risultati trovati`;
+
+            if (total === 0) {
+                tbody.innerHTML = '<tr><td colspan="2" class="p-10 text-center text-slate-500">Nessun file trovato per i criteri scelti.</td></tr>';
+                updatePagination(0);
                 return;
             }
 
-            tbody.innerHTML = filtered.map(f => `
+            tbody.innerHTML = paginatedItems.map(f => `
                 <tr class="border-b border-slate-700/50 hover:bg-slate-800 transition">
                     <td class="p-4">
                         <div class="font-bold text-blue-300 cursor-pointer hover:underline" onclick="openModal('${f.name}')">${f.name}</div>
-                        <div class="text-xs text-slate-500 truncate max-w-md italic">${f.orgData || 'Nessuna info organizzazione'}</div>
+                        <div class="text-xs text-slate-500 truncate max-w-xl italic">${f.orgData || 'Nessuna informazione Ente'}</div>
                     </td>
                     <td class="p-4 text-right">
-                        <button onclick="copy('${f.ref}', '${f.name}')" class="bg-blue-600 hover:bg-blue-500 text-xs py-2 px-4 rounded font-bold transition">
-                            Copia Rollback
-                        </button>
+                        <button onclick="copy('${f.ref}', '${f.name}')" class="bg-blue-600 hover:bg-blue-500 text-xs py-2 px-3 rounded font-bold transition">Copia Rollback</button>
                     </td>
                 </tr>
             `).join('');
+
+            updatePagination(total);
         }
 
-        // UI Helpers
-        function openModal(fileName) {
-            const file = currentFilesData.find(f => f.name === fileName);
-            document.getElementById('modalTitle').innerText = `${fileName} (${file.ref})`;
-            document.getElementById('xmlContent').innerText = file.content;
-            document.getElementById('xmlModal').style.display = "block";
+        function updatePagination(total) {
+            const totalPages = Math.ceil(total / itemsPerPage);
+            document.getElementById('pageInfo').innerText = total > 0 ? `Pagina ${currentPage} di ${totalPages}` : '';
+            document.getElementById('prevPage').disabled = currentPage === 1;
+            document.getElementById('nextPage').disabled = currentPage === totalPages || totalPages === 0;
         }
 
-        function closeModal() { document.getElementById('xmlModal').style.display = "none"; }
+        // Event Listeners Paginazione
+        document.getElementById('prevPage').addEventListener('click', () => { if(currentPage > 1) { currentPage--; renderTable(); }});
+        document.getElementById('nextPage').addEventListener('click', () => { if(currentPage * itemsPerPage < filteredFiles.length) { currentPage++; renderTable(); }});
+
+        // Altri Event Listeners
+        document.getElementById('fileSearch').addEventListener('input', applyFilterAndRender);
         
-        function copy(ref, name) {
-            const cmd = `git checkout ${ref} -- ${CONFIG.folder}/${name}`;
-            navigator.clipboard.writeText(cmd);
-            alert("Comando copiato per la versione: " + ref);
-        }
+        document.getElementById('datePicker').addEventListener('change', function(e) {
+            const d = e.target.value.replace(/-/g, '');
+            const filteredTags = allTags.filter(t => t.name.startsWith(`v-${d}`));
+            const sel = document.getElementById('tagSelect');
+            sel.innerHTML = '<option value="main">📂 Stato Attuale</option>';
+            filteredTags.forEach(t => sel.innerHTML += `<option value="${t.name}">🏷️ ${t.name}</option>`);
+            if(filteredTags.length > 0) { sel.value = filteredTags[0].name; loadDataForRef(sel.value); }
+        });
 
         document.getElementById('tagSelect').addEventListener('change', (e) => loadDataForRef(e.target.value));
-        document.getElementById('fileSearch').addEventListener('input', (e) => render(e.target.value));
-        window.onclick = (e) => { if (e.target == document.getElementById('xmlModal')) closeModal(); }
+
+        // Modal Logic
+        function openModal(name) {
+            const f = rawData.find(x => x.name === name);
+            document.getElementById('modalTitle').innerText = name;
+            document.getElementById('xmlContent').innerText = f.content;
+            document.getElementById('xmlModal').style.display = "block";
+        }
+        function closeModal() { document.getElementById('xmlModal').style.display = "none"; }
+        function copy(ref, name) {
+            navigator.clipboard.writeText(`git checkout ${ref} -- ${CONFIG.folder}/${name}`);
+            alert("Comando copiato!");
+        }
 
         init();
     </script>
