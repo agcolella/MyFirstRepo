@@ -2,82 +2,129 @@
 <html lang="it">
 <head>
     <meta charset="UTF-8">
-    <title>Console Registro XML</title>
-    <!-- Tailwind caricato in modo più sicuro -->
+    <title>Console Registro XML Avanzata</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .modal { display: none; position: fixed; z-index: 50; left: 0; top: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.8); }
+        .modal-content { background: #1e293b; margin: 5% auto; padding: 20px; width: 80%; max-height: 80vh; overflow-y: auto; border-radius: 12px; border: 1px solid #334155; }
+        pre { white-space: pre-wrap; word-wrap: break-word; color: #94a3b8; font-size: 0.85rem; }
+    </style>
 </head>
-<body class="bg-slate-900 text-white p-5">
+<body class="bg-slate-900 text-slate-200 p-5 font-sans">
 
-    <div class="max-w-4xl mx-auto">
-        <h1 class="text-3xl font-bold mb-5 text-blue-400">📂 Registro XML Dashboard</h1>
+    <div class="max-w-5xl mx-auto">
+        <h1 class="text-3xl font-bold mb-2 text-blue-400">📂 Registro XML Dashboard</h1>
+        <p class="text-slate-400 mb-8 text-sm">Ricerca per nome file, organizzazione o URL.</p>
         
-        <div class="bg-slate-800 p-6 rounded-xl border border-slate-700 shadow-xl">
-            <div class="flex gap-4 mb-6">
-                <input type="text" id="fileSearch" placeholder="Cerca file..." class="bg-slate-700 p-3 rounded w-full border border-slate-600">
-                <select id="tagSelect" class="bg-slate-700 p-3 rounded border border-slate-600"></select>
+        <div class="bg-slate-800 p-6 rounded-xl border border-slate-700 shadow-2xl">
+            <div class="flex flex-col md:flex-row gap-4 mb-6">
+                <div class="flex-grow">
+                    <input type="text" id="fileSearch" placeholder="🔍 Cerca Comune, URL o file..." 
+                           class="bg-slate-900 p-3 rounded-lg w-full border border-slate-700 focus:ring-2 focus:ring-blue-500 outline-none">
+                </div>
+                <div class="w-full md:w-64">
+                    <select id="tagSelect" class="bg-slate-900 p-3 rounded-lg w-full border border-slate-700 outline-none cursor-pointer"></select>
+                </div>
             </div>
 
-            <table class="w-full">
-                <thead>
-                    <tr class="text-left text-slate-400 border-b border-slate-700">
-                        <th class="p-3">File</th>
-                        <th class="p-3 text-right">Comando Rollback</th>
-                    </tr>
-                </thead>
-                <tbody id="fileTableBody">
-                    <tr><td colspan="2" class="p-10 text-center">Inizializzazione API...</td></tr>
-                </tbody>
-            </table>
+            <div class="overflow-x-auto text-sm">
+                <table class="w-full border-collapse">
+                    <thead>
+                        <tr class="text-left text-slate-500 border-b border-slate-700">
+                            <th class="p-4">Organizzazione / File</th>
+                            <th class="p-4 text-right">Comando Rollback</th>
+                        </tr>
+                    </thead>
+                    <tbody id="fileTableBody">
+                        <tr><td colspan="2" class="p-10 text-center animate-pulse">Analisi contenuti XML in corso...</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <!-- Popup / Modal -->
+    <div id="xmlModal" class="modal">
+        <div class="modal-content">
+            <div class="flex justify-between items-center mb-4 border-b border-slate-700 pb-2 text-blue-400">
+                <h3 id="modalTitle" class="font-bold">Contenuto XML</h3>
+                <button onclick="closeModal()" class="text-slate-400 hover:text-white text-2xl">&times;</button>
+            </div>
+            <pre id="xmlContent"></pre>
         </div>
     </div>
 
     <script>
-        // CONFIGURAZIONE - CONTROLLA CHE SIANO ESATTI
         const CONFIG = {
             user: 'agcolella',
             repo: 'MyFirstRepo',
             folder: 'registro_files'
         };
 
-        let allFiles = [];
+        let allFiles = []; // Conterrà { name, content, organizationText, rawUrl }
         let allTags = [];
 
         async function init() {
-            const table = document.getElementById('fileTableBody');
             try {
-                // Fetch File
-                const fRes = await fetch(`https://api.github.com/repos/${CONFIG.user}/${CONFIG.repo}/contents/${CONFIG.folder}?t=${Date.now()}`);
-                if(!fRes.ok) throw new Error("Non trovo la cartella registro_files");
-                allFiles = await fRes.json();
+                // 1. Carica lista file
+                const fRes = await fetch(`https://api.github.com/repos/${CONFIG.user}/${CONFIG.repo}/contents/${CONFIG.folder}`);
+                const fileList = await fRes.json();
+                
+                // 2. Carica contenuti per ogni XML per indicizzare i tag Organization
+                const xmlFiles = fileList.filter(f => f.name.endsWith('.xml'));
+                
+                allFiles = await Promise.all(xmlFiles.map(async (file) => {
+                    const contentRes = await fetch(file.download_url);
+                    const text = await contentRes.text();
+                    
+                    // Estrattore rudimentale di testo da md:Organization
+                    const orgMatch = text.match(/<md:Organization>([\s\S]*?)<\/md:Organization>/);
+                    const orgContent = orgMatch ? orgMatch[1].replace(/<[^>]*>?/gm, ' ').replace(/\s+/g, ' ').trim() : '';
 
-                // Fetch Tag
-                const tRes = await fetch(`https://api.github.com/repos/${CONFIG.user}/${CONFIG.repo}/tags?t=${Date.now()}`);
+                    return {
+                        name: file.name,
+                        content: text,
+                        orgData: orgContent,
+                        downloadUrl: file.download_url
+                    };
+                }));
+
+                // 3. Carica Tag
+                const tRes = await fetch(`https://api.github.com/repos/${CONFIG.user}/${CONFIG.repo}/tags`);
                 allTags = await tRes.json();
 
-                // Popola UI
                 document.getElementById('tagSelect').innerHTML = allTags.map(t => `<option value="${t.name}">${t.name}</option>`).join('') || '<option>No Tag</option>';
+                
                 render();
             } catch (e) {
-                table.innerHTML = `<tr><td colspan="2" class="p-10 text-red-400 text-center font-bold">ERRORE: ${e.message}</td></tr>`;
+                document.getElementById('fileTableBody').innerHTML = `<tr><td colspan="2" class="p-10 text-red-500">Errore: ${e.message}</td></tr>`;
             }
         }
 
         function render(filter = '') {
             const tbody = document.getElementById('fileTableBody');
             const tag = document.getElementById('tagSelect').value || 'v-latest';
-            
-            const list = allFiles.filter(f => f.name.toLowerCase().includes(filter.toLowerCase()) && f.name.endsWith('.xml'));
+            const fLower = filter.toLowerCase();
 
-            if(list.length === 0) {
-                tbody.innerHTML = '<tr><td colspan="2" class="p-10 text-center text-slate-500">Nessun file XML trovato</td></tr>';
+            const filtered = allFiles.filter(f => 
+                f.name.toLowerCase().includes(fLower) || 
+                f.orgData.toLowerCase().includes(fLower)
+            );
+
+            if(filtered.length === 0) {
+                tbody.innerHTML = '<tr><td colspan="2" class="p-10 text-center text-slate-500">Nessuna corrispondenza trovata.</td></tr>';
                 return;
             }
 
-            tbody.innerHTML = list.map(f => `
-                <tr class="border-b border-slate-700 hover:bg-slate-700/50">
-                    <td class="p-3">${f.name}</td>
-                    <td class="p-3 text-right">
-                        <button onclick="copy('${tag}', '${f.name}')" class="bg-blue-600 hover:bg-blue-500 text-xs py-1 px-3 rounded text-white transition">
+            tbody.innerHTML = filtered.map(f => `
+                <tr class="border-b border-slate-700/50 hover:bg-slate-800 transition">
+                    <td class="p-4">
+                        <div class="font-bold text-blue-300 cursor-pointer hover:underline" onclick="openModal('${f.name}')">${f.name}</div>
+                        <div class="text-xs text-slate-500 truncate max-w-md">${f.orgData || 'Nessuna info organizzazione'}</div>
+                    </td>
+                    <td class="p-4 text-right">
+                        <button onclick="copy('${tag}', '${f.name}')" 
+                                class="bg-blue-600 hover:bg-blue-500 text-xs py-2 px-4 rounded-lg font-bold transition transform active:scale-95">
                             Copia Rollback
                         </button>
                     </td>
@@ -85,10 +132,29 @@
             `).join('');
         }
 
+        // Gestione Modal (Popup)
+        function openModal(fileName) {
+            const file = allFiles.find(f => f.name === fileName);
+            document.getElementById('modalTitle').innerText = fileName;
+            // Escaping basilare per mostrare XML come testo
+            document.getElementById('xmlContent').innerText = file.content;
+            document.getElementById('xmlModal').style.display = "block";
+        }
+
+        function closeModal() {
+            document.getElementById('xmlModal').style.display = "none";
+        }
+
+        // Copia comando
         function copy(tag, name) {
             const cmd = `git checkout ${tag} -- ${CONFIG.folder}/${name}`;
             navigator.clipboard.writeText(cmd);
-            alert("Comando copiato:\n" + cmd);
+            alert("Comando copiato negli appunti!");
+        }
+
+        // Chiusura modal cliccando fuori
+        window.onclick = (event) => {
+            if (event.target == document.getElementById('xmlModal')) closeModal();
         }
 
         document.getElementById('fileSearch').addEventListener('input', (e) => render(e.target.value));
