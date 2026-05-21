@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" ID="id-FrTvhyWRDowHNEOzz" entityID="https://www.actainfo.it/pub-ag-lite/baselice.xml"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#id-FrTvhyWRDowHNEOzz">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>dNdlW7Nb5dbgFEFQcU4pAwZ7M/+RSu0dVp3jp8jFA5Y=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+CAJOvWkxIuDOOsnb2/dE+ZedQ/ZMKOaaYndHeorNShQpg8dPThnLWNmAihxytvhq4FpOPyGEPhxz
+J2G8/1bHWvbzLZGP+P0P/DOKOANXwGXEyBArzZwKaRI7kvHsYyhUXZrGvAiEajVYZUFVR4s3yd5l
+/mE5QnNH6GzbRE4C8l92wWdhb7Dohz5JuV1dddjVuDkqm7MDVRjxLUeLGFLHQ9TUH//3QXYlLGiq
+Bu9IzZBwvNvDpw7XZu5zzuoXqspgc37EBFDWIu+NV42mq3ZqTXUYukX3p50HX7L5aFl+2vWakrhB
+UEjuOmfipQEOxEhyRA/+YQ1B4E73XAE2KeGMCscRH9OyMR9l5TOoZKDbmxXnV/Bi6uTZJxdw2+8W
++CwdW+XV6dHsW5tfYcl3vx8YfIHBPL1cA+l/sQo7qxVe+cx1w2I8OVaap1Nr9yZA+k6B5HZFoOQl
+N7p7fK3NAydMjpU0tBZBS/C9FHMuMVUG2FsKMHAeN8E9hFY4PWBxJcSl
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+r+xkhzE5fkMU4DnhUT250be+P19yQV9J5pqmOcS92/2j5TZBc35mUjvliOdkpnrBf0991zBK4Xxp
+qQJ+f0pNVfLkpmGwtylqCI5I3riiLSuyi9QcqbetERBfQwFcK2gxpPVV3BKWyditPOWLeXcZ8X4J
+K4VlAQqfSOC6XEh8jz8WbOE93Z+/UFSTkFTueA57n9IV/oJUb35VlUv+ruk4h76TBmZlavt4Os41
+1F9M5Q38Fq4YyaQbaoLZ5EOadK0z/KMOkXSWPsGZAXT+ftRIx72BADdIo1/cxGCwNzVQdqI0a5y1
+RPynWsoCJ/qnAEE+aMN8m7oSDDs9yd/IQZgGHaLXnZKtDKDMu51/hsVxEaFCp4HGJq83o8/vLRCU
+7gECvZ3ITlcxOtCFXepl/e4TNoX+F4ql/kEahLw78mNJZtCsS/1yxi7BIoGnVys34S9JdrZxq7zj
+X8mP7mn7735PMjuxVd9/7DWGzYkbpJCp/qBKANPQEZN57Fg9y7ZHFyvR
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIEfTCCA2WgAwIBAgICEDgwDQYJKoZIhvcNAQELBQAwgZkxFTATBgNVBAMMDEFjdGFpbmZvIFNy
+bDELMAkGA1UEBhMCSVQxHTAbBgNVBAcMFFJvc2V0byBkZWdsaSBBYnJ1enppMRowGAYDVQRhDBFW
+QVRJVC0wMTkwMTc1MDY3NzEVMBMGA1UECgwMQWN0YWluZm8gU3JsMSEwHwYDVQRTDBhodHRwczov
+L3d3dy5hY3RhaW5mby5pdC8wHhcNMjQwNzI1MTYyMzMyWhcNMjUwNzI1MTYyMzMyWjCBrDEbMBkG
+A1UEAwwSQ29tdW5lIGRpIEJhc2VsaWNlMQswCQYDVQQGEwJJVDERMA8GA1UEBwwIQmFzZWxpY2Ux
+FTATBgNVBGEMDFBBOklULWNfYTY5NjEbMBkGA1UECgwSQ29tdW5lIGRpIEJhc2VsaWNlMTkwNwYD
+VQRTDDBodHRwczovL3d3dy5hY3RhaW5mby5pdC9wdWItYWctbGl0ZS9iYXNlbGljZS54bWwwggGi
+MA0GCSqGSIb3DQEBAQUAA4IBjwAwggGKAoIBgQCv7GSHMTl+QxTgOeFRPbnRt74/X3JBX0nmmqY5
+xL3b/aPlNkFzfmZSO+WI52SmesF/T33XMErhfGmpAn5/Sk1V8uSmYbC3KWoIjkjeuKItK7KL1Byp
+t60REF9DAVwraDGk9VXcEpbJ2K085Yt5dxnxfgkrhWUBCp9I4LpcSHyPPxZs4T3dn79QVJOQVO54
+Dnuf0hX+glRvflWVS/6u6TiHvpMGZmVq+3g6zjXUX0zlDfwWrhjJpBtqgtnkQ5p0rTP8ow6RdJY+
+wZkBdP5+1EjHvYEAN0ijX9zEYLA3NVB2ojRrnLVE/KdaygIn+qcAQT5ow3ybuhIMOz3J38hBmAYd
+otedkq0MoMy7nX+GxXERoUKngcYmrzejz+8tEJTuAQK9nchOVzE60IVd6mX97hM2hf4XiqX+QRqE
+vDvyY0lm0KxL/XLGLsEigadXKzfhL0l2tnGrvONfyY/uafvvfk8yO7FV33/sNYbNiRukkKn+oEoA
+09ARk3nsWD3LtkcXK9ECAwEAAaM6MDgwCQYDVR0TBAIwADAOBgNVHQ8BAf8EBAMCBsAwGwYDVR0g
+BBQwEjAGBgQrTBAGMAgGBitMEAQCATANBgkqhkiG9w0BAQsFAAOCAQEAofVgUE3H/qPQcH0k907B
+Armrn035HB6w3V2ordpki87Czunzprtw48dNwV7skrw224rdsd/+zluV4vDFaZsxW/NuDJ8IKXnf
+Dv4QAnDkf6bPFrK+KClTSa11deDdrfB4SsXuxs+gm+ma/nhZTez16UJk6hl/mlBU9r+JYlYl/qs/
+S3hg6yS6HnO93/5XImRx/A7nPwbn+J2eJKPDGjedsm1zQtlcoN4VjbWH6ikVKWt3mEEgZlUKCOMy
+LsB152ZjeRdFZ1vepj+ScojCCJ6TmlnbG1dneLXXDodtsg7ZABpAkZ2ar/sMb27iLc/T6XoyELih
+nL4xLpDfW2NVG2pJ6g==
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+	<md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+<md:KeyDescriptor use="signing">
+<ds:KeyInfo>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIEfTCCA2WgAwIBAgICEDgwDQYJKoZIhvcNAQELBQAwgZkxFTATBgNVBAMMDEFjdGFpbmZvIFNybDELMAkGA1UEBhMCSVQxHTAbBgNVBAcMFFJvc2V0byBkZWdsaSBBYnJ1enppMRowGAYDVQRhDBFWQVRJVC0wMTkwMTc1MDY3NzEVMBMGA1UECgwMQWN0YWluZm8gU3JsMSEwHwYDVQRTDBhodHRwczovL3d3dy5hY3RhaW5mby5pdC8wHhcNMjQwNzI1MTYyMzMyWhcNMjUwNzI1MTYyMzMyWjCBrDEbMBkGA1UEAwwSQ29tdW5lIGRpIEJhc2VsaWNlMQswCQYDVQQGEwJJVDERMA8GA1UEBwwIQmFzZWxpY2UxFTATBgNVBGEMDFBBOklULWNfYTY5NjEbMBkGA1UECgwSQ29tdW5lIGRpIEJhc2VsaWNlMTkwNwYDVQRTDDBodHRwczovL3d3dy5hY3RhaW5mby5pdC9wdWItYWctbGl0ZS9iYXNlbGljZS54bWwwggGiMA0GCSqGSIb3DQEBAQUAA4IBjwAwggGKAoIBgQCv7GSHMTl+QxTgOeFRPbnRt74/X3JBX0nmmqY5xL3b/aPlNkFzfmZSO+WI52SmesF/T33XMErhfGmpAn5/Sk1V8uSmYbC3KWoIjkjeuKItK7KL1Bypt60REF9DAVwraDGk9VXcEpbJ2K085Yt5dxnxfgkrhWUBCp9I4LpcSHyPPxZs4T3dn79QVJOQVO54Dnuf0hX+glRvflWVS/6u6TiHvpMGZmVq+3g6zjXUX0zlDfwWrhjJpBtqgtnkQ5p0rTP8ow6RdJY+wZkBdP5+1EjHvYEAN0ijX9zEYLA3NVB2ojRrnLVE/KdaygIn+qcAQT5ow3ybuhIMOz3J38hBmAYdotedkq0MoMy7nX+GxXERoUKngcYmrzejz+8tEJTuAQK9nchOVzE60IVd6mX97hM2hf4XiqX+QRqEvDvyY0lm0KxL/XLGLsEigadXKzfhL0l2tnGrvONfyY/uafvvfk8yO7FV33/sNYbNiRukkKn+oEoA09ARk3nsWD3LtkcXK9ECAwEAAaM6MDgwCQYDVR0TBAIwADAOBgNVHQ8BAf8EBAMCBsAwGwYDVR0gBBQwEjAGBgQrTBAGMAgGBitMEAQCATANBgkqhkiG9w0BAQsFAAOCAQEAofVgUE3H/qPQcH0k907BArmrn035HB6w3V2ordpki87Czunzprtw48dNwV7skrw224rdsd/+zluV4vDFaZsxW/NuDJ8IKXnfDv4QAnDkf6bPFrK+KClTSa11deDdrfB4SsXuxs+gm+ma/nhZTez16UJk6hl/mlBU9r+JYlYl/qs/S3hg6yS6HnO93/5XImRx/A7nPwbn+J2eJKPDGjedsm1zQtlcoN4VjbWH6ikVKWt3mEEgZlUKCOMyLsB152ZjeRdFZ1vepj+ScojCCJ6TmlnbG1dneLXXDodtsg7ZABpAkZ2ar/sMb27iLc/T6XoyELihnL4xLpDfW2NVG2pJ6g==
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</md:KeyDescriptor>
+<md:KeyDescriptor use="encryption">
+<ds:KeyInfo>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIEfTCCA2WgAwIBAgICEDgwDQYJKoZIhvcNAQELBQAwgZkxFTATBgNVBAMMDEFjdGFpbmZvIFNybDELMAkGA1UEBhMCSVQxHTAbBgNVBAcMFFJvc2V0byBkZWdsaSBBYnJ1enppMRowGAYDVQRhDBFWQVRJVC0wMTkwMTc1MDY3NzEVMBMGA1UECgwMQWN0YWluZm8gU3JsMSEwHwYDVQRTDBhodHRwczovL3d3dy5hY3RhaW5mby5pdC8wHhcNMjQwNzI1MTYyMzMyWhcNMjUwNzI1MTYyMzMyWjCBrDEbMBkGA1UEAwwSQ29tdW5lIGRpIEJhc2VsaWNlMQswCQYDVQQGEwJJVDERMA8GA1UEBwwIQmFzZWxpY2UxFTATBgNVBGEMDFBBOklULWNfYTY5NjEbMBkGA1UECgwSQ29tdW5lIGRpIEJhc2VsaWNlMTkwNwYDVQRTDDBodHRwczovL3d3dy5hY3RhaW5mby5pdC9wdWItYWctbGl0ZS9iYXNlbGljZS54bWwwggGiMA0GCSqGSIb3DQEBAQUAA4IBjwAwggGKAoIBgQCv7GSHMTl+QxTgOeFRPbnRt74/X3JBX0nmmqY5xL3b/aPlNkFzfmZSO+WI52SmesF/T33XMErhfGmpAn5/Sk1V8uSmYbC3KWoIjkjeuKItK7KL1Bypt60REF9DAVwraDGk9VXcEpbJ2K085Yt5dxnxfgkrhWUBCp9I4LpcSHyPPxZs4T3dn79QVJOQVO54Dnuf0hX+glRvflWVS/6u6TiHvpMGZmVq+3g6zjXUX0zlDfwWrhjJpBtqgtnkQ5p0rTP8ow6RdJY+wZkBdP5+1EjHvYEAN0ijX9zEYLA3NVB2ojRrnLVE/KdaygIn+qcAQT5ow3ybuhIMOz3J38hBmAYdotedkq0MoMy7nX+GxXERoUKngcYmrzejz+8tEJTuAQK9nchOVzE60IVd6mX97hM2hf4XiqX+QRqEvDvyY0lm0KxL/XLGLsEigadXKzfhL0l2tnGrvONfyY/uafvvfk8yO7FV33/sNYbNiRukkKn+oEoA09ARk3nsWD3LtkcXK9ECAwEAAaM6MDgwCQYDVR0TBAIwADAOBgNVHQ8BAf8EBAMCBsAwGwYDVR0gBBQwEjAGBgQrTBAGMAgGBitMEAQCATANBgkqhkiG9w0BAQsFAAOCAQEAofVgUE3H/qPQcH0k907BArmrn035HB6w3V2ordpki87Czunzprtw48dNwV7skrw224rdsd/+zluV4vDFaZsxW/NuDJ8IKXnfDv4QAnDkf6bPFrK+KClTSa11deDdrfB4SsXuxs+gm+ma/nhZTez16UJk6hl/mlBU9r+JYlYl/qs/S3hg6yS6HnO93/5XImRx/A7nPwbn+J2eJKPDGjedsm1zQtlcoN4VjbWH6ikVKWt3mEEgZlUKCOMyLsB152ZjeRdFZ1vepj+ScojCCJ6TmlnbG1dneLXXDodtsg7ZABpAkZ2ar/sMb27iLc/T6XoyELihnL4xLpDfW2NVG2pJ6g==
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</md:KeyDescriptor>
+		<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://login.comune.baselice.bn.it/spid/ls/post/"/>
+		<md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+		<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://login.comune.baselice.bn.it/spid/acs/" index="0" isDefault="true"/>
+		<md:AttributeConsumingService index="0">
+			<md:ServiceName xml:lang="it">https://login.comune.baselice.bn.it</md:ServiceName>
+			<md:RequestedAttribute Name="spidCode" isRequired="true"/>
+			<md:RequestedAttribute Name="name" isRequired="true"/>
+			<md:RequestedAttribute Name="familyName" isRequired="true"/>
+			<md:RequestedAttribute Name="fiscalNumber" isRequired="true"/>
+			<md:RequestedAttribute Name="email" isRequired="true"/>
+			<md:RequestedAttribute Name="gender" isRequired="false"/>
+			<md:RequestedAttribute Name="companyName" isRequired="false"/>
+			<md:RequestedAttribute Name="registeredOffice" isRequired="false"/>
+			<md:RequestedAttribute Name="ivaCode" isRequired="false"/>
+			<md:RequestedAttribute Name="idCard" isRequired="false"/>
+			<md:RequestedAttribute Name="digitalAddress" isRequired="false"/>
+			<md:RequestedAttribute Name="placeOfBirth" isRequired="false"/>
+			<md:RequestedAttribute Name="countyOfBirth" isRequired="false"/>
+			<md:RequestedAttribute Name="dateOfBirth" isRequired="false"/>
+			<md:RequestedAttribute Name="address" isRequired="false"/>
+			<md:RequestedAttribute Name="mobilePhone" isRequired="false"/>
+			<md:RequestedAttribute Name="expirationDate" isRequired="false"/>
+		</md:AttributeConsumingService>
+	</md:SPSSODescriptor>
+	<md:Organization>
+		<md:OrganizationName xml:lang="it">Comune di Baselice</md:OrganizationName>
+		<md:OrganizationName xml:lang="en">Comune di Baselice</md:OrganizationName>
+		<md:OrganizationDisplayName xml:lang="it">Comune di Baselice</md:OrganizationDisplayName>
+		<md:OrganizationDisplayName xml:lang="en">Comune di Baselice</md:OrganizationDisplayName>
+		<md:OrganizationURL xml:lang="it">https://comune.baselice.bn.it</md:OrganizationURL>
+		<md:OrganizationURL xml:lang="en">https://comune.baselice.bn.it</md:OrganizationURL>
+	</md:Organization>
+	<md:ContactPerson contactType="other" spid:entityType="spid:aggregator">
+		<md:Extensions>
+			<spid:VATNumber>IT01901750677</spid:VATNumber>
+			<spid:FiscalCode>01901750677</spid:FiscalCode>
+			<spid:PublicServicesLightAggregator/>
+			<spid:KeyDescriptor md:use="spid:validation">
+				<ds:KeyInfo>
+					<ds:X509Data>
+						<ds:X509Certificate>
+ MIIEezCCAuMCAQAwgbMxFTATBgNVBAMMDEFjdGFpbmZvIFNybDELMAkGA1UEBhMC
+SVQxHTAbBgNVBAcMFFJvc2V0byBkZWdsaSBBYnJ1enppMRowGAYDVQRhDBFWQVRJ
+VC0wMTkwMTc1MDY3NzEVMBMGA1UECgwMQWN0YWluZm8gU3JsMTswOQYDVQRTDDJo
+dHRwczovL2xvZ2luLmNvbXVuZS5hY3RpYS5zcG9ydGVsbG9kaWdpdGFsZS5jbG91
+ZDCCAaIwDQYJKoZIhvcNAQEBBQADggGPADCCAYoCggGBAPHqWB7mBIMmSKTbAn61
+3qAEM/wYXla12ravrhm4I/vnNOy4n/Y/mjkHv9SL/OVvvyEQld2d91M/I7NRFf1X
+31i+L+sOt6hPGcw5O6gwPNWMWnCe7ZQfFUUGuva1LiDVzNCjoK4KiAm621a7aP6L
+sx9VqRcXWIDzJx91kNegCJcLe/kVT12k5HNfz9AgRREtD3bnPiK8oY+c+stgPpJv
+7QyL80KI8Og54V5zr4+MX04yezuu+UMUxL2F2F7AEzx3USGOPYuP+kU2XV4pp4y1
+dtGHdsUoQOds+FH6TGnEFNIklgV0qnxCgpznKuzZUz73R26qbmdLhxFdcdhtPfhx
+3E9tp661w+HgqbnnY57JjuZZRwdjgKPRcrlPb7xphdAYRCUlJgJ7nwO4GwY6f9kc
+EfuZ9aleIe1qe1wp5krRfguxoIDE3BDuz0sJCa2SEt+bwG9NbRs5F5gNM/W1NX4d
+JG2ms9sEt8Tnyd+7IBuAUHcVMvd4LiOXeFA+rrHvoqpYiwIDAQABoIGBMH8GCSqG
+SIb3DQEJDjFyMHAwCQYDVR0TBAIwADAOBgNVHQ8BAf8EBAMCBsAwUwYDVR0gBEww
+SjAgBgQrTBAGMBgwFgYIKwYBBQUHAgIwChoIYWdJRGNlcnQwJgYGK0wQBAMBMBww
+GgYIKwYBBQUHAgIwDhoMY2VydF9TUF9Qcml2MA0GCSqGSIb3DQEBCwUAA4IBgQAw
+Es94QxenOhshUG3KU6FVpiFPn/IeDcpLhzf47GL/DPEdDx3AN+0jMTupaYsEJu8N
+OJJy2tQrito7W6GbWr2eJWBrG0ZVcBFG5RyuEGj1MMZzmb+WL357F/9OuE2gFkNe
+0VliXKg4oXnB4j1OyAuSlWKDrxRm+c7WXEPBHHLmEp67v5f3BrJzXwF8UXkAQAjt
++Bvs/ytIgHlJMuewkBxuZ1IBgXRzJgwsFxPJEgdBHDGcbsAiWmqQXoJsYlTXZ/+3
+RMUQVOGOfftbOYMLrwFjbqDUgjjEnFggColevOZvts9yVsukQg2wllPpxCt1JGBf
+1D37pu75rg3WlYimttBWsl7swFKDNqxxnIK2W8CoATFjojWjNccR5ITJojDTUkPe
+8OoZpMozzKaUqeG1ESzh5T5w/FVemKnRCAA0Z55mrG+BFuXdkqdLNeRQNCTuFS6y
+aWd0U9k0X+dHh5GHQXQT9+sTdf0huQhliiuu0IynPDdI9q5vpJz9r+w/OFfLMxQ=
+ </ds:X509Certificate>
+					</ds:X509Data>
+				</ds:KeyInfo>
+			</spid:KeyDescriptor>
+		</md:Extensions>
+		<md:Company>Actainfo S.r.l.</md:Company>
+		<md:EmailAddress>info@actainfo.it</md:EmailAddress>
+		<md:TelephoneNumber>+390852015591</md:TelephoneNumber>
+	</md:ContactPerson>
+	<md:ContactPerson contactType="other" spid:entityType="spid:aggregated">
+		<md:Extensions>
+			<spid:IPACode>c_A696</spid:IPACode>
+			<spid:Public/>
+		</md:Extensions>
+		<md:Company>Comune di Baselice</md:Company>
+		<md:EmailAddress>comune.baselice@asmepec.it</md:EmailAddress>
+		<md:TelephoneNumber>+390824968066</md:TelephoneNumber>
+	</md:ContactPerson>
+</md:EntityDescriptor>
