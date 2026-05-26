@@ -2,197 +2,262 @@
 <html lang="it">
 <head>
     <meta charset="UTF-8">
-    <title>Registry Explorer Pro</title>
-    <script src="https://cdn.tailwindcss.com"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro Metadati - Ricerca Enti e PR</title>
     <style>
-        .modal { display: none; position: fixed; z-index: 50; left: 0; top: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.8); }
-        .modal-content { background: #1e293b; margin: 5% auto; padding: 20px; width: 85%; max-height: 85vh; overflow-y: auto; border-radius: 12px; border: 1px solid #334155; }
-        pre { white-space: pre-wrap; word-wrap: break-word; color: #94a3b8; font-size: 0.8rem; background: #0f172a; padding: 15px; border-radius: 8px; }
-        input[type="date"]::-webkit-calendar-picker-indicator { filter: invert(1); }
+        :root {
+            --primary-color: #0056b3;
+            --bg-color: #f8f9fa;
+            --text-color: #333;
+            --border-color: #dee2e6;
+            --open-color: #28a745;
+            --merged-color: #6f42c1;
+            --closed-color: #dc3545;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: #fff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        h1 {
+            color: var(--primary-color);
+            margin-top: 0;
+            border-bottom: 2px solid var(--border-color);
+            padding-bottom: 10px;
+        }
+
+        .search-box {
+            margin-bottom: 25px;
+        }
+
+        .search-box input {
+            width: 100%;
+            padding: 12px 20px;
+            font-size: 16px;
+            border: 1px solid var(--border-color);
+            border-radius: 4px;
+            box-sizing: border-box;
+            transition: border-color 0.15s ease-in-out;
+        }
+
+        .search-box input:focus {
+            border-color: var(--primary-color);
+            outline: 0;
+            box-shadow: 0 0 0 0.2rem rgba(0,86,179,0.25);
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        th, td {
+            padding: 12px 15px;
+            text-align: left;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        th {
+            background-color: #f1f3f5;
+            font-weight: 600;
+        }
+
+        tr:hover {
+            background-color: #f8f9fa;
+        }
+
+        .url-link {
+            color: var(--primary-color);
+            text-decoration: none;
+            word-break: break-all;
+        }
+
+        .url-link:hover {
+            text-decoration: underline;
+        }
+
+        /* Stili specifici per i link e badge delle Pull Request */
+        .pr-container a {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            text-decoration: none;
+            font-weight: 500;
+            color: #495057;
+            padding: 4px 8px;
+            border-radius: 4px;
+            transition: background-color 0.2s;
+        }
+
+        .pr-container a:hover {
+            background-color: #e9ecef;
+            color: #000;
+        }
+
+        .badge {
+            font-size: 0.75rem;
+            padding: 3px 8px;
+            border-radius: 20px;
+            font-weight: bold;
+            text-transform: uppercase;
+            color: #fff;
+        }
+
+        .badge-open { background-color: var(--open-color); }
+        .badge-merged { background-color: var(--merged-color); }
+        .badge-closed { background-color: var(--closed-color); }
+
+        .no-results {
+            text-align: center;
+            padding: 20px;
+            color: #6c757d;
+            font-style: italic;
+        }
     </style>
 </head>
-<body class="bg-slate-900 text-slate-200 p-4 md:p-8 font-sans">
+<body>
 
-    <div class="max-w-6xl mx-auto">
-        <!-- Header con Statistiche -->
-        <header class="flex flex-col md:flex-row justify-between items-start md:items-end mb-8 gap-4">
-            <div>
-                <h1 class="text-3xl font-bold text-blue-400">🕒 Registry Explorer</h1>
-                <p class="text-slate-400 text-sm">Ricerca avanzata e navigazione temporale metadata.</p>
-            </div>
-            <div id="statsCounter" class="bg-blue-600/20 text-blue-400 px-4 py-2 rounded-full border border-blue-600/30 text-sm font-bold">
-                Caricamento...
-            </div>
-        </header>
-        
-        <!-- Area Filtri -->
-        <div class="bg-slate-800 p-6 rounded-xl border border-slate-700 shadow-2xl mb-6">
-            <div class="grid grid-cols-1 md:grid-cols-4 gap-4 mb-6">
-                <div>
-                    <label class="block text-xs font-bold text-slate-500 uppercase mb-1">Data</label>
-                    <input type="date" id="datePicker" class="bg-slate-900 p-3 rounded-lg w-full border border-slate-700 outline-none">
-                </div>
-                <div>
-                    <label class="block text-xs font-bold text-slate-500 uppercase mb-1">Versione</label>
-                    <select id="tagSelect" class="bg-slate-900 p-3 rounded-lg w-full border border-slate-700 outline-none"></select>
-                </div>
-                <div class="md:col-span-2">
-                    <label class="block text-xs font-bold text-slate-500 uppercase mb-1">Cerca (Ente, URL o Nome File)</label>
-                    <input type="text" id="fileSearch" placeholder="Es: Comune di Milano..." class="bg-slate-900 p-3 rounded-lg w-full border border-slate-700 outline-none focus:ring-2 focus:ring-blue-500">
-                </div>
-            </div>
-
-            <!-- Tabella Risultati -->
-            <div class="overflow-x-auto min-h-[400px]">
-                <table class="w-full text-sm">
-                    <thead>
-                        <tr class="text-left text-slate-500 border-b border-slate-700">
-                            <th class="p-4">Organizzazione / Metadato</th>
-                            <th class="p-4 text-right">Comando</th>
-                        </tr>
-                    </thead>
-                    <tbody id="fileTableBody"></tbody>
-                </table>
-            </div>
-
-            <!-- Paginazione -->
-            <div id="pagination" class="mt-6 flex justify-between items-center border-t border-slate-700 pt-6">
-                <span id="pageInfo" class="text-slate-400 text-xs italic"></span>
-                <div class="flex gap-2">
-                    <button id="prevPage" class="bg-slate-700 hover:bg-slate-600 px-4 py-2 rounded-lg disabled:opacity-30 transition">Precedente</button>
-                    <button id="nextPage" class="bg-slate-700 hover:bg-slate-600 px-4 py-2 rounded-lg disabled:opacity-30 transition">Successiva</button>
-                </div>
-            </div>
-        </div>
+<div class="container">
+    <h1>Registro Metadati Spid/CIE - Dashboard Controllo</h1>
+    
+    <!-- Barra di Ricerca globale -->
+    <div class="search-box">
+        <input type="text" id="searchInput" placeholder="Cerca per ente, URL metadati o nome file..." onkeyup="filterResults()">
     </div>
 
-    <!-- Modal Popup -->
-    <div id="xmlModal" class="modal">
-        <div class="modal-content">
-            <div class="flex justify-between items-center mb-4">
-                <h3 id="modalTitle" class="font-bold text-blue-400"></h3>
-                <button onclick="closeModal()" class="text-slate-400 hover:text-white text-3xl">&times;</button>
-            </div>
-            <pre id="xmlContent"></pre>
-        </div>
-    </div>
+    <!-- Tabella dei risultati -->
+    <table>
+        <thead>
+            <tr>
+                <th>Ente</th>
+                <th>URL Metadati</th>
+                <th>Nome File</th>
+                <th>Stato e Riferimento Pull Request</th>
+            </tr>
+        </thead>
+        <tbody id="resultsTableBody">
+            <!-- I dati verranno inseriti qui dinamicamente via JavaScript -->
+        </tbody>
+    </table>
+</div>
 
-    <script>
-        const CONFIG = { user: 'agcolella', repo: 'MyFirstRepo', folder: 'registro_files' };
-        let allTags = []; 
-        let filteredFiles = [];
-        let rawData = [];
-        let currentPage = 1;
-        const itemsPerPage = 10;
+<script>
+    // Base URL del repository per le Pull Request
+    const REPO_PR_BASE_URL = "https://github.com/agcolella/MyFirstRepo/pull/";
 
-        async function init() {
-            const tRes = await fetch(`https://api.github.com/repos/${CONFIG.user}/${CONFIG.repo}/tags`);
-            allTags = await tRes.json();
-            loadDataForRef('main');
+    // Dataset mockup di esempio (strutturato con i campi richiesti).
+    // In produzione questa variabile può essere popolata da un file JSON esterno o da una chiamata API.
+    const dataset = [
+        {
+            ente: "Comune di Agrigento",
+            url: "https://idp.comune.agrigento.it/metadata.xml",
+            filename: "comune_agrigento_metadata.xml",
+            pr_number: "42",
+            pr_date: "2026-05-10",
+            pr_status: "merged"
+        },
+        {
+            ente: "Università degli Studi di Torino",
+            url: "https://spid.unito.it/idp/shibboleth",
+            filename: "unito_spid_idp.xml",
+            pr_number: "55",
+            pr_date: "2026-05-24",
+            pr_status: "open"
+        },
+        {
+            ente: "Regione Lazio - Sanità",
+            url: "https://regione.lazio.it/sanita/spid-metadata.xml",
+            filename: "regione_lazio_sanita.xml",
+            pr_number: "31",
+            pr_date: "2026-04-12",
+            pr_status: "closed"
+        },
+        {
+            ente: "Provincia Autonoma di Trento",
+            url: "https://login.provincia.tn.it/metadata",
+            filename: "prov_trento_metadata.xml",
+            pr_number: null, // Caso di test senza PR associata
+            pr_date: "",
+            pr_status: ""
+        }
+    ];
+
+    // Funzione per renderizzare la tabella nel DOM
+    function displayData(data) {
+        const tbody = document.getElementById("resultsTableBody");
+        tbody.innerHTML = "";
+
+        if (data.length === 0) {
+            tbody.innerHTML = `<tr><td colspan="4" class="no-results">Nessun risultato trovato corrispondente ai criteri di ricerca.</td></tr>`;
+            return;
         }
 
-        async function loadDataForRef(ref) {
-            document.getElementById('fileTableBody').innerHTML = '<tr><td colspan="2" class="p-10 text-center animate-pulse">Analisi file in corso...</td></tr>';
-            try {
-                const res = await fetch(`https://api.github.com/repos/${CONFIG.user}/${CONFIG.repo}/contents/${CONFIG.folder}?ref=${ref}`);
-                const files = await res.json();
-                const xmlFiles = files.filter(f => f.name.endsWith('.xml'));
+        data.forEach(item => {
+            const tr = document.createElement("tr");
 
-                rawData = await Promise.all(xmlFiles.map(async (file) => {
-                    const contentRes = await fetch(file.download_url);
-                    const text = await contentRes.text();
-                    const orgMatch = text.match(/<md:Organization>([\s\S]*?)<\/md:Organization>/);
-                    const orgContent = orgMatch ? orgMatch[1].replace(/<[^>]*>?/gm, ' ').replace(/\s+/g, ' ').trim() : '';
-                    return { name: file.name, content: text, orgData: orgContent, ref: ref };
-                }));
+            // Configurazione della cella della Pull Request
+            let prCellContent = `<span style="color: #6c757d; font-style: italic;">Nessuna PR</span>`;
+            if (item.pr_number) {
+                let badgeClass = "badge-open";
+                if (item.pr_status === "merged") badgeClass = "badge-merged";
+                if (item.pr_status === "closed") badgeClass = "badge-closed";
 
-                applyFilterAndRender();
-            } catch (e) {
-                document.getElementById('fileTableBody').innerHTML = `<tr><td colspan="2" class="p-10 text-red-400">Errore: ${e.message}</td></tr>`;
+                // Creazione del link ipertestuale che punta direttamente alla specifica PR sul repo
+                prCellContent = `
+                    <div class="pr-container">
+                        <a href="${REPO_PR_BASE_URL}${item.pr_number}" target="_blank" title="Apri Pull Request #${item.pr_number} su GitHub">
+                            <span><strong>#${item.pr_number}</strong> (${item.pr_date})</span>
+                            <span class="badge ${badgeClass}">${item.pr_status}</span>
+                        </a>
+                    </div>
+                `;
             }
-        }
 
-        function applyFilterAndRender() {
-            const searchTerm = document.getElementById('fileSearch').value.toLowerCase();
-            filteredFiles = rawData.filter(f => 
-                f.name.toLowerCase().includes(searchTerm) || 
-                f.orgData.toLowerCase().includes(searchTerm)
-            );
-            
-            currentPage = 1;
-            renderTable();
-        }
-
-        function renderTable() {
-            const tbody = document.getElementById('fileTableBody');
-            const total = filteredFiles.length;
-            const start = (currentPage - 1) * itemsPerPage;
-            const end = start + itemsPerPage;
-            const paginatedItems = filteredFiles.slice(start, end);
-
-            // Aggiorna contatore
-            document.getElementById('statsCounter').innerText = `${total} risultati trovati`;
-
-            if (total === 0) {
-                tbody.innerHTML = '<tr><td colspan="2" class="p-10 text-center text-slate-500">Nessun file trovato per i criteri scelti.</td></tr>';
-                updatePagination(0);
-                return;
-            }
-
-            tbody.innerHTML = paginatedItems.map(f => `
-                <tr class="border-b border-slate-700/50 hover:bg-slate-800 transition">
-                    <td class="p-4">
-                        <div class="font-bold text-blue-300 cursor-pointer hover:underline" onclick="openModal('${f.name}')">${f.name}</div>
-                        <div class="text-xs text-slate-500 truncate max-w-xl italic">${f.orgData || 'Nessuna informazione Ente'}</div>
-                    </td>
-                    <td class="p-4 text-right">
-                        <button onclick="copy('${f.ref}', '${f.name}')" class="bg-blue-600 hover:bg-blue-500 text-xs py-2 px-3 rounded font-bold transition">Copia Rollback</button>
-                    </td>
-                </tr>
-            `).join('');
-
-            updatePagination(total);
-        }
-
-        function updatePagination(total) {
-            const totalPages = Math.ceil(total / itemsPerPage);
-            document.getElementById('pageInfo').innerText = total > 0 ? `Pagina ${currentPage} di ${totalPages}` : '';
-            document.getElementById('prevPage').disabled = currentPage === 1;
-            document.getElementById('nextPage').disabled = currentPage === totalPages || totalPages === 0;
-        }
-
-        // Event Listeners Paginazione
-        document.getElementById('prevPage').addEventListener('click', () => { if(currentPage > 1) { currentPage--; renderTable(); }});
-        document.getElementById('nextPage').addEventListener('click', () => { if(currentPage * itemsPerPage < filteredFiles.length) { currentPage++; renderTable(); }});
-
-        // Altri Event Listeners
-        document.getElementById('fileSearch').addEventListener('input', applyFilterAndRender);
-        
-        document.getElementById('datePicker').addEventListener('change', function(e) {
-            const d = e.target.value.replace(/-/g, '');
-            const filteredTags = allTags.filter(t => t.name.startsWith(`v-${d}`));
-            const sel = document.getElementById('tagSelect');
-            sel.innerHTML = '<option value="main">📂 Stato Attuale</option>';
-            filteredTags.forEach(t => sel.innerHTML += `<option value="${t.name}">🏷️ ${t.name}</option>`);
-            if(filteredTags.length > 0) { sel.value = filteredTags[0].name; loadDataForRef(sel.value); }
+            tr.innerHTML = `
+                <td><strong>${item.ente}</strong></td>
+                <td><a class="url-link" href="${item.url}" target="_blank">${item.url}</a></td>
+                <td><code>${item.filename}</code></td>
+                <td>${prCellContent}</td>
+            `;
+            tbody.appendChild(tr);
         });
+    }
 
-        document.getElementById('tagSelect').addEventListener('change', (e) => loadDataForRef(e.target.value));
+    // Funzione di filtro attivata alla digitazione (onkeyup)
+    function filterResults() {
+        const query = document.getElementById("searchInput").value.toLowerCase();
+        
+        const filtered = dataset.filter(item => {
+            return (
+                item.ente.toLowerCase().includes(query) ||
+                item.url.toLowerCase().includes(query) ||
+                item.filename.toLowerCase().includes(query)
+            );
+        });
+        
+        displayData(filtered);
+    }
 
-        // Modal Logic
-        function openModal(name) {
-            const f = rawData.find(x => x.name === name);
-            document.getElementById('modalTitle').innerText = name;
-            document.getElementById('xmlContent').innerText = f.content;
-            document.getElementById('xmlModal').style.display = "block";
-        }
-        function closeModal() { document.getElementById('xmlModal').style.display = "none"; }
-        function copy(ref, name) {
-            navigator.clipboard.writeText(`git checkout ${ref} -- ${CONFIG.folder}/${name}`);
-            alert("Comando copiato!");
-        }
+    // Caricamento iniziale dei dati alla prima apertura della pagina
+    window.onload = function() {
+        displayData(dataset);
+    };
+</script>
 
-        init();
-    </script>
 </body>
 </html>
