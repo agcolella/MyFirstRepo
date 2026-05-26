@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:spid="https://spid.gov.it/saml-extensions" entityID="https://auth.comune.messina.it/realms/comuneme" ID="https___auth_comune_messina_it_realms_comuneme"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+  <ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+    <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+  <ds:Reference URI="#https___auth_comune_messina_it_realms_comuneme"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>+kHkhw2vsvsd7wXccSOCvbgDP+IdIDyhGhvBKJar+wg=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>LLhHjcBB91M5biSCTwOWw76Xn5F2NSK/gCc92NNfOm6GolDLsn5FvX7rr63kLJ3s0PGZdeU5OhMVSkSsdLsGAo8fCNxcM/+7mVP7W8rqkBfgOQ5ZXUAV+MO2HAEP5aojTJQzTbwZm5yo36gkm/Iu5cJA3Mcp3yI4gMJ0WNBXTp7FNQdgl/9gzdaeDvLsDQzJP8tyrZRK9tpWSdbRQUDh184lbGUQR8S3RNlGBXzU+lDYco72IJpm/QonUK7Zck8giCAf9jv2aiCLb5KSahEkPoVrAQxq6dsPHfU8dxhlASeGbOEQBxLIuhQFuyWBXO9QKl0FkTh7T5UJVe7IZefjMA==</ds:SignatureValue>
+<ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIEHjCCAwagAwIBAgIIjdDPuclMUAAwDQYJKoZIhvcNAQELBQAwgc4xGjAYBgNVBAoMEUNvbXVuZSBkaSBNZXNzaW5hMRUwEwYDVQRhDAxQQTpJVC1jX2YxNTgxCzAJBgNVBAYTAklUMRAwDgYDVQQHDAdNZXNzaW5hMRAwDgYDVQQDDAdNZXNzaW5hMS8wLQYJKoZIhvcNAQkBFiBwcm90b2NvbGxvQHBlYy5jb211bmUubWVzc2luYS5pdDE3MDUGA1UEUwwuaHR0cHM6Ly9hdXRoLmNvbXVuZS5tZXNzaW5hLml0L3JlYWxtcy9jb211bmVtZTAeFw0yNjA1MTIxNDMxMTNaFw0zMTA1MTExNDMxMTNaMIHOMRowGAYDVQQKDBFDb211bmUgZGkgTWVzc2luYTEVMBMGA1UEYQwMUEE6SVQtY19mMTU4MQswCQYDVQQGEwJJVDEQMA4GA1UEBwwHTWVzc2luYTEQMA4GA1UEAwwHTWVzc2luYTEvMC0GCSqGSIb3DQEJARYgcHJvdG9jb2xsb0BwZWMuY29tdW5lLm1lc3NpbmEuaXQxNzA1BgNVBFMMLmh0dHBzOi8vYXV0aC5jb211bmUubWVzc2luYS5pdC9yZWFsbXMvY29tdW5lbWUwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC7pKulQg2bz2UB+B1ZAGqCpPSwWUJ9P88fwFCIX6k85mI4eEY8oYE31L2LC4urKD2Lwur41IvcUFAHLpg7V1KG5trKjN3OvxyujpuiA+AUrWPIKZkxKVg/HMU01q2H18uGp1m0PC3bSZpMAbl8bP1cvwok9tblNw4UO7KC11RNMegADgIbjYHQubK9cph5NK+PtOOwcP/JyRUgK3bvq2u7/SzkSdvhy3J+nA10Q1v6+vfiBCOQ62oimXkPz2BqFHS3+mLSjExyqhMaS53y2amMHJRuTAug9d1EtgLVApR91zhzqyn8BDSOqmnPkgVJ29reUne2tCZ5fjd+mOhfdTd9AgMBAAEwDQYJKoZIhvcNAQELBQADggEBADWH9kC6yb8aSPT/2MqejgezLweQstSL3DcANujGgw8Exgqo8dfb7G0F0ayS8euh4mkrF1q3WZNJH9cS3rUbWVADQyHurbQBMzBxwhrbZsLQiS5JKxA7e+nTVL3UgTBUcIFz7IHtmmtJl9lWQrRYRi3RkX9BItOt1/mEmA/nKZHhFZ5mtLfAUCdS4fw6b414zDh6RHFnHkvLTm39FAD5l0tyFya/h6K2/PPltciLTMS/XnVLnMNaUIwppD++d43vgsgnFjBIsRXiohNHhokrD+47WxEhEePQoXwdVRLXMt5ZK3E0Cw+OtOKAjgaErRjhOY+GImYc3PMifNfChTcpmqs=</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature>
+    <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true" WantAssertionsSigned="true">
+        <md:KeyDescriptor use="signing">
+            <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+                <ds:X509Data><ds:X509Certificate>MIIEHjCCAwagAwIBAgIIjdDPuclMUAAwDQYJKoZIhvcNAQELBQAwgc4xGjAYBgNVBAoMEUNvbXVuZSBkaSBNZXNzaW5hMRUwEwYDVQRhDAxQQTpJVC1jX2YxNTgxCzAJBgNVBAYTAklUMRAwDgYDVQQHDAdNZXNzaW5hMRAwDgYDVQQDDAdNZXNzaW5hMS8wLQYJKoZIhvcNAQkBFiBwcm90b2NvbGxvQHBlYy5jb211bmUubWVzc2luYS5pdDE3MDUGA1UEUwwuaHR0cHM6Ly9hdXRoLmNvbXVuZS5tZXNzaW5hLml0L3JlYWxtcy9jb211bmVtZTAeFw0yNjA1MTIxNDMxMTNaFw0zMTA1MTExNDMxMTNaMIHOMRowGAYDVQQKDBFDb211bmUgZGkgTWVzc2luYTEVMBMGA1UEYQwMUEE6SVQtY19mMTU4MQswCQYDVQQGEwJJVDEQMA4GA1UEBwwHTWVzc2luYTEQMA4GA1UEAwwHTWVzc2luYTEvMC0GCSqGSIb3DQEJARYgcHJvdG9jb2xsb0BwZWMuY29tdW5lLm1lc3NpbmEuaXQxNzA1BgNVBFMMLmh0dHBzOi8vYXV0aC5jb211bmUubWVzc2luYS5pdC9yZWFsbXMvY29tdW5lbWUwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC7pKulQg2bz2UB+B1ZAGqCpPSwWUJ9P88fwFCIX6k85mI4eEY8oYE31L2LC4urKD2Lwur41IvcUFAHLpg7V1KG5trKjN3OvxyujpuiA+AUrWPIKZkxKVg/HMU01q2H18uGp1m0PC3bSZpMAbl8bP1cvwok9tblNw4UO7KC11RNMegADgIbjYHQubK9cph5NK+PtOOwcP/JyRUgK3bvq2u7/SzkSdvhy3J+nA10Q1v6+vfiBCOQ62oimXkPz2BqFHS3+mLSjExyqhMaS53y2amMHJRuTAug9d1EtgLVApR91zhzqyn8BDSOqmnPkgVJ29reUne2tCZ5fjd+mOhfdTd9AgMBAAEwDQYJKoZIhvcNAQELBQADggEBADWH9kC6yb8aSPT/2MqejgezLweQstSL3DcANujGgw8Exgqo8dfb7G0F0ayS8euh4mkrF1q3WZNJH9cS3rUbWVADQyHurbQBMzBxwhrbZsLQiS5JKxA7e+nTVL3UgTBUcIFz7IHtmmtJl9lWQrRYRi3RkX9BItOt1/mEmA/nKZHhFZ5mtLfAUCdS4fw6b414zDh6RHFnHkvLTm39FAD5l0tyFya/h6K2/PPltciLTMS/XnVLnMNaUIwppD++d43vgsgnFjBIsRXiohNHhokrD+47WxEhEePQoXwdVRLXMt5ZK3E0Cw+OtOKAjgaErRjhOY+GImYc3PMifNfChTcpmqs=</ds:X509Certificate></ds:X509Data>
+            </ds:KeyInfo>
+        </md:KeyDescriptor>        <md:KeyDescriptor use="signing">
+            <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+                <ds:X509Data>
+                    <ds:X509Certificate>MIIENzCCAx+gAwIBAgIUEejd4dBPRKT/zjfqKkzXCBrIHnkwDQYJKoZIhvcNAQELBQAwgawxCzAJBgNVBAYTAklUMRAwDgYDVQQHDAdNZXNzaW5hMRowGAYDVQQKDBFDb211bmUgZGkgTWVzc2luYTEVMBMGA1UEYQwMUEE6SVQtQ19GMTU4MR8wHQYDVQQDDBZhdXRoLmNvbXVuZS5tZXNzaW5hLml0MTcwNQYDVQRTDC5odHRwczovL2F1dGguY29tdW5lLm1lc3NpbmEuaXQvcmVhbG1zL2NvbXVuZW1lMB4XDTI2MDMwMzA5MDg1MVoXDTM2MDIyOTA5MDg1MVowgawxCzAJBgNVBAYTAklUMRAwDgYDVQQHDAdNZXNzaW5hMRowGAYDVQQKDBFDb211bmUgZGkgTWVzc2luYTEVMBMGA1UEYQwMUEE6SVQtQ19GMTU4MR8wHQYDVQQDDBZhdXRoLmNvbXVuZS5tZXNzaW5hLml0MTcwNQYDVQRTDC5odHRwczovL2F1dGguY29tdW5lLm1lc3NpbmEuaXQvcmVhbG1zL2NvbXVuZW1lMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAowmP5jU6LgW/ujPRrXN1pxvGUwgETISe3cSdQupVYxEhxW7G3ApA+Tn33RnsjV1yPK97MpNjUyFR5HBjH0+q5hVMk6KO4DIw5Jlt04wca+Eo+lRqWWLtGDZL3yCAl2ZCUfW3g2Z20vssBp1OfI7mSP2SPoVro9hMc5iDYTVzyJ7EjhVQIbuFXOFCIIORREqQaTi+gEYv4AvCMiuUCptDKFss+0mrMrMXlt4Kl0tZmRTliQw7N3SA6CEZL8Lymwo/DnqJE0wPMSsYFh9zsVIwGGDLfwwx2w0Sl91KsTihGoSGpO00pnjMDT+wH6QQYhbEYmdeqonj4CbEvQkX1zkrxQIDAQABo08wTTAJBgNVHRMEAjAAMA4GA1UdDwEB/wQEAwIGwDARBgNVHSAECjAIMAYGBCtMEAYwHQYDVR0OBBYEFMkZi5n+aA2K0Bki5acoQq1N8LObMA0GCSqGSIb3DQEBCwUAA4IBAQBSYjZoaJCGIB14sPlL1wC+z2e7pGSMa7OnUkYKDJ1PolyjsCsPtSiO2UsD8lo+HGGVNr5aDt0GWP/1KIQnOscf3wiHzTfca15j0rRBInSfMjDFrw5ePEEhSOLIkVS5yyAuuxXBtVNmuTOdmHYRJ2R/XsQENDlj2OhNGpmPIWb6j9rNndO5M9kuGCirW5jRlFVd0mhfpx1eCL7GfE2t0Bxy3LX/bXNw7le676Wn8gc9BKB9h4Yvg8nA/0047hUR8qCI2RGF8rDfOL+Fh+8/mve/uXFAzKw4HQoeT+oojHlckUglgBCNfekFF+ctmhsR4MVWXhI6fYkkWE5XjLLwApMC</ds:X509Certificate>
+                </ds:X509Data>
+            </ds:KeyInfo>
+        </md:KeyDescriptor>
+            <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://auth.comune.messina.it/realms/comuneme/broker/spid-aruba/endpoint"/>
+            <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://auth.comune.messina.it/realms/comuneme/broker/spid-demo/endpoint"/>
+            <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://auth.comune.messina.it/realms/comuneme/broker/spid-etnahitech/endpoint"/>
+            <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://auth.comune.messina.it/realms/comuneme/broker/spid-infocamere/endpoint"/>
+            <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://auth.comune.messina.it/realms/comuneme/broker/spid-infocert/endpoint"/>
+            <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://auth.comune.messina.it/realms/comuneme/broker/spid-intesi-group/endpoint"/>
+            <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://auth.comune.messina.it/realms/comuneme/broker/spid-lepida/endpoint"/>
+            <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://auth.comune.messina.it/realms/comuneme/broker/spid-namirial/endpoint"/>
+            <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://auth.comune.messina.it/realms/comuneme/broker/spid-poste/endpoint"/>
+            <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://auth.comune.messina.it/realms/comuneme/broker/spid-register.it/endpoint"/>
+            <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://auth.comune.messina.it/realms/comuneme/broker/spid-sielte/endpoint"/>
+            <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://auth.comune.messina.it/realms/comuneme/broker/spid-teamsystem/endpoint"/>
+            <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://auth.comune.messina.it/realms/comuneme/broker/spid-tim/endpoint"/>
+            <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://auth.comune.messina.it/realms/comuneme/broker/spid-validator/endpoint"/>
+            <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://messina.login.opencityitalia.it/slo"/>        
+        <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+        <md:AssertionConsumerService index="0" isDefault="true" Location="https://auth.comune.messina.it/realms/comuneme/broker/spid-aruba/endpoint" Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST"/>
+        <md:AssertionConsumerService index="1" Location="https://auth.comune.messina.it/realms/comuneme/broker/spid-demo/endpoint" Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST"/>
+        <md:AssertionConsumerService index="2" Location="https://auth.comune.messina.it/realms/comuneme/broker/spid-etnahitech/endpoint" Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST"/>
+        <md:AssertionConsumerService index="3" Location="https://auth.comune.messina.it/realms/comuneme/broker/spid-infocamere/endpoint" Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST"/>
+        <md:AssertionConsumerService index="4" Location="https://auth.comune.messina.it/realms/comuneme/broker/spid-infocert/endpoint" Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST"/>
+        <md:AssertionConsumerService index="5" Location="https://auth.comune.messina.it/realms/comuneme/broker/spid-intesi-group/endpoint" Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST"/>
+        <md:AssertionConsumerService index="6" Location="https://auth.comune.messina.it/realms/comuneme/broker/spid-lepida/endpoint" Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST"/>
+        <md:AssertionConsumerService index="7" Location="https://auth.comune.messina.it/realms/comuneme/broker/spid-namirial/endpoint" Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST"/>
+        <md:AssertionConsumerService index="8" Location="https://auth.comune.messina.it/realms/comuneme/broker/spid-poste/endpoint" Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST"/>
+        <md:AssertionConsumerService index="9" Location="https://auth.comune.messina.it/realms/comuneme/broker/spid-register.it/endpoint" Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST"/>
+        <md:AssertionConsumerService index="10" Location="https://auth.comune.messina.it/realms/comuneme/broker/spid-sielte/endpoint" Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST"/>
+        <md:AssertionConsumerService index="11" Location="https://auth.comune.messina.it/realms/comuneme/broker/spid-teamsystem/endpoint" Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST"/>
+        <md:AssertionConsumerService index="12" Location="https://auth.comune.messina.it/realms/comuneme/broker/spid-tim/endpoint" Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST"/>
+        <md:AssertionConsumerService index="13" Location="https://auth.comune.messina.it/realms/comuneme/broker/spid-validator/endpoint" Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST"/>
+        <md:AssertionConsumerService index="14" Location="https://messina.login.opencityitalia.it/acs" Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST"/>
+        <md:AttributeConsumingService index="0">
+            <md:ServiceName xml:lang="it">Set 0</md:ServiceName>       
+            <md:RequestedAttribute Name="gender"/>
+            <md:RequestedAttribute Name="fiscalNumber"/>
+            <md:RequestedAttribute Name="spidCode"/>
+            <md:RequestedAttribute Name="name"/>
+            <md:RequestedAttribute Name="familyName"/>
+            <md:RequestedAttribute Name="placeOfBirth"/>
+            <md:RequestedAttribute Name="countyOfBirth"/>
+            <md:RequestedAttribute Name="dateOfBirth"/>
+            <md:RequestedAttribute Name="mobilePhone"/>
+            <md:RequestedAttribute Name="email"/>
+            <md:RequestedAttribute Name="address"/>
+            <md:RequestedAttribute Name="digitalAddress"/></md:AttributeConsumingService>
+        <md:AttributeConsumingService index="14">
+            <md:ServiceName xml:lang="it">Set 14</md:ServiceName>       
+            <md:RequestedAttribute Name="fiscalNumber"/>
+            <md:RequestedAttribute Name="name"/>
+            <md:RequestedAttribute Name="familyName"/>
+            <md:RequestedAttribute Name="email"/></md:AttributeConsumingService></md:SPSSODescriptor><md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Messina</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Messina</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://auth.comune.messina.it/realms/comuneme</md:OrganizationURL>
+</md:Organization><md:ContactPerson contactType="other"><md:Extensions><spid:IPACode>c_f158</spid:IPACode><spid:Public/><spid:FiscalCode>00080270838</spid:FiscalCode></md:Extensions><md:EmailAddress>protocollo@pec.comune.messina.it</md:EmailAddress><md:TelephoneNumber>+390907721</md:TelephoneNumber></md:ContactPerson></md:EntityDescriptor>
