@@ -159,44 +159,97 @@
 <script>
     // Base URL del repository per le Pull Request
     const REPO_PR_BASE_URL = "https://github.com/agcolella/MyFirstRepo/pull/";
+    
+    // Questa variabile conterrà i dati caricati dinamicamente dal workflow
+    let dataset = [];
 
-    // Dataset mockup di esempio (strutturato con i campi richiesti).
-    // In produzione questa variabile può essere popolata da un file JSON esterno o da una chiamata API.
-    const dataset = [
-        {
-            ente: "Comune di Agrigento",
-            url: "https://idp.comune.agrigento.it/metadata.xml",
-            filename: "comune_agrigento_metadata.xml",
-            pr_number: "42",
-            pr_date: "2026-05-10",
-            pr_status: "merged"
-        },
-        {
-            ente: "Università degli Studi di Torino",
-            url: "https://spid.unito.it/idp/shibboleth",
-            filename: "unito_spid_idp.xml",
-            pr_number: "55",
-            pr_date: "2026-05-24",
-            pr_status: "open"
-        },
-        {
-            ente: "Regione Lazio - Sanità",
-            url: "https://regione.lazio.it/sanita/spid-metadata.xml",
-            filename: "regione_lazio_sanita.xml",
-            pr_number: "31",
-            pr_date: "2026-04-12",
-            pr_status: "closed"
-        },
-        {
-            ente: "Provincia Autonoma di Trento",
-            url: "https://login.provincia.tn.it/metadata",
-            filename: "prov_trento_metadata.xml",
-            pr_number: null, // Caso di test senza PR associata
-            pr_date: "",
-            pr_status: ""
+    // Funzione per caricare i dati dal file JSON generato dal workflow
+    async function loadWorkflowData() {
+        const tbody = document.getElementById("resultsTableBody");
+        tbody.innerHTML = `<tr><td colspan="4" class="no-results">Caricamento dati dal workflow in corso...</td></tr>`;
+
+        try {
+            // Aggiungiamo un timestamp in query string per bypassare la cache del browser (cache busting)
+            const response = await fetch(`data.json?_=${new Date().getTime()}`);
+            
+            if (!response.ok) {
+                throw new Error(`Impossibile recuperare il file dei dati (Stato: ${response.status})`);
+            }
+            
+            dataset = await response.json();
+            displayData(dataset);
+            
+        } catch (error) {
+            console.error("Errore nel caricamento dati:", error);
+            tbody.innerHTML = `
+                <tr>
+                    <td colspan="4" class="no-results" style="color: var(--closed-color);">
+                        <strong>Errore di sincronizzazione:</strong> Impossibile caricare i dati del workflow.<br>
+                        Verifica che il file <code>data.json</code> sia presente e formattato correttamente.
+                    </td>
+                </tr>`;
         }
-    ];
+    }
 
+    // Funzione per renderizzare la tabella nel DOM
+    function displayData(data) {
+        const tbody = document.getElementById("resultsTableBody");
+        tbody.innerHTML = "";
+
+        if (data.length === 0) {
+            tbody.innerHTML = `<tr><td colspan="4" class="no-results">Nessun risultato trovato corrispondente ai criteri di ricerca.</td></tr>`;
+            return;
+        }
+
+        data.forEach(item => {
+            const tr = document.createElement("tr");
+
+            let prCellContent = `<span style="color: #6c757d; font-style: italic;">Nessuna PR</span>`;
+            if (item.pr_number) {
+                let badgeClass = "badge-open";
+                if (item.pr_status === "merged") badgeClass = "badge-merged";
+                if (item.pr_status === "closed") badgeClass = "badge-closed";
+
+                prCellContent = `
+                    <div class="pr-container">
+                        <a href="${REPO_PR_BASE_URL}${item.pr_number}" target="_blank" title="Apri Pull Request #${item.pr_number} su GitHub">
+                            <span><strong>#${item.pr_number}</strong> (${item.pr_date})</span>
+                            <span class="badge ${badgeClass}">${item.pr_status}</span>
+                        </a>
+                    </div>
+                `;
+            }
+
+            tr.innerHTML = `
+                <td><strong>${item.ente}</strong></td>
+                <td><a class="url-link" href="${item.url}" target="_blank">${item.url}</a></td>
+                <td><code>${item.filename}</code></td>
+                <td>${prCellContent}</td>
+            `;
+            tbody.appendChild(tr);
+        });
+    }
+
+    // Funzione di filtro attivata alla digitazione (onkeyup)
+    function filterResults() {
+        const query = document.getElementById("searchInput").value.toLowerCase();
+        
+        const filtered = dataset.filter(item => {
+            return (
+                (item.ente && item.ente.toLowerCase().includes(query)) ||
+                (item.url && item.url.toLowerCase().includes(query)) ||
+                (item.filename && item.filename.toLowerCase().includes(query))
+            );
+        });
+        
+        displayData(filtered);
+    }
+
+    // Al caricamento della pagina, invoca il fetch asincrono
+    window.onload = function() {
+        loadWorkflowData();
+    };
+</script>
     // Funzione per renderizzare la tabella nel DOM
     function displayData(data) {
         const tbody = document.getElementById("resultsTableBody");
