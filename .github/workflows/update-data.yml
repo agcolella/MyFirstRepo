@@ -1,0 +1,49 @@
+name: Aggiornamento Automatico Dati Registro
+
+on:
+  schedule:
+    # Esegue il controllo automatico ogni notte alle 02:00 UTC
+    - cron: '0 2 * * *'
+  workflow_dispatch:
+    # Permette di avviare il workflow manualmente dall'interfaccia GitHub
+
+permissions:
+  contents: write # Permesso esplicito fondamentale per effettuare il git push del JSON
+
+jobs:
+  build-and-update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout del codice
+        uses: actions/checkout@v4
+
+      - name: Configurazione ambiente Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm' # Ottimizza i tempi riutilizzando la cache delle dipendenze
+
+      - name: Installazione Dipendenze
+        run: npm ci
+
+      - name: Esecuzione script di backend
+        run: npm start
+        env:
+          # Se lo script interroga le API di GitHub per leggere le PR, ha bisogno del token
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Commit e Push del file data.json aggiornato
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          
+          # Verifica se lo script ha effettivamente modificato o creato il data.json
+          if [ -f "data.json" ] && ! git diff --exit-code data.json; then
+            echo "Rilevate modifiche in data.json. Eseguo il commit..."
+            git add data.json
+            git commit -m "Automated: Aggiornato data.json con lo stato corrente delle PR [skip ci]"
+            git push
+          else
+            echo "Nessun aggiornamento o variazione rilevata nei dati."
+          fi
