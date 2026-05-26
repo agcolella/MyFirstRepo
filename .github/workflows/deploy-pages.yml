@@ -1,0 +1,44 @@
+name: Deploy Dashboard su GitHub Pages
+
+on:
+  push:
+    branches:
+      - main # Sostituisci con master se il tuo branch principale si chiama così
+    paths:
+      - 'index.html'
+      - 'data.json' # Il deploy parte quando cambia l'interfaccia o il file dati
+  workflow_dispatch:
+
+# Permessi specifici richiesti dalle API di GitHub Pages per distribuire i file
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Evita build concorrenti simultanee se arrivano push ravvicinati
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout del codice
+        uses: actions/checkout@v4
+
+      - name: Configura ambiente GitHub Pages
+        uses: actions/configure-pages@v4
+
+      - name: Carica file statici (Artifact)
+        uses: actions/upload-pages-artifact@v3
+        with:
+          # Seleziona la root del progetto (dove risiedono index.html e data.json)
+          path: '.'
+
+      - name: Deploy effettivo su GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
