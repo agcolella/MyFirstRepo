@@ -38,7 +38,11 @@ jobs:
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           
-          # Verifica se lo script ha effettivamente modificato o creato il data.json
+          # Riga di DEBUG per trovare dove è finito il file nel container:
+          echo "=== Localizzazione file data.json ==="
+          find . -name "data.json"
+          echo "====================================="
+          
           if [ -f "data.json" ] && ! git diff --exit-code data.json; then
             echo "Rilevate modifiche in data.json. Eseguo il commit..."
             git add data.json
