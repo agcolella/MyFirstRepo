@@ -1,0 +1,16 @@
+{
+  "name": "myfirstrepo",
+  "version": "1.0.0",
+  "description": "Benvenuto nel sistema automatizzato di gestione e consolidamento dei metadata XML. Questo repository utilizza GitHub Actions per processare i caricamenti e GitHub Pages per fornire una console di controllo avanzata.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  }
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@octokit/rest": "^22.0.1",
+    "dotenv": "^17.4.2"
+  }
+}
