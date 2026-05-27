@@ -1,0 +1,60 @@
+name: Verifica Certificati XML Caricati
+
+on:
+  push:
+    paths:
+      - 'uploads/**.xml'
+  workflow_dispatch: # Permette anche l'esecuzione manuale
+
+permissions:
+  contents: write
+
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: "true"
+
+jobs:
+  check-certs:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout del codice
+        uses: actions/checkout@v5
+
+      - name: Configurazione Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+          cache: 'pip'
+
+      - name: Installazione Dipendenze
+        run: |
+          pip install pyopenssl requests openpyxl configparser
+          # Se hai un file requirements.txt, usa: pip install -r requirements.txt
+
+      - name: Ripristina Cache dei Certificati Validi
+        uses: actions/cache@v4
+        with:
+          path: certificate_cache.json
+          key: cert-cache-${{ github.run_id }}
+          restore-keys: |
+            cert-cache-
+
+      - name: Elaborazione Nuovi File XML
+        run: python process_upload.py
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Salva i Risultati e Aggiorna la Cache nel Repo
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          
+          # Aggiunge i risultati Excel e la cache aggiornata
+          git add -f certificate_cache.json Results.xlsx process.log
+          
+          if [ -n "$(git status --porcelain certificate_cache.json Results.xlsx process.log)" ]; then
+            git commit -m "Automated: Aggiornata cache certificati e report Excel [skip ci]"
+            git push
+          else
+            echo "Nessuna modifica da salvare."
+          fi
