@@ -166,15 +166,13 @@
     // Funzione per caricare i dati dal file JSON generato dal workflow
     async function loadWorkflowData() {
         const tbody = document.getElementById("resultsTableBody");
+        if (!tbody) return;
+        
         tbody.innerHTML = `<tr><td colspan="4" class="no-results">Caricamento dati dal workflow in corso...</td></tr>`;
 
         try {
-            // Aggiungiamo un timestamp in query string per bypassare la cache del browser (cache busting)
             const response = await fetch(`data.json?_=${new Date().getTime()}`);
-            
-            if (!response.ok) {
-                throw new Error(`Impossibile recuperare il file dei dati (Stato: ${response.status})`);
-            }
+            if (!response.ok) throw new Error(`Stato: ${response.status}`);
             
             dataset = await response.json();
             displayData(dataset);
@@ -183,92 +181,36 @@
             console.error("Errore nel caricamento dati:", error);
             tbody.innerHTML = `
                 <tr>
-                    <td colspan="4" class="no-results" style="color: var(--closed-color);">
+                    <td colspan="4" class="no-results" style="color: var(--closed-color, #dc3545);">
                         <strong>Errore di sincronizzazione:</strong> Impossibile caricare i dati del workflow.<br>
-                        Verifica che il file <code>data.json</code> sia presente e formattato correttamente.
+                        Verifica che il file <code>data.json</code> sia presente e valido.
                     </td>
                 </tr>`;
         }
     }
 
-    // Funzione per renderizzare la tabella nel DOM
+    // Funzione per renderizzare la tabella nel DOM (CORRETTA)
     function displayData(data) {
         const tbody = document.getElementById("resultsTableBody");
+        if (!tbody) return;
+        
         tbody.innerHTML = "";
 
-        if (data.length === 0) {
+        if (!data || data.length === 0) {
             tbody.innerHTML = `<tr><td colspan="4" class="no-results">Nessun risultato trovato corrispondente ai criteri di ricerca.</td></tr>`;
             return;
         }
 
         data.forEach(item => {
+            // Controllo di sicurezza: se il record è corrotto o nullo salta alla riga successiva
+            if (!item) return;
+
             const tr = document.createElement("tr");
 
-            let prCellContent = `<span style="color: #6c757d; font-style: italic;">Nessuna PR</span>`;
-            if (item.pr_number) {
-                let badgeClass = "badge-open";
-                if (item.pr_status === "merged") badgeClass = "badge-merged";
-                if (item.pr_status === "closed") badgeClass = "badge-closed";
-
-                prCellContent = `
-                    <div class="pr-container">
-                        <a href="${REPO_PR_BASE_URL}${item.pr_number}" target="_blank" title="Apri Pull Request #${item.pr_number} su GitHub">
-                            <span><strong>#${item.pr_number}</strong> (${item.pr_date})</span>
-                            <span class="badge ${badgeClass}">${item.pr_status}</span>
-                        </a>
-                    </div>
-                `;
-            }
-
-            tr.innerHTML = `
-                <td><strong>${item.ente}</strong></td>
-                <td><a class="url-link" href="${item.url}" target="_blank">${item.url}</a></td>
-                <td><code>${item.filename}</code></td>
-                <td>${prCellContent}</td>
-            `;
-            tbody.appendChild(tr);
-        });
-    }
-
-    // Funzione di filtro corretta e sicura contro i valori null/undefined
-    function filterResults() {
-        // Sicurezza: se il dataset è vuoto o non è ancora stato caricato, esci
-        if (!dataset || dataset.length === 0) return;
-    
-        const query = document.getElementById("searchInput").value.toLowerCase();
-        
-        const filtered = dataset.filter(item => {
-            // Se la proprietà esiste usa il testo, altrimenti usa una stringa vuota ""
-            const ente = item.ente ? item.ente.toLowerCase() : "";
-            const url = item.url ? item.url.toLowerCase() : "";
-            const filename = item.filename ? item.filename.toLowerCase() : "";
-    
-            // Esegue il controllo di inclusione in modo sicuro
-            return ente.includes(query) || 
-                   url.includes(query) || 
-                   filename.includes(query);
-        });
-        
-        displayData(filtered);
-    }
-
-    // Al caricamento della pagina, invoca il fetch asincrono
-    window.onload = function() {
-        loadWorkflowData();
-    };
-</script>
-    // Funzione per renderizzare la tabella nel DOM
-    function displayData(data) {
-        const tbody = document.getElementById("resultsTableBody");
-        tbody.innerHTML = "";
-
-        if (data.length === 0) {
-            tbody.innerHTML = `<tr><td colspan="4" class="no-results">Nessun risultato trovato corrispondente ai criteri di ricerca.</td></tr>`;
-            return;
-        }
-
-        data.forEach(item => {
-            const tr = document.createElement("tr");
+            // Sanificazione preventiva dei campi per evitare crash nel rendering HTML
+            const enteVisivo = item.ente ? item.ente : "Ente non specificato";
+            const urlVisivo = item.url ? `<a class="url-link" href="${item.url}" target="_blank">${item.url}</a>` : "Nessun URL";
+            const fileVisivo = item.filename ? `<code>${item.filename}</code>` : "---";
 
             // Configurazione della cella della Pull Request
             let prCellContent = `<span style="color: #6c757d; font-style: italic;">Nessuna PR</span>`;
@@ -276,22 +218,25 @@
                 let badgeClass = "badge-open";
                 if (item.pr_status === "merged") badgeClass = "badge-merged";
                 if (item.pr_status === "closed") badgeClass = "badge-closed";
+                
+                const statoTesto = item.pr_status ? item.pr_status.toUpperCase() : "UNKNOWN";
+                const dataTesto = item.pr_date ? `(${item.pr_date})` : "";
 
-                // Creazione del link ipertestuale che punta direttamente alla specifica PR sul repo
                 prCellContent = `
                     <div class="pr-container">
                         <a href="${REPO_PR_BASE_URL}${item.pr_number}" target="_blank" title="Apri Pull Request #${item.pr_number} su GitHub">
-                            <span><strong>#${item.pr_number}</strong> (${item.pr_date})</span>
-                            <span class="badge ${badgeClass}">${item.pr_status}</span>
+                            <span><strong>#${item.pr_number}</strong> ${dataTesto}</span>
+                            <span class="badge ${badgeClass}">${statoTesto}</span>
                         </a>
                     </div>
                 `;
             }
 
+            // CORREZIONE CRUCIALI: I dati devono essere tassativamente racchiusi nei tag <td>
             tr.innerHTML = `
-                <td><strong>${item.ente}</strong></td>
-                <td><a class="url-link" href="${item.url}" target="_blank">${item.url}</a></td>
-                <td><code>${item.filename}</code></td>
+                <td><strong>${enteVisivo}</strong></td>
+                <td>${urlVisivo}</td>
+                <td>${fileVisivo}</td>
                 <td>${prCellContent}</td>
             `;
             tbody.appendChild(tr);
@@ -300,31 +245,27 @@
 
     // Funzione di filtro corretta e sicura contro i valori null/undefined
     function filterResults() {
-        // Sicurezza: se il dataset è vuoto o non è ancora stato caricato, esci
         if (!dataset || dataset.length === 0) return;
-    
+
         const query = document.getElementById("searchInput").value.toLowerCase();
         
         const filtered = dataset.filter(item => {
-            // Se la proprietà esiste usa il testo, altrimenti usa una stringa vuota ""
+            if (!item) return false;
+            
             const ente = item.ente ? item.ente.toLowerCase() : "";
             const url = item.url ? item.url.toLowerCase() : "";
             const filename = item.filename ? item.filename.toLowerCase() : "";
-    
-            // Esegue il controllo di inclusione in modo sicuro
-            return ente.includes(query) || 
-                   url.includes(query) || 
-                   filename.includes(query);
+
+            return ente.includes(query) || url.includes(query) || filename.includes(query);
         });
         
         displayData(filtered);
     }
 
-    // Caricamento iniziale dei dati alla prima apertura della pagina
+    // Inizializzazione al caricamento della pagina
     window.onload = function() {
-        displayData(dataset);
+        loadWorkflowData();
     };
 </script>
-
 </body>
 </html>
