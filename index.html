@@ -291,16 +291,23 @@
         });
     }
 
-    // Funzione di filtro attivata alla digitazione (onkeyup)
+    // Funzione di filtro corretta e sicura contro i valori null/undefined
     function filterResults() {
+        // Sicurezza: se il dataset è vuoto o non è ancora stato caricato, esci
+        if (!dataset || dataset.length === 0) return;
+    
         const query = document.getElementById("searchInput").value.toLowerCase();
         
         const filtered = dataset.filter(item => {
-            return (
-                item.ente.toLowerCase().includes(query) ||
-                item.url.toLowerCase().includes(query) ||
-                item.filename.toLowerCase().includes(query)
-            );
+            // Se la proprietà esiste usa il testo, altrimenti usa una stringa vuota ""
+            const ente = item.ente ? item.ente.toLowerCase() : "";
+            const url = item.url ? item.url.toLowerCase() : "";
+            const filename = item.filename ? item.filename.toLowerCase() : "";
+    
+            // Esegue il controllo di inclusione in modo sicuro
+            return ente.includes(query) || 
+                   url.includes(query) || 
+                   filename.includes(query);
         });
         
         displayData(filtered);
