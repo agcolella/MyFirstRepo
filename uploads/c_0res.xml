@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" ID="_283bfb360c234276488e8b29e7ff894fd76588900647e33abbbc4d5c56959e0e" entityID="https://www.comune.cortebrugnatella.pc.it"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#_283bfb360c234276488e8b29e7ff894fd76588900647e33abbbc4d5c56959e0e">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>yDMFzfcjYfihesJKaeSGebJzWE2z+gefwxzduAJZW88=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+dPXiFCyh3uoBI+trCtUgR0n4HcQfzdXc1mhq58c8llMgDNUPhw5ojWYGjygAaXbbGU2NKgUKRRRt
+YJE7/dYmQLyzpoTVRLGwmdYmKDvKNqrw41oZxqi1LfwxWUKs87lVcZrtikFHFP1/fnMnNoS53ygV
+jRfu5ANgonqqt1xahgam+/v3MZWOLZ/CIrRYslnO/OyLq94kpdr8Fbc2BeF6TfLJOBSWlDDqcant
+D9wLl3d4omm4rIIB8jtNR7rpwy8h887+XVsyCCEE6Jl0phTnVihRC5WEWSXes84H8mwmNwUJEhRg
+jHoode20lvXhF16SSST4Su2nNMD+q4K+3eY1fg==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+uIEXtrkkPN2C8+98/+8mS8e6NjyZAR3lmnTPC4QRd96hrO3wl4lSyT3SEs5cCz758tcxpyKP9lnh
+jDOVqO9jmK/gvTk3pR/bwewRE95X7GPSRMi32aICwcVrLSMwOKON7i6tB9u98+H+IwQoEpN/RvDM
+ZeuYKSnOpFgg98qPYboKYDlZ0C3aWAe8dURKLXT/gagnaxiwzFBL8duKDXSQoqxDkQkgtr/3JWIH
+70AzES8DKVa8/0DtTH/B5SpcIL6OtRBarNtR5DWKjgZpogM0nadYYKlMBZvxgCU6mp5ICLmCjIQv
+n8AxlHI/hcAQdRrzZtBjZEITlAabIrCCE1SKQw==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIID6zCCAtOgAwIBAgIJAK8ndpp4BcN2MA0GCSqGSIb3DQEBCwUAMIGLMQswCQYDVQQGEwJJVDEO
+MAwGA1UECAwFSXRhbHkxGjAYBgNVBAcMEUNvcnRlIEJydWduYXRlbGxhMSQwIgYDVQQKDBtDb211
+bmUgZGkgQ29ydGUgQnJ1Z25hdGVsbGExKjAoBgNVBAMMIXd3dy5jb211bmUuY29ydGVicnVnbmF0
+ZWxsYS5wYy5pdDAeFw0yMjA0MjAxMTE4MjZaFw0zMjA0MTkxMTE4MjZaMIGLMQswCQYDVQQGEwJJ
+VDEOMAwGA1UECAwFSXRhbHkxGjAYBgNVBAcMEUNvcnRlIEJydWduYXRlbGxhMSQwIgYDVQQKDBtD
+b211bmUgZGkgQ29ydGUgQnJ1Z25hdGVsbGExKjAoBgNVBAMMIXd3dy5jb211bmUuY29ydGVicnVn
+bmF0ZWxsYS5wYy5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALiBF7a5JDzdgvPv
+fP/vJkvHujY8mQEd5Zp0zwuEEXfeoazt8JeJUsk90hLOXAs++fLXMacij/ZZ4YwzlajvY5iv4L05
+N6Uf28HsERPeV+xj0kTIt9miAsHFay0jMDijje4urQfbvfPh/iMEKBKTf0bwzGXrmCkpzqRYIPfK
+j2G6CmA5WdAt2lgHvHVESi10/4GoJ2sYsMxQS/Hbig10kKKsQ5EJILa/9yViB+9AMxEvAylWvP9A
+7Ux/weUqXCC+jrUQWqzbUeQ1io4GaaIDNJ2nWGCpTAWb8YAlOpqeSAi5goyEL5/AMZRyP4XAEHUa
+82bQY2RCE5QGmyKwghNUikMCAwEAAaNQME4wHQYDVR0OBBYEFHDINUd6XAse19oQZaxl+VCgO11o
+MB8GA1UdIwQYMBaAFHDINUd6XAse19oQZaxl+VCgO11oMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcN
+AQELBQADggEBAIMMAi1ysnAEEs0MqLoMNccFlXFY8BdALxmcx5NuVAWMFXjjA8oO0Uv2awmRWl9N
+/gJCsCQ8QzuBHpJmeTtj8c3bP913A+feKyeClosDzzpgG9jB+e5Qzq96rIXubc5XSSNB3PTGGRZO
+MfFmXEVK72us+Mk9SQ3t/8OLlCjCrLC7y0ZA/OplBlMslltEy2q7yzBkNZmiTsLK3WoQDXgjeWcJ
+BEGWrrC31BLq07+FObFrGYQQCRCrUdy1xVYJjc3kyli/6T6Oe+4/jvevAae4iO/xB/cOWmaen7I2
+V78NRQH6RdrPxl/eV1F0oFhdY1eaEyQiTz8s4t4QrAzFIleCKOs=
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIID6zCCAtOgAwIBAgIJAK8ndpp4BcN2MA0GCSqGSIb3DQEBCwUAMIGLMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxGjAYBgNVBAcMEUNvcnRlIEJydWduYXRlbGxhMSQwIgYDVQQKDBtDb211bmUgZGkgQ29ydGUgQnJ1Z25hdGVsbGExKjAoBgNVBAMMIXd3dy5jb211bmUuY29ydGVicnVnbmF0ZWxsYS5wYy5pdDAeFw0yMjA0MjAxMTE4MjZaFw0zMjA0MTkxMTE4MjZaMIGLMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxGjAYBgNVBAcMEUNvcnRlIEJydWduYXRlbGxhMSQwIgYDVQQKDBtDb211bmUgZGkgQ29ydGUgQnJ1Z25hdGVsbGExKjAoBgNVBAMMIXd3dy5jb211bmUuY29ydGVicnVnbmF0ZWxsYS5wYy5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALiBF7a5JDzdgvPvfP/vJkvHujY8mQEd5Zp0zwuEEXfeoazt8JeJUsk90hLOXAs++fLXMacij/ZZ4YwzlajvY5iv4L05N6Uf28HsERPeV+xj0kTIt9miAsHFay0jMDijje4urQfbvfPh/iMEKBKTf0bwzGXrmCkpzqRYIPfKj2G6CmA5WdAt2lgHvHVESi10/4GoJ2sYsMxQS/Hbig10kKKsQ5EJILa/9yViB+9AMxEvAylWvP9A7Ux/weUqXCC+jrUQWqzbUeQ1io4GaaIDNJ2nWGCpTAWb8YAlOpqeSAi5goyEL5/AMZRyP4XAEHUa82bQY2RCE5QGmyKwghNUikMCAwEAAaNQME4wHQYDVR0OBBYEFHDINUd6XAse19oQZaxl+VCgO11oMB8GA1UdIwQYMBaAFHDINUd6XAse19oQZaxl+VCgO11oMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAIMMAi1ysnAEEs0MqLoMNccFlXFY8BdALxmcx5NuVAWMFXjjA8oO0Uv2awmRWl9N/gJCsCQ8QzuBHpJmeTtj8c3bP913A+feKyeClosDzzpgG9jB+e5Qzq96rIXubc5XSSNB3PTGGRZOMfFmXEVK72us+Mk9SQ3t/8OLlCjCrLC7y0ZA/OplBlMslltEy2q7yzBkNZmiTsLK3WoQDXgjeWcJBEGWrrC31BLq07+FObFrGYQQCRCrUdy1xVYJjc3kyli/6T6Oe+4/jvevAae4iO/xB/cOWmaen7I2V78NRQH6RdrPxl/eV1F0oFhdY1eaEyQiTz8s4t4QrAzFIleCKOs=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIID6zCCAtOgAwIBAgIJAK8ndpp4BcN2MA0GCSqGSIb3DQEBCwUAMIGLMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxGjAYBgNVBAcMEUNvcnRlIEJydWduYXRlbGxhMSQwIgYDVQQKDBtDb211bmUgZGkgQ29ydGUgQnJ1Z25hdGVsbGExKjAoBgNVBAMMIXd3dy5jb211bmUuY29ydGVicnVnbmF0ZWxsYS5wYy5pdDAeFw0yMjA0MjAxMTE4MjZaFw0zMjA0MTkxMTE4MjZaMIGLMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxGjAYBgNVBAcMEUNvcnRlIEJydWduYXRlbGxhMSQwIgYDVQQKDBtDb211bmUgZGkgQ29ydGUgQnJ1Z25hdGVsbGExKjAoBgNVBAMMIXd3dy5jb211bmUuY29ydGVicnVnbmF0ZWxsYS5wYy5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALiBF7a5JDzdgvPvfP/vJkvHujY8mQEd5Zp0zwuEEXfeoazt8JeJUsk90hLOXAs++fLXMacij/ZZ4YwzlajvY5iv4L05N6Uf28HsERPeV+xj0kTIt9miAsHFay0jMDijje4urQfbvfPh/iMEKBKTf0bwzGXrmCkpzqRYIPfKj2G6CmA5WdAt2lgHvHVESi10/4GoJ2sYsMxQS/Hbig10kKKsQ5EJILa/9yViB+9AMxEvAylWvP9A7Ux/weUqXCC+jrUQWqzbUeQ1io4GaaIDNJ2nWGCpTAWb8YAlOpqeSAi5goyEL5/AMZRyP4XAEHUa82bQY2RCE5QGmyKwghNUikMCAwEAAaNQME4wHQYDVR0OBBYEFHDINUd6XAse19oQZaxl+VCgO11oMB8GA1UdIwQYMBaAFHDINUd6XAse19oQZaxl+VCgO11oMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAIMMAi1ysnAEEs0MqLoMNccFlXFY8BdALxmcx5NuVAWMFXjjA8oO0Uv2awmRWl9N/gJCsCQ8QzuBHpJmeTtj8c3bP913A+feKyeClosDzzpgG9jB+e5Qzq96rIXubc5XSSNB3PTGGRZOMfFmXEVK72us+Mk9SQ3t/8OLlCjCrLC7y0ZA/OplBlMslltEy2q7yzBkNZmiTsLK3WoQDXgjeWcJBEGWrrC31BLq07+FObFrGYQQCRCrUdy1xVYJjc3kyli/6T6Oe+4/jvevAae4iO/xB/cOWmaen7I2V78NRQH6RdrPxl/eV1F0oFhdY1eaEyQiTz8s4t4QrAzFIleCKOs=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://www.comune.cortebrugnatella.pc.it/spid/module.php/saml/sp/saml2-logout.php/spid"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.comune.cortebrugnatella.pc.it/spid/module.php/saml/sp/saml2-acs.php/spid" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://www.comune.cortebrugnatella.pc.it/spid/module.php/saml/sp/saml2-acs.php/spid" index="1"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">Servizi online</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Servizi online</md:ServiceDescription>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Codice identificativo SPID" Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Ragione o denominazione sociale" Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Corte Brugnatella</md:OrganizationName>
+    <md:OrganizationName xml:lang="en">Comune di Corte Brugnatella</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Corte Brugnatella</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Corte Brugnatella</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.comune.cortebrugnatella.pc.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="en">https://www.comune.cortebrugnatella.pc.it</md:OrganizationURL>
+  </md:Organization>
+  <md:ContactPerson contactType="other">
+    <md:Extensions>
+      <spid:IPACode>c_0res</spid:IPACode>
+      <spid:Public/>
+    </md:Extensions>
+    <md:Company>Comune di Corte Brugnatella</md:Company>
+    <md:EmailAddress>comune@comune.cortebrugnatella.pc.it</md:EmailAddress>
+  </md:ContactPerson>
+</md:EntityDescriptor>
