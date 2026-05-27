@@ -2,13 +2,15 @@ name: Aggiornamento Automatico Dati Registro
 
 on:
   schedule:
-    # Esegue il controllo automatico ogni notte alle 02:00 UTC
     - cron: '0 2 * * *'
   workflow_dispatch:
-    # Permette di avviare il workflow manualmente dall'interfaccia GitHub
 
 permissions:
-  contents: write # Permesso esplicito fondamentale per effettuare il git push del JSON
+  contents: write
+
+# Imposta la variabile d'ambiente a livello globale per il workflow
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: "true"
 
 jobs:
   build-and-update:
@@ -16,21 +18,20 @@ jobs:
 
     steps:
       - name: Checkout del codice
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5 # Aggiornato a v5
 
       - name: Configurazione ambiente Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v5 # Aggiornato a v5
         with:
-          node-version: '20'
-          cache: 'npm' # Ottimizza i tempi riutilizzando la cache delle dipendenze
+          node-version: '24' # Aggiornato a Node.js 24
+          cache: 'npm'
 
       - name: Installazione Dipendenze
-        run: npm ci
+        run: npm install # Usiamo install per generare/aggiornare in sicurezza se manca il lock
 
       - name: Esecuzione script di backend
         run: npm start
         env:
-          # Se lo script interroga le API di GitHub per leggere le PR, ha bisogno del token
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Commit e Push del file data.json aggiornato
@@ -38,14 +39,11 @@ jobs:
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           
-          # Riga di DEBUG per trovare dove è finito il file nel container:
-          echo "=== Localizzazione file data.json ==="
-          find . -name "data.json"
-          echo "====================================="
+          # Forza l'aggiunta anche se fosse presente nel .gitignore (risolve il problema del file mancante)
+          git add -f data.json
           
-          if [ -f "data.json" ] && ! git diff --exit-code data.json; then
+          if [ -f "data.json" ] && [ -n "$(git status --porcelain data.json)" ]; then
             echo "Rilevate modifiche in data.json. Eseguo il commit..."
-            git add data.json
             git commit -m "Automated: Aggiornato data.json con lo stato corrente delle PR [skip ci]"
             git push
           else
