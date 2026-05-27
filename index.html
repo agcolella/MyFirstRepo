@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Registro Metadati - Ricerca Enti e PR</title>
+    <title>Registro Metadati - Dashboard PR</title>
     <style>
         :root {
             --primary-color: #0056b3;
@@ -16,12 +16,11 @@
         }
 
         body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
             background-color: var(--bg-color);
             color: var(--text-color);
-            line-height: 1.6;
-            margin: 0;
             padding: 20px;
+            margin: 0;
         }
 
         .container {
@@ -51,13 +50,6 @@
             border: 1px solid var(--border-color);
             border-radius: 4px;
             box-sizing: border-box;
-            transition: border-color 0.15s ease-in-out;
-        }
-
-        .search-box input:focus {
-            border-color: var(--primary-color);
-            outline: 0;
-            box-shadow: 0 0 0 0.2rem rgba(0,86,179,0.25);
         }
 
         table {
@@ -87,11 +79,6 @@
             word-break: break-all;
         }
 
-        .url-link:hover {
-            text-decoration: underline;
-        }
-
-        /* Stili specifici per i link e badge delle Pull Request */
         .pr-container a {
             display: inline-flex;
             align-items: center;
@@ -101,21 +88,15 @@
             color: #495057;
             padding: 4px 8px;
             border-radius: 4px;
-            transition: background-color 0.2s;
-        }
-
-        .pr-container a:hover {
-            background-color: #e9ecef;
-            color: #000;
         }
 
         .badge {
             font-size: 0.75rem;
             padding: 3px 8px;
             border-radius: 20px;
+            color: #fff;
             font-weight: bold;
             text-transform: uppercase;
-            color: #fff;
         }
 
         .badge-open { background-color: var(--open-color); }
@@ -135,12 +116,10 @@
 <div class="container">
     <h1>Registro Metadati Spid/CIE - Dashboard Controllo</h1>
     
-    <!-- Barra di Ricerca globale -->
     <div class="search-box">
-        <input type="text" id="searchInput" placeholder="Cerca per ente, URL metadati o nome file..." onkeyup="filterResults()">
+        <input type="text" id="searchInput" placeholder="Cerca per ente, URL o nome file..." onkeyup="filterResults()">
     </div>
 
-    <!-- Tabella dei risultati -->
     <table>
         <thead>
             <tr>
@@ -151,24 +130,20 @@
             </tr>
         </thead>
         <tbody id="resultsTableBody">
-            <!-- I dati verranno inseriti qui dinamicamente via JavaScript -->
-        </tbody>
+            </tbody>
     </table>
 </div>
 
 <script>
-    // Base URL del repository per le Pull Request
     const REPO_PR_BASE_URL = "https://github.com/agcolella/MyFirstRepo/pull/";
-    
-    // Questa variabile conterrà i dati caricati dinamicamente dal workflow
     let dataset = [];
 
-    // Funzione per caricare i dati dal file JSON generato dal workflow
+    // Funzione per recuperare i dati generati dai workflow
     async function loadWorkflowData() {
         const tbody = document.getElementById("resultsTableBody");
         if (!tbody) return;
         
-        tbody.innerHTML = `<tr><td colspan="4" class="no-results">Caricamento dati dal workflow in corso...</td></tr>`;
+        tbody.innerHTML = `<tr><td colspan="4" class="no-results">Caricamento dati in corso...</td></tr>`;
 
         try {
             const response = await fetch(`data.json?_=${new Date().getTime()}`);
@@ -178,18 +153,17 @@
             displayData(dataset);
             
         } catch (error) {
-            console.error("Errore nel caricamento dati:", error);
+            console.error("Errore di caricamento:", error);
             tbody.innerHTML = `
                 <tr>
-                    <td colspan="4" class="no-results" style="color: var(--closed-color, #dc3545);">
-                        <strong>Errore di sincronizzazione:</strong> Impossibile caricare i dati del workflow.<br>
-                        Verifica che il file <code>data.json</code> sia presente e valido.
+                    <td colspan="4" class="no-results" style="color: var(--closed-color);">
+                        <strong>Errore di sincronizzazione:</strong> Impossibile caricare i dati del workflow.
                     </td>
                 </tr>`;
         }
     }
 
-    // Funzione per renderizzare la tabella nel DOM (CORRETTA)
+    // Renderizza la tabella racchiudendo i dati correttamente nei tag <td>
     function displayData(data) {
         const tbody = document.getElementById("resultsTableBody");
         if (!tbody) return;
@@ -202,17 +176,14 @@
         }
 
         data.forEach(item => {
-            // Controllo di sicurezza: se il record è corrotto o nullo salta alla riga successiva
             if (!item) return;
 
             const tr = document.createElement("tr");
 
-            // Sanificazione preventiva dei campi per evitare crash nel rendering HTML
             const enteVisivo = item.ente ? item.ente : "Ente non specificato";
             const urlVisivo = item.url ? `<a class="url-link" href="${item.url}" target="_blank">${item.url}</a>` : "Nessun URL";
             const fileVisivo = item.filename ? `<code>${item.filename}</code>` : "---";
 
-            // Configurazione della cella della Pull Request
             let prCellContent = `<span style="color: #6c757d; font-style: italic;">Nessuna PR</span>`;
             if (item.pr_number) {
                 let badgeClass = "badge-open";
@@ -224,7 +195,7 @@
 
                 prCellContent = `
                     <div class="pr-container">
-                        <a href="${REPO_PR_BASE_URL}${item.pr_number}" target="_blank" title="Apri Pull Request #${item.pr_number} su GitHub">
+                        <a href="${REPO_PR_BASE_URL}${item.pr_number}" target="_blank">
                             <span><strong>#${item.pr_number}</strong> ${dataTesto}</span>
                             <span class="badge ${badgeClass}">${statoTesto}</span>
                         </a>
@@ -232,7 +203,6 @@
                 `;
             }
 
-            // CORREZIONE CRUCIALI: I dati devono essere tassativamente racchiusi nei tag <td>
             tr.innerHTML = `
                 <td><strong>${enteVisivo}</strong></td>
                 <td>${urlVisivo}</td>
@@ -243,7 +213,7 @@
         });
     }
 
-    // Funzione di filtro corretta e sicura contro i valori null/undefined
+    // Filtro di ricerca sicuro
     function filterResults() {
         if (!dataset || dataset.length === 0) return;
 
@@ -262,10 +232,10 @@
         displayData(filtered);
     }
 
-    // Inizializzazione al caricamento della pagina
     window.onload = function() {
         loadWorkflowData();
     };
 </script>
+
 </body>
 </html>
