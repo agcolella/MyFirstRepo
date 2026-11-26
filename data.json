@@ -1,8 +1,8 @@
 [
   {
     "ente": "Ente Revisionato",
-    "url": "https://github.com/agcolella/MyFirstRepo/pull/144",
-    "filename": "revisione-xml-20260526-1331.xml",
+    "url": "https://github.com/agcolella/MyFirstRepo/raw/718b87b71dd39ff4dac58ff6f61ff4275c6ea3de/registro_files%2Fc_f158.xml",
+    "filename": "c_f158.xml",
     "pr_number": "144",
     "pr_date": "2026-05-26",
     "pr_status": "merged"
@@ -81,8 +81,8 @@
   },
   {
     "ente": "Ente Revisionato",
-    "url": "https://github.com/agcolella/MyFirstRepo/pull/134",
-    "filename": "revisione-xml-20260518-0805.xml",
+    "url": "https://github.com/agcolella/MyFirstRepo/raw/84e20e28db79399b538395478a57b59204d5f592/uploads%2Fopdm_055__12858901007.xml",
+    "filename": "opdm_055__12858901007.xml",
     "pr_number": "134",
     "pr_date": "2026-05-18",
     "pr_status": "merged"
@@ -105,8 +105,8 @@
   },
   {
     "ente": "Ente Revisionato",
-    "url": "https://github.com/agcolella/MyFirstRepo/pull/131",
-    "filename": "revisione-xml-20260515-1045.xml",
+    "url": "https://github.com/agcolella/MyFirstRepo/raw/1441eed9ed793a53c5880792ced75f9035b93168/registro_files%2FC_A068.xml",
+    "filename": "C_A068.xml",
     "pr_number": "131",
     "pr_date": "2026-05-15",
     "pr_status": "merged"
